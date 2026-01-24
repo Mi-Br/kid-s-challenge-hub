@@ -143,12 +143,12 @@ const Dashboard = () => {
               onClick={() => handleChallengeClick("Math Masters")}
             />
             <ChallengeCard
-              title="Word Games"
-              description="Fun puzzles and spelling challenges"
+              title="Spelling Booster"
+              description="Pick the right translation!"
               icon={Gamepad2}
               color="yellow"
               progress={20}
-              onClick={() => handleChallengeClick("Word Games")}
+              onClick={() => navigate("/spelling-booster")}
             />
             <ChallengeCard
               title="Reading Time 📚"
