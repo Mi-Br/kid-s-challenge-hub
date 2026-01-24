@@ -156,7 +156,7 @@ const Dashboard = () => {
               icon={BookOpen}
               color="pink"
               progress={0}
-              onClick={() => handleChallengeClick("Reading Time")}
+              onClick={() => navigate("/reading-challenge")}
             />
             <ChallengeCard
               title="Science Explorer"
