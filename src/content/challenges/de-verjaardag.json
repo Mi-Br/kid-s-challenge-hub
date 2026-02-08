@@ -1,0 +1,33 @@
+{
+  "id": "de-verjaardag",
+  "title": "De Verjaardag",
+  "level": 2,
+  "text": "Vandaag is mijn verjaardag. Ik word acht jaar! Ik word wakker en zing: 'Ik ben jarig, hoera!' Mijn kamer is versierd met slingers en ballonnen.\n\nEr is een grote taart met chocolade. Er staan acht kaarsjes op. Ik blaas ze allemaal uit in één keer. Iedereen klapt en zingt 'Lang zal ze leven!'\n\nMijn vrienden komen spelen. We doen spelletjes in de tuin. We doen stoelendans en zakdoekje leggen. De winnaar krijgt een klein cadeautje.\n\nIk krijg vijf cadeaus. Van opa en oma krijg ik een boek. Van mama en papa krijg ik een nieuwe fiets. Ik ben zo blij! Dit is de beste verjaardag ooit.",
+  "questions": [
+    {
+      "question": "Hoe oud wordt het kind?",
+      "acceptableAnswers": ["8", "acht"],
+      "hint": "Kijk naar de tweede zin"
+    },
+    {
+      "question": "Wat is er te eten?",
+      "acceptableAnswers": ["taart", "een grote taart", "chocoladetaart"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Hoeveel cadeaus krijgt hij/zij?",
+      "acceptableAnswers": ["5", "vijf"],
+      "hint": "Kijk in het laatste stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/de-verjaardag/image-1.png",
+      "alt": "Een verjaardagstaart"
+    },
+    {
+      "src": "/images/challenges/de-verjaardag/image-2.png",
+      "alt": "Cadeaus"
+    }
+  ]
+}

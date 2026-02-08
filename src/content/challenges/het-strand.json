@@ -1,0 +1,33 @@
+{
+  "id": "het-strand",
+  "title": "Het Strand",
+  "level": 2,
+  "text": "We gaan naar het strand. Mama pakt de tassen in met handdoeken, zonnebrand en speelgoed. De rit duurt een half uur. We zingen liedjes in de auto.\n\nDe zee is blauw en het zand is warm. Ik bouw een groot zandkasteel met een gracht eromheen. Papa helpt met de torens. We versieren het kasteel met schelpen.\n\nMijn zus zoekt schelpen langs het water. Ze vindt een hele mooie grote schelp. Ze houdt hem tegen haar oor en luistert naar de zee. Ze heeft al een hele verzameling thuis.\n\nWe eten een ijsje bij het strandhuis. Ik neem chocolade, mijn zus neemt aardbei. Het ijsje smelt snel in de zon. We likken het snel op voordat het op onze handen druipt.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de zee?",
+      "acceptableAnswers": ["blauw"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Wat zoekt de zus?",
+      "acceptableAnswers": ["schelpen"],
+      "hint": "Kijk in het derde stukje"
+    },
+    {
+      "question": "Wat eten ze?",
+      "acceptableAnswers": ["een ijsje", "ijsje"],
+      "hint": "Kijk in het laatste stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/het-strand/image-1.png",
+      "alt": "Het strand"
+    },
+    {
+      "src": "/images/challenges/het-strand/image-2.png",
+      "alt": "Een zandkasteel"
+    }
+  ]
+}

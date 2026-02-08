@@ -1,0 +1,37 @@
+{
+  "id": "de-dierentuin",
+  "title": "De Dierentuin",
+  "level": 2,
+  "text": "Wij gaan naar de dierentuin. Het is zaterdag en de zon schijnt. Papa koopt de kaartjes bij de ingang. We krijgen een plattegrond van de dierentuin.\n\nWe zien leeuwen en olifanten. De leeuw brult heel hard. De olifant spuit water met zijn slurf. De aap eet een banaan en kijkt ons grappig aan.\n\nDe pinguïns zwemmen in het water. Ze duiken en vangen visjes. Een pinguïn staat op een rots en fladdert met zijn vleugels. De kinderen lachen hard.\n\nBij de uitgang kopen we een knuffel. Ik kies een kleine pinguïn. Het is heel leuk in de dierentuin! We willen snel weer terug.",
+  "questions": [
+    {
+      "question": "Waar gaan ze naartoe?",
+      "acceptableAnswers": ["de dierentuin", "dierentuin", "naar de dierentuin"],
+      "hint": "Kijk naar de eerste zin"
+    },
+    {
+      "question": "Wat eet de aap?",
+      "acceptableAnswers": ["een banaan", "banaan"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Wat doen de pinguïns?",
+      "acceptableAnswers": ["zwemmen", "ze zwemmen", "zwemmen in het water"],
+      "hint": "Kijk in het derde stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/de-dierentuin/image-1.png",
+      "alt": "Een leeuw"
+    },
+    {
+      "src": "/images/challenges/de-dierentuin/image-2.png",
+      "alt": "Pinguïns"
+    },
+    {
+      "src": "/images/challenges/de-dierentuin/image-3.png",
+      "alt": "Een aap"
+    }
+  ]
+}

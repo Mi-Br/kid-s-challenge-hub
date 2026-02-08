@@ -1,0 +1,33 @@
+{
+  "id": "het-huis",
+  "title": "Het Huis",
+  "level": 2,
+  "text": "Ons huis is groot en wit. Het staat aan een rustige straat met veel bomen. Er is een mooie tuin met bloemen. Bij de voordeur staat een rode brievenbus.\n\nHet huis heeft vier kamers. De keuken is beneden, naast de woonkamer. In de woonkamer staat een grote bank en een televisie. Daar kijken we samen films.\n\nMijn kamer is boven. Ik heb een blauw bed en een bureau. Aan de muur hangen posters van dieren. Mijn boeken staan op een plank boven het bureau.\n\nIk vind mijn kamer het fijnste plekje in huis. Hier lees ik, teken ik en speel ik met mijn speelgoed. Soms mag mijn vriendje komen logeren. Dan slaapt hij op een matras naast mijn bed.",
+  "questions": [
+    {
+      "question": "Hoeveel kamers heeft het huis?",
+      "acceptableAnswers": ["4", "vier"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Waar is de keuken?",
+      "acceptableAnswers": ["beneden"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Welke kleur heeft het bed?",
+      "acceptableAnswers": ["blauw"],
+      "hint": "Kijk in het derde stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/het-huis/image-1.png",
+      "alt": "Een huis"
+    },
+    {
+      "src": "/images/challenges/het-huis/image-2.png",
+      "alt": "Een slaapkamer"
+    }
+  ]
+}

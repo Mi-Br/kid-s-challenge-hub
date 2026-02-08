@@ -1,0 +1,33 @@
+{
+  "id": "het-eten",
+  "title": "Het Eten",
+  "level": 2,
+  "text": "Papa kookt vanavond. Hij draagt een grappig schort met sterren. De keuken ruikt heerlijk. De hele familie heeft honger.\n\nHij maakt soep en brood. De soep is tomatensoep met balletjes. Het brood is warm en vers uit de oven. Mama snijdt de groenten voor de salade.\n\nWe dekken samen de tafel. Iedereen krijgt een bord, een lepel en een glas. De kleine broertje morst altijd een beetje, maar dat is niet erg.\n\nHet eten is lekker! Iedereen zegt: 'Dank je wel, papa!' Na het eten ruimen we samen op. Papa doet de afwas en wij drogen af.",
+  "questions": [
+    {
+      "question": "Wie kookt vanavond?",
+      "acceptableAnswers": ["papa"],
+      "hint": "Kijk naar de eerste zin"
+    },
+    {
+      "question": "Wat voor soep is het?",
+      "acceptableAnswers": ["tomatensoep"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Wat snijdt mama?",
+      "acceptableAnswers": ["groenten", "de groenten"],
+      "hint": "Kijk in het tweede stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/het-eten/image-1.png",
+      "alt": "Tomatensoep"
+    },
+    {
+      "src": "/images/challenges/het-eten/image-2.png",
+      "alt": "Brood"
+    }
+  ]
+}

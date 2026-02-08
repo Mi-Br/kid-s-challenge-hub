@@ -1,0 +1,33 @@
+{
+  "id": "de-kat",
+  "title": "De Kat",
+  "level": 1,
+  "text": "De kat zit op de mat. De kat is zwart en wit. De kat heet Milo. Hij heeft grote groene ogen en een lange staart.\n\nMilo houdt van melk. Elke ochtend drinkt hij een bakje melk in de keuken. Daarna wast hij zijn gezicht met zijn pootje.\n\nMilo speelt graag met een bal. Hij rent door de kamer en springt op de bank. Soms slaapt hij de hele middag in de zon.\n\nAls het avond is, komt Milo bij ons op de bank zitten. Hij spint heel hard. Wij aaien hem zachtjes. Milo is een lieve kat.",
+  "questions": [
+    {
+      "question": "Hoe heet de kat?",
+      "acceptableAnswers": ["milo"],
+      "hint": "Kijk naar de derde zin"
+    },
+    {
+      "question": "Welke kleur heeft de kat?",
+      "acceptableAnswers": ["zwart en wit"],
+      "hint": "Kijk naar de tweede zin"
+    },
+    {
+      "question": "Wat drinkt Milo graag?",
+      "acceptableAnswers": ["melk"],
+      "hint": "Kijk in het tweede stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/de-kat/image-1.png",
+      "alt": "Een zwart-witte kat"
+    },
+    {
+      "src": "/images/challenges/de-kat/image-2.png",
+      "alt": "Een kat die speelt"
+    }
+  ]
+}

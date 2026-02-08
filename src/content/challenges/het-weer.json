@@ -1,0 +1,33 @@
+{
+  "id": "het-weer",
+  "title": "Het Weer",
+  "level": 1,
+  "text": "Vandaag schijnt de zon. Het is warm buiten. De lucht is helemaal blauw. Er is geen wolkje te zien. Het is een perfecte zomerdag.\n\nDe kinderen spelen in de tuin. Ze rennen door het gras en lachen hard. De buurkinderen komen ook spelen. Samen bouwen ze een hut van takken.\n\nZe drinken limonade en eten watermeloen. Het sap loopt over hun handen. Mama brengt handdoeken naar buiten.\n\nAls de zon ondergaat, wordt het koeler. De kinderen gaan naar binnen. Ze zijn moe maar gelukkig. Het was een mooie dag.",
+  "questions": [
+    {
+      "question": "Hoe is het weer vandaag?",
+      "acceptableAnswers": ["warm", "zonnig", "de zon schijnt", "warm en zonnig"],
+      "hint": "Kijk naar de eerste twee zinnen"
+    },
+    {
+      "question": "Waar spelen de kinderen?",
+      "acceptableAnswers": ["in de tuin", "de tuin", "tuin"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Wat drinken ze?",
+      "acceptableAnswers": ["limonade"],
+      "hint": "Kijk in het derde stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/het-weer/image-1.png",
+      "alt": "Een zonnige dag"
+    },
+    {
+      "src": "/images/challenges/het-weer/image-2.png",
+      "alt": "Kinderen die buiten spelen"
+    }
+  ]
+}

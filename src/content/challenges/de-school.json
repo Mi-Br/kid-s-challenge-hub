@@ -1,0 +1,33 @@
+{
+  "id": "de-school",
+  "title": "De School",
+  "level": 2,
+  "text": "Lisa gaat naar school. Ze heeft een rode tas met een beer erop. In de tas zitten boeken, een etui en haar broodtrommel. Ze fietst elke dag naar school.\n\nIn de klas leest ze een boek over dieren. De juf heet mevrouw De Vries. Ze is heel aardig en helpt alle kinderen. Ze heeft lang blond haar.\n\nLisa vindt rekenen leuk. Ze kan al optellen en aftrekken. Haar vriendin Emma vindt tekenen leuker. Samen zitten ze naast elkaar.\n\nNa school speelt Lisa op het schoolplein. Ze klimt op het klimrek en gaat van de glijbaan. Om drie uur haalt papa haar op. Dan vertelt ze alles over haar dag.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Lisa's tas?",
+      "acceptableAnswers": ["rood", "rode"],
+      "hint": "Kijk naar de tweede zin"
+    },
+    {
+      "question": "Hoe heet de juf?",
+      "acceptableAnswers": ["mevrouw de vries", "de vries"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Welk vak vindt Lisa leuk?",
+      "acceptableAnswers": ["rekenen"],
+      "hint": "Kijk in het derde stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/de-school/image-1.png",
+      "alt": "Een school"
+    },
+    {
+      "src": "/images/challenges/de-school/image-2.png",
+      "alt": "Een kind dat leest"
+    }
+  ]
+}

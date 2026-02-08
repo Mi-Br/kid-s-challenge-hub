@@ -1,0 +1,37 @@
+{
+  "id": "het-bos",
+  "title": "Het Bos",
+  "level": 3,
+  "text": "We wandelen in het bos. De bomen zijn hoog en hun bladeren zijn groen en geel. Het ruikt naar natte aarde en dennennaalden. De zon schijnt door de takken.\n\nWe zien een konijn achter een struik. Het konijn heeft lange oren en een wit staartje. Het hopt snel weg als het ons hoort. We proberen heel stil te zijn.\n\nEr zijn veel paddenstoelen op de grond. Sommige zijn rood met witte stippen. Papa zegt dat we ze niet mogen aanraken. We maken er foto's van met mama's telefoon.\n\nDe vogels zingen mooi in de bomen. We horen ook een specht die op een boom klopt. Bij de beek zien we een kikker op een steen. Het bos is vol avontuur!",
+  "questions": [
+    {
+      "question": "Waar wandelen ze?",
+      "acceptableAnswers": ["in het bos", "het bos", "bos"],
+      "hint": "Kijk naar de eerste zin"
+    },
+    {
+      "question": "Welk dier zien ze?",
+      "acceptableAnswers": ["een konijn", "konijn"],
+      "hint": "Kijk in het tweede stukje"
+    },
+    {
+      "question": "Wat doen de vogels?",
+      "acceptableAnswers": ["zingen", "ze zingen", "mooi zingen"],
+      "hint": "Kijk in het laatste stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/het-bos/image-1.png",
+      "alt": "Een bos"
+    },
+    {
+      "src": "/images/challenges/het-bos/image-2.png",
+      "alt": "Een konijn"
+    },
+    {
+      "src": "/images/challenges/het-bos/image-3.png",
+      "alt": "Paddenstoelen"
+    }
+  ]
+}
