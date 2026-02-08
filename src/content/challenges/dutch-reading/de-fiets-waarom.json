@@ -1,0 +1,42 @@
+{
+  "id": "de-fiets-waarom",
+  "title": "De Fiets (met Waarom vragen)",
+  "level": 2,
+  "text": "Tom heeft een nieuwe fiets gekregen. De fiets is rood met witte strepen. Hij is heel blij!\n\nGisteren ging Tom fietsen naar de winkel. Hij reed te snel en viel van zijn fiets. Zijn knie deed pijn.\n\nMama kwam en deed een pleister op de knie. Tom mag de fiets nog houden, maar hij moet voorzichtig zijn.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de fiets?",
+      "acceptableAnswers": ["rood", "rood met witte strepen"],
+      "hint": "Kijk naar de tweede zin"
+    },
+    {
+      "question": "Waarom viel Tom?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          ["snel", "hard", "te snel"],
+          ["fietsen", "fiets", "rijden", "reed"]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Tom reed"
+    },
+    {
+      "question": "Wat deed mama?",
+      "acceptableAnswers": ["een pleister", "pleister", "pleister op de knie"],
+      "hint": "Kijk in het laatste stukje"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-fiets-waarom/image-1.png",
+      "alt": "Tom met rode fiets"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-fiets-waarom/image-2.png",
+      "alt": "Tom valt van fiets"
+    }
+  ]
+}

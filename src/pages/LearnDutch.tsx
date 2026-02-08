@@ -9,6 +9,8 @@ import { cn } from "@/lib/utils";
 import { allChallenges } from "@/lib/challenges";
 import type { DutchChallenge } from "@/types/challenges";
 import { pickSessionChallenges, markCompleted } from "@/lib/challenge-session";
+import { validateAnswer } from "@/lib/answer-validation";
+import type { ValidationResult } from "@/types/validation";
 
 const DUTCH_SESSION_KEY = "challenge-dutch";
 
@@ -26,6 +28,7 @@ const LearnDutch = () => {
   const [totalAnswered, setTotalAnswered] = useState(0);
   const [totalCorrect, setTotalCorrect] = useState(0);
   const [gameOver, setGameOver] = useState(false);
+  const [validationResult, setValidationResult] = useState<ValidationResult | null>(null);
 
   useEffect(() => {
     setChallenges(pickSessionChallenges(allChallenges, DUTCH_SESSION_KEY, 3));
@@ -43,13 +46,13 @@ const LearnDutch = () => {
 
   const handleSubmit = useCallback(() => {
     if (!currentQuestion || answerState !== "idle") return;
-    const normalized = answer.trim().toLowerCase();
-    const isCorrect = currentQuestion.acceptableAnswers.some(
-      (a) => a.toLowerCase() === normalized
-    );
-    setAnswerState(isCorrect ? "correct" : "incorrect");
+
+    const result = validateAnswer(answer, currentQuestion);
+    setValidationResult(result);
+    setAnswerState(result.isCorrect ? "correct" : "incorrect");
     setTotalAnswered((p) => p + 1);
-    if (isCorrect) {
+
+    if (result.isCorrect) {
       setScore((p) => p + 25);
       setTotalCorrect((p) => p + 1);
     }
@@ -59,6 +62,7 @@ const LearnDutch = () => {
     setAnswer("");
     setAnswerState("idle");
     setShowHint(false);
+    setValidationResult(null);
 
     if (questionIndex < (currentChallenge?.questions.length ?? 0) - 1) {
       setQuestionIndex((p) => p + 1);
@@ -220,7 +224,11 @@ const LearnDutch = () => {
               <Input
                 value={answer}
                 onChange={(e) => setAnswer(e.target.value)}
-                placeholder="Type your answer..."
+                placeholder={
+                  currentQuestion?.answerType === "explanation"
+                    ? "Explain in Dutch..."
+                    : "Type your answer..."
+                }
                 disabled={answerState !== "idle"}
                 onKeyDown={(e) => e.key === "Enter" && (answerState === "idle" ? handleSubmit() : handleNext())}
                 className={cn(
@@ -248,15 +256,38 @@ const LearnDutch = () => {
                 <span className="font-semibold">Correct! +25 points</span>
               </div>
             )}
-            {answerState === "incorrect" && (
+            {answerState === "incorrect" && validationResult && (
               <div className="space-y-1">
                 <div className="flex items-center gap-2 text-destructive">
                   <XCircle className="w-5 h-5" />
                   <span className="font-semibold">Not quite!</span>
                 </div>
-                <p className="text-sm text-muted-foreground">
-                  Accepted answers: {currentQuestion?.acceptableAnswers.join(", ")}
-                </p>
+
+                {/* Literal mode: show accepted answers */}
+                {validationResult.feedback?.mode === "literal" && (
+                  <p className="text-sm text-muted-foreground">
+                    Accepted answers: {validationResult.feedback.acceptableAnswers?.join(", ")}
+                  </p>
+                )}
+
+                {/* Keywords mode: show helpful guidance */}
+                {validationResult.feedback?.mode === "keywords" && (
+                  <div className="text-sm text-muted-foreground space-y-1">
+                    {validationResult.feedback.wordCount !== undefined &&
+                      validationResult.feedback.wordCount < 3 && (
+                        <p>Your answer is too short. Try to explain more!</p>
+                      )}
+                    {validationResult.feedback.missingKeywordGroups &&
+                      validationResult.feedback.missingKeywordGroups.length > 0 && (
+                        <p>
+                          Hint: Try to mention these ideas in your answer:{" "}
+                          {validationResult.feedback.missingKeywordGroups
+                            .map((group) => group.join(" or "))
+                            .join(", ")}
+                        </p>
+                      )}
+                  </div>
+                )}
               </div>
             )}
           </CardContent>
