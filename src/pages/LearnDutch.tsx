@@ -6,11 +6,10 @@ import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import {
-  DutchChallenge,
-  pickSessionChallenges,
-  markChallengeCompleted,
-} from "@/data/dutch-challenges";
+import dutchChallenges, { DutchChallenge } from "@/data/dutch-challenges";
+import { pickSessionChallenges, markCompleted } from "@/lib/challenge-session";
+
+const DUTCH_SESSION_KEY = "challenge-dutch";
 
 type AnswerState = "idle" | "correct" | "incorrect";
 
@@ -28,7 +27,7 @@ const LearnDutch = () => {
   const [gameOver, setGameOver] = useState(false);
 
   useEffect(() => {
-    setChallenges(pickSessionChallenges(3));
+    setChallenges(pickSessionChallenges(dutchChallenges, DUTCH_SESSION_KEY, 3));
   }, []);
 
   const currentChallenge = challenges[challengeIndex];
@@ -64,7 +63,7 @@ const LearnDutch = () => {
       setQuestionIndex((p) => p + 1);
     } else {
       // Finished this challenge text
-      markChallengeCompleted(currentChallenge.id);
+      markCompleted(DUTCH_SESSION_KEY, currentChallenge.id);
       if (challengeIndex < challenges.length - 1) {
         setChallengeIndex((p) => p + 1);
         setQuestionIndex(0);
@@ -75,7 +74,7 @@ const LearnDutch = () => {
   };
 
   const handlePlayAgain = () => {
-    setChallenges(pickSessionChallenges(3));
+    setChallenges(pickSessionChallenges(dutchChallenges, DUTCH_SESSION_KEY, 3));
     setChallengeIndex(0);
     setQuestionIndex(0);
     setAnswer("");

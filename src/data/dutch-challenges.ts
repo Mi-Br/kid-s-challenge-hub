@@ -10,6 +10,7 @@ export interface DutchChallenge {
   text: string;
   images: { src: string; alt: string }[];
   questions: DutchQuestion[];
+  level?: number; // 1, 2, or 3 for beginner, intermediate, advanced
 }
 
 const dutchChallenges: DutchChallenge[] = [
@@ -186,32 +187,3 @@ const dutchChallenges: DutchChallenge[] = [
 ];
 
 export default dutchChallenges;
-
-// History management
-const HISTORY_KEY = "dutch-challenge-history";
-
-export function getCompletedChallengeIds(): string[] {
-  const stored = localStorage.getItem(HISTORY_KEY);
-  return stored ? JSON.parse(stored) : [];
-}
-
-export function markChallengeCompleted(id: string) {
-  const completed = getCompletedChallengeIds();
-  if (!completed.includes(id)) {
-    completed.push(id);
-    localStorage.setItem(HISTORY_KEY, JSON.stringify(completed));
-  }
-}
-
-export function pickSessionChallenges(count = 3): DutchChallenge[] {
-  const completed = getCompletedChallengeIds();
-  let available = dutchChallenges.filter((c) => !completed.includes(c.id));
-
-  if (available.length < count) {
-    localStorage.removeItem(HISTORY_KEY);
-    available = [...dutchChallenges];
-  }
-
-  const shuffled = available.sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, count);
-}
