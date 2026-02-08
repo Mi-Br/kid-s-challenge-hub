@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Dashboard from "./pages/Dashboard";
 import SpellingBooster from "./pages/SpellingBooster";
 import ReadingChallenge from "./pages/ReadingChallenge";
+import LearnDutch from "./pages/LearnDutch";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/spelling-booster" element={<SpellingBooster />} />
           <Route path="/reading-challenge" element={<ReadingChallenge />} />
+          <Route path="/learn-dutch" element={<LearnDutch />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
