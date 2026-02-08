@@ -2,7 +2,7 @@ import type { DutchChallenge } from '../types/challenges';
 
 // Auto-discover all challenge JSON files
 const challengeModules = import.meta.glob<{ default: DutchChallenge }>(
-  '../content/challenges/*.json',
+  '../content/challenges/dutch-reading/*.json',
   { eager: true }
 );
 
