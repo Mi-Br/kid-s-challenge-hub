@@ -134,46 +134,7 @@ const Dashboard = () => {
               progress={35}
               onClick={() => navigate("/learn-dutch")}
             />
-            <ChallengeCard
-              title="Math Masters"
-              description="Addition, subtraction and more!"
-              icon={Calculator}
-              color="teal"
-              progress={60}
-              onClick={() => handleChallengeClick("Math Masters")}
-            />
-            <ChallengeCard
-              title="Spelling Booster"
-              description="Pick the right translation!"
-              icon={Gamepad2}
-              color="yellow"
-              progress={20}
-              onClick={() => navigate("/spelling-booster")}
-            />
-            <ChallengeCard
-              title="Reading Time 📚"
-              description="Short stories and comprehension"
-              icon={BookOpen}
-              color="pink"
-              progress={0}
-              onClick={() => navigate("/reading-challenge")}
-            />
-            <ChallengeCard
-              title="Science Explorer"
-              description="Discover amazing facts about the world"
-              icon={Sparkles}
-              color="blue"
-              progress={0}
-              onClick={() => handleChallengeClick("Science Explorer")}
-            />
-            <ChallengeCard
-              title="Memory Match"
-              description="Train your brain with matching games"
-              icon={Gamepad2}
-              color="orange"
-              progress={45}
-              onClick={() => handleChallengeClick("Memory Match")}
-            />
+        
           </div>
         </section>
       </main>
