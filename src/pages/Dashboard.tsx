@@ -132,7 +132,7 @@ const Dashboard = () => {
               icon={BookOpen}
               color="purple"
               progress={35}
-              onClick={() => handleChallengeClick("Learn Dutch")}
+              onClick={() => navigate("/learn-dutch")}
             />
             <ChallengeCard
               title="Math Masters"
