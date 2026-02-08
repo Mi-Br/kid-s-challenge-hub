@@ -22,9 +22,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop", alt: "Een kat die speelt" },
     ],
     questions: [
-      { question: "What is the cat's name?", acceptableAnswers: ["milo"], hint: "Look at the third sentence" },
-      { question: "What color is the cat?", acceptableAnswers: ["black and white", "zwart en wit", "black & white"], hint: "Zwart = black, wit = white" },
-      { question: "What does Milo like to drink?", acceptableAnswers: ["milk", "melk"], hint: "Melk = milk" },
+      { question: "Hoe heet de kat?", acceptableAnswers: ["milo"], hint: "Kijk naar de derde zin" },
+      { question: "Welke kleur heeft de kat?", acceptableAnswers: ["zwart en wit"], hint: "Kijk naar de tweede zin" },
+      { question: "Wat drinkt Milo graag?", acceptableAnswers: ["melk"], hint: "Kijk in het tweede stukje" },
     ],
   },
   {
@@ -36,9 +36,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=300&fit=crop", alt: "Een hond in het park" },
     ],
     questions: [
-      { question: "Where does the dog run?", acceptableAnswers: ["the park", "het park", "park", "in the park", "in het park"], hint: "Park is the same word!" },
-      { question: "What is the dog's name?", acceptableAnswers: ["max"], hint: "Look at the third sentence" },
-      { question: "How old is Max?", acceptableAnswers: ["3", "three", "drie", "3 years", "three years", "drie jaar"], hint: "Drie = three" },
+      { question: "Waar rent de hond?", acceptableAnswers: ["in het park", "het park", "park"], hint: "Kijk naar de eerste zin" },
+      { question: "Hoe heet de hond?", acceptableAnswers: ["max"], hint: "Kijk naar de derde zin" },
+      { question: "Hoe oud is Max?", acceptableAnswers: ["3", "drie", "drie jaar"], hint: "Kijk in het derde stukje" },
     ],
   },
   {
@@ -50,9 +50,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?w=400&h=300&fit=crop", alt: "Kinderen die buiten spelen" },
     ],
     questions: [
-      { question: "What is the weather like today?", acceptableAnswers: ["sunny", "warm", "the sun shines", "de zon schijnt", "warm and sunny"], hint: "Zon = sun" },
-      { question: "Where do the children play?", acceptableAnswers: ["the garden", "de tuin", "garden", "tuin", "in the garden", "in de tuin"], hint: "Tuin = garden" },
-      { question: "What do they drink?", acceptableAnswers: ["lemonade", "limonade"], hint: "Limonade sounds like..." },
+      { question: "Hoe is het weer vandaag?", acceptableAnswers: ["warm", "zonnig", "de zon schijnt", "warm en zonnig"], hint: "Kijk naar de eerste twee zinnen" },
+      { question: "Waar spelen de kinderen?", acceptableAnswers: ["in de tuin", "de tuin", "tuin"], hint: "Kijk in het tweede stukje" },
+      { question: "Wat drinken ze?", acceptableAnswers: ["limonade"], hint: "Kijk in het derde stukje" },
     ],
   },
   {
@@ -64,9 +64,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=400&h=300&fit=crop", alt: "Een kind dat leest" },
     ],
     questions: [
-      { question: "What color is Lisa's bag?", acceptableAnswers: ["red", "rood", "rode"], hint: "Rode = red" },
-      { question: "What is the teacher's name?", acceptableAnswers: ["mevrouw de vries", "de vries", "mrs de vries"], hint: "Juf = teacher" },
-      { question: "What subject does Lisa enjoy?", acceptableAnswers: ["math", "rekenen", "maths", "arithmetic"], hint: "Rekenen = math" },
+      { question: "Welke kleur heeft Lisa's tas?", acceptableAnswers: ["rood", "rode"], hint: "Kijk naar de tweede zin" },
+      { question: "Hoe heet de juf?", acceptableAnswers: ["mevrouw de vries", "de vries"], hint: "Kijk in het tweede stukje" },
+      { question: "Welk vak vindt Lisa leuk?", acceptableAnswers: ["rekenen"], hint: "Kijk in het derde stukje" },
     ],
   },
   {
@@ -78,9 +78,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop", alt: "Brood" },
     ],
     questions: [
-      { question: "Who is cooking tonight?", acceptableAnswers: ["papa", "dad", "father"], hint: "Papa = dad" },
-      { question: "What kind of soup is it?", acceptableAnswers: ["tomato soup", "tomatensoep", "tomato"], hint: "Tomaten = tomato" },
-      { question: "What does mama cut?", acceptableAnswers: ["vegetables", "groenten", "the vegetables", "de groenten"], hint: "Groenten = vegetables" },
+      { question: "Wie kookt vanavond?", acceptableAnswers: ["papa"], hint: "Kijk naar de eerste zin" },
+      { question: "Wat voor soep is het?", acceptableAnswers: ["tomatensoep"], hint: "Kijk in het tweede stukje" },
+      { question: "Wat snijdt mama?", acceptableAnswers: ["groenten", "de groenten"], hint: "Kijk in het tweede stukje" },
     ],
   },
   {
@@ -93,9 +93,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=400&h=300&fit=crop", alt: "Een aap" },
     ],
     questions: [
-      { question: "Where are they going?", acceptableAnswers: ["the zoo", "de dierentuin", "zoo", "dierentuin"], hint: "Dierentuin = zoo" },
-      { question: "What does the monkey eat?", acceptableAnswers: ["a banana", "banana", "banaan", "een banaan"], hint: "Banaan = banana" },
-      { question: "What do the penguins do?", acceptableAnswers: ["swim", "zwemmen", "swim in the water", "they swim", "swimming"], hint: "Zwemmen = swim" },
+      { question: "Waar gaan ze naartoe?", acceptableAnswers: ["de dierentuin", "dierentuin", "naar de dierentuin"], hint: "Kijk naar de eerste zin" },
+      { question: "Wat eet de aap?", acceptableAnswers: ["een banaan", "banaan"], hint: "Kijk in het tweede stukje" },
+      { question: "Wat doen de pinguïns?", acceptableAnswers: ["zwemmen", "ze zwemmen", "zwemmen in het water"], hint: "Kijk in het derde stukje" },
     ],
   },
   {
@@ -107,9 +107,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400&h=300&fit=crop", alt: "Een slaapkamer" },
     ],
     questions: [
-      { question: "How many rooms does the house have?", acceptableAnswers: ["4", "four", "vier"], hint: "Vier = four" },
-      { question: "Where is the kitchen?", acceptableAnswers: ["downstairs", "beneden", "below"], hint: "Beneden = downstairs" },
-      { question: "What color is the bed?", acceptableAnswers: ["blue", "blauw"], hint: "Blauw = blue" },
+      { question: "Hoeveel kamers heeft het huis?", acceptableAnswers: ["4", "vier"], hint: "Kijk in het tweede stukje" },
+      { question: "Waar is de keuken?", acceptableAnswers: ["beneden"], hint: "Kijk in het tweede stukje" },
+      { question: "Welke kleur heeft het bed?", acceptableAnswers: ["blauw"], hint: "Kijk in het derde stukje" },
     ],
   },
   {
@@ -121,9 +121,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=400&h=300&fit=crop", alt: "Een zandkasteel" },
     ],
     questions: [
-      { question: "What color is the sea?", acceptableAnswers: ["blue", "blauw"], hint: "Blauw = blue" },
-      { question: "What does the sister look for?", acceptableAnswers: ["shells", "schelpen", "seashells"], hint: "Schelpen = shells" },
-      { question: "What do they eat?", acceptableAnswers: ["ice cream", "ijsje", "an ice cream", "een ijsje"], hint: "IJsje = ice cream" },
+      { question: "Welke kleur heeft de zee?", acceptableAnswers: ["blauw"], hint: "Kijk in het tweede stukje" },
+      { question: "Wat zoekt de zus?", acceptableAnswers: ["schelpen"], hint: "Kijk in het derde stukje" },
+      { question: "Wat eten ze?", acceptableAnswers: ["een ijsje", "ijsje"], hint: "Kijk in het laatste stukje" },
     ],
   },
   {
@@ -135,9 +135,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=400&h=300&fit=crop", alt: "Cadeaus" },
     ],
     questions: [
-      { question: "How old is the child turning?", acceptableAnswers: ["8", "eight", "acht"], hint: "Acht = eight" },
-      { question: "What is there to eat?", acceptableAnswers: ["cake", "taart", "a cake", "a big cake", "een grote taart", "chocolate cake"], hint: "Taart = cake" },
-      { question: "How many presents do they get?", acceptableAnswers: ["5", "five", "vijf"], hint: "Vijf = five" },
+      { question: "Hoe oud wordt het kind?", acceptableAnswers: ["8", "acht"], hint: "Kijk naar de tweede zin" },
+      { question: "Wat is er te eten?", acceptableAnswers: ["taart", "een grote taart", "chocoladetaart"], hint: "Kijk in het tweede stukje" },
+      { question: "Hoeveel cadeaus krijgt hij/zij?", acceptableAnswers: ["5", "vijf"], hint: "Kijk in het laatste stukje" },
     ],
   },
   {
@@ -149,9 +149,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=300&fit=crop", alt: "Een winkel" },
     ],
     questions: [
-      { question: "What color is Tom's bike?", acceptableAnswers: ["red", "rood"], hint: "Rood = red" },
-      { question: "Where does Tom ride to?", acceptableAnswers: ["the shop", "the store", "de winkel", "winkel", "shop", "store"], hint: "Winkel = shop" },
-      { question: "How long does the ride take?", acceptableAnswers: ["10 minutes", "ten minutes", "tien minuten", "10", "ten", "tien"], hint: "Tien = ten" },
+      { question: "Welke kleur heeft de fiets van Tom?", acceptableAnswers: ["rood"], hint: "Kijk naar de tweede zin" },
+      { question: "Waar fietst Tom naartoe?", acceptableAnswers: ["de winkel", "winkel", "naar de winkel"], hint: "Kijk in het tweede stukje" },
+      { question: "Hoe lang duurt de rit?", acceptableAnswers: ["tien minuten", "10 minuten", "tien", "10"], hint: "Kijk in het laatste stukje" },
     ],
   },
   {
@@ -163,9 +163,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1610398752800-146f269dfcc8?w=400&h=300&fit=crop", alt: "Een sneeuwpop" },
     ],
     questions: [
-      { question: "What is the weather doing?", acceptableAnswers: ["snowing", "it is snowing", "het sneeuwt", "snow"], hint: "Sneeuwt = snowing" },
-      { question: "What is the snowman's nose made of?", acceptableAnswers: ["a carrot", "carrot", "wortel", "een wortel"], hint: "Wortel = carrot" },
-      { question: "What warm drink do they have?", acceptableAnswers: ["hot chocolate", "chocolademelk", "warme chocolademelk", "hot cocoa", "chocolate milk"], hint: "Chocolademelk = chocolate milk" },
+      { question: "Wat doet het weer vandaag?", acceptableAnswers: ["het sneeuwt", "sneeuwt", "sneeuwen"], hint: "Kijk naar de eerste zin" },
+      { question: "Waarvan is de neus van de sneeuwpop?", acceptableAnswers: ["een wortel", "wortel"], hint: "Kijk in het tweede stukje" },
+      { question: "Welk warm drankje drinken ze?", acceptableAnswers: ["warme chocolademelk", "chocolademelk"], hint: "Kijk in het laatste stukje" },
     ],
   },
   {
@@ -178,9 +178,9 @@ const dutchChallenges: DutchChallenge[] = [
       { src: "https://images.unsplash.com/photo-1504006833117-8886a355efbf?w=400&h=300&fit=crop", alt: "Paddenstoelen" },
     ],
     questions: [
-      { question: "Where are they walking?", acceptableAnswers: ["the forest", "het bos", "forest", "bos", "in the forest", "in het bos"], hint: "Bos = forest" },
-      { question: "What animal do they see?", acceptableAnswers: ["a rabbit", "rabbit", "konijn", "een konijn"], hint: "Konijn = rabbit" },
-      { question: "What do the birds do?", acceptableAnswers: ["sing", "zingen", "they sing", "singing"], hint: "Zingen = sing" },
+      { question: "Waar wandelen ze?", acceptableAnswers: ["in het bos", "het bos", "bos"], hint: "Kijk naar de eerste zin" },
+      { question: "Welk dier zien ze?", acceptableAnswers: ["een konijn", "konijn"], hint: "Kijk in het tweede stukje" },
+      { question: "Wat doen de vogels?", acceptableAnswers: ["zingen", "ze zingen", "mooi zingen"], hint: "Kijk in het laatste stukje" },
     ],
   },
 ];
@@ -205,16 +205,13 @@ export function markChallengeCompleted(id: string) {
 
 export function pickSessionChallenges(count = 3): DutchChallenge[] {
   const completed = getCompletedChallengeIds();
-  // Prefer unseen challenges
   let available = dutchChallenges.filter((c) => !completed.includes(c.id));
 
-  // If not enough unseen, reset history and use all
   if (available.length < count) {
     localStorage.removeItem(HISTORY_KEY);
     available = [...dutchChallenges];
   }
 
-  // Shuffle and pick
   const shuffled = available.sort(() => Math.random() - 0.5);
   return shuffled.slice(0, count);
 }
