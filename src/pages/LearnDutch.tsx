@@ -179,10 +179,12 @@ const LearnDutch = () => {
             </div>
 
             {/* Dutch Text */}
-            <div className="bg-muted/40 rounded-xl p-5 border border-border">
-              <p className="text-lg leading-relaxed font-serif text-foreground">
-                {currentChallenge.text}
-              </p>
+            <div className="bg-muted/40 rounded-xl p-5 border border-border space-y-3">
+              {currentChallenge.text.split("\n\n").map((paragraph, i) => (
+                <p key={i} className="text-lg leading-relaxed font-serif text-foreground indent-4 first:indent-0">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </CardContent>
         </Card>
