@@ -1,0 +1,61 @@
+{
+  "id": "de-reddingsactie",
+  "title": "De Reddingsactie",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Het was woensdag en Emma liep naar huis na school. Het regende een beetje. Toen hoorde ze een geluid. Het kwam uit de struiken.\n\nEmma ging kijken. Daar zat een klein poesje. Het was nat en het trilde. Het poesje had geen halsband. Emma dacht: dit poesje is verdwaald.\n\nEmma deed haar jas uit en legde die om het poesje heen. Ze nam het poesje mee naar huis. Mama zei: 'We brengen het naar de dierenarts.' De dierenarts zag dat het poesje gezond was maar heel erg mager.\n\nDe volgende dag hing mama briefjes op in de buurt. Maar niemand belde. Na een week mocht Emma het poesje houden. Ze noemde hem Donder, omdat ze hem had gevonden toen het regende.\n\nEmma was heel blij met Donder. En Donder was ook blij. Hij sliep elke nacht naast Emma's bed.",
+  "questions": [
+    {
+      "question": "Waar vond Emma het poesje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["in de struiken", "de struiken", "struiken"],
+      "hint": "Lees het eerste stukje. Waar hoorde Emma het geluid?"
+    },
+    {
+      "question": "Waarom dacht Emma dat het poesje verdwaald was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          ["halsband", "bandje", "geen halsband"],
+          ["verdwaald", "alleen", "niemand", "kwijt"]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat had het poesje niet?"
+    },
+    {
+      "question": "Waarom noemde Emma het poesje Donder?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["omdat het regende", "het regende", "regen", "omdat ze hem vond toen het regende"],
+      "hint": "Kijk bij het vierde stukje. Wat was het weer die dag?"
+    },
+    {
+      "question": "Vind jij dat Emma lief was voor het poesje? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          ["lief", "goed", "aardig", "fijn", "slim"],
+          ["jas", "meegenomen", "geholpen", "warm", "huis", "dierenarts", "gezorgd"]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat deed Emma allemaal om het poesje te helpen?"
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/de-reddingsactie/image-1.png", "alt": "Emma vindt een klein poesje in de struiken in de regen" },
+    { "src": "/images/challenges/dutch-reading/de-reddingsactie/image-2.png", "alt": "Emma met het poesje Donder op haar schoot" }
+  ],
+  "imagePrompts": [
+    "A young girl with a backpack crouching near bushes in light rain, finding a tiny wet kitten, children's book illustration, soft watercolors, warm pastels",
+    "A happy girl sitting on her bed with a small ginger kitten curled up next to her, cozy bedroom, children's book illustration, soft watercolors"
+  ]
+}

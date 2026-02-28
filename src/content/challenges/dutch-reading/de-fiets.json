@@ -6,18 +6,60 @@
   "questions": [
     {
       "question": "Welke kleur heeft de fiets van Tom?",
-      "acceptableAnswers": ["rood"],
-      "hint": "Kijk naar de tweede zin"
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rood met witte strepen"
+      ],
+      "hint": "Kijk naar het begin van het verhaal."
     },
     {
-      "question": "Waar fietst Tom naartoe?",
-      "acceptableAnswers": ["de winkel", "winkel", "naar de winkel"],
-      "hint": "Kijk in het tweede stukje"
+      "question": "Hoe kun je merken dat Tom in een dorp woont en niet in een grote stad?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet aanwijzen dat Tom onderweg koeien, eenden, een molen, een brug of een buurman in de tuin ziet — dingen die bij een dorp/platteland horen.",
+        "exampleAnswer": "Hij ziet koeien en eenden onderweg, en hij fietst langs een molen. Dat zie je niet in een grote stad.",
+        "keyElements": [
+          "koeien/eenden/molen/brug/buurman/tuin/wei/sloot",
+          "dorp/platteland/niet stad"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat ziet Tom onderweg naar de winkel?"
     },
     {
-      "question": "Hoe lang duurt de rit?",
-      "acceptableAnswers": ["tien minuten", "10 minuten", "tien", "10"],
-      "hint": "Kijk in het laatste stukje"
+      "question": "Waarom denk je dat mama blij is als Tom thuiskomt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat mama blij is omdat Tom de boodschappen heeft gedaan — hij heeft geholpen.",
+        "exampleAnswer": "Mama is blij omdat Tom boodschappen heeft gedaan. Hij heeft appels, kaas en brood gekocht.",
+        "keyElements": [
+          "boodschappen/appels/kaas/brood",
+          "geholpen/gehaald/gekocht"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat heeft Tom in de winkel gedaan?"
+    },
+    {
+      "question": "Vind jij dat Tom goed heeft geholpen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling geeft een mening (ja/nee) met een reden die past bij het verhaal, bijvoorbeeld dat Tom zelfstandig boodschappen deed.",
+        "exampleAnswer": "Ja, want Tom ging helemaal alleen naar de winkel en kocht alles wat nodig was.",
+        "keyElements": [
+          "ja/nee/goed/niet",
+          "boodschappen/winkel/alleen/zelfstandig/geholpen"
+        ],
+        "minWords": 4
+      },
+      "hint": "Denk na: wat deed Tom allemaal?"
     }
   ],
   "images": [
@@ -29,5 +71,9 @@
       "src": "/images/challenges/dutch-reading/de-fiets/image-2.png",
       "alt": "Een winkel"
     }
-  ]
+  ],
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verkeer"
 }

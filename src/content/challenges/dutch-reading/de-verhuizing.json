@@ -1,0 +1,52 @@
+{
+  "id": "de-verhuizing",
+  "title": "De Verhuizing",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Sara woonde in Engeland. Maar vorige maand ging ze met papa en mama naar Nederland. Sara vond het spannend en een beetje eng.\n\nOp de eerste schooldag kende Sara niemand. De kinderen spraken Nederlands en Sara begreep niet alles. Een meisje dat Fleur heette kwam naar haar toe. Fleur zei langzaam: 'Hoi, ik ben Fleur. Wil je met mij spelen?'\n\nIn de pauze speelden Sara en Fleur samen. Fleur wees naar dingen en zei de Nederlandse woorden. Boom. Schommel. Zand. Sara zei de woorden na. Soms moesten ze allebei lachen omdat Sara de woorden grappig zei.\n\nNa school zei Sara tegen mama: 'Ik heb een vriendin! Ze heet Fleur en ze helpt mij met Nederlands.' Mama glimlachte en zei: 'Dat is het mooiste cadeau voor je eerste dag.'\n\nNu gaat Sara al drie maanden naar school. Ze spreekt al veel beter Nederlands. En Fleur is nog steeds haar beste vriendin.",
+  "questions": [
+    {
+      "question": "Uit welk land komt Sara?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["engeland", "uit engeland"],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Hoe hielp Fleur Sara met Nederlands leren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["ze wees naar dingen en zei de nederlandse woorden", "dingen aanwijzen", "ze wees naar dingen", "woorden zeggen"],
+      "hint": "Lees het derde stukje nog eens."
+    },
+    {
+      "question": "Waarom was de eerste schooldag eng voor Sara?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          ["niemand", "geen vrienden", "kende niemand", "alleen", "nieuw"],
+          ["Nederlands", "taal", "begreep niet", "verstond niet", "spraken"]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na: wat was moeilijk voor Sara op haar eerste dag?"
+    },
+    {
+      "question": "Wat bedoelt mama met 'het mooiste cadeau'?",
+      "questionType": "woordbetekenis",
+      "acceptableAnswers": ["een vriendin", "fleur", "een vriendin maken", "dat sara een vriendin heeft", "vriendschap"],
+      "hint": "Wat vertelde Sara aan mama? Waarom was mama blij?"
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/de-verhuizing/image-1.png", "alt": "Sara op haar eerste dag op een Nederlandse school" },
+    { "src": "/images/challenges/dutch-reading/de-verhuizing/image-2.png", "alt": "Sara en Fleur spelen samen op het schoolplein" }
+  ],
+  "imagePrompts": [
+    "A nervous young girl with a backpack standing at the entrance of a Dutch school, other children playing in the background, children's book watercolor illustration, warm pastels",
+    "Two young girls laughing together on a school playground, one pointing at a tree, Dutch school setting, children's book watercolor illustration, warm and friendly"
+  ]
+}

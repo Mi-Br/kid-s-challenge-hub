@@ -1,0 +1,63 @@
+{
+  "id": "de-bijen-van-meneer-de-groot",
+  "title": "De Bijen van Meneer de Groot",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "natuur",
+  "text": "Meneer de Groot was de buurman van Nadia. Hij had een tuin vol bloemen en aan het einde van zijn tuin stonden drie bijenkassen. Nadia vond de bijen eerst eng. Ze was een keer gestoken door een wesp en sindsdien was ze bang voor alles wat zoemde.\n\nOp een dag vroeg meneer de Groot of Nadia wilde komen kijken. Hij gaf haar een speciaal pak aan met een hoed en een net voor haar gezicht. 'Zo kan er niks gebeuren,' zei hij. Nadia trok het pak aan, ook al klopte haar hart heel snel.\n\nMeneer de Groot opende voorzichtig een bijenkast. Nadia zag duizenden bijen die over de raten kropen. 'Kijk,' zei hij, 'die grote bij daar is de koningin. Alle andere bijen zorgen voor haar.' Nadia vond het eigenlijk best mooi hoe de bijen samenwerken.\n\nMeneer de Groot legde uit waarom bijen zo belangrijk zijn. Zonder bijen zouden veel planten geen vruchten krijgen, omdat bijen het stuifmeel van bloem naar bloem brengen. 'Als de bijen verdwijnen,' zei hij, 'dan hebben wij een groot probleem.'\n\nDie avond vertelde Nadia thuis wat ze had geleerd. Papa zei dat er tegenwoordig steeds minder bijen zijn door bestrijdingsmiddelen en omdat er minder wilde bloemen groeien. Nadia besloot om met meneer de Groot een stukje van hun tuin in te zaaien met wilde bloemen. Dat zou de bijen helpen.\n\nNadia was niet meer bang. Nou ja, een klein beetje misschien. Maar ze begreep nu dat de bijen haar niet wilden steken. Ze hadden het veel te druk met hun belangrijke werk.",
+  "questions": [
+    {
+      "question": "Waarom was Nadia bang voor bijen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["ze was gestoken door een wesp", "een wesp had haar gestoken", "gestoken door een wesp", "door een wesp"],
+      "hint": "Lees de eerste alinea. Wat was er eerder gebeurd?"
+    },
+    {
+      "question": "Wat betekent 'stuifmeel van bloem naar bloem brengen'?",
+      "questionType": "woordbetekenis",
+      "acceptableAnswers": ["het stuifmeel van bloem naar bloem brengen", "stuifmeel van bloem naar bloem brengen", "stuifmeel", "planten helpen groeien", "bestuiven", "zorgen dat planten vruchten krijgen"],
+      "hint": "Waarom is dat belangrijk voor planten?"
+    },
+    {
+      "question": "Waarom zijn er tegenwoordig minder bijen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["bestrijdingsmiddelen en minder wilde bloemen", "bestrijdingsmiddelen", "minder wilde bloemen", "gif en minder bloemen"],
+      "hint": "Wat zei papa van Nadia daarover?"
+    },
+    {
+      "question": "Hoe veranderde Nadia's gevoel over bijen door het verhaal heen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet de verandering beschrijven: eerst was Nadia bang (door de wespensteek), daarna leerde ze over bijen en hun belang, en aan het einde was ze (bijna) niet meer bang. De ontwikkeling van angst naar begrip is de kern.",
+        "exampleAnswer": "Eerst was Nadia heel bang voor bijen omdat ze gestoken was door een wesp. Maar na het bezoek aan meneer de Groot begreep ze dat bijen belangrijk zijn en niet gevaarlijk. Aan het einde was ze bijna niet meer bang.",
+        "keyElements": ["eerst bang/eng/gestoken", "leerde/begreep/zag/belangrijk", "niet meer bang/minder bang/veranderd"],
+        "minWords": 5
+      },
+      "hint": "Vergelijk hoe Nadia in het begin voelt met hoe ze aan het einde voelt."
+    },
+    {
+      "question": "Wat wil de schrijver je laten begrijpen met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wil de lezer laten inzien dat bijen belangrijk zijn en beschermd moeten worden. Daarnaast is de boodschap dat angst kan verdwijnen door kennis/begrip. Accepteer beide of één van de twee als hoofdthema.",
+        "exampleAnswer": "De schrijver wil laten zien dat bijen heel belangrijk zijn voor de natuur en dat we ze moeten beschermen. Ook laat het verhaal zien dat je minder bang wordt als je meer leert over iets.",
+        "keyElements": ["bijen belangrijk/beschermen/natuur", "angst/bang/leren/kennis/begrijpen", "helpen/bloemen/tuin"],
+        "minWords": 5
+      },
+      "hint": "Denk na: waarom vertelt de schrijver dit verhaal? Wat wil de schrijver dat jij leert?"
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/de-bijen-van-meneer-de-groot/image-1.png", "alt": "Nadia in een imkerpak kijkt naar een bijenkast" },
+    { "src": "/images/challenges/dutch-reading/de-bijen-van-meneer-de-groot/image-2.png", "alt": "Nadia en meneer de Groot zaaien wilde bloemen in de tuin" }
+  ],
+  "imagePrompts": [
+    "A young girl wearing an oversized beekeeper suit looking curiously at an open beehive, an elderly man showing her the bees, Dutch garden with flowers, children's book watercolor illustration",
+    "A young girl and an elderly man planting wildflower seeds in a garden patch, beehives visible in the background, sunny Dutch garden, children's book watercolor illustration"
+  ]
+}

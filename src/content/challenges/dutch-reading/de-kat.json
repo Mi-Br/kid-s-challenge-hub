@@ -6,18 +6,27 @@
   "questions": [
     {
       "question": "Hoe heet de kat?",
-      "acceptableAnswers": ["milo"],
-      "hint": "Kijk naar de derde zin"
+      "acceptableAnswers": [
+        "milo"
+      ],
+      "hint": "Kijk naar de derde zin",
+      "questionType": "begrijpen"
     },
     {
       "question": "Welke kleur heeft de kat?",
-      "acceptableAnswers": ["zwart en wit"],
-      "hint": "Kijk naar de tweede zin"
+      "acceptableAnswers": [
+        "zwart en wit"
+      ],
+      "hint": "Kijk naar de tweede zin",
+      "questionType": "begrijpen"
     },
     {
       "question": "Wat drinkt Milo graag?",
-      "acceptableAnswers": ["melk"],
-      "hint": "Kijk in het tweede stukje"
+      "acceptableAnswers": [
+        "melk"
+      ],
+      "hint": "Kijk in het tweede stukje",
+      "questionType": "begrijpen"
     }
   ],
   "images": [
@@ -29,5 +38,9 @@
       "src": "/images/challenges/dutch-reading/de-kat/image-2.png",
       "alt": "Een kat die speelt"
     }
-  ]
+  ],
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "dieren"
 }

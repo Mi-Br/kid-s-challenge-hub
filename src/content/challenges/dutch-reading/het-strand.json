@@ -5,19 +5,62 @@
   "text": "We gaan naar het strand. Mama pakt de tassen in met handdoeken, zonnebrand en speelgoed. De rit duurt een half uur. We zingen liedjes in de auto.\n\nDe zee is blauw en het zand is warm. Ik bouw een groot zandkasteel met een gracht eromheen. Papa helpt met de torens. We versieren het kasteel met schelpen.\n\nMijn zus zoekt schelpen langs het water. Ze vindt een hele mooie grote schelp. Ze houdt hem tegen haar oor en luistert naar de zee. Ze heeft al een hele verzameling thuis.\n\nWe eten een ijsje bij het strandhuis. Ik neem chocolade, mijn zus neemt aardbei. Het ijsje smelt snel in de zon. We likken het snel op voordat het op onze handen druipt.",
   "questions": [
     {
-      "question": "Welke kleur heeft de zee?",
-      "acceptableAnswers": ["blauw"],
-      "hint": "Kijk in het tweede stukje"
+      "question": "Wat bouwt het kind op het strand?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een zandkasteel",
+        "zandkasteel",
+        "een groot zandkasteel"
+      ],
+      "hint": "Kijk in het tweede stukje."
     },
     {
-      "question": "Wat zoekt de zus?",
-      "acceptableAnswers": ["schelpen"],
-      "hint": "Kijk in het derde stukje"
+      "question": "Hoe weet je dat de zus van schelpen houdt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet aanwijzen dat de zus langs het water zoekt, een hele verzameling thuis heeft, en naar de zee luistert via de schelp.",
+        "exampleAnswer": "Ze zoekt schelpen langs het water en heeft al een hele verzameling thuis.",
+        "keyElements": [
+          "zoekt schelpen/verzameling/hele verzameling",
+          "luistert/mooi/water"
+        ],
+        "minWords": 3
+      },
+      "hint": "Wat doet de zus bij het water?"
     },
     {
-      "question": "Wat eten ze?",
-      "acceptableAnswers": ["een ijsje", "ijsje"],
-      "hint": "Kijk in het laatste stukje"
+      "question": "Waarom moeten ze het ijsje snel opeten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het ijsje smelt door de zon/warmte en anders op hun handen druipt.",
+        "exampleAnswer": "Omdat het ijsje smelt in de zon en anders op hun handen druipt.",
+        "keyElements": [
+          "smelt/smelten/warm",
+          "zon/handen/druipt"
+        ],
+        "minWords": 3
+      },
+      "hint": "Wat gebeurt er met het ijsje?"
+    },
+    {
+      "question": "Wat vind jij het leukste om te doen op het strand? Gebruik het verhaal.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling kiest een activiteit uit het verhaal (zandkasteel bouwen, schelpen zoeken, ijsje eten, zwemmen) en geeft een reden.",
+        "exampleAnswer": "Ik vind zandkastelen bouwen het leukste, want dan kun je mooi versieren met schelpen.",
+        "keyElements": [
+          "zandkasteel/schelpen/ijsje/zwemmen/bouwen",
+          "leuk/leukste/fijn"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat doen ze allemaal op het strand?"
     }
   ],
   "images": [
@@ -29,5 +72,9 @@
       "src": "/images/challenges/dutch-reading/het-strand/image-2.png",
       "alt": "Een zandkasteel"
     }
-  ]
+  ],
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "vakantie"
 }

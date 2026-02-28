@@ -1,0 +1,70 @@
+{
+  "id": "de-elfstedentocht",
+  "title": "De Elfstedentocht",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "sport",
+  "text": "De Elfstedentocht is een beroemde schaatstocht door de provincie Friesland. De tocht is ongeveer tweehonderd kilometer lang en voert langs elf Friese steden. De eerste officiële Elfstedentocht werd gehouden in 1909. Sindsdien is de tocht vijftien keer verreden.\n\nOm de tocht te rijden moet het minstens een week lang streng vriezen. Het ijs op de meren en vaarten moet dik genoeg zijn om duizenden schaatsers te dragen. De laatste Elfstedentocht was in 1997. Dat is al meer dan vijfentwintig jaar geleden.\n\nHenk Angenent won die laatste tocht. Hij vertelde in een interview dat het de zwaarste dag van zijn leven was. Het was ijskoud, het waaide hard en sommige stukken ijs waren gevaarlijk dun. Veel schaatsers gaven onderweg op omdat ze uitgeput waren of omdat hun schaatsen kapotgingen.\n\nToch dromen veel Nederlanders ervan dat er nog een keer een Elfstedentocht komt. Elke winter kijken ze hoopvol naar de weersvoorspelling. Als het een paar dagen flink vriest, begint iedereen erover te praten. Het is meer dan een sportevenement — het is een nationaal feest dat jong en oud verbindt.\n\nSommige mensen geloven dat door de opwarming van de aarde de tocht misschien nooit meer verreden zal worden. Anderen houden vol dat het op een dag weer koud genoeg zal zijn. Wat ook gebeurt, de Elfstedentocht blijft een belangrijk stuk Nederlandse cultuur.",
+  "questions": [
+    {
+      "question": "Hoeveel kilometer is de Elfstedentocht?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["tweehonderd kilometer", "200 kilometer", "tweehonderd", "200"],
+      "hint": "Kijk in de eerste alinea."
+    },
+    {
+      "question": "Waarom is de Elfstedentocht al zo lang niet meer verreden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet uitleggen dat het niet koud genoeg is geweest (niet streng genoeg gevroren) om het ijs dik genoeg te laten worden. Accepteer ook verwijzingen naar klimaatverandering.",
+        "exampleAnswer": "Het heeft niet genoeg gevroren. Het ijs moet heel dik zijn en het is al heel lang niet meer koud genoeg geweest.",
+        "keyElements": ["niet koud genoeg/niet gevroren/warm", "ijs/dik genoeg/streng vriezen", "opwarming/klimaat"],
+        "minWords": 4
+      },
+      "hint": "Wat moet er met het weer gebeuren voordat de tocht kan plaatsvinden?"
+    },
+    {
+      "question": "Waarom noemt de schrijver de Elfstedentocht 'meer dan een sportevenement'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de tocht ook een sociaal/cultureel evenement is: het verbindt jong en oud, het is een nationaal feest, iedereen praat erover. Het gaat om meer dan schaatsen.",
+        "exampleAnswer": "De Elfstedentocht is ook een nationaal feest. Het brengt mensen bij elkaar — jong en oud. Iedereen praat erover en kijkt uit naar het evenement.",
+        "keyElements": ["nationaal feest/cultuur/traditie", "verbindt/samen/jong en oud/mensen", "meer dan schaatsen/sport"],
+        "minWords": 4
+      },
+      "hint": "Lees de vierde alinea. Wat doen Nederlanders als het koud wordt?"
+    },
+    {
+      "question": "Wie won de laatste Elfstedentocht?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["henk angenent"],
+      "hint": "Kijk bij de derde alinea."
+    },
+    {
+      "question": "Wat vind jij: zal er ooit nog een Elfstedentocht komen? Waarom denk je dat?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee/misschien) met een onderbouwing die verwijst naar informatie uit de tekst: ofwel klimaatverandering (nee) ofwel hoop dat het weer koud wordt (ja). Een mening zonder onderbouwing is partial.",
+        "exampleAnswer": "Ik denk dat het misschien niet meer lukt omdat het steeds warmer wordt door klimaatverandering. Maar je weet het nooit.",
+        "keyElements": ["ja/nee/misschien/denk", "warm/koud/klimaat/opwarming/vriezen", "reden/omdat/want"],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat de tekst zegt over de opwarming van de aarde."
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/de-elfstedentocht/image-1.png", "alt": "Schaatsers op bevroren Friese vaarten" },
+    { "src": "/images/challenges/dutch-reading/de-elfstedentocht/image-2.png", "alt": "Een schaatser op het ijs bij een Fries dorp" }
+  ],
+  "imagePrompts": [
+    "Many ice skaters on a frozen Dutch canal in Friesland, flat landscape with windmills, winter scene, children's book illustration, soft watercolors, sense of community and excitement",
+    "A lone ice skater racing past a traditional Frisian village with a church tower, frozen canal, harsh winter day, children's book illustration, watercolors"
+  ]
+}

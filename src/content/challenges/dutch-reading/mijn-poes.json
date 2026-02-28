@@ -1,0 +1,37 @@
+{
+  "id": "mijn-poes",
+  "title": "Mijn Poes",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "dieren",
+  "text": "Ik heb een poes. Mijn poes heet Nora. Nora is wit en grijs.\n\nNora slaapt graag op mijn bed. Ze eet vis en melk. Ze speelt met een bal.\n\nIk hou van Nora. Nora is mijn beste vriendin.",
+  "questions": [
+    {
+      "question": "Hoe heet de poes?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["nora"],
+      "hint": "Kijk naar het eerste stukje."
+    },
+    {
+      "question": "Waar slaapt Nora?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["op mijn bed", "op het bed", "bed", "mijn bed"],
+      "hint": "Kijk naar het tweede stukje."
+    },
+    {
+      "question": "Wat eet Nora?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["vis en melk", "vis", "melk"],
+      "hint": "Kijk naar het tweede stukje."
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/mijn-poes/image-1.png", "alt": "Een wit en grijze poes op een bed" },
+    { "src": "/images/challenges/dutch-reading/mijn-poes/image-2.png", "alt": "Nora speelt met een bal" }
+  ],
+  "imagePrompts": [
+    "A cute white and grey cat sleeping on a child's bed, cozy bedroom, children's book watercolor illustration, warm pastels",
+    "A white and grey cat playing with a small ball, happy child watching, children's book watercolor illustration"
+  ]
+}

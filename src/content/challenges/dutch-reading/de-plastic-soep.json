@@ -1,0 +1,77 @@
+{
+  "id": "de-plastic-soep",
+  "title": "De Plastic Soep",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "milieu",
+  "text": "Vorig jaar ging de klas van meester Van Dam op excursie naar het strand van Scheveningen. De kinderen verwachtten een leuke dag met schelpen zoeken en pootje baden. Maar toen ze aankwamen, zagen ze iets dat hen verbaasde: het strand lag vol met klein plastic afval.\n\nMeester Van Dam had dit verwacht. Hij deelde vuilniszakken uit en legde uit dat dit 'microplastic' heet. \"Elk stukje plastic dat je weggooit, breekt in steeds kleinere stukjes,\" vertelde hij. \"Het verdwijnt nooit echt. Vissen denken dat het eten is en worden er ziek van.\"\n\nDe kinderen raapten in twee uur meer dan twintig zakken vol troep op. Sommige kinderen vonden het eerst vies, maar al snel werd het een wedstrijd: wie kon de meeste troep vinden? Youssef vond zelfs een oud autoband die half in het zand begraven lag.\n\nOp de terugweg in de bus was het stil. Veel kinderen dachten na over wat ze hadden gezien. Fatima zei: \"Ik ga thuis geen plastic flesjes meer gebruiken.\" Anderen knikten. Meester Van Dam glimlachte. Hij wist dat de kinderen niet alleen het strand hadden schoongemaakt — ze hadden ook iets geleerd dat ze niet snel zouden vergeten.\n\nDe volgende week hing er een poster in de gang van de school: 'Wij kiezen voor minder plastic.' De hele klas had hem samen gemaakt.",
+  "questions": [
+    {
+      "question": "Waar ging de klas naartoe op excursie?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["scheveningen", "het strand van scheveningen", "het strand", "strand van scheveningen"],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat is microplastic volgens meester Van Dam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet uitleggen dat microplastic kleine stukjes plastic zijn die ontstaan doordat plastic afval in steeds kleinere stukjes breekt. Het hoeft niet woordelijk, maar het idee van 'klein plastic dat niet verdwijnt' moet erin zitten.",
+        "exampleAnswer": "Microplastic zijn hele kleine stukjes plastic. Plastic breekt in steeds kleinere stukjes maar verdwijnt nooit echt.",
+        "keyElements": ["klein/kleine stukjes/stukjes", "breekt/kapot/afbreken", "verdwijnt niet/nooit weg/blijft"],
+        "minWords": 4
+      },
+      "hint": "Lees wat meester Van Dam uitlegt in de tweede alinea."
+    },
+    {
+      "question": "Waarom was het stil in de bus op de terugweg?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de kinderen stil waren omdat ze nadachten over wat ze hadden gezien — de vervuiling maakte indruk op hen. Het gaat om de emotionele impact, niet alleen het feit dat ze moe waren.",
+        "exampleAnswer": "De kinderen dachten na over al het plastic dat ze hadden gevonden. Ze waren onder de indruk van hoeveel afval er lag.",
+        "keyElements": ["nadenken/dachten na/nadachten", "plastic/afval/troep/vervuiling", "indruk/schrikken/verdrietig/erg"],
+        "minWords": 4
+      },
+      "hint": "Kijk naar de vierde alinea. Wat doen de kinderen in de bus?"
+    },
+    {
+      "question": "Vind jij dat de excursie een goed idee was van meester Van Dam? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven EN onderbouwen met argumenten uit het verhaal. Goede argumenten zijn: de kinderen leerden over milieu, ze ruimden echt afval op, het veranderde hun gedrag (Fatima's besluit, de poster), het was leerzaam. Een 'nee' is ook acceptabel als het goed beargumenteerd is (bijv. het was vies, kinderen werden verdrietig).",
+        "exampleAnswer": "Ja, want de kinderen hebben geleerd hoe erg plastic voor het milieu is. Ze hebben daarna besloten om minder plastic te gebruiken en zelfs een poster gemaakt.",
+        "keyElements": ["goed/leerzaam/belangrijk/slim", "geleerd/leren/begrijpen", "gedrag/minder plastic/poster/veranderen"],
+        "minWords": 6
+      },
+      "hint": "Denk na: wat hebben de kinderen geleerd? Is er iets veranderd?"
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over bewustwording van milieuvervuiling: door zelf te ervaren hoe erg het probleem is, veranderen kinderen hun gedrag. De leerling moet deze kern raken — niet alleen 'het gaat over plastic' maar ook het effect op de kinderen.",
+        "exampleAnswer": "Het verhaal gaat erover dat kinderen zelf zien hoe erg plastic vervuiling is, en dat ze daardoor hun gedrag willen veranderen.",
+        "keyElements": ["plastic/vervuiling/milieu/afval", "zelf zien/ervaren/leren/ontdekken", "veranderen/gedrag/minder plastic/actie"],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat wil de schrijver je vertellen met dit verhaal?"
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/de-plastic-soep/image-1.png", "alt": "Kinderen vinden plastic afval op het strand" },
+    { "src": "/images/challenges/dutch-reading/de-plastic-soep/image-2.png", "alt": "Een poster tegen plastic hangt in de schoolgang" }
+  ],
+  "imagePrompts": [
+    "Children on a Dutch beach (Scheveningen) collecting plastic trash in garbage bags, looking surprised at the amount of litter, a teacher supervising, children's book illustration style, watercolor",
+    "A colorful handmade poster on a school hallway wall reading 'Wij kiezen voor minder plastic' with children's drawings of the ocean, children's book illustration style, watercolor"
+  ]
+}

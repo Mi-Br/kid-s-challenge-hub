@@ -1,0 +1,37 @@
+{
+  "id": "de-rode-bal",
+  "title": "De Rode Bal",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "spelen",
+  "text": "Mila speelt in het park. Ze heeft een rode bal.\n\nMila gooit de bal hoog. De bal valt in het water! Het water is koud.\n\nPapa helpt Mila. Hij pakt de bal uit het water. Mila is blij. Ze speelt weer met de bal.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de bal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["rood", "rode"],
+      "hint": "Kijk naar het eerste stukje."
+    },
+    {
+      "question": "Waar valt de bal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["in het water", "het water", "water"],
+      "hint": "Kijk naar het tweede stukje."
+    },
+    {
+      "question": "Wie helpt Mila?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["papa"],
+      "hint": "Kijk naar het laatste stukje."
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/de-rode-bal/image-1.png", "alt": "Mila speelt met een rode bal in het park" },
+    { "src": "/images/challenges/dutch-reading/de-rode-bal/image-2.png", "alt": "De rode bal valt in het water" }
+  ],
+  "imagePrompts": [
+    "A young girl playing with a red ball in a green Dutch park, sunny day, children's book watercolor illustration style, warm pastels",
+    "A red ball floating in a pond in a park, a worried girl looking at it, her father coming to help, children's book watercolor illustration"
+  ]
+}

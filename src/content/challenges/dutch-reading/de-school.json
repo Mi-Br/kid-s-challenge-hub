@@ -5,19 +5,61 @@
   "text": "Lisa gaat naar school. Ze heeft een rode tas met een beer erop. In de tas zitten boeken, een etui en haar broodtrommel. Ze fietst elke dag naar school.\n\nIn de klas leest ze een boek over dieren. De juf heet mevrouw De Vries. Ze is heel aardig en helpt alle kinderen. Ze heeft lang blond haar.\n\nLisa vindt rekenen leuk. Ze kan al optellen en aftrekken. Haar vriendin Emma vindt tekenen leuker. Samen zitten ze naast elkaar.\n\nNa school speelt Lisa op het schoolplein. Ze klimt op het klimrek en gaat van de glijbaan. Om drie uur haalt papa haar op. Dan vertelt ze alles over haar dag.",
   "questions": [
     {
-      "question": "Welke kleur heeft Lisa's tas?",
-      "acceptableAnswers": ["rood", "rode"],
-      "hint": "Kijk naar de tweede zin"
-    },
-    {
       "question": "Hoe heet de juf?",
-      "acceptableAnswers": ["mevrouw de vries", "de vries"],
-      "hint": "Kijk in het tweede stukje"
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "mevrouw de vries",
+        "de vries"
+      ],
+      "hint": "Kijk in het tweede stukje."
     },
     {
-      "question": "Welk vak vindt Lisa leuk?",
-      "acceptableAnswers": ["rekenen"],
-      "hint": "Kijk in het derde stukje"
+      "question": "Hoe kun je merken dat Lisa het leuk vindt op school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet aanwijzen dat Lisa rekenen leuk vindt, een vriendin heeft (Emma), op het klimrek speelt, of alles vertelt over haar dag — tekens dat ze het fijn heeft.",
+        "exampleAnswer": "Lisa vindt rekenen leuk en ze speelt na school op het schoolplein. Ze vertelt papa alles over haar dag.",
+        "keyElements": [
+          "rekenen leuk/vindt leuk/speelt/klimrek/glijbaan",
+          "vriendin/Emma/vertelt/leuk"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat doet Lisa graag op school?"
+    },
+    {
+      "question": "Lisa en Emma zijn vriendinnen. Hoe kun je dat weten uit het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet verwijzen naar het feit dat ze naast elkaar zitten in de klas — dit wijst op vriendschap.",
+        "exampleAnswer": "Ze zitten naast elkaar in de klas, dus ze zijn vriendinnen.",
+        "keyElements": [
+          "naast elkaar/samen",
+          "zitten/klas"
+        ],
+        "minWords": 3
+      },
+      "hint": "Kijk goed naar wat er over Emma staat."
+    },
+    {
+      "question": "Vind jij het fijn dat papa Lisa ophaalt van school? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling geeft een mening met een reden. Alles is goed zolang er een mening + uitleg is, bijv. fijn want dan kan ze over haar dag vertellen, of niet nodig want ze kan zelf fietsen.",
+        "exampleAnswer": "Ja, dat is fijn want dan kan ze alles vertellen over haar dag. Papa luistert naar haar.",
+        "keyElements": [
+          "ja/nee/fijn/leuk/niet",
+          "vertellen/ophalen/samen/veilig"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat doet Lisa als papa haar ophaalt?"
     }
   ],
   "images": [
@@ -29,5 +71,9 @@
       "src": "/images/challenges/dutch-reading/de-school/image-2.png",
       "alt": "Een kind dat leest"
     }
-  ]
+  ],
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "school"
 }

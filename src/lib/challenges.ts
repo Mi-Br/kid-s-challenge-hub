@@ -1,4 +1,4 @@
-import type { DutchChallenge } from '../types/challenges';
+import type { DutchChallenge, GroepLevel, Difficulty } from '../types/challenges';
 
 // Auto-discover all challenge JSON files
 const challengeModules = import.meta.glob<{ default: DutchChallenge }>(
@@ -12,39 +12,57 @@ export const allChallenges: DutchChallenge[] = Object.values(challengeModules)
   .sort((a, b) => a.id.localeCompare(b.id));
 
 /**
- * Get challenges filtered by level
+ * Get challenges filtered by groep level and optionally difficulty
  */
+export function getChallengesByGroep(
+  groepLevel: GroepLevel,
+  difficulty?: Difficulty
+): DutchChallenge[] {
+  return allChallenges.filter(c => {
+    if (c.groepLevel !== groepLevel) return false;
+    if (difficulty && c.difficulty !== difficulty) return false;
+    return true;
+  });
+}
+
+/**
+ * Get all available groep levels that have content
+ */
+export function getAvailableGroepLevels(): GroepLevel[] {
+  const levels = new Set<GroepLevel>();
+  allChallenges.forEach(c => {
+    if (c.groepLevel) levels.add(c.groepLevel);
+  });
+  return Array.from(levels).sort();
+}
+
+/**
+ * Get available difficulties for a given groep level
+ */
+export function getAvailableDifficulties(groepLevel: GroepLevel): Difficulty[] {
+  const diffs = new Set<Difficulty>();
+  allChallenges
+    .filter(c => c.groepLevel === groepLevel)
+    .forEach(c => { if (c.difficulty) diffs.add(c.difficulty); });
+  return ["low", "medium", "high"].filter(d => diffs.has(d as Difficulty)) as Difficulty[];
+}
+
+/**
+ * Get challenge count for a given groep/difficulty
+ */
+export function getChallengeCount(groepLevel?: GroepLevel, difficulty?: Difficulty): number {
+  return allChallenges.filter(c => {
+    if (groepLevel && c.groepLevel !== groepLevel) return false;
+    if (difficulty && c.difficulty !== difficulty) return false;
+    return true;
+  }).length;
+}
+
+// Legacy support
 export function getChallengesByLevel(level: number): DutchChallenge[] {
   return allChallenges.filter(c => c.level === level);
 }
 
-/**
- * Get a random challenge, optionally filtered by level
- */
-export function getRandomChallenge(level?: number): DutchChallenge {
-  const challenges = level ? getChallengesByLevel(level) : allChallenges;
-
-  if (challenges.length === 0) {
-    throw new Error(`No challenges available${level ? ` for level ${level}` : ''}`);
-  }
-
-  return challenges[Math.floor(Math.random() * challenges.length)];
-}
-
-/**
- * Get a challenge by ID
- */
 export function getChallengeById(id: string): DutchChallenge | undefined {
   return allChallenges.find(c => c.id === id);
-}
-
-/**
- * Get all available levels
- */
-export function getAvailableLevels(): number[] {
-  const levels = allChallenges
-    .map(c => c.level)
-    .filter((level): level is number => level !== undefined);
-
-  return Array.from(new Set(levels)).sort();
 }

@@ -6,8 +6,12 @@
   "questions": [
     {
       "question": "Welke kleur heeft de fiets?",
-      "acceptableAnswers": ["rood", "rood met witte strepen"],
-      "hint": "Kijk naar de tweede zin"
+      "acceptableAnswers": [
+        "rood",
+        "rood met witte strepen"
+      ],
+      "hint": "Kijk naar de tweede zin",
+      "questionType": "begrijpen"
     },
     {
       "question": "Waarom viel Tom?",
@@ -16,17 +20,32 @@
         "mode": "keywords",
         "minWords": 3,
         "mustIncludeAny": [
-          ["snel", "hard", "te snel"],
-          ["fietsen", "fiets", "rijden", "reed"]
+          [
+            "snel",
+            "hard",
+            "te snel"
+          ],
+          [
+            "fietsen",
+            "fiets",
+            "rijden",
+            "reed"
+          ]
         ],
         "allowExtraText": true
       },
-      "hint": "Denk na over hoe Tom reed"
+      "hint": "Denk na over hoe Tom reed",
+      "questionType": "interpreteren"
     },
     {
       "question": "Wat deed mama?",
-      "acceptableAnswers": ["een pleister", "pleister", "pleister op de knie"],
-      "hint": "Kijk in het laatste stukje"
+      "acceptableAnswers": [
+        "een pleister",
+        "pleister",
+        "pleister op de knie"
+      ],
+      "hint": "Kijk in het laatste stukje",
+      "questionType": "begrijpen"
     }
   ],
   "images": [
@@ -38,5 +57,9 @@
       "src": "/images/challenges/dutch-reading/de-fiets-waarom/image-2.png",
       "alt": "Tom valt van fiets"
     }
-  ]
+  ],
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verkeer"
 }

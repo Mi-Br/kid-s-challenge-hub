@@ -1,0 +1,77 @@
+{
+  "id": "de-boomhut",
+  "title": "De Boomhut",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "vriendschap",
+  "text": "Achter het huis van Luuk stond een grote eikenboom. In de boom had Luuk samen met zijn vader een boomhut gebouwd. Het had drie weekenden geduurd, maar nu was de boomhut af. Er zat een dak op van golfplaten en Luuk had zelf een vlag gemaakt van een oud laken.\n\nLuuk was trots op de boomhut. Hij nodigde zijn twee beste vrienden uit: Jesse en Youssef. Jesse vond de boomhut geweldig. Maar Youssef keek een beetje ongelukkig. 'Wat is er?' vroeg Luuk. Youssef aarzelde en zei toen zachtjes: 'Ik ben bang voor hoogtes.'\n\nJesse begon te lachen. 'Je bent toch geen baby?' zei hij. Luuk zag dat Youssef rood werd en naar de grond keek. Luuk voelde zich ongemakkelijk. Hij vond dat Jesse niet aardig deed.\n\n'Weet je wat,' zei Luuk, 'we maken een geheime plek ónder de boom. Daar kunnen we ook zitten.' Hij haalde een oud kleed en legde het onder de eikenboom. Youssef glimlachte voorzichtig.\n\nDie middag speelden ze samen onder de boom. Jesse zei sorry tegen Youssef. Uiteindelijk vertelde Youssef dat hij ooit uit een boom was gevallen toen hij klein was. Jesse zei: 'Dat snap ik. Ik ben zelf bang voor honden.' Toen moesten ze allebei lachen.\n\nVanaf dat moment hadden ze twee geheime plekken: één boven en één beneden. En dat vonden ze eigenlijk nog veel leuker.",
+  "questions": [
+    {
+      "question": "Hoelang duurde het om de boomhut te bouwen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["drie weekenden", "3 weekenden", "drie weekends"],
+      "hint": "Lees de eerste alinea nog eens."
+    },
+    {
+      "question": "Waarom was Youssef bang om in de boomhut te klimmen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet twee dingen verbinden: Youssef is bang voor hoogtes EN hij is ooit uit een boom gevallen. Alleen 'bang voor hoogtes' is partial — het verhaal legt ook de oorzaak uit.",
+        "exampleAnswer": "Youssef was bang voor hoogtes omdat hij toen hij klein was uit een boom was gevallen.",
+        "keyElements": ["bang/hoogtevrees/hoogtes", "gevallen/uit een boom gevallen", "klein/vroeger/ooit"],
+        "minWords": 4
+      },
+      "hint": "Kijk bij de vijfde alinea. Youssef vertelt iets over vroeger."
+    },
+    {
+      "question": "Waarom vond Luuk dat Jesse niet aardig deed?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Jesse Youssef uitlachte en hem een baby noemde vanwege zijn angst. Luuk vond dit gemeen/niet aardig omdat je iemand niet uitlacht om zijn angst.",
+        "exampleAnswer": "Jesse lachte Youssef uit en noemde hem een baby omdat hij bang was. Dat is niet aardig, want iedereen kan ergens bang voor zijn.",
+        "keyElements": ["lachen/uitlachen/baby", "bang/angst/hoogte", "gemeen/niet aardig/zielig"],
+        "minWords": 4
+      },
+      "hint": "Wat zei Jesse precies tegen Youssef? Hoe reageerde Youssef daarop?"
+    },
+    {
+      "question": "Vind jij dat Luuk een goede vriend is? Leg uit waarom je dat vindt.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee/ja maar) met onderbouwing. Een goed antwoord verwijst naar Luuks actie: hij bedenkt een oplossing (plek onder de boom) zodat Youssef zich ook welkom voelt. Alleen 'ja hij is aardig' zonder verwijzing naar een concrete actie is partial.",
+        "exampleAnswer": "Ja, Luuk is een goede vriend omdat hij een oplossing bedenkt. Hij maakt een plek onder de boom zodat Youssef ook mee kan doen.",
+        "keyElements": ["goede vriend/aardig/lief", "oplossing/plek onder de boom/kleed", "Youssef/meedoen/welkom"],
+        "minWords": 5
+      },
+      "hint": "Wat deed Luuk toen hij zag dat Youssef zich niet prettig voelde?"
+    },
+    {
+      "question": "Waar gaat dit verhaal vooral over?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte is dat goede vrienden rekening houden met elkaars gevoelens en angsten, en dat je samen een oplossing kunt vinden. Accepteer ook: iedereen is ergens bang voor en dat is normaal.",
+        "exampleAnswer": "Het verhaal gaat over vriendschap en dat je rekening moet houden met wat een ander voelt. Luuk bedenkt een oplossing zodat Youssef ook mee kan doen.",
+        "keyElements": ["vriendschap/vrienden", "rekening houden/begrijpen/angst/gevoel", "oplossing/samen/meedoen"],
+        "minWords": 5
+      },
+      "hint": "Het verhaal gaat niet alleen over een boomhut. Wat leer je over vriendschap?"
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/de-boomhut/image-1.png", "alt": "Een boomhut in een grote eikenboom" },
+    { "src": "/images/challenges/dutch-reading/de-boomhut/image-2.png", "alt": "Drie jongens zitten samen onder een boom op een kleed" }
+  ],
+  "imagePrompts": [
+    "A wooden treehouse in a large oak tree with a corrugated roof and a homemade flag, Dutch backyard garden, children's book watercolor illustration, warm afternoon light",
+    "Three young boys sitting together on a blanket under a big oak tree, laughing and talking, children's book watercolor illustration, warm friendly atmosphere"
+  ]
+}

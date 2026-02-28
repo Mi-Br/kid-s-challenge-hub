@@ -1,0 +1,79 @@
+{
+  "id": "de-nieuwe-leerling",
+  "title": "De Nieuwe Leerling",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Op maandag kwam er een nieuw meisje in de klas. Ze heette Amara en ze kwam uit Ethiopië. Amara sprak nog bijna geen Nederlands, omdat ze pas drie maanden in Nederland woonde.\n\nIn de pauze zat Amara alleen op een bankje. De andere kinderen speelden voetbal en tikkertje, maar niemand vroeg of Amara mee wilde doen. Lotte zag dat Amara verdrietig keek.\n\nLotte liep naar Amara toe. \"Hoi, ik ben Lotte,\" zei ze langzaam. Ze wees naar zichzelf en zei haar naam nog een keer. Amara glimlachte en zei: \"Amara.\" Lotte pakte haar hand en nam haar mee naar de andere kinderen.\n\nDie middag heeft Amara voor het eerst meegespeeld met tikkertje. Ze kon heel hard rennen! Iedereen was verbaasd. Na school zwaaide Amara naar Lotte. Ze had een vriendin gemaakt, zonder dat ze veel woorden nodig had.",
+  "questions": [
+    {
+      "question": "Uit welk land komt Amara?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["ethiopië", "ethiopie"],
+      "hint": "Kijk naar het eerste stukje."
+    },
+    {
+      "question": "Waarom sprak Amara bijna geen Nederlands?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          ["pas", "kort", "drie maanden", "net"],
+          ["nederland", "woonde", "wonen", "gekomen"]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk in de eerste alinea. Hoe lang woont ze in Nederland?"
+    },
+    {
+      "question": "Wat deed Lotte om Amara te helpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet beschrijven dat Lotte naar Amara toe liep, zich voorstelde, en Amara meenam naar de andere kinderen. Minimaal twee van deze drie acties noemen is voldoende.",
+        "exampleAnswer": "Lotte ging naar Amara toe en stelde zich voor. Daarna nam ze Amara mee om met de anderen te spelen.",
+        "keyElements": ["naar toe/liep naar/ging naar", "voorstellen/naam/hoi/zei", "meenam/mee/spelen/kinderen"],
+        "minWords": 4
+      },
+      "hint": "Kijk naar de derde alinea. Wat doet Lotte stap voor stap?"
+    },
+    {
+      "question": "Vind jij dat Lotte goed reageerde? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee/misschien) EN een reden. De reden moet aansluiten bij het verhaal — bijvoorbeeld dat Amara alleen zat, dat niemand anders iets deed, of dat Amara daardoor een vriendin kreeg.",
+        "exampleAnswer": "Ja, want Amara zat alleen en niemand vroeg haar. Lotte was aardig en daardoor heeft Amara een vriendin gekregen.",
+        "keyElements": ["goed/aardig/lief/dapper/slim", "alleen/verdrietig/niemand", "vriendin/mee/spelen/helpen"],
+        "minWords": 5
+      },
+      "hint": "Denk na: was het goed wat Lotte deed? Geef een reden."
+    },
+    {
+      "question": "Waar gaat dit verhaal vooral over?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over vriendelijkheid naar een nieuw kind dat anders is, of over hoe je vrienden kunt maken zonder dezelfde taal te spreken. De leerling hoeft dit niet letterlijk te zeggen maar de kern moet duidelijk zijn.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat aardig is voor een nieuwe leerling die geen Nederlands spreekt.",
+        "keyElements": ["aardig/vriendelijk/helpen/vriendschap", "nieuw/anders/taal/Nederlands"],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat wil de schrijver je vertellen?"
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/de-nieuwe-leerling/image-1.png", "alt": "Een nieuw meisje zit alleen op een bankje op het schoolplein" },
+    { "src": "/images/challenges/dutch-reading/de-nieuwe-leerling/image-2.png", "alt": "Lotte neemt Amara mee naar de andere kinderen" }
+  ],
+  "imagePrompts": [
+    "A young African girl sitting alone on a bench in a Dutch school playground, other children playing in the background, children's book watercolor illustration, warm colors, empathetic mood",
+    "Two girls holding hands running towards a group of playing children in a school yard, one girl is African, the other is Dutch, children's book watercolor illustration, joyful mood"
+  ]
+}

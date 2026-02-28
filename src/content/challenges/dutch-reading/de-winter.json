@@ -5,19 +5,61 @@
   "text": "Het sneeuwt vandaag. Alles is wit: de daken, de auto's en de bomen. De wereld ziet eruit als een sprookje. Wij trekken onze dikke jassen en laarzen aan.\n\nDe kinderen maken een sneeuwpop in de voortuin. Hij is bijna net zo groot als papa. Hij heeft een wortel als neus en knoopjes als ogen. Op zijn hoofd staat een oude hoed.\n\nWe gooien sneeuwballen naar elkaar. Mijn broertje valt in de sneeuw en lacht heel hard. De hond rent ook door de sneeuw en vangt sneeuwvlokken.\n\nAls we koud zijn, gaan we naar binnen. Mama maakt warme chocolademelk met slagroom. We zitten bij de kachel en warmen onze handen. Buiten sneeuwt het nog steeds.",
   "questions": [
     {
-      "question": "Wat doet het weer vandaag?",
-      "acceptableAnswers": ["het sneeuwt", "sneeuwt", "sneeuwen"],
-      "hint": "Kijk naar de eerste zin"
-    },
-    {
       "question": "Waarvan is de neus van de sneeuwpop?",
-      "acceptableAnswers": ["een wortel", "wortel"],
-      "hint": "Kijk in het tweede stukje"
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een wortel",
+        "wortel"
+      ],
+      "hint": "Kijk in het tweede stukje."
     },
     {
-      "question": "Welk warm drankje drinken ze?",
-      "acceptableAnswers": ["warme chocolademelk", "chocolademelk"],
-      "hint": "Kijk in het laatste stukje"
+      "question": "De schrijver zegt 'De wereld ziet eruit als een sprookje.' Wat bedoelt de schrijver daarmee?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de vergelijking met een sprookje betekent dat alles mooi/wit/magisch eruitziet door de sneeuw.",
+        "exampleAnswer": "De schrijver bedoelt dat alles er heel mooi uitziet omdat alles wit is van de sneeuw, net als in een sprookje.",
+        "keyElements": [
+          "mooi/magisch/prachtig/wit",
+          "sneeuw/wit/sprookje"
+        ],
+        "minWords": 4
+      },
+      "hint": "Hoe ziet de wereld eruit als het sneeuwt?"
+    },
+    {
+      "question": "Hoe kun je merken dat het gezin samen plezier heeft?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling noemt activiteiten die ze samen doen: sneeuwpop maken, sneeuwballen gooien, broertje lacht, warme chocolademelk samen drinken bij de kachel.",
+        "exampleAnswer": "Ze maken samen een sneeuwpop en gooien sneeuwballen. Daarna drinken ze warme chocolademelk bij de kachel.",
+        "keyElements": [
+          "sneeuwpop/sneeuwballen/samen",
+          "lachen/plezier/chocolademelk/kachel"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat doen ze allemaal samen?"
+    },
+    {
+      "question": "Vind jij het leuk als het sneeuwt? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling geeft een mening (leuk/niet leuk) met een reden, eventueel met verwijzing naar het verhaal.",
+        "exampleAnswer": "Ja, ik vind sneeuw leuk want dan kun je sneeuwballen gooien en een sneeuwpop maken, net als in het verhaal.",
+        "keyElements": [
+          "ja/nee/leuk/niet leuk",
+          "sneeuw/spelen/koud/buiten"
+        ],
+        "minWords": 4
+      },
+      "hint": "Denk aan wat je zelf leuk vindt."
     }
   ],
   "images": [
@@ -29,5 +71,9 @@
       "src": "/images/challenges/dutch-reading/de-winter/image-2.png",
       "alt": "Een sneeuwpop"
     }
-  ]
+  ],
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "seizoenen"
 }

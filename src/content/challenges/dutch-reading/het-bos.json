@@ -5,19 +5,62 @@
   "text": "We wandelen in het bos. De bomen zijn hoog en hun bladeren zijn groen en geel. Het ruikt naar natte aarde en dennennaalden. De zon schijnt door de takken.\n\nWe zien een konijn achter een struik. Het konijn heeft lange oren en een wit staartje. Het hopt snel weg als het ons hoort. We proberen heel stil te zijn.\n\nEr zijn veel paddenstoelen op de grond. Sommige zijn rood met witte stippen. Papa zegt dat we ze niet mogen aanraken. We maken er foto's van met mama's telefoon.\n\nDe vogels zingen mooi in de bomen. We horen ook een specht die op een boom klopt. Bij de beek zien we een kikker op een steen. Het bos is vol avontuur!",
   "questions": [
     {
-      "question": "Waar wandelen ze?",
-      "acceptableAnswers": ["in het bos", "het bos", "bos"],
-      "hint": "Kijk naar de eerste zin"
+      "question": "Welk dier hopt weg als het de mensen hoort?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een konijn",
+        "konijn",
+        "het konijn"
+      ],
+      "hint": "Kijk in het tweede stukje."
     },
     {
-      "question": "Welk dier zien ze?",
-      "acceptableAnswers": ["een konijn", "konijn"],
-      "hint": "Kijk in het tweede stukje"
+      "question": "Waarom zegt papa dat ze de paddenstoelen niet mogen aanraken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat sommige paddenstoelen giftig zijn — de rode met witte stippen zijn vliegenzwammen. Papa wil hen beschermen.",
+        "exampleAnswer": "Omdat sommige paddenstoelen giftig kunnen zijn. De rode met witte stippen zijn gevaarlijk.",
+        "keyElements": [
+          "giftig/gevaarlijk/ziek/niet goed",
+          "paddenstoelen/rood/stippen"
+        ],
+        "minWords": 3
+      },
+      "hint": "Welke kleur hebben de paddenstoelen?"
     },
     {
-      "question": "Wat doen de vogels?",
-      "acceptableAnswers": ["zingen", "ze zingen", "mooi zingen"],
-      "hint": "Kijk in het laatste stukje"
+      "question": "Noem twee dingen waaruit je kunt merken dat het bos vol leven is.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet twee voorbeelden noemen uit: konijn, vogels zingen, specht klopt, kikker bij de beek, paddenstoelen.",
+        "exampleAnswer": "De vogels zingen in de bomen en er zit een kikker op een steen bij de beek.",
+        "keyElements": [
+          "vogels/konijn/specht/kikker/paddenstoelen",
+          "zingen/hopt/klopt/beek"
+        ],
+        "minWords": 4
+      },
+      "hint": "Welke dieren en geluiden zijn er in het bos?"
+    },
+    {
+      "question": "De schrijver zegt 'Het bos is vol avontuur!' Waarom vindt de schrijver dat?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet uitleggen dat er veel te ontdekken is in het bos: dieren, paddenstoelen, geluiden — het is een avontuur voor kinderen.",
+        "exampleAnswer": "Omdat er heel veel te zien is, zoals dieren en paddenstoelen. Je weet nooit wat je tegenkomt.",
+        "keyElements": [
+          "dieren/paddenstoelen/ontdekken/zien",
+          "avontuur/spannend/veel te doen"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat hebben ze allemaal ontdekt in het bos?"
     }
   ],
   "images": [
@@ -33,5 +76,9 @@
       "src": "/images/challenges/dutch-reading/het-bos/image-3.png",
       "alt": "Paddenstoelen"
     }
-  ]
+  ],
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "natuur"
 }

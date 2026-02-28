@@ -4,7 +4,9 @@ import type {
   ValidationResult,
   KeywordValidationConfig,
   LiteralValidationConfig,
+  AiValidationConfig,
 } from "@/types/validation";
+import { evaluateWithAi, isAiAvailable } from "./ai-evaluation";
 
 /**
  * Normalize text for comparison:
@@ -35,6 +37,7 @@ export function validateLiteral(
 
   return {
     isCorrect,
+    points: isCorrect ? 25 : 0,
     feedback: {
       mode: "literal",
       acceptableAnswers: config.acceptableAnswers,
@@ -56,6 +59,7 @@ export function validateKeywords(
   if (words.length < config.minWords) {
     return {
       isCorrect: false,
+      points: 0,
       feedback: {
         mode: "keywords",
         wordCount: words.length,
@@ -70,6 +74,7 @@ export function validateKeywords(
       if (normalized.includes(normalizeText(disallowed))) {
         return {
           isCorrect: false,
+          points: 0,
           feedback: {
             mode: "keywords",
             wordCount: words.length,
@@ -101,6 +106,7 @@ export function validateKeywords(
 
   return {
     isCorrect,
+    points: isCorrect ? 25 : 0,
     feedback: {
       mode: "keywords",
       matchedKeywords: matchedKeywords.length > 0 ? matchedKeywords : undefined,
@@ -111,7 +117,25 @@ export function validateKeywords(
 }
 
 /**
- * Main validation function - routes to appropriate validator based on question config
+ * Determine the validation mode for a question.
+ * Useful for UI to show loading state for AI questions.
+ */
+export function getValidationMode(question: DutchQuestion): "literal" | "keywords" | "ai" {
+  if (question.validation?.mode) return question.validation.mode;
+  if (question.acceptableAnswers) return "literal";
+  return "literal";
+}
+
+/**
+ * Check if a question requires async (AI) validation.
+ */
+export function requiresAiValidation(question: DutchQuestion): boolean {
+  return question.validation?.mode === "ai" && isAiAvailable();
+}
+
+/**
+ * Synchronous validation — for literal and keywords modes.
+ * For AI mode, use validateAnswerAsync instead.
  */
 export function validateAnswer(
   answer: string,
@@ -123,6 +147,35 @@ export function validateAnswer(
       return validateLiteral(answer, question.validation);
     } else if (question.validation.mode === "keywords") {
       return validateKeywords(answer, question.validation);
+    } else if (question.validation.mode === "ai") {
+      // Synchronous fallback for AI mode — use keyword matching on keyElements
+      const aiConfig = question.validation as AiValidationConfig;
+      const normalized = normalizeText(answer);
+      const words = normalized.split(" ").filter(w => w.length > 0);
+
+      if (words.length < aiConfig.minWords) {
+        return {
+          isCorrect: false,
+          points: 0,
+          feedback: { mode: "ai", aiEvaluated: false, wordCount: words.length },
+        };
+      }
+
+      // Simple fallback: check keyElements as keywords
+      let matched = 0;
+      for (const element of aiConfig.keyElements) {
+        const variants = element.split("/").map(v => v.trim().toLowerCase());
+        if (variants.some(v => normalized.includes(v))) matched++;
+      }
+      const ratio = aiConfig.keyElements.length > 0 ? matched / aiConfig.keyElements.length : 0;
+      const isCorrect = ratio >= 0.7;
+
+      return {
+        isCorrect,
+        points: isCorrect ? 25 : ratio >= 0.4 ? 15 : 0,
+        judgement: isCorrect ? "correct" : ratio >= 0.4 ? "partial" : "incorrect",
+        feedback: { mode: "ai", aiEvaluated: false, wordCount: words.length },
+      };
     }
   }
 
@@ -137,9 +190,33 @@ export function validateAnswer(
   // No validation config found
   return {
     isCorrect: false,
+    points: 0,
     feedback: {
       mode: "literal",
       acceptableAnswers: [],
     },
   };
+}
+
+/**
+ * Async validation — handles AI mode with API call, falls back gracefully.
+ * Use this for all validation when AI might be involved.
+ */
+export async function validateAnswerAsync(
+  answer: string,
+  question: DutchQuestion,
+  groepLevel?: string
+): Promise<ValidationResult> {
+  // AI mode with API available → call AI
+  if (question.validation?.mode === "ai" && isAiAvailable()) {
+    return evaluateWithAi(
+      question.question,
+      answer,
+      question.validation as AiValidationConfig,
+      groepLevel
+    );
+  }
+
+  // All other modes → synchronous
+  return validateAnswer(answer, question);
 }

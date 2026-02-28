@@ -1,0 +1,90 @@
+{
+  "id": "het-geheim-van-de-molen",
+  "title": "Het Geheim van de Molen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse cultuur",
+  "text": "De oude molen aan de rand van het dorp stond er al meer dan tweehonderd jaar. De wieken draaiden niet meer en het hout was grijs geworden van de regen. De meeste dorpsbewoners liepen er zonder op te kijken voorbij. Maar voor de twaalfjarige Sem was de molen de mooiste plek van het hele dorp.\n\nSems opa had hem verteld dat de molen vroeger een bijzonder geheim had. Tijdens de Tweede Wereldoorlog had de molenaar mensen verborgen gehouden in een ruimte onder de maalvloer. Door de stand van de wieken gaf hij signalen aan het verzet: als de wieken in een bepaalde stand stonden, betekende het dat er gevaar was. Niemand had ooit vermoed dat er achter de zakken meel een luik verborgen zat.\n\nSem had het verhaal aan zijn klasgenoten verteld, maar de meesten hadden hun schouders opgehaald. \"Het is toch maar een oud gebouw,\" had Daniël gezegd. Sem begreep niet waarom het niemand iets kon schelen. Voor hem was de molen niet zomaar een gebouw — het was een bewijs dat gewone mensen bijzondere dingen kunnen doen als het erop aankomt.\n\nOp een dag las Sem in de krant dat de gemeente plannen had om de molen af te breken. Er zou een parkeerplaats komen. Sem voelde iets in zijn borst branden. Hij ging naar de bibliotheek, zocht alles op over de geschiedenis van de molen, en schreef een brief aan de burgemeester.\n\nDrie maanden later stond Sem voor de gemeenteraad. Zijn stem trilde, maar hij las zijn verhaal voor. Toen hij klaar was, was het even stil. Daarna begon iemand te klappen. En toen nog iemand. De molen werd niet afgebroken. In plaats daarvan kwam er een bordje bij de ingang: 'Gemeentelijk monument — beschermd erfgoed.'\n\nSem glimlachte toen hij het bordje zag. Soms, dacht hij, moet één iemand beginnen met iets te zeggen. Dan volgen de anderen vanzelf.",
+  "questions": [
+    {
+      "question": "Hoe gaf de molenaar signalen aan het verzet?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["met de stand van de wieken", "door de stand van de wieken", "de wieken", "stand van de wieken"],
+      "hint": "Lees de tweede alinea nog eens goed."
+    },
+    {
+      "question": "Waarom reageerden Sems klasgenoten onverschillig toen hij het verhaal van de molen vertelde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet beredeneren dat de klasgenoten de molen alleen als een oud, onbelangrijk gebouw zagen. Ze begrepen de historische waarde niet of vonden het niet interessant. De leerling moet verder gaan dan alleen 'ze vonden het niet leuk' — er moet een poging tot verklaring zijn.",
+        "exampleAnswer": "De klasgenoten zagen de molen alleen als een oud gebouw. Ze begrepen niet waarom de geschiedenis van de molen belangrijk is.",
+        "keyElements": ["oud gebouw/niet bijzonder/onbelangrijk", "begrepen niet/niet interessant/kon niet schelen", "geschiedenis/verhaal/oorlog"],
+        "minWords": 5
+      },
+      "hint": "Kijk naar de derde alinea. Wat zegt Daniël precies?"
+    },
+    {
+      "question": "De schrijver zegt dat Sem 'iets in zijn borst voelde branden'. Wat bedoelt de schrijver hiermee?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Dit is beeldspraak. De leerling moet begrijpen dat dit betekent dat Sem boos, verontwaardigd of sterk gemotiveerd was — het is een lichamelijke beschrijving van een emotionele reactie op het nieuws dat de molen afgebroken zou worden. Accepteer elke variant die de emotie correct identificeert.",
+        "exampleAnswer": "De schrijver bedoelt dat Sem heel boos of verdrietig werd toen hij las dat de molen afgebroken zou worden. Het is beeldspraak voor een sterk gevoel.",
+        "keyElements": ["boos/kwaad/verdrietig/verontwaardigd/emotie", "molen/afbreken/parkeerplaats", "beeldspraak/gevoel/figuurlijk"],
+        "minWords": 5
+      },
+      "hint": "Dit is beeldspraak — het brandt niet echt. Welk gevoel heeft Sem?"
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte is dat één persoon het verschil kan maken als die opstaat voor wat belangrijk is, ook als anderen het niet zien. Het gaat over moed, doorzettingsvermogen, en het beschermen van cultureel erfgoed. De leerling hoeft niet al deze elementen te noemen, maar moet de kern raken: individu kan verandering brengen.",
+        "exampleAnswer": "Het verhaal laat zien dat je als kind iets kunt veranderen als je ergens in gelooft. Sem heeft in zijn eentje de molen gered door actie te ondernemen.",
+        "keyElements": ["één persoon/iemand/kind/Sem", "verschil maken/veranderen/redden/beschermen", "opstaan/actie/doen/geloven/moed"],
+        "minWords": 6
+      },
+      "hint": "Kijk naar de laatste zin van het verhaal. Dat is een belangrijke aanwijzing."
+    },
+    {
+      "question": "Waarom heeft de schrijver dit verhaal geschreven? Wat wil de schrijver je laten inzien?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het schrijversdoel is lezers aanmoedigen om op te komen voor wat je belangrijk vindt, ook al sta je er alleen voor. Daarnaast wil de schrijver laten zien dat cultureel erfgoed waardevol is en beschermd moet worden. Accepteer ook: de schrijver wil laten zien dat kinderen iets kunnen bereiken.",
+        "exampleAnswer": "De schrijver wil laten zien dat je moet opkomen voor dingen die belangrijk zijn, ook als andere mensen het niet begrijpen. En dat kinderen ook iets kunnen veranderen.",
+        "keyElements": ["opkomen/vechten/strijden/doen", "belangrijk/waarde/erfgoed/geschiedenis", "kinderen/iedereen/één persoon/verschil"],
+        "minWords": 6
+      },
+      "hint": "Denk na: waarom vertelt de schrijver juist dit verhaal? Wat is de boodschap?"
+    },
+    {
+      "question": "Vat het verhaal kort samen in twee of drie zinnen.",
+      "questionType": "samenvatten",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Een goede samenvatting bevat: (1) Sem houdt van een oude molen met een oorlogsgeschiedenis, (2) de gemeente wil de molen afbreken, (3) Sem komt in actie en weet de molen te redden. De volgorde en woordkeuze zijn vrij, maar deze drie kernpunten moeten aanwezig zijn.",
+        "exampleAnswer": "Sem houdt van een oude molen die in de oorlog mensen heeft verborgen. Als de gemeente de molen wil afbreken, schrijft Sem een brief en spreekt de gemeenteraad toe. De molen wordt een monument.",
+        "keyElements": ["molen/oud/oorlog/geschiedenis", "afbreken/gemeente/parkeerplaats/plannen", "brief/gemeenteraad/actie/redden/monument"],
+        "minWords": 8
+      },
+      "hint": "Probeer de belangrijkste gebeurtenissen in twee of drie korte zinnen op te schrijven."
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/het-geheim-van-de-molen/image-1.png", "alt": "Een oude Nederlandse windmolen aan de rand van een dorp" },
+    { "src": "/images/challenges/dutch-reading/het-geheim-van-de-molen/image-2.png", "alt": "Een jongen spreekt de gemeenteraad toe" }
+  ],
+  "imagePrompts": [
+    "An old weathered Dutch windmill at the edge of a small village, grey wood, still sails, atmospheric, children's book illustration style, muted watercolors, slightly melancholic",
+    "A twelve-year-old boy standing nervously at a podium in a council chamber reading from a paper, adults listening attentively, children's book illustration style, warm watercolors"
+  ]
+}

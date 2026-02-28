@@ -6,18 +6,32 @@
   "questions": [
     {
       "question": "Waar gaan ze naartoe?",
-      "acceptableAnswers": ["de dierentuin", "dierentuin", "naar de dierentuin"],
-      "hint": "Kijk naar de eerste zin"
+      "acceptableAnswers": [
+        "de dierentuin",
+        "dierentuin",
+        "naar de dierentuin"
+      ],
+      "hint": "Kijk naar de eerste zin",
+      "questionType": "begrijpen"
     },
     {
       "question": "Wat eet de aap?",
-      "acceptableAnswers": ["een banaan", "banaan"],
-      "hint": "Kijk in het tweede stukje"
+      "acceptableAnswers": [
+        "een banaan",
+        "banaan"
+      ],
+      "hint": "Kijk in het tweede stukje",
+      "questionType": "begrijpen"
     },
     {
       "question": "Wat doen de pinguïns?",
-      "acceptableAnswers": ["zwemmen", "ze zwemmen", "zwemmen in het water"],
-      "hint": "Kijk in het derde stukje"
+      "acceptableAnswers": [
+        "zwemmen",
+        "ze zwemmen",
+        "zwemmen in het water"
+      ],
+      "hint": "Kijk in het derde stukje",
+      "questionType": "begrijpen"
     }
   ],
   "images": [
@@ -33,5 +47,9 @@
       "src": "/images/challenges/dutch-reading/de-dierentuin/image-3.png",
       "alt": "Een aap"
     }
-  ]
+  ],
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "dieren"
 }

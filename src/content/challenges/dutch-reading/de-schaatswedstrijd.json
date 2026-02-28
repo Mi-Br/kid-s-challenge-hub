@@ -1,0 +1,100 @@
+{
+  "id": "de-schaatswedstrijd",
+  "title": "De Schaatswedstrijd",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "sport",
+  "text": "Het was de koudste winter in jaren. De sloten en meren waren al weken dichtgevroren. In het dorp Edam werd een schaatswedstrijd georganiseerd op het bevroren Markermeer.\n\nTim deed voor het eerst mee aan een echte wedstrijd. Hij had de hele winter geoefend op de gracht achter zijn huis. Zijn vader, die zelf vroeger wedstrijden had gereden, had hem geleerd hoe je lange slagen moet maken zonder te veel energie te verspillen.\n\nBij de start stonden er meer dan dertig deelnemers. Tim was zenuwachtig. Toen het startschot klonk, ging hij te snel van start. Na twee ronden merkte hij dat zijn benen zwaar werden. Hij wilde bijna opgeven.\n\nMaar toen hoorde hij zijn vader langs de kant roepen: \"Rustig, Tim! Denk aan je techniek!\" Tim haalde diep adem en veranderde zijn ritme. Langzaam haalde hij andere schaatsers in. Hij eindigde uiteindelijk op de negende plaats.\n\nTim had niet gewonnen, maar toen hij over de finish kwam, voelde hij zich alsof hij de hele wereld had verslagen.",
+  "questions": [
+    {
+      "question": "Waar werd de schaatswedstrijd gehouden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op het markermeer",
+        "het markermeer",
+        "markermeer",
+        "het bevroren markermeer"
+      ],
+      "hint": "Kijk in het eerste stukje."
+    },
+    {
+      "question": "Hoe had Tim zich voorbereid op de wedstrijd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet noemen dat Tim de hele winter heeft geoefend op de gracht en dat zijn vader hem techniek heeft geleerd (lange slagen, energie besparen).",
+        "exampleAnswer": "Tim had de hele winter geoefend op de gracht achter zijn huis. Zijn vader leerde hem lange slagen maken.",
+        "keyElements": [
+          "geoefend/oefenen/trainen",
+          "vader/geleerd/techniek/slagen"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat deed Tim voor de wedstrijd?"
+    },
+    {
+      "question": "Wat ging er mis bij de start en hoe loste Tim dat op?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet twee delen benoemen: (1) Tim ging te snel van start waardoor zijn benen zwaar werden, en (2) hij veranderde zijn ritme na het advies van zijn vader.",
+        "exampleAnswer": "Tim ging te snel van start en zijn benen werden zwaar. Toen riep zijn vader dat hij rustig moest doen. Tim veranderde zijn ritme en haalde andere schaatsers in.",
+        "keyElements": [
+          "te snel/snel/hard",
+          "ritme/rustiger/techniek/vader"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat gebeurde er bij de start? En wat deed Tim daarna?"
+    },
+    {
+      "question": "Wat voor rol speelt Tims vader in het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de vader een coach/supporter is: hij leerde Tim schaatsen, moedigde hem aan tijdens de wedstrijd, en gaf advies op het juiste moment.",
+        "exampleAnswer": "Zijn vader is als een coach. Hij leerde Tim schaatsen, en tijdens de wedstrijd riep hij dat Tim rustig moest doen.",
+        "keyElements": [
+          "coach/helpt/steunt/aanmoedigt/leert",
+          "geleerd/advies/roepen/techniek"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat doet de vader voor en tijdens de wedstrijd?"
+    },
+    {
+      "question": "Tim werd negende, maar hij voelde zich alsof hij de hele wereld had verslagen. Hoe kan dat?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Tim trots is omdat hij niet opgaf, zichzelf overwon, en zijn techniek verbeterde — winnen is niet altijd nummer één worden.",
+        "exampleAnswer": "Tim wilde bijna opgeven maar hij ging toch door. Hij is trots dat hij niet stopte en zichzelf heeft verbeterd.",
+        "keyElements": [
+          "niet opgeven/doorgaan/volhouden/trots",
+          "overwonnen/beter/zichzelf/niet nummer één"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na: je hoeft niet eerste te worden om trots te zijn."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-schaatswedstrijd/image-1.png",
+      "alt": "Schaatsers op een bevroren meer in Nederland"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-schaatswedstrijd/image-2.png",
+      "alt": "Tim komt over de finish van de schaatswedstrijd"
+    }
+  ],
+  "imagePrompts": [
+    "Ice skaters racing on a frozen Dutch lake (Markermeer) near windmills, spectators along the shore, winter scene, children's book watercolor illustration, cold blues and warm accents",
+    "A boy crossing a finish line on ice skates looking exhausted but happy, his father cheering from the side, Dutch winter scene, children's book watercolor illustration"
+  ]
+}

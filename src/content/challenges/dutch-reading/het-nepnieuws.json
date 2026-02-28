@@ -1,0 +1,70 @@
+{
+  "id": "het-nepnieuws",
+  "title": "Het Nepnieuws",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "media",
+  "text": "In de klas van juf Verhoeven hadden ze deze week les over nepnieuws. Juf Verhoeven liet twee artikelen zien op het digibord. Het ene artikel kwam van de NOS en ging over een nieuwe dierentuin in Rotterdam. Het andere artikel beweerde dat er een leeuw was ontsnapt in Amsterdam. Het tweede artikel stond op een onbekende website.\n\n'Hoe weet je welk artikel echt is?' vroeg juf Verhoeven. De meeste kinderen wezen naar het artikel over de leeuw, want dat vonden ze spannender. Maar dat was juist het nepnieuws.\n\nJuf Verhoeven legde uit dat nepnieuws vaak geschreven wordt om sterke emoties op te roepen. Angst, boosheid of verbazing zorgen ervoor dat mensen het artikel snel delen zonder na te denken. Betrouwbare nieuwsbronnen controleren hun feiten eerst bij meerdere bronnen voordat ze iets publiceren.\n\nSem stak zijn hand op. 'Mijn oom stuurt soms berichten in de familieapp die niet kloppen,' zei hij. 'Mijn moeder wordt daar boos om.' Juf Verhoeven knikte. 'Dat is een goed voorbeeld. Het is soms lastig om familie of vrienden te vertellen dat iets niet waar is. Maar het is wel belangrijk.'\n\nAan het einde van de les moesten de kinderen zelf een checklist maken om nepnieuws te herkennen. Op de checklist van Farah stond: controleer de bron, zoek of andere websites hetzelfde schrijven, kijk of er bewijzen zijn, en laat je niet misleiden door je emoties.",
+  "questions": [
+    {
+      "question": "Welk artikel was het nepnieuws?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["het artikel over de leeuw", "de leeuw", "de ontsnapte leeuw", "het artikel over de ontsnapte leeuw in amsterdam"],
+      "hint": "Kijk bij de tweede alinea."
+    },
+    {
+      "question": "Waarom kozen de meeste kinderen het verkeerde artikel als echt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de kinderen het spannendere/opwindendere artikel als echt kozen — precies het mechanisme van nepnieuws (emotie trekt aan). De tekst zegt letterlijk: 'want dat vonden ze spannender'.",
+        "exampleAnswer": "De kinderen kozen het artikel over de leeuw omdat ze dat spannender vonden. Nepnieuws is vaak spannender dan echt nieuws.",
+        "keyElements": ["spannend/spannender/opwindend/leuk", "emotie/gevoel/niet nadenken", "nepnieuws/niet echt/misleidend"],
+        "minWords": 4
+      },
+      "hint": "Waarom was het artikel over de leeuw aantrekkelijker?"
+    },
+    {
+      "question": "Wat bedoelt juf Verhoeven als ze zegt dat nepnieuws 'sterke emoties oproept'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet uitleggen dat nepnieuws bedoeld is om mensen bang, boos of verbaasd te maken. Daardoor delen mensen het snel zonder te controleren of het waar is. Alleen 'emoties' noemen zonder uit te leggen waartoe het leidt is partial.",
+        "exampleAnswer": "Het betekent dat nepnieuws geschreven wordt om mensen bang of boos te maken. Dan delen ze het snel zonder te checken of het klopt.",
+        "keyElements": ["bang/boos/verbaasd/emotie/gevoel", "delen/doorsturen/geloven", "niet controleren/niet nadenken/snel"],
+        "minWords": 5
+      },
+      "hint": "Welke emoties noemt de juf? En wat doen mensen als ze die emoties voelen?"
+    },
+    {
+      "question": "Noem twee dingen van Farahs checklist om nepnieuws te herkennen.",
+      "questionType": "begrijpen",
+      "acceptableAnswers": ["controleer de bron en zoek of andere websites hetzelfde schrijven", "bron controleren en bewijs zoeken", "controleer de bron", "kijk of andere websites hetzelfde schrijven"],
+      "hint": "Kijk bij de laatste alinea. Wat had Farah opgeschreven?"
+    },
+    {
+      "question": "Waar gaat deze tekst vooral over?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte is dat kinderen moeten leren om nepnieuws te herkennen en niet alles te geloven wat ze lezen op internet. De tekst gaat over mediawijsheid/kritisch denken. Alleen 'nepnieuws' noemen zonder de les (kritisch denken, controleren) is partial.",
+        "exampleAnswer": "De tekst gaat erover dat je moet leren om nepnieuws te herkennen. Je moet niet alles geloven wat je leest, maar eerst controleren of het echt is.",
+        "keyElements": ["nepnieuws/nep/niet echt", "herkennen/controleren/checken/kritisch", "geloven/delen/nadenken"],
+        "minWords": 5
+      },
+      "hint": "Wat leerden de kinderen in de les van juf Verhoeven?"
+    }
+  ],
+  "images": [
+    { "src": "/images/challenges/dutch-reading/het-nepnieuws/image-1.png", "alt": "Een klas kijkt naar twee nieuwsartikelen op het digibord" },
+    { "src": "/images/challenges/dutch-reading/het-nepnieuws/image-2.png", "alt": "Een meisje schrijft een checklist in haar schrift" }
+  ],
+  "imagePrompts": [
+    "A Dutch classroom with children looking at a digital whiteboard showing two news articles, one real and one fake, teacher pointing, children's book illustration, warm watercolors",
+    "A young girl writing a checklist in her notebook at a school desk, focused and thoughtful, Dutch classroom setting, children's book illustration, soft watercolors"
+  ]
+}

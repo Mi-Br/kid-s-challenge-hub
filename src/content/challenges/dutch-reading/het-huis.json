@@ -6,18 +6,62 @@
   "questions": [
     {
       "question": "Hoeveel kamers heeft het huis?",
-      "acceptableAnswers": ["4", "vier"],
-      "hint": "Kijk in het tweede stukje"
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "vier",
+        "4",
+        "vier kamers",
+        "4 kamers"
+      ],
+      "hint": "Kijk in het tweede stukje."
     },
     {
-      "question": "Waar is de keuken?",
-      "acceptableAnswers": ["beneden"],
-      "hint": "Kijk in het tweede stukje"
+      "question": "Waarom vindt het kind zijn kamer het fijnste plekje in huis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet verwijzen naar wat het kind daar doet: lezen, tekenen, spelen — het is een eigen plek waar het kind alles kan doen wat het leuk vindt.",
+        "exampleAnswer": "Omdat het kind daar kan lezen, tekenen en spelen. Het is zijn eigen plek.",
+        "keyElements": [
+          "lezen/tekenen/spelen/speelgoed",
+          "eigen plek/fijn/lekker"
+        ],
+        "minWords": 3
+      },
+      "hint": "Wat doet het kind allemaal op de kamer?"
     },
     {
-      "question": "Welke kleur heeft het bed?",
-      "acceptableAnswers": ["blauw"],
-      "hint": "Kijk in het derde stukje"
+      "question": "Hoe kun je zien dat het kind van lezen houdt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet aanwijzen dat er boeken op een plank staan en dat lezen als eerste activiteit wordt genoemd in de kamer.",
+        "exampleAnswer": "Er staan boeken op een plank boven het bureau en het kind leest in de kamer.",
+        "keyElements": [
+          "boeken/plank/bureau",
+          "lezen/leest"
+        ],
+        "minWords": 3
+      },
+      "hint": "Kijk naar wat er in de kamer staat."
+    },
+    {
+      "question": "Zou jij graag in dit huis wonen? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling geeft een mening met een reden die verwijst naar het verhaal (tuin, eigen kamer, logeren, rustige straat).",
+        "exampleAnswer": "Ja, want er is een mooie tuin en je kunt je vriendje laten logeren.",
+        "keyElements": [
+          "ja/nee/wel/niet",
+          "tuin/kamer/logeren/groot/rustig"
+        ],
+        "minWords": 4
+      },
+      "hint": "Wat is er leuk aan dit huis?"
     }
   ],
   "images": [
@@ -29,5 +73,9 @@
       "src": "/images/challenges/dutch-reading/het-huis/image-2.png",
       "alt": "Een slaapkamer"
     }
-  ]
+  ],
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de buurt"
 }

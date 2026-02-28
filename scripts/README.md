@@ -1,132 +1,101 @@
-# Challenge Image Generation Script
+# Challenge Generation Scripts
 
-This script generates images for all Dutch reading challenges using Google's Generative AI (Gemini).
+This folder contains everything needed to generate Dutch reading challenges — text content and images.
+
+## Architecture
+
+```
+scripts/
+├── AGENT.md                        ← Source of truth: full spec, schema, IEP calibration
+├── generate-challenge-text.js      ← Text generation (calls Anthropic API)
+├── generate-challenge-images.js    ← Image generation (calls Gemini API)
+├── retry-missing-images.js         ← Retry failed image generations
+└── README.md                       ← You are here
+```
+
+**AGENT.md** is the single source of truth. Both the script and any AI agent (Claude, GPT, etc.) read it for the complete specification — referentieniveaus, schema, question types, word counts, everything. The script literally loads AGENT.md and feeds it to the LLM as context.
 
 ## Prerequisites
 
-1. **Google API Key**: Get your API key from [Google AI Studio](https://aistudio.google.com/apikey)
-2. **Install Dependencies**: Make sure you've run `npm install` in the project root
-
-## Setup
-
-### 1. Create `.env` file
-
-Copy `.env.example` to `.env` and add your Google API key:
-
 ```bash
-cp .env.example .env
+npm install                    # install dependencies
+cp .env.example .env           # create env file
 ```
 
 Edit `.env`:
 ```
-GOOGLE_API_KEY=your-actual-api-key-here
+GOOGLE_API_KEY=your-gemini-key     # for image generation
+ANTHROPIC_API_KEY=your-claude-key  # for text generation
 ```
 
-### 2. Install Dependencies
+## Text Generation
+
+### With the script (batch mode)
 
 ```bash
-npm install
+# Generate one specific challenge
+node scripts/generate-challenge-text.js --groep groep5-6 --difficulty medium --topic school
+
+# Generate 5 high-difficulty groep 7-8 challenges
+node scripts/generate-challenge-text.js --groep groep7-8 --difficulty high --count 5
+
+# Auto-fill missing challenges (reads targets from AGENT.md)
+node scripts/generate-challenge-text.js --fill-gaps --count 2
+
+# See current inventory and gaps
+node scripts/generate-challenge-text.js --list
+
+# Dry run (build prompts without calling API)
+node scripts/generate-challenge-text.js --groep groep4-5 --difficulty low --dry-run
 ```
 
-This will install the required packages:
-- `@google/generative-ai` - For image generation
-- `dotenv` - For environment variable management
+The script:
+1. Reads `AGENT.md` for the full generation spec
+2. Calls Claude (Sonnet) with groep/difficulty/topic parameters
+3. Validates the response (word count, question types, literal answers in text, etc.)
+4. Saves valid JSON to `src/content/challenges/dutch-reading/`
 
-## Usage
+### With an AI agent (interactive mode)
 
-### Generate Images for All Challenges
+Point any agent at `scripts/AGENT.md`:
+
+```
+"Read scripts/AGENT.md and generate 3 groep 5-6 medium challenges about school, dieren, and sport."
+```
+
+The agent reads the spec, generates, and outputs JSON you can save to the challenges folder. This is ideal for iterating on quality or generating one-off challenges with specific requirements.
+
+### Difficulty ↔ IEP mapping
+
+| Difficulty | Referentieniveau | What it means |
+|---|---|---|
+| 🟢 low | toward 1F | Building blocks — factual recall only |
+| 🔵 medium | at 1F | Fundamenteel niveau — comprehension + simple inference |
+| 🟣 high | toward 1S/2F | Streefniveau — main idea, evaluation, writer's purpose |
+
+## Image Generation
+
+After generating text challenges:
 
 ```bash
-npm run generate:images
+# Generate images for all challenges that need them
+node scripts/generate-challenge-images.js
 ```
 
-This will:
-1. ✅ Read all challenge JSON files from `src/content/challenges/dutch-reading/`
-2. ✅ Extract the text from each challenge
-3. ✅ Generate 3 images per challenge using Gemini 2.5 Flash
-4. ✅ Save images to `public/images/challenges/dutch-reading/{challenge-id}/image-{1,2,3}.png`
-5. ✅ Create directories automatically
+The image script reads `imagePrompts` from each challenge JSON (if present) for better-targeted illustrations. Falls back to auto-generated prompts from the Dutch text.
 
-## Output Structure
+## Workflow
 
-After running the script, you'll have:
+1. **Generate text:** `node scripts/generate-challenge-text.js --groep ... --difficulty ...`
+2. **Review:** Spot-check the JSON files for quality
+3. **Generate images:** `node scripts/generate-challenge-images.js`
+4. **Test:** `npm run dev` — new challenges appear automatically
 
+## File Naming
+
+Challenge files are named by their slug ID:
 ```
-public/images/challenges/dutch-reading/
-├── de-kat/
-│   ├── image-1.png
-│   ├── image-2.png
-│   └── image-3.png
-├── de-hond/
-│   ├── image-1.png
-│   ├── image-2.png
-│   └── image-3.png
-└── ... (all 12 challenges)
+src/content/challenges/dutch-reading/de-rode-bal.json
 ```
 
-## How It Works
-
-1. **Reads Challenges**: Loads all JSON files from the dutch-reading directory
-2. **Generates Prompts**: Creates 3 different image prompts based on the challenge text
-3. **Generates Images**: Uses Gemini 2.5 Flash to create illustrations
-4. **Saves Images**: Stores PNG files in the correct folder structure
-5. **Progress Logging**: Shows real-time progress for each challenge
-
-## Example Output
-
-```
-🚀 Challenge Image Generator
-
-📂 Configuration:
-   Input:  src/content/challenges/dutch-reading
-   Output: public/images/challenges/dutch-reading
-   Images per challenge: 3
-
-📚 Found 12 challenge files
-
-✨ Starting image generation for 12 challenges...
-
-[1/12] 📖 "De Kat" (de-kat)
-  🎨 Generating image 1/3... ✓ Image 1: image-1.png (245.30 KB)
-  🎨 Generating image 2/3... ✓ Image 2: image-2.png (238.15 KB)
-  🎨 Generating image 3/3... ✓ Image 3: image-3.png (251.42 KB)
-```
-
-## Rate Limiting
-
-The script includes a 2-second delay between challenges to avoid API rate limiting. For 12 challenges with 3 images each, expect the process to take approximately 15-20 minutes.
-
-## Troubleshooting
-
-### "No API key found"
-- Make sure you've created a `.env` file with your `GOOGLE_API_KEY`
-- Check that the API key is valid at https://aistudio.google.com/apikey
-
-### "Challenges directory not found"
-- Make sure you're running the script from the project root
-- Verify the challenges are in `src/content/challenges/dutch-reading/`
-
-### "No image data in response"
-- This occasionally happens with API rate limiting
-- Try running the script again after a few minutes
-
-### Image generation is slow
-- Google's API can take 30-60 seconds per image
-- For 36 total images, expect 15-20 minutes total
-- This is normal and necessary for quality illustrations
-
-## Configuration
-
-The script uses hardcoded values for consistency. To modify behavior:
-
-- **Images per challenge**: Edit `IMAGES_PER_CHALLENGE` constant
-- **Input directory**: Edit `CHALLENGES_INPUT_DIR` constant
-- **Output directory**: Edit `IMAGES_OUTPUT_BASE` constant
-- **Style guidelines**: Edit `STYLE_GUIDELINES` string
-
-## Notes
-
-- All images are generated with a children's book illustration aesthetic
-- The script maintains visual consistency across all images for each challenge
-- Images are PNG format with automatic compression
-- Generated images are approximately 200-300 KB each
+The groep level and difficulty live inside the JSON — no prefix in the filename.
