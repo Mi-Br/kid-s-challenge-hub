@@ -1,0 +1,40 @@
+
+🇳🇱 Dutch Reading Challenge — Text Generator
+
+📚 Loading variety data...
+  ✓ Loaded topic library (312 sub-topics)
+  ✓ Loaded story arcs (26 arcs)
+  ✓ Loaded constraints
+🚀 Batch mode: groep4-5 (10 challenges)
+
+[1/10] 🟢 groep4-5 / low (toward-1F) / spelen
+  ✅ Saved: het-natte-ongeluk.json (65 words, 3 questions)
+[2/10] 🟢 groep4-5 / low (toward-1F) / kleding
+  ✅ Saved: annas-nieuwe-jas.json (64 words, 3 questions)
+[3/10] 🟢 groep4-5 / low (toward-1F) / het lichaam
+  ✅ Saved: tom-en-zijn-arm.json (50 words, 3 questions)
+[4/10] 🟢 groep4-5 / low (toward-1F) / school
+  ✅ Saved: toms-spreekbeurt.json (72 words, 3 questions)
+[5/10] 🟢 groep4-5 / low (toward-1F) / dieren
+  ❌ Validation failed:
+     Literal answer not found in text: "rood" for Q: "Welke kleur heeft de kat?"
+[6/10] 🟢 groep4-5 / low (toward-1F) / de buurt
+  ⚠️  Word count slightly over: 99 (max: 60)
+  ✅ Saved: toms-verloren-bal.json (99 words, 3 questions)
+[7/10] 🟢 groep4-5 / low (toward-1F) / verjaardagen
+  ❌ Validation failed:
+     Literal answer not found in text: "ze wilde feest vieren met vrienden" for Q: "Waarom was Lotte eerst verdrietig?"
+[8/10] 🟢 groep4-5 / low (toward-1F) / het weer
+  ⚠️  Word count slightly over: 108 (max: 60)
+  ✅ Saved: regen-en-zonneschijn.json (108 words, 3 questions)
+[9/10] 🟢 groep4-5 / low (toward-1F) / eten
+  ⚠️  Word count slightly over: 82 (max: 60)
+  ⚠️  Keyword group has <3 synonyms: [veel, te veel] in Q: "Waarom zijn de eerste koekjes niet lekker?"
+  ✅ Saved: de-zoete-koekjes.json (82 words, 3 questions)
+[10/10] 🟢 groep4-5 / low (toward-1F) / familie
+  ⚠️  Word count slightly over: 80 (max: 60)
+  ⚠️  ID "opa-s-verhalen" doesn't match slugified title "opas-verhalen"
+  ✅ Saved: opa-s-verhalen.json (80 words, 3 questions)
+
+📊 Done: 8 saved, 2 failed out of 10 total
+

@@ -1,0 +1,91 @@
+{
+  "id": "mijn-eerste-schooldag",
+  "title": "Mijn Eerste Schooldag",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Lisa houdt haar nieuwe schooltas stevig vast. Vandaag is haar eerste dag op de Nederlandse school. Mama loopt met haar mee naar het grote gebouw.\n\n\"Ik wil niet naar binnen,\" fluistert Lisa tegen mama. \"Alle kinderen kennen elkaar al.\" Mama knuffelt haar en zegt: \"Je gaat nieuwe vrienden maken, lieverd.\"\n\nIn de klas wijst juf Marieke Lisa een plaats aan naast Emma. Lisa zegt niks omdat ze bang is om fouten te maken met haar Nederlands. Emma tekent een hartje op Lisa's schrift en glimlacht.\n\nTijdens de pauze staat Lisa alleen bij de muur. Ze kijkt naar de andere kinderen die samen voetballen en touwtjespringen. Emma komt naar haar toe. \"Wil je met ons meedoen?\" vraagt ze vriendelijk.\n\nLisa schudt haar hoofd want ze kent de spelletjes niet. Dan krijgt ze een idee. Ze haalt kleurpotloden uit haar tas en begint een regenboog te tekenen op het schoolplein. Eerst komt Emma kijken, daarna nog meer kinderen.\n\n\"Wat mooi!\" roept Tom. \"Kun je mij ook leren tekenen?\" Lisa knikt blij. Nu heeft ze eindelijk vrienden gevonden op haar nieuwe school.",
+  "questions": [
+    {
+      "question": "Waar houdt Lisa stevig vast?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "haar nieuwe schooltas",
+        "nieuwe schooltas",
+        "schooltas"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom zegt Lisa niks in de klas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "omdat ze bang is om fouten te maken",
+        "ze is bang om fouten te maken",
+        "bang om fouten te maken"
+      ],
+      "hint": "Zoek in de derde alinea."
+    },
+    {
+      "question": "Waarom schudt Lisa haar hoofd als Emma vraagt of ze wil meedoen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kent",
+            "weet",
+            "kan"
+          ],
+          [
+            "spelletjes",
+            "spellen",
+            "spel",
+            "spelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa wel en niet weet."
+    },
+    {
+      "question": "Wat betekent het woord 'regenboog' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa tekent iets met verschillende kleuren.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "kleuren in de lucht na regen"
+          ],
+          [
+            "gekleurde boog"
+          ],
+          [
+            "boog van kleuren"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-schooldag/image-1.png",
+      "alt": "Lisa staat met haar mama voor een grote Nederlandse school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-schooldag/image-2.png",
+      "alt": "Lisa tekent een regenboog op het schoolplein terwijl kinderen om haar heen kijken"
+    }
+  ],
+  "imagePrompts": [
+    "A nervous young girl holding a new school bag standing with her mother in front of a large Dutch school building, children's book illustration style",
+    "A young girl drawing a colorful rainbow with pencils on a school playground while several curious children gather around to watch, children's book illustration style"
+  ]
+}

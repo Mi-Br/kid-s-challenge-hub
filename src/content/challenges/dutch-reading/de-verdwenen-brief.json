@@ -1,0 +1,122 @@
+{
+  "id": "de-verdwenen-brief",
+  "title": "De Verdwenen Brief",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Lotte staarde naar het oude dagboek dat ze op zolder had gevonden. Het hoorde toe aan haar overgrootmoeder Anna, die tijdens de Tweede Wereldoorlog had geleefd. Anna schreef over een geheime brief die ze moest verstoppen voor de ondergrondse verzetsgroep. Die brief bevatte volgens Anna cruciale informatie over een geplande razzia in hun wijk.\n\nTerwijl Lotte verder las, kreeg ze kippenvei. Anna beschreef hoe ze 's nachts wakker werd van voetstappen op straat. Duitse soldaten doorzochten willekeurig huizen, op zoek naar verzetsstrijders en onderduikers. Anna had de brief achter een losse steen in de kelder verstopt, maar de volgende dag was hij verdwenen. Iemand had hem weggenomen, maar wie?\n\nAnna's handschrift werd steeds grilliger naarmate haar verhaal vorderde. Ze begon te twijfelen aan haar eigen geheugen. Had ze de brief wel echt verstopt? Of had ze hem misschien aan iemand gegeven en was ze dat vergeten? De angst en spanning van die tijd hadden haar geest aangetast. Ze schreef: \"Ik weet niet meer wat echt is. Misschien bestaat die brief alleen in mijn hoofd.\"\n\nDe laatste pagina's van het dagboek waren nat geworden door een lekkage in het dak. De inkt was uitgelopen, waardoor sommige woorden onleesbaar waren geworden. Lotte kon nog net onderscheiden dat Anna schreef over \"de waarheid die niemand mag weten\" en \"schuld die ik meedraag\". Maar wat die waarheid precies was, bleef voor altijd een mysterie.\n\nLotte sloot het dagboek met een ongemakkelijk gevoel. Ze zou nooit weten of haar overgrootmoeder een heldin was geweest of misschien iets heel anders. De geschiedenis van haar familie bleef gehuld in duisternis, en sommige geheimen zouden voor eeuwig begraven blijven in het verleden.",
+  "questions": [
+    {
+      "question": "Wat wilde Anna verstoppen voor de ondergrondse verzetsgroep?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een geheime brief",
+        "een brief",
+        "geheime brief"
+      ],
+      "hint": "Kijk naar de tweede zin van de eerste alinea."
+    },
+    {
+      "question": "Waarom begon Anna te twijfelen aan haar eigen verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de angst en spanning van de oorlog Anna's geest hadden aangetast, waardoor ze niet meer wist wat echt was.",
+        "exampleAnswer": "De angst en spanning van de oorlog hadden haar geest aangetast, waardoor ze niet meer wist wat echt gebeurd was.",
+        "keyElements": [
+          "angst/spanning/oorlog",
+          "geest aangetast/geheugen/twijfelen",
+          "niet meer wist/vergeten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Lees de derde alinea aandachtig."
+    },
+    {
+      "question": "Hoe beïnvloedde de beschadiging van het dagboek Lottes begrip van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet uitleggen dat door de waterlekkage sommige woorden onleesbaar werden, waardoor belangrijke informatie verloren ging en het mysterie onopgelost bleef.",
+        "exampleAnswer": "Door de waterlekkage waren woorden onleesbaar geworden, waardoor Lotte de volledige waarheid nooit kon achterhalen.",
+        "keyElements": [
+          "waterlekkage/nat/inkt uitgelopen",
+          "onleesbaar/verloren",
+          "waarheid onbekend/mysterie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat er met de laatste pagina's is gebeurd."
+    },
+    {
+      "question": "Beoordeel of dit verhaal een betrouwbaar beeld geeft van de Tweede Wereldoorlog. Onderbouw je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet beoordelen dat het verhaal geen betrouwbaar historisch beeld geeft omdat het door de ogen van een onbetrouwbare verteller wordt verteld en veel onduidelijkheden bevat.",
+        "exampleAnswer": "Het verhaal geeft geen betrouwbaar beeld omdat Anna zelf twijfelt aan haar geheugen en veel informatie onduidelijk of verloren is.",
+        "keyElements": [
+          "onbetrouwbaar/onduidelijk/twijfel",
+          "Anna's geheugen/geest aangetast",
+          "informatie verloren/mysterie"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de betrouwbaarheid van Anna als bron."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over hoe oorlogstrauma het geheugen kan aantasten en hoe sommige familiegeheimen voor altijd onopgelost blijven.",
+        "exampleAnswer": "Het verhaal gaat erover dat oorlog mensen kan beschadigen en dat niet alle mysteries uit het verleden kunnen worden opgelost.",
+        "keyElements": [
+          "oorlog/trauma/beschadigen",
+          "geheugen/geest aangetast",
+          "mysteries/geheimen onopgelost",
+          "verleden"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de overkoepelende boodschap over oorlog en geheugen."
+    },
+    {
+      "question": "Waarom eindigt de schrijver het verhaal zonder duidelijke antwoorden te geven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wil laten zien dat niet alle mysteries kunnen worden opgelost en dat oorlog blijvende onduidelijkheid en trauma achterlaat.",
+        "exampleAnswer": "De schrijver wil laten zien dat sommige geheimen uit de oorlog nooit opgelost kunnen worden en dat dit deel uitmaakt van het trauma.",
+        "keyElements": [
+          "mysteries/geheimen onopgelost",
+          "oorlog/trauma",
+          "onduidelijkheid/duisternis",
+          "realistische weergave"
+        ],
+        "minWords": 8
+      },
+      "hint": "Overweeg wat de schrijver wil bereiken met deze open einde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-brief/image-1.png",
+      "alt": "Een meisje leest een oud dagboek op een stoffige zolder"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-brief/image-2.png",
+      "alt": "Watergevlekte pagina's van een dagboek met uitgelopen inkt"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl reading an old diary in a dusty Dutch attic with wooden beams, children's book illustration style, warm lighting filtering through a small window",
+    "Close-up of damaged diary pages with water stains and smudged ink making text illegible, children's book illustration style, mysterious and somber atmosphere"
+  ]
+}

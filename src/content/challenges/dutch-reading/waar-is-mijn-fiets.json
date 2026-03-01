@@ -1,0 +1,107 @@
+{
+  "id": "waar-is-mijn-fiets",
+  "title": "Waar is mijn fiets?",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de buurt",
+  "text": "\"Mama, ik ga naar buiten!\" roept Lisa. \"Ik wil met mijn nieuwe rode fiets rijden.\"\n\n\"Goed zo,\" zegt mama. \"Zet hem wel op slot want er worden veel fietsen gestolen in onze buurt.\"\n\nLisa rent naar de schuur. Ze kijkt overal, maar haar fiets is er niet. \"Waar is mijn fiets?\" vraagt ze zich af.\n\n\"Papa!\" roept Lisa naar binnen. \"Mijn rode fiets is weg! Heb jij hem gezien?\"\n\n\"Nee, ik heb hem niet gezien,\" antwoordt papa. \"Misschien staat hij bij de voordeur?\"\n\nLisa rent naar de voordeur. \"Hij staat hier ook niet!\" roept ze verdrietig.\n\n\"Kijk eens bij de achterdeur,\" zegt mama. \"Soms zet je hem daar neer.\"\n\nLisa loopt naar de achtertuin. \"Ook niet hier,\" zucht ze. \"Iemand heeft mijn fiets gestolen omdat ik hem niet op slot heb gezet.\"\n\n\"Wacht even,\" zegt papa. \"Ik herinner me iets. Oma belde vanmorgen. Ze vroeg of je wilde komen helpen in haar tuin.\"\n\n\"Ja, dat klopt,\" zegt Lisa. \"Ik ben naar oma gefietst. Maar waar heb ik mijn fiets gelaten?\"\n\n\"Bel oma maar,\" zegt mama. \"Misschien weet zij het.\"\n\nLisa belt oma. \"Oma, staat mijn rode fiets nog bij jouw huis?\"\n\n\"Ja lieverd,\" lacht oma. \"Je fiets staat veilig in mijn schuur. Je was zo moe na het tuinwerk dat papa je naar huis heeft gebracht met de auto.\"\n\n\"O ja!\" roept Lisa blij. \"Nu weet ik het weer. Dank je wel, oma!\"\n\n\"Geen probleem,\" zegt oma. \"Kom maar ophalen wanneer je wilt.\"\n\nLisa hangt op en lacht. \"Mijn fiets is niet gestolen. Hij staat gewoon bij oma!\"\n\n\"Gelukkig maar,\" zegt mama. \"Volgende keer moet je beter onthouden waar je je fiets neerzet.\"\n\n\"Dat ga ik zeker doen,\" belooft Lisa. \"En ik zet hem altijd op slot, ook bij oma.\"",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Lisa's fiets?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk naar de eerste alinea waar Lisa naar buiten wil."
+    },
+    {
+      "question": "Waarom was Lisa verdrietig toen ze haar fiets niet kon vinden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "dacht",
+            "dachten",
+            "denken",
+            "geloofde",
+            "geloofden",
+            "geloven"
+          ],
+          [
+            "gestolen",
+            "weg",
+            "kwijt",
+            "verdwenen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa zei over waarom haar fiets weg was."
+    },
+    {
+      "question": "Vind jij dat Lisa goed heeft gezocht naar haar fiets? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "netjes"
+          ],
+          [
+            "nee",
+            "niet",
+            "slecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan alle plaatsen waar Lisa heeft gekeken."
+    },
+    {
+      "question": "Wat betekent het woord 'herinner' in deze zin: 'Ik herinner me iets'?",
+      "questionType": "woordbetekenis",
+      "hint": "Papa weet ineens iets dat hij was vergeten.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "weet weer"
+          ],
+          [
+            "denk aan"
+          ],
+          [
+            "komt terug"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/waar-is-mijn-fiets/image-1.png",
+      "alt": "Lisa kijkt verdrietig in een lege schuur waar haar rode fiets zou moeten staan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/waar-is-mijn-fiets/image-2.png",
+      "alt": "Lisa belt haar oma terwijl haar ouders toekijken in de woonkamer"
+    }
+  ],
+  "imagePrompts": [
+    "A sad young girl looking into an empty shed where her red bicycle should be, children's book illustration style, Dutch suburban setting",
+    "A happy young girl talking on the phone to her grandmother while her parents watch in a cozy living room, children's book illustration style"
+  ]
+}

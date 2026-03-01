@@ -1,0 +1,133 @@
+{
+  "id": "de-echte-smaak-van-thuis",
+  "title": "De Echte Smaak van Thuis",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wereldkeuken",
+  "text": "Yasmin keek naar haar lunchbox en zuchtte diep. Weer had haar moeder Marokkaanse couscous met groenten meegegeven. Om haar heen pakten haar klasgenoten hun boterhammen met kaas en ham uit. Niemand had zoiets als zij.\n\n'Wat is dat voor vreemd eten?' vroeg Sophie, die naast haar zat. 'Het ruikt zo anders.' Yasmin voelde haar wangen rood worden. 'Het is gewoon couscous,' mompelde ze zachtjes. Ze wilde eigenlijk zeggen dat het heerlijk was, maar de woorden bleven in haar keel steken.\n\nThuis vertelde Yasmin haar moeder wat er gebeurd was. 'Mama, waarom kan ik niet gewoon boterhammen meenemen zoals iedereen?' Haar moeder glimlachte verdrietig. 'Lieverd, ons eten is onderdeel van wie we zijn. Maar als je boterhammen wilt...' Ze maakte haar zin niet af.\n\nDe volgende dag nam Yasmin inderdaad boterhammen mee. Sophie knikte goedkeurend. 'Nu heb je normaal eten,' zei ze. Maar Yasmin voelde zich helemaal niet normaal. Het brood smaakte naar niets vergeleken met moeders kruidige gerechten.\n\nDie middag organiseerde juf Linda een internationale dag. 'Iedereen mag eten uit zijn eigen cultuur meenemen,' kondigde ze aan. Yasmin zag hoe enthousiast Hassan reageerde - hij kwam uit Turkije. Opeens begreep ze iets. Hassan had vast hetzelfde meegemaakt als zij!\n\nOp de internationale dag bracht Yasmin moeders beroemde tajine mee. Tot haar verbazing kwamen veel kinderen proeven. 'Wow, dit is echt lekker!' riep Tom. 'Welke kruiden zitten erin?' vroeg Emma nieuwsgierig. Yasmin straalde en vertelde trots over de speciale Marokkaanse recepten van haar oma.\n\nToen ze thuiskwam, omhelsde ze haar moeder. 'Mama, morgen wil ik weer couscous mee. Onze smaak van thuis is de beste smaak die er is.' Haar moeder knikte met tranen in haar ogen. 'Dat is hij zeker, habibti. Dat is hij zeker.'",
+  "questions": [
+    {
+      "question": "Welk Marokkaans gerecht bracht Yasmin mee naar de internationale dag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "tajine",
+        "moeders beroemde tajine"
+      ],
+      "hint": "Zoek in de voorlaatste paragraaf naar het speciale gerecht."
+    },
+    {
+      "question": "Waarom voelde Yasmin zich anders dan haar klasgenoten toen ze couscous mee had?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "anders",
+            "vreemd",
+            "afwijkend",
+            "bijzonder"
+          ],
+          [
+            "niemand",
+            "alleen",
+            "enige"
+          ],
+          [
+            "eten",
+            "lunch",
+            "voedsel",
+            "gerecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat de andere kinderen aten en hoe Yasmin zich voelde."
+    },
+    {
+      "question": "Hoe veranderde Yasmins houding tegenover haar eigen cultuur tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "schaamde",
+            "schamen",
+            "verlegen",
+            "geneert",
+            "geneerde"
+          ],
+          [
+            "trots",
+            "blij",
+            "enthousiast",
+            "straalde",
+            "straalt"
+          ],
+          [
+            "veranderde",
+            "verandering",
+            "anders",
+            "omslag"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Yasmin zich voelde aan het begin met hoe ze zich voelde aan het eind."
+    },
+    {
+      "question": "Vind je dat de school goed heeft gehandeld door een internationale dag te organiseren? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de internationale dag en dit onderbouwen met argumenten uit de tekst of eigen ervaring. Ze kunnen het positief vinden (kinderen leren elkaar kennen, acceptatie) of negatief (te laat, had eerder gemoeten), maar moeten redeneren.",
+        "exampleAnswer": "Ik vind het goed omdat kinderen toen ontdekten dat ander eten ook lekker kan zijn en Yasmin zich beter voelde over haar cultuur.",
+        "keyElements": [
+          "mening/vind",
+          "omdat/want/doordat",
+          "kinderen/leerlingen",
+          "cultuur/eten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat er gebeurde tijdens de internationale dag en wat dat voor Yasmin betekende."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over trots zijn op je eigen cultuur en identiteit, ook als je anders bent. Het gaat over acceptatie en zelfvertrouwen.",
+        "exampleAnswer": "Het verhaal gaat erover dat je trots moet zijn op je eigen cultuur en niet moet proberen om hetzelfde te zijn als anderen.",
+        "keyElements": [
+          "trots/accepteren",
+          "cultuur/identiteit/afkomst",
+          "anders/verschillend",
+          "jezelf/eigen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Yasmin heeft geleerd over zichzelf en haar cultuur."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-echte-smaak-van-thuis/image-1.png",
+      "alt": "Yasmin kijkt verdrietig naar haar lunchbox met couscous terwijl klasgenoten boterhammen eten"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-echte-smaak-van-thuis/image-2.png",
+      "alt": "Yasmin straalt trots terwijl kinderen proeven van haar tajine tijdens de internationale dag"
+    }
+  ],
+  "imagePrompts": [
+    "A young Moroccan-Dutch girl looking sadly at her lunchbox containing colorful couscous while Dutch classmates eat sandwiches around her in a school cafeteria, children's book illustration style",
+    "The same girl beaming with pride as diverse children gather around tasting her tajine dish during an international food day at school, children's book illustration style"
+  ]
+}

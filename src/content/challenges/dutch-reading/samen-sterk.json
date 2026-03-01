@@ -1,0 +1,104 @@
+{
+  "id": "samen-sterk",
+  "title": "Samen Sterk",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "gezondheid",
+  "text": "Lisa voelde zich de laatste weken niet goed. Ze was vaak moe en verdrietig. Op school wilde ze niet meer met haar vrienden praten. Ze zat alleen in de pauze.\n\nHaar beste vriendin Emma maakte zich zorgen. Emma zag dat Lisa anders was dan normaal. Ze besloot om met Lisa te praten. \"Wat is er mis?\" vroeg Emma voorzichtig.\n\nLisa begon te huilen. Ze vertelde dat ze zich eenzaam voelde. Ze had ruzie gehad met andere meisjes in haar klas. Nu voelde ze zich buitengesloten door de groep. Lisa was bang dat niemand haar meer leuk vond.\n\nEmma luisterde goed naar haar vriendin. Ze gaf Lisa een knuffel. \"Je bent niet alleen,\" zei Emma. \"Ik ben er voor je. We kunnen samen naar de mentor gaan om hulp te vragen.\"\n\nLisa voelde zich meteen wat beter. Ze was blij dat Emma er voor haar was. Ze besloten samen naar de mentor te gaan. De mentor kon hen helpen om het probleem op te lossen. Lisa leerde dat praten over problemen echt helpt.",
+  "questions": [
+    {
+      "question": "Hoe voelde Lisa zich de laatste weken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "moe en verdrietig",
+        "niet goed",
+        "moe",
+        "verdrietig"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelde Lisa zich eenzaam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ruzie",
+            "ruziemaken",
+            "conflict"
+          ],
+          [
+            "buitengesloten",
+            "uitgesloten",
+            "alleen gelaten"
+          ],
+          [
+            "groep",
+            "meisjes",
+            "klas",
+            "klasgenoten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lisa vertelt Emma wat er gebeurd is met de andere meisjes."
+    },
+    {
+      "question": "Wat deed Emma toen Lisa begon te huilen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "luisterde goed",
+        "gaf lisa een knuffel",
+        "luisterde en gaf een knuffel"
+      ],
+      "hint": "Zoek in de vierde alinea wat Emma deed."
+    },
+    {
+      "question": "Waarom was het goed dat Lisa met Emma praatte over haar problemen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "beter",
+            "opgelucht",
+            "goed"
+          ],
+          [
+            "hulp",
+            "helpen",
+            "steun",
+            "steunen"
+          ],
+          [
+            "alleen",
+            "samen",
+            "vriendin"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Lisa zich voelde nadat ze met Emma had gepraat."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/samen-sterk/image-1.png",
+      "alt": "Lisa zit alleen op de schoolbank terwijl andere kinderen spelen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/samen-sterk/image-2.png",
+      "alt": "Emma geeft Lisa een knuffel en troost haar"
+    }
+  ],
+  "imagePrompts": [
+    "A sad teenage girl sitting alone on a school bench during break time while other students play in the background, children's book illustration style, Dutch school setting",
+    "Two teenage girls, one comforting the other with a hug, showing friendship and support, children's book illustration style, warm and caring scene"
+  ]
+}

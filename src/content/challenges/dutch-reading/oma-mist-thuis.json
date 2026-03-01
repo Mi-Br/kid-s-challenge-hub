@@ -1,0 +1,90 @@
+{
+  "id": "oma-mist-thuis",
+  "title": "Oma Mist Thuis",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "De familie Van der Berg gaat op vakantie naar de zee. Papa rijdt de auto en mama kijkt op de kaart. Op de achterbank zitten Tim, Lisa en oma Truus.\n\nTim is heel blij omdat hij gaat zwemmen in de zee. Lisa zingt vrolijke liedjes want ze houdt van reizen. Maar oma Truus kijkt verdrietig uit het raam. Ze denkt aan haar eigen huis met de mooie tuin vol bloemen.\n\n\"Wat is er, oma?\" vraagt Tim. \"Mis je je huis al?\" Oma knikt langzaam. \"Ik ben hier blij met jullie, maar mijn hart is een beetje zwaar,\" zegt ze zacht.\n\nLisa pakt oma's hand vast. \"Vertel ons over je tuin, oma. Dan zijn we er samen.\" Oma's ogen beginnen te glimmen. Ze vertelt over de rode rozen en de gele zonnebloemgn die zo hoog worden.\n\n\"Als we thuiskomen,\" zegt Tim, \"helpen Lisa en ik je in de tuin. Dan planten we nieuwe bloemen samen!\" Nu lacht oma weer. Haar hart voelt lichter omdat haar kleinkinderen van haar houden.",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de rozen in oma's tuin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Oma vertelt over de bloemen in haar tuin."
+    },
+    {
+      "question": "Welke kleur hebben de zonnebloemen in oma's tuin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel",
+        "gele"
+      ],
+      "hint": "Kijk naar wat oma vertelt over haar bloemen."
+    },
+    {
+      "question": "Waarom voelt oma zich verdrietig in de auto?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "mist",
+            "missen",
+            "denkt aan",
+            "verlangt"
+          ],
+          [
+            "huis",
+            "thuis",
+            "eigen huis",
+            "tuin"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees waar oma aan denkt als ze uit het raam kijkt."
+    },
+    {
+      "question": "Wat betekent \"mijn hart is een beetje zwaar\" in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk na over hoe oma zich voelt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "verdrietig"
+          ],
+          [
+            "triest"
+          ],
+          [
+            "niet blij"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/oma-mist-thuis/image-1.png",
+      "alt": "Een auto met een familie op weg naar vakantie, oma kijkt verdrietig uit het raam"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/oma-mist-thuis/image-2.png",
+      "alt": "Oma lacht weer terwijl de kleinkinderen haar hand vasthouden in de auto"
+    }
+  ],
+  "imagePrompts": [
+    "A family car driving to vacation with grandmother looking sad out the window while children sit beside her, children's book illustration style",
+    "Grandmother smiling as her grandchildren hold her hands in the car, showing love and comfort, children's book illustration style"
+  ]
+}

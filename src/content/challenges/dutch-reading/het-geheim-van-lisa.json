@@ -1,0 +1,110 @@
+{
+  "id": "het-geheim-van-lisa",
+  "title": "Het Geheim van Lisa",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Lisa en haar kleine broer Tom spelen in hun slaapkamer. Lisa heeft een nieuw dagboek met een hartje erop. Ze schrijft er elke dag in omdat ze haar geheimen wil bewaren.\n\nTom kijkt nieuwsgierig naar het boekje. \"Wat schrijf je?\" vraagt hij. \"Dat is geheim,\" zegt Lisa. Ze stopt het dagboek onder haar kussen.\n\nDe volgende dag gaat Lisa naar school. Tom blijft thuis omdat hij ziek is. Hij verveelt zich en gaat naar Lisa's kamer. Het dagboek ligt op haar bureau. Tom pakt het en leest: \"Mama's verjaardag: ik ga een tekening maken.\"\n\nWanneer Lisa thuiskomt, ziet ze dat haar dagboek open ligt. Ze wordt boos en roept: \"Tom! Je hebt mijn dagboek gelezen!\" Tom voelt zich schuldig omdat hij weet dat het niet mocht.\n\nDie avond praten mama en papa met Lisa en Tom. \"Geheimen zijn belangrijk,\" zegt mama. \"Maar soms kun je leuke geheimen samen delen.\" Lisa kijkt naar Tom en glimlacht. \"Wil je me helpen met mama's tekening?\" vraagt ze. Tom knikt blij want hij wil graag helpen.",
+  "questions": [
+    {
+      "question": "Wat heeft Lisa nieuw gekregen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een nieuw dagboek",
+        "een dagboek met een hartje",
+        "een nieuw dagboek met een hartje erop"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom blijft Tom thuis als Lisa naar school gaat?",
+      "questionType": "begrijpen",
+      "hint": "Lees de derde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "ziek"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom wordt Lisa boos op Tom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "dagboek",
+            "boekje"
+          ],
+          [
+            "gelezen",
+            "lezen",
+            "las",
+            "bekeken",
+            "gekeken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Tom deed toen Lisa weg was."
+    },
+    {
+      "question": "Vind je dat Tom verkeerd handelde? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "verkeerd",
+            "fout",
+            "niet goed"
+          ],
+          [
+            "geheim",
+            "geheimen",
+            "privé",
+            "van lisa"
+          ],
+          [
+            "mocht",
+            "mag",
+            "toestemming",
+            "vragen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat mama zei over geheimen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-lisa/image-1.png",
+      "alt": "Lisa schrijft in haar dagboek terwijl Tom nieuwsgierig toekijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-lisa/image-2.png",
+      "alt": "Lisa en Tom werken samen aan een tekening voor mama's verjaardag"
+    }
+  ],
+  "imagePrompts": [
+    "A girl writing in a diary with a heart on the cover while her younger brother watches curiously in their shared bedroom, children's book illustration style",
+    "Two children working together on a birthday drawing at a desk, the older sister showing the younger brother how to draw, warm family atmosphere, children's book illustration style"
+  ]
+}

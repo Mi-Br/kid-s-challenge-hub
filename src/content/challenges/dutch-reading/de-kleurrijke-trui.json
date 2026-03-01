@@ -1,0 +1,101 @@
+{
+  "id": "de-kleurrijke-trui",
+  "title": "De Kleurrijke Trui",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "kleding",
+  "text": "Emma heeft een nieuwe trui gekregen van oma. De trui is heel bijzonder omdat hij alle kleuren van de regenboog heeft. Morgen is het Koningsdag en Emma wil de trui graag dragen.\n\nOp school ziet haar vriendin Lisa de mooie trui. \"Wat een prachtige trui!\" zegt Lisa. \"Mag ik hem even aanraken?\" Emma schudt haar hoofd. \"Nee, want dan wordt hij vies,\" zegt ze. Lisa kijkt verdrietig.\n\nTijdens de pauze speelt Emma voetbal. Plotseling valt ze in een plas water. Haar kleurrijke trui wordt helemaal nat en vies. Emma voelt zich schuldig omdat ze zo gemeen was tegen Lisa.\n\nNa school gaat Emma naar Lisa toe. \"Het spijt me dat ik zo onaardig was,\" zegt ze. \"Wil je morgen mijn oranje vest lenen voor Koningsdag?\" Lisa glimlacht breed. \"Graag! Dan kunnen we samen mooi zijn op het feest.\"\n\nDe volgende dag draagt Emma haar schone trui en Lisa het oranje vest. Ze dansen samen op het Koningsdagfeest in het park. Emma heeft geleerd dat delen veel leuker is dan alles voor jezelf houden.",
+  "questions": [
+    {
+      "question": "Welke kleuren heeft Emma's trui?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "alle kleuren van de regenboog",
+        "regenboogkleuren",
+        "alle kleuren"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Welk Nederlands feest wordt er gevierd in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "koningsdag"
+      ],
+      "hint": "Emma wil haar trui dragen voor een speciaal feest."
+    },
+    {
+      "question": "Waarom voelt Emma zich schuldig nadat ze gevallen is?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gemeen",
+            "onaardig",
+            "niet aardig"
+          ],
+          [
+            "lisa",
+            "vriendin"
+          ],
+          [
+            "delen",
+            "lenen",
+            "aanraken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Emma tegen Lisa deed toen Lisa de trui wilde aanraken."
+    },
+    {
+      "question": "Vind je dat Emma het goede deed door haar vest aan Lisa te lenen? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "fijn",
+            "aardig"
+          ],
+          [
+            "spijt",
+            "sorry",
+            "excuses",
+            "goedmaken"
+          ],
+          [
+            "vrienden",
+            "vriendinnen",
+            "samen",
+            "delen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat gebeurde er toen Emma haar vest leende aan Lisa?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kleurrijke-trui/image-1.png",
+      "alt": "Emma draagt een kleurrijke regenboogtrui op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kleurrijke-trui/image-2.png",
+      "alt": "Emma en Lisa dansen samen op Koningsdag, Emma in haar trui en Lisa in een oranje vest"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl wearing a beautiful rainbow-colored sweater at school, with another girl looking at it admiringly, children's book illustration style",
+    "Two young girls dancing together at a Dutch King's Day celebration in a park with orange decorations, one wearing a rainbow sweater and the other an orange vest, children's book illustration style"
+  ]
+}

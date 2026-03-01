@@ -1,0 +1,103 @@
+{
+  "id": "het-festival-ontdekking",
+  "title": "Het Festival Ontdekking",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "cultuur",
+  "text": "Maya wilde niet naar het cultuurfestival. Ze vond het saai. Haar familie had altijd geld voor concerten en musea. Dat was normaal voor haar.\n\nOp school postte Maya een foto van haar nieuwe gitaar op Instagram. \"Weer een les gehad,\" schreef ze. Haar klasgenoot Ahmed reageerde: \"Gaaf! Ik zou ook wel willen leren.\"\n\nMaya dacht er niet over na. Thuis vertelde ze het aan haar moeder. \"Ahmed wil ook gitaar leren,\" zei ze. Haar moeder zei: \"Gitaarlessen kosten veel geld. Niet alle families kunnen dat betalen.\"\n\nMaya schrok. Ze had nooit nagedacht over geld. Haar familie was gebroken door een scheiding, maar geld was er altijd. Ze voelde zich schuldig. Had ze te veel gepost over haar spullen?\n\nOp het festival zag Maya Ahmed bij een gratis workshop. Hij speelde heel goed op een oude gitaar. Maya besloot iets te doen. Ze zou haar oude gitaar aan Ahmed geven.\n\n\"Wil je mijn oude gitaar hebben?\" vroeg Maya via WhatsApp. Ahmed was heel blij. Nu kon Maya het festival wel waarderen. Cultuur delen maakte het veel leuker.",
+  "questions": [
+    {
+      "question": "Waarom wilde Maya niet naar het cultuurfestival?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze vond het saai"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom kon Ahmed geen gitaarlessen nemen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "duur",
+            "kosten",
+            "betalen"
+          ],
+          [
+            "familie",
+            "ouders",
+            "thuis"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Maya's moeder zei."
+    },
+    {
+      "question": "Hoe voelde Maya zich toen ze het begreep?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "schuldig",
+            "slecht",
+            "verdrietig"
+          ],
+          [
+            "schrok",
+            "schrikken",
+            "geschrokken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea goed."
+    },
+    {
+      "question": "Wat deed Maya om Ahmed te helpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gitaar",
+            "oude gitaar"
+          ],
+          [
+            "geven",
+            "gaf",
+            "gegeven",
+            "delen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het einde van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-festival-ontdekking/image-1.png",
+      "alt": "Maya met haar gitaar, Ahmed kijkt toe"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-festival-ontdekking/image-2.png",
+      "alt": "Maya geeft Ahmed een gitaar op het festival"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl Maya holding a guitar while a boy Ahmed watches at a Dutch cultural festival, children's book illustration style",
+    "Maya giving her old guitar to Ahmed at an outdoor festival with Dutch flags and cultural booths in the background, children's book illustration style"
+  ]
+}

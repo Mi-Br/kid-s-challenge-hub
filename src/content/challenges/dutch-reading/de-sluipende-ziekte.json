@@ -1,0 +1,135 @@
+{
+  "id": "de-sluipende-ziekte",
+  "title": "De Sluipende Ziekte",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "gezondheid",
+  "text": "Toen oma Willemien nog een meisje was, glinsterde het water in de Amsterdamse grachten als zilver. Nu, zeventig jaar later, drijven er plastic zakken tussen de eenden. Ze vertelt me dit terwijl ze haar inhalator gebruikt – voor de derde keer vandaag.\n\n\"Het begon zo onschuldig,\" fluistert ze, haar stem hees van het hoesten. \"Eerst verdwenen alleen de vissen. Daarna werden de bomen kaal, ook in de zomer. En nu...\" Ze gebaart naar het raam, waar een grijze waas boven de stad hangt als een ziekelijke deken.\n\nDe dokter heeft uitgelegd dat oma's longen eruitzien als een versleten spons. Niet alleen zij – duizenden ouderen in Nederland lijden aan ademhalingsproblemen door de vervuilde lucht. De ironie is bitter: de stad die haar leven lang haar thuis was, maakt haar nu langzaam ziek.\n\nGisteren las ik een artikel over jongeren die protesteren bij het gemeentehuis. Ze eisen schonere lucht, meer groene ruimtes, minder auto's in de binnenstad. Hun leuzen echoen door de straten: \"Onze longen zijn geen filters!\" Een van hen, Marieke uit groep acht, werd geïnterviewd. \"Wij erven deze wereld,\" zei ze vastberaden. \"We gaan er niet stil bij zitten.\"\n\nVanochtend heb ik mijn fiets gepakt in plaats van de bus. Het is een klein gebaar, maar oma glimlachte toen ik het vertelde. \"Elke druppel vormt uiteindelijk de oceaan,\" zei ze, haar ogen twinklend ondanks de pijn. Misschien kunnen we samen – jong en oud – de grachten weer laten glanzen.\n\nDe verandering begint met kleine keuzes. Vandaag de fiets, morgen een boom planten, overmorgen andere overtuigen. Want ook al voelt het soms hopelozer dan ooit, opgeven is geen optie. Daarvoor is er te veel op het spel.",
+  "questions": [
+    {
+      "question": "Wat is er volgens het verhaal het probleem met de longen van duizenden ouderen in Nederland?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ademhalingsproblemen door de vervuilde lucht",
+        "lijden aan ademhalingsproblemen door de vervuilde lucht"
+      ],
+      "hint": "Kijk naar de derde alinea waar over de dokter wordt gesproken."
+    },
+    {
+      "question": "Waarom noemt de verteller het 'bitter ironisch' wat er met zijn oma gebeurt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "stad",
+            "thuis",
+            "amsterdam"
+          ],
+          [
+            "ziek",
+            "ziekte",
+            "ziekelijke",
+            "longen"
+          ],
+          [
+            "leven",
+            "leven lang",
+            "thuis was"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de tegenstelling tussen wat de stad betekende voor oma en wat het nu doet."
+    },
+    {
+      "question": "Hoe toont de schrijver het contrast tussen verleden en heden in dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet het contrast benoemen tussen vroeger (glinsterende grachten, zilver water) en nu (plastic zakjes, grijze waas, zieke longen). Moet beide tijdsperiodes benoemen.",
+        "exampleAnswer": "Vroeger glinsterde het water als zilver, nu drijven er plastic zakken. De lucht was schoon, nu hangt er een grijze waas boven de stad.",
+        "keyElements": [
+          "verleden/vroeger/toen",
+          "heden/nu/tegenwoordig",
+          "glinsteren/zilver",
+          "plastic/vervuiling/grijze waas"
+        ],
+        "minWords": 6
+      },
+      "hint": "Vergelijk de beschrijvingen van de grachten toen oma jong was met nu."
+    },
+    {
+      "question": "Beoordeel of de houding van de jongeren in het verhaal realistisch is. Gebruik voorbeelden uit de tekst.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de realisme van de jongeren en dit onderbouwen met tekstvoorbeelden (protesteren, leuzen, interview met Marieke). Moet eigen oordeel geven.",
+        "exampleAnswer": "Ja, het is realistisch omdat jongeren vaak protesteren voor het milieu. De leuzen en het interview met Marieke zijn voorbeelden van echte jongerenprotesten.",
+        "keyElements": [
+          "realistisch/onrealistisch",
+          "protesteren/demonstreren",
+          "voorbeelden/leuzen/Marieke",
+          "mening/oordeel"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over wat je weet van echte milieuprotesten door jongeren."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over hoe milieuproblemen gezondheidsschade veroorzaken, maar dat kleine individuele acties samen grote verandering kunnen bewerkstelligen. De leerling moet beide aspecten benoemen.",
+        "exampleAnswer": "Het verhaal gaat over hoe vervuiling ziekte veroorzaakt, maar dat we met kleine acties samen het milieu kunnen verbeteren.",
+        "keyElements": [
+          "milieu/vervuiling/luchtvervuiling",
+          "ziekte/gezondheid",
+          "kleine acties/verandering",
+          "samen/samenwerken"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de schrijver wil vertellen over milieu én gezondheid."
+    },
+    {
+      "question": "Wat wil de schrijver bereiken door dit verhaal te vertellen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wil lezers bewust maken van de gevolgen van vervuiling voor de gezondheid en hen motiveren om zelf actie te ondernemen. De leerling moet beide doelen herkennen.",
+        "exampleAnswer": "De schrijver wil lezers laten zien hoe vervuiling mensen ziek maakt en hen aansporen om zelf kleine acties te ondernemen tegen milieuproblemen.",
+        "keyElements": [
+          "bewust maken/waarschuwen",
+          "vervuiling/milieuproblemen",
+          "actie ondernemen/motiveren",
+          "gezondheid/ziekte"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over waarom iemand dit verhaal zou schrijven - wat wil hij bij de lezer bereiken?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-sluipende-ziekte/image-1.png",
+      "alt": "Een oudere dame met een inhalator kijkend uit het raam naar grijze lucht boven Amsterdam"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-sluipende-ziekte/image-2.png",
+      "alt": "Jongeren die protesteren bij een gemeentehuis met borden over schone lucht"
+    }
+  ],
+  "imagePrompts": [
+    "An elderly Dutch woman using an inhaler while looking out a window at smoggy gray air over Amsterdam canals, children's book illustration style with a melancholic atmosphere",
+    "Young Dutch protesters holding signs about clean air outside a municipal building, children's book illustration style showing determined faces and colorful protest signs"
+  ]
+}

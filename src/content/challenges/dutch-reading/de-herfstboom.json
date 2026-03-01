@@ -1,0 +1,129 @@
+{
+  "id": "de-herfstboom",
+  "title": "De Herfstboom",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "seizoenen",
+  "text": "Lola en Mika waren de beste vrienden van de wereld. Elke dag na school speelden ze in het park bij de grote eikenboom. De boom was als een oude vriend die over hen waakte.\n\nToen de herfst kwam, werden de bladeren goud en rood. Lola vond het prachtig, maar Mika werd verdrietig. \"Alles gaat dood,\" zei hij. \"De boom verliest al zijn mooie bladeren.\"\n\nLola probeerde Mika op te vrolijken, maar hij wilde niet meer naar het park. Wekenlang speelde Lola alleen bij de boom. Ze miste haar vriend verschrikkelijk.\n\nOp een stormachtige dag hoorde Lola een vreemd geluid. Bij de eikenboom zat een klein vogeltje dat uit zijn nest was gevallen. Het diertje bibberde van de kou en kon niet vliegen.\n\nLola wist dat Mika gek was op dieren. Ze rende naar zijn huis en klopte op de deur. \"Mika, er is een vogeltje dat onze hulp nodig heeft!\"\n\nSamen brachten ze het vogeltje naar de dierenarts. \"Jullie hebben zijn leven gered,\" zei de dokter. \"Over een paar dagen kan hij weer vliegen.\"\n\nTerwijl ze het vogeltje verzorgden, zag Mika dat de boom nieuwe knoppen kreeg. \"De bladeren komen terug,\" zei Lola zacht. Mika glimlachte. \"Net als onze vriendschap,\" antwoordde hij.",
+  "questions": [
+    {
+      "question": "Welke kleur werden de bladeren in de herfst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "goud en rood",
+        "rood en goud"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom werd Mika verdrietig toen de herfst kwam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "doodgaat",
+            "dood",
+            "sterft",
+            "sterven"
+          ],
+          [
+            "bladeren",
+            "boom"
+          ],
+          [
+            "verliest",
+            "verliezen",
+            "vallen",
+            "valt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Mika zegt over de boom en de bladeren."
+    },
+    {
+      "question": "Hoe hielpen Lola en Mika het vogeltje?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "dierenarts",
+            "dokter",
+            "arts"
+          ],
+          [
+            "brachten",
+            "brengen",
+            "gingen",
+            "gaan"
+          ],
+          [
+            "verzorgden",
+            "verzorgen",
+            "hielpen",
+            "helpen",
+            "zorgden",
+            "zorgen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de zesde en zevende alinea."
+    },
+    {
+      "question": "Vind je dat Lola een goede vriend is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "hielp",
+            "helpen",
+            "zorgde",
+            "zorgen",
+            "redde",
+            "redden"
+          ],
+          [
+            "miste",
+            "missen",
+            "alleen",
+            "verdrietig"
+          ],
+          [
+            "vriend",
+            "vriendschap",
+            "aardig",
+            "lief",
+            "goed"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan alle dingen die Lola deed voor Mika en het vogeltje."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-herfstboom/image-1.png",
+      "alt": "Twee kinderen spelen onder een grote eikenboom met gouden en rode herfstbladeren"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-herfstboom/image-2.png",
+      "alt": "Een klein vogeltje zit onder de boom terwijl twee kinderen het helpen"
+    }
+  ],
+  "imagePrompts": [
+    "Two children playing under a large oak tree with golden and red autumn leaves in a Dutch park, children's book illustration style, warm autumn colors",
+    "A small injured bird on the ground under an oak tree while two worried children kneel down to help it, children's book illustration style, gentle and caring scene"
+  ]
+}

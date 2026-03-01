@@ -1,0 +1,119 @@
+{
+  "id": "de-onverwachte-stage",
+  "title": "De Onverwachte Stage",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "beroepen",
+  "text": "Lisa had altijd gedroomd van een stage bij de dierentuin. Ze zou graag verzorgster willen worden, omdat ze van alle dieren houdt. Toen de meester vroeg waar iedereen stage wilde lopen, schreef Lisa meteen 'dierentuin' op haar formulier.\n\nMaar er was een probleem. Haar klasgenoot Tom had hetzelfde gekozen. \"Ik ben er eerder!\" riep Tom toen hij Lisa's keuze zag. \"Jij kunt beter iets anders doen, want jongens zijn sterker met grote dieren.\" Lisa werd boos. \"Dat is helemaal niet waar! Verzorgers moeten vooral lief zijn voor dieren, niet sterk.\"\n\nDe meester keek bezorgd naar de twee kinderen die ruzie maakten. Hij legde uit dat er maar één stageplek was bij de dierentuin. \"Indien jullie niet tot een oplossing komen, moet ik zelf kiezen,\" zei hij. Dit maakte de sfeer nog gespannener.\n\nDie middag zaten Lisa en Tom stil naast elkaar in de bus. Beiden dachten na over wat er was gebeurd. Lisa besefte dat Tom misschien ook echt van dieren hield. Tom begon zich af te vragen of hij wel eerlijk was geweest.\n\nDe volgende dag hadden ze een idee. \"Mocht het mogelijk zijn,\" vroeg Lisa voorzichtig aan Tom, \"zouden we dan samen kunnen gaan? We zouden elkaar kunnen helpen.\" Tom knikte. \"Dat is een goed plan. Jij weet veel over dieren, en ik kan zware dingen tillen.\"\n\nToen ze hun voorstel aan de meester vertelden, glimlachte hij. \"De dierentuin heeft gezegd dat ze wel twee stagiaires willen, als ze goed samenwerken. Jullie hebben dit perfect opgelost!\"",
+  "questions": [
+    {
+      "question": "Waar wilde Lisa stage gaan lopen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dierentuin",
+        "bij de dierentuin"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dacht Tom dat hij beter geschikt was voor de stage?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "sterker",
+            "sterk",
+            "kracht"
+          ],
+          [
+            "jongens",
+            "jongen",
+            "hij"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Tom zei in de tweede alinea."
+    },
+    {
+      "question": "Hoe veranderde de stemming tussen Lisa en Tom gedurende het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ruzie",
+            "boos",
+            "angry",
+            "conflict"
+          ],
+          [
+            "samenwerken",
+            "samen",
+            "vriendelijk",
+            "begrip",
+            "oplossen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe ze begonnen en hoe ze eindigden."
+    },
+    {
+      "question": "Vind je dat Lisa en Tom een goede oplossing hebben gevonden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee) en uitleggen waarom de oplossing wel of niet goed is. Goede redenen kunnen zijn: samenwerking, ieder zijn sterke punten gebruiken, eerlijk delen, beide gelukkig maken.",
+        "exampleAnswer": "Ja, het is een goede oplossing omdat ze nu allebei hun droom kunnen waarmaken en elkaar kunnen helpen met verschillende dingen.",
+        "keyElements": [
+          "samenwerking/samen/helpen",
+          "eerlijk/fair",
+          "beide/allebei",
+          "oplossing/opgelost"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat er goed of niet goed is aan hun plan."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het oplossen van conflicten door samenwerking en begrip voor elkaar. Het gaat om het vinden van oplossingen waarin iedereen wint.",
+        "exampleAnswer": "Het verhaal gaat erover dat je conflicten kunt oplossen door samen te werken en elkaar te begrijpen.",
+        "keyElements": [
+          "samenwerking/samenwerken/samen",
+          "conflict/ruzie/probleem",
+          "oplossen/oplossing",
+          "begrip/begrijpen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat wil de schrijver ons leren over het omgaan met problemen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-onverwachte-stage/image-1.png",
+      "alt": "Lisa en Tom maken ruzie in de klas terwijl de meester bezorgd kijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-onverwachte-stage/image-2.png",
+      "alt": "Lisa en Tom werken samen bij de dierentuin en glimlachen naar elkaar"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch elementary school children arguing in a classroom while their concerned teacher watches, children's book illustration style",
+    "The same two children working together happily at a zoo with animals in the background, smiling and cooperating, children's book illustration style"
+  ]
+}

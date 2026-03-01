@@ -1,0 +1,118 @@
+{
+  "id": "kiki-en-de-nieuwe-buurman",
+  "title": "Kiki en de nieuwe buurman",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "huisdieren",
+  "text": "Sofie woont al drie jaar in Nederland met haar ouders. Ze heeft een kleine witte hamster die Kiki heet. Kiki is heel lief en speelt graag in haar kooi. Elke ochtend geeft Sofie haar verse groenten en schoon water.\n\nVorige week kwam er een nieuwe buurman wonen. Hij heet meneer De Vries en hij heeft een grote zwarte hond. De hond blaft elke dag heel hard in de tuin. Sofie hoort hem vanuit haar slaapkamer. Ze vindt het vervelend maar durft niets te zeggen.\n\nOp dinsdag ziet Sofie iets raars. Meneer De Vries laat zijn hond de hele dag alleen in de kleine tuin. Er staat geen waterbak en de hond heeft geen schaduw. Het is warm weer en de hond hijgt veel. Sofie voelt zich ongemakkelijk want ze weet dat honden water nodig hebben.\n\nSofie denkt aan haar lieve Kiki. Zij zorgt elke dag goed voor haar hamster omdat dieren onze zorg nodig hebben. Ze besluit dat ze iets moet doen. Ook al is ze bang voor meneer De Vries, ze klopt toch op zijn deur. Ze vertelt hem vriendelijk dat zijn hond water en schaduw nodig heeft.\n\nMeneer De Vries kijkt verbaasd. Hij zegt dat hij nog niet veel weet over honden omdat hij nog nooit een huisdier heeft gehad. Hij bedankt Sofie voor haar hulp. Nu zorgt hij elke dag goed voor zijn hond. De hond blaft ook minder omdat hij zich beter voelt. Sofie is trots op zichzelf omdat ze heeft geholpen.",
+  "questions": [
+    {
+      "question": "Hoe heet de hamster van Sofie?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "kiki"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelt Sofie zich ongemakkelijk als ze de hond ziet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "water",
+            "waterbak",
+            "dorst"
+          ],
+          [
+            "schaduw",
+            "zon",
+            "warm",
+            "heet",
+            "hijgen",
+            "hijgt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat de hond mist in de tuin."
+    },
+    {
+      "question": "Waarom besluit Sofie om naar meneer De Vries toe te gaan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "helpen",
+            "hulp",
+            "zorgen",
+            "zorg"
+          ],
+          [
+            "hond",
+            "dier",
+            "dieren",
+            "huisdier"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea en denk aan wat Sofie denkt over dieren."
+    },
+    {
+      "question": "Vind jij dat Sofie goed heeft gehandeld? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "juist",
+            "moedig",
+            "dapper"
+          ],
+          [
+            "helpen",
+            "hulp",
+            "zorgen",
+            "zorg",
+            "geholpen"
+          ],
+          [
+            "dier",
+            "dieren",
+            "hond",
+            "huisdier"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de gevolgen van Sofies actie voor de hond."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/kiki-en-de-nieuwe-buurman/image-1.png",
+      "alt": "Sofie met haar witte hamster Kiki in een kooi"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/kiki-en-de-nieuwe-buurman/image-2.png",
+      "alt": "Sofie die aanbelt bij meneer De Vries terwijl de zwarte hond in de tuin staat"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with dark hair holding a small white hamster named Kiki, with the hamster's cage visible in the background, children's book illustration style",
+    "A nervous young girl knocking on the front door of a house while a large black dog sits in a small sunny garden without shade or water, children's book illustration style"
+  ]
+}

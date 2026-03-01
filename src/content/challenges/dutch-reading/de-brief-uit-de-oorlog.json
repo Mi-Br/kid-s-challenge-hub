@@ -1,0 +1,132 @@
+{
+  "id": "de-brief-uit-de-oorlog",
+  "title": "De Brief uit de Oorlog",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Lisa vond de oude brief toen ze op zolder van haar oma's huis aan het opruimen was. De brief was geschreven in 1944, tijdens de Tweede Wereldoorlog. Hij kwam van een jongen die Willem heette.\n\n\"Lieve Anna,\" stond er in de brief. \"Ik mis je zo veel. Het leven is heel moeilijk geworden hier in Amsterdam. Er is weinig eten en we mogen 's avonds niet meer naar buiten vanwege de avondklok. Mijn vader moet zich verstoppen omdat hij onderduiker is geworden. Ik hoop dat de oorlog snel voorbij is, zodat we elkaar weer kunnen zien.\"\n\nLisa las verder. Willem schreef dat hij elke dag aan Anna dacht. Hij wilde met haar trouwen als de oorlog voorbij was. Maar hij wist niet of hij haar brief ooit zou kunnen versturen. Het was te gevaarlijk.\n\nAan het einde van de brief stond: \"Ik bewaar deze brief voor later. Misschien kan ik hem na de oorlog aan je geven. Dan vertel ik je hoe moedig je bent geweest. Alle liefde, Willem.\"\n\nLisa besefte dat haar oma Anna was. Maar oma had nooit over Willem verteld. Lisa ging naar beneden en vroeg aan haar oma over de brief. Oma's ogen werden vochtig. \"Willem overleefde de oorlog niet,\" zei ze zachtjes. \"Hij stierf in 1945, vlak voordat de vrijheid kwam. Ik heb al die jaren gewacht op zijn brief.\"",
+  "questions": [
+    {
+      "question": "In welk jaar schreef Willem de brief?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "1944"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom was het gevaarlijk om brieven te versturen tijdens de oorlog?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "oorlog",
+            "oorlogstijd",
+            "bezetting"
+          ],
+          [
+            "gevaarlijk",
+            "risico",
+            "verboden",
+            "niet veilig",
+            "controle"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de situatie tijdens de Tweede Wereldoorlog."
+    },
+    {
+      "question": "Hoe voelde Lisa's oma zich toen ze over Willem hoorde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "triest",
+            "emotioneel",
+            "ontroerd"
+          ],
+          [
+            "ogen",
+            "vochtig",
+            "huilen",
+            "tranen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat er met oma's ogen gebeurde."
+    },
+    {
+      "question": "Wat leren we uit dit verhaal over de gevolgen van oorlog voor gewone mensen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "oorlog",
+            "oorlogstijd"
+          ],
+          [
+            "leven",
+            "levens",
+            "mensen",
+            "families",
+            "liefde"
+          ],
+          [
+            "moeilijk",
+            "zwaar",
+            "verdrietig",
+            "verlies",
+            "gescheiden",
+            "kapot"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met Willem en Anna gebeurde door de oorlog."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe oorlog liefde en families uit elkaar rukt, en hoe het verleden onverwacht terugkomt in het heden.",
+        "exampleAnswer": "Het verhaal gaat over hoe de oorlog mensen uit elkaar haalde en hoe het verleden soms onverwacht terugkomt.",
+        "keyElements": [
+          "oorlog/verleden",
+          "liefde/mensen/families",
+          "uit elkaar/gescheiden/verloren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na: wat wil dit verhaal ons vooral vertellen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-brief-uit-de-oorlog/image-1.png",
+      "alt": "Lisa leest een oude brief op zolder"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-brief-uit-de-oorlog/image-2.png",
+      "alt": "Oma met vochtige ogen terwijl ze naar de brief kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl in an attic reading an old yellowed letter by lamplight, surrounded by vintage suitcases and old furniture, children's book illustration style",
+    "An elderly grandmother with tears in her eyes holding an old letter while sitting in a cozy living room, emotional moment, children's book illustration style"
+  ]
+}

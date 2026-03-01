@@ -1,0 +1,135 @@
+{
+  "id": "de-verdwijnende-vlinders",
+  "title": "De Verdwijnende Vlinders",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "milieu",
+  "text": "Emma wandelde elke dag na school door het kleine park achter haar huis. Ze droomde vaak over haar klasgenoot Lars, maar hij merkte haar nooit op. Vandaag was anders. Waar ze vorig jaar tientallen kleurrijke vlinders had gezien, vloog er nu bijna geen enkele meer rond de bloemen.\n\nThuis vroeg Emma haar moeder wat er gebeurd kon zijn. \"Vlinders verdwijnen steeds meer,\" legde haar moeder uit. \"Door pesticiden in de landbouw en omdat er minder wilde bloemen groeien. Ook de klimaatverandering speelt een rol.\" Emma voelde zich verdrietig en machteloos. Hoe kon zij als kind iets doen tegen zo'n groot probleem?\n\nDie avond zocht Emma informatie op internet. Ze ontdekte dat veel mensen kleine acties ondernemen die samen een groot verschil maken. Je kunt een vlindertuin aanleggen, biologische producten kopen, of meehelpen bij natuurprojecten. Emma besloot een plan te maken voor het park.\n\nDe volgende dag sprak Emma met de parkbeheerder. Tot haar verbazing was hij enthousiast over haar idee om een vlinderweide aan te leggen. \"We kunnen een stuk gras vervangen door bloemen die vlinders aantrekken,\" zei hij. Emma voelde zich ineens veel sterker. Misschien kon ze wel degelijk iets betekenen voor de natuur.",
+  "questions": [
+    {
+      "question": "Waar wandelde Emma elke dag na school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "door het kleine park achter haar huis"
+      ],
+      "hint": "Dit staat aan het begin van het verhaal."
+    },
+    {
+      "question": "Waarom verdwijnen er steeds meer vlinders volgens Emma's moeder?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "pesticiden",
+            "bestrijdingsmiddelen",
+            "giftige stoffen"
+          ],
+          [
+            "bloemen",
+            "wilde bloemen",
+            "planten"
+          ],
+          [
+            "klimaatverandering",
+            "klimaat",
+            "opwarming"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Emma's moeder noemt drie redenen in de tweede alinea."
+    },
+    {
+      "question": "Hoe veranderde Emma's gevoel gedurende het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "droevig",
+            "machteloos"
+          ],
+          [
+            "sterker",
+            "beter",
+            "hoopvol",
+            "enthousiast",
+            "positief"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Emma zich voelde in alinea twee en aan het einde."
+    },
+    {
+      "question": "Vind je Emma's plan om een vlinderweide aan te leggen een goed idee? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "slim",
+            "verstandig",
+            "nuttig",
+            "belangrijk"
+          ],
+          [
+            "vlinders",
+            "natuur",
+            "milieu",
+            "dieren"
+          ],
+          [
+            "helpen",
+            "redden",
+            "beschermen",
+            "verbeteren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over het effect dat haar plan zou kunnen hebben."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe een kind kan helpen bij milieuproblemen door kleine acties te ondernemen, ook al lijken de problemen heel groot.",
+        "exampleAnswer": "Het verhaal laat zien dat kinderen ook kunnen helpen bij milieuproblemen door kleine dingen te doen.",
+        "keyElements": [
+          "kinderen/jongeren kunnen helpen",
+          "milieuproblemen/natuur",
+          "kleine acties/dingen doen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat wil de schrijver ons leren over kinderen en milieuproblemen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwijnende-vlinders/image-1.png",
+      "alt": "Emma wandelt door een park waar bijna geen vlinders meer zijn"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwijnende-vlinders/image-2.png",
+      "alt": "Emma praat enthousiast met de parkbeheerder over haar plannen"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl walking alone through a small park with few flowers and almost no butterflies, children's book illustration style, somewhat melancholic atmosphere",
+    "A teenage girl talking enthusiastically with a park groundskeeper about creating a butterfly meadow, children's book illustration style, hopeful and positive mood"
+  ]
+}

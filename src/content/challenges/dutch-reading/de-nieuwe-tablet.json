@@ -1,0 +1,101 @@
+{
+  "id": "de-nieuwe-tablet",
+  "title": "De Nieuwe Tablet",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "technologie",
+  "text": "Lisa kreeg een nieuwe tablet van haar ouders. Ze was heel blij. Ze kon er spelletjes op spelen en video's kijken. De tablet was wit en glanzend.\n\nOp school wilde Lisa de tablet aan haar vrienden laten zien. Ze stopte hem in haar rugzak. Tijdens de pauze haalde ze hem eruit. Alle kinderen kwamen kijken. Ze vonden de tablet mooi.\n\nToen kwam juf Petra. Ze zag de tablet en schudde haar hoofd. \"Tablets mogen niet mee naar school,\" zei ze. \"Ik moet hem tot het eind van de dag bewaren.\" Lisa werd verdrietig. Ze gaf de tablet aan juf Petra.\n\nNa school kreeg Lisa haar tablet terug. Juf Petra legde uit waarom tablets niet mochten. \"Kinderen letten dan niet op tijdens de les,\" zei ze. Lisa begreep het. Thuis zou ze de tablet gebruiken.",
+  "questions": [
+    {
+      "question": "Welke kleur was de tablet van Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit",
+        "wit en glanzend"
+      ],
+      "hint": "Kijk in de eerste alinea."
+    },
+    {
+      "question": "Waar stopte Lisa de tablet toen ze naar school ging?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in haar rugzak",
+        "rugzak"
+      ],
+      "hint": "Lees de tweede alinea."
+    },
+    {
+      "question": "Waarom werd Lisa verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "tablet",
+            "weggenomen",
+            "wegpakken"
+          ],
+          [
+            "juf",
+            "juffrouw",
+            "lerares"
+          ],
+          [
+            "bewaren",
+            "afpakken",
+            "meenemen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat juf Petra deed."
+    },
+    {
+      "question": "Wat vind jij van de regel dat tablets niet mogen op school?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "slecht",
+            "vind",
+            "denk"
+          ],
+          [
+            "opletten",
+            "letten",
+            "concentreren",
+            "leren"
+          ],
+          [
+            "afleiden",
+            "storen",
+            "verstoren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over waarom juf Petra deze regel heeft."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-tablet/image-1.png",
+      "alt": "Lisa met haar witte tablet thuis"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-tablet/image-2.png",
+      "alt": "Juf Petra neemt de tablet van Lisa af op school"
+    }
+  ],
+  "imagePrompts": [
+    "A happy young girl holding a white shiny tablet at home, children's book illustration style",
+    "A teacher taking a tablet away from a sad student in a Dutch classroom, other children watching, children's book illustration style"
+  ]
+}

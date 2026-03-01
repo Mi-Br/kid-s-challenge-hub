@@ -1,0 +1,60 @@
+{
+  "id": "tom-en-de-regen",
+  "title": "Tom en de Regen",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "het weer",
+  "text": "Tom speelt buiten in de tuin. De zon schijnt. Het is warm weer. Tom is blij.\n\nDan komt er een donkere wolk. Het gaat regenen. Tom rent naar binnen. Hij is nat geworden.\n\nTom kijkt naar buiten. Hij ziet drie dingen. Hij ziet regen, wind en bliksem. Tom is bang voor de bliksem.\n\nMama komt bij Tom. Ze zegt dat het weer beter wordt. Tom wacht binnen. Hij kijkt naar de regen.\n\nDe regen stopt. De zon komt weer. Tom gaat weer naar buiten. Hij is niet meer bang. Tom speelt weer in de tuin.",
+  "questions": [
+    {
+      "question": "Hoe is het weer als Tom buiten speelt?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "warm"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waar rent Tom naartoe als het gaat regenen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "naar binnen",
+        "binnen"
+      ],
+      "hint": "Lees de tweede alinea."
+    },
+    {
+      "question": "Welke drie dingen ziet Tom buiten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "regen, wind en bliksem",
+        "regen wind en bliksem",
+        "regen wind bliksem"
+      ],
+      "hint": "Tom ziet drie dingen. Ze staan in de derde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/tom-en-de-regen/image-1.png",
+      "alt": "Tom speelt blij in de tuin bij zonnig weer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/tom-en-de-regen/image-2.png",
+      "alt": "Tom kijkt bang naar buiten tijdens de storm met regen en bliksem"
+    }
+  ],
+  "imagePrompts": [
+    "A happy young boy playing in a sunny garden in the Netherlands, children's book illustration style, bright colors, windmill visible in the background",
+    "A young boy looking worried through a window at a stormy scene with rain, wind and lightning outside, children's book illustration style, dark storm clouds contrasting with warm indoor lighting"
+  ]
+}

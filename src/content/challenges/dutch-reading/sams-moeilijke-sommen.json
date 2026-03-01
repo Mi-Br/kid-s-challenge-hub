@@ -1,0 +1,109 @@
+{
+  "id": "sams-moeilijke-sommen",
+  "title": "Sams Moeilijke Sommen",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Sam zit aan zijn bureau. Voor hem liggen wiskundeboeken en papier. Hij kijkt naar de sommen die hij moet maken. De getallen zijn groot en moeilijk. Sam zucht diep want hij begrijpt er niets van.\n\nHij probeert de eerste som. 47 plus 38 is... Sam telt op zijn vingers maar het lukt niet. Hij wordt verdrietig omdat zijn vrienden de sommen wel snappen. Als hij hulp zou vragen, dan zou het makkelijker worden.\n\nSam loopt naar de keuken waar mama aan het koken is. \"Mama, kun je me helpen met rekenen?\" vraagt hij. Mama droogt haar handen af en gaat naast Sam zitten. \"Laten we samen kijken,\" zegt ze vriendelijk.\n\nMama laat Sam zien hoe hij de getallen onder elkaar kan zetten. Dan telt hij de eenheden bij elkaar op. Daarna telt hij de tientallen. Plotseling snapt Sam het! Hij maakt de som helemaal alleen af.\n\n\"Goed gedaan!\" zegt mama trots. Sam voelt zich blij omdat hij het nu begrijpt. Hij gaat terug naar zijn kamer en maakt alle andere sommen. Het huiswerk is niet meer moeilijk als je weet hoe het moet.",
+  "questions": [
+    {
+      "question": "Welke vakken liggen er op Sams bureau?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wiskundeboeken",
+        "wiskundeboeken en papier"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Waarom wordt Sam verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "vrienden",
+            "anderen",
+            "kinderen"
+          ],
+          [
+            "snappen",
+            "begrijpen",
+            "kunnen",
+            "lukken",
+            "lukt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Sam ziet bij zijn vrienden."
+    },
+    {
+      "question": "Wat betekent 'eenheden' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Mama legt uit hoe je moet rekenen.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "de eerste cijfers"
+          ],
+          [
+            "de cijfers rechts"
+          ],
+          [
+            "de laatste cijfers"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat mama goed helpt? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "goed",
+            "prima",
+            "fijn",
+            "handig"
+          ],
+          [
+            "uitleggen",
+            "leren",
+            "helpen",
+            "tonen",
+            "laat zien",
+            "toont"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe mama Sam leert rekenen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sams-moeilijke-sommen/image-1.png",
+      "alt": "Sam zit verdrietig aan zijn bureau met wiskundeboeken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sams-moeilijke-sommen/image-2.png",
+      "alt": "Mama helpt Sam met rekenen aan de keukentafel"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy sitting sadly at his desk looking at math books and papers, children's book illustration style, Dutch home interior",
+    "A mother sitting next to her son at a kitchen table, helping him with math homework, both smiling, children's book illustration style"
+  ]
+}

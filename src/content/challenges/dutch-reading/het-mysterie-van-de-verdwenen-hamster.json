@@ -1,0 +1,120 @@
+{
+  "id": "het-mysterie-van-de-verdwenen-hamster",
+  "title": "Het Mysterie van de Verdwenen Hamster",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "huisdieren",
+  "text": "Emma staarde naar de lege kooi in haar kamer. Waar was Pluisje gebleven? Haar gouden hamster was nog nooit eerder ontsnapt uit zijn huisje. De kooideurtje zat nog stevig dicht, alsof iemand het zorgvuldig had gesloten na het openen.\n\nZe begon systematisch te zoeken. Onder haar bed vond ze alleen stofballen en een oude sok. Achter de radiator ontdekte ze kruimels, maar geen hamster. Emma's moeder kwam helpen zoeken. \"Misschien heeft hij zich verstopt omdat hij bang was,\" opperde ze. Maar waarom zou Pluisje plotseling bang zijn?\n\nToen Emma de woonkamer binnenkwam, zag ze haar kleine broertje Tim op de bank zitten. Hij keek schuldig en hield zijn handen achter zijn rug verborgen. \"Tim, heb jij Pluisje gezien?\" vroeg Emma achterdochtig. Tim schudde heftig zijn hoofd, maar zijn wangen werden steeds roder.\n\n\"Wat heb je daar achter je rug?\" drong Emma aan. Tim begon te huilen en haalde langzaam zijn handen naar voren. In zijn handpalmen lag Pluisje, die vredig lag te slapen. \"Ik wilde alleen maar met hem spelen,\" snikte Tim. \"Maar toen werd ik moe en ben ik hem vergeten.\"\n\nEmma was opgelucht dat Pluisje veilig was, hoewel ze ook een beetje boos was op Tim. Ze legde uit dat hamsters voorzichtig behandeld moeten worden omdat ze zo klein en kwetsbaar zijn. Tim beloofde plechtig dat hij voortaan eerst toestemming zou vragen voordat hij met Pluisje wilde spelen. Die avond kroop de hamster tevreden terug in zijn kooi, waar verse zonnebloempitten op hem wachtten.",
+  "questions": [
+    {
+      "question": "Welke kleur had Emma's hamster?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "gouden"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dacht Emma dat iemand de kooi had opengemaakt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "dicht",
+            "gesloten",
+            "stevig"
+          ],
+          [
+            "zorgvuldig",
+            "voorzichtig",
+            "netjes"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe de kooideurtje eruitzag toen Emma hem vond."
+    },
+    {
+      "question": "Hoe wist Emma dat Tim iets verborg?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schuldig",
+            "schuld"
+          ],
+          [
+            "handen",
+            "achter",
+            "rug",
+            "verborgen",
+            "verstopte"
+          ],
+          [
+            "rood",
+            "rode",
+            "bloosde",
+            "wangen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op Tim's gedrag in de derde alinea."
+    },
+    {
+      "question": "Vind je dat Emma goed reageerde toen ze ontdekte wat Tim had gedaan? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Emma's reactie en deze onderbouwen. Acceptabele redenen kunnen zijn: ze was begripvol/geduldig, ze legde uit waarom het fout was, ze hielp Tim leren, of juist dat ze te aardig was. De mening moet worden ondersteund met argumenten.",
+        "exampleAnswer": "Ja, Emma reageerde goed omdat ze uitlegde waarom hamsters voorzichtig behandeld moeten worden en Tim zo kon leren van zijn fout.",
+        "keyElements": [
+          "mening over Emma's reactie",
+          "uitleggen/onderbouwing",
+          "leren/begrijpen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe Emma omging met Tim's fout in de laatste alinea."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het oplossen van een mysterie en het leren omgaan met fouten. Het kan ook gaan over verantwoordelijkheid voor huisdieren of over begrip tonen voor anderen.",
+        "exampleAnswer": "Het verhaal gaat over het oplossen van een mysterie en over hoe je kunt leren van je fouten.",
+        "keyElements": [
+          "mysterie oplossen",
+          "leren van fouten/verantwoordelijkheid",
+          "huisdieren verzorgen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat er gebeurt in het verhaal en wat de personages leren."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-hamster/image-1.png",
+      "alt": "Emma kijkt bezorgd naar de lege hamsterkooi in haar kamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-hamster/image-2.png",
+      "alt": "Tim houdt de slapende hamster Pluisje voorzichtig in zijn handen"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking worried at an empty hamster cage in her bedroom, children's book illustration style, soft lighting",
+    "A small Dutch boy holding a sleeping golden hamster gently in his cupped hands, looking guilty but relieved, children's book illustration style"
+  ]
+}

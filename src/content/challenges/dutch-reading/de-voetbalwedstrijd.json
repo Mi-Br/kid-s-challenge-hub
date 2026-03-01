@@ -1,0 +1,70 @@
+{
+  "id": "de-voetbalwedstrijd",
+  "title": "De Voetbalwedstrijd",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "sport",
+  "text": "Lisa en Mark speelden graag voetbal in het park. Lisa wilde altijd aanvallen en doelpunten maken. Mark wilde altijd verdedigen en de bal wegschoppen. Ze kregen ruzie over wie de beste speler was.\n\nDe ruzie werd erger. Lisa riep dat Mark te langzaam was. Mark riep dat Lisa te wild speelde. Ze hoorden de zachte wind door de bomen en roken het verse gras. Maar ze waren boos op elkaar.\n\nToen gingen ze apart zitten om na te denken. Lisa dacht aan alle keren dat Mark haar hielp. Mark dacht aan alle keren dat Lisa hem aanmoedigde.\n\nDaarna spraken ze met elkaar. Lisa zei dat ze soms wilde verdedigen. Mark zei dat hij soms wilde aanvallen. Ze besloten om samen te oefenen. Nu spelen ze elke dag gelukkig voetbal in het park.",
+  "questions": [
+    {
+      "question": "Waar speelden Lisa en Mark voetbal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in het park",
+        "het park"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat wilde Lisa altijd doen tijdens het voetballen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "aanvallen",
+        "aanvallen en doelpunten maken",
+        "doelpunten maken"
+      ],
+      "hint": "Lees de tweede zin van de eerste alinea."
+    },
+    {
+      "question": "Waarom stopte de ruzie tussen Lisa en Mark?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nadachten",
+            "dachten",
+            "nadenken",
+            "denken"
+          ],
+          [
+            "samen",
+            "samenwerken",
+            "praten",
+            "spreken",
+            "spraken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er gebeurde nadat ze apart gingen zitten."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-voetbalwedstrijd/image-1.png",
+      "alt": "Lisa en Mark spelen voetbal in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-voetbalwedstrijd/image-2.png",
+      "alt": "Lisa en Mark zitten apart en denken na"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, Lisa and Mark, playing soccer in a Dutch park with trees and green grass, children's book illustration style, bright and cheerful",
+    "Two children sitting separately in a park, looking thoughtful and sad, with a soccer ball between them, children's book illustration style"
+  ]
+}

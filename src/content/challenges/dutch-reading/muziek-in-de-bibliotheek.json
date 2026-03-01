@@ -1,0 +1,112 @@
+{
+  "id": "muziek-in-de-bibliotheek",
+  "title": "Muziek in de Bibliotheek",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de bibliotheek",
+  "text": "Lisa ging elke week naar de bibliotheek omdat ze van lezen hield. Ze leende altijd boeken over dieren en avonturen. Op een dinsdag zag ze een poster aan de muur: 'Kom naar de muziekles in de bibliotheek!' Lisa had nog nooit een instrument bespeeld.\n\nDe bibliothecaris, mevrouw De Jong, zag dat Lisa naar de poster keek. 'Wil je het proberen?' vroeg ze vriendelijk. Lisa knikte voorzichtig. Mevrouw De Jong bracht haar naar een kleine ruimte waar een piano stond.\n\n'Ik kan geen muziek maken,' zei Lisa zacht. Maar toen ze de toetsen aanraakte, hoorde ze mooie klanken. Mevrouw De Jong heeft haar de eerste noten geleerd. Lisa speelde een eenvoudig liedje en glimlachte breed.\n\nElke week ging Lisa nu naar de muziekles in de bibliotheek. Ze oefende thuis ook op een klein keyboard. Na twee maanden kon ze al drie liedjes spelen. Haar ouders waren trots op haar nieuwe talent.\n\nOp een zaterdag gaf Lisa haar eerste kleine concert in de bibliotheek voor andere kinderen. Ze voelde zich zenuwachtig, maar ook heel blij. Nu wist ze dat de bibliotheek niet alleen voor boeken was, maar ook een plek waar je nieuwe dingen kon ontdekken.",
+  "questions": [
+    {
+      "question": "Waar hing de poster over de muziekles?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "aan de muur"
+      ],
+      "hint": "Kijk in de eerste alinea."
+    },
+    {
+      "question": "Waarom knikte Lisa voorzichtig toen mevrouw De Jong vroeg of ze het wilde proberen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zenuwachtig",
+            "bang",
+            "onzeker",
+            "voorzichtig"
+          ],
+          [
+            "nieuw",
+            "nog nooit",
+            "eerste keer",
+            "niet eerder"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa nog nooit had gedaan."
+    },
+    {
+      "question": "Hoe voelde Lisa zich tijdens haar eerste concert?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "zenuwachtig",
+            "nerveus",
+            "spannend"
+          ],
+          [
+            "blij",
+            "gelukkig",
+            "fijn",
+            "vrolijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed."
+    },
+    {
+      "question": "Vind je het belangrijk dat bibliotheken ook andere activiteiten aanbieden dan alleen boeken? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "belangrijk",
+            "goed"
+          ],
+          [
+            "leren",
+            "ontdekken",
+            "proberen",
+            "nieuw"
+          ],
+          [
+            "kinderen",
+            "mensen",
+            "iedereen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa heeft ontdekt en geleerd."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/muziek-in-de-bibliotheek/image-1.png",
+      "alt": "Lisa kijkt naar een poster aan de muur van de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/muziek-in-de-bibliotheek/image-2.png",
+      "alt": "Lisa speelt piano tijdens haar eerste concert in de bibliotheek"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking at a colorful poster on a library wall about music lessons, children's book illustration style, warm library setting with bookshelves in background",
+    "A young girl playing piano in a small library room with other children watching, children's book illustration style, cozy and encouraging atmosphere"
+  ]
+}

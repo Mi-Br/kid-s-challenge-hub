@@ -1,0 +1,52 @@
+{
+  "id": "opa-s-verhalen",
+  "title": "Opa's Verhalen",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "familie",
+  "text": "Opa zit in zijn stoel. Hij vertelt verhalen. Tom luistert. Opa vertelt over vroeger.\n\nTom wil naar buiten. Opa's verhalen zijn lang. Tom gaat weg. Hij speelt buiten.\n\nMama roept Tom. \"Opa is ziek,\" zegt mama. Tom is verdrietig. Hij gaat naar opa.\n\nOpa ligt in bed. \"Vertel mij een verhaal,\" zegt opa. Tom denkt na. Hij vertelt over zijn dag. Opa lacht.\n\nNu zit Tom in de stoel. Hij vertelt verhalen aan opa. Opa luistert. Ze zijn blij samen.",
+  "questions": [
+    {
+      "question": "Waar zit opa in het begin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in zijn stoel",
+        "stoel"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom gaat Tom weg van opa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "opa's verhalen zijn lang",
+        "verhalen zijn lang",
+        "lang"
+      ],
+      "hint": "Kijk naar het tweede stukje."
+    },
+    {
+      "question": "Hoe voelt Tom als opa ziek is?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "verdrietig"
+      ],
+      "hint": "Kijk naar het derde stukje."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/opa-s-verhalen/image-1.png",
+      "alt": "Opa zit in zijn stoel en vertelt verhalen aan Tom"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/opa-s-verhalen/image-2.png",
+      "alt": "Tom zit in de stoel en vertelt verhalen aan opa in bed"
+    }
+  ],
+  "imagePrompts": [
+    "A grandfather sitting in his comfortable armchair telling stories to a young boy, children's book illustration style, warm living room setting",
+    "A young boy sitting in the armchair telling stories to his grandfather who is lying in bed, children's book illustration style, caring and loving atmosphere"
+  ]
+}

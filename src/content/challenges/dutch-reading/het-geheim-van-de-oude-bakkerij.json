@@ -1,0 +1,102 @@
+{
+  "id": "het-geheim-van-de-oude-bakkerij",
+  "title": "Het Geheim van de Oude Bakkerij",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de buurt",
+  "text": "Emma woonde in een oude straat met veel winkels. Elke dag ging ze naar school langs de grote bakkerij van meneer Jansen. De bakkerij rook altijd naar verse broodjes en koekjes.\n\nOp dinsdag zag Emma iets vreemds. Meneer Jansen deed een geheime deur open achter zijn winkel. Hij droeg een grote tas vol brood naar binnen. Emma was nieuwsgierig maar ging snel door naar school omdat ze te laat was.\n\nDiezelfde dag speelde Tommie in het parkje naast de bakkerij. Hij hoorde zachte stemmen achter de hoge muur. \"Dank je wel voor het eten,\" hoorde hij iemand fluisteren. Tommie klom op een bankje maar zag alleen schaduwen bewegen.\n\nWoensdag besloot Emma eerder naar school te gaan. Ze verstopte zich achter een boom en wachtte. Weer ging meneer Jansen door de geheime deur. Deze keer zag Emma oude mensen naar buiten komen. Ze zagen er arm uit maar lachten vrolijk.\n\nTommie vertelde zijn mama over de vreemde stemmen. Mama glimlachte en zei: \"Misschien helpt meneer Jansen mensen die weinig geld hebben. Dat is heel lief van hem.\" Nu begreep Tommie waarom de stemmen zo blij klonken.",
+  "questions": [
+    {
+      "question": "Langs welke winkel ging Emma elke dag naar school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de grote bakkerij van meneer jansen",
+        "bakkerij",
+        "de bakkerij"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat hoorde Tommie achter de hoge muur?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zachte stemmen",
+        "stemmen"
+      ],
+      "hint": "Lees de tweede alinea nog eens."
+    },
+    {
+      "question": "Waarom verstopte Emma zich achter een boom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kijken",
+            "zien",
+            "zag"
+          ],
+          [
+            "geheim",
+            "geheime",
+            "wat",
+            "waarom"
+          ],
+          [
+            "nieuwsgierig",
+            "weten",
+            "wilde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma wilde ontdekken."
+    },
+    {
+      "question": "Vind je dat meneer Jansen een goede man is? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "helpt",
+            "helpen",
+            "geeft"
+          ],
+          [
+            "arme",
+            "arm",
+            "mensen"
+          ],
+          [
+            "lief",
+            "goed",
+            "aardig",
+            "vriendelijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat deed meneer Jansen voor de oude mensen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-oude-bakkerij/image-1.png",
+      "alt": "Emma verstopt zich achter een boom voor de bakkerij"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-oude-bakkerij/image-2.png",
+      "alt": "Meneer Jansen deelt brood met oude mensen achter zijn bakkerij"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl hiding behind a tree watching an old Dutch bakery with large windows, children's book illustration style, warm morning light",
+    "A kind baker sharing bread with elderly people in a secret garden behind his bakery, Dutch neighborhood setting, children's book illustration style"
+  ]
+}

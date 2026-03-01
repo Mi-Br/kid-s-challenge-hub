@@ -1,0 +1,119 @@
+{
+  "id": "het-mysterie-van-de-verdwenen-brief",
+  "title": "Het Mysterie van de Verdwenen Brief",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "vriendschap",
+  "text": "Lisa en Emma waren al sinds groep drie beste vriendinnen. Elke dag fietsten ze samen naar school en deelden ze hun geheimen tijdens de pauze. Maar vandaag was alles anders. Emma keek boos en wilde niet met Lisa praten.\n\n\"Wat heb ik verkeerd gedaan?\" vroeg Lisa zich af. Ze had gisteren een belangrijke brief geschreven waarin ze Emma uitnodigde voor haar verjaardagsfeestje. Die brief had ze in Emma's rugzak gestopt toen Emma even naar de wc was. Nu leek het alsof Emma helemaal niets van de brief wist.\n\nTijdens de grote pauze zag Lisa hoe Emma met Saar praatte. Ze lachten samen en Emma gaf Saar een papiertje. Lisa's hart bonkte. Had Emma de brief wel gevonden maar wilde ze niet komen? Of was er iets anders aan de hand?\n\n\"Ik ga dit uitzoeken,\" besloot Lisa. Ze liep naar Emma toe, maar voordat ze iets kon zeggen, riep Emma: \"Lisa! Ik heb zo'n rare brief in mijn rugzak gevonden, maar ik kon hem niet lezen omdat er koffie overheen was gemorst!\"\n\nNu begreep Lisa alles. Emma's moeder dronkt altijd koffie uit een mok zonder deksel in de auto. De brief was nat geworden en onleesbaar. Dat verklaarde waarom Emma zo verward had gekeken. Lisa begon te lachen en legde alles uit. Al snel waren de vriendinnen weer blij met elkaar, en Emma kon alsnog ja zeggen tegen het feestje.",
+  "questions": [
+    {
+      "question": "Sinds welke groep zijn Lisa en Emma vriendinnen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "groep drie",
+        "sinds groep drie"
+      ],
+      "hint": "Kijk in de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom kon Emma de brief niet lezen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "koffie",
+            "nat",
+            "gemorst"
+          ],
+          [
+            "onleesbaar",
+            "niet lezen",
+            "kon niet lezen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Emma vertelt Lisa wat er met de brief is gebeurd in de laatste alinea."
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen ze Emma met Saar zag praten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bezorgd",
+            "ongerust",
+            "bang"
+          ],
+          [
+            "hart bonkte",
+            "bonkte",
+            "nerveus"
+          ],
+          [
+            "verdrietig",
+            "jaloers",
+            "onzeker"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat er met Lisa's hart gebeurde toen ze Emma en Saar samen zag."
+    },
+    {
+      "question": "Vind je dat Lisa goed heeft gehandeld door het mysterie op te lossen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over Lisa's handelen en dit onderbouwen. Accepteer zowel positieve als negatieve meningen als ze goed beredeneerd zijn.",
+        "exampleAnswer": "Ja, Lisa heeft goed gehandeld omdat ze niet boos werd maar ging uitzoeken wat er was gebeurd. Daardoor konden ze het probleem oplossen.",
+        "keyElements": [
+          "mening/vind/denk",
+          "onderbouwing/omdat/want",
+          "communicatie/praten/uitzoeken"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe Lisa het probleem heeft aangepakt en of dit slim was."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over vriendschap en het belang van communicatie bij het oplossen van misverstanden.",
+        "exampleAnswer": "Het verhaal gaat over vriendschap en dat je moet praten als er een misverstand is.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "misverstand/probleem/onduidelijkheid",
+          "praten/communiceren/uitleggen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat wil de schrijver ons leren over vriendschap?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-brief/image-1.png",
+      "alt": "Lisa die een brief in Emma's rugzak stopt op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-brief/image-2.png",
+      "alt": "Emma die de natte, onleesbare brief laat zien aan Lisa"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls at school, one secretly placing a letter in the other's backpack while the other girl is away, children's book illustration style, Dutch elementary school classroom setting",
+    "Two young girls looking at a coffee-stained, unreadable letter, one girl showing the damaged paper to her friend with a confused expression, children's book illustration style, school playground background"
+  ]
+}

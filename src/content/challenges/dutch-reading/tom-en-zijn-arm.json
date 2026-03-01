@@ -1,0 +1,51 @@
+{
+  "id": "tom-en-zijn-arm",
+  "title": "Tom en zijn arm",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "het lichaam",
+  "text": "Tom speelt in de tuin. Hij valt van zijn fiets. Zijn arm doet pijn.\n\nTom huilt. Mama komt naar Tom. Zij kijkt naar zijn arm. De arm is rood.\n\nMama doet ijs op de arm. Het ijs is koud. Na een tijd doet de arm minder pijn. Tom lacht weer.",
+  "questions": [
+    {
+      "question": "Wat doet pijn bij Tom?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zijn arm",
+        "de arm",
+        "arm"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke kleur heeft de arm?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood"
+      ],
+      "hint": "Mama kijkt naar de arm van Tom."
+    },
+    {
+      "question": "Wat doet mama op de arm?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ijs"
+      ],
+      "hint": "Lees de laatste alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/tom-en-zijn-arm/image-1.png",
+      "alt": "Tom valt van zijn fiets in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/tom-en-zijn-arm/image-2.png",
+      "alt": "Mama doet ijs op Toms arm"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy falling from his bicycle in a backyard garden, children's book illustration style",
+    "A caring mother putting ice on her son's red arm while the boy sits on a chair, children's book illustration style"
+  ]
+}

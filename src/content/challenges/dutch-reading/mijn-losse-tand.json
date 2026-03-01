@@ -1,0 +1,74 @@
+{
+  "id": "mijn-losse-tand",
+  "title": "Mijn Losse Tand",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "het lichaam",
+  "text": "Emma heeft een losse tand. De tand zit in haar mond vooraan. Ze wiebelt er elke dag mee. Mama zegt dat de tand er bijna uit gaat.\n\nOp school wiebelt Emma weer met haar tand. Ze eet een appel in de pauze. Opeens valt de tand uit haar mond! Emma kijkt overal maar ze kan de tand niet vinden. Ze wordt verdrietig want de tandenfee kan niet komen.\n\nJuf Petra helpt Emma zoeken. Ze kijken onder de tafel en in Emma's tas. Dan zegt Bram: \"Kijk eens in je appel!\" Emma kijkt in de appel. Daar zit haar tand! Ze is heel blij. Nu kan de tandenfee wel komen.",
+  "questions": [
+    {
+      "question": "Waar zit Emma's losse tand?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in haar mond vooraan",
+        "vooraan in haar mond"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat eet Emma in de pauze?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een appel",
+        "appel"
+      ],
+      "hint": "Lees wat er op school gebeurt."
+    },
+    {
+      "question": "Waarom wordt Emma verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "tand",
+            "tandjes"
+          ],
+          [
+            "niet",
+            "geen",
+            "kwijt"
+          ],
+          [
+            "vinden",
+            "vond",
+            "gevonden"
+          ],
+          [
+            "tandenfee",
+            "fee"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma verloren heeft en wie er niet kan komen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-losse-tand/image-1.png",
+      "alt": "Emma wiebelt met haar losse tand"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-losse-tand/image-2.png",
+      "alt": "Emma vindt haar tand in de appel"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl in a classroom wiggling her loose front tooth with her finger, children's book illustration style",
+    "A young girl looking happy as she finds her tooth stuck in a bitten apple, with other children and teacher around her in a Dutch school setting, children's book illustration style"
+  ]
+}

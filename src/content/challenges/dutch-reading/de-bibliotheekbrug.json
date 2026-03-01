@@ -1,0 +1,120 @@
+{
+  "id": "de-bibliotheekbrug",
+  "title": "De Bibliotheekbrug",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de bibliotheek",
+  "text": "Daan en Malik waren al sinds groep 3 beste vrienden. Elke woensdagmiddag gingen ze samen naar de bibliotheek, zoals een vast ritueel dat hun vriendschap bij elkaar hield. Ze lazen dezelfde boeken, deden samen hun huiswerk en hielpen elkaar altijd met moeilijke woorden.\n\nToen kwam er een nieuw meisje in de klas: Zara. Ze was slim en grappig, en vooral Malik raakte onder de indruk van haar. Hij begon steeds vaker met Zara te praten en vergat soms om Daan mee te vragen naar de bibliotheek. Hun wekelijkse bezoek, dat als een brug tussen hun werelden had gefungeerd, begon te wankelen.\n\nDaan voelde zich buitengesloten en werd boos. Hij dacht dat Malik hem niet meer aardig vond omdat hij niet zo slim was als Zara. Op een dag zei hij tegen Malik: \"Ga maar gewoon met je nieuwe vriendin naar de bibliotheek. Mij hoef je niet meer!\" Malik was verbaasd en gekwetst. Hij had niet doorgehad hoe eenzaam Daan zich voelde.\n\nWeken gingen voorbij waarin de jongens elkaar ontliepen. De bibliotheek voelde leeg aan voor allebei. Daan miste Maliks hulp bij het kiezen van boeken, en Malik miste Daans vrolijke verhalen over wat hij had gelezen. Ze realiseerden zich dat hun vriendschap als een brug was die ze samen moesten onderhouden.\n\nOp een regenachtige donderdag kwam Daan Malik tegen bij de ingang van de bibliotheek. \"Sorry dat ik zo boos werd,\" zei Daan. \"Ik was bang dat je geen tijd meer voor mij had.\" Malik knikte begrijpend. \"Ik had je moeten vragen of Zara ook mee mocht komen. Vrienden sluiten elkaar niet buiten.\" Samen liepen ze naar binnen, waar drie stoelen bij hun favoriete tafel stonden te wachten.",
+  "questions": [
+    {
+      "question": "Sinds welke groep zijn Daan en Malik beste vrienden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "groep 3",
+        "sinds groep 3",
+        "groep drie"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelde Daan zich buitengesloten toen Malik tijd doorbracht met Zara?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "vergat",
+            "vergeten",
+            "mee vragen",
+            "meevragen",
+            "niet vragen"
+          ],
+          [
+            "aandacht",
+            "tijd",
+            "alleen",
+            "eenzaam",
+            "uitgesloten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Malik deed toen hij Zara leerde kennen."
+    },
+    {
+      "question": "Met welk beeld beschrijft de schrijver de vriendschap tussen Daan en Malik?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "brug",
+            "bridge"
+          ],
+          [
+            "verbinding",
+            "verbinden",
+            "samen",
+            "bij elkaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op het woord dat meerdere keren wordt gebruikt om hun vriendschap te beschrijven."
+    },
+    {
+      "question": "Vind je dat Malik een goede vriend was? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Malik als vriend en deze onderbouwen met voorbeelden uit de tekst. Zowel positieve als negatieve oordelen zijn acceptabel als ze goed worden uitgelegd.",
+        "exampleAnswer": "Ik vind dat Malik geen goede vriend was omdat hij Daan vergat toen hij Zara leerde kennen. Maar aan het eind zegt hij sorry en wil hij dat ze alle drie samen zijn.",
+        "keyElements": [
+          "mening/oordeel",
+          "onderbouwing uit tekst",
+          "voorbeelden van gedrag"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Malik deed en hoe hij zich later gedroeg."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over vriendschap die wordt getest maar uiteindelijk sterker wordt, of over het belang van communicatie in vriendschappen.",
+        "exampleAnswer": "Het verhaal gaat over vrienden die ruzie krijgen maar leren dat vriendschap belangrijk is en dat je eerlijk tegen elkaar moet zijn.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "ruzie/conflict/problemen",
+          "oplossen/herstellen/communicatie",
+          "belangrijk/waardevol"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat de schrijver ons wil leren over vriendschap."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-bibliotheekbrug/image-1.png",
+      "alt": "Twee jongens lezen samen boeken aan een tafel in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-bibliotheekbrug/image-2.png",
+      "alt": "Drie kinderen zitten samen aan een tafel in de bibliotheek"
+    }
+  ],
+  "imagePrompts": [
+    "Two young boys reading books together at a library table, children's book illustration style, warm lighting from large windows, bookshelves in background",
+    "Three children sitting together at a library table with books open, two boys and one girl, smiling and talking, children's book illustration style, cozy library setting"
+  ]
+}

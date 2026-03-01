@@ -1,0 +1,120 @@
+{
+  "id": "de-verdwenen-herfstbladeren",
+  "title": "De Verdwenen Herfstbladeren",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "seizoenen",
+  "text": "Emma had een geheim dat niemand mocht weten. Elke herfst verzamelde zij de mooiste bladeren uit het park, want die hadden magische krachten, dacht ze. De gouden en rode bladeren bewaarde ze in een speciale doos onder haar bed.\n\nOp een grijze novembermorgen ontdekte Emma iets vreselijks. Haar kostbare bladeren waren spoorloos verdwenen! Alleen wat bruine kruimeltjes lagen nog in de lege doos. \"Wie heeft mijn schatten gestolen?\" fluisterde ze verdrietig.\n\nEmma begon meteen te speuren. Eerst verdacht ze haar kleine broer Tim, omdat hij altijd met haar spullen speelde. Maar Tim zei dat hij van de doos afbleef. Daarna dacht ze aan haar kat Muis, die overal zijn neus instak. Toch kon Muis een doos niet openmaken.\n\nToen Emma de doos nog eens goed bekeek, zag ze kleine gaatjes in de bodem. Plotseling begreep ze alles! De bladeren waren niet gestolen - ze waren gewoon vergaan. Net zoals alle bladeren in de natuur worden ze uiteindelijk bruin en vallen uit elkaar. Dat was het natuurlijke verloop van de seizoenen.\n\nHoewel Emma zich een beetje dom voelde, was ze ook opgelucht. Niemand had haar bladeren weggenomen. Ze besloot om dit jaar gewoon van de herfstbladeren te genieten terwijl ze aan de bomen hingen, in plaats van ze op te sluiten in een donkere doos.",
+  "questions": [
+    {
+      "question": "Waar bewaarde Emma haar bladeren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "onder haar bed",
+        "in een speciale doos onder haar bed",
+        "in een doos onder haar bed"
+      ],
+      "hint": "Kijk in de eerste alinea waar Emma haar schatten verstopte."
+    },
+    {
+      "question": "Waarom verdacht Emma eerst haar broer Tim?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "speelde",
+            "spelen",
+            "speelt"
+          ],
+          [
+            "spullen",
+            "dingen",
+            "speelgoed"
+          ],
+          [
+            "altijd",
+            "vaak",
+            "veel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "In de derde alinea staat waarom Emma aan Tim dacht."
+    },
+    {
+      "question": "Wat ontdekte Emma toen ze de doos goed bekeek?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gaatjes",
+            "gaten",
+            "gaatje"
+          ],
+          [
+            "bodem",
+            "onderkant",
+            "beneden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "De oplossing vond Emma door goed naar de doos te kijken."
+    },
+    {
+      "question": "Vind je dat Emma slim of dom handelde door de bladeren in een doos te bewaren? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (slim of dom) en dit onderbouwen met een redenering. Mogelijke redeneringen: dom omdat bladeren natuurlijk vergaan, slim omdat ze van de herfst wilde genieten, dom omdat ze de natuur niet begreep.",
+        "exampleAnswer": "Ik vind het dom, omdat bladeren altijd vergaan en je ze beter buiten kunt laten.",
+        "keyElements": [
+          "mening/dom/slim",
+          "omdat/want/redenering",
+          "bladeren/natuur/vergaan"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat er met bladeren gebeurt als de seizoenen veranderen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het accepteren van de natuurlijke gang van zaken en dat sommige dingen niet voor altijd bewaard kunnen worden. De seizoenen en natuurlijke processen zijn belangrijker dan het vastgrijpen van mooie momenten.",
+        "exampleAnswer": "Het verhaal gaat erover dat je de natuur zijn gang moet laten gaan en niet alles kunt bewaren.",
+        "keyElements": [
+          "natuur/natuurlijk/seizoenen",
+          "laten/accepteren/begrijpen",
+          "bewaren/vasthouden"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat Emma leert over de natuur en het bewaren van mooie dingen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-herfstbladeren/image-1.png",
+      "alt": "Emma die herfstbladeren verzamelt in een Nederlands park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-herfstbladeren/image-2.png",
+      "alt": "Emma die verdrietig naar een lege doos kijkt met kruimeltjes erin"
+    }
+  ],
+  "imagePrompts": [
+    "A thoughtful young girl collecting golden and red autumn leaves in a Dutch park, children's book illustration style with philosophical atmosphere",
+    "A disappointed girl looking at an empty box with brown crumbs inside, her bedroom setting with soft lighting, children's book illustration style"
+  ]
+}

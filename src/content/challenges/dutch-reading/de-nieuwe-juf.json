@@ -1,0 +1,73 @@
+{
+  "id": "de-nieuwe-juf",
+  "title": "De Nieuwe Juf",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "school",
+  "text": "Ik ben Tom. Wij hebben een nieuwe juf. Ze heet juf Anna. Ze is aardig en vrolijk.\n\nVandaag maken wij een lijst. We schrijven dingen op die we leuk vinden. Ik schrijf voetbal, tekenen en koekjes. Mijn vriend Bas schrijft zwemmen, lezen en pizza.\n\nEr zit een nieuw meisje in onze klas. Ze heet Sara. Sara kijkt verdrietig. Ze kent nog niemand. Ik ga naar Sara toe. Ik zeg: 'Hallo, ik ben Tom. Wil je met ons spelen?' Sara lacht en knikt.\n\nNu heeft Sara nieuwe vrienden. Wij spelen samen in de pauze. Juf Anna is blij. Ik ben ook blij dat ik Sara heb geholpen.",
+  "questions": [
+    {
+      "question": "Hoe heet de nieuwe juf?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "anna"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Welke drie dingen schrijft Tom op zijn lijst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "voetbal, tekenen en koekjes",
+        "voetbal tekenen koekjes"
+      ],
+      "hint": "Zoek de lijst die Tom maakt."
+    },
+    {
+      "question": "Waarom was Sara verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nieuw",
+            "nieuwe"
+          ],
+          [
+            "niemand",
+            "geen vrienden",
+            "kent niemand",
+            "alleen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Sara's situatie in de klas."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-juf/image-1.png",
+      "alt": "Juf Anna staat voor de klas met Tom en zijn klasgenoten"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-juf/image-2.png",
+      "alt": "Tom praat met Sara terwijl zij verdrietig kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A friendly Dutch teacher named Anna standing in front of a primary school classroom with young students, children's book illustration style, bright and welcoming atmosphere",
+    "A young boy named Tom approaching a sad new girl named Sara in a school classroom, other children in background, children's book illustration style, showing empathy and kindness"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "de-gouden-voetbalschoen",
+  "title": "De Gouden Voetbalschoen",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "sport",
+  "text": "Emma had altijd gedroomd van de gouden voetbalschoen. Deze prijs werd elk jaar uitgereikt aan de beste speler van het jeugdtoernooi in haar wijk. Maar dit jaar was er iets vreemds aan de hand.\n\nTijdens de wedstrijden zag Emma dat coach Van der Berg alleen de jongens aanmoedigde. Meisjes kregen minder speeltijd en werden vaak naar de verdediging gestuurd. \"Meisjes kunnen niet zo hard schieten,\" hoorde ze hem tegen andere ouders zeggen. Emma voelde haar wangen gloeien van boosheid, maar ze durfde niets te zeggen.\n\nOp de dag van de finale speelde Emma's team tegen het sterkste jongensteam. Coach Van der Berg had haar weer als verdediger opgesteld, hoewel ze de beste aanvaller van het team was. Emma keek naar de tribune waar haar kleine broertje Daan zat. Hij gebaarde naar haar en wees naar het doel. Plotseling verscheen er een gouden gloed om de voetbal.\n\nNa de rust verzamelde Emma al haar moed. \"Coach,\" zei ze met trillende stem, \"ik wil graag voorin spelen. Ik heb dit seizoen de meeste doelpunten gemaakt.\" De coach wilde protesteren, maar andere ouders knikten instemmend. Omdat ze al achter stonden, zette hij Emma toch als spits.\n\nMet de magische bal aan haar voeten scoorde Emma drie fantastische doelpunten. Haar team won met 3-2. Maar het belangrijkste was dat coach Van der Berg besefte dat talent niets te maken heeft met jongen of meisje zijn. Vanaf dat moment kregen alle spelers gelijke kansen, en Emma's actie inspireerde ook andere kinderen om op te komen voor eerlijkheid in de sport.",
+  "questions": [
+    {
+      "question": "Wie kreeg volgens coach Van der Berg elk jaar de gouden voetbalschoen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de beste speler van het jeugdtoernooi",
+        "de beste speler"
+      ],
+      "hint": "Kijk in de eerste alinea naar wat er over de prijs wordt gezegd."
+    },
+    {
+      "question": "Waarom voelde Emma haar wangen gloeien van boosheid?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "coach",
+            "van der berg",
+            "trainer"
+          ],
+          [
+            "jongens",
+            "jongen",
+            "meisjes",
+            "meisje"
+          ],
+          [
+            "oneerlijk",
+            "ongelijk",
+            "anders",
+            "minder"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma opviel aan het gedrag van coach Van der Berg."
+    },
+    {
+      "question": "Wat was er magisch aan de voetbal tijdens de wedstrijd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gouden",
+            "goud",
+            "gloed"
+          ],
+          [
+            "verscheen",
+            "kwam",
+            "gloeide",
+            "straalde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog eens goed door."
+    },
+    {
+      "question": "Vind je dat Emma goed heeft gehandeld door tegen de coach te spreken? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijk standpunt innemen (ja/nee) en dit onderbouwen met argumenten over moed, eerlijkheid, of gelijke behandeling. Het argument moet logisch zijn.",
+        "exampleAnswer": "Ja, Emma heeft goed gehandeld omdat ze opkwam voor eerlijkheid. Door moed te tonen heeft ze anderen geholpen.",
+        "keyElements": [
+          "moed/moedig/dapper",
+          "eerlijk/eerlijkheid/gelijk",
+          "opkomen/verdedigen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de gevolgen van Emma's actie voor haarzelf en anderen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over opkomen tegen oneerlijkheid en dat talent belangrijker is dan geslacht. De boodschap over moed tonen en gelijke behandeling moet duidelijk zijn.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat moed toont om op te komen tegen oneerlijke behandeling in de sport.",
+        "keyElements": [
+          "opkomen/verdedigen/vechten",
+          "oneerlijk/ongelijk/discriminatie",
+          "moed/moedig/dapper"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat wil de schrijver ons leren over moed en eerlijkheid?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gouden-voetbalschoen/image-1.png",
+      "alt": "Emma op het voetbalveld met de gouden bal"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gouden-voetbalschoen/image-2.png",
+      "alt": "Emma scoort een doelpunt in de finale"
+    }
+  ],
+  "imagePrompts": [
+    "A determined young girl in soccer uniform standing on a Dutch football field, with a glowing golden soccer ball at her feet, children's book illustration style",
+    "A young girl scoring a goal during an intense soccer match, with cheering crowd in the background, children's book illustration style"
+  ]
+}

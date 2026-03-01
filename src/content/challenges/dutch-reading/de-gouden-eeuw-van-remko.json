@@ -1,0 +1,117 @@
+{
+  "id": "de-gouden-eeuw-van-remko",
+  "title": "De Gouden Eeuw van Remko",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Remko woont in Amsterdam. Hij komt uit Turkije, maar nu leeft zijn familie al vijf jaar in Nederland. Op school leren ze over de Gouden Eeuw. Dat was een tijd lang geleden, in de zeventiende eeuw.\n\nDe juf vertelt over rijke kooplieden en grote schepen. Ze laat schilderijen zien van Rembrandt en Vermeer. Remko vindt de verhalen interessant, maar hij begrijpt niet alles. Waarom waren de Nederlanders toen zo rijk? Hoe konden ze zoveel geld verdienen?\n\nToen ging de klas naar het Rijksmuseum. Daar zag Remko echte schilderijen uit die tijd. Hij zag portretten van deftige mensen in mooie kleren. De gids vertelde dat Amsterdam toen een belangrijke handelsstad was. Schepen kwamen uit de hele wereld naar de haven.\n\nRemko dacht na. Misschien leek die tijd wel op nu. Nu komen ook mensen uit de hele wereld naar Nederland. Net zoals zijn familie. De geschiedenis voelde ineens minder ver weg. Hij begreep dat Nederland altijd al een land was waar verschillende culturen samenkwamen.\n\nThuis vertelde Remko aan zijn vader over de Gouden Eeuw. Zijn vader glimlachte. \"Zie je,\" zei hij, \"Nederland was altijd al een land van handel en ontmoeting. Wij horen hier ook bij.\" Remko voelde zich trots op zijn nieuwe vaderland.",
+  "questions": [
+    {
+      "question": "Hoeveel jaar woont Remko's familie al in Nederland?",
+      "questionType": "begrijpen",
+      "hint": "Kijk in de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijf"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom voelde de geschiedenis ineens minder ver weg voor Remko?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "mensen",
+            "culturen",
+            "familie",
+            "families"
+          ],
+          [
+            "komen",
+            "kwam",
+            "kwamen",
+            "samenkomen",
+            "samenkwamen"
+          ],
+          [
+            "wereld",
+            "hele wereld",
+            "verschillende",
+            "landen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Remko begreep over toen en nu."
+    },
+    {
+      "question": "Hoe veranderde Remko's gevoel over Nederland na dit bezoek?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "trots",
+            "hoorde",
+            "horen",
+            "thuisvoelen"
+          ],
+          [
+            "nederland",
+            "vaderland",
+            "thuis",
+            "hier"
+          ],
+          [
+            "bijhoren",
+            "erbij horen",
+            "deel",
+            "samenkomen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal."
+    },
+    {
+      "question": "Wat zei Remko's vader over Nederland?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "nederland was altijd al een land van handel en ontmoeting",
+        "altijd al een land van handel en ontmoeting",
+        "een land van handel en ontmoeting"
+      ],
+      "hint": "Kijk naar wat de vader precies zegt in de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gouden-eeuw-van-remko/image-1.png",
+      "alt": "Remko kijkt naar schilderijen in het Rijksmuseum"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gouden-eeuw-van-remko/image-2.png",
+      "alt": "Remko praat thuis met zijn vader over de Gouden Eeuw"
+    }
+  ],
+  "imagePrompts": [
+    "A Turkish-Dutch boy looking at 17th century Dutch Golden Age paintings in the Rijksmuseum, children's book illustration style",
+    "A young boy talking with his father at home, both smiling, cozy Dutch living room, children's book illustration style"
+  ]
+}

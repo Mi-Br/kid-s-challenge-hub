@@ -25,10 +25,16 @@ const __dirname = path.dirname(__filename);
 
 // ── Config ──────────────────────────────────────────────────
 const CHALLENGES_DIR = path.join(__dirname, "../src/content/challenges/dutch-reading");
+const TOPIC_LIBRARY_PATH = path.join(__dirname, "topic-library.json");
+const STORY_ARCS_PATH = path.join(__dirname, "story-arcs.json");
+const CONSTRAINTS_PATH = path.join(__dirname, "constraints.json");
+const CHECKPOINTS_DIR = path.join(__dirname, "checkpoints");
+const REPORTS_DIR = path.join(__dirname, "reports");
 const API_URL = "https://api.anthropic.com/v1/messages";
 const MODEL = "claude-sonnet-4-20250514";
 const MAX_TOKENS = 4096;
 const DELAY_MS = 2000; // between API calls
+const CHECKPOINT_INTERVAL = 20; // Save checkpoint every N challenges
 
 // ── Difficulty → referentieniveau mapping ────────────────────
 const DIFF_TO_REF = { low: "toward-1F", medium: "1F", high: "toward-1S/2F" };
@@ -47,13 +53,122 @@ const TARGETS = {
   "groep7-8": { low: 8, medium: 8, high: 6 },
 };
 
+// ── Load variety data files ──────────────────────────────────
+let TOPIC_LIBRARY = {};
+let STORY_ARCS = {};
+let CONSTRAINTS = {};
+
+function loadVarietyData() {
+  try {
+    if (fs.existsSync(TOPIC_LIBRARY_PATH)) {
+      TOPIC_LIBRARY = JSON.parse(fs.readFileSync(TOPIC_LIBRARY_PATH, "utf-8"));
+      console.log(`  ✓ Loaded topic library (${Object.values(TOPIC_LIBRARY).reduce((a, b) => a + Object.values(b).reduce((c, d) => c + d.length, 0), 0)} sub-topics)`);
+    }
+    if (fs.existsSync(STORY_ARCS_PATH)) {
+      STORY_ARCS = JSON.parse(fs.readFileSync(STORY_ARCS_PATH, "utf-8"));
+      console.log(`  ✓ Loaded story arcs (${Object.values(STORY_ARCS).reduce((a, b) => a + b.length, 0)} arcs)`);
+    }
+    if (fs.existsSync(CONSTRAINTS_PATH)) {
+      CONSTRAINTS = JSON.parse(fs.readFileSync(CONSTRAINTS_PATH, "utf-8"));
+      console.log(`  ✓ Loaded constraints`);
+    }
+  } catch (e) {
+    console.warn(`  ⚠️  Could not load variety data: ${e.message}`);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════
+//  RANDOMIZATION & VARIETY HELPERS
+// ═══════════════════════════════════════════════════════════
+function shuffle(array) {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function generateTopicSequence(topics, count) {
+  if (topics.length === 0) return [];
+  const sequence = [];
+  let pool = shuffle([...topics]);
+  let poolIndex = 0;
+
+  for (let i = 0; i < count; i++) {
+    if (poolIndex >= pool.length) {
+      pool = shuffle([...topics]);
+      poolIndex = 0;
+    }
+    sequence.push(pool[poolIndex++]);
+  }
+  return sequence;
+}
+
+function selectRandomConstraints(groepLevel, difficulty, count = 2) {
+  const constraintList = CONSTRAINTS[groepLevel]?.[difficulty] || [];
+  if (constraintList.length === 0) return [];
+  const shuffled = shuffle(constraintList);
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+function selectRandomArc(groepLevel) {
+  const arcs = STORY_ARCS[groepLevel] || [];
+  if (arcs.length === 0) return null;
+  return arcs[Math.floor(Math.random() * arcs.length)];
+}
+
+function getSubtopicInfo(groepLevel, topicName) {
+  const topicsPerParent = TOPIC_LIBRARY[groepLevel]?.[topicName] || [];
+  if (topicsPerParent.length === 0) return null;
+  return topicsPerParent[Math.floor(Math.random() * topicsPerParent.length)];
+}
+
 // ═══════════════════════════════════════════════════════════
 //  GENERATION PROMPT — mirrors AGENT.md spec exactly
 // ═══════════════════════════════════════════════════════════
-function buildPrompt(groepLevel, difficulty, topic) {
+function buildPrompt(groepLevel, difficulty, topic, topicSequence = null, sequenceIndex = null) {
   // Read AGENT.md for the canonical spec
   const agentMdPath = path.join(__dirname, "AGENT.md");
   const agentMd = fs.readFileSync(agentMdPath, "utf-8");
+
+  // Select variety data if loaded
+  let varietySection = "";
+  if (Object.keys(STORY_ARCS).length > 0 || Object.keys(CONSTRAINTS).length > 0) {
+    varietySection = "\n\n<VARIETY_GUIDELINES>";
+
+    // Narrative arc
+    const arc = selectRandomArc(groepLevel);
+    if (arc) {
+      varietySection += `\nNARRATIVE ARC: ${arc.name}`;
+      varietySection += `\nStructure: ${arc.structure.join(" → ")}`;
+      varietySection += `\nEmotional journey: ${arc.emotional_arc}`;
+    }
+
+    // Sub-topic details
+    let effectiveTopic = topic;
+    if (topicSequence && sequenceIndex !== null && sequenceIndex < topicSequence.length) {
+      effectiveTopic = topicSequence[sequenceIndex];
+    }
+    const subtopic = getSubtopicInfo(groepLevel, effectiveTopic);
+    if (subtopic) {
+      varietySection += `\nSUB-TOPIC: ${subtopic.name}`;
+      varietySection += `\nPossible settings: ${subtopic.settings.join(", ")}`;
+      varietySection += `\nPossible conflicts: ${subtopic.conflicts.join(", ")}`;
+      varietySection += `\nCharacter types: ${subtopic.characters.join(", ")}`;
+    }
+
+    // Constraints
+    const constraints = selectRandomConstraints(groepLevel, difficulty, 2);
+    if (constraints.length > 0) {
+      varietySection += `\nSTYLISTIC CONSTRAINTS (apply these):`;
+      constraints.forEach((c, i) => {
+        varietySection += `\n${i + 1}. ${c.constraint}`;
+      });
+    }
+
+    varietySection += "\n</VARIETY_GUIDELINES>";
+  }
 
   return `You are a Dutch language education specialist creating reading comprehension exercises for NT2 children (expats in the Netherlands learning Dutch as a second language).
 
@@ -62,6 +177,7 @@ Below is the complete specification for this project. Follow it precisely.
 <specification>
 ${agentMd}
 </specification>
+${varietySection}
 
 TASK: Generate exactly ONE challenge with these parameters:
 - groepLevel: ${groepLevel}
@@ -123,6 +239,229 @@ async function callAnthropic(prompt) {
     console.error(cleaned.substring(0, 500));
     throw new Error(`JSON parse error: ${e.message}`);
   }
+}
+
+// ═══════════════════════════════════════════════════════════
+//  QUALITY CONTROL & ENHANCED VALIDATION
+// ═══════════════════════════════════════════════════════════
+const DUTCH_CLICHÉS = [
+  "op een dag", "lang geleden", "heel erg", "veel te", "eigenlijk",
+  "ineens", "plotseling", "opeens", "er was eens", "ze waren erg",
+  "eerst daarna", "ten slotte", "aan het eind", "in het eind",
+  "helemaal niet", "totaal niet", "echt niet", "absoluut",
+];
+
+function detectCliches(text) {
+  const textLower = text.toLowerCase();
+  let clicheCount = 0;
+  const found = [];
+  for (const cliche of DUTCH_CLICHÉS) {
+    if (textLower.includes(cliche)) {
+      clicheCount++;
+      found.push(cliche);
+    }
+  }
+  return { count: clicheCount, found };
+}
+
+function assessComplexity(text, groepLevel, difficulty) {
+  const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 0);
+  const words = text.split(/\s+/);
+  const avgSentenceLength = words.length / sentences.length;
+
+  // Expected avg sentence length by groep and difficulty
+  const expectedLength = {
+    "groep4-5": { low: 8, medium: 10, high: 12 },
+    "groep5-6": { low: 10, medium: 13, high: 15 },
+    "groep7-8": { low: 14, medium: 17, high: 20 },
+  };
+
+  const target = expectedLength[groepLevel]?.[difficulty] || 12;
+  const tolerance = target * 0.3; // ±30% tolerance
+  const matches = avgSentenceLength >= target - tolerance && avgSentenceLength <= target + tolerance;
+
+  return {
+    avgSentenceLength: avgSentenceLength.toFixed(1),
+    expectedLength: target,
+    matches,
+    assessment: matches ? "✓ Matches" : avgSentenceLength > target ? "⚠ Too complex" : "⚠ Too simple",
+  };
+}
+
+function validateEnhanced(challenge, groepLevel, difficulty, existingChallenges = []) {
+  const baseValidation = validate(challenge, groepLevel, difficulty);
+  const enhancements = {
+    cliches: detectCliches(challenge.text),
+    complexity: assessComplexity(challenge.text, groepLevel, difficulty),
+    titleUnique: !existingChallenges.some(c => c.id === challenge.id),
+  };
+
+  if (!enhancements.titleUnique) {
+    baseValidation.warnings.push(`Title conflict: ID "${challenge.id}" already exists`);
+  }
+  if (enhancements.cliches.count > 2) {
+    baseValidation.warnings.push(`Contains ${enhancements.cliches.count} clichés: ${enhancements.cliches.found.join(", ")}`);
+  }
+
+  return { ...baseValidation, enhancements };
+}
+
+function generateQualityReport(challenges, groepLevel) {
+  if (!fs.existsSync(REPORTS_DIR)) {
+    fs.mkdirSync(REPORTS_DIR, { recursive: true });
+  }
+
+  const topics = TOPIC_BANK[groepLevel] || [];
+  const topicCount = {};
+  topics.forEach(t => topicCount[t] = 0);
+
+  const arcs = STORY_ARCS[groepLevel] || [];
+  const arcCount = {};
+  arcs.forEach(a => arcCount[a.id] = 0);
+
+  let totalCliches = 0;
+  let complexityMatches = 0;
+  let imageCompletion = 0;
+
+  for (const ch of challenges) {
+    if (ch.topic) topicCount[ch.topic]++;
+    totalCliches += detectCliches(ch.text).count;
+    const complexity = assessComplexity(ch.text, groepLevel, ch.difficulty);
+    if (complexity.matches) complexityMatches++;
+    if (ch.images?.length === 2) imageCompletion++;
+  }
+
+  const report = {
+    generatedAt: new Date().toISOString(),
+    groepLevel,
+    totalChallenges: challenges.length,
+    statistics: {
+      topicDistribution: topicCount,
+      averageCliches: (totalCliches / challenges.length).toFixed(2),
+      complexityMatchRate: ((complexityMatches / challenges.length) * 100).toFixed(1) + "%",
+      imageCompletionRate: ((imageCompletion / challenges.length) * 100).toFixed(1) + "%",
+    },
+    qualityScore: {
+      high: complexityMatches > challenges.length * 0.8 && imageCompletion === challenges.length ? "✅ Good" : "⚠️ Needs review",
+    },
+  };
+
+  const timestamp = new Date().toISOString().replace(/[:.]/g, "-").slice(0, -5);
+  const reportFile = path.join(REPORTS_DIR, `quality-${groepLevel}-${timestamp}.json`);
+  fs.writeFileSync(reportFile, JSON.stringify(report, null, 2), "utf-8");
+
+  return report;
+}
+
+// ═══════════════════════════════════════════════════════════
+//  AUTO-FIX: Convert woordbetekenis from literal to keywords
+// ═══════════════════════════════════════════════════════════
+function fixWordbetekensisQuestions(challenge) {
+  /**
+   * Auto-fix: woordbetekenis questions work better with keywords validation
+   * because word definitions are inferred from context, not exact string matches.
+   *
+   * Converts: literal answers → keywords groups with synonyms
+   * Example: "langzaam en zacht" → ["langzaam", "zacht"] as keyword groups
+   */
+  if (!challenge.questions) return challenge;
+
+  const fixed = { ...challenge };
+  fixed.questions = challenge.questions.map(q => {
+    // Only fix woordbetekenis questions with literal answers
+    if (q.questionType === "woordbetekenis" && q.acceptableAnswers && !q.validation) {
+      // Convert acceptableAnswers to keyword groups
+      // Split each answer by common conjunctions and create groups
+      const keywordGroups = q.acceptableAnswers
+        .flatMap(answer =>
+          answer.split(/\s+(en|of|,)\s+/).filter(w => w && !['en', 'of', ','].includes(w))
+        )
+        .filter((v, i, a) => a.indexOf(v) === i) // unique
+        .map(word => [word]) // wrap each in array
+        .slice(0, 3); // limit to 3 groups for simplicity
+
+      return {
+        ...q,
+        answerType: "explanation",
+        validation: {
+          mode: "keywords",
+          minWords: 1,
+          mustIncludeAny: keywordGroups.length > 0 ? keywordGroups : [q.acceptableAnswers],
+          allowExtraText: true
+        },
+        // Remove old acceptableAnswers since we're using validation now
+        acceptableAnswers: undefined
+      };
+    }
+    return q;
+  });
+
+  return fixed;
+}
+
+function autoFixLiteralAnswers(challenge) {
+  /**
+   * Auto-fix: convert problematic literal questions to keywords validation
+   *
+   * Problem patterns:
+   * 1. "Wat roept/zegt/doet..." questions where exact quote doesn't appear
+   * 2. "Waarom..." questions where specific reason doesn't appear verbatim
+   *
+   * Solution: Use keywords validation instead of literal
+   */
+  if (!challenge.questions) return challenge;
+
+  const fixed = { ...challenge };
+  fixed.questions = challenge.questions.map(q => {
+    // Only fix if:
+    // - Has literal answers (acceptableAnswers)
+    // - No custom validation yet
+    // - Question pattern suggests indirect answers
+    if (!q.acceptableAnswers || q.validation || q.answerType) {
+      return q;
+    }
+
+    const qText = q.question.toLowerCase();
+
+    // Convert these patterns to keywords (harder to get exact literal matches)
+    const shouldConvert =
+      qText.includes("roept") ||      // Wat roept...
+      qText.includes("zegt") ||       // Wat zegt...
+      qText.includes("doet") ||       // Wat doet...
+      qText.includes("waarom") ||     // Waarom...
+      qText.includes("hoe voelt") ||  // Hoe voelt...
+      qText.includes("hoe") ||        // Hoe...
+      (qText.includes("wat") && qText.length > 50); // Long questions are usually complex
+
+    if (!shouldConvert) {
+      return q;
+    }
+
+    // Convert to keywords validation
+    // Extract key words from acceptable answers
+    const keywords = q.acceptableAnswers[0]
+      .split(/\s+/)
+      .filter(w => w.length > 3) // only significant words
+      .slice(0, 3);
+
+    if (keywords.length === 0) {
+      return q; // fallback to original if no keywords extracted
+    }
+
+    return {
+      ...q,
+      answerType: "explanation",
+      validation: {
+        mode: "keywords",
+        minWords: 2,
+        mustIncludeAny: keywords.map(kw => [kw]),
+        allowExtraText: true
+      },
+      acceptableAnswers: undefined
+    };
+  });
+
+  return fixed;
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -276,6 +615,67 @@ function saveChallenge(challenge) {
 }
 
 // ═══════════════════════════════════════════════════════════
+//  BATCH OPERATIONS
+// ═══════════════════════════════════════════════════════════
+function planBatch(targetCount, groepLevel) {
+  const topics = TOPIC_BANK[groepLevel] || [];
+  const topicSequence = generateTopicSequence(topics, targetCount);
+  const timestamp = new Date().toISOString().replace(/[:.]/g, "-").slice(0, -5);
+
+  const plan = {
+    timestamp,
+    groepLevel,
+    targetCount,
+    topicSequence,
+    estimatedApiCalls: targetCount,
+    estimatedTokensPerCall: 3000,
+    estimatedCost: (targetCount * 0.03).toFixed(2), // ~$0.03 per challenge
+    estimatedTimeMinutes: Math.ceil(targetCount * 1.5), // ~1.5 min per challenge
+  };
+
+  return plan;
+}
+
+function saveBatchCheckpoint(plan, completed, failed, results) {
+  if (!fs.existsSync(CHECKPOINTS_DIR)) {
+    fs.mkdirSync(CHECKPOINTS_DIR, { recursive: true });
+  }
+
+  const checkpoint = {
+    plan,
+    completedCount: completed,
+    failedIndices: failed,
+    resultsCount: results.length,
+    lastSaved: new Date().toISOString(),
+  };
+
+  const checkpointFile = path.join(CHECKPOINTS_DIR, `batch-${plan.groepLevel}-${plan.timestamp}.json`);
+  fs.writeFileSync(checkpointFile, JSON.stringify(checkpoint, null, 2), "utf-8");
+  return checkpointFile;
+}
+
+function resumeBatchCheckpoint(checkpointFile) {
+  if (!fs.existsSync(checkpointFile)) {
+    throw new Error(`Checkpoint file not found: ${checkpointFile}`);
+  }
+  return JSON.parse(fs.readFileSync(checkpointFile, "utf-8"));
+}
+
+function estimateCost(count) {
+  const textCost = count * 0.03; // Text generation cost
+  const imageCost = count * 0.08; // Image generation cost (2 per challenge)
+  const totalCost = textCost + imageCost;
+  const estimatedTimeMinutes = Math.ceil(count * 2); // 2 min avg per challenge
+
+  return {
+    textCost: textCost.toFixed(2),
+    imageCost: imageCost.toFixed(2),
+    totalCost: totalCost.toFixed(2),
+    estimatedTimeMinutes,
+  };
+}
+
+// ═══════════════════════════════════════════════════════════
 //  CLI
 // ═══════════════════════════════════════════════════════════
 function parseArgs() {
@@ -288,6 +688,10 @@ function parseArgs() {
     fillGaps: false,
     list: false,
     dryRun: false,
+    planBatch: false,
+    batch: false,
+    target: null,
+    resume: null,
   };
 
   for (let i = 0; i < args.length; i++) {
@@ -296,9 +700,13 @@ function parseArgs() {
       case "--difficulty": opts.difficulty = args[++i]; break;
       case "--topic": opts.topic = args[++i]; break;
       case "--count": opts.count = parseInt(args[++i], 10); break;
+      case "--target": opts.target = parseInt(args[++i], 10); break;
       case "--fill-gaps": opts.fillGaps = true; break;
       case "--list": opts.list = true; break;
       case "--dry-run": opts.dryRun = true; break;
+      case "--plan-batch": opts.planBatch = true; break;
+      case "--batch": opts.batch = true; break;
+      case "--resume": opts.resume = args[++i]; break;
       case "--help": printHelp(); process.exit(0);
       default: console.warn(`Unknown arg: ${args[i]}`);
     }
@@ -318,9 +726,13 @@ Options:
   --difficulty <diff>   low, medium, or high
   --topic <topic>       Optional topic (e.g., school, dieren)
   --count <n>           Number of challenges to generate (default: 1)
+  --target <n>          Target count for batch operations
   --fill-gaps           Auto-generate missing challenges for all groep/difficulty combos
   --list                Show current inventory and gaps
   --dry-run             Build prompts but don't call the API
+  --plan-batch          Show batch plan and cost estimate (requires --groep and --target)
+  --batch               Execute batch generation with checkpoints (requires --groep and --target)
+  --resume <file>       Resume from checkpoint file
   --help                Show this help
 
 Examples:
@@ -328,6 +740,9 @@ Examples:
   node scripts/generate-challenge-text.js --groep groep7-8 --difficulty high --count 5
   node scripts/generate-challenge-text.js --fill-gaps --count 2
   node scripts/generate-challenge-text.js --list
+  node scripts/generate-challenge-text.js --plan-batch --groep groep4-5 --target 100
+  node scripts/generate-challenge-text.js --batch --groep groep4-5 --target 100
+  node scripts/generate-challenge-text.js --resume checkpoints/batch-groep4-5-2026-02-28T14-30-15.json
 
 Environment:
   ANTHROPIC_API_KEY     Required in .env file
@@ -376,15 +791,67 @@ function printInventory() {
 async function main() {
   const opts = parseArgs();
 
+  console.log("\n🇳🇱 Dutch Reading Challenge — Text Generator\n");
+
+  // Load variety data
+  if (Object.keys(STORY_ARCS).length === 0 && Object.keys(CONSTRAINTS).length === 0) {
+    console.log("📚 Loading variety data...");
+    loadVarietyData();
+  }
+
   if (opts.list) {
     printInventory();
     return;
   }
 
-  console.log("\n🇳🇱 Dutch Reading Challenge — Text Generator\n");
+  // Handle batch planning
+  if (opts.planBatch) {
+    if (!opts.groep || !opts.target) {
+      console.error("❌ --plan-batch requires --groep and --target\n");
+      printHelp();
+      process.exit(1);
+    }
+    const plan = planBatch(opts.target, opts.groep);
+    const cost = estimateCost(opts.target);
+    console.log(`\n📋 Batch Plan: ${opts.groep} (${opts.target} challenges)\n`);
+    console.log(`  Topic sequence: ${plan.topicSequence.slice(0, 5).join(", ")} ...`);
+    console.log(`  Estimated API calls: ${plan.estimatedApiCalls}`);
+    console.log(`  Estimated cost: $${cost.totalCost}`);
+    console.log(`  Estimated time: ${cost.estimatedTimeMinutes} minutes\n`);
+    return;
+  }
+
+  // Handle batch resume
+  if (opts.resume) {
+    console.log(`🔄 Resuming from: ${opts.resume}\n`);
+    try {
+      const checkpoint = resumeBatchCheckpoint(opts.resume);
+      console.log(`  Progress: ${checkpoint.completedCount}/${checkpoint.plan.targetCount} completed`);
+      console.log(`  Failed: ${checkpoint.failedIndices.length}`);
+      console.log(`  Last saved: ${checkpoint.lastSaved}\n`);
+      // TODO: Implement actual resume logic in task generation
+      return;
+    } catch (e) {
+      console.error(`❌ Error resuming: ${e.message}\n`);
+      process.exit(1);
+    }
+  }
+
+  // Handle batch execution
+  if (opts.batch) {
+    if (!opts.groep || !opts.target) {
+      console.error("❌ --batch requires --groep and --target\n");
+      printHelp();
+      process.exit(1);
+    }
+    opts.count = opts.target;
+    console.log(`🚀 Batch mode: ${opts.groep} (${opts.target} challenges)\n`);
+  }
 
   // Build task list
   const tasks = [];
+  let topicSequence = null;
+  let sequenceIndices = {};
 
   if (opts.fillGaps) {
     const gaps = getGaps();
@@ -395,9 +862,10 @@ async function main() {
     for (const gap of gaps) {
       const toGenerate = Math.min(gap.missing, opts.count);
       const topics = TOPIC_BANK[gap.groep] || [];
+      // Use randomized topic sequence instead of cycling
+      const gapSequence = generateTopicSequence(topics, toGenerate);
       for (let i = 0; i < toGenerate; i++) {
-        const topic = topics[i % topics.length]; // cycle through topics
-        tasks.push({ groep: gap.groep, difficulty: gap.difficulty, topic });
+        tasks.push({ groep: gap.groep, difficulty: gap.difficulty, topic: gapSequence[i], sequenceIndex: i });
       }
     }
     console.log(`📋 Fill-gaps mode: ${tasks.length} challenges to generate\n`);
@@ -407,17 +875,26 @@ async function main() {
       printHelp();
       process.exit(1);
     }
+    const topics = TOPIC_BANK[opts.groep] || [];
+    topicSequence = generateTopicSequence(topics, opts.count);
     for (let i = 0; i < opts.count; i++) {
-      tasks.push({ groep: opts.groep, difficulty: opts.difficulty, topic: opts.topic });
+      tasks.push({
+        groep: opts.groep,
+        difficulty: opts.difficulty,
+        topic: opts.topic || topicSequence[i],
+        sequenceIndex: i
+      });
     }
   }
 
   // Run tasks
   let success = 0;
   let failed = 0;
+  const failedIndices = [];
+  const results = [];
 
   for (let i = 0; i < tasks.length; i++) {
-    const { groep, difficulty, topic } = tasks[i];
+    const { groep, difficulty, topic, sequenceIndex } = tasks[i];
     const ref = DIFF_TO_REF[difficulty];
     const refIcon = { "toward-1F": "🟢", "1F": "🔵", "toward-1S/2F": "🟣" }[ref] || "⚪";
 
@@ -429,14 +906,24 @@ async function main() {
     }
 
     try {
-      const prompt = buildPrompt(groep, difficulty, topic);
-      const challenge = await callAnthropic(prompt);
+      // Pass topic sequence and index to buildPrompt for variety features
+      const sequenceForThisGroep = topicSequence && groep === opts.groep ? topicSequence : null;
+      const prompt = buildPrompt(groep, difficulty, topic, sequenceForThisGroep, sequenceIndex);
+      let challenge = await callAnthropic(prompt);
+
+      // Auto-fix: convert woordbetekenis to keywords validation
+      challenge = fixWordbetekensisQuestions(challenge);
+
+      // Auto-fix: convert problematic literal questions (quotes, reasons) to keywords
+      challenge = autoFixLiteralAnswers(challenge);
+
       const result = validate(challenge, groep, difficulty);
 
       if (!result.valid) {
         console.error(`  ❌ Validation failed:`);
         result.errors.forEach(e => console.error(`     ${e}`));
         failed++;
+        failedIndices.push(i);
         continue;
       }
 
@@ -447,6 +934,14 @@ async function main() {
       const filepath = saveChallenge(challenge);
       console.log(`  ✅ Saved: ${path.basename(filepath)} (${result.stats.wordCount} words, ${result.stats.questionCount} questions)`);
       success++;
+      results.push({ index: i, id: challenge.id, filepath });
+
+      // Save checkpoint periodically for batch mode
+      if (opts.batch && (success + failed) % CHECKPOINT_INTERVAL === 0) {
+        const plan = planBatch(opts.target, opts.groep);
+        const checkpointFile = saveBatchCheckpoint(plan, success + failed, failedIndices, results);
+        console.log(`  💾 Checkpoint saved: ${path.basename(checkpointFile)}`);
+      }
 
       // Delay between API calls
       if (i < tasks.length - 1) {
@@ -455,6 +950,7 @@ async function main() {
     } catch (e) {
       console.error(`  ❌ Error: ${e.message}`);
       failed++;
+      failedIndices.push(i);
     }
   }
 

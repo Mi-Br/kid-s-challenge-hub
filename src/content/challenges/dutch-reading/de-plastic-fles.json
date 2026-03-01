@@ -1,0 +1,94 @@
+{
+  "id": "de-plastic-fles",
+  "title": "De Plastic Fles",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "milieu",
+  "text": "Lisa zag een video op haar tablet. De video zei dat plastic heel slecht is voor de natuur. Alle dieren sterven door plastic. Lisa was geschrokken. Ze wilde meteen alle plastic wegdoen.\n\nLisa rende naar de keuken. Ze pakte alle plastic flessen en dozen. \"Mama, dit moet weg!\" riep ze. Mama keek verbaasd. \"Waarom, Lisa?\" vroeg ze.\n\n\"Een video zegt dat plastic heel gevaarlijk is,\" zei Lisa. Mama ging zitten. \"Wie heeft die video gemaakt?\" vroeg mama. Lisa keek op haar tablet. De video kwam van een bedrijf dat glazen flessen verkoopt.\n\n\"Kijk eens,\" zei mama. \"Dit bedrijf verdient geld met glazen flessen. Misschien vertellen ze niet alles.\" Mama pakte een boek over milieu. \"Plastic is wel een probleem,\" zei ze. \"Maar we kunnen het ook recyclen. En sommige plastic dingen zijn nodig.\"\n\nLisa begreep het nu beter. Ze moet niet alles geloven wat ze ziet. Ze moet eerst kijken wie de informatie geeft. Nu denkt Lisa altijd na voordat ze iets gelooft.",
+  "questions": [
+    {
+      "question": "Wat zag Lisa op haar tablet?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een video",
+        "video"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom was Lisa geschrokken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "plastic",
+            "slecht",
+            "gevaarlijk"
+          ],
+          [
+            "dieren",
+            "sterven",
+            "doodgaan",
+            "sterven"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat de video over plastic zei."
+    },
+    {
+      "question": "Wie had de video gemaakt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een bedrijf dat glazen flessen verkoopt",
+        "bedrijf dat glazen flessen verkoopt",
+        "een bedrijf",
+        "bedrijf"
+      ],
+      "hint": "Lisa keek op haar tablet om dit te zoeken."
+    },
+    {
+      "question": "Waarom is het belangrijk om te weten wie informatie geeft?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "verdienen",
+            "verkopen",
+            "verdient"
+          ],
+          [
+            "niet alles",
+            "misschien",
+            "betrouwbaar",
+            "waar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat mama zei over het bedrijf."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-plastic-fles/image-1.png",
+      "alt": "Lisa kijkt geschrokken naar een video op haar tablet"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-plastic-fles/image-2.png",
+      "alt": "Mama en Lisa praten in de keuken met plastic flessen op tafel"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking shocked while watching a video on her tablet about plastic pollution, children's book illustration style",
+    "A mother and daughter having a conversation in a modern Dutch kitchen with plastic bottles on the table, the mother holding an environmental book, children's book illustration style"
+  ]
+}

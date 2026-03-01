@@ -1,0 +1,67 @@
+{
+  "id": "de-kapotte-paraplu",
+  "title": "De Kapotte Paraplu",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "het weer",
+  "text": "Het regent heel hard vandaag. Lisa moet naar school lopen. Zij pakt haar rode paraplu uit de gang.\n\nLisa doet de paraplu open. Maar oh nee! Er zit een groot gat in de paraplu. Het water komt door het gat heen. Lisa wordt nat.\n\nLisa denkt na. Zij heeft een idee. Lisa pakt tape uit de la. Zij plakt het gat dicht met de tape.\n\nLisa gaat weer naar buiten. Nu blijft zij droog onder de paraplu. Lisa is blij omdat de paraplu nu werkt. Zij kan droog naar school lopen.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de paraplu van Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welk probleem heeft de paraplu?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "er zit een gat in",
+        "een groot gat",
+        "gat"
+      ],
+      "hint": "Lees wat er gebeurt als Lisa de paraplu opendoet."
+    },
+    {
+      "question": "Waarom wordt Lisa eerst nat?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "water",
+            "regen",
+            "regent"
+          ],
+          [
+            "gat",
+            "door",
+            "komt door"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er mis is met de paraplu."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-paraplu/image-1.png",
+      "alt": "Lisa staat buiten in de regen met een rode paraplu met een gat erin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-paraplu/image-2.png",
+      "alt": "Lisa plakt het gat in de paraplu dicht met tape"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl standing in the rain holding a red umbrella with a big hole in it, water dripping through the hole onto her, children's book illustration style",
+    "The same girl indoors carefully putting tape over the hole in her red umbrella to fix it, children's book illustration style"
+  ]
+}

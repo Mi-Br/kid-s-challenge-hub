@@ -1,0 +1,63 @@
+{
+  "id": "de-kapotte-paraplu",
+  "title": "De Kapotte Paraplu",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "het weer",
+  "text": "Het regent hard. Emma heeft de paraplu van haar zus mee naar school. De paraplu is rood met witte stippen.\n\nOp het schoolplein speelt Emma met de paraplu. Ze doet de paraplu open. Ze doet de paraplu dicht. Dan breekt de paraplu. Emma is bang.\n\nThuis vertelt Emma alles aan haar zus. Ze zegt sorry. Emma geeft haar eigen spaargeld aan haar zus. Ze koopt samen een nieuwe paraplu. De zus is niet meer boos.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de paraplu?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood met witte stippen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar speelt Emma met de paraplu?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op het schoolplein"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Wat doet Emma thuis?",
+      "questionType": "begrijpen",
+      "hint": "Kijk wat er in de laatste alinea staat.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vertelt"
+          ],
+          [
+            "alles"
+          ],
+          [
+            "haar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-paraplu/image-1.png",
+      "alt": "Emma speelt met een rode paraplu op het schoolplein"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-paraplu/image-2.png",
+      "alt": "Emma geeft haar spaargeld aan haar zus"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl playing with a red polka-dotted umbrella on a Dutch school playground while it's raining, children's book illustration style",
+    "A girl giving coins from her piggy bank to her older sister in a cozy Dutch home, both looking happy, children's book illustration style"
+  ]
+}

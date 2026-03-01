@@ -1,0 +1,98 @@
+{
+  "id": "anna-en-haar-been",
+  "title": "Anna en Haar Been",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "het lichaam",
+  "text": "Anna speelt voetbal in de tuin. Ze rent hard en schopt de bal weg. Maar ineens valt ze. Haar been doet veel pijn.\n\n\"Au, mijn been!\", roept Anna. Ze probeert op te staan, maar dat lukt niet. Haar been is te zeer. Anna begint te huilen. Ze wil naar binnen, maar ze kan niet lopen.\n\nTom, haar broer, hoort Anna huilen. Hij rent naar buiten. \"Wat is er?\", vraagt Tom. \"Mijn been doet pijn en ik kan niet lopen\", zegt Anna. Tom denkt na. Dan pakt hij Anna's arm en helpt haar opstaan.\n\n\"Leun maar op mij\", zegt Tom. Anna zet haar goede been op de grond. Ze houdt haar pijnlijke been omhoog. Zo lopen ze samen langzaam naar binnen. Mama kijkt naar Anna's been en doet er ijs op. Na een tijdje voelt Anna's been weer beter.",
+  "questions": [
+    {
+      "question": "Wat doet Anna's been?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "pijn"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom kan Anna niet naar binnen lopen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "pijn",
+            "zeer",
+            "doet pijn"
+          ],
+          [
+            "been",
+            "voet"
+          ],
+          [
+            "kan niet",
+            "lukt niet",
+            "niet kunnen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er mis is met Anna's been."
+    },
+    {
+      "question": "Hoe helpt Tom zijn zus?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "helpt",
+            "helpen",
+            "helpt haar"
+          ],
+          [
+            "arm",
+            "leun",
+            "leunen",
+            "steun",
+            "steunen"
+          ],
+          [
+            "samen",
+            "mee",
+            "met"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog een keer."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/anna-en-haar-been/image-1.png",
+      "alt": "Anna valt terwijl ze voetbal speelt in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/anna-en-haar-been/image-2.png",
+      "alt": "Tom helpt Anna naar binnen lopen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl falling down while playing soccer in a Dutch backyard garden, children's book illustration style, the girl looks hurt and is holding her leg",
+    "A boy helping his sister walk inside a Dutch house, the girl is leaning on her brother and lifting one leg, children's book illustration style, warm and caring scene"
+  ]
+}

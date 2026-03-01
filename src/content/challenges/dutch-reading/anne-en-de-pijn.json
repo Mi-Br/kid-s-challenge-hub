@@ -1,0 +1,62 @@
+{
+  "id": "anne-en-de-pijn",
+  "title": "Anne en de Pijn",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "het lichaam",
+  "text": "Anne speelt met haar zusje Mila. Ze duwen elkaar hard. Mila valt. Mila heeft pijn aan haar knie.\n\nAnne kijkt naar Mila. Mila huilt veel. Anne voelt zich niet goed. Ze heeft spijt.\n\nAnne zegt sorry tegen Mila. Ze geeft Mila een pleister, een knuffel en een koekje. Mila lacht weer. Anne is blij.",
+  "questions": [
+    {
+      "question": "Waar heeft Mila pijn?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "haar knie",
+        "knie"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat geeft Anne aan Mila?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een pleister, een knuffel en een koekje",
+        "pleister, knuffel en koekje"
+      ],
+      "hint": "Lees de laatste alinea goed."
+    },
+    {
+      "question": "Hoe voelt Anne zich als Mila huilt?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "niet"
+          ],
+          [
+            "goed"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/anne-en-de-pijn/image-1.png",
+      "alt": "Anne en Mila spelen samen, Mila valt en heeft pijn aan haar knie"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/anne-en-de-pijn/image-2.png",
+      "alt": "Anne geeft Mila een pleister, knuffel en koekje"
+    }
+  ],
+  "imagePrompts": [
+    "Two young Dutch girls playing together, one girl falls and holds her knee in pain, children's book illustration style, simple and colorful",
+    "A girl giving her sister a bandage, a stuffed animal and a cookie, the hurt girl is now smiling, children's book illustration style, warm and friendly"
+  ]
+}

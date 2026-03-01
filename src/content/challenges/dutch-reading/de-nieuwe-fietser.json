@@ -1,0 +1,128 @@
+{
+  "id": "de-nieuwe-fietser",
+  "title": "De Nieuwe Fietser",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verkeer",
+  "text": "Jamal was bang voor het verkeer. Hij had nog nooit zonder zijwieltjes gefietst, omdat zijn ouders zich zorgen maakten over de drukke wegen in Amsterdam. Elke ochtend liep hij naar school terwijl zijn klasgenoten voorbij fietsten. \"Misschien kun je het wel leren,\" zei meester Tom, die had gemerkt dat Jamal altijd lopend kwam. \"We hebben een verkeersles op het schoolplein volgende week.\"\n\nTijdens de verkeersles probeerde Jamal voor het eerst zonder steunwieltjes te rijden. Tot zijn verbazing bleef hij rechtop! Hij voelde zich als een vogel die eindelijk had geleerd vliegen - vrij en trots. Zijn reis van angst naar moed was begonnen. Meester Tom leerde hem over verkeersborden, voorrang en het gebruik van handtekens. \"Je hebt een natuurlijk gevoel voor balans,\" zei de meester bewonderend.\n\nThuis oefende Jamal dagelijks op het rustige binnenplein van hun flat. Net als een tuinman die elke dag zijn plantjes water geeft, verzorgde hij zijn nieuwe vaardigheid met geduld. Zijn ouders, die aanvankelijk twijfelden, werden steeds enthousiaster toen ze zijn vooruitgang zagen. Na twee weken durfde hij voor het eerst de straat op, voorzichtig en alert.\n\nVandaag fietst Jamal zelfverzekerd naar school. Hij stopt bij elk stoplicht, gebruikt zijn bel wanneer nodig en houdt altijd rechts aan. Dezelfde route die hij vroeger lopend aflegde, voelt nu als een avontuur vol mogelijkheden. Zijn reis door het leven heeft een nieuwe dimensie gekregen - letterlijk en figuurlijk. \"Wie had gedacht dat ik zo graag zou fietsen?\" denkt hij glimlachend terwijl hij zijn fiets in de stalling zet.",
+  "questions": [
+    {
+      "question": "Waar oefende Jamal thuis met fietsen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op het rustige binnenplein van hun flat",
+        "het rustige binnenplein van hun flat",
+        "binnenplein van hun flat"
+      ],
+      "hint": "Kijk in de derde alinea waar hij thuis ging oefenen."
+    },
+    {
+      "question": "Waarom was Jamal in het begin bang om te fietsen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verkeer",
+            "drukke wegen",
+            "druk",
+            "gevaarlijk"
+          ],
+          [
+            "ouders",
+            "papa",
+            "mama",
+            "familie"
+          ],
+          [
+            "zorgen",
+            "bang",
+            "bezorgd",
+            "angst"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er in de eerste alinea staat over zijn ouders en het verkeer."
+    },
+    {
+      "question": "Met welke beeldspraak vergelijkt de schrijver Jamals gevoel toen hij voor het eerst zonder zijwieltjes fietste?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vogel",
+            "vogels"
+          ],
+          [
+            "vliegen",
+            "vloog",
+            "gevlogen",
+            "vlucht"
+          ],
+          [
+            "vrij",
+            "vrijheid",
+            "bevrijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de tweede alinea naar een vergelijking met een dier."
+    },
+    {
+      "question": "Vind je dat Jamals ouders goed hebben gehandeld door hem eerst niet te laten fietsen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee) en deze onderbouwen met argumenten over veiligheid, zelfvertrouwen, of leerproces. Beide standpunten zijn mogelijk.",
+        "exampleAnswer": "Ja, ik vind het goed omdat ze hem wilden beschermen tegen het drukke verkeer. Maar ze hadden hem wel eerder kunnen laten oefenen op een veilige plek.",
+        "keyElements": [
+          "mening/standpunt",
+          "veiligheid/bescherming/gevaar",
+          "leren/oefenen/ontwikkeling"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de voor- en nadelen van hun beslissing en geef je eigen mening."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het overwinnen van angst, het ontdekken van een talent, of het belang van oefenen en moed hebben.",
+        "exampleAnswer": "Het verhaal gaat over een jongen die zijn angst overwint en ontdekt dat hij goed kan fietsen door te oefenen en moed te hebben.",
+        "keyElements": [
+          "angst overwinnen/moed",
+          "talent ontdekken/kunnen leren",
+          "oefenen/doorzetten"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan Jamals hele ontwikkeling van het begin tot het eind van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-fietser/image-1.png",
+      "alt": "Jamal leert fietsen op het schoolplein tijdens de verkeersles"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-fietser/image-2.png",
+      "alt": "Jamal fietst zelfverzekerd naar school door de straten van Amsterdam"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy with dark skin learning to ride a bicycle on a school playground, with a teacher nearby and traffic signs visible, children's book illustration style",
+    "The same boy confidently cycling through Amsterdam streets with typical Dutch architecture, bike lanes, and traffic lights, children's book illustration style"
+  ]
+}

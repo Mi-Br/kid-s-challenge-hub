@@ -1,0 +1,150 @@
+{
+  "id": "het-familiegeheim",
+  "title": "Het Familiegeheim",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "cultuur",
+  "text": "Layla vond het vreemd dat haar moeder nooit over vroeger praatte. Andere moeders vertelden verhalen over hun jeugd, maar mama zweeg altijd. \"We hebben nu een goed leven in Nederland,\" zei ze dan. \"Het verleden is niet belangrijk.\"\n\nTijdens het project over verschillende culturen op school moest iedereen iets meenemen van thuis. Layla's klasgenoten brachten mooie voorwerpen mee: Chinese theekopjes, Marokkaanse tapijten, Duitse klokken. Layla had niets. Thuis vroeg ze aan mama: \"Hebben wij geen speciale spullen van vroeger?\" Mama schudde haar hoofd. \"Nee, liefje. We zijn hier nieuw begonnen.\"\n\nMaar Layla geloofde haar niet. Mama's ogen keken verdrietig toen ze het zei. Die avond zocht Layla stiekem in de grote kast. Helemaal achteraan vond ze een oude houten doos. Er zaten prachtige zilveren sieraden in en foto's van mensen in kleurrijke kleding. Op één foto zag ze mama als jong meisje, lachend in een mooie jurk.\n\nDe volgende ochtend liet Layla de foto aan mama zien. Mama begon te huilen. \"We moesten alles achterlaten,\" fluisterde ze. \"De oorlog... we zijn gevlucht. Ik dacht dat je het niet zou begrijpen.\" Layla omhelsde haar moeder stevig. \"Maar mama, dit is juist heel bijzonder. Je bent zo moedig geweest!\"\n\nLayla nam de foto en een armband mee naar school. Ze vertelde haar klasgenoten het verhale van haar moeder. Iedereen luisterde stil. Juf Linda zei: \"Dank je wel, Layla. Dit laat zien hoe sterk jullie familie is.\" Vanaf die dag praatte mama vaker over vroeger. Ze was trots dat Layla hun verhaal had gedeeld.",
+  "questions": [
+    {
+      "question": "Wat vond Layla achter in de grote kast?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een oude houten doos",
+        "oude houten doos",
+        "houten doos"
+      ],
+      "hint": "Kijk naar het derde deel van het verhaal."
+    },
+    {
+      "question": "Waarom wilde mama eerst niet over het verleden praten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "oorlog",
+            "oorlogen",
+            "conflict"
+          ],
+          [
+            "gevlucht",
+            "vluchten",
+            "weggerend",
+            "ontkomen"
+          ],
+          [
+            "pijnlijk",
+            "verdrietig",
+            "moeilijk",
+            "zwaar",
+            "erg"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat mama vertelt als Layla de foto laat zien."
+    },
+    {
+      "question": "Hoe veranderde mama's gedrag na Layla's presentatie op school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "praatte",
+            "praten",
+            "vertelde",
+            "vertellen",
+            "sprak",
+            "spreken"
+          ],
+          [
+            "vaker",
+            "meer",
+            "opens",
+            "vrijer"
+          ],
+          [
+            "trots",
+            "blij",
+            "gelukkig",
+            "tevreden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de laatste zinnen van het verhaal."
+    },
+    {
+      "question": "Vind je dat Layla goed handelde door stiekem in de kast te zoeken? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "slecht",
+            "verkeerd",
+            "juist",
+            "fout"
+          ],
+          [
+            "nieuwsgierig",
+            "belangrijk",
+            "begrip",
+            "begrijpen",
+            "weten"
+          ],
+          [
+            "geheim",
+            "geheimen",
+            "verborgen",
+            "verstoppen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Layla's redenen en de gevolgen van haar actie."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van je eigen verhaal en cultuur delen, ook al is het soms pijnlijk. Het kan ook gaan over moed, vertrouwen tussen familie, of trots op je afkomst.",
+        "exampleAnswer": "Het verhaal gaat erover dat je trots moet zijn op je familie en cultuur, ook als er moeilijke tijden zijn geweest.",
+        "keyElements": [
+          "delen/vertellen",
+          "trots/moed",
+          "familie/cultuur",
+          "verleden/geschiedenis"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Layla en haar mama leren in dit verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-familiegeheim/image-1.png",
+      "alt": "Een meisje dat een oude houten doos vindt met foto's en sieraden"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-familiegeheim/image-2.png",
+      "alt": "Een meisje die een foto toont aan haar klasgenoten in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl discovering an old wooden box with silver jewelry and vintage family photos in colorful traditional clothing, children's book illustration style",
+    "A girl presenting a family photo to her diverse classmates in a Dutch elementary school classroom, teacher listening attentively, children's book illustration style"
+  ]
+}

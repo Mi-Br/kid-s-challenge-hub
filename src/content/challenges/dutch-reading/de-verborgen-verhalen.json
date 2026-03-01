@@ -1,0 +1,132 @@
+{
+  "id": "de-verborgen-verhalen",
+  "title": "De Verborgen Verhalen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Toen Sam op de zolder van hun nieuwe huis in Amsterdam rommelde, vond ze een oude koffer vol met brieven en foto's. De brieven waren geschreven door een meisje genaamd Elisabeth, die tijdens de Tweede Wereldoorlog in hetzelfde huis had gewoond. Sam had zich altijd een jongen gevoeld, maar de naam 'Samantha' op haar paspoort maakte haar onzeker over wie ze werkelijk was.\n\nElisabeth schreef over de angst die haar joodse buren voelden toen de Duitse soldaten Nederland bezetten in 1940. \"Papa zegt dat we gelukkig mogen zijn,\" stond er in een brief uit 1942. \"Wij hoeven niet bang te zijn omdat we de juiste papieren hebben.\" Sam besefte plotseling dat haar eigen familie nooit had hoeven vluchten, nooit had hoeven onderduiken. Generaties lang hadden ze veilig in Nederland kunnen wonen, terwijl anderen werden weggejaagd of erger.\n\nDe ontdekking maakte Sam boos op zichzelf. Waarom had ze nooit stilgestaan bij deze geschiedenis? Waarom had niemand haar dit ooit verteld? Ze voelde zich schuldig omdat haar overgrootouders waarschijnlijk gewoon hadden toegekeken terwijl hun buren verdwenen. \"Misschien waren we wel collaborateurs,\" dacht ze beschaamd. Dagenlang kon ze nergens anders aan denken.\n\nMaar toen vond Sam de laatste brief van Elisabeth, geschreven in 1945. Daarin stond dat Elisabeths familie heimelijk joodse onderduikers had geholpen, ondanks de gevaren. \"We konden niet alle onrechtvaardigheid stoppen,\" schreef Elisabeth, \"maar we hebben gedaan wat we konden.\" Sam realiseerde zich dat schuld alleen niet genoeg was – het ging erom wat je deed met die kennis.\n\nSam besloot om Elisabeths verhaal niet langer verborgen te laten blijven. Ze organiseerde een tentoonstelling op school over verzetsvrouwen tijdens de oorlog, waarbij ze ook openlijk vertelde dat ze zich meer Sam dan Samantha voelde. Tot haar verbazing reageerden haar klasgenoten begripvol en geïnteresseerd. Door het verleden te eren, had Sam eindelijk de moed gevonden om authentiek zichzelf te zijn in het heden.",
+  "questions": [
+    {
+      "question": "In welk jaar werd Nederland bezet door de Duitse soldaten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "1940"
+      ],
+      "hint": "Kijk naar de tweede paragraaf."
+    },
+    {
+      "question": "Waarom voelde Sam zich schuldig nadat ze de brieven had gelezen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "familie",
+            "overgrootouders",
+            "voorouders"
+          ],
+          [
+            "veilig",
+            "gespaard",
+            "beschermd",
+            "geluk",
+            "gelukkig"
+          ],
+          [
+            "anderen",
+            "buren",
+            "joden",
+            "joodse"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Sam besefte over haar eigen familiegeschiedenis."
+    },
+    {
+      "question": "Hoe veranderde Sams perspectief toen ze Elisabeths laatste brief vond?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Sam besefte dat alleen schuld voelen niet genoeg is, maar dat het gaat om wat je doet met die kennis. Ze leerde dat mensen in het verleden wel degelijk hebben geholpen ondanks de gevaren.",
+        "exampleAnswer": "Sam begreep dat alleen schuldig voelen niet genoeg is en dat het belangrijk is wat je doet met die kennis over het verleden.",
+        "keyElements": [
+          "actie ondernemen/iets doen",
+          "niet alleen schuld/niet genoeg",
+          "helpen/verzet"
+        ],
+        "minWords": 6
+      },
+      "hint": "Lees de vierde paragraaf en let op wat Elisabeth schreef over onrechtvaardigheid."
+    },
+    {
+      "question": "Wat was volgens jou de belangrijkste reden waarom Sam besloot een tentoonstelling te organiseren?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een beredeneerde mening geven over Sams motivatie, waarbij ze ingaat op het eren van het verleden, het niet langer verborgen houden van verhalen, of het vinden van moed om zichzelf te zijn.",
+        "exampleAnswer": "Ik denk dat Sam de tentoonstelling organiseerde om Elisabeths verhaal te eren en om anderen bewust te maken van de geschiedenis, zodat het niet vergeten wordt.",
+        "keyElements": [
+          "eren/herdenken",
+          "verhalen vertellen/delen",
+          "bewustwording/niet vergeten"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Sam wilde bereiken door Elisabeths verhaal te delen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van het leren van de geschiedenis om jezelf beter te begrijpen en verantwoordelijkheid te nemen in het heden.",
+        "exampleAnswer": "Het verhaal gaat erover dat je door de geschiedenis te leren en te delen, jezelf beter kunt begrijpen en de moed kunt vinden om authentiek te zijn.",
+        "keyElements": [
+          "geschiedenis leren/verleden begrijpen",
+          "jezelf zijn/authentiek",
+          "verantwoordelijkheid nemen/actie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan hoe Sam veranderde door het ontdekken van Elisabeths verhaal."
+    },
+    {
+      "question": "Waarom denk je dat de schrijver ervoor koos om Sam te laten worstelen met genderidentiteit naast het ontdekken van de oorlogsgeschiedenis?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet inzien dat beide thema's gaan over het vinden van je identiteit en moed om jezelf te zijn, ondanks druk van buitenaf. De verbinding tussen persoonlijke en historische moed.",
+        "exampleAnswer": "De schrijver wilde laten zien dat het leren over moed in het verleden Sam hielp om ook moed te vinden voor haar eigen identiteit.",
+        "keyElements": [
+          "identiteit/jezelf zijn",
+          "moed/dapperheid",
+          "verbinding/parallel"
+        ],
+        "minWords": 7
+      },
+      "hint": "Kijk naar hoe beide verhaallijnen Sam helpen om uiteindelijk zichzelf te zijn."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verborgen-verhalen/image-1.png",
+      "alt": "Sam vindt een oude koffer op zolder vol brieven en foto's uit de oorlog"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verborgen-verhalen/image-2.png",
+      "alt": "Sam presenteert de tentoonstelling over verzetsvrouwen aan klasgenoten op school"
+    }
+  ],
+  "imagePrompts": [
+    "A young person with short hair discovering an old suitcase in an attic, surrounded by vintage letters and black and white photographs from World War II, warm sunlight streaming through a small window, children's book illustration style",
+    "The same young person presenting a historical exhibition about resistance women to interested classmates in a Dutch school classroom, with display boards showing wartime photos and documents, children's book illustration style"
+  ]
+}

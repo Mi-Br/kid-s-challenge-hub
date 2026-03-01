@@ -1,0 +1,146 @@
+{
+  "id": "de-rijke-koopmanszoon",
+  "title": "De Rijke Koopmanszoon",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Willem van der Berg woonde in 1672 in een groot huis aan de Herengracht in Amsterdam. Zijn vader was een rijke koopman die handelde met Azië. Willem droeg altijd dure kleren en had een eigen leraar. Hij dacht dat alle mensen in Nederland zo leefden als hij.\n\nOp een dag moest Willem met zijn vader mee naar de haven. Daar zag hij arbeiders die zware zakken sjouwden. Hun kleren waren gescheurd en vies. Willem vroeg aan zijn vader: \"Waarom zien die mannen er zo arm uit?\" Zijn vader antwoordde: \"Zij verdienen maar weinig geld, Willem. Niet iedereen heeft het geluk dat wij hebben.\"\n\nWillem wilde dit niet geloven. Hij dacht dat zijn vader een grapje maakte. \"Maar papa,\" zei Willem, \"iedereen kan toch gewoon hard werken en dan rijk worden?\" Een oude arbeider hoorde dit en schudde zijn hoofd. \"Jongeheer,\" zei de man vriendelijk, \"ik werk al dertig jaar elke dag. Maar ik verdien alleen genoeg om mijn familie te eten te geven.\"\n\nDie avond kon Willem niet slapen. Hij dacht aan de vriendelijke arbeider en zijn kapotte schoenen. Langzaam begon Willem te begrijpen dat niet alle kinderen in Nederland hetzelfde leven hadden als hij. Hij besloot om zijn vader te vragen of ze de arbeider en zijn familie konden helpen.\n\nVanaf die dag keek Willem anders naar de wereld om hem heen. Hij zag dat geluk hebben met je geboorte heel belangrijk was in de Gouden Eeuw. Willem begreef nu dat rijkdom niet alleen kwam door hard werken, maar ook door mazzel.",
+  "questions": [
+    {
+      "question": "In welke stad woonde Willem?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "amsterdam"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom wilde Willem eerst niet geloven dat de arbeiders arm waren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "dacht",
+            "dachten",
+            "denken",
+            "geloofde",
+            "geloven"
+          ],
+          [
+            "iedereen",
+            "alle mensen",
+            "alle kinderen"
+          ],
+          [
+            "rijk",
+            "goed",
+            "hetzelfde",
+            "zo",
+            "zoals hij"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Willem dacht over hoe andere mensen leefden."
+    },
+    {
+      "question": "Hoe veranderde Willem door zijn ontmoeting met de arbeider?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "begreep",
+            "begrijpen",
+            "snapte",
+            "zag",
+            "zien"
+          ],
+          [
+            "niet iedereen",
+            "niet alle",
+            "anderen",
+            "verschillende"
+          ],
+          [
+            "mazzel",
+            "geluk",
+            "geboorte",
+            "toevallig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de laatste twee paragrafen van het verhaal."
+    },
+    {
+      "question": "Vind je dat Willem goed reageerde toen hij de waarheid ontdekte? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "goed gedaan",
+            "juist",
+            "fout",
+            "slecht"
+          ],
+          [
+            "helpen",
+            "hulp",
+            "steun",
+            "zorgen"
+          ],
+          [
+            "omdat",
+            "want",
+            "daarom",
+            "dus"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Willem besloot te doen en of dat een goede keuze was."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het leren inzien van ongelijkheid en voorrecht. Het gaat over een rijke jongen die beseft dat niet iedereen dezelfde kansen heeft.",
+        "exampleAnswer": "Het verhaal gaat over een rijke jongen die leert dat niet iedereen hetzelfde geluk heeft en dat er grote verschillen zijn tussen rijk en arm.",
+        "keyElements": [
+          "ongelijkheid/verschillen",
+          "rijkdom/voorrecht/geluk",
+          "leren/begrijpen/inzien"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de belangrijkste les die Willem leerde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-rijke-koopmanszoon/image-1.png",
+      "alt": "Willem in dure kleren aan de Herengracht met grote koopmanhuizen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-rijke-koopmanszoon/image-2.png",
+      "alt": "Willem en zijn vader praten met een arme arbeider in de haven van Amsterdam"
+    }
+  ],
+  "imagePrompts": [
+    "A wealthy merchant's son in fine 17th century Dutch clothing standing in front of grand canal houses on the Herengracht in Amsterdam, children's book illustration style, Golden Age period setting",
+    "A rich boy and his father talking to a poor dock worker in worn clothes at Amsterdam's harbor in 1672, ships and warehouses in background, children's book illustration style, showing class differences"
+  ]
+}

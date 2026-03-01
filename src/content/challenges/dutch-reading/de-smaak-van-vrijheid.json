@@ -1,0 +1,148 @@
+{
+  "id": "de-smaak-van-vrijheid",
+  "title": "De Smaak van Vrijheid",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wereldkeuken",
+  "text": "Amira staarde naar de lege winkelrekken in Sarajevo. Het was 1992 en de oorlog had alles veranderd. Vroeger verkocht haar familie de lekkerste baklava van de hele stad, maar nu was er geen suiker meer te vinden.\n\n'Oma, vertel me nog eens over de recepten van vroeger,' zei Amira terwijl ze naast haar grootmoeder zat. Oma's ogen werden droevig. 'Kind, die recepten zijn meer dan gewoon koken. Ze vertellen wie we zijn.' Ze pakte Amira's hand vast. 'Onze baklava verbond alle families in de buurt, of ze nu moslim, orthodox of katholiek waren.'\n\nAmira begreep het niet helemaal. Waarom vochten mensen die samen hadden gegeten nu tegen elkaar? Oma zuchtte diep. 'Eten heeft geen godsdienst, Amira. Maar soms vergeten mensen dat.' Ze stood op en liep naar een verstopt kastje. Daar haalde ze een oud kookboek tevoorschijn.\n\n'Dit boek heeft recepten van alle families uit onze straat,' fluisterde oma. 'Servische ajvar, Kroatische štrudel, Bosnische ćevapi. We deelden alles.' Het boek rook naar kaneel en herinneringen. Amira sloeg de vergeelde pagina's om en zag handgeschreven notities in verschillende talen.\n\nDie avond droomde Amira van een grote tafel waar iedereen weer samen at. Ze besloot dat wanneer de oorlog voorbij was, zij het eerste restaurant zou openen waar alle gerechten van vroeger werden geserveerd. Want eten was de taal die iedereen verstond, ook al spraken ze verschillende woorden.\n\nJaren later, in 1996, opende Amira inderdaad haar restaurant 'Mostovi' - wat bruggen betekent. Op het menu stonden gerechten uit heel de Balkan. Oude buren die elkaar jaren niet hadden gesproken, kwamen er eten. Langzaam bouwde het voedsel de vriendschappen weer op die de oorlog had vernietigd.",
+  "questions": [
+    {
+      "question": "In welk jaar begon Amira haar restaurant?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "1996"
+      ],
+      "hint": "Kijk naar het laatste stukje van het verhaal."
+    },
+    {
+      "question": "Waarom kon Amira's familie geen baklava meer maken tijdens de oorlog?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "suiker",
+            "ingrediënten",
+            "spullen"
+          ],
+          [
+            "niet",
+            "geen",
+            "geen... meer",
+            "was er niet"
+          ],
+          [
+            "vinden",
+            "verkrijgen",
+            "kopen",
+            "beschikbaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat zag Amira toen ze naar de winkelrekken keek?"
+    },
+    {
+      "question": "Wat betekende het delen van recepten voor de verschillende families volgens oma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verbond",
+            "verbinden",
+            "samen",
+            "samenbrengen",
+            "verbinding"
+          ],
+          [
+            "families",
+            "buren",
+            "mensen",
+            "iedereen"
+          ],
+          [
+            "godsdienst",
+            "moslim",
+            "orthodox",
+            "katholiek",
+            "geloof"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat oma zei over baklava en de verschillende families."
+    },
+    {
+      "question": "Vind je dat Amira een goede manier koos om de problemen in haar stad op te lossen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "goed",
+            "slim",
+            "verstandig",
+            "juist"
+          ],
+          [
+            "restaurant",
+            "eten",
+            "voedsel",
+            "gerechten",
+            "koken"
+          ],
+          [
+            "samen",
+            "verbinden",
+            "vriendschap",
+            "vrede",
+            "bruggen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over het effect van haar restaurant op de oude buren."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe eten en gedeelde tradities mensen kunnen verbinden, zelfs na een conflict. Het kan ook gaan over hoe voedsel culturen overstijgt en vrede kan brengen.",
+        "exampleAnswer": "Eten kan mensen weer met elkaar verbinden, zelfs na een oorlog.",
+        "keyElements": [
+          "eten/voedsel verbindt mensen",
+          "vrede/verzoening",
+          "cultuur/tradities delen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan de rol van voedsel in het hele verhaal, van begin tot eind."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-smaak-van-vrijheid/image-1.png",
+      "alt": "Amira en haar oma bekijken samen het oude kookboek in hun keuken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-smaak-van-vrijheid/image-2.png",
+      "alt": "Het restaurant Mostovi met mensen van verschillende achtergronden die samen eten"
+    }
+  ],
+  "imagePrompts": [
+    "Young girl and elderly grandmother looking at an old cookbook together in a 1990s kitchen, warm lighting, children's book illustration style, emotional moment of sharing family traditions",
+    "Diverse group of people dining together in a cozy restaurant called Mostovi, sharing traditional Balkan dishes, peaceful atmosphere, children's book illustration style, symbol of reconciliation"
+  ]
+}

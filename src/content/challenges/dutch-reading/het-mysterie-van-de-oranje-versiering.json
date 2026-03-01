@@ -1,0 +1,90 @@
+{
+  "id": "het-mysterie-van-de-oranje-versiering",
+  "title": "Het Mysterie van de Oranje Versiering",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Lisa woont nu drie maanden in Nederland. Ze snapt nog niet alles van de Nederlandse gewoontes. Op een dag in april ziet ze iets heel vreemds.\n\nIn de straat hangen opeens overal oranje vlaggen. De buren hebben oranje slingers opgehangen. Mevrouw De Wit heeft zelfs oranje bloemen in haar tuin gezet. Lisa begrijpt er niets van. Waarom is alles oranje?\n\n'Mama, kijk eens!' roept Lisa. 'Alle huizen zijn oranje! Wat gebeurt er?' Haar moeder lacht. 'Dat weet ik ook niet preciso, lieverd. Laten we het aan onze buurvrouw vragen.'\n\nLisa loopt naar mevrouw De Wit. 'Waarom hangt u overal oranje spullen op?' vraagt ze nieuwsgierig. Mevrouw De Wit kijkt verbaasd. 'Weet je dat niet? Morgen is het Koningsdag!'\n\n'Koningsdag?' Lisa fronst haar wenkbrauwen. 'Wat is dat voor dag?' Mevrouw De Wit glimlacht vriendelijk. 'Op 27 april vieren we de verjaardag van onze koning. Heel Nederland wordt dan oranje. Oranje is de kleur van ons koningshuis.'\n\nLisa begint het nu te begrijpen. 'Dus morgen heeft de koning zijn verjaardag?' Mevrouw De Wit knikt. 'Klopt! En iedereen doet mee. We dragen oranje kleding en versieren onze huizen. Er zijn markten op straat waar kinderen hun oude speelgoed verkopen. Het is heel gezellig.'\n\nDie avond vertelt Lisa alles aan haar ouders. Nu snapt ze waarom de straat zo oranje is. Morgen gaat ze ook meedoen met Koningsdag. Ze heeft al een oranje T-shirt uitgezocht om aan te trekken.",
+  "questions": [
+    {
+      "question": "Welke kleur hangt overal in de straat?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oranje"
+      ],
+      "hint": "Kijk naar de tweede alinea waar Lisa de straat bekijkt."
+    },
+    {
+      "question": "Waarom was Lisa verbaasd over alle versiering?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nieuw",
+            "woont",
+            "drie maanden",
+            "nog niet lang"
+          ],
+          [
+            "snapt niet",
+            "begrijpt niet",
+            "weet niet",
+            "kent niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er in de eerste alinea over Lisa staat."
+    },
+    {
+      "question": "Op welke datum wordt Koningsdag gevierd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "27 april",
+        "op 27 april"
+      ],
+      "hint": "Mevrouw De Wit noemt de exacte datum in haar uitleg."
+    },
+    {
+      "question": "Wat kunnen kinderen op Koningsdag doen met hun oude speelgoed?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "verkopen",
+            "verkocht",
+            "te koop"
+          ],
+          [
+            "markt",
+            "markten",
+            "vrijmarkt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Mevrouw De Wit vertelt over de markten op straat."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-oranje-versiering/image-1.png",
+      "alt": "Lisa kijkt verbaasd naar de oranje vlaggen en versiering in de Nederlandse straat"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-oranje-versiering/image-2.png",
+      "alt": "Mevrouw De Wit legt uit wat Koningsdag is terwijl ze oranje bloemen in haar tuin heeft"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking surprised at orange flags and decorations hanging from Dutch houses on a residential street, children's book illustration style",
+    "A friendly elderly Dutch woman explaining something to a young girl in a garden with orange flowers, with orange decorations visible on houses in the background, children's book illustration style"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "het-mysterie-van-de-verdwenen-bal",
+  "title": "Het Mysterie van de Verdwenen Bal",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "sport",
+  "text": "De voetbalwedstrijd was net afgelopen toen Yuki ontdekte dat haar nieuwe bal spoorloos was verdwenen. Het was geen gewone bal - haar vader had hem speciaal uit Japan meegebracht met handtekeningen van beroemde spelers erop.\n\n\"Iemand heeft hem gestolen!\" riep Finn boos. Hij wees naar de groep oudere jongens die aan de andere kant van het veld stond. \"Die hebben altijd ruzie met ons omdat wij ook op hun veld mogen spelen.\"\n\nMaar Yuki was niet overtuigd. Ze besloot zelf onderzoek te doen. Eerst onderzocht ze de plek waar ze de bal had achtergelaten. In het gras vond ze vreemde sporen - geen voetafdrukken, maar iets anders. De sporen leidden naar de bosjes bij het hek.\n\nToen Yuki gisteren naar huis fietste, had ze al iets vreemds gezien. Een zwarte hond rende door het park met een voetbal in zijn bek. De eigenaar riep steeds: \"Dropje, kom hier!\" Maar de hond luisterde niet en verdween tussen de bomen.\n\nVolgens de andere kinderen was het verhaal van de hond onzin. \"Honden kunnen geen ballen stelen,\" zei Finn. \"Die oudere jongens zijn gewoon jaloers omdat jouw bal mooier is dan de hunne.\" Maar Yuki dacht aan de sporen in het gras en kroop door de bosjes.\n\nAchter de struiken ontdekte ze een klein holletje. Daar lag haar bal, helemaal onder de modder maar nog steeds heel. Naast het holletje zag ze een riem met een naamplaatje: \"Dropje\". Nu begreep ze alles! De hond had de bal meegenomen omdat hij dacht dat het een speeltje was.\n\nYuki glimlachte en pakte haar bal op. Soms is de waarheid heel anders dan je eerst denkt.",
+  "questions": [
+    {
+      "question": "Waar kwam Yuki's voetbal vandaan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "japan",
+        "uit japan"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dacht Finn dat de oudere jongens de bal hadden gestolen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ruzie",
+            "problemen",
+            "conflict"
+          ],
+          [
+            "veld",
+            "voetbalveld",
+            "spelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Finn zegt in de tweede alinea."
+    },
+    {
+      "question": "Welke aanwijzingen hielpen Yuki om het mysterie op te lossen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "sporen",
+            "afdrukken",
+            "spoor"
+          ],
+          [
+            "hond",
+            "dropje"
+          ],
+          [
+            "gisteren",
+            "eerder",
+            "dag ervoor"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Yuki vond in het gras en wat ze zich herinnerde."
+    },
+    {
+      "question": "Vind je dat Yuki een goede detective was? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Yuki's detectivevaardigheden en deze onderbouwen met voorbeelden uit de tekst, zoals haar systematische aanpak, het zoeken naar bewijs, of haar doorzettingsvermogen.",
+        "exampleAnswer": "Ja, omdat ze niet meteen de anderen geloofde maar zelf bewijs zocht en de sporen volgde tot ze de waarheid vond.",
+        "keyElements": [
+          "mening/oordeel over Yuki",
+          "onderbouwing/bewijs/voorbeelden",
+          "onderzoek/sporen/systematisch"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe Yuki het probleem oploste."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van zelf onderzoek doen in plaats van vooroordelen te hebben, of over hoe de waarheid anders kan zijn dan je eerst denkt.",
+        "exampleAnswer": "Het verhaal gaat erover dat je zelf moet onderzoeken voordat je anderen beschuldigt.",
+        "keyElements": [
+          "onderzoek doen/bewijs zoeken",
+          "niet vooroordelen/beschuldigen",
+          "waarheid/werkelijkheid anders"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat wilde de schrijver je leren over het oplossen van problemen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-bal/image-1.png",
+      "alt": "Yuki zoekt naar aanwijzingen in het gras op het voetbalveld"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-bal/image-2.png",
+      "alt": "Yuki vindt haar bal in het holletje achter de struiken"
+    }
+  ],
+  "imagePrompts": [
+    "A Japanese girl examining tracks in the grass on a Dutch soccer field while other children play in the background, children's book illustration style",
+    "A girl discovering a muddy soccer ball in a small burrow behind bushes with a dog collar nearby, children's book illustration style"
+  ]
+}

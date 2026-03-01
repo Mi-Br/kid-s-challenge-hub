@@ -1,0 +1,124 @@
+{
+  "id": "de-geheime-club",
+  "title": "De Geheime Club",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "vriendschap",
+  "text": "Lisa en Emma zijn beste vriendinnen. Ze doen alles samen. Ze hebben een geheime club gemaakt in de schuur van Lisa's opa. Alleen zij twee mogen erin.\n\nOp maandag komt er een nieuw meisje in de klas. Ze heet Sophie en komt uit België. Sophie heeft lange blonde haren en draagt een mooie rode jurk. Alle kinderen willen met haar spelen.\n\nEmma vindt Sophie heel aardig. 'Zullen we Sophie vragen om bij onze club te komen?' vraagt Emma aan Lisa. Maar Lisa schudt haar hoofd. 'Nee, onze club is alleen voor ons twee,' zegt ze boos.\n\nDe volgende dagen speelt Emma steeds vaker met Sophie. Ze lachen samen en delen hun boterhammen. Lisa voelt zich verdrietig en alleen. Ze heeft spijt van wat ze gezegd heeft.\n\nOp vrijdag gaat Lisa naar Emma toe. 'Het spijt me,' zegt Lisa. 'Sophie mag wel bij onze club komen.' Emma lacht en geeft Lisa een knuffel. Nu zijn ze met z'n drieën beste vriendinnen.",
+  "questions": [
+    {
+      "question": "Waar hebben Lisa en Emma hun geheime club gemaakt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de schuur van lisa's opa",
+        "de schuur van lisa's opa"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelt Lisa zich verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "emma",
+            "vriendin"
+          ],
+          [
+            "sophie",
+            "speelt",
+            "spelen",
+            "speelde"
+          ],
+          [
+            "alleen",
+            "verdrietig",
+            "boos",
+            "jaloers"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma de laatste dagen doet."
+    },
+    {
+      "question": "Wat doet Lisa op vrijdag om het goed te maken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "spijt",
+            "sorry",
+            "excuses"
+          ],
+          [
+            "sophie",
+            "club",
+            "komen",
+            "mag",
+            "meedoen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed."
+    },
+    {
+      "question": "Vind jij dat Lisa goed heeft gehandeld? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet",
+            "goed",
+            "fout"
+          ],
+          [
+            "spijt",
+            "sorry",
+            "excuses",
+            "goed",
+            "aardig",
+            "lief"
+          ],
+          [
+            "vriendschap",
+            "vriendin",
+            "samen",
+            "delen",
+            "club"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa zich gedroeg en wat ze daarna deed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-club/image-1.png",
+      "alt": "Lisa en Emma in hun geheime club in de schuur"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-club/image-2.png",
+      "alt": "Lisa die sorry zegt tegen Emma, met Sophie erbij"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls sitting in a cozy garden shed with handmade club decorations, reading books together, children's book illustration style",
+    "Three young girls standing together in a schoolyard, one girl apologizing while the other two smile warmly, Dutch school building in background, children's book illustration style"
+  ]
+}

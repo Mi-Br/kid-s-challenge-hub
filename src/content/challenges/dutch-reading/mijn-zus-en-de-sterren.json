@@ -1,0 +1,121 @@
+{
+  "id": "mijn-zus-en-de-sterren",
+  "title": "Mijn zus en de sterren",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wetenschap",
+  "text": "Ik ben Lisa en ik zit in groep 8. Mijn zus Emma zit in de tweede klas. Ze doet altijd heel aardig tegen haar vriendinnen. Maar thuis is ze vaak heel verdrietig.\n\nEmma houdt van sterrenkunde. Ze heeft veel boeken over de ruimte. Elke avond kijkt ze door haar telescoop naar de maan en de sterren. Maar de laatste tijd doet ze dat niet meer. Ze ligt alleen maar in bed.\n\n\"Emma, waarom kijk je niet meer naar de sterren?\" vraag ik. \"Ik ben te moe,\" zegt ze. \"Ik voel me altijd moe en somber. Niemand begrijpt mij.\"\n\nIk weet niet wat ik moet zeggen. Emma is altijd de slimste van de klas geweest. Ze weet alles over planeten en sterren. Maar nu lijkt ze een ander persoon.\n\nMama en papa maken zich zorgen. We gaan samen naar de huisarts. De dokter legt uit dat Emma depressief is. \"Dat betekent dat haar hersenen anders werken,\" zegt hij. \"Het is een ziekte, net zoals griep een ziekte is.\"\n\nNu begrijp ik het beter. Emma kan er niets aan doen dat ze verdrietig is. We gaan haar helpen. De dokter geeft medicijnen en Emma gaat praten met een psycholoog. Langzaam wordt ze weer beter. Gisteren keek ze weer naar de sterren door haar telescoop.",
+  "questions": [
+    {
+      "question": "Hoe heet de zus van Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "emma"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Waarom kijkt Emma niet meer naar de sterren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "moe",
+            "vermoeid"
+          ],
+          [
+            "somber",
+            "verdrietig",
+            "depressief"
+          ],
+          [
+            "ziek",
+            "ziekte",
+            "depressie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Emma vertelt Lisa hoe ze zich voelt in de derde alinea."
+    },
+    {
+      "question": "Wat legt de dokter uit over Emma's hersenen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "anders",
+            "verschillend"
+          ],
+          [
+            "werken",
+            "functioneren"
+          ],
+          [
+            "ziekte",
+            "ziek",
+            "depressie",
+            "depressief"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat de dokter zegt in de vijfde alinea."
+    },
+    {
+      "question": "Vind je dat Lisa een goede zus is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goede",
+            "lief",
+            "aardig"
+          ],
+          [
+            "helpen",
+            "helpt",
+            "steun",
+            "steunt",
+            "zorgen",
+            "zorgt"
+          ],
+          [
+            "begrijpen",
+            "begrijpt",
+            "luisteren",
+            "luistert"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa doet om Emma te helpen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-zus-en-de-sterren/image-1.png",
+      "alt": "Een meisje kijkt door een telescoop naar de sterren vanuit haar slaapkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-zus-en-de-sterren/image-2.png",
+      "alt": "Twee zusjes praten samen, de ene ziet er verdrietig uit"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking through a telescope at stars from her bedroom window, children's book illustration style, warm lighting",
+    "Two sisters talking together in a bedroom, one looking sad while the other shows concern, children's book illustration style"
+  ]
+}

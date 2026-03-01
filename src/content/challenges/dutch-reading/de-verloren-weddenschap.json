@@ -1,0 +1,127 @@
+{
+  "id": "de-verloren-weddenschap",
+  "title": "De Verloren Weddenschap",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "sport",
+  "text": "Elke zaterdagochtend renden Saar en Milan door het Vondelpark. Ze waren al drie jaar beste vrienden en hadden nog nooit ruzie gehad. Totdat Milan een vreemde weddenschap voorstelde.\n\n\"Ik wed dat ik sneller ben dan jij,\" zei Milan met een grijns die Saar niet vertrouwde. \"Als ik win, mag ik een maand lang jouw nieuwe voetbalschoenen lenen.\" Saar voelde haar maag samentrekken. Die schoenen had ze voor haar verjaardag gekregen en ze waren het mooiste wat ze bezat.\n\nTijdens de race gebeurde er iets vreemds. Milan, die normaal nooit vals speelde, nam een kortere route door de struiken. Saar zag het gebeuren maar zei niets. Toen Milan als eerste over de finish kwam, juichte hij alsof hij de Olympische Spelen had gewonnen.\n\nDe dagen erna werd alles anders. Milan droeg Saars schoenen naar school en liet ze aan iedereen zien. Saar liep op haar oude, versleten gympen en voelde zich verraden. Ze spraken nauwelijks meer met elkaar, alsof er een onzichtbare muur tussen hen was gebouwd.\n\nOp een regenachtige donderdag gebeurde er iets wat alles veranderde. Milan struikelde tijdens de gymles en scheurde een van Saars schoenen. Toen hij het zag, vulden zijn ogen zich met tranen. Hij besefte plotseling dat hij zijn beste vriendin had verloren voor een paar schoenen die hij eigenlijk helemaal niet nodig had.\n\nDie avond stond Milan voor Saars deur met de kapotte schoen en een klein pakje. \"Het spijt me,\" fluisterde hij. \"Ik heb nieuwe veters gekocht en de schoen gerepareerd. En... ik heb vals gespeeld tijdens de race.\" Saar keek hem lang aan. Ze had het altijd al geweten, maar het horen zeggen deed toch pijn. Tegelijkertijd voelde ze de onzichtbare muur tussen hen langzaam verdwijnen.",
+  "questions": [
+    {
+      "question": "Waar renden Saar en Milan elke zaterdagochtend?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "door het vondelpark",
+        "het vondelpark",
+        "in het vondelpark"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelde Saar haar maag samentrekken toen Milan de weddenschap voorstelde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "bezorgd",
+            "ongerust",
+            "zenuwachtig"
+          ],
+          [
+            "schoenen",
+            "voetbalschoenen",
+            "nieuwe schoenen"
+          ],
+          [
+            "verliezen",
+            "kwijtraken",
+            "afgeven",
+            "inleveren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Saar zou kunnen verliezen bij deze weddenschap."
+    },
+    {
+      "question": "Hoe speelde Milan vals tijdens de race?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kortere",
+            "korte"
+          ],
+          [
+            "route",
+            "weg",
+            "pad"
+          ],
+          [
+            "struiken",
+            "door de struiken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog eens goed."
+    },
+    {
+      "question": "Vind je dat Saar Milan moet vergeven? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (wel of niet vergeven) en dit onderbouwen met argumenten uit de tekst of eigen ervaring. Mogelijke argumenten: Milan heeft spijt, hij heeft de schoen gerepareerd, vriendschap is belangrijker, maar hij heeft ook gelogen en vals gespeeld.",
+        "exampleAnswer": "Ja, ik denk dat Saar Milan moet vergeven omdat hij echt spijt heeft en de schoen heeft gerepareerd. Hij geeft ook toe dat hij vals heeft gespeeld.",
+        "keyElements": [
+          "mening wel/niet vergeven",
+          "onderbouwing/argument",
+          "spijt/sorry",
+          "vals spelen/liegen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Milan doet om het goed te maken."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over vriendschap die belangrijker is dan materiële zaken, of over het belang van eerlijkheid in vriendschappen, of over hoe spijt en vergiffenis vriendschappen kunnen herstellen.",
+        "exampleAnswer": "Het verhaal gaat erover dat vriendschap belangrijker is dan spullen en dat je eerlijk moet zijn tegen je vrienden.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "belangrijker dan spullen/materiële zaken",
+          "eerlijkheid/niet vals spelen",
+          "spijt/vergiffenis"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na: wat wil de schrijver je leren over vriendschap?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verloren-weddenschap/image-1.png",
+      "alt": "Twee kinderen rennen door een park met bomen en struiken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verloren-weddenschap/image-2.png",
+      "alt": "Een jongen staat voor een deur met een kapotte schoen en een pakje in zijn handen"
+    }
+  ],
+  "imagePrompts": [
+    "Two children running through a Dutch park with trees and bushes, one child taking a shortcut through the bushes while the other runs on the main path, children's book illustration style",
+    "A boy standing at a front door holding a torn soccer shoe and a small package, looking sad and apologetic, Dutch residential street background, children's book illustration style"
+  ]
+}

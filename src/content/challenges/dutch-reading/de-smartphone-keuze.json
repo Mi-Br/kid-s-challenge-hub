@@ -1,0 +1,119 @@
+{
+  "id": "de-smartphone-keuze",
+  "title": "De Smartphone Keuze",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "technologie",
+  "text": "Mila had al maanden gespaard voor een nieuwe smartphone. Haar oude telefoon was kapot gegaan en ze had heel hard gewerkt om geld te verdienen. Ze hielp haar buren met boodschappen en maakte hun tuinen schoon. Eindelijk had ze genoeg geld bij elkaar.\n\nIn de winkel stond Mila voor twee telefoons. De eerste was de nieuwste smartphone met alle functies die ze wilde hebben. Hij had een prachtige camera en alle apps werkten er snel op. Maar hij kostte al haar spaargeld. De tweede telefoon was ook goed, maar minder duur. Hij deed alles wat ze nodig had, maar was niet zo speciaal. Met deze telefoon zou ze nog geld overhouden.\n\nTerwijl Mila nadacht, zag ze een bericht op het mededelingenbord van de winkel. Een lokale dierenopvang vroeg om donaties omdat ze te weinig geld hadden voor voedsel. Mila hield veel van dieren en had altijd al willen helpen bij de opvang. Als ze de goedkopere telefoon kocht, kon ze de rest van haar geld aan de dieren geven.\n\nMila voelde zich verward. Ze had zo lang gespaard voor de perfecte telefoon. Maar ze dacht ook aan de hongerige dieren in de opvang. Beide keuzes voelden belangrijk aan. Ze sloot even haar ogen en dacht na over wat echt belangrijk was voor haar.\n\nUiteindelijk koos Mila voor de goedkopere smartphone. Ze was blij met haar nieuwe telefoon, ook al was hij niet perfect. Het beste gevoel kreeg ze toen ze het overgebleven geld bij de dierenopvang afgaf. De medewerkers waren zo dankbaar en de dieren zouden nu genoeg eten hebben. Mila besefte dat kleine offers grote verschillen kunnen maken.\n\nThuis liet Mila haar nieuwe telefoon aan haar ouders zien. Ze vertelde trots over haar keuze om ook de dieren te helpen. Haar ouders waren onder de indruk van haar doordachte beslissing. Mila voelde zich goed over beide keuzes die ze had gemaakt.",
+  "questions": [
+    {
+      "question": "Waarom had Mila geld gespaard?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "voor een nieuwe smartphone",
+        "voor een smartphone"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom was Mila verward in de winkel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "keuze",
+            "kiezen",
+            "beslissen",
+            "beslissing"
+          ],
+          [
+            "telefoon",
+            "smartphone",
+            "geld",
+            "dieren",
+            "opvang",
+            "doneren",
+            "helpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan de twee verschillende opties die Mila had."
+    },
+    {
+      "question": "Welke smartphone kocht Mila uiteindelijk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de goedkopere smartphone",
+        "de goedkopere telefoon",
+        "de goedkopere"
+      ],
+      "hint": "Lees het vijfde stukje van het verhaal."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het maken van keuzes waarbij je ook aan anderen denkt, niet alleen aan jezelf. Het gaat over het helpen van anderen en dat dit een goed gevoel kan geven.",
+        "exampleAnswer": "Het verhaal gaat erover dat het belangrijk is om ook aan anderen te denken bij het maken van keuzes.",
+        "keyElements": [
+          "keuzes/beslissingen maken",
+          "aan anderen denken/helpen",
+          "goed gevoel/tevreden zijn"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Mila leerde door haar keuzes."
+    },
+    {
+      "question": "Vind je dat Mila de juiste keuze heeft gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "goed",
+            "juist",
+            "verkeerd",
+            "fout"
+          ],
+          [
+            "dieren",
+            "helpen",
+            "opvang",
+            "telefoon",
+            "geld",
+            "belangrijk",
+            "anderen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Geef je mening en leg uit waarom je dat denkt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-smartphone-keuze/image-1.png",
+      "alt": "Mila staat in een telefoonwinkel en kijkt naar twee verschillende smartphones"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-smartphone-keuze/image-2.png",
+      "alt": "Mila geeft geld aan medewerkers van de dierenopvang"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl standing in an electronics store looking at two different smartphones on display, children's book illustration style, bright lighting",
+    "A young girl handing money to workers at an animal shelter with dogs and cats visible in the background, children's book illustration style, warm atmosphere"
+  ]
+}

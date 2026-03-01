@@ -1,0 +1,89 @@
+{
+  "id": "mamas-nieuwe-gerecht",
+  "title": "Mama's Nieuwe Gerecht",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Lisa keek naar mama in de keuken. Mama maakte iets nieuws. Het rook vreemd. \"Wat is dat?\" vroeg Lisa. \"Een Indiaas gerecht,\" zei mama. \"Curry met rijst.\" Lisa fronste haar wenkbrauwen omdat ze het niet kende.\n\nPapa kwam binnen en snoof. \"Mmm, dat ruikt lekker!\" zei hij. Maar Lisa dacht: als ik dit moet eten, wordt ik vast ziek. Ze kende alleen pasta en pizza. Dit oranje eten zag er eng uit.\n\nToen mama het op tafel zette, wilde Lisa het niet proeven. \"Probeer maar een klein hapje,\" zei mama zacht. Lisa nam voorzichtig een lepel. Het smaakte... heerlijk! Warm en kruidige, maar ook een beetje zoet.\n\n\"Dit is het lekkerste eten ooit!\" riep Lisa uit. Ze at haar hele bord leeg. Papa glimlachte omdat hij al wist dat het lekker was. Mama was trots. \"Volgende week maak ik Thais eten,\" zei ze. Lisa kon niet wachten.",
+  "questions": [
+    {
+      "question": "Wat voor gerecht maakte mama?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een indiaas gerecht",
+        "curry met rijst",
+        "indiaas gerecht"
+      ],
+      "hint": "Kijk naar wat mama zegt in de eerste alinea."
+    },
+    {
+      "question": "Wat voor eten kende Lisa al?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "pasta en pizza"
+      ],
+      "hint": "Lisa dacht aan eten dat ze al kende."
+    },
+    {
+      "question": "Waarom fronste Lisa haar wenkbrauwen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kende",
+            "wist",
+            "kente"
+          ],
+          [
+            "niet",
+            "nooit",
+            "nieuw",
+            "vreemd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa dacht over het gerecht."
+    },
+    {
+      "question": "Wat betekent het woord 'kruidige' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Het heeft te maken met de smaak van het Indiase eten.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "met specerijen"
+          ],
+          [
+            "pittig"
+          ],
+          [
+            "met kruiden"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mamas-nieuwe-gerecht/image-1.png",
+      "alt": "Mama kookt curry in de keuken terwijl Lisa toekijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mamas-nieuwe-gerecht/image-2.png",
+      "alt": "Lisa proeft voor het eerst de curry aan tafel"
+    }
+  ],
+  "imagePrompts": [
+    "A mother cooking orange curry in a Dutch kitchen while her young daughter Lisa watches curiously, children's book illustration style",
+    "A young girl taking her first careful bite of curry at the dinner table, with her parents smiling, children's book illustration style"
+  ]
+}

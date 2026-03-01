@@ -1,0 +1,141 @@
+{
+  "id": "liefde-achter-het-scherm",
+  "title": "Liefde Achter Het Scherm",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "media",
+  "text": "Lara zat elke avond achter haar laptop. Ze maakte TikTok-video's en plaatste foto's op Instagram. Haar volgers vonden haar grappig en slim. Maar er was één persoon die ze echt wilde bereiken: Sven uit haar klas.\n\nSven was populair op sociale media. Hij had duizenden volgers en maakte vlogs over skateboarden. Lara likte al zijn foto's en reageerde op al zijn verhalen. Ze hoopte dat hij haar zou opmerken. Daarom besloot ze een liedje over hem te schrijven en te posten.\n\n\"Sven, je bent zo cool en slim, ik denk alleen maar aan jou,\" zong ze in haar video. De video werd viral. Alle leerlingen op school hadden hem gezien. Lara was eerst trots, maar toen merkte ze dat iedereen naar haar keek en fluisterde.\n\nSven kwam naar haar toe tijdens de pauze. \"Lara, die video was... eh... beetje gênant,\" zei hij vriendelijk maar beslist. \"Ik vind je aardig als vriend, maar niet op die manier.\" Lara voelde haar wangen rood worden. Ze besefte dat ze te ver was gegaan.\n\nDie avond besloot Lara de video te verwijderen. Ze schreef een nieuwe post: \"Soms doe je stomme dingen voor aandacht. Ik heb geleerd dat echte vriendschap belangrijker is dan likes.\" Tot haar verbazing kreeg deze eerlijke post meer reacties dan ooit tevoren. Mensen waardeerden haar moed om toe te geven dat ze een fout had gemaakt.\n\nLara bleef video's maken, maar nu over onderwerpen die haar echt interesseerden: boeken, tekenen en milieu. Sven en zij werden goede vrienden. Ze had geleerd dat sociale media leuk kunnen zijn, maar dat het echte leven altijd belangrijker is.",
+  "questions": [
+    {
+      "question": "Hoeveel volgers had Sven op sociale media?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "duizenden",
+        "duizenden volgers"
+      ],
+      "hint": "Kijk in de tweede alinea naar wat er over Sven wordt verteld."
+    },
+    {
+      "question": "Waarom werd Lara's video viral?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "liedje",
+            "zong",
+            "video",
+            "gezongen"
+          ],
+          [
+            "sven",
+            "over hem",
+            "jongen"
+          ],
+          [
+            "gênant",
+            "bijzonder",
+            "opvallend",
+            "grappig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de inhoud van Lara's video en waarom mensen dat interessant vonden."
+    },
+    {
+      "question": "Wat leerde Lara uit deze ervaring?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "vriendschap",
+            "vrienden",
+            "echte vrienden"
+          ],
+          [
+            "belangrijker",
+            "belangrijk"
+          ],
+          [
+            "likes",
+            "aandacht",
+            "sociale media"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste twee alinea's over wat Lara begreep."
+    },
+    {
+      "question": "Vind je dat Lara goed reageerde toen Sven zei dat hij haar alleen als vriend zag? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "slim",
+            "verstandig",
+            "juist"
+          ],
+          [
+            "video verwijderen",
+            "verwijderde",
+            "weggehaald",
+            "eerlijk"
+          ],
+          [
+            "respecteren",
+            "accepteren",
+            "begrijpen",
+            "vrienden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Lara's acties nadat Sven met haar had gesproken."
+    },
+    {
+      "question": "Wat is de hoofdboodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het leren omgaan met sociale media op een gezonde manier en dat echte relaties belangrijker zijn dan online populariteit.",
+        "exampleAnswer": "Het verhaal leert dat je sociale media niet moet gebruiken om aandacht te krijgen van iemand, maar dat echte vriendschap en eerlijkheid belangrijker zijn.",
+        "keyElements": [
+          "sociale media/online",
+          "echte vriendschap/relaties",
+          "eerlijkheid/oprecht zijn",
+          "niet om aandacht"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de schrijver ons wil leren over sociale media en relaties."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/liefde-achter-het-scherm/image-1.png",
+      "alt": "Een meisje dat een video opneemt op haar laptop in haar kamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/liefde-achter-het-scherm/image-2.png",
+      "alt": "Een jongen en meisje die vriendelijk praten tijdens de schoolpauze"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting at her laptop in her bedroom recording a video, with phone and ring light visible, children's book illustration style",
+    "A teenage boy and girl having a friendly conversation in a school courtyard during break time, other students in background, children's book illustration style"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "de-geannuleerde-schoolreis",
+  "title": "De Geannuleerde Schoolreis",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "reizen",
+  "text": "Lisa was heel erg blij. Volgende week zou haar klas naar Parijs gaan. Ze had al maanden gespaard voor souvenirs. Haar koffer stond klaar in haar kamer.\n\nOp maandag kwam mevrouw De Wit de klas binnen. Ze keek verdrietig. \"Ik heb slecht nieuws,\" zei ze. \"De schoolreis naar Parijs gaat niet door. Het reisbedrijf heeft financiële problemen.\"\n\nLisa voelde tranen in haar ogen komen. Dit was niet eerlijk! Alle andere klassen gingen wel op reis. Waarom gebeurde dit juist bij hen? Ze was zo boos op de volwassenen die dit hadden verpest.\n\nThuiskwam vertelde Lisa het nieuws aan haar ouders. Haar moeder zag hoe verdrietig ze was. \"Misschien kunnen we zelf iets leuks doen,\" zei mama. \"We hebben nog steeds vakantiedagen.\"\n\nDe volgende dag kwam mevrouw De Wit met een voorstel. \"We gaan alsnog op reis, maar dan naar Amsterdam. Daar kunnen we de Anne Frank Huis bezoeken en een grachtentocht maken.\" Lisa dacht eerst: Amsterdam is toch niet zo bijzonder als Parijs?\n\nMaar tijdens de reis naar Amsterdam ontdekte Lisa iets moois. Ze leerde veel over Nederlandse geschiedenis. De grachten waren prachtig. En het belangrijkste: ze was samen met haar vrienden. Dat maakte de reis speciaal.\n\nTerug op school schreef Lisa in haar dagboek: \"Soms gaan dingen anders dan je wilt. Maar je kunt altijd iets goeds vinden in een nieuwe situatie.\"",
+  "questions": [
+    {
+      "question": "Naar welke stad zou de klas eerst gaan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "parijs"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom ging de reis naar Parijs niet door?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "reisbedrijf",
+            "bedrijf"
+          ],
+          [
+            "financiële",
+            "geld",
+            "problemen",
+            "financieel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Mevrouw De Wit vertelt de reden in de tweede alinea."
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen ze hoorde dat de reis niet doorging?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "tranen",
+            "huilen"
+          ],
+          [
+            "boos",
+            "boos",
+            "geïrriteerd"
+          ],
+          [
+            "teleurgesteld",
+            "teleurstelling"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over Lisa's reactie."
+    },
+    {
+      "question": "Wat leerde Lisa tijdens de reis naar Amsterdam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "vrienden",
+            "samen",
+            "gezelschap"
+          ],
+          [
+            "Nederlandse",
+            "geschiedenis",
+            "nederland"
+          ],
+          [
+            "situatie",
+            "goed",
+            "positief",
+            "moois"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat er gebeurde tijdens en na de Amsterdam reis."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geannuleerde-schoolreis/image-1.png",
+      "alt": "Een verdrietig meisje in de klas terwijl de lerares slecht nieuws vertelt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geannuleerde-schoolreis/image-2.png",
+      "alt": "Kinderen op een grachtentocht in Amsterdam, lachend en wijzend naar de mooie huizen"
+    }
+  ],
+  "imagePrompts": [
+    "A disappointed teenage girl sitting at her school desk while a sad-looking female teacher delivers bad news to the classroom, children's book illustration style",
+    "A group of diverse teenagers enjoying a canal boat tour in Amsterdam, pointing at beautiful historic canal houses and smiling, children's book illustration style"
+  ]
+}

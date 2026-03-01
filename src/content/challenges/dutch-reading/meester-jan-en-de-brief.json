@@ -1,0 +1,78 @@
+{
+  "id": "meester-jan-en-de-brief",
+  "title": "Meester Jan en de Brief",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "school",
+  "text": "Lisa zit in groep 4. Vandaag komt er een nieuwe meester. Hij heet meester Jan. Lisa is bang voor nieuwe leraren.\n\nMeester Jan heeft een rode brief in zijn hand. Hij zegt: \"Goedemorgen kinderen. Ik ben jullie nieuwe meester.\" Lisa vindt hem streng. Ze fluistert tegen haar vriend Tom: \"Hij is heel eng.\"\n\nMeester Jan hoort Lisa fluisteren. Hij wordt verdrietig. Na de les vraagt hij: \"Lisa, waarom ben je bang voor mij?\" Lisa voelt zich schuldig omdat ze iets gemeen heeft gezegd.\n\nLisa zegt sorry tegen meester Jan. Ze vertelt dat ze bang was. Meester Jan lacht vriendelijk. Hij laat de rode brief zien. Het is een tekening van zijn eigen kinderen voor hem. \"Ik ben ook zenuwachtig,\" zegt hij. \"Dit is mijn eerste dag.\"\n\nNu zijn Lisa en meester Jan vrienden. Lisa helpt hem de klas versieren met de rode brief. Ze is blij dat ze sorry heeft gezegd.",
+  "questions": [
+    {
+      "question": "Hoe heet de nieuwe meester?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de tweede zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "meester"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Welke kleur heeft de brief?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Dit staat in de tweede en vierde alinea."
+    },
+    {
+      "question": "Waarom wordt meester Jan verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hoort",
+            "hoorde",
+            "horen"
+          ],
+          [
+            "fluisteren",
+            "fluistert",
+            "fluisterde"
+          ],
+          [
+            "eng",
+            "gemeen",
+            "vervelend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa deed in de klas."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/meester-jan-en-de-brief/image-1.png",
+      "alt": "Meester Jan staat voor de klas met een rode brief in zijn hand"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/meester-jan-en-de-brief/image-2.png",
+      "alt": "Lisa en meester Jan hangen samen de rode brief op in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "A friendly male teacher standing in front of a Dutch elementary school classroom holding a red letter, children sitting at desks looking at him, children's book illustration style",
+    "A young girl and male teacher hanging a red letter drawing on the classroom wall together, both smiling, bright classroom with Dutch school decorations, children's book illustration style"
+  ]
+}

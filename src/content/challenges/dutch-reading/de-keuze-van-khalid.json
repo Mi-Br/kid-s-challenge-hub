@@ -1,0 +1,142 @@
+{
+  "id": "de-keuze-van-khalid",
+  "title": "De Keuze van Khalid",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wereldkeuken",
+  "text": "Khalid staat in de keuken en kijkt naar de ingrediënten op tafel. Zijn Nederlandse vrienden hebben hem uitgenodigd voor een groot diner. Ze willen allemaal een gerecht uit hun cultuur maken. Khalid voelt zich verward. Hij kan koken, maar wat moet hij kiezen?\n\nZijn oma heeft hem vorige week het recept voor tajine geleerd. Het is een traditioneel Marokkaans gerecht met vlees, groenten en kruiden. Khalid weet dat zijn familie heel trots zou zijn als hij dit maakt. Maar zijn vrienden kennen tajine niet. Misschien vinden ze de kruiden te sterk of het vlees te pittig.\n\nAan de andere kant kan hij ook pannenkoeken maken. Die heeft hij op school geleerd tijdens de Nederlandse les. Alle kinderen in zijn klas vinden pannenkoeken heerlijk. Het is makkelijk en iedereen zal tevreden zijn. Maar zijn hart voelt zwaar als hij daaraan denkt. Pannenkoeken zijn niet echt van hem.\n\nKhalid denkt aan zijn opa, die altijd zei: \"Wees trots op wie je bent, jongen.\" Hij herinnert zich de geur van de kruiden in zijn moeders keuken. Hij voelt de warmte van de tajine-pot tussen zijn handen. Dit is zijn verhaal, zijn cultuur, zijn familie.\n\nMet een diepe zucht pakt Khalid de kruiden. Hij gaat tajine maken, ook al is hij bang dat zijn vrienden het misschien niet lekker vinden. Hij wil eerlijk zijn tegen zichzelf. Als zijn vrienden echte vrienden zijn, zullen ze zijn eten respecteren, ook al is het anders dan wat zij gewend zijn.",
+  "questions": [
+    {
+      "question": "Wat heeft Khalids oma hem vorige week geleerd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het recept voor tajine",
+        "tajine maken",
+        "een recept voor tajine"
+      ],
+      "hint": "Kijk in de tweede alinea naar wat oma deed."
+    },
+    {
+      "question": "Waarom twijfelt Khalid tussen tajine en pannenkoeken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "tajine",
+            "marokkaans",
+            "cultuur",
+            "familie"
+          ],
+          [
+            "pannenkoeken",
+            "nederlands",
+            "makkelijk",
+            "school"
+          ],
+          [
+            "twijfelt",
+            "keuze",
+            "verward",
+            "anders"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat elk gerecht voor Khalid betekent."
+    },
+    {
+      "question": "Wat betekent de zin van zijn opa: 'Wees trots op wie je bent'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "trots",
+            "eerlijk",
+            "jezelf"
+          ],
+          [
+            "cultuur",
+            "afkomst",
+            "identiteit"
+          ],
+          [
+            "verloochenen",
+            "verstoppen",
+            "zijn"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar Khalids uiteindelijke keuze en wat die voor hem betekent."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over trouw blijven aan je eigen cultuur en identiteit, ook als je bang bent dat anderen het niet begrijpen of accepteren.",
+        "exampleAnswer": "Het verhaal gaat over trouw blijven aan je eigen cultuur en niet je identiteit verloochenen om anderen te plezieren.",
+        "keyElements": [
+          "trouw/eerlijk blijven aan jezelf",
+          "cultuur/identiteit behouden",
+          "niet verloochenen/verstoppen voor anderen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over de keuze die Khalid maakt en waarom."
+    },
+    {
+      "question": "Vind je dat Khalid de juiste keuze heeft gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "juist",
+            "goed",
+            "verkeerd",
+            "fout"
+          ],
+          [
+            "trots",
+            "eerlijk",
+            "authentiek",
+            "jezelf"
+          ],
+          [
+            "vrienden",
+            "accepteren",
+            "respecteren",
+            "begrijpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan de voor- en nadelen van beide keuzes."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-khalid/image-1.png",
+      "alt": "Khalid staat twijfelend in de keuken met ingrediënten op tafel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-khalid/image-2.png",
+      "alt": "Khalid pakt de kruiden om tajine te maken"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy of Moroccan descent standing thoughtfully in a Dutch kitchen, looking at ingredients on a table including spices and vegetables, children's book illustration style",
+    "The same boy confidently picking up traditional Moroccan spices with a determined expression, warm kitchen lighting, children's book illustration style"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "het-verzet-van-oma",
+  "title": "Het Verzet van Oma",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Lisa vond geschiedenis saai. Vooral verhalen over de Tweede Wereldoorlog. Waarom moest ze dat leren? Het was zo lang geleden.\n\nOp een dag vond Lisa een oude doos op zolder. Er zaten foto's in van haar oma. Haar oma zag er heel anders uit. Jong en sterk. Lisa bracht de doos naar beneden.\n\n\"Oma, wat deed je tijdens de oorlog?\" vroeg Lisa. Oma keek naar de foto's. Haar ogen werden vochtig. \"Ik hielp onderduikers,\" zei oma zacht. \"We verstopten Joodse families in ons huis. Het was gevaarlijk.\"\n\nLisa kon het niet geloven. Haar lieve oma had dit gedaan? \"Maar je was nog zo jong,\" zei Lisa. \"Ja,\" knikte oma. \"Ik was achttien. Net zo oud als jouw broer nu.\"\n\nOma vertelde meer verhalen. Over moed en angst. Over mensen die elkaar hielpen. Lisa luisterde ademloos. Ze had nooit geweten dat geschiedenis zo dichtbij kon zijn.\n\n\"Nu begrijp ik waarom geschiedenis belangrijk is,\" zei Lisa. \"Het gaat niet alleen over boeken. Het gaat over echte mensen. Zoals jij, oma.\"",
+  "questions": [
+    {
+      "question": "Wat vond Lisa van geschiedenis in het begin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "saai"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom hielp oma onderduikers tijdens de oorlog?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "mensen",
+            "families",
+            "anderen"
+          ],
+          [
+            "helpen",
+            "redden",
+            "beschermen",
+            "zorgen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over waarom mensen risico's nemen voor anderen."
+    },
+    {
+      "question": "Hoe veranderde Lisa's mening over geschiedenis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "belangrijk",
+            "interessant",
+            "begrijpt",
+            "snapt"
+          ],
+          [
+            "echte",
+            "werkelijke",
+            "ware",
+            "dichtbij"
+          ],
+          [
+            "mensen",
+            "personen",
+            "verhalen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea nog eens."
+    },
+    {
+      "question": "Vind je dat Lisa gelijk heeft dat geschiedenis belangrijk is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet",
+            "vind",
+            "denk"
+          ],
+          [
+            "omdat",
+            "want",
+            "door",
+            "vanwege"
+          ],
+          [
+            "leren",
+            "begrijpen",
+            "weten",
+            "snappen",
+            "kennen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Geef je eigen mening en vertel waarom je dat vindt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verzet-van-oma/image-1.png",
+      "alt": "Lisa die een oude doos met foto's op zolder vindt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verzet-van-oma/image-2.png",
+      "alt": "Oma die oude foto's bekijkt en verhalen vertelt aan Lisa"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl discovering an old wooden box filled with black and white photographs in a dusty attic, children's book illustration style",
+    "An elderly Dutch grandmother sitting with her granddaughter, looking at old wartime photographs together, warm lighting, children's book illustration style"
+  ]
+}

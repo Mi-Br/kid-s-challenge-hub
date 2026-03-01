@@ -1,0 +1,54 @@
+{
+  "id": "het-natte-ongeluk",
+  "title": "Het Natte Ongeluk",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "spelen",
+  "text": "Lisa speelt in de tuin. Ze heeft een slang. Het water is koud.\n\nLisa spuit water op de bloemen. Ze spuit ook op haar broer Tim. Tim wordt heel nat. Tim is boos.\n\nLisa voelt zich verdrietig. Ze wil niet dat Tim boos is. Lisa zegt sorry tegen Tim.\n\nTim lacht weer. Ze spelen samen met de slang. Nu zijn ze allebei nat en blij.",
+  "questions": [
+    {
+      "question": "Waar speelt Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de tuin",
+        "de tuin",
+        "tuin"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Hoe is het water?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "koud",
+        "het water is koud"
+      ],
+      "hint": "Dit staat in de eerste alinea."
+    },
+    {
+      "question": "Waarom wordt Tim boos?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "hij wordt nat",
+        "lisa spuit op hem",
+        "tim wordt heel nat"
+      ],
+      "hint": "Kijk wat Lisa doet met Tim."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-natte-ongeluk/image-1.png",
+      "alt": "Lisa speelt met een slang in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-natte-ongeluk/image-2.png",
+      "alt": "Lisa en Tim spelen samen met water"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa playing with a garden hose in a sunny Dutch backyard, spraying water on flowers, children's book illustration style",
+    "Two children, Lisa and her brother Tim, playing together with a garden hose, both wet and laughing happily in the garden, children's book illustration style"
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "de-keuze-voor-morgen",
+  "title": "De Keuze voor Morgen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "reizen",
+  "text": "Ik weet niet meer precies wanneer het begon, die constante vraag die iedereen stelt: \"Wat ga je doen na de middelbare school?\" Misschien was het tijdens de voorlichtingsavond, toen mevrouw Van Der Berg ons vertelde over uitwisselingsprogramma's in het buitenland. Of was het eerder, toen mijn vader terloops opmerkte dat reizen \"je horizont verbreedt\"?\n\nNu zit ik hier, starend naar brochures van universiteiten in drie verschillende landen. Canada lonkt met zijn eindeloze bossen en meren. Australië belooft avontuur onder de zuidelijke sterrenhemel. En dan is er nog Duitsland, praktisch en dichtbij, waar mijn nicht Elise studeert en zegt dat het \"heel gezellig\" is.\n\nMijn hart bonkt als ik eraan denk. Wat als ik de verkeerde keuze maak? Wat als ik heimwee krijg en mijn Nederlands accent belachelijk vinden? Deze onzekerheid vreet aan me, vooral 's nachts als ik niet kan slapen. Ik probeer me voor te stellen hoe het zou zijn om duizenden kilometers van huis te wonen, maar het voelt allemaal zo... onwerkelijk.\n\nDe deadline voor aanmeldingen nadert met rasse schreden. Mama zegt dat ik moet volgen waar mijn passie ligt, maar hoe kun je dat weten als je nog nooit ergens anders gewoond hebt? Papa daarentegen benadrukt praktische zaken: \"Denk aan de kosten, de taal, de studiemogelijkheden.\" Beiden menen het goed, maar hun advies contradiceert elkaar volledig.\n\nMisschien is dat het punt: niemand kan deze beslissing voor mij nemen. Ik realiseer me dat onzekerheid niet per se slecht is – het betekent dat ik meerdere opties heb, wat een luxe is die niet iedereen heeft. Gisteren heb ik eindelijk een besluit genomen. Ik ga solliciteren voor alle drie de programma's en laat het lot deels bepalen waar ik terechtkom.\n\nOf ik er klaar voor ben? Waarschijnlijk niet. Maar wie is dat ooit? Soms moet je gewoon de sprong wagen, ook al weet je niet waar je zult landen. Het enige wat ik zeker weet, is dat ik deze kans niet wil laten schieten uit angst voor het onbekende.\n\nMijn pen zweeft boven het eerste aanmeldingsformulier. Ergens in mijn achterhoofd fluistert een stemmetje dat dit misschien allemaal een vergissing is. Maar een luider deel van mij – het deel dat droomt van nieuwe culturen en onbekende straten – spoort me aan om door te zetten.\n\nMorgen zal ik weten of ik dapper genoeg ben om deze droom na te jagen.",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het maken van moeilijke keuzes ondanks onzekerheid, en het accepteren dat je soms een sprong in het diepe moet wagen zonder alle antwoorden te hebben.",
+        "exampleAnswer": "Het verhaal gaat over het maken van belangrijke levenskeuzes ook al ben je bang en onzeker over de toekomst.",
+        "keyElements": [
+          "keuzes maken/beslissingen nemen",
+          "onzekerheid/twijfel accepteren",
+          "moed/dapper zijn",
+          "sprong wagen/risico nemen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat de verteller leert over het maken van moeilijke beslissingen."
+    },
+    {
+      "question": "Waarom voelt de verteller zich onzeker over studeren in het buitenland?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de verteller bang is voor het maken van de verkeerde keuze, heimwee, en het onbekende omdat hij/zij nog nooit ergens anders heeft gewoond.",
+        "exampleAnswer": "De verteller is bang om de verkeerde keuze te maken en heeft nog nooit ergens anders gewoond, dus het voelt onwerkelijk.",
+        "keyElements": [
+          "verkeerde keuze/fout maken",
+          "heimwee/gemis",
+          "onbekende/onwerkelijk",
+          "nog nooit ervaren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Kijk naar de derde alinea waar de verteller zijn zorgen beschrijft."
+    },
+    {
+      "question": "Hoe toont de schrijver dat de verteller langzaam zekerder wordt over zijn beslissing?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de verteller een ontwikkeling doormaakt van twijfel naar acceptatie van onzekerheid, en uiteindelijk tot actie overgaat door aanmeldingsformulieren in te vullen.",
+        "exampleAnswer": "De verteller gaat van twijfelen naar het beseffen dat onzekerheid normaal is, en besluit dan om zich aan te melden voor alle programma's.",
+        "keyElements": [
+          "ontwikkeling/verandering",
+          "van twijfel naar acceptatie",
+          "actie ondernemen/aanmelden",
+          "besluit nemen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Let op hoe de houding van de verteller verandert van het begin naar het einde van het verhaal."
+    },
+    {
+      "question": "Evalueer of de beslissing van de verteller om zich voor alle drie de programma's aan te melden verstandig is. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een beredeneerde mening geven over de strategie van de verteller, met argumenten voor of tegen. Accepteer zowel positieve als negatieve evaluaties mits goed onderbouwd.",
+        "exampleAnswer": "Ik vind het een slimme strategie omdat je dan meer kansen hebt en het lot mee laat bepalen, maar het kost wel veel tijd en geld om overal te solliciteren.",
+        "keyElements": [
+          "voor/tegen argumenten",
+          "kosten/tijd/moeite",
+          "meer kansen/opties",
+          "strategisch/slim/praktisch"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk aan de voor- en nadelen van deze aanpak en vorm je eigen mening."
+    },
+    {
+      "question": "Wat bedoelt de verteller met 'mijn pen zweeft boven het eerste aanmeldingsformulier'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "aarzelen",
+            "twijfelen",
+            "onzeker"
+          ],
+          [
+            "spanning",
+            "zenuwachtig",
+            "opgewonden"
+          ],
+          [
+            "bijna beginnen",
+            "op het punt",
+            "klaar om te beginnen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Deze zin staat aan het einde - denk aan wat de verteller op dat moment voelt."
+    },
+    {
+      "question": "Wat is volgens de tekst het doel van de schrijver van dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien hoe je met onzekerheid over belangrijke levenskeuzes kunt omgaan, en dat het oké is om risico's te nemen ook al heb je niet alle antwoorden.",
+        "exampleAnswer": "De schrijver wil laten zien dat het normaal is om onzeker te zijn over grote keuzes en dat je soms gewoon moet proberen ook al ben je bang.",
+        "keyElements": [
+          "omgaan met onzekerheid",
+          "moed tonen/risico nemen",
+          "normaal/acceptabel",
+          "grote keuzes/beslissingen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan welke boodschap of les de schrijver wil overbrengen aan de lezer."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-voor-morgen/image-1.png",
+      "alt": "Een tiener zit aan een bureau met brochures van verschillende universiteiten en landen uitgespreid"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-voor-morgen/image-2.png",
+      "alt": "Een hand met een pen zweeft boven een aanmeldingsformulier, klaar om te beginnen met schrijven"
+    }
+  ],
+  "imagePrompts": [
+    "A teenager sitting at a desk with university brochures from Canada, Australia, and Germany spread out, children's book illustration style, warm lighting showing contemplation and decision-making",
+    "A close-up of a hand holding a pen hovering over an application form, with nervous energy visible, children's book illustration style, representing the moment of commitment and courage"
+  ]
+}

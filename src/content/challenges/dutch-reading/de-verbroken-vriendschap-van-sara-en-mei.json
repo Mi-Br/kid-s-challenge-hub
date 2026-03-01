@@ -1,0 +1,141 @@
+{
+  "id": "de-verbroken-vriendschap-van-sara-en-mei",
+  "title": "De Verbroken Vriendschap van Sara en Mei",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wereldkeuken",
+  "text": "Sara en Mei waren al drie jaar beste vriendinnen. Ze deden alles samen: huiswerk maken, naar school fietsen en elke woensdag samen eten bij Sara thuis. Sara's moeder kookte altijd Nederlandse gerechten zoals stamppot en erwtensoep.\n\nOp een dag nodigde Mei Sara uit voor het avondeten. \"Mijn oma komt uit China en kookt vanavond traditioneel Chinees eten,\" zei Mei enthousiast. Sara trok een vies gezicht. \"Chinees eten is vreemd en smerig,\" antwoordde ze. \"Wij eten gewoon normaal Nederlands eten.\"\n\nMei's gezicht betrok. Ze had zich zo verheugd op deze avond. \"Maar Sara, je hebt het nog nooit geproefd. Misschien vind je het wel lekker,\" probeerde Mei voorzichtig. Sara schudde haar hoofd. \"Nee, ik eet geen rare dingen. Echt niet.\"\n\nDie avond ging Sara niet naar Mei. In plaats daarvan at ze thuis haar gewone boterhammen. Mei was verdrietig en teleurgesteld. Ze begreep niet waarom Sara zo deed over haar oma's eten. De dagen erna spraken de meisjes nauwelijks met elkaar.\n\nToen Sara's klas een week later een multicultureel festival organiseerde, moesten alle kinderen gerechten uit andere landen meenemen. Sara's moeder had Indiase samosa's gekocht. Toen Sara er een proefde, vond ze het verrassend lekker. Plotseling besefte ze wat ze had gedaan.\n\nDe volgende dag zocht Sara Mei op tijdens de pauze. \"Het spijt me,\" zei ze zacht. \"Ik was dom en onaardig over jouw oma's eten. Mag ik nog een keer uitgenodigd worden?\" Mei glimlachte, maar haar ogen stonden verdrietig. \"Je kunt komen eten, Sara. Maar onze vriendschap voelt anders nu. Ik weet dat je mensen kunt veroordelen zonder hen te kennen.\"",
+  "questions": [
+    {
+      "question": "Hoe lang waren Sara en Mei al beste vriendinnen?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "drie"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom wilde Sara niet naar Mei's huis om te eten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "vreemd",
+            "raar",
+            "rare",
+            "vies",
+            "smerig"
+          ],
+          [
+            "chinees",
+            "traditioneel",
+            "eten",
+            "gerechten",
+            "voedsel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Sara zei over het Chinese eten."
+    },
+    {
+      "question": "Wat leerde Sara tijdens het multicultureel festival?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lekker",
+            "proefde",
+            "smaakte",
+            "vond"
+          ],
+          [
+            "ander",
+            "andere",
+            "vreemd",
+            "verschillend",
+            "anders"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er gebeurde toen Sara de samosa's proefde."
+    },
+    {
+      "question": "Beoordeel Sara's gedrag in het begin van het verhaal. Leg uit waarom dit goed of slecht was.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "slecht",
+            "fout",
+            "verkeerd",
+            "onaardig",
+            "dom"
+          ],
+          [
+            "oordelen",
+            "veroordelen",
+            "vooroordeel",
+            "proberen",
+            "proeven"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over of het eerlijk was om iets af te wijzen zonder het te proberen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over vooroordelen en hoe die vriendschappen kunnen beschadigen. Ook dat je dingen moet proberen voordat je oordeelt.",
+        "exampleAnswer": "Het verhaal gaat over dat vooroordelen vriendschappen kapot kunnen maken en dat je dingen moet proberen voordat je oordeelt.",
+        "keyElements": [
+          "vooroordelen/oordelen/veroordelen",
+          "vriendschap/vrienden",
+          "proberen/proeven"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de les die Sara leerde en wat er met hun vriendschap gebeurde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verbroken-vriendschap-van-sara-en-mei/image-1.png",
+      "alt": "Sara trekt een vies gezicht terwijl Mei enthousiast over Chinees eten vertelt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verbroken-vriendschap-van-sara-en-mei/image-2.png",
+      "alt": "Sara proeft een samosa op het multicultureel festival"
+    }
+  ],
+  "imagePrompts": [
+    "Two young Dutch girls in a school playground, one looking excited while the other makes a disgusted face, children's book illustration style with warm colors",
+    "A young girl with blonde hair tasting an Indian samosa at a multicultural festival with colorful food stands in the background, children's book illustration style"
+  ]
+}

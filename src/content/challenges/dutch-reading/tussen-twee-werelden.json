@@ -1,0 +1,103 @@
+{
+  "id": "tussen-twee-werelden",
+  "title": "Tussen Twee Werelden",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "milieu",
+  "text": "Yasmin zit tussen twee groepen in de klas. De Nederlandse kinderen praten over klimaatverandering en recycling. Ze willen dat iedereen meedoet met hun plannen om de school groener te maken. De andere groep zijn kinderen uit verschillende landen. Zij denken dat de Nederlandse kinderen te veel zeuren over het milieu.\n\nYasmin voelt zich verward. Thuis praat haar familie vaak over de natuur in Marokko. Haar opa vertelt verhalen over droogte en hoe moeilijk het leven daar wordt. Maar op school moet ze kiezen. Wil ze bij de groene groep horen of bij haar vrienden uit andere landen?\n\nOp een dag komt er een nieuwe jongen in de klas. Hij heet Omar en komt ook uit Marokko. Omar vertelt dat zijn familie altijd water bespaart en weinig spullen weggooit. \"Dat is ook goed voor het milieu,\" zegt hij tegen Yasmin. \"In Marokko zorgen we ook voor de natuur, maar op een andere manier.\"\n\nYasmin begrijpt nu iets belangrijks. Ze hoeft niet te kiezen tussen twee werelden. Ze kan delen wat haar familie weet over zuinig zijn. En ze kan ook leren van de Nederlandse kinderen. Beide culturen hebben goede ideeën over het milieu.\n\nDe volgende dag vertelt Yasmin in de klas over water besparen in Marokko. De Nederlandse kinderen luisteren goed. Yasmin voelt zich nu thuis in beide werelden. Ze is trots op haar Marokkaanse cultuur en ze helpt ook mee met de groene plannen op school.",
+  "questions": [
+    {
+      "question": "Waar komen Yasmin en Omar vandaan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "marokko"
+      ],
+      "hint": "Kijk naar de derde alinea waar Omar wordt voorgesteld."
+    },
+    {
+      "question": "Waarom voelt Yasmin zich verward op school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "kiezen",
+            "kies",
+            "gekozen"
+          ],
+          [
+            "groepen",
+            "groep",
+            "twee"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea over Yasmins gevoelens."
+    },
+    {
+      "question": "Wat leert Yasmin van Omar over het milieu?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "water",
+            "besparen",
+            "bespaart"
+          ],
+          [
+            "marokko",
+            "marokkaanse",
+            "andere",
+            "manier"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de derde alinea wat Omar zegt over zijn familie."
+    },
+    {
+      "question": "Hoe voelt Yasmin zich aan het einde van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "thuis",
+            "thuisvoelt",
+            "voelt"
+          ],
+          [
+            "trots",
+            "beide",
+            "werelden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea over Yasmins nieuwe gevoel."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/tussen-twee-werelden/image-1.png",
+      "alt": "Yasmin zit tussen twee groepen kinderen in een klaslokaal"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/tussen-twee-werelden/image-2.png",
+      "alt": "Yasmin praat voor de klas over water besparen in Marokko"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch classroom scene showing a young Moroccan girl sitting between two different groups of children, some Dutch children discussing environmental projects and other international children chatting separately, children's book illustration style",
+    "A young Moroccan girl confidently presenting to her diverse classroom about water conservation, with classmates listening attentively, bright classroom setting, children's book illustration style"
+  ]
+}

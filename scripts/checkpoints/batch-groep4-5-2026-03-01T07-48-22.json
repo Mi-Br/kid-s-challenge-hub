@@ -1,0 +1,39 @@
+{
+  "plan": {
+    "timestamp": "2026-03-01T07-48-22",
+    "groepLevel": "groep4-5",
+    "targetCount": 20,
+    "topicSequence": [
+      "familie",
+      "het weer",
+      "kleding",
+      "de buurt",
+      "verjaardagen",
+      "het lichaam",
+      "spelen",
+      "school",
+      "eten",
+      "dieren",
+      "familie",
+      "het weer",
+      "spelen",
+      "verjaardagen",
+      "eten",
+      "het lichaam",
+      "school",
+      "kleding",
+      "dieren",
+      "de buurt"
+    ],
+    "estimatedApiCalls": 20,
+    "estimatedTokensPerCall": 3000,
+    "estimatedCost": "0.60",
+    "estimatedTimeMinutes": 30
+  },
+  "completedCount": 20,
+  "failedIndices": [
+    14
+  ],
+  "resultsCount": 19,
+  "lastSaved": "2026-03-01T07:48:22.283Z"
+}

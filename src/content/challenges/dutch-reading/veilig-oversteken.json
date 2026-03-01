@@ -1,0 +1,84 @@
+{
+  "id": "veilig-oversteken",
+  "title": "Veilig Oversteken",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "verkeer",
+  "text": "Mira is nieuw op school in Nederland. Ze komt uit Syrië. In haar land waren de straten heel anders. Nu moet ze elke dag naar school lopen.\n\nVandaag loopt Mira naar school. Ze wil de straat oversteken. Ze kijkt niet naar links en rechts. Een Nederlandse jongen ziet haar. Hij heet Tom. Tom roept: \"Stop! Wacht!\" Mira verstaat hem niet goed.\n\nTom rent naar Mira. Hij wijst naar het zebrapad. \"Hier moet je oversteken,\" zegt hij langzaam. \"Eerst kijken naar links. Dan naar rechts. Dan weer naar links.\" Mira kijkt verbaasd. In Syrië deed ze het anders.\n\nTom laat het zien. Hij kijkt naar links, naar rechts, en weer naar links. Dan steekt hij over. \"Zo doe je het in Nederland,\" zegt hij vriendelijk. Mira doet hem na. Ze steken samen veilig over.\n\nOp school praat Mira met Tom. Ze vertelt over de straten in Syrië. Tom luistert goed. Hij vindt het interessant. \"Jij weet veel over andere landen,\" zegt Tom. \"Dat is cool!\" Mira lacht. Ze heeft een nieuwe vriend gemaakt.",
+  "questions": [
+    {
+      "question": "Uit welk land komt Mira?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "syrië"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom roept Tom naar Mira?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gevaarlijk",
+            "onveilig",
+            "niet veilig"
+          ],
+          [
+            "oversteken",
+            "overstak",
+            "oversteekt"
+          ],
+          [
+            "kijken",
+            "keek",
+            "kijkt",
+            "niet gekeken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Mira deed toen ze wilde oversteken."
+    },
+    {
+      "question": "Hoe moet je veilig oversteken volgens Tom?",
+      "questionType": "begrijpen",
+      "hint": "Tom legt het uit aan Mira. Lees wat hij zegt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "eerst"
+          ],
+          [
+            "naar"
+          ],
+          [
+            "links"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/veilig-oversteken/image-1.png",
+      "alt": "Een meisje staat bij een zebrapad, een jongen wijst naar de oversteekplaats"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/veilig-oversteken/image-2.png",
+      "alt": "Twee kinderen steken samen veilig over op het zebrapad"
+    }
+  ],
+  "imagePrompts": [
+    "A Syrian girl standing at a street crossing looking confused, while a Dutch boy points to the zebra crossing, children's book illustration style, Dutch street scene with bikes",
+    "Two children safely crossing a Dutch street together on a zebra crossing, looking both ways, children's book illustration style, Dutch urban environment"
+  ]
+}

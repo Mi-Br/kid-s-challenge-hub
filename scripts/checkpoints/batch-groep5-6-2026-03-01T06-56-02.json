@@ -1,0 +1,41 @@
+{
+  "plan": {
+    "timestamp": "2026-03-01T06-56-02",
+    "groepLevel": "groep5-6",
+    "targetCount": 20,
+    "topicSequence": [
+      "sport",
+      "beroepen",
+      "verkeer",
+      "huisdieren",
+      "de markt",
+      "Nederlandse feestdagen",
+      "vriendschap",
+      "natuur",
+      "de bibliotheek",
+      "seizoenen",
+      "de markt",
+      "verkeer",
+      "huisdieren",
+      "seizoenen",
+      "Nederlandse feestdagen",
+      "de bibliotheek",
+      "beroepen",
+      "sport",
+      "vriendschap",
+      "natuur"
+    ],
+    "estimatedApiCalls": 20,
+    "estimatedTokensPerCall": 3000,
+    "estimatedCost": "0.60",
+    "estimatedTimeMinutes": 30
+  },
+  "completedCount": 20,
+  "failedIndices": [
+    4,
+    7,
+    12
+  ],
+  "resultsCount": 17,
+  "lastSaved": "2026-03-01T06:56:02.409Z"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "max-en-de-verdwenen-cavia",
+  "title": "Max en de Verdwenen Cavia",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "huisdieren",
+  "text": "Max en zijn beste vriend Daan waren altijd samen. Ze speelden elke dag na school omdat ze allebei van dieren hielden. Max had een lieve cavia die Bruno heette. Bruno was bruin en wit, en hij piepte vrolijk als Max thuiskwam.\n\nOp een dag verdween Bruno uit zijn kooi. Max was heel verdrietig en boos. Hij dacht dat Daan de kooi had opengelaten omdat Daan de dag ervoor Bruno had gevoerd. \"Jij hebt de kooi niet goed dichtgemaakt!\" riep Max tegen Daan. Daan werd ook boos omdat hij heel voorzichtig was geweest.\n\nDaarna spraken de jongens een hele week niet met elkaar. Max zocht alleen naar Bruno. Daan voelde zich eenzaam maar wilde niet sorry zeggen omdat hij niets verkeerd had gedaan. De andere kinderen op school zagen dat de vrienden ruzie hadden.\n\nOp vrijdagmiddag hoorde Max gepiep uit de garage. Daar zat Bruno achter een doos met oude kleren! Bruno was zelf uit zijn kooi geklommen en had zich verstopt. Max begreep dat Daan niets verkeerd had gedaan. Hij ging meteen naar Daan om sorry te zeggen.\n\n\"Het spijt me,\" zei Max. \"Bruno was zelf weggegaan. Jij had de kooi wel goed dichtgemaakt.\" Daan glimlachte en zei: \"Ik ben blij dat Bruno terug is. Ik heb je gemist.\" Want echte vriendschap is belangrijker dan ruzie. Nu passen ze samen op Bruno en hun vriendschap is sterker dan ooit.",
+  "questions": [
+    {
+      "question": "Welke kleur had Bruno?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bruin en wit"
+      ],
+      "hint": "Kijk naar de eerste alinea waar Bruno wordt beschreven."
+    },
+    {
+      "question": "Waarom was Max boos op Daan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "kooi",
+            "dicht",
+            "dichtgemaakt",
+            "opengelaten",
+            "open"
+          ],
+          [
+            "bruno",
+            "cavia",
+            "verdwenen",
+            "weg",
+            "kwijt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Max dacht dat Daan had gedaan met de kooi."
+    },
+    {
+      "question": "Hoe lang spraken Max en Daan niet met elkaar?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de derde alinea hoe lang de ruzie duurde.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "hele"
+          ],
+          [
+            "week"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat Max goed reageerde toen Bruno weg was? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "goed",
+            "fout",
+            "verkeerd",
+            "juist"
+          ],
+          [
+            "boos",
+            "verdrietig",
+            "riep",
+            "schreeuwen",
+            "beschuldigen",
+            "ruzie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Max tegen Daan deed en of dat eerlijk was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/max-en-de-verdwenen-cavia/image-1.png",
+      "alt": "Max en Daan spelen samen met Bruno de cavia"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/max-en-de-verdwenen-cavia/image-2.png",
+      "alt": "Max vindt Bruno achter een doos in de garage"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch boys playing together with a brown and white guinea pig in a cozy living room, children's book illustration style",
+    "A young boy discovering his guinea pig hiding behind a cardboard box in a garage, looking relieved and happy, children's book illustration style"
+  ]
+}

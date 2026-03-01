@@ -1,0 +1,123 @@
+{
+  "id": "het-mysterie-van-de-verdwenen-boeken",
+  "title": "Het Mysterie van de Verdwenen Boeken",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de bibliotheek",
+  "text": "Lisa was een echte detective in hart en nieren. Elke week bezocht ze de bibliotheek omdat ze dol was op spannende verhalen. Maar deze dinsdag ontdekte ze iets heel vreemds: haar favoriete boekenserie over detective Kim was verdwenen van de plank.\n\nDe bibliothecaresse, mevrouw Jansen, keek bezorgd toen Lisa het vertelde. \"Dat is inderdaad mysterieus,\" zei ze nadenkend. \"Gisteren stonden alle vijf delen er nog.\" Lisa besloot meteen om dit raadsel op te lossen, want een echte detective geeft nooit op.\n\nVoorzichtig onderzocht Lisa elke hoek van de bibliotheek. Bij de kindertafel zag ze kruimels van koekjes en een paar boekbladzijden die op de grond waren gevallen. \"Aha!\" dacht ze slim. \"Hier heeft iemand stiekem gegeten en gelezen.\"\n\nToen hoorde Lisa zachte geluiden uit de grote kast waar de oude boeken werden bewaard. Met bonzend hart opende ze langzaam de deur. Tot haar grote verbazing zat daar kleine Tim van groep 3, omringd door alle vijf detective Kim boeken.\n\n\"Ik wilde ze niet stelen,\" fluisterde Tim beschaamd. \"Maar mijn grote zus heeft me over detective Kim verteld en ik wilde zo graag weten hoe de verhalen aflopen. Ik durfde niet te vragen omdat ik dacht dat ze te moeilijk voor me zouden zijn.\" Lisa glimlachte vriendelijk en begreep precies hoe Tim zich voelde, want zij was ooit ook een beginnende lezer geweest.",
+  "questions": [
+    {
+      "question": "Welke dag van de week ontdekte Lisa dat de boeken weg waren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dinsdag"
+      ],
+      "hint": "Kijk naar het begin van het verhaal."
+    },
+    {
+      "question": "Waarom verstopte Tim zich met de boeken in de kast?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "wilde",
+            "wou",
+            "verlangde"
+          ],
+          [
+            "lezen",
+            "weten",
+            "verhalen"
+          ],
+          [
+            "durfde",
+            "schaamde",
+            "bang"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Tim legt uit wat hij voelde en waarom hij de boeken meenam."
+    },
+    {
+      "question": "Welke aanwijzingen hielpen Lisa om Tim te vinden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kruimels",
+            "koekjes",
+            "eten"
+          ],
+          [
+            "bladzijden",
+            "papier",
+            "gevallen"
+          ],
+          [
+            "geluiden",
+            "geluid",
+            "hoorde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa ontdekte bij de kindertafel en wat ze hoorde."
+    },
+    {
+      "question": "Vind je dat Lisa goed heeft gehandeld? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lisa's gedrag en dit onderbouwen met argumenten uit de tekst. Goede antwoorden noemen dat Lisa aardig/begripvol was en Tim hielp in plaats van hem te straffen.",
+        "exampleAnswer": "Ja, Lisa heeft goed gehandeld omdat ze Tim niet boos maakte maar hem begreep en vriendelijk was.",
+        "keyElements": [
+          "vriendelijk/aardig/begripvol",
+          "hielp/begreep",
+          "niet boos/niet straffen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over hoe Lisa reageerde toen ze Tim vond."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over begrip tonen voor anderen die iets willen leren, ook al doen ze iets wat niet mag. Het gaat ook over moed om te vragen om hulp.",
+        "exampleAnswer": "Het verhaal gaat erover dat je begrip moet hebben voor anderen en dat het goed is om hulp te vragen als je iets wilt leren.",
+        "keyElements": [
+          "begrip/begrijpen",
+          "hulp vragen/durven vragen",
+          "leren/willen lezen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat de schrijver ons wil leren door dit verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-boeken/image-1.png",
+      "alt": "Lisa onderzoekt de lege boekenplank in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-boeken/image-2.png",
+      "alt": "Lisa opent de kastdeur en vindt Tim met de detective Kim boeken"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl detective examining an empty bookshelf in a cozy Dutch library, looking puzzled and determined, children's book illustration style",
+    "A girl opening a large cabinet door to discover a small boy sitting inside surrounded by detective books, warm lighting, children's book illustration style"
+  ]
+}

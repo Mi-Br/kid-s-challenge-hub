@@ -1,0 +1,109 @@
+{
+  "id": "sinterklaas-en-zwarte-piet",
+  "title": "Sinterklaas en Zwarte Piet",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Emma en haar beste vriend Jamal waren altijd samen. Ze woonden naast elkaar in Amsterdam en deden alles met z'n tweeën. Maar toen december kwam, begonnen ze ruzie te maken over Sinterklaas.\n\n\"Zwarte Piet is niet leuk,\" zei Jamal tegen Emma. \"Mijn ouders vinden het geen goed idee.\" Emma werd boos. \"Maar het is traditie! Sinterklaas hoort bij Nederland. Jij bent hier nog maar twee jaar.\" Jamal keek verdrietig. \"Ik woon hier ook,\" fluisterde hij. \"Dit is mijn land ook.\"\n\nDe weken daarna spraken ze niet meer met elkaar. Emma speelde alleen op het schoolplein. Jamal at zijn lunch in zijn eentje. Allebei misten ze hun vriend, maar niemand wilde sorry zeggen. Hun ouders merkten dat de kinderen verdrietig waren.\n\nOp 5 december was er een Sinterklaasfeest op school. Emma zag dat Jamal alleen in de hoek stond. Ze voelde zich rot. Sinterklaas was niet leuk zonder haar beste vriend. Ze liep naar hem toe. \"Het spijt me,\" zei ze zacht. \"Jij hoort er ook bij.\"\n\nJamal glimlachte. \"Mij spijt het ook. Ik was te boos.\" Ze besloten samen een nieuw spelletje te bedenken. In plaats van Zwarte Piet verzonnen ze Regenboog Piet, met alle kleuren. Sinterklaas vond het een geweldig idee. \"Vriendschap is het mooiste cadeau,\" zei hij met een knipoog.\n\nVanaf die dag waren Emma en Jamal weer onafscheidelijk. Ze hadden geleerd dat vriendschap belangrijker is dan ruziemaken over tradities. En hun Regenboog Piet werd zo populair dat andere scholen het ook gingen doen.",
+  "questions": [
+    {
+      "question": "Waar wonen Emma en Jamal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "amsterdam"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom waren de kinderen verdrietig volgens hun ouders?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ruzie",
+            "boos",
+            "geen vrienden",
+            "niet spreken"
+          ],
+          [
+            "misten",
+            "alleen",
+            "eenzaam",
+            "zonder vriend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde na hun ruzie."
+    },
+    {
+      "question": "Hoe losten Emma en Jamal hun probleem op?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "regenboog piet",
+            "nieuw spelletje",
+            "samen bedacht",
+            "alle kleuren"
+          ],
+          [
+            "sorry",
+            "spijt",
+            "vrienden",
+            "samen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vijfde alinea goed."
+    },
+    {
+      "question": "Vind jij dat de kinderen het probleem goed hebben opgelost? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "slim",
+            "juist",
+            "prima"
+          ],
+          [
+            "nee",
+            "niet goed",
+            "slecht",
+            "fout"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Geef je eigen mening en leg uit waarom."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-en-zwarte-piet/image-1.png",
+      "alt": "Emma en Jamal maken ruzie op het schoolplein over Sinterklaas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-en-zwarte-piet/image-2.png",
+      "alt": "Emma en Jamal bedenken samen Regenboog Piet met Sinterklaas"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, Emma and Jamal, having an argument on a Dutch school playground about Sinterklaas, children's book illustration style, both looking upset and frustrated",
+    "Emma and Jamal happily creating Regenboog Piet together with Sinterklaas watching approvingly, colorful and joyful scene, children's book illustration style"
+  ]
+}

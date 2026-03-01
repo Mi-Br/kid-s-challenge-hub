@@ -1,0 +1,108 @@
+{
+  "id": "het-gelijke-virus",
+  "title": "Het Gelijke Virus",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "technologie",
+  "text": "Lotte zag het bericht op TikTok. Een meisje van haar leeftijd waarschuwde voor een nieuw computervirus. \"Dit virus maakt alle computers kapot!\" zei het meisje. \"Deel dit bericht met al je vrienden!\"\n\nLotte geloofde het meteen. Het meisje zag er eerlijk uit. Ze wilde haar vrienden waarschuwen. Maar toen dacht ze na. Wie was dit meisje eigenlijk? Waarom moest iedereen het bericht delen?\n\nLotte ging naar de website van de politie. Daar stond niets over een nieuw virus. Ze zocht op Google naar het verhaal. Ze vond alleen andere TikTok-video's met hetzelfde bericht.\n\n\"Papa, is dit waar?\" vroeg Lotte. Ze liet hem de video zien. Papa schudde zijn hoofd. \"Nee, dit is nepnieuws. Echte virussen maken de computer niet meteen kapot. En waarom zou een kind dit als eerste ontdekken?\"\n\nLotte voelde zich dom. Maar papa zei: \"Je deed het goed. Je checkte het eerst voordat je het doorstuurde. Veel mensen doen dat niet.\"",
+  "questions": [
+    {
+      "question": "Op welke website keek Lotte voor informatie over het virus?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de website van de politie"
+      ],
+      "hint": "Kijk naar de derde paragraaf."
+    },
+    {
+      "question": "Waarom geloofde Lotte het bericht in het begin?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "eerlijk",
+            "echt",
+            "waar",
+            "geloofwaardig"
+          ],
+          [
+            "meisje",
+            "kind",
+            "leeftijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lotte dacht van het meisje in de video."
+    },
+    {
+      "question": "Wat vond Lottes vader van de manier waarop zij reageerde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "juist",
+            "slim",
+            "verstandig"
+          ],
+          [
+            "checkte",
+            "controleerde",
+            "zocht",
+            "onderzocht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat papa aan het eind zegt."
+    },
+    {
+      "question": "Vind jij dat Lotte slim handelde? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "slim",
+            "verstandig",
+            "goed",
+            "juist"
+          ],
+          [
+            "checkte",
+            "controleerde",
+            "zocht",
+            "onderzocht",
+            "vroeg"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lotte deed voordat ze het bericht doorstuurde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-gelijke-virus/image-1.png",
+      "alt": "Een tienermeisje kijkt naar haar telefoon met een TikTok-video"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-gelijke-virus/image-2.png",
+      "alt": "Een vader en dochter praten over de telefoon"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking at her phone screen showing a TikTok video in a Dutch teenage bedroom, children's book illustration style",
+    "A father and teenage daughter having a conversation while looking at a phone together in a cozy Dutch living room, children's book illustration style"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "de-waarheid-over-sinterklaas",
+  "title": "De Waarheid over Sinterklaas",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Emma was heel zeker van haar zaak. Sinterklaas woonde in Spanje en kwam elk jaar met zijn stoomboot naar Nederland. Dat wist iedereen toch?\n\nMaar op school vertelde juf Marieke iets anders. \"Sinterklaas is een verhaal gebaseerd op een echte man,\" zei ze. \"Hij heette Nicolaas en woonde lang geleden in Turkije. Hij hielp arme kinderen door cadeaus te geven.\"\n\nEmma schudde haar hoofd. \"Nee juf, dat klopt niet. Sinterklaas woont in Spanje. Dat staat in alle liedjes.\" De andere kinderen knikten.\n\nJuf Marieke lachte vriendelijk. \"Het Sinterklaasfeest is heel oud, Emma. Nederlandse mensen hebben het verhaal door de jaren heen veranderd. Eerst woonde Sinterklaas in Turkije, later werd Spanje zijn thuis in de verhalen.\"\n\nEmma dacht na. Thuis vroeg ze aan opa: \"Waar woonde Sinterklaas toen jij klein was?\" Opa glimlachte. \"In mijn tijd kwam hij uit Spanje. Maar mijn opa vertelde dat Sinterklaas vroeger uit een ander land kwam.\"\n\nNu begreep Emma het. Het Sinterklaasfeest was zoals een oud verhaal dat ouders aan hun kinderen doorvertellen. Elke generatie maakt het verhaal een beetje anders. Dat maakte het feest niet minder leuk, maar juist bijzonder.",
+  "questions": [
+    {
+      "question": "Waar woonde Nicolaas lang geleden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "turkije",
+        "in turkije"
+      ],
+      "hint": "Kijk naar wat juf Marieke vertelt over de echte man."
+    },
+    {
+      "question": "Waarom was Emma zo zeker dat Sinterklaas in Spanje woonde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "liedjes",
+            "liedje",
+            "lied",
+            "liedjes"
+          ],
+          [
+            "staat",
+            "stond",
+            "zegt",
+            "zeggen"
+          ],
+          [
+            "iedereen",
+            "allemaal",
+            "alle"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Emma geeft een reden waarom ze denkt dat het waar is."
+    },
+    {
+      "question": "Wat ontdekte Emma over het Sinterklaasfeest door de gesprekken met juf en opa?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verhaal",
+            "verhalen",
+            "vertelling"
+          ],
+          [
+            "veranderd",
+            "verandert",
+            "anders",
+            "veranderen"
+          ],
+          [
+            "generatie",
+            "ouders",
+            "kinderen",
+            "doorvertellen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed. Wat begrijpt Emma nu?"
+    },
+    {
+      "question": "Hoe voelt Emma aan het eind over het feit dat het verhaal is veranderd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "geen"
+          ],
+          [
+            "minder",
+            "slechter"
+          ],
+          [
+            "leuk",
+            "fijn",
+            "mooi",
+            "bijzonder",
+            "speciaal"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de laatste zin van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-over-sinterklaas/image-1.png",
+      "alt": "Emma luistert met andere kinderen naar juf Marieke die voor de klas staat"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-over-sinterklaas/image-2.png",
+      "alt": "Emma praat thuis met haar opa over Sinterklaas"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl Emma listening skeptically in a Dutch classroom as teacher juf Marieke explains about Sinterklaas, other children sitting at desks, children's book illustration style",
+    "Emma having a conversation with her grandfather at home, both smiling as they discuss Sinterklaas traditions, cozy Dutch living room setting, children's book illustration style"
+  ]
+}

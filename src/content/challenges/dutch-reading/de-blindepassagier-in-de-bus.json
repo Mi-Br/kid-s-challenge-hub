@@ -1,0 +1,127 @@
+{
+  "id": "de-blindepassagier-in-de-bus",
+  "title": "De Blindepassagier in de Bus",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verkeer",
+  "text": "Elke ochtend neemt Sanne dezelfde bus naar school. Ze kent alle vaste passagiers: de mevrouw met de rolstok die altijd vooraan zit, de man met de grote rugzak en de blonde jongen die nooit opkijkt van zijn telefoon.\n\nVanochtend stapt er iemand nieuws in bij halte Marktplein. Het is een meisje van haar leeftijd, maar ze ziet er heel anders uit. Haar kleren zijn oud en gescheurd, haar haar zit door de war en ze ruikt een beetje vies. Het meisje heeft geen OV-chipkaart en fluistert iets tegen de buschauffeur. De chauffeur schudt zijn hoofd.\n\n'Geen kaart, geen reis,' zegt hij streng. 'Je moet uitstappen.'\n\nSanne denkt eerst: waarom zorgt ze niet beter voor zichzelf? Maar dan ziet ze hoe bang het meisje kijkt. Zou ze misschien wel een goede reden hebben? Mocht Sanne haar helpen, dan zou de reis voor het meisje veel makkelijker worden.\n\n'Wacht even,' roept Sanne. Ze loopt naar voren en houdt haar eigen OV-kaart bij de scanner. 'Voor haar,' zegt ze tegen de chauffeur.\n\nHet meisje kijkt verbaasd op. 'Dank je wel,' fluistert ze. 'Ik ben Luna. Ik moet naar het ziekenhuis omdat mijn kleine broertje daar ligt. Onze ouders hebben geen geld voor de bus.'\n\nTijdens de rit vertelt Luna over haar gezin dat problemen heeft, maar ook over haar droom om later dierenarts te worden. Sanne luistert gefascineerd. Ze had nooit gedacht dat iemand die er zo arm uitzag, zulke mooie plannen zou hebben.\n\nBij het ziekenhuis stapt Luna uit. 'Je bent een engel,' zegt ze tegen Sanne. 'Dankzij jou kan ik bij mijn broertje zijn.'\n\nSanne realiseert zich dat ze bijna een grote fout had gemaakt. Indien ze alleen naar Luna's uiterlijk had gekeken, zou ze nooit hebben geweten wat voor bijzonder persoon Luna eigenlijk is.",
+  "questions": [
+    {
+      "question": "Waar wilde Luna naartoe met de bus?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "naar het ziekenhuis",
+        "het ziekenhuis"
+      ],
+      "hint": "Kijk naar wat Luna tegen Sanne vertelt."
+    },
+    {
+      "question": "Waarom dacht Sanne eerst negatief over Luna?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "kleren",
+            "uiterlijk",
+            "eruitzag",
+            "zag"
+          ],
+          [
+            "oud",
+            "gescheurd",
+            "vies",
+            "arm",
+            "armoedig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er over Luna's uiterlijk wordt gezegd."
+    },
+    {
+      "question": "Hoe verandert Sannes mening over Luna tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "eerst",
+            "begin",
+            "aanvankelijk",
+            "oorspronkelijk"
+          ],
+          [
+            "veranderde",
+            "verandert",
+            "anders",
+            "werd"
+          ],
+          [
+            "luisterde",
+            "hoorde",
+            "vertelde",
+            "verhaal",
+            "plannen",
+            "droom"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Sanne denkt aan het begin en aan het eind."
+    },
+    {
+      "question": "Vind je dat Sanne het juiste deed door Luna te helpen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over Sannes handeling en deze onderbouwen met argumenten uit het verhaal of eigen redeneringen over helpen en medemenselijkheid.",
+        "exampleAnswer": "Ja, Sanne deed het juiste omdat Luna een goede reden had en iedereen verdient hulp als ze in nood zijn.",
+        "keyElements": [
+          "mening/vind/denk",
+          "onderbouwing/omdat/want",
+          "helpen/goede daad"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat het betekent om anderen te helpen."
+    },
+    {
+      "question": "Wat is de hoofdboodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het niet oordelen op uiterlijk en mensen een kans geven om hun verhaal te vertellen.",
+        "exampleAnswer": "Het verhaal leert ons dat we mensen niet mogen beoordelen op hun uiterlijk maar hun verhaal moeten horen.",
+        "keyElements": [
+          "oordelen/beoordelen/vooroordeel",
+          "uiterlijk/eruit zien",
+          "kans geven/luisteren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Sanne heeft geleerd over het beoordelen van anderen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-blindepassagier-in-de-bus/image-1.png",
+      "alt": "Een Nederlands stadsbus met passagiers, inclusief een meisje dat haar OV-kaart gebruikt om een ander meisje te helpen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-blindepassagier-in-de-bus/image-2.png",
+      "alt": "Twee meisjes die samen in de bus zitten en praten, het ene meisje luistert aandachtig naar het andere"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch city bus interior with passengers, showing a young girl helping another girl with her OV-chipcard at the card reader near the driver, children's book illustration style",
+    "Two girls sitting together on bus seats having a conversation, one listening attentively to the other who looks grateful, warm lighting through bus windows, children's book illustration style"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "de-strijd-om-het-bos",
+  "title": "De Strijd om het Bos",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "milieu",
+  "text": "Toen Amara de brief las die haar vader had achtergelaten, begreep ze eindelijk waarom hij zo lang had gevochten tegen de plannen van de gemeente. Het kleine bosje achter hun huis zou worden weggehaald om plaats te maken voor een nieuwe winkelcentrum. \"Dit bos is niet alleen maar een verzameling bomen,\" had hij geschreven. \"Het is de plek waar jouw grootmoeder uit Suriname haar eerste Nederlandse bloemen plantte, waar wij samen naar vogels keken, en waar jij leert dat je zowel Surinaams als Nederlands kunt zijn.\"\n\nAmara voelde zich verscheurd. Haar Nederlandse klasgenoten vonden haar vader een dwarsligger die de vooruitgang tegenhield. \"Waarom kan hij niet gewoon accepteren dat er nieuwe winkels komen?\" had Emma gisteren gevraagd. \"Dat is toch goed voor de buurt?\" Maar haar Surinaamse oma had haar juist geleerd dat voorouders hun wijsheid doorgeven via de natuur. \"Bomen zijn onze bibliotheek,\" zei oma altijd. \"Ze bewaren verhalen die geen mens kan schrijven.\"\n\nDe volgende week stond Amara voor de gemeenteraad. Ze had nachten wakker gelegen en bedacht hoe ze beide kanten van zichzelf kon vertegenwoordigen. \"Ik begrijp dat onze gemeente groeit en verandert,\" begon ze voorzichtig. \"Maar dit bos is meer dan grond die geld kan opleveren. Het is een plek waar verschillende culturen kunnen samenkomen, waar kinderen leren over duurzaamheid, en waar we bewijzen dat vooruitgang en natuur hand in hand kunnen gaan.\"\n\nTerwijl Amara sprak, zag ze hoe de raadsleden luisterden. Sommigen knikten begrijpend, anderen keken sceptisch. Ze realiseerde zich dat ze niet hoefde te kiezen tussen haar Nederlandse en Surinaamse identiteit – ze kon beide gebruiken om een beter argument te maken. \"In plaats van het bos te vernietigen,\" vervolgde ze met groeiende zekerheid, \"kunnen we er een ecologisch winkelgebied omheen bouwen. Dan combineren we economische groei met respect voor het milieu en onze multiculturele geschiedenis.\"\n\nMaanden later liep Amara door het behouden bos, omringd door de nieuwe, duurzaam gebouwde winkels. Haar voorstel was niet volledig aangenomen, maar het had wel geleid tot een compromis dat niemand had verwacht. Ze begreep nu dat je niet altijd hoeft te kiezen tussen verschillende delen van jezelf. Soms kun je ze juist gebruiken om nieuwe oplossingen te vinden die niemand anders had bedacht.",
+  "questions": [
+    {
+      "question": "Waarom wilde de gemeente het bosje weghalen?",
+      "questionType": "begrijpen",
+      "hint": "Kijk in de eerste alinea naar wat er in de plaats van het bos zou komen.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "plaats"
+          ],
+          [
+            "maken"
+          ],
+          [
+            "voor"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe gebruikt Amara haar verschillende culturele achtergronden om haar argument sterker te maken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Amara zowel haar Nederlandse kant (begrip voor groei en verandering) als haar Surinaamse kant (respect voor natuur en voorouders) gebruikt om een beter argument te maken voor het behoud van het bos.",
+        "exampleAnswer": "Ze gebruikt haar Nederlandse kant om te laten zien dat ze vooruitgang begrijpt, en haar Surinaamse kant om uit te leggen waarom natuur belangrijk is. Zo maakt ze een sterker argument.",
+        "keyElements": [
+          "beide culturen/kanten gebruiken",
+          "sterker argument/betere oplossing",
+          "Nederlandse kant/vooruitgang",
+          "Surinaamse kant/natuur"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan hoe Amara in haar speech zowel begrip toont voor groei als respect voor traditie."
+    },
+    {
+      "question": "Wat suggereert het verhaal over de manier waarop de gemeente oorspronkelijk met milieuklachten omging?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet afleiden dat de gemeente aanvankelijk economische belangen belangrijker vond dan milieubelangen en niet luisterde naar bezwaren van burgers zoals Amara's vader.",
+        "exampleAnswer": "De gemeente luisterde niet goed naar mensen die bezwaren hadden en vond geld verdienen belangrijker dan het milieu beschermen.",
+        "keyElements": [
+          "luisterde niet/negeerde bezwaren",
+          "geld/economie belangrijker",
+          "milieubelangen genegeerd"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan hoe Amara's vader werd genoemd door andere kinderen en wat dat zegt over hoe zijn protesten werden ontvangen."
+    },
+    {
+      "question": "Beoordeel of Amara's compromisvoorstel een realistische oplossing is voor vergelijkbare milieuconflicten. Onderbouw je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over de realiteit van Amara's oplossing en deze onderbouwen met argumenten over haalbaarheid, kosten, of werkbaarheid van compromissen in de echte wereld.",
+        "exampleAnswer": "Ik denk dat het wel realistisch is omdat het beide kanten iets geeft, maar het zal wel duurder zijn en meer tijd kosten. In het echte leven willen bedrijven niet altijd zoveel extra moeite doen.",
+        "keyElements": [
+          "mening geven/ik denk/vind",
+          "onderbouwing/omdat",
+          "realistische aspecten/kosten/tijd/moeite"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de voor- en nadelen van compromissen tussen milieu en economie in de echte wereld."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de hoofdgedachte gaat over het integreren van verschillende delen van je identiteit om betere oplossingen te vinden, in plaats van te moeten kiezen tussen verschillende aspecten van jezelf.",
+        "exampleAnswer": "Het verhaal gaat erover dat je niet hoeft te kiezen tussen verschillende delen van jezelf, maar ze juist kunt combineren om betere oplossingen te vinden.",
+        "keyElements": [
+          "niet hoeven kiezen/combineren",
+          "verschillende delen jezelf/identiteit",
+          "betere oplossingen/nieuwe oplossingen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Amara leert over haar Nederlandse en Surinaamse identiteit en hoe ze die gebruikt."
+    },
+    {
+      "question": "Wat wilde de schrijver bereiken door dit verhaal te schrijven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de schrijver wil laten zien dat multiculturaliteit kracht kan zijn en dat compromissen mogelijk zijn tussen milieu en economie, plus kritiek leveren op hoe overheden omgaan met burgerprotesten.",
+        "exampleAnswer": "De schrijver wil laten zien dat verschillende culturen samen sterk kunnen zijn en dat je creativiteit kunt gebruiken om milieuproblemen op te lossen. Ook kritiek geven op overheden die niet luisteren naar burgers.",
+        "keyElements": [
+          "multiculturaliteit/verschillende culturen positief",
+          "milieuboodschap/duurzaamheid",
+          "kritiek overheid/systeem"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk aan welke boodschap de schrijver wil geven over cultuur, milieu en hoe overheden beslissingen maken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-strijd-om-het-bos/image-1.png",
+      "alt": "Amara staat in het bosje en leest de brief van haar vader"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-strijd-om-het-bos/image-2.png",
+      "alt": "Amara spreekt voor de gemeenteraad met het bos op de achtergrond"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl of mixed Dutch-Surinamese heritage reading a handwritten letter while standing in a small urban forest with old trees, children's book illustration style, warm natural lighting",
+    "The same teenage girl speaking confidently to a city council meeting with council members listening, papers and maps on the table, small forest visible through the window behind her, children's book illustration style"
+  ]
+}

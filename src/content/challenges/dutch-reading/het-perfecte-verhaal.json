@@ -1,0 +1,129 @@
+{
+  "id": "het-perfecte-verhaal",
+  "title": "Het Perfecte Verhaal",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "media",
+  "text": "Lola zat comfortabel in haar grote kamer en scrollde door sociale media op haar nieuwe telefoon. Haar ouders hadden haar net een dure laptop gegeven omdat ze goede cijfers had. Ze voelde zich gelukkig met al haar spullen.\n\nToen zag ze een video die duizenden keren was gedeeld. Een jongen van haar leeftijd stond voor een vervallen huis. 'Mijn familie heeft geen geld voor eten,' zei hij verdrietig. 'Help ons alsjeblieft.' Onder de video stond: 'Donate nu - elk kind verdient een kans!'\n\nLola was geschokt. Ze had nooit geweten dat kinderen zo arm konden zijn. Meteen wilde ze geld geven. Maar toen herinnerde ze zich wat haar medialeraar had gezegd: 'Controleer altijd je bronnen.'\n\nZe klikte op het profiel van de persoon die de video had geplaatst. Het account was pas twee dagen oud. De andere video's gingen over heel andere onderwerpen. In de reacties schreven mensen dat ze deze video al eerder hadden gezien met een ander verhaal erbij.\n\nLola begreep dat ze bijna was misleid door een nep-verhaal. Ze besloot voortaan altijd kritisch na te denken voordat ze iets geloofde op internet. Echte hulp aan arme kinderen wilde ze nog steeds geven, maar dan via een betrouwbare organisatie.\n\nDie avond vertelde Lola haar ouders wat er was gebeurd. 'Je hebt goed gehandeld,' zei haar vader trots. 'Internet kan mensen misleiden, maar jij hebt geleerd om slim te zijn.'",
+  "questions": [
+    {
+      "question": "Wat voor telefoon had Lola gekregen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een nieuwe telefoon",
+        "nieuwe telefoon"
+      ],
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "een nieuwe telefoon",
+          "nieuwe telefoon"
+        ]
+      }
+    },
+    {
+      "question": "Waarom werd Lola achterdochtig over de video?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "leraar",
+            "medialeraar",
+            "docent"
+          ],
+          [
+            "bronnen",
+            "bron",
+            "controleren",
+            "controleerde",
+            "checken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat haar leraar had geleerd."
+    },
+    {
+      "question": "Hoe ontdekte Lola dat het een nep-verhaal was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "profiel",
+            "account",
+            "pagina"
+          ],
+          [
+            "nieuw",
+            "pas",
+            "kort"
+          ],
+          [
+            "dagen",
+            "oud",
+            "gemaakt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea goed."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over kritisch denken bij informatie op internet en het controleren van bronnen voordat je iets gelooft.",
+        "exampleAnswer": "Het verhaal gaat over het belang van kritisch nadenken over informatie op internet.",
+        "keyElements": [
+          "kritisch/nadenken/controleren",
+          "internet/media/online",
+          "bronnen/betrouwbaar"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat wilde de schrijver je leren over internet en informatie?"
+    },
+    {
+      "question": "Vind je dat Lola goed heeft gehandeld? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lola's gedrag en dit onderbouwen met argumenten uit de tekst of eigen redenering.",
+        "exampleAnswer": "Ja, ze heeft goed gehandeld omdat ze niet meteen geld gaf maar eerst onderzoek deed.",
+        "keyElements": [
+          "goed/slim/verstandig",
+          "onderzoek/controleren/checken",
+          "niet/meteen/eerst"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Lola deed toen ze twijfelde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-perfecte-verhaal/image-1.png",
+      "alt": "Lola zit op haar bed met haar nieuwe telefoon en bekijkt sociale media"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-perfecte-verhaal/image-2.png",
+      "alt": "Lola kijkt kritisch naar het computerscherm terwijl ze het profiel van de video controleert"
+    }
+  ],
+  "imagePrompts": [
+    "A privileged teenage girl sitting comfortably in her large, well-furnished bedroom, looking at her new smartphone, children's book illustration style",
+    "The same teenage girl looking thoughtfully and critically at a computer screen, examining suspicious social media content, children's book illustration style"
+  ]
+}

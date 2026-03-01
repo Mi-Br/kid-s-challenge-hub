@@ -1,0 +1,122 @@
+{
+  "id": "de-dierenarts-en-de-brandweer",
+  "title": "De Dierenarts en de Brandweer",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "beroepen",
+  "text": "Lisa woont in een kleine stad met oude bakstenen huizen en smalle straatjes. Op een regenachtige donderdagochtend loopt ze naar school. De wind waait hard en de bomen buigen heen en weer.\n\nBij de school ziet Lisa een grote rode brandweerauto staan. De brandweerlieden dragen dikke gele jassen omdat het regent. \"Waarom zijn jullie hier?\" vraagt Lisa aan brandweervrouw Petra. \"We gaan vandaag vertellen over ons werk,\" zegt Petra vriendelijk. \"Ik dacht dat brandweerlieden alleen branden blussen,\" zegt Lisa.\n\nIn de klas vertelt Petra over haar werk. \"We blussen niet alleen branden,\" legt ze uit. \"We helpen ook bij ongelukken en redden dieren in nood. Vorige week hebben we een kat uit een boom gered.\" Lisa luistert vol aandacht. Ze had nooit geweten dat brandweerlieden zoveel verschillende dingen doen.\n\nNa school gaat Lisa naar dierenarts Tom in zijn praktijk aan de Kerkstraat. Haar hamster Pluisje moet onderzocht worden. In de wachtruimte zitten mensen met honden, katten en zelfs een papegaai. \"Dierenartsen zorgen alleen voor zieke dieren, toch?\" vraagt Lisa aan Tom. Hij lacht en schudt zijn hoofd.\n\nTom legt uit dat zijn werk veel breder is. \"Ik help niet alleen zieke dieren beter worden,\" zegt hij terwijl hij Pluisje voorzichtig onderzoekt. \"Ik geef ook voorlichting over hoe je goed voor je huisdier zorgt. En soms werk ik samen met de brandweer als er dieren in gevaar zijn.\" Lisa kijkt verbaasd. \"Werk je samen met brandweervrouw Petra?\" vraagt ze. \"Ja,\" antwoordt Tom, \"vorige week hebben we samen die kat gered. Zij haalde hem uit de boom en ik controleerde of hij niet gewond was.\"\n\nThuisgekomen denkt Lisa na over wat ze vandaag heeft geleerd. Ze besefte dat beroepen vaak veel interessanter zijn dan ze eerst dacht. Brandweerlieden en dierenartsen werken niet alleen apart, maar helpen elkaar ook. Nu wil ze meer weten over andere beroepen in haar stad.",
+  "questions": [
+    {
+      "question": "Welke kleur jassen dragen de brandweerlieden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel",
+        "gele",
+        "dikke gele"
+      ],
+      "hint": "Kijk naar de tweede alinea waar wordt beschreven wat de brandweerlieden dragen."
+    },
+    {
+      "question": "Waarom werken dierenarts Tom en brandweervrouw Petra soms samen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "dieren",
+            "dier"
+          ],
+          [
+            "redden",
+            "helpen",
+            "gered",
+            "geholpen",
+            "gevaar",
+            "nood"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Tom vertelt over hun samenwerking bij de kat."
+    },
+    {
+      "question": "Hoe verandert Lisa's mening over beroepen tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "interessanter",
+            "meer",
+            "breder",
+            "veel",
+            "verschillende"
+          ],
+          [
+            "dacht",
+            "dachten",
+            "denken",
+            "wist",
+            "weten",
+            "besefte",
+            "leerde",
+            "geleerd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea waar Lisa nadenkt over wat ze heeft geleerd."
+    },
+    {
+      "question": "Vind je het belangrijk dat verschillende beroepen samenwerken? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "belangrijk",
+            "goed",
+            "handig",
+            "nuttig",
+            "slim"
+          ],
+          [
+            "samenwerken",
+            "samen",
+            "helpen",
+            "samenwerking"
+          ],
+          [
+            "omdat",
+            "want",
+            "dan",
+            "zo"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan het voorbeeld van de kat die werd gered door Tom en Petra samen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-dierenarts-en-de-brandweer/image-1.png",
+      "alt": "Lisa praat met brandweervrouw Petra bij de grote rode brandweerauto voor de school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-dierenarts-en-de-brandweer/image-2.png",
+      "alt": "Dierenarts Tom onderzoekt hamster Pluisje in zijn praktijk aan de Kerkstraat"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl talking to a friendly female firefighter wearing a thick yellow jacket next to a big red fire truck in front of a Dutch school building on a rainy day, children's book illustration style",
+    "A veterinarian in a white coat gently examining a small hamster in his clinic while a young girl watches, with other pet owners waiting in the background, children's book illustration style"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "de-gebroken-vinger",
+  "title": "De Gebroken Vinger",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Liam speelt voetbal in de tuin. Hij schopt hard tegen de bal. De bal vliegt naar het hek. Liam rent snel achter de bal aan. Hij wil de bal pakken, maar hij valt. Zijn vinger doet heel veel pijn.\n\nMama kijkt naar zijn vinger. \"Je vinger is gebroken,\" zegt mama. \"We gaan naar het ziekenhuis.\" Liam is bang. Hij heeft nog nooit een gebroken bot gehad. Zijn vinger is dik en paars.\n\nIn het ziekenhuis maakt de dokter een foto van zijn vinger. \"Je vinger is inderdaad gebroken,\" zegt de dokter vriendelijk. \"Maar maak je geen zorgen. Het komt goed.\" De dokter doet een wit verband om zijn vinger.\n\nNa twee weken gaat Liam weer naar het ziekenhuis. De dokter haalt het verband weg. Liams vinger ziet er weer normaal uit! \"Je vinger is helemaal genezen,\" zegt de dokter blij. Liam kan nu weer voetballen, maar hij is voorzichtiger dan eerst.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Liams vinger als hij gevallen is?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dik en paars",
+        "paars"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Wat doet de dokter om de vinger beter te maken?",
+      "questionType": "begrijpen",
+      "hint": "Lees het einde van de derde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "verband"
+          ],
+          [
+            "zijn"
+          ],
+          [
+            "vinger"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was Liam bang in het ziekenhuis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nooit",
+            "eerste",
+            "nog niet"
+          ],
+          [
+            "gebroken",
+            "gebroken bot",
+            "bot"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er nieuw was voor Liam."
+    },
+    {
+      "question": "Vind je dat Liam slim handelde? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "voorzichtig",
+            "voorzichtiger",
+            "oppassen"
+          ],
+          [
+            "hard",
+            "snel",
+            "te hard",
+            "te snel"
+          ],
+          [
+            "leren",
+            "geleerd",
+            "wijzer"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Liam aan het einde van het verhaal voetbalt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-vinger/image-1.png",
+      "alt": "Liam valt in de tuin terwijl hij achter de voetbal aan rent"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-vinger/image-2.png",
+      "alt": "De dokter doet een wit verband om Liams vinger in het ziekenhuis"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy falling in a backyard while chasing a soccer ball, his hand hitting the ground, children's book illustration style",
+    "A friendly doctor in a white coat wrapping a white bandage around a young boy's finger in a bright hospital room, children's book illustration style"
+  ]
+}

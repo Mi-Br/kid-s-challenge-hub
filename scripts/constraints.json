@@ -1,0 +1,1106 @@
+{
+  "groep4-5": {
+    "low": [
+      {
+        "id": "present_tense_only",
+        "category": "linguistic",
+        "constraint": "Use only present tense. No past or future.",
+        "description": "Stories use habitual 'happens' not 'happened' format"
+      },
+      {
+        "id": "simple_sentences",
+        "category": "linguistic",
+        "constraint": "Use short, simple sentences. Max 10 words per sentence.",
+        "description": "Keep sentences simple and direct for early readers"
+      },
+      {
+        "id": "high_frequency_words",
+        "category": "linguistic",
+        "constraint": "Use only high-frequency words appropriate for age 4-5. Avoid complex vocabulary.",
+        "description": "Stick to common, everyday words"
+      },
+      {
+        "id": "no_dialogue",
+        "category": "stylistic",
+        "constraint": "Story should have no dialogue. Only narration.",
+        "description": "Pure narrative without character speech"
+      },
+      {
+        "id": "dialogue_heavy",
+        "category": "stylistic",
+        "constraint": "Include at least 4 dialogue exchanges between characters.",
+        "description": "Story driven by conversation"
+      },
+      {
+        "id": "list_format",
+        "category": "stylistic",
+        "constraint": "Include a list of items or actions (at least 3 items).",
+        "description": "Numbered or bullet format within narrative"
+      },
+      {
+        "id": "third_person",
+        "category": "narrative",
+        "constraint": "Use third person perspective. Call character by name or 'het kind'.",
+        "description": "Story from observer viewpoint"
+      },
+      {
+        "id": "first_person",
+        "category": "narrative",
+        "constraint": "Use first person perspective. Character tells their own story.",
+        "description": "Story told by the main character"
+      },
+      {
+        "id": "chronological",
+        "category": "temporal",
+        "constraint": "Tell events in strict chronological order. First this, then that.",
+        "description": "Timeline is clear and linear"
+      },
+      {
+        "id": "circular_ending",
+        "category": "temporal",
+        "constraint": "Story returns to where it started. End mirrors beginning.",
+        "description": "Opening and closing are connected thematically"
+      },
+      {
+        "id": "single_location",
+        "category": "setting",
+        "constraint": "Entire story takes place in one location.",
+        "description": "No scene changes or location transitions"
+      },
+      {
+        "id": "urban_setting",
+        "category": "setting",
+        "constraint": "Story is set in a city or town with houses, shops, streets.",
+        "description": "Urban environment"
+      },
+      {
+        "id": "rural_setting",
+        "category": "setting",
+        "constraint": "Story is set in countryside with nature, farm, animals.",
+        "description": "Rural or countryside environment"
+      },
+      {
+        "id": "repetition_pattern",
+        "category": "stylistic",
+        "constraint": "Use repetitive phrases or patterns that recur throughout story.",
+        "description": "Creates rhythm and memorability"
+      },
+      {
+        "id": "sensory_description",
+        "category": "stylistic",
+        "constraint": "Include descriptions of what character sees, hears, or feels. At least 3 sensory details.",
+        "description": "Appeal to the senses"
+      },
+      {
+        "id": "emotional_mirror",
+        "category": "stylistic",
+        "constraint": "Main character's emotion matches reader's expected emotion.",
+        "description": "No irony or complex emotional subtext"
+      },
+      {
+        "id": "no_violence",
+        "category": "stylistic",
+        "constraint": "No violence, scary content, or upsetting situations.",
+        "description": "Age-appropriate, gentle story"
+      },
+      {
+        "id": "happy_ending",
+        "category": "stylistic",
+        "constraint": "Story must end positively. Character is happy or problem solved.",
+        "description": "Optimistic conclusion"
+      },
+      {
+        "id": "brief_length",
+        "category": "stylistic",
+        "constraint": "Story should be very short. 150-200 words maximum.",
+        "description": "Concise narrative for short attention span"
+      },
+      {
+        "id": "inclusive_language",
+        "category": "linguistic",
+        "constraint": "Use inclusive names and characters. Include diversity.",
+        "description": "Characters from various backgrounds"
+      }
+    ],
+    "medium": [
+      {
+        "id": "past_tense_habitual",
+        "category": "linguistic",
+        "constraint": "Use past tense but maintain simple form: 'De kat speelde.'",
+        "description": "Simple past without complex structures"
+      },
+      {
+        "id": "varied_sentence_length",
+        "category": "linguistic",
+        "constraint": "Mix short and medium sentences (5-15 words). Vary length for rhythm.",
+        "description": "More sophisticated sentence structure"
+      },
+      {
+        "id": "abstract_concept",
+        "category": "linguistic",
+        "constraint": "Introduce one abstract concept: friendship, courage, kindness.",
+        "description": "Age-appropriate moral or emotional concept"
+      },
+      {
+        "id": "dialogue_with_actions",
+        "category": "stylistic",
+        "constraint": "Include dialogue with action tags: 'zei Emma. Ze liep naar buiten.'",
+        "description": "Dialogue integrated with narrative"
+      },
+      {
+        "id": "multiple_locations",
+        "category": "setting",
+        "constraint": "Story moves between 2-3 different locations.",
+        "description": "Scene changes and transitions"
+      },
+      {
+        "id": "seasonal_element",
+        "category": "setting",
+        "constraint": "Story must mention a specific season or weather.",
+        "description": "Setting includes seasonal details"
+      },
+      {
+        "id": "water_location",
+        "category": "setting",
+        "constraint": "Story takes place near or in water: pool, sea, river, rain.",
+        "description": "Water-related setting element"
+      },
+      {
+        "id": "minor_conflict",
+        "category": "stylistic",
+        "constraint": "Include a small problem that gets solved by story end.",
+        "description": "Simple narrative arc with resolution"
+      },
+      {
+        "id": "secondary_character",
+        "category": "narrative",
+        "constraint": "Include at least one supporting character who influences story.",
+        "description": "More than just protagonist"
+      },
+      {
+        "id": "time_constraint",
+        "category": "temporal",
+        "constraint": "Story must happen within a specific time: one day, one hour, one season.",
+        "description": "Clear temporal boundaries"
+      },
+      {
+        "id": "magical_element",
+        "category": "stylistic",
+        "constraint": "Include one element of magic or fantasy: talking animal, wish, enchantment.",
+        "description": "Light magical realism"
+      },
+      {
+        "id": "learning_moment",
+        "category": "stylistic",
+        "constraint": "Character learns something by end of story.",
+        "description": "Story contains implicit lesson"
+      },
+      {
+        "id": "medium_length",
+        "category": "stylistic",
+        "constraint": "Story should be 250-400 words.",
+        "description": "Medium-length narrative"
+      },
+      {
+        "id": "specific_object",
+        "category": "stylistic",
+        "constraint": "One specific object is important to the plot: a toy, a letter, a gift.",
+        "description": "Object-centered narrative"
+      },
+      {
+        "id": "rhyming_elements",
+        "category": "stylistic",
+        "constraint": "Include at least 3 lines with end rhymes or rhyming words.",
+        "description": "Poetic elements"
+      },
+      {
+        "id": "animal_main_character",
+        "category": "narrative",
+        "constraint": "Main character is an animal, not a human child.",
+        "description": "Animal protagonist"
+      },
+      {
+        "id": "peer_conflict",
+        "category": "stylistic",
+        "constraint": "Story includes conflict with another child or animal.",
+        "description": "Social interaction challenge"
+      },
+      {
+        "id": "humor_included",
+        "category": "stylistic",
+        "constraint": "Story should include humor or funny moments.",
+        "description": "Age-appropriate comedy"
+      },
+      {
+        "id": "family_theme",
+        "category": "stylistic",
+        "constraint": "Story centers on family relationships or family activity.",
+        "description": "Family-focused narrative"
+      },
+      {
+        "id": "discovery_theme",
+        "category": "stylistic",
+        "constraint": "Story is about discovering something new or unexpected.",
+        "description": "Theme of discovery and surprise"
+      }
+    ],
+    "high": [
+      {
+        "id": "past_complex_tense",
+        "category": "linguistic",
+        "constraint": "Use past tense with some complex structures: 'Toen Lena het zag, keek ze naar beneden.'",
+        "description": "More sophisticated grammar"
+      },
+      {
+        "id": "conditional_mood",
+        "category": "linguistic",
+        "constraint": "Include conditional statements: 'Als hij snel liep, zou hij het halen.'",
+        "description": "Hypothetical scenarios"
+      },
+      {
+        "id": "dialogue_only",
+        "category": "stylistic",
+        "constraint": "Story told almost entirely through dialogue. Minimal narration.",
+        "description": "Dialogue-driven narrative"
+      },
+      {
+        "id": "parallel_narratives",
+        "category": "narrative",
+        "constraint": "Two storylines happening simultaneously that eventually connect.",
+        "description": "Multiple narrative threads"
+      },
+      {
+        "id": "unreliable_narrator",
+        "category": "narrative",
+        "constraint": "Reader learns story details gradually. Initial understanding changes.",
+        "description": "Plot twist or revelation"
+      },
+      {
+        "id": "multiple_perspectives",
+        "category": "narrative",
+        "constraint": "Story shows same event from different character perspectives.",
+        "description": "Multiple viewpoints"
+      },
+      {
+        "id": "flashback_structure",
+        "category": "temporal",
+        "constraint": "Story includes a flashback that explains current situation.",
+        "description": "Non-linear timeline"
+      },
+      {
+        "id": "foreshadowing",
+        "category": "stylistic",
+        "constraint": "Include subtle hints about what will happen later.",
+        "description": "Literary device of prediction"
+      },
+      {
+        "id": "symbolism",
+        "category": "stylistic",
+        "constraint": "An object or action symbolizes something larger: loss, growth, hope.",
+        "description": "Thematic symbolism"
+      },
+      {
+        "id": "moral_ambiguity",
+        "category": "stylistic",
+        "constraint": "No clear 'right' answer. Situation is complex or ethically gray.",
+        "description": "Sophisticated moral questions"
+      },
+      {
+        "id": "longing_theme",
+        "category": "stylistic",
+        "constraint": "Story is about character longing for or missing something.",
+        "description": "Theme of absence or desire"
+      },
+      {
+        "id": "intergenerational",
+        "category": "narrative",
+        "constraint": "Story spans multiple generations: child, parent, grandparent.",
+        "description": "Across-generations narrative"
+      },
+      {
+        "id": "cultural_element",
+        "category": "setting",
+        "constraint": "Story includes cultural tradition or celebration.",
+        "description": "Cultural specificity"
+      },
+      {
+        "id": "long_form",
+        "category": "stylistic",
+        "constraint": "Story should be 450-600 words.",
+        "description": "Longer, more developed narrative"
+      },
+      {
+        "id": "atmospheric_setting",
+        "category": "setting",
+        "constraint": "Setting creates mood or atmosphere: mysterious, cozy, tense.",
+        "description": "Mood-building environment"
+      },
+      {
+        "id": "sensory_dominant",
+        "category": "stylistic",
+        "constraint": "Told primarily through sensory details: sounds, smells, textures.",
+        "description": "Sensory-rich narrative"
+      },
+      {
+        "id": "unexpected_resolution",
+        "category": "stylistic",
+        "constraint": "Story ends in a way reader doesn't anticipate.",
+        "description": "Plot twist ending"
+      },
+      {
+        "id": "persistent_obstacle",
+        "category": "stylistic",
+        "constraint": "Character faces recurring problem that requires creativity to solve.",
+        "description": "Escalating challenges"
+      },
+      {
+        "id": "introspection",
+        "category": "narrative",
+        "constraint": "Story includes character's internal thoughts and self-reflection.",
+        "description": "Interior monologue"
+      },
+      {
+        "id": "open_ending",
+        "category": "stylistic",
+        "constraint": "Story ends without full resolution. Reader must imagine outcome.",
+        "description": "Ambiguous or open conclusion"
+      }
+    ]
+  },
+  "groep5-6": {
+    "low": [
+      {
+        "id": "past_tense_simple",
+        "category": "linguistic",
+        "constraint": "Use simple past tense consistently throughout.",
+        "description": "Regular past tense forms"
+      },
+      {
+        "id": "short_paragraphs",
+        "category": "stylistic",
+        "constraint": "Keep paragraphs short: 2-4 sentences each.",
+        "description": "Easy-to-follow structure"
+      },
+      {
+        "id": "clear_topic",
+        "category": "stylistic",
+        "constraint": "Story focuses on one main topic or event.",
+        "description": "Single, clear narrative focus"
+      },
+      {
+        "id": "dialogue_realistic",
+        "category": "stylistic",
+        "constraint": "Dialogue sounds natural for kids this age.",
+        "description": "Age-appropriate speech patterns"
+      },
+      {
+        "id": "school_setting",
+        "category": "setting",
+        "constraint": "Story takes place at school or involves school experience.",
+        "description": "Relatable school environment"
+      },
+      {
+        "id": "friendship_theme",
+        "category": "stylistic",
+        "constraint": "Story is about friendships or getting along with peers.",
+        "description": "Peer relationships focus"
+      },
+      {
+        "id": "problem_solution",
+        "category": "stylistic",
+        "constraint": "Clear problem is presented and solved by end.",
+        "description": "Straightforward plot structure"
+      },
+      {
+        "id": "positive_role_model",
+        "category": "narrative",
+        "constraint": "Main character demonstrates positive behavior or values.",
+        "description": "Character shows good traits"
+      },
+      {
+        "id": "contemporary_setting",
+        "category": "setting",
+        "constraint": "Story is set in modern day, not past or future.",
+        "description": "Present-day setting"
+      },
+      {
+        "id": "single_character_focus",
+        "category": "narrative",
+        "constraint": "Story primarily follows one main character.",
+        "description": "Single protagonist"
+      },
+      {
+        "id": "action_driven",
+        "category": "stylistic",
+        "constraint": "Story emphasizes what characters DO, not feel.",
+        "description": "Plot-focused narrative"
+      },
+      {
+        "id": "medium_length_300",
+        "category": "stylistic",
+        "constraint": "Story should be 250-350 words.",
+        "description": "Standard length narrative"
+      },
+      {
+        "id": "dutch_specific",
+        "category": "setting",
+        "constraint": "Story references specific Dutch places, traditions, or culture.",
+        "description": "Dutch cultural context"
+      },
+      {
+        "id": "realistic_conflict",
+        "category": "stylistic",
+        "constraint": "Conflict is everyday and relatable: losing game, hurt feelings, mistake.",
+        "description": "Realistic peer problems"
+      },
+      {
+        "id": "cause_effect",
+        "category": "stylistic",
+        "constraint": "Story clearly shows how one action leads to consequence.",
+        "description": "Clear cause-effect relationships"
+      },
+      {
+        "id": "no_complex_vocab",
+        "category": "linguistic",
+        "constraint": "Avoid words beyond age 9-10 vocabulary. Define if used.",
+        "description": "Age-appropriate vocabulary"
+      },
+      {
+        "id": "dialogue_tagged",
+        "category": "stylistic",
+        "constraint": "All dialogue must be clearly attributed: 'zei Emma' 'vroeg Tom'.",
+        "description": "Clear speaker attribution"
+      },
+      {
+        "id": "character_growth",
+        "category": "narrative",
+        "constraint": "Character learns or changes in some way by end.",
+        "description": "Character arc present"
+      },
+      {
+        "id": "inclusive_family",
+        "category": "narrative",
+        "constraint": "Story portrays diverse or non-traditional family structure.",
+        "description": "Family diversity representation"
+      },
+      {
+        "id": "sensory_grounding",
+        "category": "stylistic",
+        "constraint": "Include at least 2 sensory details to ground scene.",
+        "description": "Sensory anchors"
+      }
+    ],
+    "medium": [
+      {
+        "id": "perfect_past",
+        "category": "linguistic",
+        "constraint": "Mix simple past with 'heeft' structure: 'Ik liep naar school. Ik heb mijn huiswerk vergeten.'",
+        "description": "More complex past tense"
+      },
+      {
+        "id": "transition_words",
+        "category": "stylistic",
+        "constraint": "Use transition words: eerst, daarna, maar, omdat, want.",
+        "description": "Sophisticated connectives"
+      },
+      {
+        "id": "dual_characters",
+        "category": "narrative",
+        "constraint": "Two main characters with different perspectives or goals.",
+        "description": "Multiple protagonists"
+      },
+      {
+        "id": "mystery_element",
+        "category": "stylistic",
+        "constraint": "Include something mysterious that reader wants to understand.",
+        "description": "Puzzle element"
+      },
+      {
+        "id": "emotional_complexity",
+        "category": "stylistic",
+        "constraint": "Character experiences conflicting emotions: fear AND courage, sad AND happy.",
+        "description": "Complex emotions"
+      },
+      {
+        "id": "dialogue_conflict",
+        "category": "stylistic",
+        "constraint": "Dialogue shows disagreement or misunderstanding between characters.",
+        "description": "Dialogue reveals conflict"
+      },
+      {
+        "id": "twist_moment",
+        "category": "stylistic",
+        "constraint": "Something unexpected happens mid-story that changes direction.",
+        "description": "Plot turn"
+      },
+      {
+        "id": "time_passage",
+        "category": "temporal",
+        "constraint": "Story spans multiple days, weeks, or seasons.",
+        "description": "Extended timeframe"
+      },
+      {
+        "id": "environmental_detail",
+        "category": "setting",
+        "constraint": "Setting includes specific environmental details: weather, landscape, architecture.",
+        "description": "Detailed environment"
+      },
+      {
+        "id": "secondary_theme",
+        "category": "stylistic",
+        "constraint": "Story has a second theme woven throughout: nature, justice, creativity.",
+        "description": "Thematic layers"
+      },
+      {
+        "id": "internal_monologue",
+        "category": "narrative",
+        "constraint": "Include at least one moment of character's internal thought.",
+        "description": "Inside-head narrative"
+      },
+      {
+        "id": "dialogue_percentage",
+        "category": "stylistic",
+        "constraint": "Dialogue should make up 30-40% of story.",
+        "description": "Balanced dialogue-narrative"
+      },
+      {
+        "id": "multiple_scenes",
+        "category": "stylistic",
+        "constraint": "Story includes 3-4 distinct scenes or settings.",
+        "description": "Scene variation"
+      },
+      {
+        "id": "climax_structure",
+        "category": "stylistic",
+        "constraint": "Story builds to clear climactic moment.",
+        "description": "Dramatic peak"
+      },
+      {
+        "id": "relationship_evolution",
+        "category": "narrative",
+        "constraint": "Relationship between characters changes or deepens.",
+        "description": "Relationship arc"
+      },
+      {
+        "id": "longer_form_400",
+        "category": "stylistic",
+        "constraint": "Story should be 350-450 words.",
+        "description": "Medium-long narrative"
+      },
+      {
+        "id": "cultural_respect",
+        "category": "stylistic",
+        "constraint": "If including other cultures, portray with respect and accuracy.",
+        "description": "Culturally sensitive portrayal"
+      },
+      {
+        "id": "humor_layered",
+        "category": "stylistic",
+        "constraint": "Include humor that works on multiple levels.",
+        "description": "Sophisticated humor"
+      },
+      {
+        "id": "metaphor_use",
+        "category": "linguistic",
+        "constraint": "Include at least one simple metaphor or comparison.",
+        "description": "Literary device"
+      },
+      {
+        "id": "failure_recovery",
+        "category": "stylistic",
+        "constraint": "Character fails at something and must try again differently.",
+        "description": "Resilience theme"
+      }
+    ],
+    "high": [
+      {
+        "id": "subjunctive_mood",
+        "category": "linguistic",
+        "constraint": "Include conditional or subjunctive language: 'zou', 'mocht', 'indien'.",
+        "description": "Advanced grammar structures"
+      },
+      {
+        "id": "foreshadowing_subtle",
+        "category": "stylistic",
+        "constraint": "Plant subtle clues that only make sense after ending.",
+        "description": "Sophisticated literary device"
+      },
+      {
+        "id": "parallel_scenes",
+        "category": "stylistic",
+        "constraint": "Include two similar scenes with different outcomes or meanings.",
+        "description": "Thematic parallelism"
+      },
+      {
+        "id": "unreliable_narrator_subtle",
+        "category": "narrative",
+        "constraint": "Narrator's perspective is gradually revealed to be incomplete or biased.",
+        "description": "Narrative reliability question"
+      },
+      {
+        "id": "generational_conflict",
+        "category": "stylistic",
+        "constraint": "Story explores difference between child and adult perspective.",
+        "description": "Age-perspective tension"
+      },
+      {
+        "id": "moral_question",
+        "category": "stylistic",
+        "constraint": "Story raises ethical question without providing simple answer.",
+        "description": "Moral ambiguity"
+      },
+      {
+        "id": "symbolism_rich",
+        "category": "stylistic",
+        "constraint": "Objects or actions carry symbolic meaning: loss, growth, identity.",
+        "description": "Symbol-heavy narrative"
+      },
+      {
+        "id": "social_issue",
+        "category": "stylistic",
+        "constraint": "Story touches on real social issue: fairness, diversity, environment.",
+        "description": "Socially conscious narrative"
+      },
+      {
+        "id": "non_linear",
+        "category": "temporal",
+        "constraint": "Story doesn't follow strict chronological order.",
+        "description": "Complex timeline"
+      },
+      {
+        "id": "multiple_pov",
+        "category": "narrative",
+        "constraint": "Different sections told from different character perspectives.",
+        "description": "Multiple point-of-view narration"
+      },
+      {
+        "id": "atmospheric_horror",
+        "category": "stylistic",
+        "constraint": "Story creates unsettling mood without violence or gore.",
+        "description": "Psychological tension"
+      },
+      {
+        "id": "literary_voice",
+        "category": "stylistic",
+        "constraint": "Narrative has distinctive voice: witty, poetic, or philosophical.",
+        "description": "Distinctive prose style"
+      },
+      {
+        "id": "extended_metaphor",
+        "category": "linguistic",
+        "constraint": "Extended metaphor runs throughout story: journey, storm, garden.",
+        "description": "Sustained literary device"
+      },
+      {
+        "id": "ambiguous_ending",
+        "category": "stylistic",
+        "constraint": "Ending is open to interpretation. Multiple valid readings.",
+        "description": "Interpretive conclusion"
+      },
+      {
+        "id": "tragic_element",
+        "category": "stylistic",
+        "constraint": "Story includes loss or disappointment that isn't fully resolved.",
+        "description": "Tragic dimension"
+      },
+      {
+        "id": "longest_form_500",
+        "category": "stylistic",
+        "constraint": "Story should be 450-550 words.",
+        "description": "Longer, more developed form"
+      },
+      {
+        "id": "intertextual",
+        "category": "stylistic",
+        "constraint": "Story references or alludes to other stories, sayings, or cultural works.",
+        "description": "Cultural references"
+      },
+      {
+        "id": "existential_theme",
+        "category": "stylistic",
+        "constraint": "Story explores bigger questions: meaning, identity, mortality.",
+        "description": "Philosophical elements"
+      },
+      {
+        "id": "power_dynamics",
+        "category": "stylistic",
+        "constraint": "Story explores relationships of power: control, vulnerability, agency.",
+        "description": "Power structure analysis"
+      },
+      {
+        "id": "magical_realism",
+        "category": "stylistic",
+        "constraint": "Magical elements exist within realistic world without explanation.",
+        "description": "Magical realism genre"
+      }
+    ]
+  },
+  "groep7-8": {
+    "low": [
+      {
+        "id": "contemporary_voice",
+        "category": "stylistic",
+        "constraint": "Dialogue and narration sound like actual teenagers.",
+        "description": "Age-authentic voice"
+      },
+      {
+        "id": "internet_culture",
+        "category": "setting",
+        "constraint": "Story includes social media, texting, or online interaction.",
+        "description": "Digital-age setting"
+      },
+      {
+        "id": "school_stress",
+        "category": "stylistic",
+        "constraint": "Story references school pressure, exams, or academic competition.",
+        "description": "School pressure theme"
+      },
+      {
+        "id": "romantic_element",
+        "category": "stylistic",
+        "constraint": "Story includes romantic attraction or first feelings.",
+        "description": "Romance subplot"
+      },
+      {
+        "id": "peer_pressure",
+        "category": "stylistic",
+        "constraint": "Story depicts realistic peer pressure situation.",
+        "description": "Social pressure theme"
+      },
+      {
+        "id": "family_dysfunction",
+        "category": "stylistic",
+        "constraint": "Family is flawed or broken in some realistic way.",
+        "description": "Realistic family complexity"
+      },
+      {
+        "id": "identity_confusion",
+        "category": "stylistic",
+        "constraint": "Character questions who they are or where they fit.",
+        "description": "Identity exploration"
+      },
+      {
+        "id": "complex_emotions",
+        "category": "stylistic",
+        "constraint": "Character experiences mixed or contradictory emotions.",
+        "description": "Emotional nuance"
+      },
+      {
+        "id": "diverse_cast",
+        "category": "narrative",
+        "constraint": "Multiple characters from different backgrounds or experiences.",
+        "description": "Diverse representation"
+      },
+      {
+        "id": "realistic_dialogue",
+        "category": "stylistic",
+        "constraint": "Dialogue includes teen slang, humor, and natural speech patterns.",
+        "description": "Authentic teen speech"
+      },
+      {
+        "id": "social_media_impact",
+        "category": "stylistic",
+        "constraint": "Story shows how social media affects character's life.",
+        "description": "Digital impact theme"
+      },
+      {
+        "id": "mental_health_topic",
+        "category": "stylistic",
+        "constraint": "Story addresses anxiety, depression, or mental health.",
+        "description": "Mental health representation"
+      },
+      {
+        "id": "authority_conflict",
+        "category": "stylistic",
+        "constraint": "Character has conflict with authority figure: parent, teacher, rule.",
+        "description": "Power struggle"
+      },
+      {
+        "id": "first_person_teen",
+        "category": "narrative",
+        "constraint": "Told in first person from teen character's perspective.",
+        "description": "Teen narrator"
+      },
+      {
+        "id": "social_clique",
+        "category": "stylistic",
+        "constraint": "Story involves navigating social groups or cliques.",
+        "description": "Social hierarchy theme"
+      },
+      {
+        "id": "event_focused",
+        "category": "stylistic",
+        "constraint": "Story centers on specific event: party, incident, moment.",
+        "description": "Event-driven narrative"
+      },
+      {
+        "id": "teenage_perspective",
+        "category": "stylistic",
+        "constraint": "Story sees adult world from teen perspective with misunderstandings.",
+        "description": "Age-perspective gap"
+      },
+      {
+        "id": "future_anxiety",
+        "category": "stylistic",
+        "constraint": "Character is anxious about future: college, career, adulthood.",
+        "description": "Future pressure theme"
+      },
+      {
+        "id": "body_consciousness",
+        "category": "stylistic",
+        "constraint": "Story includes awareness of physical appearance or development.",
+        "description": "Body image theme"
+      },
+      {
+        "id": "form_500_600",
+        "category": "stylistic",
+        "constraint": "Story should be 500-700 words.",
+        "description": "Substantial length"
+      }
+    ],
+    "medium": [
+      {
+        "id": "unreliable_teen_narrator",
+        "category": "narrative",
+        "constraint": "Teen narrator misunderstands or misinterprets events.",
+        "description": "Perspective limitation"
+      },
+      {
+        "id": "moral_gray",
+        "category": "stylistic",
+        "constraint": "No clear right or wrong. Multiple valid perspectives.",
+        "description": "Moral complexity"
+      },
+      {
+        "id": "systemic_issue",
+        "category": "stylistic",
+        "constraint": "Story addresses systemic problem: discrimination, class, injustice.",
+        "description": "Systemic awareness"
+      },
+      {
+        "id": "cultural_identity",
+        "category": "stylistic",
+        "constraint": "Character grapples with cultural or ethnic identity.",
+        "description": "Identity politics"
+      },
+      {
+        "id": "parallel_stories",
+        "category": "narrative",
+        "constraint": "Two storylines run parallel and eventually intersect.",
+        "description": "Multiple narratives"
+      },
+      {
+        "id": "flashback_complex",
+        "category": "temporal",
+        "constraint": "Multiple flashbacks reveal backstory gradually.",
+        "description": "Complex timeline"
+      },
+      {
+        "id": "unrequited_feelings",
+        "category": "stylistic",
+        "constraint": "Character has romantic feelings that aren't returned.",
+        "description": "Unrequited love theme"
+      },
+      {
+        "id": "family_secret",
+        "category": "stylistic",
+        "constraint": "Family secret is gradually revealed.",
+        "description": "Secret revelation"
+      },
+      {
+        "id": "friendship_rupture",
+        "category": "stylistic",
+        "constraint": "Close friendship ends or changes significantly.",
+        "description": "Friendship dissolution"
+      },
+      {
+        "id": "self_discovery",
+        "category": "stylistic",
+        "constraint": "Story is journey of self-discovery and understanding.",
+        "description": "Coming-of-age theme"
+      },
+      {
+        "id": "literary_structure",
+        "category": "stylistic",
+        "constraint": "Story uses sophisticated structure: letters, journal, multiple POV.",
+        "description": "Formal experimentation"
+      },
+      {
+        "id": "symbolism_layered",
+        "category": "stylistic",
+        "constraint": "Objects or events carry multiple symbolic meanings.",
+        "description": "Rich symbolism"
+      },
+      {
+        "id": "dialogue_subtext",
+        "category": "stylistic",
+        "constraint": "What characters say differs from what they mean.",
+        "description": "Subtext in dialogue"
+      },
+      {
+        "id": "sensory_immersion",
+        "category": "stylistic",
+        "constraint": "Readers experience scene through all five senses.",
+        "description": "Sensory-rich prose"
+      },
+      {
+        "id": "privileged_character",
+        "category": "narrative",
+        "constraint": "Character is privileged and learns about inequality.",
+        "description": "Privilege awareness"
+      },
+      {
+        "id": "literary_voice_distinct",
+        "category": "stylistic",
+        "constraint": "Narrator has distinctive, memorable voice.",
+        "description": "Unique prose style"
+      },
+      {
+        "id": "historical_context",
+        "category": "setting",
+        "constraint": "Story is set against historical events or era.",
+        "description": "Historical setting"
+      },
+      {
+        "id": "social_activism",
+        "category": "stylistic",
+        "constraint": "Character takes action on issue they care about.",
+        "description": "Activism theme"
+      },
+      {
+        "id": "form_700_850",
+        "category": "stylistic",
+        "constraint": "Story should be 700-850 words.",
+        "description": "Longer form"
+      },
+      {
+        "id": "existential_question",
+        "category": "stylistic",
+        "constraint": "Story raises bigger questions: meaning, mortality, purpose.",
+        "description": "Philosophical depth"
+      }
+    ],
+    "high": [
+      {
+        "id": "experimental_form",
+        "category": "stylistic",
+        "constraint": "Story uses experimental narrative form: fragmented, non-linear, multimodal.",
+        "description": "Form as content"
+      },
+      {
+        "id": "intertextuality",
+        "category": "stylistic",
+        "constraint": "Story references, alludes to, or echoes other literary works.",
+        "description": "Literary references"
+      },
+      {
+        "id": "magical_realism_mature",
+        "category": "stylistic",
+        "constraint": "Magical elements serve thematic purpose in realistic world.",
+        "description": "Mature magical realism"
+      },
+      {
+        "id": "unreliable_narrator_meta",
+        "category": "narrative",
+        "constraint": "Narrator themselves doesn't know if they're reliable.",
+        "description": "Meta-unreliability"
+      },
+      {
+        "id": "trauma_response",
+        "category": "stylistic",
+        "constraint": "Character's behavior is shaped by past trauma.",
+        "description": "Trauma psychology"
+      },
+      {
+        "id": "intergenerational_wound",
+        "category": "stylistic",
+        "constraint": "Story shows how trauma passes through generations.",
+        "description": "Intergenerational trauma"
+      },
+      {
+        "id": "philosophical_dialogue",
+        "category": "stylistic",
+        "constraint": "Dialogue explores philosophical ideas or worldviews.",
+        "description": "Ideas-driven dialogue"
+      },
+      {
+        "id": "power_dynamics_complex",
+        "category": "stylistic",
+        "constraint": "Story explores complex power relationships: gender, class, race, sexuality.",
+        "description": "Intersectional analysis"
+      },
+      {
+        "id": "literary_devices_multiple",
+        "category": "stylistic",
+        "constraint": "Story employs multiple literary devices: metaphor, irony, allusion, imagery.",
+        "description": "Literary sophistication"
+      },
+      {
+        "id": "theme_ambiguity",
+        "category": "stylistic",
+        "constraint": "Multiple valid interpretations of theme exist.",
+        "description": "Thematic ambiguity"
+      },
+      {
+        "id": "stylistic_variation",
+        "category": "stylistic",
+        "constraint": "Writing style varies intentionally: formal/casual, poetic/plain, etc.",
+        "description": "Intentional style variation"
+      },
+      {
+        "id": "social_critique",
+        "category": "stylistic",
+        "constraint": "Story offers critique of society, systems, or institutions.",
+        "description": "Social commentary"
+      },
+      {
+        "id": "gender_fluidity",
+        "category": "narrative",
+        "constraint": "Character explores or questions gender identity.",
+        "description": "Gender identity theme"
+      },
+      {
+        "id": "neurodiversity",
+        "category": "stylistic",
+        "constraint": "Character is neurodivergent: autistic, ADHD, dyslexic, etc.",
+        "description": "Neurodivergent representation"
+      },
+      {
+        "id": "fragmented_narrative",
+        "category": "stylistic",
+        "constraint": "Story is told in fragments: memories, moments, scenes.",
+        "description": "Fragmented form"
+      },
+      {
+        "id": "prose_poetry",
+        "category": "stylistic",
+        "constraint": "Story reads like prose poetry with poetic language and rhythm.",
+        "description": "Poetic prose"
+      },
+      {
+        "id": "form_850_1000",
+        "category": "stylistic",
+        "constraint": "Story should be 850-1000 words.",
+        "description": "Full-length narrative"
+      },
+      {
+        "id": "ambiguous_ending_dark",
+        "category": "stylistic",
+        "constraint": "Story ends ambiguously with dark or unsettling undertones.",
+        "description": "Dark ambiguous ending"
+      },
+      {
+        "id": "reader_complicity",
+        "category": "narrative",
+        "constraint": "Reader is implicated or made uncomfortable by story.",
+        "description": "Reader implication"
+      },
+      {
+        "id": "hybrid_genres",
+        "category": "stylistic",
+        "constraint": "Story blends multiple genres: romance, thriller, science fiction, etc.",
+        "description": "Genre blending"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "max-en-de-knagende-hamster",
+  "title": "Max en de knagende hamster",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Max hoorde elke nacht hetzelfde geluid. Knaag, knaag, knaag. Het kwam uit de kooi van zijn hamster Pip. De kleine tanden maakten scherpe geluidjes op het harde hout.\n\nMax werd boos omdat hij niet kon slapen. Hij tikte hard op de kooi. \"Stop daarmee!\" riep hij. Pip keek hem aan met grote, zwarte oogjes. De hamster kroop weg in zijn huisje.\n\nDe volgende ochtend rook Max iets vies. Pip lag stil in zijn kooi. Mama kwam kijken. \"Oh Max,\" zei ze zacht. \"Pip is ziek geworden omdat hij stress had. Hamsters knagen want ze zijn zenuwachtig of bang.\"\n\nMax voelde zich heel verdrietig. Hij had Pip bang gemaakt door te schreeuwen. Nu begreep hij dat het knaaggeluid normaal was voor hamsters. Hun tanden groeien altijd door.\n\nDie avond zette Max de kooi verder weg van zijn bed. Hij legde ook extra zachte doekjes in Pips huisje. Pip werd langzaam weer beter omdat Max nu geduldig was.",
+  "questions": [
+    {
+      "question": "Welk geluid maakte Pip elke nacht?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "knaag, knaag, knaag",
+        "knaaggeluid",
+        "knagen"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat deed Max toen hij boos werd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "hij tikte hard op de kooi",
+        "tikte hard op de kooi",
+        "hard tikken"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom werd Pip ziek?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "stress",
+            "bang",
+            "zenuwachtig",
+            "angstig"
+          ],
+          [
+            "schreeuwen",
+            "schreeuwde",
+            "riep",
+            "boos",
+            "tikte"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Mama legt uit wat er gebeurde. Denk aan hoe Max reageerde."
+    },
+    {
+      "question": "Wat heeft Max geleerd over hamsters?",
+      "questionType": "woordbetekenis",
+      "acceptableAnswers": [
+        "hun tanden groeien altijd door",
+        "tanden groeien door",
+        "knagen is normaal"
+      ],
+      "hint": "Lees wat Max begreep in de vierde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/max-en-de-knagende-hamster/image-1.png",
+      "alt": "Max luistert naar zijn hamster Pip die 's nachts in zijn kooi knaagt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/max-en-de-knagende-hamster/image-2.png",
+      "alt": "Max legt zachte doekjes in Pips kooi om hem te helpen"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy lying in bed at night listening to his hamster gnawing in a cage, moonlight coming through the window, children's book illustration style",
+    "A caring boy gently placing soft cloths into a hamster cage while a small hamster watches, warm indoor lighting, children's book illustration style"
+  ]
+}

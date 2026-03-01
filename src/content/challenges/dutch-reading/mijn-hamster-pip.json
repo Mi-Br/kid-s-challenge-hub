@@ -1,0 +1,116 @@
+{
+  "id": "mijn-hamster-pip",
+  "title": "Mijn Hamster Pip",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Lisa heeft al maanden een hamster willen hebben. Haar ouders zeiden altijd nee omdat hun appartement te klein is. Maar vorige week ging ze met mama naar het dierenasiel kijken.\n\nBij het dierenasiel zag Lisa een kleine bruine hamster. \"Deze heet Pip,\" zei de vriendelijke medewerker. \"Hij is heel rustig en heeft niet veel ruimte nodig.\" Lisa's mama keek naar de kooi. Die was inderdaad klein genoeg voor hun huis.\n\nVandaag mag Lisa Pip eindelijk ophalen! Ze heeft zijn kooi al klaar gezet in haar kamer. Mama zegt dat Lisa goed voor Pip moet zorgen omdat huisdieren veel werk zijn. Lisa belooft elke dag zijn kooi schoon te maken.\n\nMaar als ze thuiskomt, is Pip weg! Zijn kooi staat open en hij is nergens te vinden. Lisa zoekt overal: onder het bed, achter de kast, in de woonkamer. Ze begint te huilen want ze heeft Pip verloren op haar eerste dag.\n\nDan hoort ze een zacht geluidje uit de keuken. Achter de koelkast zit Pip rustig een broodkruimeltje te eten. \"Pip is slim,\" lacht mama. \"Hij heeft het lekkerste plekje gevonden!\" Lisa tilt haar hamster voorzichtig op. Nu weet ze zeker: Pip hoort bij hun gezin.",
+  "questions": [
+    {
+      "question": "Waarom zeiden Lisa's ouders eerst nee tegen een hamster?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "appartement"
+          ],
+          [
+            "klein"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom koos Lisa juist voor Pip?",
+      "questionType": "begrijpen",
+      "hint": "Lees wat de medewerker over Pip vertelt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "heel"
+          ],
+          [
+            "rustig"
+          ],
+          [
+            "heeft"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen Pip weg was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "bang",
+            "ongerust",
+            "bezorgd",
+            "huilde",
+            "huilen"
+          ],
+          [
+            "verloren",
+            "weg",
+            "kwijt",
+            "zoeken",
+            "vinden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa deed toen ze Pip niet kon vinden."
+    },
+    {
+      "question": "Wat betekent het woord 'voorzichtig' in de laatste zin?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk na: hoe til je een klein diertje op?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "zacht"
+          ],
+          [
+            "langzaam"
+          ],
+          [
+            "niet hard"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-hamster-pip/image-1.png",
+      "alt": "Lisa kijkt naar een kleine bruine hamster in een kooi bij het dierenasiel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-hamster-pip/image-2.png",
+      "alt": "Lisa vindt Pip achter de koelkast waar hij een broodkruimeltje eet"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking at a small brown hamster in a cage at an animal shelter, children's book illustration style, warm lighting",
+    "A young girl discovering her hamster behind a refrigerator eating a breadcrumb, relief and happiness on her face, children's book illustration style"
+  ]
+}

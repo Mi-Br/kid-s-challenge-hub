@@ -1,0 +1,54 @@
+{
+  "id": "de-verloren-sleutel",
+  "title": "De Verloren Sleutel",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de buurt",
+  "text": "Emma heeft een nieuwe sleutel. De sleutel is blauw. Emma draagt de sleutel aan een touwtje om haar nek.\n\nEmma speelt in de speeltuin. Ze glijdt van de glijbaan. Ze schommelt hoog. Dan kijkt Emma naar haar nek. De sleutel is weg! Emma wordt verdrietig.\n\nEmma zoekt overal. Ze zoekt bij de glijbaan. Ze zoekt bij de schommels. Ze zoekt in het zand. Maar de sleutel is nergens.\n\nDan roept buurman Jan: \"Emma! Is dit jouw sleutel?\" De buurman houdt de blauwe sleutel omhoog. Emma wordt blij. \"Ja! Dat is mijn sleutel!\" De sleutel lag bij de bankjes.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de sleutel van Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar speelt Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de speeltuin",
+        "de speeltuin",
+        "speeltuin"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Wie vindt de sleutel?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "buurman jan",
+        "jan",
+        "de buurman"
+      ],
+      "hint": "Kijk naar de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verloren-sleutel/image-1.png",
+      "alt": "Een meisje speelt in een Nederlandse speeltuin met een blauwe sleutel om haar nek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verloren-sleutel/image-2.png",
+      "alt": "Een vriendelijke buurman houdt een blauwe sleutel omhoog bij de bankjes"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl playing in a Dutch neighborhood playground with a blue key on a string around her neck, children's book illustration style",
+    "A friendly Dutch neighbor man holding up a blue key near playground benches while a happy girl reaches for it, children's book illustration style"
+  ],
+  "level": 2
+}

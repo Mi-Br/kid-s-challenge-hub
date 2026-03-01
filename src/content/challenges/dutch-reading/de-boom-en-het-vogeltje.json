@@ -1,0 +1,91 @@
+{
+  "id": "de-boom-en-het-vogeltje",
+  "title": "De Boom en het Vogeltje",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "natuur",
+  "text": "In het park staat een grote eikenboom. De boom is oud en sterk. In de boom woont een klein roodborstje.\n\nHet vogeltje wil een nestje bouwen. Maar de boom vindt zijn takken te zwaar voor een nest. \"Ga weg!\" zegt de boom. \"Mijn takken zijn voor grote vogels.\"\n\nHet roodborstje wordt verdrietig. Het vliegt naar de grond en zoekt takjes. De andere vogels helpen niet. Het vogeltje zit alleen onder de boom.\n\nDe boom ziet het verdrietige vogeltje. De boom begrijpt dat hij niet aardig was. \"Kom terug,\" zegt de boom. \"Je mag een nestje maken.\"\n\nHet roodborstje vliegt omhoog. Het bouwt een mooi nestje tussen de groene bladeren. De boom en het vogeltje zijn nu vrienden. Ze zorgen samen voor de natuur in het park.",
+  "questions": [
+    {
+      "question": "Welke soort boom staat er in het park?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een eikenboom",
+        "eikenboom"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom wordt het roodborstje verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "boom",
+            "eikenboom"
+          ],
+          [
+            "weg",
+            "wegsturen",
+            "weggaan",
+            "weggestuurd"
+          ],
+          [
+            "niet",
+            "geen",
+            "mag niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat de boom tegen het vogeltje zegt."
+    },
+    {
+      "question": "Hoe voelt de boom aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "gelukkig",
+            "vrolijk",
+            "tevreden"
+          ],
+          [
+            "vriendelijk",
+            "aardig",
+            "lief"
+          ],
+          [
+            "spijt",
+            "sorry",
+            "begrijpt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste twee alinea's nog een keer."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-boom-en-het-vogeltje/image-1.png",
+      "alt": "Een grote eikenboom in een park met een klein roodborstje"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-boom-en-het-vogeltje/image-2.png",
+      "alt": "Het roodborstje bouwt een nestje tussen de groene bladeren van de boom"
+    }
+  ],
+  "imagePrompts": [
+    "A large oak tree in a Dutch park with a small red robin bird perched nearby, children's book illustration style, bright and friendly colors",
+    "A small red robin building a cozy nest among the green leaves of an oak tree, children's book illustration style, warm and peaceful atmosphere"
+  ]
+}

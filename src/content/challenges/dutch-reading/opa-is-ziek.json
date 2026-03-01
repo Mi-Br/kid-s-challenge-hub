@@ -1,0 +1,99 @@
+{
+  "id": "opa-is-ziek",
+  "title": "Opa is Ziek",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Emma hoort mama aan de telefoon. \"Opa is ziek en ligt in bed,\" zegt mama verdrietig. \"We gaan hem vandaag bezoeken.\" Emma weet dat opa zich eenzaam voelt omdat oma vorig jaar is overleden.\n\nIn de auto denkt Emma na. Wat kan zij doen om opa blij te maken? Dan krijgt ze een idee! \"Mama, kunnen we appeltaart maken voor opa? Dat vond hij altijd lekker toen oma er nog was.\"\n\n\"Dat is een mooi plan,\" zegt mama. \"Opa zal heel blij zijn.\" Ze stoppen bij de winkel omdat ze geen appels hebben. Emma kiest de mooiste rode appels uit.\n\nBij opa ruikt het huis naar oude boeken en medicijnen. Opa ligt bleek in zijn bed, maar zijn ogen gaan stralen als hij Emma ziet. \"Lieve schat, wat fijn dat je er bent!\" \n\n\"Opa, we gaan samen appeltaart maken,\" zegt Emma vrolijk. \"Net zoals u vroeger met oma deed.\" Opa's gezicht wordt blij en hij staat langzaam op. \"Dan vertel ik je oma's geheime recept,\" fluistert hij.",
+  "questions": [
+    {
+      "question": "Waar ligt opa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in bed",
+        "in zijn bed"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waar gingen ze appels kopen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij de winkel",
+        "in de winkel",
+        "de winkel"
+      ],
+      "hint": "Zoek in het derde stukje van het verhaal."
+    },
+    {
+      "question": "Waarom wil Emma appeltaart maken voor opa?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "vrolijk",
+            "gelukkig"
+          ],
+          [
+            "maken",
+            "helpen",
+            "lief",
+            "aardig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma voor opa voelt."
+    },
+    {
+      "question": "Vind je Emma lief? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "lief",
+            "aardig"
+          ],
+          [
+            "helpt",
+            "helpen",
+            "zorgt",
+            "denkt"
+          ],
+          [
+            "opa",
+            "appeltaart",
+            "bezoek",
+            "ziek"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma allemaal doet voor opa."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/opa-is-ziek/image-1.png",
+      "alt": "Emma en mama bezoeken zieke opa in zijn bed"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/opa-is-ziek/image-2.png",
+      "alt": "Emma en opa maken samen appeltaart in de keuken"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl visiting her sick grandfather in bed, cozy Dutch home interior, warm lighting, children's book illustration style",
+    "A grandfather and granddaughter baking apple pie together in a traditional Dutch kitchen, smiling and happy, children's book illustration style"
+  ]
+}

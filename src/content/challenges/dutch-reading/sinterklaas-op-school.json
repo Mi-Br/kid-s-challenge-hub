@@ -1,0 +1,90 @@
+{
+  "id": "sinterklaas-op-school",
+  "title": "Sinterklaas op School",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Emma zit in groep 6. Het is december en de school viert Sinterklaas. Alle kinderen zijn blij omdat ze cadeautjes krijgen.\n\nIn de klas hangt Emma haar schoen bij de kachel. Ze doet er een wortel in voor het paard van Sinterklaas. De juf vertelt dat Sinterklaas vannacht komt. Emma gelooft het niet meer, maar ze zegt niets.\n\nDe volgende dag zitten er snoepjes in Emma's schoen. Haar vriendin Lisa heeft een kleine pop gekregen. Maar Tim heeft niets in zijn schoen. Hij kijkt verdrietig naar de andere kinderen.\n\nEmma ziet dat Tim verdrietig is. Ze denkt na. Dan neemt ze de helft van haar snoepjes. Ze doet ze in Tim's schoen wanneer niemand kijkt. Tim vindt de snoepjes en wordt weer vrolijk.\n\nDe juf ziet wat Emma heeft gedaan. Ze glimlacht naar Emma. 'Dat was heel lief van je,' zegt ze zachtjes. Emma voelt zich goed. Ze heeft Tim geholpen en dat is belangrijker dan veel snoepjes hebben.",
+  "questions": [
+    {
+      "question": "Welke maand is het in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "december"
+      ],
+      "hint": "Kijk naar de eerste zin van de tweede regel."
+    },
+    {
+      "question": "Wat doet Emma in het paard voor Sinterklaas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een wortel"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom was Tim verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niets",
+            "geen",
+            "niks"
+          ],
+          [
+            "schoen",
+            "cadeautje",
+            "cadeau",
+            "snoepjes"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Tim wel en niet had gekregen."
+    },
+    {
+      "question": "Hoe hielp Emma Tim?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "snoepjes",
+            "snoep",
+            "helft"
+          ],
+          [
+            "gaf",
+            "deed",
+            "geven",
+            "delen",
+            "deelde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea over wat Emma deed met haar snoepjes."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-op-school/image-1.png",
+      "alt": "Emma hangt haar schoen bij de kachel in de klas met een wortel erin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-op-school/image-2.png",
+      "alt": "Emma deelt haar snoepjes met Tim bij de schoenen"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a young girl hanging her shoe by a classroom heater with a carrot inside, Dutch elementary school classroom with Sinterklaas decorations",
+    "Children's book illustration of a kind girl secretly sharing her candy with a sad boy by putting some in his shoe, warm classroom scene"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "de-ruzie-met-mijn-zus",
+  "title": "De Ruzie met Mijn Zus",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "familie",
+  "text": "Lisa en haar kleine zus Emma spelen in de woonkamer. Lisa bouwt een kasteel met haar blokken. Het kasteel is heel hoog en mooi.\n\nEven later komt Emma binnen. Ze wil ook spelen met de blokken. \"Mag ik meedoen?\" vraagt Emma. Maar Lisa zegt: \"Nee, dit is mijn kasteel!\"\n\nEmma wordt boos. Ze geeft een duw tegen het kasteel. Alle blokken vallen op de grond. Lisa wordt heel verdrietig en boos. \"Dat was gemeen!\" roept ze.\n\nMama komt de kamer in. Ze ziet de blokken op de grond. \"Wat is hier gebeurd?\" vraagt ze. Lisa en Emma vertellen allebei hun verhaal.\n\nMama zegt: \"Spelen is leuker als je samen doet. Lisa, je kunt Emma leren hoe je bouwt. Emma, je moet niet duwen.\" De zusjes kijken elkaar aan. Ze zeggen sorry tegen elkaar. Daarna bouwen ze samen een nog groter kasteel.",
+  "questions": [
+    {
+      "question": "Waar spelen Lisa en Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de woonkamer",
+        "woonkamer"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat bouwt Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een kasteel",
+        "kasteel"
+      ],
+      "hint": "Lees wat Lisa doet met de blokken."
+    },
+    {
+      "question": "Waarom wordt Emma boos?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "geen",
+            "mag niet"
+          ],
+          [
+            "meedoen",
+            "spelen",
+            "samen spelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa tegen Emma zegt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-ruzie-met-mijn-zus/image-1.png",
+      "alt": "Lisa bouwt een hoog kasteel met blokken in de woonkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-ruzie-met-mijn-zus/image-2.png",
+      "alt": "Lisa en Emma bouwen samen een groot kasteel met blokken"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl building a tall colorful block castle in a bright living room, children's book illustration style, Dutch home setting",
+    "Two sisters playing together building a large castle with blocks on the living room floor, smiling and cooperating, children's book illustration style"
+  ]
+}

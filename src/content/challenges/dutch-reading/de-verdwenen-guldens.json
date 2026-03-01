@@ -1,0 +1,120 @@
+{
+  "id": "de-verdwenen-guldens",
+  "title": "De Verdwenen Guldens",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de markt",
+  "text": "Emma's oma had haar een belangrijke taak gegeven. Ze mocht de oude guldens verkopen op de boekenmarkt, omdat oma te ziek was om zelf te gaan. \"Deze munten zijn heel waardevol,\" had oma gefluisterd terwijl ze de glimmende doosje overhandigde. \"Ze zijn van mijn overgrootmoeder geweest. Ik vertrouw je ermee.\"\n\nOp de markt was het druk en lawaaierig. Emma's kraam stond tussen de bloemenverkoper en de kaasboer. Toen de eerste klanten kwamen kijken, voelde ze zich trots. Maar al snel begon ze zich te vervelen. De guldens werden nauwelijks bekeken, terwijl andere kramen vol klanten hadden.\n\nToen haar beste vriendin Saar voorbijkwam, werd Emma's aandacht afgeleid. \"Kom mee naar de speelgoedkraam!\" riep Saar enthousiast. \"Ze hebben daar prachtige poppen!\" Emma keek naar haar saaie kraam en toen naar de vrolijke drukte verderop. Het leek zo gemakkelijk om even weg te lopen.\n\nVlak voordat Emma opstond, verscheen er plotseling een oudere man bij haar kraam. Zijn ogen glinsterden toen hij de guldens zag. \"Deze zijn bijzonder zeldzaam,\" mompelde hij geheimzinnig. \"Ze zijn meer waard dan je denkt.\" Hij bood veel geld, maar iets aan zijn haastige manier van doen maakte Emma ongemakkelijk. Ze besloot te wachten en de munten niet te verkopen aan deze vreemde man.\n\nAan het eind van de dag had Emma precies de juiste koper gevonden: een vriendelijke verzamelaar die de geschiedenis van elke munt kende. Hij betaalde eerlijk en vertelde dat de guldens inderdaad heel waardevol waren. Toen Emma thuiskwam en het geld aan oma gaf, straalde oma's gezicht. \"Je hebt bewezen dat ik je kan vertrouwen,\" zei ze zacht.",
+  "questions": [
+    {
+      "question": "Wie had Emma de guldens gegeven om te verkopen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oma",
+        "emma's oma",
+        "haar oma"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom wilde Emma aanvankelijk weglopen van haar kraam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vervelen",
+            "verveelde",
+            "saai",
+            "saaie"
+          ],
+          [
+            "vriendin",
+            "saar",
+            "spelen",
+            "speelgoedkraam",
+            "poppen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Emma zich voelde en wat Saar voorstelde."
+    },
+    {
+      "question": "Waarom vertrouwde Emma de eerste koper niet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "haastig",
+            "haastige",
+            "snel",
+            "gehaast"
+          ],
+          [
+            "ongemakkelijk",
+            "vreemd",
+            "verdacht",
+            "niet vertrouwen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat er over de oudere man wordt gezegd in de vierde alinea."
+    },
+    {
+      "question": "Vind je dat Emma de juiste keuze heeft gemaakt door niet weg te lopen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over Emma's keuze en deze onderbouwen met argumenten uit het verhaal. Ze kunnen verwijzen naar verantwoordelijkheid, vertrouwen van oma, of de goede afloop.",
+        "exampleAnswer": "Ja, Emma heeft de juiste keuze gemaakt omdat ze de verantwoordelijkheid had gekregen van haar oma en haar vertrouwen niet wilde beschamen.",
+        "keyElements": [
+          "verantwoordelijkheid/verantwoordelijk",
+          "vertrouwen/betrouwbaar",
+          "goede keuze/juiste beslissing"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat oma tegen Emma zei en hoe het verhaal afliep."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het bewijzen van betrouwbaarheid en het nakomen van verantwoordelijkheid, ondanks verleidingen.",
+        "exampleAnswer": "Het verhaal gaat erover dat je verantwoordelijkheid moet nemen en betrouwbaar moet zijn, zelfs als er verleidingen zijn.",
+        "keyElements": [
+          "verantwoordelijkheid/verantwoordelijk zijn",
+          "betrouwbaar/vertrouwen",
+          "verleidingen weerstaan"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Emma heeft geleerd en wat oma aan het eind zei."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-guldens/image-1.png",
+      "alt": "Emma achter haar kraam op de drukke markt met het doosje guldens"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-guldens/image-2.png",
+      "alt": "De geheimzinnige oudere man die naar de guldens kijkt terwijl Emma twijfelt"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl sitting behind a market stall with an old wooden box of golden coins, surrounded by busy market stalls with flowers and cheese, children's book illustration style",
+    "A mysterious elderly man with glinting eyes examining old golden coins while a worried young girl watches, unsettling atmosphere, children's book illustration style"
+  ]
+}

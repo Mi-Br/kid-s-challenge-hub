@@ -1,0 +1,107 @@
+{
+  "id": "lena-en-haar-konijn-pip",
+  "title": "Lena en haar konijn Pip",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Lena kreeg een wit konijn voor haar verjaardag. Het konijn heette Pip en had lange oren. Pip zat de hele dag in zijn hok in de achtertuin.\n\nLena wilde graag met Pip spelen. Ze pakte een bal en ging naar buiten. \"Kom Pip, we gaan spelen!\" riep ze. Maar toen Lena de bal gooide, rende Pip weg. Hij verstopte zich onder de struik omdat hij bang was voor de bal.\n\nLena was verdrietig want Pip wilde niet met haar spelen. Ze ging naar binnen en dacht na. Mama zei: \"Konijnen zijn anders dan honden, Lena. Ze houden van andere dingen.\"\n\nDe volgende dag nam Lena een wortel mee naar buiten. Ze ging stil naast Pips hok zitten en wachtte. Na een tijdje kwam Pip voorzichtig naar haar toe omdat hij de wortel rook. Lena gaf hem de wortel en aaide zachtjes over zijn vacht.\n\n\"Nu begrijp ik het!\" zei Lena blij. \"Pip houdt meer van eten dan van rennen.\" Vanaf die dag speelde Lena elke dag rustig met Pip. Ze gaf hem lekker eten en aaide hem. Pip was niet meer bang en kwam altijd naar Lena toe als hij haar zag.",
+  "questions": [
+    {
+      "question": "Wat voor dier kreeg Lena voor haar verjaardag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een wit konijn",
+        "een konijn",
+        "wit konijn"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom rende Pip weg toen Lena de bal gooide?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "schrik"
+          ],
+          [
+            "bal",
+            "voor de bal"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea nog eens goed."
+    },
+    {
+      "question": "Wat deed Lena anders de volgende dag?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "wortel",
+            "eten",
+            "voer"
+          ],
+          [
+            "stil",
+            "rustig",
+            "wachtte",
+            "wachten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Lena meenam en hoe ze zich gedroeg."
+    },
+    {
+      "question": "Vind je dat Lena slim was? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "slim",
+            "goed",
+            "verstandig",
+            "goed gedaan"
+          ],
+          [
+            "leerde",
+            "begreep",
+            "probeerde",
+            "anders",
+            "nieuwe manier"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lena haar aanpak veranderde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lena-en-haar-konijn-pip/image-1.png",
+      "alt": "Lena met een bal in de achtertuin terwijl haar witte konijn Pip wegrent naar een struik"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lena-en-haar-konijn-pip/image-2.png",
+      "alt": "Lena zit stil bij het konijnenhok met een wortel terwijl Pip voorzichtig naar haar toekomt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lena holding a ball in a Dutch backyard while her white rabbit Pip runs away toward a bush, children's book illustration style",
+    "Lena sitting quietly next to a rabbit hutch holding a carrot while white rabbit Pip cautiously approaches her, peaceful backyard setting, children's book illustration style"
+  ]
+}

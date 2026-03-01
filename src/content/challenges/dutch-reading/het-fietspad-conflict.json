@@ -1,0 +1,120 @@
+{
+  "id": "het-fietspad-conflict",
+  "title": "Het Fietspad Conflict",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verkeer",
+  "text": "Emma fietst elke dag naar school over het smalle fietspad langs het kanaal. Het is een mooie route met wilgenbomen en een oude stenen brug. Maar vandaag waait er een koude wind en regent het zachtjes.\n\nOp de brug rijdt Emma bijna tegen Jayden aan. Hij staat stil met zijn fiets en kijkt naar zijn telefoon. \"Ga opzij!\" roept Emma boos. \"Ik kom te laat voor school!\" Jayden kijkt verward op. \"Sorry, maar ik zoek de weg naar het ziekenhuis,\" zegt hij. \"Mijn oma is ziek.\"\n\nEmma fietst gewoon door omdat ze haast heeft. Ze hoort Jayden achter haar roepen: \"Weet jij waar het ziekenhuis is?\" Maar Emma luistert niet. Bij de volgende verkeerslichten moet ze wachten. Ze voelt zich een beetje schuldig.\n\nAls Jayden haar inhaalt, stopt Emma. \"Het spijt me dat ik zo onaardig was,\" zegt ze. \"Het ziekenhuis is heel dichtbij. Fiets maar met mij mee, dan wijs ik je de weg.\" Ze rijden samen verder door de Hoofdstraat. Jayden vertelt dat hij pas in Nederland woont en nog niet alle wegen kent.\n\nBij het grote ziekenhuis met de rode bakstenen muren nemen ze afscheid. \"Dank je wel voor je hulp,\" zegt Jayden dankbaar. \"Veel sterkte met je oma,\" antwoordt Emma vriendelijk. Ze fietst snel verder naar school en denkt: soms is het belangrijk om even te stoppen en te luisteren.",
+  "questions": [
+    {
+      "question": "Welke bomen staan er langs het fietspad?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wilgenbomen"
+      ],
+      "hint": "Kijk naar de eerste alinea waar de route wordt beschreven."
+    },
+    {
+      "question": "Waarom staat Jayden stil op de brug?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zoeken",
+            "zoekt",
+            "zocht"
+          ],
+          [
+            "weg",
+            "route",
+            "richting"
+          ],
+          [
+            "ziekenhuis"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Jayden tegen Emma zegt in de tweede alinea."
+    },
+    {
+      "question": "Hoe voelt Emma zich bij de verkeerslichten en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schuldig",
+            "vervelend",
+            "rot"
+          ],
+          [
+            "onaardig",
+            "gemeen",
+            "niet geholpen",
+            "doorgereden"
+          ],
+          [
+            "haast",
+            "boos",
+            "gehaast"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de derde alinea waar Emma moet wachten."
+    },
+    {
+      "question": "Vind jij dat Emma goed handelt als ze Jayden uiteindelijk helpt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "juist"
+          ],
+          [
+            "helpen",
+            "hulp",
+            "wijzen",
+            "meegaan"
+          ],
+          [
+            "sorry",
+            "spijt",
+            "excuses",
+            "vriendelijk",
+            "aardig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Emma's gedrag aan het einde van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-fietspad-conflict/image-1.png",
+      "alt": "Emma en Jayden op een smalle brug over een kanaal tijdens een regenachtige dag"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-fietspad-conflict/image-2.png",
+      "alt": "Emma en Jayden fietsen samen naar het ziekenhuis door de Hoofdstraat"
+    }
+  ],
+  "imagePrompts": [
+    "Two children with bicycles on a narrow stone bridge over a Dutch canal, willow trees in background, light rain and wind, children's book illustration style",
+    "Two children cycling together on a Dutch street towards a large red brick hospital building, children's book illustration style"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "lars-en-het-zwembad",
+  "title": "Lars en het Zwembad",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "school",
+  "text": "Lars speelt graag voetbal in de pauze. Hij is de beste speler van groep 4. Alle kinderen willen in zijn team.\n\nVandaag regent het hard. De kinderen kunnen niet naar buiten. Juf Marieke zegt: \"Jullie mogen binnen spelen.\" Lars is boos. Hij wil voetballen.\n\nLars gooit zijn voetbal tegen de muur. De bal stuitert naar het raam. KRAK! Het raam breekt. Water van de regen komt naar binnen op de vloer.\n\nJuf Marieke is verdrietig. \"Nu wordt alles nat,\" zegt ze. \"De boeken en de tekeningen worden vies.\" Lars voelt zich heel naar. Hij had niet zo boos moeten worden.\n\nLars helpt juf Marieke opruimen. Hij droogt de vloer met een grote doek. \"Het spijt me,\" zegt Lars. \"Volgende keer ga ik rustig tekenen als het regent.\"",
+  "questions": [
+    {
+      "question": "Welk weer is het vandaag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het regent",
+        "het regent hard",
+        "regen"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Wat gebeurt er met het raam?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het raam breekt",
+        "het breekt"
+      ],
+      "hint": "Lees de derde alinea goed."
+    },
+    {
+      "question": "Waarom is Lars boos?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "voetballen",
+            "voetbal",
+            "spelen"
+          ],
+          [
+            "buiten",
+            "niet naar buiten",
+            "binnen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lars graag wil doen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lars-en-het-zwembad/image-1.png",
+      "alt": "Lars speelt voetbal met kinderen in de regen op het schoolplein"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lars-en-het-zwembad/image-2.png",
+      "alt": "Een gebroken raam met regenwater dat naar binnen stroomt in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy playing football with other children on a school playground in the rain, children's book illustration style, Dutch school setting",
+    "A broken classroom window with rainwater streaming inside onto the floor, books and papers getting wet, children's book illustration style"
+  ]
+}

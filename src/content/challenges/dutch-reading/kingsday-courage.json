@@ -1,0 +1,142 @@
+{
+  "id": "kingsday-courage",
+  "title": "Koningsdag Moed",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Lisa keek vanuit haar raam naar de Koningsdag-voorbereidingen op het plein. Overal hingen oranje slingers en vlaggen, omdat vandaag de verjaardag van de koning werd gevierd. De vrijmarkt zou over een uur beginnen.\n\nBeneden zag ze Thijs, een oudere jongen uit groep 8, die de spullen van een kleuter wegpakte. \"Die speelgoedauto is veel te mooi voor jou,\" zei hij terwijl hij het rode autootje in zijn eigen krat stopte. De kleine jongen begon te huilen, maar niemand deed iets.\n\nLisa voelde haar hart bonzen. Ze wist dat ze iets moest zeggen, maar Thijs was zo groot en intimiderend. \"Wat als hij boos wordt op mij?\" dacht ze. Toch kon ze de verdrietige blik van de kleuter niet vergeten.\n\nUiteindelijk liep Lisa naar beneden. Met trillende stem zei ze: \"Thijs, die auto is niet van jou. Geef hem terug aan die jongen.\" Tot haar verbazing knikte Thijs en legde het speelgoed terug. Andere kinderen begonnen ook te protesteren tegen zijn gedrag.\n\nDe kleuter glimlachte dankbaar naar Lisa. Ze realiseerde zich dat één stem soms genoeg is om verandering te brengen, zelfs op een feestelijke dag zoals Koningsdag.",
+  "questions": [
+    {
+      "question": "Waarom hingen er overal oranje slingers en vlaggen?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "vandaag"
+          ],
+          [
+            "verjaardag"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom aarzelde Lisa om iets te zeggen tegen Thijs?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "groot",
+            "groter",
+            "ouder",
+            "intimididerend"
+          ],
+          [
+            "bang",
+            "angstig",
+            "bezorgd",
+            "zenuwachtig"
+          ],
+          [
+            "boos",
+            "kwaad",
+            "geïrriteerd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa dacht over Thijs."
+    },
+    {
+      "question": "Wat gebeurde er nadat Lisa tegen Thijs sprak?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "teruggaf",
+            "teruglegde",
+            "terug",
+            "gaf"
+          ],
+          [
+            "andere",
+            "meer",
+            "kinderen",
+            "anderen"
+          ],
+          [
+            "protesteren",
+            "protesteerden",
+            "tegen",
+            "spraken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea goed."
+    },
+    {
+      "question": "Vind je dat Lisa het juiste deed? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven en deze onderbouwen met redenen uit de tekst of eigen ervaring. Het gaat om waardering van Lisa's moed en daadkracht.",
+        "exampleAnswer": "Ja, Lisa deed het juiste omdat ze hielp een oneerlijke situatie op te lossen en moed toonde.",
+        "keyElements": [
+          "juist/goed/moedig",
+          "helpen/bijstaan/verdedigen",
+          "oneerlijk/fout/verkeerd"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over Lisa's actie en de gevolgen ervan."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed tonen en opkomen voor anderen, zelfs als je bang bent. Het thema van één persoon die verschil kan maken.",
+        "exampleAnswer": "Het verhaal gaat over moed hebben om op te komen voor anderen, ook al ben je bang.",
+        "keyElements": [
+          "moed/moedig/dapper",
+          "opkomen/helpen/verdedigen",
+          "verandering/verschil maken"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat leerde Lisa aan het einde van het verhaal?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/kingsday-courage/image-1.png",
+      "alt": "Lisa kijkt vanuit haar raam naar Koningsdag-voorbereidingen met oranje versieringen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/kingsday-courage/image-2.png",
+      "alt": "Lisa spreekt moedig tegen Thijs terwijl andere kinderen toekijken"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking out her window at King's Day preparations with orange decorations, flags and market stalls being set up in a Dutch town square, children's book illustration style",
+    "A brave young girl confronting an older boy who is taking toys from a small child at a King's Day market, other children watching, orange decorations visible, children's book illustration style"
+  ]
+}

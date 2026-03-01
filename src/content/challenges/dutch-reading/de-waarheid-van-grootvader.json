@@ -1,0 +1,110 @@
+{
+  "id": "de-waarheid-van-grootvader",
+  "title": "De Waarheid van Grootvader",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wereldkeuken",
+  "text": "Mijn grootvader vertelde altijd dat hij de beste rendang van heel Nederland kon maken. \"Een geheim recept uit Sumatra,\" beweerde hij, terwijl zijn ogen glommen van trots. \"Van mijn overgrootmoeder gekregen, die het van háár moeder had geleerd.\" Ik geloofde hem zonder twijfel, want zijn rendang smaakte inderdaad naar pure magie.\n\nVorige week, tijdens het opruimen van zijn zolder na zijn overlijden, ontdekte ik een stapel kookboeken uit de jaren zeventig. In een boek over Indonesische gerechten vond ik een uitgeknipte pagina met een rendangrecept. De ingrediënten waren identiek aan die welke grootvader gebruikte. In de kantlijn stond met zijn handschrift: \"Perfecte basis - eigen variatie met extra galanga en pandan.\"\n\nTijdens het familiediner die avond keek ik naar de gezichten rond de tafel terwijl ze grootvaders \"geheime\" rendang aten. Mijn nicht vertelde haar kinderen hetzelfde verhaal dat ik zo vaak had gehoord: het mysterieuze familierecept, de lange traditie, de trots van onze voorouders. Hun ogen glommen precies zoals die van mij vroeger.\n\nIk opende mijn mond om de waarheid te vertellen, maar sloot hem weer. Was grootvaders liefde voor koken minder echt omdat hij het recept uit een boek had gehaald? Had zijn toewijding aan het perfectioneren van de smaak minder waarde omdat het geen eeuwenoude familietraditie was? Of misschien... misschien was dit wel hoe alle familietradities beginnen.\n\nDie nacht lag ik wakker en dacht na over verhalen, waarheid en liefde. Grootvader had ons niet bewust misleid - hij had ons een verhaal gegeven dat groter was dan hijzelf. Een verhaal waarin wij allemaal een plaats hadden. Terwijl ik daar lag, besefte ik dat ik zelf ook verhalen vertel die de werkelijkheid ombuigen tot iets mooiers. Wie ben ik om te oordelen over zijn keuze?\n\nMorgen ga ik dat kookboek bekijken en grootvaders notities bestuderen. Misschien voeg ik mijn eigen variatie toe - wat extra kemiri of een snufje kaneel. Dan zal ik mijn toekomstige kinderen vertellen over het recept dat van generatie op generatie is doorgegeven, steeds een beetje veranderd, steeds een beetje verbeterd. En dat verhaal zal dan ook waar zijn, op zijn eigen manier.",
+  "questions": [
+    {
+      "question": "Wat ontdekte de verteller op grootvaders zolder dat zijn geloof in het familierecept deed wankelen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de verteller een kookboek vond met hetzelfde rendangrecept en grootvaders aantekeningen, wat bewees dat het geen echt familierecept was.",
+        "exampleAnswer": "Hij vond een kookboek met hetzelfde rendangrecept en grootvaders handgeschreven notities erbij.",
+        "keyElements": [
+          "kookboek/boek",
+          "zelfde/identieke/gelijke ingrediënten",
+          "handschrift/aantekeningen/notities"
+        ],
+        "minWords": 5
+      },
+      "hint": "Kijk naar wat er in de tweede alinea wordt beschreven."
+    },
+    {
+      "question": "Waarom besloot de verteller uiteindelijk om de waarheid niet te vertellen aan zijn familie tijdens het diner?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de verteller besefte dat grootvaders liefde en toewijding echt waren, ongeacht de oorsprong van het recept, en dat het verhaal waarde had voor de familie.",
+        "exampleAnswer": "Hij besefte dat grootvaders liefde voor koken echt was en dat het verhaal belangrijk was voor de familie.",
+        "keyElements": [
+          "liefde/toewijding echt",
+          "verhaal/traditie belangrijk/waardevol",
+          "familie/kinderen beschermen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Let op de vragen die de verteller zichzelf stelt in de vierde alinea."
+    },
+    {
+      "question": "Beoordeel of de verteller een betrouwbare verteller is. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet argumenten geven voor hun mening, bijvoorbeeld dat de verteller eerlijk is over zijn ontdekking en twijfels, maar ook toegeeft dat hij zelf verhalen vertelt die de waarheid ombuigen.",
+        "exampleAnswer": "De verteller is deels betrouwbaar omdat hij eerlijk vertelt over wat hij ontdekte, maar hij geeft ook toe dat hij zelf verhalen vertelt die niet helemaal waar zijn.",
+        "keyElements": [
+          "eerlijk/open over ontdekking",
+          "geeft toe/erkent eigen verhalen",
+          "twijfels/onzekerheid"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat de verteller zegt over zijn eigen verhalen in de vijfde alinea."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over de waarde van familieverhalen en tradities, ook al zijn ze niet letterlijk waar, en hoe verhalen betekenis en verbinding creëren.",
+        "exampleAnswer": "Het verhaal gaat over hoe familieverhalen en tradities waardevol kunnen zijn, ook al zijn ze niet helemaal waar, omdat ze liefde en verbinding creëren.",
+        "keyElements": [
+          "familieverhalen/tradities waardevol",
+          "waarheid/werkelijkheid complex",
+          "liefde/verbinding/betekenis"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de verteller leert over verhalen, waarheid en familietradities."
+    },
+    {
+      "question": "Met welk doel heeft de schrijver dit verhaal geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien dat waarheid complex is en dat verhalen die emotionele waarde hebben soms belangrijker zijn dan letterlijke feiten.",
+        "exampleAnswer": "De schrijver wil laten zien dat waarheid ingewikkeld is en dat verhalen die liefde en verbinding geven waarde hebben, ook al zijn ze niet letterlijk waar.",
+        "keyElements": [
+          "waarheid complex/ingewikkeld",
+          "verhalen/tradities hebben waarde",
+          "emotie/liefde belangrijker dan feiten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de boodschap over verhalen en waarheid die door het hele verhaal loopt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-van-grootvader/image-1.png",
+      "alt": "Een jongen die een oud kookboek bekijkt op een zolder tussen dozen en herinneringen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-van-grootvader/image-2.png",
+      "alt": "Een familie rond de eettafel die geniet van een maaltijd terwijl de verteller twijfelt"
+    }
+  ],
+  "imagePrompts": [
+    "A young person discovering an old cookbook on a dusty attic, surrounded by cardboard boxes and family memories, with handwritten notes visible on the pages, children's book illustration style",
+    "A family gathered around a dinner table enjoying Indonesian rendang, with warm lighting and happy faces, while one person sits quietly contemplating, children's book illustration style"
+  ]
+}

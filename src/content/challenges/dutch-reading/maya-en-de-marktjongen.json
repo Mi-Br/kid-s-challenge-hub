@@ -1,0 +1,118 @@
+{
+  "id": "maya-en-de-marktjongen",
+  "title": "Maya en de Marktjongen",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de markt",
+  "text": "Maya liep met haar moeder over de zaterdagmarkt in hun nieuwe woonplaats. Alles was anders dan thuis in Suriname. De kramen waren vol met onbekende groenten en de verkopers spraken Nederlands met een accent dat ze niet begreep. Bij de groentestand bleef Maya's moeder staan omdat ze verse peterselie zocht voor de soep.\n\nAchter de kraam stond een jongen van ongeveer Maya's leeftijd. Zijn kleren waren oud en zijn schoenen hadden gaten. Maya dacht: 'Hij ziet er arm uit. Hij kan vast niet goed lezen of schrijven.' Toen haar moeder vroeg waar de peterselie was, antwoordde de jongen vlot in het Nederlands, maar ook in het Arabisch en het Engels. Maya was verbaasd dat hij zoveel talen sprak.\n\nTerwijl haar moeder groenten uitzocht, hoorde Maya de jongen een ingewikkeld rekensommetje maken voor een andere klant. Hij rekende sneller dan Maya's rekenmachine thuis. 'Hoe doe je dat zo snel?' vroeg Maya nieuwsgierig. De jongen glimlachte: 'Mijn vader heeft me geleerd dat je je hoofd moet gebruiken, omdat we geen dure apparaten hebben. Ik help elke dag op de markt en leer zo rekenen met grote getallen.'\n\nDe jongen vertelde dat hij uit Syrië kwam en dat zijn familie hard werkte om hun nieuwe leven op te bouwen. Maya besefte dat ze zich vergist had. Deze jongen was helemaal niet dom - hij was juist heel slim en wist dingen die zij niet wist. 'Sorry dat ik je verkeerd beoordeelde,' zei Maya eerlijk. 'Wil je me leren hoe je zo snel kunt rekenen?'\n\nVanaf die dag ging Maya elke zaterdag naar de markt, niet alleen om boodschappen te doen, maar ook om Ahmed te bezoeken. Hij leerde haar rekentrucs en zij hielp hem met zijn Nederlandse huiswerk. Maya's moeder zei altijd: 'De mooiste vriendschappen ontstaan als je verder kijkt dan wat je eerst ziet.' Die woorden kregen nu pas echte betekenis voor Maya.",
+  "questions": [
+    {
+      "question": "Uit welk land kwam Maya oorspronkelijk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "suriname"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dacht Maya eerst dat Ahmed niet slim was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "kleren",
+            "uiterlijk",
+            "eruitzag",
+            "zag"
+          ],
+          [
+            "arm",
+            "armoedig",
+            "oud",
+            "gaten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Maya over Ahmeds uiterlijk dacht."
+    },
+    {
+      "question": "Hoe liet Ahmed zien dat hij intelligent was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "talen",
+            "nederlands",
+            "arabisch",
+            "engels",
+            "sprak"
+          ],
+          [
+            "rekenen",
+            "rekensommetje",
+            "snel",
+            "getallen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede en derde alinea over wat Ahmed kon."
+    },
+    {
+      "question": "Vind je dat Maya goed reageerde toen ze besefte dat ze zich vergist had? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Maya's reactie en dit onderbouwen. Goede punten kunnen zijn: ze gaf haar fout toe, ze verontschuldigde zich, ze wilde vrienden worden. Slechte punten kunnen zijn: ze had niet moeten oordelen.",
+        "exampleAnswer": "Ja, ik vind dat Maya goed reageerde omdat ze eerlijk zei dat ze zich vergist had en sorry zei. Ze wilde ook vrienden worden.",
+        "keyElements": [
+          "mening/vind",
+          "verontschuldiging/sorry",
+          "eerlijk/toegeven"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe Maya reageerde in de vierde alinea."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over niet oordelen op uiterlijk en mensen leren kennen zoals ze echt zijn. Het gaat over vooroordelen overwinnen en echte vriendschap.",
+        "exampleAnswer": "Het verhaal gaat erover dat je mensen niet moet beoordelen op hoe ze eruitzien, maar moet kijken naar wie ze werkelijk zijn.",
+        "keyElements": [
+          "oordelen/beoordelen/vooroordelen",
+          "uiterlijk/eruitzien",
+          "echt/werkelijk/wie/zijn"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat Maya leerde over Ahmed en wat haar moeder zei over vriendschap."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/maya-en-de-marktjongen/image-1.png",
+      "alt": "Maya en haar moeder op de markt bij de groentestand waar Ahmed werkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/maya-en-de-marktjongen/image-2.png",
+      "alt": "Maya en Ahmed samen aan het rekenen en leren bij de marktstand"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with dark skin and curly hair standing with her mother at a vegetable market stall, looking at a boy working behind the counter, children's book illustration style, Dutch market setting",
+    "Two children sitting together at a market stall, one teaching the other math tricks, vegetables and market goods around them, both children smiling and learning from each other, children's book illustration style"
+  ]
+}

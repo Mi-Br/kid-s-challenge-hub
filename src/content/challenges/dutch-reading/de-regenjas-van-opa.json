@@ -1,0 +1,125 @@
+{
+  "id": "de-regenjas-van-opa",
+  "title": "De Regenjas van Opa",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "Het regent hard. Lieke kijkt uit het raam van haar klas. Op het schoolplein staat een oude man. Hij heeft geen paraplu en geen jas. Het water druipt van zijn grijze haar.\n\nDe andere kinderen lachen omdat de man zo nat is. Maar Lieke vindt het niet grappig. Ze denkt aan haar opa die vorig jaar is overleden. Deze man lijkt op hem.\n\nNa school rent Lieke naar huis. \"Mama, mag ik opa's regenjas pakken?\" vraagt ze. Haar moeder kijkt verbaasd. \"Waarom wil je die oude jas?\" Lieke vertelt over de man op het plein.\n\nLieke rent terug naar school met de gele regenjas. De man staat er nog steeds. \"Meneer,\" roept ze. \"Deze jas is voor u!\" De man kijkt haar aan. Zijn ogen worden vochtig, maar nu niet van de regen.\n\n\"Dank je wel, lief kind,\" zegt hij zacht. Hij trekt de jas aan. Dan glimlacht hij breed. \"Weet je wat grappig is? Deze jas was van mij. Ik gaf hem jaren geleden weg aan een aardige meneer in het park. Nu komt hij bij mij terug door jouw goede hart.\"",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de regenjas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel",
+        "gele"
+      ],
+      "hint": "Kijk in de vierde alinea."
+    },
+    {
+      "question": "Waarom vindt Lieke het niet grappig dat de man nat wordt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "lijkt",
+            "lijken",
+            "denkt",
+            "herinnert"
+          ],
+          [
+            "opa",
+            "grootvader"
+          ],
+          [
+            "overleden",
+            "dood",
+            "weg"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lieke voelt als ze naar de man kijkt."
+    },
+    {
+      "question": "Wat ontdekt de man aan het eind over de regenjas?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "was",
+            "had",
+            "bezat",
+            "vroeger"
+          ],
+          [
+            "zijn",
+            "hem",
+            "man"
+          ],
+          [
+            "weggegeven",
+            "gegeven",
+            "weg",
+            "gaf"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees goed wat de man zegt in de laatste alinea."
+    },
+    {
+      "question": "Vind jij dat Lieke goed heeft gehandeld? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "mooi",
+            "lief",
+            "aardig"
+          ],
+          [
+            "helpen",
+            "geholpen",
+            "hulp",
+            "zorgen",
+            "zorgzaam"
+          ],
+          [
+            "man",
+            "meneer",
+            "oude"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lieke deed en hoe de man zich voelde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-regenjas-van-opa/image-1.png",
+      "alt": "Een meisje kijkt uit het klasraam naar een oude man die in de regen staat"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-regenjas-van-opa/image-2.png",
+      "alt": "Een meisje geeft een gele regenjas aan een oude man in de regen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking out of a classroom window at an elderly man standing in heavy rain on a schoolyard, children's book illustration style, Dutch school setting",
+    "A young girl handing a bright yellow raincoat to a grateful elderly man in the rain, both smiling, children's book illustration style, heartwarming scene"
+  ]
+}

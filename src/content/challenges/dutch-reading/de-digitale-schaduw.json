@@ -1,0 +1,120 @@
+{
+  "id": "de-digitale-schaduw",
+  "title": "De Digitale Schaduw",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "technologie",
+  "text": "Maya staarde naar haar telefoonscherm terwijl de melding weer verscheen: 'Je hebt vandaag al vier uur social media gebruikt.' Ze veegde het berichtje weg zonder er echt aandacht aan te besteden. Zoals elke ochtend scrollde ze door Instagram, bekek ze TikTok-video's en checkte ze Snapchat. Het voelde normaal, gewoon wat iedereen deed.\n\nHaar beste vriendin Lisa zat naast haar in de klas, maar zelfs tijdens de pauze keken ze meer naar hun schermen dan naar elkaar. \"Kijk, die influencer heeft weer een nieuwe outfit,\" mompelde Lisa. Maya knikte afwezig terwijl ze zelf likes uitdeelde aan foto's van klasgenoten. Het was alsof ze in een eindeloze cyclus gevangen zaten.\n\nOp een dag merkte Maya's oudere broer Tom iets vreemds op. Maya at nauwelijks tijdens het avondeten omdat ze voortdurend naar haar telefoon gluurde. Ze sliep slecht en was vaak geïrriteerd als het wifi langzaam was. \"Je bent niet meer jezelf,\" zei hij bezorgd. Maya werd boos. \"Ik ben gewoon bezig met mijn vrienden!\" snauude ze.\n\nTom herinnerde zich verhalen die hij had gelezen over digitale verslaving – hoe sociale media bedrijven algoritmes gebruiken die lijken op die van gokautomaten. Ze zijn ontworpen om mensen vast te houden, om hen terug te laten komen voor meer likes, meer validatie, meer dopamine. Net zoals in het boek '1984' van George Orwell werd gedrag gecontroleerd, alleen nu gebeurde het vrijwillig.\n\nToen Maya's cijfers begonnen te zakken en ze steeds vaker hoofdpijn had, realiseerde Tom zich dat zijn zus hulp nodig had. Hij nam contact op met hun ouders en samen spraken ze met Maya. In eerste instantie was ze defensief, maar geleidelijk begon ze de waarheid te erkennen: ze had de controle verloren over haar schermgebruik.\n\nMet hulp van een counselor en digitale welzijn-apps leerde Maya om bewuster om te gaan met technologie. Ze ontdekte dat echte vriendschappen dieper gingen dan likes en emoji's. Tom besefte dat technologie een krachtig hulpmiddel kon zijn, maar dat het belangrijk was om de balans te bewaren tussen de digitale en de echte wereld.\n\nDe familie had geleerd dat mentale gezondheid in het digitale tijdperk nieuwe uitdagingen bracht. Ze begrepen nu dat er geen schaamte was in het zoeken van hulp, en dat bewustwording de eerste stap was naar herstel.",
+  "questions": [
+    {
+      "question": "Wat deed Maya elke ochtend volgens de tekst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "scrollde ze door instagram, bekek ze tiktok-video's en checkte ze snapchat",
+        "door instagram scrollen, tiktok-video's bekijken en snapchat checken",
+        "social media gebruiken"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom vergelijkt de schrijver sociale media algoritmes met gokautomaten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat beide systemen ontworpen zijn om mensen verslaafd te maken door beloningen (likes/geld) te geven op onvoorspelbare momenten, waardoor mensen blijven terugkomen voor meer.",
+        "exampleAnswer": "Omdat beide ontworpen zijn om mensen verslaafd te maken door onvoorspelbare beloningen te geven.",
+        "keyElements": [
+          "verslaafd/vastgehouden/terugkomen",
+          "beloningen/likes/dopamine",
+          "ontworpen/gemaakt"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat beide systemen gemeen hebben qua effect op mensen."
+    },
+    {
+      "question": "Welke connectie legt de tekst tussen Maya's situatie en het boek '1984' van George Orwell?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat beide verhalen gaan over gedragscontrole, maar dat in 1984 dit gedwongen werd terwijl het bij social media vrijwillig gebeurt.",
+        "exampleAnswer": "In beide gevallen wordt gedrag gecontroleerd, maar bij social media doen mensen dit vrijwillig in plaats van gedwongen zoals in 1984.",
+        "keyElements": [
+          "gedrag/gedragscontrole",
+          "vrijwillig/zelf gekozen",
+          "gecontroleerd/beïnvloed"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar de vierde alinea waar deze vergelijking wordt gemaakt."
+    },
+    {
+      "question": "Beoordeel of Tom de juiste aanpak koos om Maya te helpen. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening geven over Toms aanpak en deze onderbouwen met argumenten uit de tekst. Zowel positieve als negatieve oordelen zijn geldig mits goed onderbouwd.",
+        "exampleAnswer": "Tom deed het goed omdat hij eerst observeerde, toen hulp zocht bij ouders en uiteindelijk professionele hulp inschakelde. Hij was geduldig toen Maya defensief was.",
+        "keyElements": [
+          "observeren/opmerken",
+          "hulp zoeken/ouders/counselor",
+          "geduldig/begripvol"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan de verschillende stappen die Tom nam om zijn zus te helpen."
+    },
+    {
+      "question": "Wat is de hoofdboodschap die de schrijver wil overbrengen met dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de hoofdboodschap gaat over bewust omgaan met technologie, het herkennen van digitale verslaving als mentaal gezondheidsprobleem, en het belang van hulp zoeken zonder schaamte.",
+        "exampleAnswer": "Technologie kan verslavend zijn en mentale gezondheid beïnvloeden, maar met bewustwording en hulp kun je een gezonde balans vinden.",
+        "keyElements": [
+          "technologie/digitaal bewust/balans",
+          "mentale gezondheid/verslaving",
+          "hulp zoeken/bewustwording"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat Maya en haar familie uiteindelijk leerden."
+    },
+    {
+      "question": "Met welk doel schreef de auteur dit verhaal volgens jou?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de schrijver lezers wil waarschuwen voor de gevaren van overmatig schermgebruik, bewustwording wil creëren over digitale verslaving, en wil laten zien dat hulp zoeken normaal is.",
+        "exampleAnswer": "Om jongeren bewust te maken van de risico's van social media verslaving en te laten zien dat er hulp beschikbaar is.",
+        "keyElements": [
+          "waarschuwen/bewust maken",
+          "risico's/gevaren/verslaving",
+          "hulp beschikbaar/normaal"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver aan lezers zoals jij wil geven."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-digitale-schaduw/image-1.png",
+      "alt": "Maya en Lisa zitten naast elkaar in de klas maar kijken allebei naar hun telefoons"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-digitale-schaduw/image-2.png",
+      "alt": "Maya praat met een counselor terwijl haar familie ondersteunend naast haar zit"
+    }
+  ],
+  "imagePrompts": [
+    "Two teenage girls sitting next to each other in a Dutch classroom, both looking down at their smartphones instead of talking to each other, children's book illustration style, soft lighting, modern school setting",
+    "A teenage girl having a conversation with a professional counselor while her supportive family members sit nearby in a comfortable therapy office, children's book illustration style, warm and hopeful atmosphere"
+  ]
+}

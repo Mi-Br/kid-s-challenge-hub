@@ -1,0 +1,100 @@
+{
+  "id": "de-kapotte-jurk",
+  "title": "De Kapotte Jurk",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "kleding",
+  "text": "\"Mijn nieuwe jurk!\" roept Lisa. Ze kijkt naar de grote scheur in haar mooie blauwe jurk. \"Wat erg!\"\n\n\"Sorry,\" zegt Tom zachtjes. Hij speelde met zijn voetbal en raakte Lisa's jurk met zijn schoen. \"Ik deed het niet expres.\"\n\n\"Maar nu is mijn jurk kapot,\" huilt Lisa. \"Mama wordt heel boos omdat de jurk nieuw was.\"\n\nTom voelt zich heel verdrietig. Hij ging naar huis en dacht na. Toen kreeg hij een idee. Hij pakte zijn spaargeld en ging naar de winkel.\n\n\"Kijk eens,\" zegt Tom de volgende dag. Hij geeft Lisa een pakje. \"Dit is voor jou.\"\n\nLisa maakt het pakje open. Er zit een mooie rode riem in. \"Dank je wel, Tom! Als ik de riem om mijn jurk doe, zie je de scheur niet meer.\"\n\n\"Fijn,\" zegt Tom blij. \"Ben je nog boos op mij?\"\n\n\"Nee hoor,\" lacht Lisa. \"Je bent een goede vriend omdat je het wilde goedmaken.\"",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Lisa's jurk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw",
+        "blauwe"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke kleur heeft de riem die Tom koopt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Lees wat er in het pakje zit."
+    },
+    {
+      "question": "Waarom voelt Tom zich verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kapot",
+            "scheur",
+            "stuk"
+          ],
+          [
+            "jurk",
+            "kleren"
+          ],
+          [
+            "lisa",
+            "haar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Tom deed met Lisa's jurk."
+    },
+    {
+      "question": "Vind je dat Tom een goede oplossing vond? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "slim",
+            "lief"
+          ],
+          [
+            "riem",
+            "oplossing",
+            "goedmaken",
+            "helpen"
+          ],
+          [
+            "scheur",
+            "bedekken",
+            "verstoppen",
+            "zien"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat doet de riem met de scheur?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-jurk/image-1.png",
+      "alt": "Lisa huilt bij haar kapotte blauwe jurk met een grote scheur"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-jurk/image-2.png",
+      "alt": "Tom geeft Lisa een pakje met een rode riem erin"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl in a torn blue dress looking upset, children's book illustration style, Dutch playground setting",
+    "A boy giving a wrapped gift to a girl who is opening it to reveal a red belt, children's book illustration style, cheerful colors"
+  ]
+}

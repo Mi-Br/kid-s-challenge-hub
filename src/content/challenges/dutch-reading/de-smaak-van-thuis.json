@@ -1,0 +1,124 @@
+{
+  "id": "de-smaak-van-thuis",
+  "title": "De Smaak van Thuis",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wereldkeuken",
+  "text": "Yasmin staat in de keuken en kijkt naar de ingrediënten op het aanrecht. Vandaag moet ze een gerecht maken voor de internationale dag op school. Alle kinderen brengen iets mee uit hun eigen cultuur.\n\n\"Wat ga je maken?\" vraagt haar moeder, die net binnenkomt met boodschappen. Yasmin zucht diep. \"Ik weet het niet, mama. De andere kinderen verwachten vast couscous of tajine omdat ik uit Marokko kom. Maar ik hou ook van stamppot en erwtensoep.\"\n\nHaar moeder zet de boodschappentassen neer en glimlacht. \"Je bent toch beide, lieverd. Je bent Marokkaans én Nederlands. Waarom kies je niet iets wat dat laat zien?\"\n\nYasmin denkt na. Dan krijgt ze een idee. Ze pakt de harissa uit de kast - de pittige rode pasta die haar oma altijd gebruikte. Daarnaast legt ze Nederlandse aardappelen en winterpeen. \"Ik ga stamppot maken,\" zegt ze vastberaden, \"maar dan met harissa erdoor. Dan is het echt van mij.\"\n\nHaar moeder knikt goedkeurend. \"Perfect. Je hoeft niet te kiezen tussen wie je bent. Je kunt alles zijn wat je wilt.\" Yasmin begint te koken en voelt zich eindelijk helemaal zichzelf.\n\nDe volgende dag op school ruikt iedereen de bijzondere geur van Yasmins gerecht. \"Wat is dit?\" vragen haar klasgenoten nieuwsgierig. \"Dit is Marokkaans-Nederlandse stamppot,\" zegt Yasmin trots. \"Het smaakt naar thuis - naar beide thuislanden.\"",
+  "questions": [
+    {
+      "question": "Wat moet Yasmin maken voor school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een gerecht",
+        "een gerecht voor de internationale dag",
+        "iets uit haar eigen cultuur"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom twijfelt Yasmin over wat ze gaat maken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verwachten",
+            "verwacht",
+            "verwachting"
+          ],
+          [
+            "beide",
+            "twee",
+            "marokkaans",
+            "nederlands"
+          ],
+          [
+            "kiezen",
+            "keuze",
+            "kies",
+            "gekozen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Yasmin tegen haar moeder zegt in de tweede alinea."
+    },
+    {
+      "question": "Wat betekent de harissa voor Yasmin in dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "marokkaans",
+            "marokko",
+            "cultuur",
+            "afkomst"
+          ],
+          [
+            "oma",
+            "familie",
+            "verleden",
+            "oorsprong"
+          ],
+          [
+            "verbinding",
+            "herinnering",
+            "thuis",
+            "thuisland"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat harissa voor Yasmin symboliseert en waar het vandaan komt."
+    },
+    {
+      "question": "Wat vindt Yasmins moeder van haar oplossing?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "perfect",
+        "ze vindt het perfect",
+        "goedkeurend",
+        "ze knikt goedkeurend"
+      ],
+      "hint": "Zoek in de voorlaatste alinea naar de reactie van mama."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het combineren van verschillende culturen en identiteiten, en dat je niet hoeft te kiezen tussen verschillende delen van jezelf.",
+        "exampleAnswer": "Het verhaal gaat erover dat je verschillende culturen kunt combineren en niet hoeft te kiezen tussen verschillende delen van je identiteit.",
+        "keyElements": [
+          "combineren/verbinden/samenbrengen",
+          "culturen/identiteit/beide",
+          "niet kiezen/alles zijn"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Yasmin leert over haar identiteit."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-smaak-van-thuis/image-1.png",
+      "alt": "Yasmin en haar moeder in de keuken met ingrediënten op het aanrecht"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-smaak-van-thuis/image-2.png",
+      "alt": "Yasmin presenteert haar Marokkaans-Nederlandse stamppot aan klasgenoten"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl and her mother in a modern Dutch kitchen with Moroccan spices and Dutch vegetables on the counter, children's book illustration style",
+    "A proud teenage girl presenting a colorful dish to curious classmates in a Dutch school cafeteria, children's book illustration style"
+  ]
+}

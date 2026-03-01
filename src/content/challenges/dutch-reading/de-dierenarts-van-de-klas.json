@@ -1,0 +1,69 @@
+{
+  "id": "de-dierenarts-van-de-klas",
+  "title": "De Dierenarts van de Klas",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "beroepen",
+  "text": "Lisa wil later dierenarts worden. Ze houdt heel veel van dieren. Op school vertelt ze altijd over honden en katten.\n\nVandaag brengt Lisa een boek mee over dierenartsen. Haar vriendin Emma kijkt ook in het boek. \"Wat leuk!\" zegt Emma. \"Ik wil later bakker worden.\"\n\nIn de pauze spelen Lisa en Emma een spelletje. Lisa doet alsof ze een zieke hond helpt. Emma doet alsof ze brood bakt. Ze hebben veel plezier samen.\n\nAan het eind van de dag zegt juf Marieke: \"Morgen gaan we naar de kinderboerderij. Lisa, wil jij ons helpen met de dieren?\" Lisa wordt heel blij. \"Ja, graag!\" zegt ze.",
+  "questions": [
+    {
+      "question": "Welk beroep wil Lisa later worden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dierenarts"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat brengt Lisa mee naar school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een boek over dierenartsen",
+        "een boek"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom wordt Lisa blij aan het eind van de dag?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "helpen",
+            "help",
+            "geholpen"
+          ],
+          [
+            "dieren",
+            "dier",
+            "beesten"
+          ],
+          [
+            "kinderboerderij",
+            "boerderij"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat juf Marieke vraagt aan Lisa."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-dierenarts-van-de-klas/image-1.png",
+      "alt": "Lisa en Emma kijken samen in een boek over dierenartsen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-dierenarts-van-de-klas/image-2.png",
+      "alt": "Lisa speelt dierenarts met een speelgoed hond in de pauze"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls sitting at a school desk looking at a book about veterinarians together, children's book illustration style, bright classroom setting",
+    "A young girl pretending to be a veterinarian examining a toy dog during school recess, children's book illustration style, playground in background"
+  ]
+}

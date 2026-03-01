@@ -1,0 +1,95 @@
+{
+  "id": "ruzie-op-de-markt",
+  "title": "Ruzie op de Markt",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de markt",
+  "text": "Emma en Tom gingen samen naar de markt. Emma wilde appels kopen. Tom wilde kaas kopen. Ze hadden maar vijf euro.\n\n'Ik wil appels!' zei Emma boos. 'Kaas is lekkerder!' riep Tom. Ze werden heel boos op elkaar. Emma liep weg van Tom.\n\nTom voelde zich verdrietig. Emma was ook verdrietig. Ze misten elkaar. Tom liep naar Emma toe. 'Sorry Emma,' zei hij zacht.\n\n'Ik ben ook sorry,' zei Emma. Ze dachten na. Toen hadden ze een goed idee. Ze kochten appels en kaas samen. Ze deelden het geld. Nu waren ze weer blij.",
+  "questions": [
+    {
+      "question": "Hoeveel geld hadden Emma en Tom?",
+      "questionType": "begrijpen",
+      "hint": "Kijk in de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijf"
+          ],
+          [
+            "euro"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom werden Emma en Tom boos op elkaar?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "wilden",
+            "wilde",
+            "wil",
+            "wou",
+            "wouden"
+          ],
+          [
+            "verschillend",
+            "andere",
+            "ander",
+            "niet hetzelfde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma wilde en wat Tom wilde."
+    },
+    {
+      "question": "Hoe losten Emma en Tom hun probleem op?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "samen",
+            "beide",
+            "allebei",
+            "delen",
+            "deelden"
+          ],
+          [
+            "appels",
+            "kaas",
+            "geld"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/ruzie-op-de-markt/image-1.png",
+      "alt": "Emma en Tom op de markt bij de kramen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/ruzie-op-de-markt/image-2.png",
+      "alt": "Emma en Tom kopen samen appels en kaas"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, Emma and Tom, standing at a colorful Dutch market with fruit and cheese stalls, looking upset and pointing in different directions, children's book illustration style",
+    "The same two children happily buying both apples and cheese together at the market, smiling and sharing money, children's book illustration style"
+  ]
+}

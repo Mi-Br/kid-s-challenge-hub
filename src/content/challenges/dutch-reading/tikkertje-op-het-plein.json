@@ -1,0 +1,71 @@
+{
+  "id": "tikkertje-op-het-plein",
+  "title": "Tikkertje op het Plein",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "spelen",
+  "text": "Ik sta bij de schommel. Alle kinderen spelen tikkertje. Ik kijk naar hen. Ze rennen hard.\n\nIk ben bang. Ik ben altijd bang voor tikkertje. De andere kinderen rennen zo snel. Ik ren niet snel.\n\nMijn vriendin Emma komt naar mij. Ze zegt: \"Kom spelen!\" Ik schud mijn hoofd. \"Ik ben te langzaam,\" zeg ik.\n\nEmma pakt mijn hand. \"Het is leuk,\" zegt ze. \"Kom maar.\" Ze trekt mij mee naar de andere kinderen.\n\nIk begin te rennen. Het voelt goed. Ik ren en ren. Tom tikt mij. Nu ben ik hem. Ik tik Lisa. Het is leuk!\n\nIk ben niet meer bang voor tikkertje. Het spel is heel leuk. Ik speel elke dag mee.",
+  "questions": [
+    {
+      "question": "Waar staat het kind eerst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij de schommel"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom is het kind bang voor tikkertje?",
+      "questionType": "begrijpen",
+      "hint": "Het staat in de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "kind"
+          ],
+          [
+            "rent"
+          ],
+          [
+            "niet"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe heet de vriendin van het kind?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de derde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "emma"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/tikkertje-op-het-plein/image-1.png",
+      "alt": "Een kind staat alleen bij de schommel en kijkt naar andere kinderen die tikkertje spelen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/tikkertje-op-het-plein/image-2.png",
+      "alt": "Het kind rent vrolijk mee met tikkertje op het schoolplein"
+    }
+  ],
+  "imagePrompts": [
+    "A young child standing alone by a swing, watching other children play tag in a Dutch schoolyard, children's book illustration style",
+    "The same child now running happily with other children playing tag on the playground, smiling and confident, children's book illustration style"
+  ]
+}

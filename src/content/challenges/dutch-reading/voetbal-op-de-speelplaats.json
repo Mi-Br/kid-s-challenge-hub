@@ -1,0 +1,66 @@
+{
+  "id": "voetbal-op-de-speelplaats",
+  "title": "Voetbal op de Speelplaats",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "school",
+  "text": "Lisa is nieuw op school. Ze staat alleen op de speelplaats. De andere kinderen spelen voetbal. Lisa kijkt naar de bal. De bal is rond en wit.\n\nEen jongen ziet Lisa. Hij heet Tom. Tom roept: \"Kom je mee voetballen?\" Lisa schudt haar hoofd. Ze kan niet goed voetballen. Lisa is bang.\n\nTom gooit de bal naar Lisa. Lisa vangt de bal. \"Probeer het maar,\" zegt Tom. Lisa trapt de bal. De bal rolt naar het doel. \"Goed gedaan!\" roept Tom.\n\nLisa lacht. Voetballen is leuk! Nu speelt Lisa elke pauze mee. Ze is niet meer alleen. Lisa heeft nieuwe vrienden.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de bal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit",
+        "rond en wit",
+        "wit en rond"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Hoe heet de jongen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "tom"
+      ],
+      "hint": "Zoek de zin waar de jongen zijn naam zegt."
+    },
+    {
+      "question": "Waarom is Lisa eerst bang?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "kan niet",
+            "kan niet goed"
+          ],
+          [
+            "voetballen",
+            "voetbal",
+            "spelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa niet goed kan."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/voetbal-op-de-speelplaats/image-1.png",
+      "alt": "Lisa staat alleen op de speelplaats en kijkt naar kinderen die voetballen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/voetbal-op-de-speelplaats/image-2.png",
+      "alt": "Lisa trapt de bal naar het doel terwijl Tom toekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl standing alone on a Dutch school playground watching other children play soccer, children's book illustration style, sunny day",
+    "A young girl kicking a white soccer ball towards a goal while a boy watches encouragingly, Dutch school playground setting, children's book illustration style"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "de-keuze-van-maya",
+  "title": "De Keuze van Maya",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "milieu",
+  "text": "Maya staarde naar het briefje in haar hand. Haar beste vriendin Lotte had het haar tijdens de pauze toegestopt. \"Kom vanavond naar het bos achter de fabriek. We gaan eindelijk iets doen aan die vervuiling,\" stond er in Lottes handschrift.\n\nSinds maanden zag Maya hoe de chemische fabriek aan de rand van hun dorp steeds meer afval loosde in de beek. De vissen waren verdwenen, het water rook vies, en de bomen langs de oever werden kaal. Niemand van de volwassenen deed er iets aan, alsof ze het probleem niet wilden zien.\n\nMaya herinnerde zich de magische momenten van vroeger: hoe ze als klein meisje elfjes had gezien dansen tussen de waterlelies, hoe de beek toen kristalhelder was geweest. Waren het echte elfjes geweest? Dat deed er niet toe. Wat wel toedeeed was dat die wereld van wonder en schoonheid aan het verdwijnen was.\n\nThuis aan de keukentafel keek ze naar haar vader, die moe terugkwam van zijn werk. Hij werkte al vijftien jaar bij diezelfde chemische fabriek. Door zijn baan konden ze hun huis betalen, kon Maya naar school, hadden ze elke week genoeg eten. \"Papa ziet er zo uitgeput uit,\" dacht Maya. \"Als de fabriek problemen krijgt door protesten, verliest hij misschien zijn werk.\"\n\nToch kon ze de beelden niet uit haar hoofd zetten: de dode vissen die ze gisteren had gevonden, de troebele, stinkende beek waar vroeger zo veel leven was geweest. In haar dromen hoorde ze soms nog het geluid van het heldere water dat over de stenen kabbelde.\n\nMaya wist dat Lotte en haar vrienden van plan waren om 's nachts protestborden bij de fabriek op te hangen. Het was niet gevaarlijk, maar wel illegaal. Als ze gepakt werden, zouden ze in grote problemen komen. Bovendien zou het in de krant komen, en dan zou iedereen weten dat zij ertegen was – inclusief haar vader.\n\nTerwijl ze naar haar vader keek die zijn boterham at, voelde Maya de last van haar keuze. Ze hield van hem en wilde hem niet kwetsen of zijn baan in gevaar brengen. Maar ze hield ook van de natuur, van de beek die ooit zo mooi was geweest, van de toekomst van hun dorp.\n\nDie avond pakte Maya haar jas. Ze had besloten. Wat er ook zou gebeuren, ze moest kunnen leven met de gevolgen van haar keuze. Sommige dingen waren belangrijker dan veiligheid.",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het maken van een moeilijke keuze tussen verschillende waarden: loyaliteit naar familie versus verantwoordelijkheid voor het milieu. De kern is dat Maya moet kiezen tussen haar liefde voor haar vader en haar overtuiging dat de natuur beschermd moet worden.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat moet kiezen tussen haar vader helpen (die bij een vervuilende fabriek werkt) en vechten voor het milieu.",
+        "keyElements": [
+          "moeilijke keuze/dilemma",
+          "familie/vader vs milieu/natuur",
+          "verantwoordelijkheid/overtuiging"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over het conflict dat Maya voelt tussen verschillende dingen die belangrijk voor haar zijn."
+    },
+    {
+      "question": "Waarom twijfelt Maya over deelname aan het protest?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Maya twijfelt omdat haar vader bij de fabriek werkt en zijn baan zou kunnen verliezen als er protesten komen. Ze wil hem niet kwetsen of zijn werk in gevaar brengen.",
+        "exampleAnswer": "Maya twijfelt omdat haar vader bij de fabriek werkt en zij bang is dat protesten zijn baan in gevaar brengen.",
+        "keyElements": [
+          "vader werkt bij fabriek",
+          "baan verliezen/in gevaar",
+          "niet kwetsen/beschermen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat er verteld wordt over Maya's vader en zijn werk."
+    },
+    {
+      "question": "Welke rol spelen Maya's herinneringen aan de elfjes in het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de elfjes symbool staan voor de schoonheid en het wonder van de natuur die verloren gaat door vervuiling. Ze vertegenwoordigen wat er vroeger was en wat nu bedreigd wordt.",
+        "exampleAnswer": "De elfjes staan symbool voor de mooie natuur van vroeger die nu kapot wordt gemaakt door de vervuiling.",
+        "keyElements": [
+          "symbool/vertegenwoordigen",
+          "mooie natuur/schoonheid",
+          "vroeger vs nu/verloren/bedreigd"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de elfjes vertegenwoordigen en hoe de beek er vroeger uitzag."
+    },
+    {
+      "question": "Hoe toont de schrijver dat Maya's beslissing moeilijk is?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet schrijfstechnieken herkennen zoals het beschrijven van Maya's innerlijke strijd, het tonen van beide kanten van het dilemma (vader vs natuur), het gebruik van emotionele details, en het opbouwen van spanning naar de beslissing toe.",
+        "exampleAnswer": "De schrijver laat Maya's twijfels zien, beschrijft beide kanten van het probleem, en gebruikt details zoals haar moe vader en de dode vissen om te laten zien hoe moeilijk de keuze is.",
+        "keyElements": [
+          "innerlijke strijd/twijfels tonen",
+          "beide kanten/dilemma",
+          "emotionele details/beelden"
+        ],
+        "minWords": 7
+      },
+      "hint": "Let op hoe de schrijver Maya's gedachten en gevoelens beschrijft."
+    },
+    {
+      "question": "Wat is het schrijversdoel van dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien dat mensen soms moeilijke keuzes moeten maken tussen verschillende waarden, en dat milieuverantwoordelijkheid ook persoonlijke offers kan vragen. Het verhaal wil lezers laten nadenken over eigen verantwoordelijkheden.",
+        "exampleAnswer": "De schrijver wil laten zien dat milieuverantwoordelijkheid moeilijk kan zijn en dat je soms moet kiezen tussen verschillende belangrijke dingen.",
+        "keyElements": [
+          "laten nadenken/bewust maken",
+          "moeilijke keuzes/dilemma's",
+          "milieuverantwoordelijkheid/persoonlijke offers"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat de schrijver de lezer wil laten begrijpen of voelen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-maya/image-1.png",
+      "alt": "Maya staart peinzend naar een briefje terwijl ze naast een vervuilde beek staat"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-maya/image-2.png",
+      "alt": "Maya kijkt naar haar vermoeide vader aan de keukentafel, terwijl ze een moeilijke beslissing moet nemen"
+    }
+  ],
+  "imagePrompts": [
+    "A thoughtful teenage girl holding a note while standing by a polluted stream with dead fish, industrial buildings in background, children's book illustration style",
+    "A teenage girl looking at her tired father sitting at a kitchen table eating, showing internal conflict and difficult decision-making, warm indoor lighting, children's book illustration style"
+  ]
+}

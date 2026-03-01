@@ -1,0 +1,117 @@
+{
+  "id": "de-onzichtbare-keuken",
+  "title": "De Onzichtbare Keuken",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wereldkeuken",
+  "text": "Maya had altijd gedacht dat het restaurant van haar ouders gewoon een succesvol Turks restaurant was in Amsterdam. De geur van verse baklava en gegrilde kebab trok dagelijks tientallen klanten naar 'De Gouden Bosporus'. Maar toen ze vorige week zestien werd en officieel mocht helpen in de bediening, ontdekte ze een wereld die ze nooit had gezien.\n\nHet begon met kleine dingen die haar opvielen. Nederlandse klanten bestelden vaak 'gewone' gerechten - pizza of schnitzel - die niet eens op de menukaart stonden, maar die haar vader toch bereidde. \"Kunnen jullie niet gewoon normale kip maken?\" hoorde ze een vrouw vragen, terwijl ze minachtend naar de Turkse specialiteiten keek. Maya's vader glimlachte beleefd en ging naar de keuken om kipfilet te bakken.\n\n\"Waarom doe je dat, baba?\" vroeg Maya later die avond, toen de laatste klant was vertrokken. \"Onze Turkse gerechten zijn veel lekkerder en specialer dan die saaie kip.\" Haar vader zuchtte diep en ging zitten. \"Schatje, het is ingewikkelder dan je denkt. Als we alleen Turkse gerechten zouden serveren, zouden veel mensen niet komen. Ze zijn bang voor wat ze niet kennen.\"\n\nDe volgende dagen begon Maya bewuster te luisteren naar de gesprekken in het restaurant. Ze hoorde hoe sommige klanten opmerkingen maakten over \"die buitenlandse geuren\" en hoe anderen fluisterden dat ze eigenlijk liever naar een \"echt Nederlands\" restaurant zouden gaan. Tegelijkertijd zag ze hoe haar ouders zich aanpasten: ze spraken zachter Turks met elkaar, hingen geen traditionele muziek op en serveerden thee in gewone kopjes in plaats van de prachtige glazen die thuis gebruikt werden.\n\nOp een drukke zaterdagavond gebeurde er iets dat Maya's ogen definitief opende. Een groep tieners van haar leeftijd kwam binnen en begon luid grappen te maken over het eten. \"Ik durf geen schapenogen te eten,\" giechelende een meisje, hoewel er helemaal geen schapenogen op het menu stonden. Maya voelde haar wangen gloeien van schaamte en woede. Waarom moest haar familie zich verstoppen voor wie ze waren?\n\nDie nacht kon Maya niet slapen. Ze dacht na over alle restaurants in haar buurt: de Italiaanse werden geprezen om hun \"authentieke\" pasta, de Franse om hun verfijnde cuisine. Maar Turkse, Marokkaanse en Surinaamse restaurants werden vaak gezien als 'goedkoop' of 'vreemd'. Het ging niet alleen om eten - het ging om wie er wel en niet serieus genomen werd in Nederland.\n\nDe volgende ochtend stond Maya vroeg op en schreef een brief aan de lokale krant. Ze beschreef hoe moeilijk het was om trots te zijn op je cultuur als de samenleving je constant het gevoel geeft dat je moet veranderen om erbij te horen. \"Mijn ouders maken de lekkerste dolma van heel Amsterdam,\" schreef ze, \"maar ze durven er geen reclame voor te maken omdat ze bang zijn afgewezen te worden.\"\n\nToen Maya's ouders de brief lazen, waren ze eerst geschrokken. \"Maya, je begrijpt het niet,\" zei haar moeder bezorgd. \"We moeten voorzichtig zijn. We willen geen problemen.\" Maar Maya zag ook iets anders in hun ogen: trots. Voor het eerst in jaren had iemand hun verhaal verteld, zonder excuses of aanpassingen. Die avond serveerden ze voor het eerst in tijden echte Turkse thee in traditionele glazen aan alle klanten, ongeacht hun reactie.",
+  "questions": [
+    {
+      "question": "Hoe reageren Maya's ouders in eerste instantie op haar brief aan de krant?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "geschrokken",
+            "bang",
+            "bezorgd",
+            "voorzichtig"
+          ],
+          [
+            "trots",
+            "trotse",
+            "pride"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de reactie van Maya's ouders in de laatste alinea."
+    },
+    {
+      "question": "Wat realiseert Maya over de positie van verschillende etnische keukens in Nederland?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Maya ontdekt dat er een hiërarchie bestaat tussen verschillende etnische keukens, waarbij Europese keukens (Italiaans, Frans) meer gerespecteerd worden dan niet-Europese keukens (Turks, Marokkaans, Surinaams).",
+        "exampleAnswer": "Maya realiseert dat Italiaanse en Franse restaurants wel gerespecteerd worden om hun authentieke eten, maar Turkse en andere niet-Europese restaurants worden gezien als goedkoop of vreemd.",
+        "keyElements": [
+          "hiërarchie/verschil/ongelijkheid",
+          "Europese keukens gerespecteerd/gewaardeerd",
+          "niet-Europese keukens afgewezen/goedkoop"
+        ],
+        "minWords": 6
+      },
+      "hint": "Maya vergelijkt verschillende soorten restaurants in de zesde alinea."
+    },
+    {
+      "question": "Evalueer Maya's beslissing om een brief aan de krant te schrijven. Was dit een verstandige keuze? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een weloverwogen oordeel geven over Maya's actie, met argumenten die rekening houden met zowel de risico's (mogelijke negatieve reacties, problemen voor het restaurant) als de voordelen (bewustwording, trots, verandering). Een genuanceerd antwoord toont begrip van de complexiteit.",
+        "exampleAnswer": "Maya's beslissing was moedig maar riskant. Het was goed dat ze het probleem aan de kaak stelde en trots toonde op haar cultuur, maar het kon ook negatieve gevolgen hebben voor het restaurant van haar ouders.",
+        "keyElements": [
+          "moedig/dapper/goed",
+          "riskant/gevaarlijk/problematisch",
+          "bewustwording/verandering/trots"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over zowel de positieve als negatieve gevolgen van Maya's actie."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe systemische vooroordelen ertoe leiden dat mensen uit bepaalde culturen zich moeten aanpassen of verstoppen om geaccepteerd te worden, en hoe het belangrijk is om daar iets tegen te doen.",
+        "exampleAnswer": "Het verhaal gaat over hoe discriminatie ervoor zorgt dat mensen zich schamen voor hun eigen cultuur en hoe belangrijk het is om daar tegen op te komen.",
+        "keyElements": [
+          "discriminatie/vooroordelen/ongelijke behandeling",
+          "schaamte/verstoppen/aanpassen",
+          "opkomen/vechten/verandering"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Maya leert over hoe verschillende culturen behandeld worden en wat ze daaraan doet."
+    },
+    {
+      "question": "Wat was waarschijnlijk het doel van de schrijver met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de schrijver lezers bewust wil maken van subtiele vormen van culturele discriminatie en hen wil aansporen om na te denken over hoe ze zelf reageren op andere culturen.",
+        "exampleAnswer": "De schrijver wilde laten zien hoe vooroordelen tegen andere culturen werken en lezers laten nadenken over hun eigen houding tegenover mensen uit andere landen.",
+        "keyElements": [
+          "bewust maken/laten zien/onderwijzen",
+          "vooroordelen/discriminatie",
+          "nadenken/reflecteren/veranderen"
+        ],
+        "minWords": 7
+      },
+      "hint": "Waarom zou iemand dit verhaal schrijven? Wat wil de auteur dat lezers leren of begrijpen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-onzichtbare-keuken/image-1.png",
+      "alt": "Maya die verbaasd kijkt in het drukke Turkse restaurant terwijl haar vader beleefd een Nederlandse klant helpt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-onzichtbare-keuken/image-2.png",
+      "alt": "Maya die 's nachts aan een bureau zit en een brief schrijft, met traditionele Turkse theeglazen op tafel"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage Turkish-Dutch girl looking surprised and thoughtful while observing customers in a busy Turkish restaurant in Amsterdam, with her father politely serving Dutch customers in the background, children's book illustration style",
+    "A determined teenage girl writing a letter at night at a desk, with traditional Turkish tea glasses and cultural items visible on the table, warm lighting, children's book illustration style"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "de-verdwijnende-speeltuin",
+  "title": "De Verdwijnende Speeltuin",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "gezondheid",
+  "text": "Elke middag na school rende Liam naar de speeltuin achter zijn flatgebouw. De glijbaan glom in de zon, de schommels wiegden zachtjes in de wind, en de zandbak was perfect voor het bouwen van kastelen. Voor Liam was dit zijn geheime koninkrijk, waar hij urenlang kon spelen tot mama hem riep voor het avondeten.\n\nMaar langzaam begon Liam veranderingen op te merken. Eerst verdween de wip. \"Die was kapot,\" zei de huismeester. \"Te gevaarlijk.\" Een week later werden de klimrekken weggehaald. \"Verzekering,\" mompelde de huismeester weer. Toen kwam er een groot bord bij de ingang: \"ALLEEN VOOR KINDEREN ONDER DE 8 JAAR - VOLWASSENEN MOETEN TOEZICHT HOUDEN.\"\n\nLiam was negen jaar oud. Hij voelde zich boos en verward. Waarom werd alles wat leuk was weggenomen? Op een regenachtige donderdag ontdekte hij het antwoord. Mevrouw Peters van de wijk-raad sprak met zijn moeder bij de brievenbussen. \"Te veel ongelukken,\" hoorde hij haar zeggen. \"Kinderen worden steeds zwaarder en onhandiger. Ze kunnen niet meer goed klimmen of balanceren zoals vroeger.\"\n\nDie avond kon Liam niet slapen. Hij dacht aan zijn vrienden die alleen nog maar op hun telefoon keken, aan zichzelf die steeds vaker binnen bleef zitten. Plotseling begreep hij iets belangrijks: de speeltuin verdween niet omdat volwassenen gemeen waren, maar omdat kinderen vergeten waren hoe ze moesten bewegen en spelen.\n\nDe volgende dag begon Liam een plan. Hij nodigde alle kinderen uit zijn straat uit voor \"Avontuurlijke Vrijdag\" in het parkje verderop. Geen telefoons, alleen rennen, klimmen in bomen, en spelletjes zoals verstoppertje en tikkertje. Eerst kwamen er maar drie kinderen, maar na een paar weken waren het er twaalf.\n\nMaanden later, toen de lente begon, gebeurde er iets magisch. De wijkraad besloot om nieuwe, uitdagendere speeltoestellen te plaatsen in plaats van alles weg te halen. \"De kinderen zijn sterker en handiger geworden,\" zei mevrouw Peters tegen Liam's moeder. \"Misschien kunnen we ze toch vertrouwen met echte avonturen.\"\n\nLiam glimlachte toen hij de glimmende nieuwe klimtoren zag. Hij had geleerd dat verandering mogelijk was, maar dat het begon bij jezelf en de mensen om je heen. De speeltuin was teruggekeerd, en dit keer zou hij er goed voor zorgen.",
+  "questions": [
+    {
+      "question": "Hoe oud was Liam toen het bord bij de ingang kwam?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de derde alinea wat er over Liam's leeftijd wordt gezegd.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "negen"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom werden de speeltoestellen weggehaald volgens mevrouw Peters?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ongelukken",
+            "ongevallen",
+            "veiligheid",
+            "gevaarlijk"
+          ],
+          [
+            "zwaarder",
+            "zwaar",
+            "onhandiger",
+            "onhandig",
+            "bewegen",
+            "klimmen",
+            "balanceren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat mevrouw Peters tegen Liam's moeder zei bij de brievenbussen."
+    },
+    {
+      "question": "Wat begreep Liam toen hij niet kon slapen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "kinderen",
+            "zij"
+          ],
+          [
+            "vergeten",
+            "vergaten",
+            "konden niet",
+            "kunnen niet"
+          ],
+          [
+            "bewegen",
+            "spelen",
+            "klimmen",
+            "balanceren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er in de vierde alinea staat over Liam's belangrijke inzicht."
+    },
+    {
+      "question": "Hoe loste Liam het probleem op?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "avontuurlijke vrijdag",
+            "plan",
+            "uitnodigde",
+            "uitnodigen"
+          ],
+          [
+            "rennen",
+            "klimmen",
+            "spelen",
+            "bewegen",
+            "spelletjes"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Liam deed nadat hij zijn plan bedacht had."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe kinderen zelf verantwoordelijkheid kunnen nemen om problemen op te lossen, specifiek door meer te bewegen en actief te zijn voor hun gezondheid.",
+        "exampleAnswer": "Het verhaal gaat erover dat kinderen zelf actie kunnen ondernemen om problemen op te lossen door meer te bewegen en samen te spelen.",
+        "keyElements": [
+          "actie ondernemen/zelf iets doen",
+          "bewegen/spelen/actief zijn",
+          "problemen oplossen/verandering maken"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de schrijver wil leren over kinderen, gezondheid en het oplossen van problemen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwijnende-speeltuin/image-1.png",
+      "alt": "Een bijna lege speeltuin met weggehaalde toestellen en een verbodsbord"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwijnende-speeltuin/image-2.png",
+      "alt": "Kinderen die samen rennen en spelen in een park zonder telefoons"
+    }
+  ],
+  "imagePrompts": [
+    "A nearly empty playground with removed equipment and warning signs, showing a lonely Dutch apartment building backdrop, children's book illustration style",
+    "A group of diverse children playing actively together in a Dutch park, running and climbing trees without phones, bright and energetic scene, children's book illustration style"
+  ]
+}

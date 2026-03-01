@@ -1,0 +1,94 @@
+{
+  "id": "sam-helpt-zijn-broertje",
+  "title": "Sam helpt zijn broertje",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Sam zag zijn kleine broertje Tim huilen in de tuin. Tim wilde zijn nieuwe voetbal pakken omdat die in de hoge boom was gevlogen. \"Ik kan er niet bij!\" riep Tim verdrietig.\n\nSam probeerde eerst op zijn tenen te staan en te springen. Maar de bal zat te hoog. Toen hij een stok pakte om de bal te raken, viel hij bijna om. \"Dit werkt niet,\" dacht Sam.\n\nPlots kreeg Sam een slim idee. Hij haalde de ladder uit de schuur. \"Kom Tim, jij houdt de ladder vast want dat is heel belangrijk,\" zei Sam. Tim was trots dat hij mocht helpen.\n\nVoorzichtig klom Sam omhoog terwijl Tim de ladder stevig vasthield. Sam pakte de bal en gooide hem naar beneden. \"Gelukt!\" riep Tim blij. \"Dank je wel, grote broer!\"\n\nSam voelde zich warm van binnen omdat hij Tim had geholpen. Samen speelden ze de rest van de middag vrolijk voetbal in de tuin.",
+  "questions": [
+    {
+      "question": "Waar zat de voetbal van Tim?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de hoge boom",
+        "in de boom"
+      ],
+      "hint": "Lees de eerste zin van het verhaal goed."
+    },
+    {
+      "question": "Wat deed Sam eerst om de bal te pakken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op zijn tenen staan en springen",
+        "springen"
+      ],
+      "hint": "Kijk in de tweede alinea naar Sams eerste poging."
+    },
+    {
+      "question": "Waarom was Tim trots toen Sam de ladder haalde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "helpen",
+            "help",
+            "geholpen"
+          ],
+          [
+            "vasthouden",
+            "vasthield",
+            "vast",
+            "houden"
+          ],
+          [
+            "belangrijk",
+            "belangrike",
+            "nodig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Sam tegen Tim zei over de ladder."
+    },
+    {
+      "question": "Wat betekent 'voorzichtig' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk na: hoe beweeg je als je niet wilt vallen?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "langzaam"
+          ],
+          [
+            "niet snel"
+          ],
+          [
+            "oppassen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sam-helpt-zijn-broertje/image-1.png",
+      "alt": "Tim huilt onder een boom met een voetbal erin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sam-helpt-zijn-broertje/image-2.png",
+      "alt": "Sam op een ladder pakt de voetbal uit de boom"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy crying under a tall tree with a soccer ball stuck in its branches, children's book illustration style",
+    "An older boy climbing a ladder to reach a soccer ball in a tree while his younger brother holds the ladder steady, children's book illustration style"
+  ]
+}

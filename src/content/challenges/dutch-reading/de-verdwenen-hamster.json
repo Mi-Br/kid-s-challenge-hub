@@ -1,0 +1,129 @@
+{
+  "id": "de-verdwenen-hamster",
+  "title": "De Verdwenen Hamster",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "huisdieren",
+  "text": "Lieke staarde naar de lege kooi van haar hamster Pluisje. Het deurtje stond wijd open, alsof het een geheim wilde vertellen. \"Mama, Pluisje is weg!\" riep ze verschrikt. Haar broertje Tim kwam de kamer binnen met een schuldig gezicht.\n\n\"Ik wilde hem alleen maar even vasthouden,\" fluisterde Tim. \"Hij sprong uit mijn handen en rende onder je bed.\" Lieke werd boos. \"Je mag nooit aan mijn spullen komen zonder te vragen!\" Tim begon te huilen omdat zijn grote zus zo kwaad was.\n\nMama kwam erbij staan. \"Ruziemaken helpt Pluisje niet terug te vinden,\" zei ze kalm. \"Jullie moeten samenwerken.\" Lieke keek naar haar broertje, die nog steeds tranen in zijn ogen had. Misschien had mama wel gelijk.\n\n\"Tim, jij kent alle verstopplekjes in huis,\" zei Lieke vriendelijker. \"Waar zou jij je verstoppen als je een bang hamsterje was?\" Tim dacht na en zijn ogen begonnen te stralen. \"Achter de wasmachine! Daar is het warm en donker.\"\n\nSamen kropen ze naar de bijkeuken. Achter de wasmachine hoorden ze zachte kraakgeluiden. \"Pluisje?\" fluisterde Lieke. Een klein bruin kopje stak voorzichtig naar buiten. Tim had gelijk gehad! Ze lokten Pluisje met een zonnebloempit terug naar zijn kooi.\n\n\"Sorry dat ik zo boos werd,\" zei Lieke tegen Tim. \"Jij bent een echte hamster-detective.\" Tim glimlachte trots. \"En ik ga voortaan eerst vragen voordat ik Pluisje wil aaien.\" Mama knikte tevreden. Soms ontstaan de mooiste oplossingen uit de grootste problemen.",
+  "questions": [
+    {
+      "question": "Waar ontdekten Lieke en Tim hun hamster uiteindelijk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "achter de wasmachine",
+        "in de bijkeuken achter de wasmachine"
+      ],
+      "hint": "Zoek in het vijfde stukje waar ze Pluisje terugvinden."
+    },
+    {
+      "question": "Waarom werd Tim verdrietig toen Lieke boos op hem was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "zus",
+            "lieke",
+            "grote zus"
+          ],
+          [
+            "boos",
+            "kwaad",
+            "boos was",
+            "kwaad was"
+          ],
+          [
+            "huilen",
+            "huilde",
+            "tranen",
+            "verdrietig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het tweede stukje en denk aan Tim's gevoelens."
+    },
+    {
+      "question": "Wat leren Lieke en Tim uit deze ervaring over samenwerken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "samenwerken",
+            "samen",
+            "helpen",
+            "teamwork"
+          ],
+          [
+            "oplossing",
+            "oplossen",
+            "vinden",
+            "gevonden"
+          ],
+          [
+            "ruzie",
+            "boos",
+            "problemen",
+            "conflict"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat mama zegt en hoe het verhaal eindigt."
+    },
+    {
+      "question": "Vind je dat Tim een goede oplossing bedacht heeft? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Tim's oplossing en dit onderbouwen met argumenten uit het verhaal. Ze kunnen het eens of oneens zijn, zolang ze hun mening uitleggen.",
+        "exampleAnswer": "Ja, Tim bedacht een slimme oplossing omdat hij goed nadacht over waar een bang dier zich zou verstoppen. Hij wist dat hamsters warme, donkere plekjes zoeken.",
+        "keyElements": [
+          "mening/vind/denk",
+          "oplossing/idee",
+          "omdat/want/uitleg"
+        ],
+        "minWords": 6
+      },
+      "hint": "Geef je eigen mening en leg uit waarom je dat vindt."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal hoofdzakelijk gaat over samenwerking, het oplossen van conflicten, of dat problemen beter opgelost worden door samen te werken dan door ruzie te maken.",
+        "exampleAnswer": "Het verhaal gaat erover dat je problemen beter kunt oplossen door samen te werken in plaats van ruzie te maken.",
+        "keyElements": [
+          "samenwerken/samen/teamwork",
+          "problemen/conflict/oplossen",
+          "ruzie/boos"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat is de belangrijkste boodschap van het hele verhaal?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-hamster/image-1.png",
+      "alt": "Een meisje kijkt geschrokken naar een lege hamsterkooi met open deurtje"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-hamster/image-2.png",
+      "alt": "Twee kinderen kijken samen achter een wasmachine waar een kleine hamster zichtbaar is"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch girl looking shocked at an empty hamster cage with the door open, in a children's bedroom with typical Dutch home interior, children's book illustration style",
+    "Two children, a girl and younger boy, crouching together behind a washing machine in a utility room, with a small brown hamster visible, warm lighting, children's book illustration style"
+  ]
+}

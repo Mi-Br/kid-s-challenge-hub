@@ -1,0 +1,108 @@
+{
+  "id": "de-stilte-van-de-winter",
+  "title": "De Stilte van de Winter",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "seizoenen",
+  "text": "Het was de koudste dag van de winter toen Emma naar school liep. De bomen stonden kaal tegen de grijze lucht, en de wind floot door de takken. Op het schoolplein zag ze Thijs alleen bij de schommels staan. Hij droeg een oude jas die te klein was geworden en had geen warme muts op zijn hoofd.\n\n'Kijk die arme jongen,' fluisterde Merel tegen haar vriendinnen. 'Zijn ouders hebben geen geld voor fatsoenlijke winterkleren.' De meisjes giechelden zachtjes, maar Emma voelde zich ongemakkelijk. Ze wist dat Thijs het kon horen, omdat hij zijn hoofd liet zakken.\n\nIn de klas zag Emma dat Thijs rillings over zijn armen kreeg. Juf Marloes had de verwarming aangezet, maar het duurde altijd een tijdje voordat het warm werd. 'Waarom zeg je niks?' vroegen Emma's gedachten. Maar haar hart bonkte van angst. Als ze Thijs zou helpen, zouden Merel en haar vriendinnen misschien geen vrienden meer met haar willen zijn.\n\nToen de pauze begon, haalde Emma haar extra trui uit haar rugzak. Ze had hem meegenomen omdat mama altijd zei: 'In de winter moet je voorbereid zijn op plotselinge kou.' Met trillende handen liep ze naar Thijs toe. 'Wil je mijn trui lenen?' vroeg ze zacht. 'Ik heb er nog een in mijn kluisje.'\n\nThijs keek haar verrast aan en knikte dankbaar. Toen hij de warme trui aantrok, verscheen er een glimlach op zijn gezicht. Emma zag dat andere kinderen naar hen keken. Sommigen fluisterden, maar Lisa uit groep 7 gaf Emma een knipoog van goedkeuring. 'Dat was aardig van je,' zei ze later.\n\nDie middag vertelde Emma aan mama wat er was gebeurd. 'Ik ben trots op je,' zei mama terwijl ze Emma's haar streelde. 'Het is niet altijd makkelijk om het juiste te doen, vooral als anderen je uitlachen. Maar echte moed betekent opkomen voor iemand die hulp nodig heeft.' Emma voelde warme trots in haar buik, warmer dan welke winterjas ook.",
+  "questions": [
+    {
+      "question": "Welke kleur had de lucht op die winterdag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "grijs",
+        "grijze"
+      ],
+      "hint": "Kijk naar de eerste alinea waar het weer wordt beschreven."
+    },
+    {
+      "question": "Waarom voelde Emma zich ongemakkelijk toen Merel over Thijs praatte?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "thijs",
+            "jongen"
+          ],
+          [
+            "horen/hoorde/kon horen",
+            "verdrietig/zielig",
+            "pijn doen",
+            "naar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde nadat Merel sprak en hoe Thijs daarop reageerde."
+    },
+    {
+      "question": "Emma was bang om Thijs te helpen. Leg uit waarom en wat ze uiteindelijk deed om haar angst te overwinnen.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Emma bang was haar vriendschap met Merel kwijt te raken, en dat ze haar angst overwon door aan Thijs' behoefte te denken en het juiste te doen ondanks de gevolgen.",
+        "exampleAnswer": "Emma was bang dat Merel en haar vriendinnen geen vrienden meer met haar wilden zijn. Ze overwon haar angst door toch haar trui aan Thijs te geven omdat ze zag dat hij het koud had.",
+        "keyElements": [
+          "bang/angst voor vriendschap verliezen",
+          "deed het toch/overwon door te helpen",
+          "trui geven/helpen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Lees alinea 3 en 4 - wat dacht Emma en wat deed ze toen ondanks haar angst?"
+    },
+    {
+      "question": "Vind je dat Emma de juiste keuze heeft gemaakt? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee) en deze onderbouwen met argumenten uit de tekst of eigen redenering over vriendschap, moed, of het helpen van anderen.",
+        "exampleAnswer": "Ja, Emma maakte de juiste keuze omdat helpen belangrijker is dan wat anderen denken. Thijs had het koud en zij kon hem helpen.",
+        "keyElements": [
+          "ja/nee + uitleg",
+          "helpen/aardig zijn",
+          "moed/juiste ding doen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat mama aan het einde zei en wat jij belangrijk vindt in vriendschap."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed hebben om het juiste te doen, ook als dat moeilijk is of anderen het niet leuk vinden.",
+        "exampleAnswer": "Het verhaal gaat over moed hebben om iemand te helpen, ook als je bang bent wat anderen daarvan vinden.",
+        "keyElements": [
+          "moed/dapper zijn",
+          "helpen/aardig zijn",
+          "juiste doen ondanks angst"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Emma leerde en wat mama aan het einde tegen haar zei."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stilte-van-de-winter/image-1.png",
+      "alt": "Emma ziet Thijs alleen bij de schommels staan op een koude winterdag"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stilte-van-de-winter/image-2.png",
+      "alt": "Emma geeft haar warme trui aan Thijs in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl Emma walking to school on a cold winter day, seeing a boy Thijs standing alone by swings in a schoolyard, bare trees against grey sky, children's book illustration style",
+    "Inside a Dutch classroom, Emma giving her warm sweater to Thijs who looks grateful, other children watching in background, winter scene through window, children's book illustration style"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "vrienden-op-de-markt",
+  "title": "Vrienden op de markt",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de markt",
+  "text": "Lotte en Finn gaan elke zaterdag samen naar de markt. Ze kopen altijd stroopwafels bij kraam nummer vijf. De vrienden sparen hun zakgeld de hele week voor deze lekkernij.\n\nOp een koude novemberdag ontmoeten ze Sanne bij de bloemenverkoopster. Sanne zit op een dure school in de stad. Ze draagt mooie kleren en heeft de nieuwste telefoon. \"Waarom kopen jullie van die goedkope stroopwafels?\" vraagt Sanne. \"Mijn ouders kopen alleen biologische koekjes van honderd euro per kilo.\" Lotte voelt zich ineens verlegen omdat haar jas oud is.\n\nDe weken daarna gaat Lotte steeds vaker met Sanne naar dure winkels. Ze koopt dingen die ze eigenlijk niet kan betalen. Finn voelt zich buitengesloten want hij heeft niet zoveel geld. Hij gaat nu alleen naar de markt en mist zijn vriendin enorm.\n\nToen het december werd, zag Sanne Lotte huilen bij de bushalte. Lotte had al haar spaargeld uitgegeven en kon geen kerstcadeau voor haar broertje kopen. Sanne haalde alleen haar schouders op en liep weg. Die avond belde Finn zijn vriendin. \"Kom morgen naar de markt,\" zei hij vriendelijk. \"Ik heb een plan.\"\n\nDe volgende ochtend werkten Lotte en Finn samen bij de stroopwafelkraam. Ze mochten helpen omdat het zo druk was voor de kerst. Samen verdienden ze genoeg geld voor het cadeau. Terwijl ze de warme stroopwafels aan klanten gaven, lachten ze weer zoals vroeger. \"Echte vriendschap kun je niet kopen,\" zei Finn wijslijk. Lotte knikte en nam een grote hap van haar favoriete stroopwafel.",
+  "questions": [
+    {
+      "question": "Welk kraamnummer verkoopt de stroopwafels?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "vijf",
+        "nummer vijf",
+        "kraam vijf",
+        "kraam nummer vijf"
+      ],
+      "hint": "Kijk naar de eerste alinea van het verhaal."
+    },
+    {
+      "question": "Waarom voelt Finn zich buitengesloten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "duur",
+            "betalen",
+            "kopen"
+          ],
+          [
+            "sanne",
+            "lotte",
+            "alleen",
+            "vrienden",
+            "vriendin"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er verandert nadat Sanne er is."
+    },
+    {
+      "question": "Hoe verdienen Lotte en Finn geld voor het kerstcadeau?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "werken",
+            "werkten",
+            "helpen",
+            "hielpen",
+            "mochten"
+          ],
+          [
+            "kraam",
+            "stroopwafel",
+            "stroopwafels",
+            "markt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed."
+    },
+    {
+      "question": "Vind je dat Sanne een goede vriendin is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "geen",
+            "slecht",
+            "gemeen"
+          ],
+          [
+            "liep weg",
+            "wegliep",
+            "alleen",
+            "buitengesloten",
+            "schouders",
+            "haalde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Sanne reageert als Lotte verdrietig is."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/vrienden-op-de-markt/image-1.png",
+      "alt": "Lotte en Finn kopen stroopwafels op de markt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/vrienden-op-de-markt/image-2.png",
+      "alt": "Lotte en Finn werken samen bij de stroopwafelkraam"
+    }
+  ],
+  "imagePrompts": [
+    "Two children buying stroopwafels at a Dutch market stall, children's book illustration style, the vendor smiling behind the counter with warm stroopwafels displayed",
+    "Two children working together at a stroopwafel stand at a Dutch market, helping customers during the busy Christmas season, children's book illustration style"
+  ]
+}

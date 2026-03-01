@@ -1,0 +1,122 @@
+{
+  "id": "het-geheim-van-luna",
+  "title": "Het Geheim van Luna",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "huisdieren",
+  "text": "Sofie en haar broer Daan hadden altijd ruzie over hun kat Luna. Sofie wilde dat Luna binnen bleef omdat ze bang was dat de kat zou verdwalen in hun nieuwe wijk in Amsterdam. Daan vond dat Luna vrij moest zijn om buiten te spelen, want katten horen volgens hem in de natuur thuis.\n\nElke ochtend ontstond er weer discussie. \"Luna is veel gelukkiger binnen,\" zei Sofie boos terwijl ze haar ontbijt at. \"Kijk maar hoe ze op haar kussen ligt te spinnen.\" Daan schudde zijn hoofd. \"Dat is omdat ze geen keuze heeft! Katten zijn jagers die hun territorium moeten verkennen.\"\n\nOp een dag ontdekten ze iets bijzonders. Luna had een geheime plek gevonden: een klein raampje in de kelder dat op een kiertje stond. Ze kroop daar elke middag doorheen om in de achtertuin te jagen op vlinders, maar keerde altijd vóór het avondeten terug naar haar warme plekje bij de verwarming.\n\nToen Sofie en Daan dit zagen, begrepen ze eindelijk wat Luna echt wilde. Ze maakten samen afspraken: overdag mocht Luna naar buiten via het kelderraampje, maar 's avonds en 's nachts bleef ze veilig binnen. Nu waren alle drie tevreden, want Luna had gekregen wat ze het meeste nodig had - de vrijheid om te kiezen.\n\nSinds die dag hebben Sofie en Daan nooit meer ruzie gehad over Luna. Ze hebben geleerd dat compromissen soms de beste oplossingen zijn, zelfs voor katten die hun eigen geheime wensen hebben.",
+  "questions": [
+    {
+      "question": "Waar woonden Sofie en Daan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "amsterdam",
+        "in een nieuwe wijk in amsterdam",
+        "nieuwe wijk in amsterdam"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom wilde Sofie dat Luna binnen bleef?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "bezorgd",
+            "ongerust"
+          ],
+          [
+            "verdwalen",
+            "kwijtraken",
+            "verliezen",
+            "wegloopt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan Sofie's gevoel in de eerste alinea."
+    },
+    {
+      "question": "Hoe loste Luna het probleem zelf op?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "raampje",
+            "raam",
+            "kelderraampje"
+          ],
+          [
+            "overdag",
+            "middag",
+            "dag"
+          ],
+          [
+            "terugkeerde",
+            "kwam terug",
+            "keerde terug",
+            "ging terug"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over Luna's geheime ontdekking."
+    },
+    {
+      "question": "Vind je dat Sofie en Daan een goede oplossing hebben gevonden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de oplossing en deze onderbouwen. De leerling kan zowel positief als negatief oordelen, maar moet duidelijke argumenten geven.",
+        "exampleAnswer": "Ja, het is een goede oplossing omdat Luna nu vrijheid heeft overdag maar 's nachts veilig is. Alle drie zijn tevreden.",
+        "keyElements": [
+          "mening/oordeel",
+          "argumenten/redenen",
+          "rekening houden met behoeften"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over of de oplossing eerlijk is voor iedereen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over compromissen sluiten en naar elkaar luisteren bij conflicten. Het gaat om samenwerking in plaats van ruzie.",
+        "exampleAnswer": "Het verhaal gaat over hoe broer en zus leren om compromissen te maken en samen een oplossing te vinden voor hun conflict.",
+        "keyElements": [
+          "compromissen/samenwerken",
+          "conflicten oplossen/ruzie stoppen",
+          "naar elkaar luisteren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Sofie en Daan hebben geleerd."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-luna/image-1.png",
+      "alt": "Sofie en Daan zitten aan de ontbijttafel te discussiëren terwijl Luna op een kussen ligt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-luna/image-2.png",
+      "alt": "Luna kruipt door een klein kelderraampje naar buiten terwijl Sofie en Daan kijken"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch children, a girl and boy, having a discussion at breakfast table with their cat Luna sleeping on a cushion, children's book illustration style, warm Dutch home interior",
+    "A gray tabby cat squeezing through a small basement window into a garden while two children watch in surprise, children's book illustration style, Dutch residential backyard setting"
+  ]
+}

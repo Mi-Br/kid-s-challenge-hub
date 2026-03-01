@@ -1,0 +1,103 @@
+{
+  "id": "het-grote-onweer",
+  "title": "Het Grote Onweer",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "Lisa kijkt door het raam. De lucht wordt steeds donkerder. Grote zwarte wolken komen dichterbij. Ze hoort de wind hard waaien door de bomen.\n\nMama zegt: \"Er komt onweer, Lisa. We vieren vandaag Sinterklaas binnen.\" Lisa is bang voor onweer. De harde donder maakt haar altijd verdrietig. \"Ik wil niet dat het onweert,\" fluistert ze.\n\nPapa heeft een goed idee. \"Lisa, kom eens hier. Wij gaan samen naar het onweer kijken.\" Hij pakt haar hand. \"Onweer is niet eng als je begrijpt wat er gebeurt.\"\n\nZe gaan samen bij het grote raam staan. Papa legt uit: \"De bliksem maakt licht. Dan tellen we tot de donder komt.\" Lisa knikt. Ze wil het proberen omdat papa bij haar is.\n\nDan gebeurt het! Een grote bliksemflits verlicht de hele straat. Lisa telt: \"Een, twee, drie, vier.\" Dan komt de donder. \"Het onweer is nog ver weg,\" zegt papa trots. \"Jij bent heel dapper.\"\n\nLisa lacht. Het onweer was helemaal niet zo eng! Ze heeft samen met papa naar buiten gekeken en niets ergs is gebeurd. Nu kan ze van het mooie weer genieten wanneer de zon weer gaat schijnen.",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de wolken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zwart",
+        "zwarte"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke feestdag vieren ze vandaag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "sinterklaas"
+      ],
+      "hint": "Mama vertelt dit in de tweede alinea."
+    },
+    {
+      "question": "Waarom wordt Lisa niet meer bang voor onweer?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "papa",
+            "vader"
+          ],
+          [
+            "samen",
+            "bij haar",
+            "helpt",
+            "uitlegt",
+            "uitleggen"
+          ],
+          [
+            "begrijpt",
+            "begrijpen",
+            "snapt",
+            "leert"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat papa doet om Lisa te helpen."
+    },
+    {
+      "question": "Vind je dat Lisa dapper is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "dapper",
+            "moedig",
+            "stoer"
+          ],
+          [
+            "bang",
+            "eng",
+            "angstig",
+            "verdrietig"
+          ],
+          [
+            "proberen",
+            "probeert",
+            "geprobeerd",
+            "kijken",
+            "gekeken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa zich voelt en wat ze doet."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-grote-onweer/image-1.png",
+      "alt": "Lisa kijkt angstig door het raam naar de donkere wolken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-grote-onweer/image-2.png",
+      "alt": "Papa en Lisa staan samen bij het raam en kijken naar de bliksem"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking worried through a window at dark storm clouds gathering outside, children's book illustration style, cozy Dutch home interior",
+    "A father and daughter standing together at a large window watching lightning illuminate the street outside, both looking calm and curious, children's book illustration style"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "de-keuze-van-de-klas",
+  "title": "De Keuze van de Klas",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "democratie",
+  "text": "Ik zit in groep acht en onze juf vroeg: \"Wie wil de klassenvoorzitter worden?\" Mijn beste vriend Tim stak meteen zijn hand op. Hij is populair en grappig. Alle coole kinderen zouden op hem stemmen.\n\nMaar ik dacht aan Lila. Zij helpt altijd andere kinderen met rekenen. Ze organiseert ook de recycling in onze klas. Niemand let veel op haar, maar ze werkt heel hard. Ik vind dat zij een goede leider zou zijn.\n\nDe stemming was morgen. Ik moest kiezen: stem ik op mijn beste vriend Tim, of op Lila die het beste zou zijn voor onze klas? Tim zou boos worden als ik niet op hem stem. Maar ik vind dat de beste persoon moet winnen, niet de populairste.\n\nDie avond dacht ik lang na. Democratie betekent dat je stemt op wie je het beste vindt, niet op je vrienden. De volgende dag stemde ik op Lila. Tim werd boos, maar Lila won de verkiezing. Nu is onze klas beter georganiseerd.\n\nTim en ik zijn weer vrienden geworden. Hij begrijpt nu waarom ik op Lila stemde. Soms moet je moeilijke keuzes maken, maar dan doe je wat goed is.",
+  "questions": [
+    {
+      "question": "Wie won de verkiezing voor klassenvoorzitter?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "lila"
+      ],
+      "hint": "Kijk naar de vierde alinea."
+    },
+    {
+      "question": "Waarom wilde de verteller eigenlijk op Lila stemmen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "helpt",
+            "helpen",
+            "geholpen"
+          ],
+          [
+            "hard",
+            "goed",
+            "beste",
+            "beter"
+          ],
+          [
+            "werkt",
+            "werken",
+            "gewerkt",
+            "organiseert",
+            "organiseren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er in de tweede alinea over Lila staat."
+    },
+    {
+      "question": "Hoe voelde Tim zich toen hij hoorde dat de verteller niet op hem had gestemd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "boos",
+            "kwaad",
+            "verdrietig"
+          ],
+          [
+            "werd",
+            "was",
+            "voelde",
+            "reageerde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea nog een keer."
+    },
+    {
+      "question": "Wat betekent democratie volgens de verteller in dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "stemmen",
+            "stem",
+            "stemt",
+            "gestemd"
+          ],
+          [
+            "beste",
+            "goed",
+            "goede",
+            "beter"
+          ],
+          [
+            "vrienden",
+            "vriend",
+            "populair",
+            "populairste"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat de verteller dacht in de vierde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-de-klas/image-1.png",
+      "alt": "Een klaslokaal waar kinderen hun hand opsteken tijdens een verkiezing"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-de-klas/image-2.png",
+      "alt": "Een jongen die alleen nadenkt over een moeilijke keuze"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch elementary school classroom with children raising their hands during a class election, teacher at the front, children's book illustration style",
+    "A young boy sitting alone at his desk in the evening, thinking deeply about a difficult choice, warm lighting, children's book illustration style"
+  ]
+}

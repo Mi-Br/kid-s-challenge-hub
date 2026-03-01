@@ -1,0 +1,114 @@
+{
+  "id": "de-magische-voetbalschoenen",
+  "title": "De Magische Voetbalschoenen",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "sport",
+  "text": "Sanne en Max waren beste vrienden, maar op het voetbalveld waren ze rivalen. Net als David en Goliath uit de bijbelse verhalen, leken ze totaal verschillend. Sanne was klein en snel, terwijl Max groot en sterk was.\n\nOp een regenachtige dinsdag ontdekte Sanne een paar oude voetbalschoenen in de kleedkamer van voetbalvereniging Quick Boys. De schoenen glommen mysterieus, alsof ze bedekt waren met sterrenpoeder. Zonder na te denken trok ze de schoenen aan.\n\nTijdens de training merkte iedereen dat Sanne plotseling ongelofelijk goed kon voetballen. Ze schoot de bal precies waar ze wilde, omdat de schoenen haar voeten perfect geleidden. Max werd jaloers en geïrriteerd. \"Dat is niet eerlijk!\" riep hij boos na elke perfecte pass van Sanne.\n\nDe spanning tussen de vrienden groeide toen coach Van der Berg aankondigde dat er maar één plek vrij was in het selectieteam. \"Jullie moeten tegen elkaar voetballen om te bepalen wie er mag,\" zei hij. Sanne wilde de magische schoenen gebruiken, hoewel ze diep vanbinnen wist dat dit niet sportief was.\n\nDie avond lag Sanne wakker en dacht na over hun vriendschap. Ze herinnerde zich hoe Max haar had geholpen toen ze vorig jaar haar been had gebroken. Toen begreep ze wat echt belangrijk was. De volgende dag gaf ze de schoenen aan Max. \"Vriendschap is belangrijker dan winnen,\" zei ze. Max was zo geraakt door haar gebaar dat hij de schoenen weigerde. \"Laten we eerlijk tegen elkaar spelen,\" stelde hij voor.\n\nZonder de magische schoenen speelden beide vrienden hun beste wedstrijd ooit. Coach Van der Berg was zo onder de indruk van hun sportiviteit dat hij besloot: \"Jullie gaan allebei naar het selectieteam. Teamwork zoals jullie laten zien, is precies wat we nodig hebben.\"",
+  "questions": [
+    {
+      "question": "Welke voetbalvereniging wordt genoemd in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "quick boys"
+      ],
+      "hint": "Zoek in de tweede alinea waar Sanne de schoenen vindt."
+    },
+    {
+      "question": "Waarom werd Max jaloers op Sanne tijdens de training?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ongelofelijk",
+            "perfect",
+            "goed",
+            "beter"
+          ],
+          [
+            "voetballen",
+            "speelde",
+            "schoot",
+            "passes"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat er gebeurde toen Sanne de schoenen aanhad."
+    },
+    {
+      "question": "Vind je dat Sanne de juiste keuze maakte door de schoenen aan Max te geven? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Sannes keuze en deze onderbouwen. Goede argumenten kunnen zijn: vriendschap is belangrijker dan winnen, eerlijk spelen is beter, of juist dat winnen ook belangrijk kan zijn. De redenering moet logisch zijn.",
+        "exampleAnswer": "Ja, ik vind dat Sanne de goede keuze maakte omdat vriendschap belangrijker is dan winnen en omdat het niet eerlijk zou zijn om magische schoenen te gebruiken.",
+        "keyElements": [
+          "vriendschap/eerlijk",
+          "goede/slechte keuze",
+          "argument/reden"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Sanne zelf zei over vriendschap en fairness."
+    },
+    {
+      "question": "Wat betekent het woord 'rivalen' in de eerste alinea?",
+      "questionType": "woordbetekenis",
+      "hint": "Lees hoe Sanne en Max zich gedragen op het voetbalveld.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "tegenstanders"
+          ],
+          [
+            "concurrenten"
+          ],
+          [
+            "mensen die tegen elkaar spelen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal hoofdzakelijk gaat over vriendschap die belangrijker is dan winnen, of over eerlijk spelen versus vals spelen. Het mag ook gaan over samenwerken in plaats van concurreren.",
+        "exampleAnswer": "Het verhaal gaat erover dat vriendschap belangrijker is dan winnen en dat eerlijk spelen beter is dan vals spelen.",
+        "keyElements": [
+          "vriendschap/samenwerken",
+          "eerlijk spelen/sportiviteit",
+          "belangrijker dan winnen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat Sanne leert en wat de coach uiteindelijk besluit."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-voetbalschoenen/image-1.png",
+      "alt": "Sanne die glimmende voetbalschoenen aantrekt in een kleedkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-voetbalschoenen/image-2.png",
+      "alt": "Sanne en Max die samen naar het selectieteam gaan"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl putting on glowing, magical football boots in a sports club changing room, children's book illustration style, with team jerseys hanging in background",
+    "Two happy children, a small girl and tall boy, walking together onto a football field wearing matching team uniforms, Dutch football club setting, children's book illustration style"
+  ]
+}

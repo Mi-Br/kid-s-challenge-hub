@@ -1,0 +1,106 @@
+{
+  "id": "gezond-zijn-is-moeilijk",
+  "title": "Gezond zijn is moeilijk",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "gezondheid",
+  "text": "Lisa zit op de bank met een zak chips. Ze eet elke dag na school chips en koekjes. Haar moeder zegt dat ze gezonder moet eten. Lisa vindt dat vervelend om te horen.\n\n\"Je moet meer groenten eten,\" zegt mama. \"En je moet ook meer bewegen.\" Lisa zucht diep. Ze houdt niet van groenten. Ze houdt wel van chips en snoep. Bewegen vindt ze ook saai.\n\nDe volgende dag heeft Lisa hoofdpijn op school. Ze voelt zich moe en slap. De juf vraagt of alles goed gaat. Lisa vertelt over de hoofdpijn. \"Heb je goed ontbeten?\" vraagt de juf. Lisa schud haar hoofd. Ze heeft alleen een koekje gegeten.\n\n\"Misschien helpt het als je een appel eet,\" zegt de juf vriendelijk. Lisa pakt een appel uit haar tas. Na het eten voelt ze zich al wat beter. Ze begint na te denken over wat mama heeft gezegd.\n\nThuis praat Lisa met haar moeder. \"Ik wil proberen om gezonder te eten,\" zegt ze. \"Maar het is wel moeilijk.\" Mama knikt begripvol. \"We kunnen het samen proberen,\" zegt mama. \"Stap voor stap.\"",
+  "questions": [
+    {
+      "question": "Wat eet Lisa elke dag na school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "chips en koekjes",
+        "chips",
+        "koekjes"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom heeft Lisa hoofdpijn op school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "slecht",
+            "niet goed",
+            "weinig",
+            "geen"
+          ],
+          [
+            "ontbeten",
+            "ontbijt",
+            "gegeten",
+            "eten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa heeft ontbeten."
+    },
+    {
+      "question": "Hoe voelt Lisa zich nadat ze de appel heeft gegeten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "beter",
+            "goed",
+            "fijner"
+          ],
+          [
+            "voelt",
+            "voelde",
+            "gaat"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er gebeurt na het eten van de appel."
+    },
+    {
+      "question": "Wat wil Lisa aan het eind van het verhaal proberen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "gezonder",
+            "beter",
+            "goed"
+          ],
+          [
+            "eten",
+            "voeding",
+            "voedsel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het gesprek tussen Lisa en haar moeder."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/gezond-zijn-is-moeilijk/image-1.png",
+      "alt": "Lisa zit op de bank met een zak chips"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/gezond-zijn-is-moeilijk/image-2.png",
+      "alt": "Lisa eet een appel in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting on a couch eating chips from a bag, looking conflicted, children's book illustration style",
+    "A teenage girl in a classroom eating an apple with her teacher nearby looking encouraging, children's book illustration style"
+  ]
+}

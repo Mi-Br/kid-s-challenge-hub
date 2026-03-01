@@ -1,0 +1,125 @@
+{
+  "id": "de-groepschat",
+  "title": "De Groepschat",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "technologie",
+  "text": "Lisa krijgt een nieuwe telefoon van haar ouders. Ze is heel blij. Op school hebben alle kinderen een groepschat. Lisa wil graag meedoen.\n\nDe eerste dag stuurt Lisa veel berichten. Ze vindt het leuk om foto's te delen. De andere kinderen reageren niet veel. Lisa stuurt nog meer berichten.\n\nNa een paar dagen gebeurt er iets vervelends. De populaire kinderen maken een nieuwe groepschat. Ze nodigen Lisa niet uit. Lisa voelt zich verdrietig en buitengesloten.\n\nLisa praat met haar moeder over het probleem. Haar moeder zegt dat echte vrienden je accepteren zoals je bent. Lisa beseft dat ze te veel berichten stuurde. Ze wil het anders doen.\n\nDe volgende dag op school praat Lisa gewoon met haar klasgenoten. Ze gebruikt haar telefoon minder. Langzaam merkt ze dat gesprekken leuker zijn dan berichten. Lisa voelt zich beter over zichzelf.",
+  "questions": [
+    {
+      "question": "Wat krijgt Lisa van haar ouders?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een nieuwe telefoon",
+        "een telefoon",
+        "nieuwe telefoon"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom voelt Lisa zich verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "uitgenodigd",
+            "uitnodiging",
+            "nodigen",
+            "niet uitgenodigd"
+          ],
+          [
+            "nieuwe groepschat",
+            "groepschat",
+            "populaire kinderen"
+          ],
+          [
+            "buitengesloten",
+            "uitgesloten",
+            "niet meedoen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er in de derde alinea gebeurt."
+    },
+    {
+      "question": "Wat ontdekt Lisa aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gesprekken",
+            "praten",
+            "spreken"
+          ],
+          [
+            "leuker",
+            "beter",
+            "fijner",
+            "leuker zijn"
+          ],
+          [
+            "berichten",
+            "telefoon",
+            "minder telefoon"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed."
+    },
+    {
+      "question": "Vind je dat Lisa's moeder goed advies geeft? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "juist",
+            "waar"
+          ],
+          [
+            "echte vrienden",
+            "vrienden",
+            "accepteren",
+            "zoals je bent"
+          ],
+          [
+            "belangrijk",
+            "helpt",
+            "goed advies",
+            "wijze woorden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa's moeder zegt over echte vrienden."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-groepschat/image-1.png",
+      "alt": "Lisa met haar nieuwe telefoon, blij kijkend naar het scherm"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-groepschat/image-2.png",
+      "alt": "Lisa praat met haar moeder over het telefoonprobleem"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage Dutch girl holding a new smartphone, looking happy and excited, in a bright modern bedroom with typical Dutch home decor, children's book illustration style",
+    "A teenage Dutch girl having a serious conversation with her mother in a cozy Dutch living room, both sitting on a couch, the mother gesturing kindly while giving advice, children's book illustration style"
+  ]
+}

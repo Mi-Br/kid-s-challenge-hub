@@ -1,0 +1,82 @@
+{
+  "id": "de-gescheurde-jas",
+  "title": "De Gescheurde Jas",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "kleding",
+  "text": "Lotte draagt haar nieuwe rode jas naar school. De jas is heel mooi en warm. In de pauze speelt ze met haar beste vriendin Emma. Ze rennen hard op het plein.\n\nToen Lotte over het hek klom, ging het mis. Haar jas blijft haken aan het ijzer. RRRIP! De jas scheurt open. Er zit een grote scheur in de mouw van Emma's lievelingsjas die ze had geleend.\n\nLotte voelt zich heel erg schuldig. Ze heeft Emma's jas kapot gemaakt. Emma kijkt verdrietig naar de scheur. \"Mijn jas is stuk,\" zegt Emma zacht. Lotte weet niet wat ze moet zeggen.\n\nThuis vertelt Lotte alles aan haar mama. \"Ik moet sorry zeggen,\" zegt Lotte. \"En ik wil de jas laten repareren.\" Mama knikt en glimlacht. \"Dat is een goed plan.\"\n\nDe volgende dag brengt Lotte de jas naar de naaister. De naaister maakt de scheur heel netjes dicht. Je kunt het bijna niet meer zien! Lotte geeft de jas terug aan Emma en zegt sorry. Emma lacht weer. \"Dank je wel, Lotte. Je bent een echte vriendin.\"",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Lottes nieuwe jas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom scheurt de jas?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hek",
+            "klimmen",
+            "klom",
+            "klimt"
+          ],
+          [
+            "haken",
+            "haakt",
+            "blijft haken",
+            "vastzitten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er gebeurt als Lotte over het hek gaat."
+    },
+    {
+      "question": "Hoe voelt Lotte zich nadat de jas scheurt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "schuldig",
+            "erg schuldig",
+            "heel erg schuldig"
+          ],
+          [
+            "slecht",
+            "verdrietig",
+            "rot"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het begin van de derde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gescheurde-jas/image-1.png",
+      "alt": "Lotte in een rode jas klimt over een hek op het schoolplein"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gescheurde-jas/image-2.png",
+      "alt": "Lotte geeft de gerepareerde jas terug aan Emma, beide meisjes glimlachen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl in a red jacket climbing over a school fence, children's book illustration style, the jacket getting caught on the metal fence",
+    "Two young girls smiling, one handing a red jacket back to the other, children's book illustration style, showing friendship and forgiveness"
+  ]
+}

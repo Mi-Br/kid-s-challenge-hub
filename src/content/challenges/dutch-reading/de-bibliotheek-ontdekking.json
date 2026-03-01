@@ -1,0 +1,118 @@
+{
+  "id": "de-bibliotheek-ontdekking",
+  "title": "De Bibliotheek Ontdekking",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de bibliotheek",
+  "text": "Lisa was niet zo dol op lezen. Boeken vond ze saai en moeilijk. Maar haar oma wilde graag samen naar de bibliotheek gaan.\n\nIn de bibliotheek liep Lisa rond tussen de hoge boekenkasten. Plotseling zag ze een boek met prachtige plaatjes van dieren. Ze sloeg het open en begon te lezen. Het verhaal ging over een jonge olifant die zijn familie zocht. Lisa dacht bij zichzelf: 'Dit is eigenlijk heel interessant!'\n\nElke week ging Lisa nu naar de bibliotheek. Ze leende steeds meer boeken over dieren. De bibliothecaresse, mevrouw Van der Berg, hielp haar nieuwe boeken te vinden.\n\nNa een paar maanden kon Lisa veel beter lezen dan eerst. Ze las zelfs dikkere boeken zonder plaatjes. Lisa was trots op zichzelf omdat ze zo'n goede lezer was geworden.\n\nOma was ook heel blij. 'Je bent een echte boekenliefhebber geworden,' zei ze tegen Lisa. Nu gingen ze samen elke zaterdag naar de bibliotheek om nieuwe avonturen te ontdekken.",
+  "questions": [
+    {
+      "question": "Wie wilde graag samen naar de bibliotheek gaan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oma",
+        "lisa's oma",
+        "haar oma"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom vond Lisa het eerste boek interessant?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "prachtige",
+            "mooie",
+            "leuke"
+          ],
+          [
+            "plaatjes",
+            "afbeeldingen",
+            "tekeningen"
+          ],
+          [
+            "dieren",
+            "olifant",
+            "verhaal"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa zag toen ze het boek opensloeg."
+    },
+    {
+      "question": "Hoe vaak ging Lisa naar de bibliotheek nadat ze het eerste boek had gelezen?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de derde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "elke"
+          ],
+          [
+            "week"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind je het belangrijk dat Lisa hulp kreeg van mevrouw Van der Berg? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "belangrijk",
+            "goed",
+            "handig",
+            "nuttig"
+          ],
+          [
+            "helpen",
+            "hielp",
+            "hulp",
+            "ondersteuning"
+          ],
+          [
+            "nieuwe",
+            "meer",
+            "andere",
+            "betere"
+          ],
+          [
+            "boeken",
+            "verhalen",
+            "lezen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe de bibliothecaresse Lisa hielp bij het vinden van boeken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-bibliotheek-ontdekking/image-1.png",
+      "alt": "Lisa tussen de boekenkasten met een boek over dieren"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-bibliotheek-ontdekking/image-2.png",
+      "alt": "Lisa en oma samen boeken uitkiezen in de bibliotheek"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl discovering a colorful animal book between tall library shelves, children's book illustration style, warm library lighting",
+    "A grandmother and young girl happily selecting books together at a Dutch library, both smiling, children's book illustration style"
+  ]
+}

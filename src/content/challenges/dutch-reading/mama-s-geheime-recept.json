@@ -1,0 +1,123 @@
+{
+  "id": "mama-s-geheime-recept",
+  "title": "Mama's Geheime Recept",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Lisa zag mama verdrietig in de keuken staan. \"Wat is er, mama?\" vroeg ze. Mama zuchtte. \"Oma komt morgen op bezoek. Ze houdt van pannenkoeken, maar ik kan ze niet goed maken.\"\n\nLisa herinnerde zich vorig jaar. Toen maakte mama ook pannenkoeken voor oma's verjaardag. Ze waren zwart en hard omdat mama ze te lang in de pan liet. Oma at ze toch op en zei dat ze lekker waren, maar Lisa zag dat oma er moeite mee had.\n\n\"Ik help je, mama,\" zei Lisa. \"We kunnen samen oefenen.\" Ze haalde het kookboek van opa uit de kast. \"Hier staat oma's recept. Opa schreef het op toen hij nog leefde.\"\n\nMama las het recept. \"Dit ziet er anders uit dan wat ik altijd doe,\" zei ze. Lisa en mama gingen aan de slag. Ze mengden bloem, melk en eieren. Lisa lette goed op de tijd omdat dat het belangrijkste was.\n\nDe eerste pannenkoek werd perfect goudbruin. Mama glimlachte voor het eerst die dag. \"Dank je wel, Lisa. Zonder jou zou ik morgen weer...\"\n\nLisa knikte. Ze wist dat oma heel blij zou zijn, maar ze vroeg zich af of mama de pannenkoeken morgen ook zo goed zou maken als Lisa er niet bij was.",
+  "questions": [
+    {
+      "question": "Waarom was mama verdrietig?",
+      "questionType": "begrijpen",
+      "hint": "Lees het eerste stukje waar mama praat.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "pannenkoeken"
+          ],
+          [
+            "niet"
+          ],
+          [
+            "goed"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat gebeurde er vorig jaar met oma's pannenkoeken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "zwart",
+            "verbrand",
+            "zwarte"
+          ],
+          [
+            "hard",
+            "harde"
+          ],
+          [
+            "te lang",
+            "lang"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk terug aan wat Lisa zich herinnerde."
+    },
+    {
+      "question": "Waarom werden de pannenkoeken deze keer wel goed?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lisa",
+            "samen",
+            "geholpen"
+          ],
+          [
+            "recept",
+            "kookboek",
+            "opa"
+          ],
+          [
+            "tijd",
+            "oplette",
+            "lette"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat deed Lisa om mama te helpen?"
+    },
+    {
+      "question": "Wat betekent 'zuchtte' in de eerste alinea?",
+      "questionType": "woordbetekenis",
+      "hint": "Mama was verdrietig. Wat voor geluid maakte ze toen?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "diep ademhalen omdat je verdrietig bent"
+          ],
+          [
+            "een geluid maken omdat je verdrietig bent"
+          ],
+          [
+            "geluid van verdriet"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mama-s-geheime-recept/image-1.png",
+      "alt": "Lisa en mama staan samen in de keuken met een kookboek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mama-s-geheime-recept/image-2.png",
+      "alt": "Een perfecte goudbruine pannenkoek in de pan"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl and her mother standing together in a bright kitchen, reading from an old cookbook, with flour and ingredients on the counter, children's book illustration style",
+    "A perfect golden-brown pancake sizzling in a frying pan, with a mother and daughter smiling in the background, warm kitchen lighting, children's book illustration style"
+  ]
+}

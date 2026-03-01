@@ -1,0 +1,110 @@
+{
+  "id": "de-nieuwe-telefoon",
+  "title": "De Nieuwe Telefoon",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "technologie",
+  "text": "Sanne zit in groep acht. Alle kinderen in haar klas hebben een smartphone. Sanne heeft alleen een oude telefoon van haar moeder. De telefoon kan alleen bellen en sms'en.\n\nOp school praten haar klasgenoten over TikTok en Instagram. Ze maken foto's en delen ze met elkaar. Sanne kan niet meedoen. Ze voelt zich buitengesloten. \"Waarom heb jij geen echte telefoon?\" vraagt Emma tijdens de pauze.\n\nSanne gaat naar huis. Ze denkt na over volgend jaar. Dan gaat ze naar de middelbare school. Alle kinderen daar hebben vast ook een smartphone. Ze voelt zich zenuwachtig. Wat als ze geen vrienden maakt?\n\nDie avond praat Sanne met haar ouders. \"Ik ben bang dat ik geen vrienden maak zonder smartphone,\" zegt ze. Haar vader knikt. \"We begrijpen je zorgen. Misschien kunnen we samen een plan maken.\"\n\nSanne en haar ouders maken afspraken over een smartphone. Ze moet eerst geld sparen. Ook moet ze leren over veilig internet gebruik. Sanne voelt zich nog steeds een beetje bang voor de middelbare school. Maar ze heeft nu een plan.",
+  "questions": [
+    {
+      "question": "Wat voor telefoon heeft Sanne nu?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een oude telefoon",
+        "een oude telefoon van haar moeder"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelt Sanne zich buitengesloten op school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "meedoen",
+            "meepraten",
+            "deelnemen"
+          ],
+          [
+            "foto's",
+            "tiktok",
+            "instagram",
+            "smartphone",
+            "sociale media"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat de andere kinderen doen in de pauze."
+    },
+    {
+      "question": "Waar maakt Sanne zich zorgen over voor de middelbare school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vrienden",
+            "vriendinnen",
+            "vriendschappen"
+          ],
+          [
+            "maken",
+            "krijgen",
+            "vinden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Sanne tegen haar ouders zegt."
+    },
+    {
+      "question": "Wat moet Sanne doen voordat ze een smartphone krijgt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "sparen",
+            "verdienen"
+          ],
+          [
+            "leren",
+            "studeren",
+            "bestuderen"
+          ],
+          [
+            "veilig",
+            "veiligheid",
+            "internet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat ze met haar ouders afspreekt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-telefoon/image-1.png",
+      "alt": "Sanne kijkt verdrietig naar haar oude telefoon terwijl klasgenoten hun smartphones gebruiken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-telefoon/image-2.png",
+      "alt": "Sanne praat met haar ouders aan de keukentafel over een smartphone"
+    }
+  ],
+  "imagePrompts": [
+    "A sad 12-year-old Dutch girl looking at her old basic phone while her classmates use smartphones in a school playground, children's book illustration style",
+    "A Dutch family having a serious conversation at the kitchen table about a smartphone, with the teenage daughter talking to her understanding parents, children's book illustration style"
+  ]
+}

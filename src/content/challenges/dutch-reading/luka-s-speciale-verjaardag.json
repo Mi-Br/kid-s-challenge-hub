@@ -1,0 +1,110 @@
+{
+  "id": "luka-s-speciale-verjaardag",
+  "title": "Luka's Speciale Verjaardag",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "\"Mama, ik wil geen feestje,\" zegt Luka. \"Niemand komt toch.\"\n\n\"Maar lieverd, het is je verjaardag,\" zegt mama. \"We kunnen toch iets leuks doen?\"\n\n\"Nee,\" zegt Luka. \"Ik heb geen vrienden op school. Ze spelen nooit met mij.\"\n\nOma hoort het gesprek. \"Weet je wat, Luka? Toen ik klein was, vierde ik ook vaak alleen mijn verjaardag.\"\n\n\"Echt waar, oma?\" vraagt Luka verbaasd.\n\n\"Ja, en toen bedacht ik iets bijzonders. Ik ging leuke dingen doen voor andere mensen. Dat maakte mij heel blij!\"\n\nMama krijgt een idee. \"Luka, wat als we vandaag samen taart bakken voor de buren? En voor juf Marja ook?\"\n\n\"Kunnen we dat doen?\" vraagt Luka. Zijn ogen beginnen te glinsteren.\n\n\"Natuurlijk!\" zegt oma. \"Ik help ook. We maken de mooiste taarten van heel Nederland!\"\n\nDie middag bakken ze samen. Luka voelt zich niet meer verdrietig omdat hij anderen blij kan maken. Hij ontdekt dat geven net zo leuk is als krijgen.\n\n\"Dit is mijn beste verjaardag ooit!\" roept Luka aan het eind van de dag.",
+  "questions": [
+    {
+      "question": "Waarom wil Luka geen verjaardagsfeestje?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar wat Luka tegen mama zegt in het begin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "heeft"
+          ],
+          [
+            "geen"
+          ],
+          [
+            "vrienden"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe voelde Luka zich toen hij voor anderen ging zorgen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "gelukkig",
+            "vrolijk",
+            "goed"
+          ],
+          [
+            "voelde",
+            "voelen",
+            "werd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er gebeurt nadat ze samen gaan bakken."
+    },
+    {
+      "question": "Wat betekent het woord 'glinsteren' in het verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk naar hoe Luka's ogen veranderen als mama het plan vertelt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "stralen"
+          ],
+          [
+            "schijnen"
+          ],
+          [
+            "blij kijken"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat is de belangrijkste boodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe anderen helpen je zelf gelukkig kan maken, vooral als je je alleen voelt. Het gaat over de vreugde van geven.",
+        "exampleAnswer": "Het verhaal laat zien dat anderen helpen je gelukkig maakt, zelfs als je je alleen voelt.",
+        "keyElements": [
+          "anderen helpen/voor anderen zorgen",
+          "gelukkig/blij worden",
+          "geven"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Luka leert over anderen helpen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/luka-s-speciale-verjaardag/image-1.png",
+      "alt": "Luka praat verdrietig met mama en oma in de woonkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/luka-s-speciale-verjaardag/image-2.png",
+      "alt": "Luka, mama en oma bakken samen vrolijk taarten in de keuken"
+    }
+  ],
+  "imagePrompts": [
+    "A sad young boy talking to his mother and grandmother in a Dutch living room, children's book illustration style, soft warm colors",
+    "A happy young boy baking cakes with his mother and grandmother in a cozy Dutch kitchen, flour and baking supplies on the counter, children's book illustration style"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "annas-bijzondere-verjaardag",
+  "title": "Anna's Bijzondere Verjaardag",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Anna wordt morgen acht jaar. Ze ruikt de geur van verse bloemen in de tuin. Mama heeft geen geld voor een groot feest. Anna voelt zich verdrietig omdat haar vrienden altijd mooie feesten hebben.\n\n\"We maken iets heel bijzonders,\" zegt mama. \"Jij bent creatief.\" Anna denkt na. Ze hoort vogels zingen buiten. Plotseling krijgt ze een idee want ze wil haar vrienden toch uitnodigen.\n\nAnna maakt kaartjes van oud papier. Ze tekent bloemen erop omdat ze die zo mooi vindt. \"Kom naar mijn natuurfeest,\" schrijft ze. Ze voelt het ruwe papier onder haar vingers.\n\nOp haar verjaardag komen vijf vrienden. Ze spelen verstoppertje tussen de struiken. Lisa vindt gele bloemen. Tom hoort bijen zoemen. Ze maken kranjes van madeliefjes omdat Anna dat heeft geleerd.\n\n\"Dit is het leukste feest ooit!\" roept Sem. Anna lacht blij. Ze ontdekt dat een feest niet duur hoeft te zijn. De zachte wind speelt door haar haar. Haar creativiteit maakte alles mogelijk.",
+  "questions": [
+    {
+      "question": "Hoeveel jaar wordt Anna?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "acht"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoeveel vrienden komen er naar Anna's feest?",
+      "questionType": "begrijpen",
+      "hint": "Dit staat in de vierde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijf"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom voelt Anna zich eerst verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geen",
+            "weinig",
+            "niet"
+          ],
+          [
+            "geld",
+            "geld voor feest",
+            "geld voor groot feest"
+          ],
+          [
+            "vrienden",
+            "anderen",
+            "andere kinderen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat mama niet heeft en wat Anna's vrienden wel hebben."
+    },
+    {
+      "question": "Welke kleur bloemen vindt Lisa?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa vindt bloemen in de vierde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "gele"
+          ],
+          [
+            "geel"
+          ],
+          [
+            "gele bloemen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/annas-bijzondere-verjaardag/image-1.png",
+      "alt": "Anna in de tuin met haar mama, ze kijken naar bloemen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/annas-bijzondere-verjaardag/image-2.png",
+      "alt": "Anna en haar vrienden spelen tussen de bloemen in de tuin"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with her mother in a Dutch garden with flowers, looking thoughtful, children's book illustration style, soft natural colors",
+    "Children playing hide and seek among flowers and bushes in a garden, making flower crowns, happy and laughing, children's book illustration style"
+  ]
+}

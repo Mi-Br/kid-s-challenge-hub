@@ -1,0 +1,105 @@
+{
+  "id": "de-vermiste-hond",
+  "title": "De Vermiste Hond",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Emma had een kleine bruine hond die Rex heette. Elke ochtend ging ze naar het park om met hem te spelen. Rex rende graag achter de bal aan omdat hij zo sportief was.\n\nGisteren was Emma zoals altijd naar het park gegaan. Ze gooide de bal ver weg. Toen Rex het zag, rende hij snel naar de bal toe. Maar plotseling hoorde Emma een luid geluid. Het was een grote vrachtwagen die voorbijreed. Toen ze weer keek, was Rex verdwenen!\n\nEmma werd heel verdrietig en begon overal te zoeken. Ze keek achter de bomen, onder de bankjes en bij de vijver. \"Rex, waar ben je?\" riep ze steeds. Andere kinderen in het park hoorden haar en kwamen helpen zoeken.\n\nNa een uur zoeken hoorde Emma opeens een bekend geluid. Het was geblaf! Ze volgde het geluid en vond Rex bij de speeltuin. Hij speelde vrolijk met een groep kinderen. Emma was zo blij dat ze hem stevig vasthield. \"Ik laat je nooit meer los,\" fluisterde ze.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Emma's hond?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bruin",
+        "bruine"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom werd Emma verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "rex",
+            "hond"
+          ],
+          [
+            "weg",
+            "verdwenen",
+            "kwijt",
+            "zoek"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde na het geluid van de vrachtwagen."
+    },
+    {
+      "question": "Wat betekent het woord 'sportief' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lees wat Rex graag doet na deze zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "dat hij graag rent"
+          ],
+          [
+            "dat hij van bewegen houdt"
+          ],
+          [
+            "dat hij actief is"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat Emma goed reageerde toen Rex weg was? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "zoeken",
+            "zocht",
+            "keek"
+          ],
+          [
+            "hulp",
+            "goed",
+            "slim",
+            "verstandig",
+            "fout",
+            "slecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma allemaal deed om Rex te vinden."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-vermiste-hond/image-1.png",
+      "alt": "Emma speelt met haar bruine hond Rex in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-vermiste-hond/image-2.png",
+      "alt": "Emma vindt Rex terug bij de speeltuin waar hij met kinderen speelt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl playing with her small brown dog in a Dutch park with trees and benches, children's book illustration style",
+    "A happy reunion scene where a young girl finds her brown dog playing with other children at a playground, children's book illustration style"
+  ]
+}

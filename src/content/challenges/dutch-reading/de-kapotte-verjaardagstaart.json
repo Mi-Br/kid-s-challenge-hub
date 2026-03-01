@@ -1,0 +1,68 @@
+{
+  "id": "de-kapotte-verjaardagstaart",
+  "title": "De Kapotte Verjaardagstaart",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "verjaardagen",
+  "text": "Lisa is jarig. Ze is zes jaar oud. Mama maakt een taart in de keuken.\n\nDe taart is mooi en geel. Mama zet de taart op tafel. Dan valt de taart op de grond. De taart is kapot.\n\nLisa ziet de kapotte taart. Ze is verdrietig. Mama is ook verdrietig. Lisa wil mama helpen. Ze pakt een lepel.\n\nLisa en mama maken samen een nieuwe taart. De nieuwe taart is heel lekker. Lisa is blij. Mama is ook blij.",
+  "questions": [
+    {
+      "question": "Hoe oud is Lisa?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Welke kleur heeft de taart?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel"
+      ],
+      "hint": "Lees de tweede alinea."
+    },
+    {
+      "question": "Wat doet Lisa om mama te helpen?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de derde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "pakt"
+          ],
+          [
+            "lepel"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-verjaardagstaart/image-1.png",
+      "alt": "Mama en Lisa maken samen een taart in de keuken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-verjaardagstaart/image-2.png",
+      "alt": "De gele taart valt op de grond en is kapot"
+    }
+  ],
+  "imagePrompts": [
+    "A mother and young 6-year-old girl making a birthday cake together in a Dutch kitchen, children's book illustration style, warm and cozy atmosphere",
+    "A yellow birthday cake fallen on the kitchen floor, broken into pieces, with a sad mother and daughter looking at it, children's book illustration style"
+  ]
+}

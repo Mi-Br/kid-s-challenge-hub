@@ -1,0 +1,54 @@
+{
+  "id": "regen-en-zonneschijn",
+  "title": "Regen en Zonneschijn",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "het weer",
+  "text": "Ik heet Emma. Ik ben acht jaar oud. Gisteren was het slecht weer. Het regende heel hard.\n\nIk speelde binnen. Mijn kleine broer Sam speelde ook. Hij maakte een mooie toren van blokken. Ik vond zijn toren stom. Ik duwde de toren om. Alle blokken vielen op de grond.\n\nSam begon te huilen. Hij was heel verdrietig. Ik voelde me slecht. Ik had zijn mooie toren kapot gemaakt. Dat was niet lief van mij.\n\nIk zei sorry tegen Sam. Ik hielp hem de blokken oprapen. We bouwden samen een nieuwe toren. Deze toren was nog mooier. Sam lachte weer. Ik was blij dat hij niet meer verdrietig was.",
+  "questions": [
+    {
+      "question": "Hoe oud is Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "acht jaar",
+        "acht"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat voor weer was het gisteren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "slecht weer",
+        "het regende",
+        "regen"
+      ],
+      "hint": "Emma vertelt over het weer in de eerste alinea."
+    },
+    {
+      "question": "Wat maakte Sam van blokken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een toren",
+        "een mooie toren",
+        "toren"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/regen-en-zonneschijn/image-1.png",
+      "alt": "Emma en Sam spelen binnen terwijl het regent"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/regen-en-zonneschijn/image-2.png",
+      "alt": "Emma en Sam bouwen samen een nieuwe toren van blokken"
+    }
+  ],
+  "imagePrompts": [
+    "A 8-year-old Dutch girl named Emma and her little brother Sam playing with blocks inside their home while it's raining heavily outside the window, children's book illustration style",
+    "Emma and Sam working together happily to build a new tower with colorful building blocks, both children smiling, children's book illustration style"
+  ]
+}

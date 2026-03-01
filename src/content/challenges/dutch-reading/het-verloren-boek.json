@@ -1,0 +1,114 @@
+{
+  "id": "het-verloren-boek",
+  "title": "Het Verloren Boek",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de bibliotheek",
+  "text": "Lisa en Emma waren al sinds groep 3 beste vriendinnen. Elke donderdag gingen ze samen naar de bibliotheek om nieuwe boeken te lenen. Lisa hield van spannende verhalen over detectives, terwijl Emma altijd boeken over dieren koos.\n\nVorige week had Emma een bijzonder boek gevonden: 'De Geheimen van de Olifant'. Het was het laatste exemplaar en ze had er zo naar uitgekeken. Maar toen ze vrijdag naar school ging, was het boek verdwenen uit haar rugzak. Emma was verdrietig omdat ze het boek kwijt was en bang dat ze een boete moest betalen.\n\n'Misschien heb je het thuis laten liggen?' opperde Lisa, hoewel ze wist dat dit niet waar was. Want zij had het boek eigenlijk meegenomen, omdat ze dacht dat Emma het toch niet zou lezen. Lisa voelde zich schuldig, maar durfde de waarheid niet te vertellen.\n\nDe volgende donderdag gingen ze zoals gewoonlijk naar de bibliotheek. Emma zocht overal naar 'De Geheimen van de Olifant', hopend dat iemand het had teruggebracht. De bibliothecaresse, mevrouw Jansen, vertelde dat het boek nog steeds werd uitgeleend. 'Vreemd,' mompelde Emma, 'wie zou het hebben?'\n\nLisa keek naar haar beste vriendin, die er zo teleurgesteld uitzag. Ze besefte dat hun vriendschap belangrijker was dan welk boek ook. Met rode wangen haalde ze het boek uit haar tas. 'Het spijt me heel erg, Emma. Ik wilde het alleen maar even lezen, maar toen durfde ik het niet meer te zeggen.' Emma was eerst boos, maar zag hoe oprecht Lisa's spijt was. Ze vergaf haar vriendin, hoewel het vertrouwen een beetje beschadigd was geraakt.",
+  "questions": [
+    {
+      "question": "Op welke dag van de week gingen Lisa en Emma altijd naar de bibliotheek?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "donderdag",
+        "op donderdag",
+        "elke donderdag"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom durfde Lisa eerst niet te vertellen dat zij het boek had?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schuldig",
+            "schaamde",
+            "bang",
+            "zenuwachtig"
+          ],
+          [
+            "waarheid",
+            "eerlijk",
+            "bekennen",
+            "toegeven",
+            "zeggen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Lisa's gevoelens in de derde alinea."
+    },
+    {
+      "question": "Wat vond Lisa uiteindelijk belangrijker dan het boek?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vriendschap",
+            "vriendin",
+            "Emma",
+            "hun vriendschap"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lisa nam een belangrijke beslissing in de laatste alinea."
+    },
+    {
+      "question": "Vind je dat Lisa het juiste deed door het boek terug te geven? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lisa's daad en deze onderbouwen met argumenten over eerlijkheid, vriendschap of het maken van fouten. Zowel 'ja' als 'nee' kan correct zijn als het goed onderbouwd wordt.",
+        "exampleAnswer": "Ja, omdat eerlijk zijn tegen je beste vriendin belangrijk is en het de vriendschap kan redden.",
+        "keyElements": [
+          "eerlijk/eerlijkheid",
+          "vriendschap/vriendin",
+          "goed/juist/fout"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat er gebeurd zou zijn als Lisa niets had gezegd."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over eerlijkheid in vriendschap, het maken van fouten en het herstellen van vertrouwen. Het gaat over het belang van waarheid boven eigen voordeel.",
+        "exampleAnswer": "Het verhaal gaat over eerlijk zijn tegen je vrienden, ook als je een fout hebt gemaakt.",
+        "keyElements": [
+          "eerlijk/eerlijkheid/waarheid",
+          "vriendschap/vrienden",
+          "fouten/vergeven"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat wilde de schrijver je leren over vriendschap?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verloren-boek/image-1.png",
+      "alt": "Lisa en Emma zoeken samen tussen de boekenplanken in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verloren-boek/image-2.png",
+      "alt": "Lisa geeft met rode wangen het boek terug aan Emma"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch elementary school girls browsing books together in a bright modern library with tall bookshelves, children's book illustration style",
+    "A girl with red cheeks apologetically handing a book about elephants to her disappointed friend in a library setting, children's book illustration style"
+  ]
+}

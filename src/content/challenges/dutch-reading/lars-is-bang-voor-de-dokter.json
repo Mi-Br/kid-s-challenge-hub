@@ -1,0 +1,69 @@
+{
+  "id": "lars-is-bang-voor-de-dokter",
+  "title": "Lars is Bang voor de Dokter",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "het lichaam",
+  "text": "Lars moet naar de dokter. Hij is bang. Zijn buik doet pijn. Mama zegt: \"De dokter is lief.\"\n\nLars zit in de wachtkamer. Hij kijkt naar andere kinderen. Een meisje lacht na haar beurt. Een jongen zegt dat het niet pijn deed.\n\nNu is Lars aan de beurt. De dokter heeft vriendelijke ogen. Ze voelt zijn buik. Het doet geen pijn. De dokter geeft Lars een sticker.\n\nLars is blij. Hij is niet meer bang voor de dokter. Zijn buik voelt beter.",
+  "questions": [
+    {
+      "question": "Welk lichaamsdeel doet pijn bij Lars?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "buik"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat zegt mama over de dokter?",
+      "questionType": "begrijpen",
+      "hint": "Lees wat mama zegt in het begin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "dokter"
+          ],
+          [
+            "lief"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat krijgt Lars van de dokter?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "sticker",
+        "een sticker"
+      ],
+      "hint": "Kijk naar het einde van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lars-is-bang-voor-de-dokter/image-1.png",
+      "alt": "Een jongetje zit bang in de wachtkamer van de dokter"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lars-is-bang-voor-de-dokter/image-2.png",
+      "alt": "De vriendelijke dokter geeft Lars een sticker"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy sitting nervously in a doctor's waiting room, children's book illustration style, bright and friendly colors",
+    "A kind female doctor giving a happy boy a colorful sticker in a bright medical office, children's book illustration style"
+  ]
+}

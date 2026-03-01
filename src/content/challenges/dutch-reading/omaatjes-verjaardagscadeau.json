@@ -1,0 +1,124 @@
+{
+  "id": "omaatjes-verjaardagscadeau",
+  "title": "Omaatje's Verjaardagscadeau",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Lisa had een probleem. Morgen was mama's verjaardag, maar ze had nog geen cadeau. Papa en oma zaten aan de keukentafel.\n\n\"Ik wil mama verrassen,\" zei Lisa. \"Maar ik heb geen geld voor een mooi cadeau.\" Papa keek bedenkelijk. \"Misschien kun je iets maken?\"\n\nLisa probeerde eerst een tekening te maken. Ze tekende mama met haar mooie blonde haar. Maar de tekening zag er niet mooi uit. Lisa werd boos en gooide hem weg.\n\nOma stond op van haar stoel. \"Kom maar mee, lieverd,\" zei ze vriendelijk. \"Ik ga je helpen. Mama houdt van koekjes bakken. Wij gaan samen haar lievelingskoekjes maken.\"\n\nIn de keuken leerde oma Lisa hoe je deeg maakt. Lisa mocht de bloem, boter en suiker mengen. Het was moeilijk werk, want het deeg was zwaar. Maar Lisa gaf niet op.\n\nDe volgende dag gaf Lisa mama een mooie doos met zelfgemaakte koekjes. Mama's ogen werden nat van blijdschap. \"Dit is het allerliefste cadeau ooit,\" zei ze en gaf Lisa een grote knuffel.",
+  "questions": [
+    {
+      "question": "Welke kleur haar heeft mama?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blonde",
+        "blond"
+      ],
+      "hint": "Kijk naar de derde alinea."
+    },
+    {
+      "question": "Welke kleur haar heeft mama?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blonde",
+        "blond"
+      ],
+      "hint": "Kijk naar de derde alinea."
+    },
+    {
+      "question": "Waarom gooide Lisa haar eerste cadeau weg?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "geen"
+          ],
+          [
+            "mooi",
+            "lelijk",
+            "slecht"
+          ],
+          [
+            "tekening",
+            "getekend",
+            "tekende"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa vond van haar tekening."
+    },
+    {
+      "question": "Vind jij dat oma Lisa goed hielp? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "fijn"
+          ],
+          [
+            "leerde",
+            "leren",
+            "hielp",
+            "helpen",
+            "samen"
+          ],
+          [
+            "koekjes",
+            "maken",
+            "bakken",
+            "cadeau"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat oma deed voor Lisa."
+    },
+    {
+      "question": "Wat betekent 'bedenkelijk' in deze zin: Papa keek bedenkelijk?",
+      "questionType": "woordbetekenis",
+      "hint": "Papa dacht na over Lisa's probleem.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "nadenkend"
+          ],
+          [
+            "denkend"
+          ],
+          [
+            "peinzend"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/omaatjes-verjaardagscadeau/image-1.png",
+      "alt": "Lisa, papa en oma zitten aan de keukentafel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/omaatjes-verjaardagscadeau/image-2.png",
+      "alt": "Oma en Lisa bakken samen koekjes in de keuken"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch family scene in children's book illustration style: young girl Lisa sitting at kitchen table with her father and grandmother, looking worried about birthday gift problem",
+    "Grandmother and young girl Lisa baking cookies together in a cozy Dutch kitchen, mixing bowl and ingredients on counter, both smiling, children's book illustration style"
+  ]
+}

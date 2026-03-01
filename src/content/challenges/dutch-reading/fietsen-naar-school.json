@@ -1,0 +1,69 @@
+{
+  "id": "fietsen-naar-school",
+  "title": "Fietsen naar school",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "verkeer",
+  "text": "Mila woont al drie maanden in Nederland. Ze gaat nog altijd met de bus naar school. Alle andere kinderen fietsen naar school. Mila kan niet goed fietsen.\n\nOp maandag zegt mama: \"Mila, we gaan samen oefenen. Ik help je.\" Ze gaan naar het park. Mila valt twee keer. Maar ze staat steeds op. \"Ik wil het leren!\" zegt ze.\n\nDinsdag oefent Mila weer. Nu valt ze maar één keer. Woensdag fietst ze al vijf meter zonder te vallen. Donderdag fietst ze helemaal rond het park.\n\nVrijdag fietst Mila voor het eerst naar school. Ze draagt haar helm en rijdt langzaam. Bij het zebrapad stopt ze goed. Ze kijkt links en rechts voordat ze oversteekt. \"Goed gedaan!\" zegt mama.\n\nOp school zegt Mila tegen haar vriendin Sara: \"Ik kan nu fietsen! Morgen fiets ik weer naar school.\" Sara lacht blij. \"Dan kunnen we samen fietsen!\"",
+  "questions": [
+    {
+      "question": "Hoe gaat Mila normaal naar school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "met de bus"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar gaan Mila en mama oefenen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "naar het park",
+        "het park",
+        "in het park"
+      ],
+      "hint": "Lees de tweede alinea."
+    },
+    {
+      "question": "Waarom wil Mila leren fietsen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "andere",
+            "alle"
+          ],
+          [
+            "kinderen",
+            "kids"
+          ],
+          [
+            "fietsen",
+            "fiets",
+            "fietst"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat de andere kinderen doen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/fietsen-naar-school/image-1.png",
+      "alt": "Een meisje oefent fietsen in een park met haar moeder"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/fietsen-naar-school/image-2.png",
+      "alt": "Het meisje fietst trots naar school met haar helm op"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl learning to ride a bicycle in a Dutch park with her mother supporting her, children's book illustration style, sunny day with trees and grass",
+    "A proud girl wearing a helmet riding her bicycle to school on a Dutch street with bike lanes, crossing at a zebra crossing, children's book illustration style"
+  ]
+}

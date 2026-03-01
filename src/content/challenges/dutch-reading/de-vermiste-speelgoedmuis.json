@@ -1,0 +1,114 @@
+{
+  "id": "de-vermiste-speelgoedmuis",
+  "title": "De Vermiste Speelgoedmuis",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "Luna de kat heeft een kleine speelgoedmuis. De muis is geel met zwarte stippen. Luna speelt er elke dag mee op het schoolplein.\n\nVandaag gaat Luna naar buiten voor de pauze. Ze kijkt in haar tas, maar de speelgoedmuis is weg! \"Waar is mijn muis?\" denkt Luna. Ze voelt zich verdrietig omdat de muis haar lievelingsspeelgoed is.\n\nTerwijl Luna zoekt, speelt Pip de kleine muis verstoppertje met zijn vrienden achter de schommels. Hij vindt een geel speelgoedje met zwarte stippen. \"Wat grappig!\" zegt Pip. \"Dit lijkt op mij!\" Hij neemt het mee naar zijn verstopplek.\n\nLuna zoekt overal. Ze kijkt onder de glijbaan en naast de zandbak. \"Misschien heeft iemand mijn muis gevonden,\" denkt ze. Ze vraagt aan juf Mira: \"Heeft u mijn speelgoedmuis gezien?\"\n\nPip hoort Luna huilen. Hij denkt na en begrijpt dat het speelgoedje van Luna is. Pip rent naar Luna toe. \"Is dit van jou?\" vraagt hij vriendelijk. Luna lacht blij: \"Ja! Dank je wel, Pip!\" Nu kunnen ze samen spelen.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Luna's speelgoedmuis?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel met zwarte stippen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke kleur heeft Luna's speelgoedmuis?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel met zwarte stippen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelt Luna zich verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "muis",
+            "speelgoedmuis",
+            "speelgoed"
+          ],
+          [
+            "weg",
+            "kwijt",
+            "vermist",
+            "zoek",
+            "gevonden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er met haar speelgoed is gebeurd."
+    },
+    {
+      "question": "Vind jij dat Pip aardig is? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "aardig",
+            "lief",
+            "goed",
+            "vriendelijk"
+          ],
+          [
+            "terug",
+            "teruggeeft",
+            "geeft",
+            "helpt",
+            "help"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Pip doet aan het einde van het verhaal."
+    },
+    {
+      "question": "Wat betekent het woord 'verstopplek' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Pip speelt verstoppertje en gaat naar deze plek.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "plek om te verstappen"
+          ],
+          [
+            "plaats om te verstoppen"
+          ],
+          [
+            "verstopplek"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-vermiste-speelgoedmuis/image-1.png",
+      "alt": "Luna de kat zoekt verdrietig naar haar speelgoedmuis op het schoolplein"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-vermiste-speelgoedmuis/image-2.png",
+      "alt": "Pip de muis geeft vriendelijk de gele speelgoedmuis terug aan Luna"
+    }
+  ],
+  "imagePrompts": [
+    "A sad orange cat named Luna searching for her toy mouse on a Dutch school playground with swings and a slide, children's book illustration style",
+    "A small gray mouse named Pip kindly returning a yellow toy mouse with black spots to a happy orange cat, Dutch school playground background, children's book illustration style"
+  ]
+}

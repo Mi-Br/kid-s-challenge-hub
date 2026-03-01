@@ -1,0 +1,113 @@
+{
+  "id": "lente-in-het-park",
+  "title": "Lente in het Park",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "seizoenen",
+  "text": "Lisa en haar broer Tim wandelden door het park. Het was een prachtige lentedag. De bomen hadden kleine groene blaadjes en overal bloeiden gele narcissen. \"Kijk!\" riep Lisa. \"Die grote jongen gooit zijn lege blikje op de grond!\" Tim zag het ook, maar hij was bang om iets te zeggen.\n\nEerst liepen ze verder zonder iets te doen. Maar Lisa voelde zich verdrietig omdat het park zo mooi was in de lente. Daarna kwamen er meer mensen die hun rommel op de grond gooiden. De narcissen lagen nu tussen de troep. \"Dit is niet eerlijk,\" fluisterde Lisa tegen Tim.\n\nTim was nog steeds bang, maar hij zag hoe verdrietig zijn zusje was. Hij dacht aan alle dieren die in het park woonden. Omdat hij moed wilde hebben, liep hij naar de grote jongen toe. \"Excuus,\" zei hij beleefd. \"Kunt u uw blikje in de prullenbak doen? Dan blijft ons park mooi.\"\n\nDe jongen keek verbaasd, maar hij pakte zijn blikje op. \"Sorry,\" zei hij. \"Je hebt gelijk.\" Hij deed het blikje in de prullenbak. Andere mensen zagen wat Tim deed en begonnen ook hun rommel op te ruimen. Want niemand wilde meer de eerste zijn die het park vies maakte.\n\nLisa en Tim liepen verder. Het park zag er weer schoon uit tussen de voorjaarsbloemen. \"Je was heel dapper,\" zei Lisa tegen haar broer. Tim voelde zich trots. Hij had geleerd dat één persoon veel verschil kan maken, zelfs in de lente als alles nieuw begint.",
+  "questions": [
+    {
+      "question": "Welke bloemen bloeiden er in het park?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "narcissen",
+        "gele narcissen"
+      ],
+      "hint": "Kijk in de eerste alinea naar de bloemen die Lisa zag."
+    },
+    {
+      "question": "Waarom was Lisa verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "park",
+            "lente",
+            "mooi",
+            "prachtig"
+          ],
+          [
+            "rommel",
+            "troep",
+            "vies",
+            "blikje",
+            "gooiden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde met het mooie park."
+    },
+    {
+      "question": "Hoe veranderde Tim tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "schuw"
+          ],
+          [
+            "moed",
+            "moedig",
+            "dapper",
+            "durven",
+            "durfde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Tim zich voelde aan het begin en aan het eind."
+    },
+    {
+      "question": "Vind je dat Tim het juiste deed? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "juist",
+            "netjes"
+          ],
+          [
+            "park",
+            "schoon",
+            "mooi",
+            "natuur",
+            "milieu",
+            "dieren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde nadat Tim sprak en of dat goed was voor het park."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lente-in-het-park/image-1.png",
+      "alt": "Lisa en Tim wandelen door een mooi lentepark met gele narcissen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lente-in-het-park/image-2.png",
+      "alt": "Tim praat beleefd met een grote jongen over het opruimen van rommel"
+    }
+  ],
+  "imagePrompts": [
+    "Two children walking through a beautiful Dutch spring park with yellow daffodils blooming, green leaves on trees, children's book illustration style",
+    "A young boy politely talking to an older boy about picking up litter near a trash bin in a park, spring setting, children's book illustration style"
+  ]
+}

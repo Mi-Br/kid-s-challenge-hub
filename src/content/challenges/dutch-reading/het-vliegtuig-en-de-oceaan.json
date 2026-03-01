@@ -1,0 +1,116 @@
+{
+  "id": "het-vliegtuig-en-de-oceaan",
+  "title": "Het Vliegtuig en de Oceaan",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "reizen",
+  "text": "Lisa zat in het vliegtuig naar Griekenland. Het was haar eerste vakantie zonder haar ouders. Ze keek uit het kleine raampje naar de blauwe oceaan beneden.\n\nToen zag ze iets vreemds. In het water dreven plastic flessen en zakken. Het leek wel een groot tapijt van afval. Lisa dacht dat de oceaan altijd schoon was. Maar nu zag ze hoe vuil het water was.\n\nDe man naast haar was een bioloog. Hij vertelde Lisa dat dit plastic slecht is voor vissen en andere zeedieren. Veel dieren denken dat plastic voedsel is. Dan worden ze ziek of sterven ze.\n\nLisa voelde zich boos en verdrietig. Hoe kon dit gebeuren? De bioloog zei dat mensen overal ter wereld plastic weggooien. Door de wind en de regen komt het in de oceaan terecht.\n\n\"Maar wat kunnen wij eraan doen?\" vroeg Lisa. De man glimlachte. \"Veel!\" zei hij. \"We kunnen minder plastic gebruiken. We kunnen het afval goed weggooien. En we kunnen andere mensen vertellen over dit probleem.\"\n\nLisa besloot om in Griekenland geen plastic flessen te kopen. Ze zou een herbruikbare fles meenemen naar het strand. Kleine dingen kunnen grote verschillen maken, dacht ze.",
+  "questions": [
+    {
+      "question": "Waar reist Lisa naartoe?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "griekenland"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom worden zeedieren ziek van plastic?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "denken",
+            "denkt",
+            "dacht"
+          ],
+          [
+            "voedsel",
+            "eten",
+            "eetbaar"
+          ],
+          [
+            "plastic",
+            "afval"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "De bioloog legt dit uit in de derde paragraaf."
+    },
+    {
+      "question": "Hoe komt plastic in de oceaan terecht?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "mensen",
+            "personen"
+          ],
+          [
+            "weggooien",
+            "gooien",
+            "weggegooid",
+            "weggegooien"
+          ],
+          [
+            "wind",
+            "regen",
+            "weer"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "De bioloog vertelt dit in de vierde paragraaf."
+    },
+    {
+      "question": "Wat besluit Lisa te doen in Griekenland?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geen",
+            "niet"
+          ],
+          [
+            "plastic",
+            "plastic flessen",
+            "flessen"
+          ],
+          [
+            "herbruikbare",
+            "herbruikbaar",
+            "eigen",
+            "meenemen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste paragraaf over Lisa's beslissing."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-vliegtuig-en-de-oceaan/image-1.png",
+      "alt": "Lisa kijkt uit het vliegtuigraam naar de oceaan met plastic afval"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-vliegtuig-en-de-oceaan/image-2.png",
+      "alt": "Lisa houdt een herbruikbare waterfles vast op een Grieks strand"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking out an airplane window at the ocean below with visible plastic pollution floating on the water surface, children's book illustration style",
+    "A teenage girl holding a reusable water bottle on a beautiful Greek beach with clear blue water and white buildings in the background, children's book illustration style"
+  ]
+}

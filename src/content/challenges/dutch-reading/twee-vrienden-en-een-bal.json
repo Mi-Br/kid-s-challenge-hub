@@ -1,0 +1,72 @@
+{
+  "id": "twee-vrienden-en-een-bal",
+  "title": "Twee Vrienden en een Bal",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "vriendschap",
+  "text": "Sam en Lisa spelen vaak samen in het park. Ze zijn al drie jaar beste vrienden. Vandaag brengt Sam zijn nieuwe voetbal mee.\n\nLisa wil met de bal naar de speeltuin gaan. Sam wil voetballen op het grasveld. Ze beginnen ruzie te maken. Sam pakt de bal en loopt weg. Lisa wordt boos en roept naar hem.\n\nSam denkt na bij de vijver. Hij mist zijn vriendin. Lisa zit alleen op de schommel. Ze mist Sam ook. Na een tijdje lopen ze naar elkaar toe.\n\n\"Sorry Lisa,\" zegt Sam. \"We kunnen eerst voetballen en dan naar de speeltuin,\" zegt Lisa. Sam knikt en glimlacht. Ze spelen samen de hele middag.",
+  "questions": [
+    {
+      "question": "Hoe lang zijn Sam en Lisa al vrienden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "drie jaar",
+        "al drie jaar"
+      ],
+      "hint": "Kijk in de eerste alinea."
+    },
+    {
+      "question": "Waar wil Lisa met de bal naartoe?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "naar de speeltuin",
+        "de speeltuin"
+      ],
+      "hint": "Lees wat Lisa wil in de tweede alinea."
+    },
+    {
+      "question": "Waarom maken Sam en Lisa ruzie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "willen",
+            "wil",
+            "wilde"
+          ],
+          [
+            "verschillende",
+            "andere",
+            "niet hetzelfde"
+          ],
+          [
+            "dingen",
+            "doen",
+            "spelen",
+            "gaan"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Sam wil en wat Lisa wil."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/twee-vrienden-en-een-bal/image-1.png",
+      "alt": "Sam en Lisa in een Nederlands park, Sam houdt een voetbal vast"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/twee-vrienden-en-een-bal/image-2.png",
+      "alt": "Sam en Lisa praten met elkaar en lossen hun ruzie op"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, Sam and Lisa, in a Dutch park with a playground and grass field, Sam holding a soccer ball, children's book illustration style",
+    "Two children talking to each other and making up after an argument in a Dutch park setting, children's book illustration style"
+  ]
+}

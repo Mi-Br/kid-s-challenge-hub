@@ -1,0 +1,119 @@
+{
+  "id": "max-en-zijn-nieuwe-pup",
+  "title": "Max en zijn nieuwe pup",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Max kreeg een kleine bruine pup van zijn ouders. De pup heette Bram en was heel speels. Max wilde graag met Bram in de achtertuin spelen.\n\nMax gooide een bal naar Bram, maar de pup rende weg. Hij verstopte zich onder de struik omdat hij bang was voor de bal. Max probeerde Bram te lokken met een koekje.\n\nDat werkte ook niet. Bram bleef onder de struik zitten en keek verdrietig. Max dacht na. Als hij zachter deed, zou Bram misschien wel komen.\n\nMax ging op de grond zitten en fluisterde lief tegen Bram. Hij stak zijn hand uit en wachtte geduldig. Langzaam kwam Bram naar hem toe en likte zijn hand.\n\nVanaf die dag speelden Max en Bram elke dag samen. De bal gebruikten ze niet meer. Ze renden door de tuin en rolden over het gras. Max had geleerd dat vriendschap tijd en geduld vraagt.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de pup?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bruin",
+        "bruine"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Welke kleur heeft de pup?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bruin",
+        "bruine"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom kwam Bram uiteindelijk naar Max toe?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zachter",
+            "zacht",
+            "lief",
+            "fluisteren",
+            "fluisterde"
+          ],
+          [
+            "geduldig",
+            "wachten",
+            "wachtte",
+            "tijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Max anders deed in het vierde stukje."
+    },
+    {
+      "question": "Wat betekent vriendschap volgens dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "tijd",
+            "geduld",
+            "geduldig"
+          ],
+          [
+            "wachten",
+            "rustig",
+            "zacht",
+            "lief"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de laatste zin van het verhaal."
+    },
+    {
+      "question": "Vind je dat Max slim handelde? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "slim",
+            "goed"
+          ],
+          [
+            "geduldig",
+            "zacht",
+            "lief",
+            "tijd",
+            "wachten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Max zijn gedrag veranderde om Bram te helpen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/max-en-zijn-nieuwe-pup/image-1.png",
+      "alt": "Max met zijn bruine pup Bram in de achtertuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/max-en-zijn-nieuwe-pup/image-2.png",
+      "alt": "Max zit op de grond en Bram komt voorzichtig naar hem toe"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy named Max playing with a small brown puppy in a backyard garden, children's book illustration style, sunny day with typical Dutch house in background",
+    "A boy sitting patiently on the ground with his hand extended while a small brown puppy cautiously approaches him, children's book illustration style, warm and gentle scene"
+  ]
+}

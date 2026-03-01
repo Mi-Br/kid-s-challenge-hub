@@ -1,0 +1,122 @@
+{
+  "id": "de-kerstverrassing",
+  "title": "De Kerstverrassing",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Lisa's ouders hadden haar een belangrijke taak gegeven: zorg voor de kerstboom terwijl wij naar opa en oma zijn. Ze moest hem water geven en de lichtjes controleren. \"Het is jouw verantwoordelijkheid,\" zei mama streng. Lisa knikte trots omdat ze zich heel volwassen voelde.\n\nDe eerste dag ging alles perfect. Lisa gaf de boom water en keek of alle lampjes nog werkten. De kerstboom stond prachtig in de woonkamer, versierd met glanzende ballen en gouden sterren. Maar toen belde haar beste vriendin Emma. \"Kom je schaatsen op het Vondelpark? Het ijs is perfect!\" Lisa keek naar de kerstboom. Één dagje zou toch geen probleem zijn?\n\nNa drie dagen schaatsen en spelen kwam Lisa eindelijk thuis. Haar hart bonkte toen ze de woonkamer inliep. De kerstboom hing helemaal slap, zijn naalden lagen overal op de grond. De onderkant was helemaal bruin geworden omdat hij geen water had gehad. \"Oh nee,\" fluisterde Lisa geschrokken.\n\nLisa wist dat ze eerlijk moest zijn, ook al was dat moeilijk. Toen haar ouders thuiskwamen, vertelde ze alles. Papa zuchtte diep, maar mama glimlachte. \"Je bent eerlijk geweest, dat is het belangrijkste. Verantwoordelijkheid betekent ook toegeven als je fouten maakt.\" Samen kochten ze een nieuwe boom, en dit keer zorgde Lisa er elke dag perfect voor.",
+  "questions": [
+    {
+      "question": "Wat moest Lisa doen terwijl haar ouders weg waren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de kerstboom water geven en de lichtjes controleren",
+        "voor de kerstboom zorgen",
+        "zorg voor de kerstboom"
+      ],
+      "hint": "Kijk naar de eerste alinea waar mama uitlegt wat Lisa moet doen."
+    },
+    {
+      "question": "Waarom besloot Lisa om niet naar de kerstboom te kijken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "schaatsen",
+            "spelen",
+            "vrienden"
+          ],
+          [
+            "leuk",
+            "leuker",
+            "plezier",
+            "spelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma voorstelde en waarom dat aantrekkelijk was voor Lisa."
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen ze de kerstboom zag na drie dagen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geschrokken",
+            "bang",
+            "zenuwachtig",
+            "bezorgd"
+          ],
+          [
+            "hart bonkte",
+            "bonzen",
+            "bonkte"
+          ],
+          [
+            "slecht",
+            "schuldig",
+            "verdrietig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op de woorden die beschrijven hoe Lisa reageerde in de derde alinea."
+    },
+    {
+      "question": "Vind je dat Lisa's ouders goed reageerden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de reactie van de ouders en dit onderbouwen. Ze kunnen zeggen dat de ouders goed reageerden omdat ze Lisa's eerlijkheid waardeerden, of dat ze te aardig waren. Belangrijkste is dat ze een redenering geven.",
+        "exampleAnswer": "Ja, ze reageerden goed omdat ze Lisa beloonden voor haar eerlijkheid en haar hielpen om het op te lossen.",
+        "keyElements": [
+          "eerlijkheid/eerlijk",
+          "beloning/straf",
+          "leren/les"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de ouders zeiden over eerlijkheid en hoe ze Lisa hielpen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over verantwoordelijkheid nemen en eerlijk zijn als je fouten maakt. Ze mogen dit op verschillende manieren uitdrukken.",
+        "exampleAnswer": "Het verhaal gaat over dat je verantwoordelijkheid moet nemen en eerlijk moet zijn als je fouten maakt.",
+        "keyElements": [
+          "verantwoordelijkheid/verantwoordelijk",
+          "eerlijk/eerlijkheid",
+          "fouten/fout maken"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Lisa heeft geleerd over verantwoordelijkheid en eerlijkheid."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kerstverrassing/image-1.png",
+      "alt": "Lisa staat naast een mooie kerstboom in de woonkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kerstverrassing/image-2.png",
+      "alt": "Een verdorde kerstboom met bruine naalden op de grond"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl standing proudly next to a beautiful Christmas tree in a cozy living room, decorated with shiny ornaments and golden stars, children's book illustration style",
+    "A wilted Christmas tree with brown needles scattered on the floor, the tree drooping sadly in an empty living room, children's book illustration style"
+  ]
+}

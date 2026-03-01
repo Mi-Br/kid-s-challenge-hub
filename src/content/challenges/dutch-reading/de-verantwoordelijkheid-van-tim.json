@@ -1,0 +1,117 @@
+{
+  "id": "de-verantwoordelijkheid-van-tim",
+  "title": "De Verantwoordelijkheid van Tim",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "beroepen",
+  "text": "Tim mag voor het eerst zijn vader helpen in de bakkerij. Zijn vader is bakker en heeft de beroemdste oliebollen van de stad gemaakt. \"Jij bent nu mijn assistent,\" zegt papa trots. \"Net zoals in het sprookje van de bakkersleerling moet jij bewijzen dat je te vertrouwen bent.\"\n\nTim krijgt een belangrijke taak: hij moet het deeg voor de oliebollen elke tien minuten omroeren omdat het anders mislukt. Papa gaat naar de andere kant van de bakkerij om brood te bakken. Tim roert braaf het deeg, maar dan ziet hij zijn beste vriend Daan voorbijfietsen.\n\nDaan klopt op het raam en roept: \"Tim! Kom je voetballen? We hebben je nodig voor ons team!\" Tim kijkt naar het deeg en dan naar zijn vriend. Het voetballen lijkt veel leuker dan roeren. Hij denkt: papa merkt het toch niet als ik vijf minuutjes wegga?\n\nTim besluit bij het deeg te blijven, omdat hij weet dat veel klanten speciaal voor papa's oliebollen komen. Hij roert door en roert door, ook al hoort hij zijn vrienden lachen buiten. Toen papa terugkwam, waren de oliebollen perfect geworden.\n\n\"Je hebt je eerste test als bakkersleerling doorstaan,\" zegt papa met een glimlach. \"Nu begrijp ik waarom mensen zeggen dat vertrouwen het belangrijkste ingrediënt is.\" Tim voelt zich trots omdat hij de juiste keuze heeft gemaakt.",
+  "questions": [
+    {
+      "question": "Wat is papa's beroep?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bakker"
+      ],
+      "hint": "Kijk naar de tweede zin."
+    },
+    {
+      "question": "Waarom moet Tim het deeg elke tien minuten omroeren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "mislukt",
+            "mislukken",
+            "fout gaat",
+            "verkeerd gaat"
+          ],
+          [
+            "anders",
+            "want",
+            "omdat"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Papa legt uit wat er gebeurt als Tim het niet doet."
+    },
+    {
+      "question": "Wat bedoelt papa met 'je hebt je eerste test als bakkersleerling doorstaan'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verantwoordelijkheid",
+            "taak",
+            "werk",
+            "opdracht"
+          ],
+          [
+            "gebleven",
+            "volgehouden",
+            "gedaan",
+            "niet weggegaan",
+            "gewerkt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Tim deed toen zijn vriend hem riep."
+    },
+    {
+      "question": "Vind je dat Tim de goede keuze heeft gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee) en uitleggen waarom, bijvoorbeeld door te verwijzen naar verantwoordelijkheid, betrouwbaarheid, gevolgen voor klanten, of het belang van beloftes nakomen.",
+        "exampleAnswer": "Ja, Tim heeft de goede keuze gemaakt omdat hij zijn vader had beloofd te helpen en veel klanten kwamen speciaal voor de oliebollen.",
+        "keyElements": [
+          "goede/slechte keuze",
+          "verantwoordelijkheid/betrouwbaar/beloven",
+          "klanten/werk/vader"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de gevolgen van beide keuzes."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over verantwoordelijkheid nemen, betrouwbaar zijn, of volwassen gedrag tonen. De kern is dat Tim moet kiezen tussen plezier en plicht.",
+        "exampleAnswer": "Het verhaal gaat over een jongen die leert wat verantwoordelijkheid betekent en de juiste keuze maakt.",
+        "keyElements": [
+          "verantwoordelijkheid/betrouwbaar/volwassen",
+          "juiste keuze/goede keuze",
+          "leren/bewijzen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat leert Tim in dit verhaal?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verantwoordelijkheid-van-tim/image-1.png",
+      "alt": "Tim roert deeg in een Nederlandse bakkerij terwijl zijn vader op de achtergrond brood bakt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verantwoordelijkheid-van-tim/image-2.png",
+      "alt": "Tim kijkt door het raam naar zijn vriend Daan die buiten staat, terwijl hij het deeg blijft roeren"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy stirring dough in a traditional Dutch bakery while his father works with bread in the background, children's book illustration style, warm lighting from ovens",
+    "A boy looking through a bakery window at his friend outside who is beckoning him to play, while the boy continues stirring dough, children's book illustration style, showing the moment of temptation"
+  ]
+}

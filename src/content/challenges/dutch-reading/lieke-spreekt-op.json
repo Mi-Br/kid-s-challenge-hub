@@ -1,0 +1,73 @@
+{
+  "id": "lieke-spreekt-op",
+  "title": "Lieke Spreekt Op",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "sport",
+  "text": "Lieke speelt graag voetbal op school. Zij is nog niet zo goed als de andere kinderen. De bal gaat vaak de verkeerde kant op.\n\nOp dinsdag ziet Lieke iets vervelends. Tom en zijn vrienden lachen om Daan. Daan kan niet zo hard rennen. \"Jij bent te langzaam!\" roept Tom. Daan wordt rood en gaat weg.\n\nLieke wil iets zeggen, maar ze is bang. Wat als Tom ook om haar gaat lachen? Zij is ook niet de beste voetballer van de klas.\n\nDe volgende dag gebeurt het weer. Tom wijst naar Daan en zegt: \"Jij mag niet meedoen. Je bent te slecht.\" Nu wordt Lieke boos. Ze loopt naar Tom toe.\n\n\"Stop!\" zegt Lieke luid. \"Dat is niet eerlijk. Wij mogen allemaal voetballen. Ook Daan.\" De andere kinderen kijken naar haar. Meester Jan komt ook kijken.\n\n\"Lieke heeft gelijk,\" zegt meester Jan. \"Voetbal is leuk voor iedereen. Ook voor kinderen die nog leren.\" Tom wordt stil. Daan lacht naar Lieke. \"Dank je wel,\" fluistert hij.",
+  "questions": [
+    {
+      "question": "Wat gaat er vaak de verkeerde kant op bij Lieke?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de bal",
+        "bal"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke dag ziet Lieke dat Tom gemeen doet tegen Daan?",
+      "questionType": "begrijpen",
+      "hint": "Zoek naar de dag in de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "dinsdag"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom durfde Lieke eerst niet iets te zeggen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig"
+          ],
+          [
+            "lachen",
+            "pesten",
+            "uitlachen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lieke zich voelde in de derde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lieke-spreekt-op/image-1.png",
+      "alt": "Lieke kijkt bezorgd naar Tom die gemeen doet tegen Daan op het schoolplein"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lieke-spreekt-op/image-2.png",
+      "alt": "Lieke staat moedig op en spreekt Tom aan terwijl andere kinderen toekijken"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl with worried expression watching as a boy laughs at another boy on a school playground during football time, children's book illustration style",
+    "The same Dutch girl standing bravely speaking up to the laughing boy while other children and a teacher watch, school football field background, children's book illustration style"
+  ]
+}

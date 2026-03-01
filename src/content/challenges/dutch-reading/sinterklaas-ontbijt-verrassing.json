@@ -1,0 +1,108 @@
+{
+  "id": "sinterklaas-ontbijt-verrassing",
+  "title": "Sinterklaas Ontbijt Verrassing",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Lisa werd wakker omdat er heerlijke geuren uit de keuken kwamen. Ze rook chocola en kaneel. Vandaag was het 5 december - Sinterklaas!\n\nIn de keuken stond mama bij het fornuis. \"Goedemorgen, Lisa!\" zei ze vrolijk. \"Ik maak speciaal Sinterklaas ontbijt.\" Op tafel zag Lisa dikke pannenkoeken met poedersuiker. Er stond ook warme chocolademelk met slagroom.\n\nLisa keek naar het vreemde ontbijt. Thuis in Roemenië at ze altijd brood met jam. Deze Nederlandse traditie kende ze nog niet. \"Mama, dit is heel anders,\" zei ze voorzichtig.\n\n\"Probeer maar eens,\" zei mama lachend. Lisa nam een hapje van de pannenkoek. De smaak was zoet en lekker! De chocolademelk was warm en romig. \"Dit is heerlijk!\" riep Lisa uit. Ze at alles op omdat het zo lekker smaakte.\n\nToen papa en haar broertje Tim beneden kwamen, vertelde Lisa enthousiast: \"Pannenkoeken zijn veel lekkerder dan gewoon brood! Kunnen we dit vaker maken?\" Mama knikte. Nu vond Lisa Sinterklaas nog specialer want ze had een nieuw lievelingsontbijt ontdekt.",
+  "questions": [
+    {
+      "question": "Welke dag is het in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "5 december",
+        "sinterklaas"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom vond Lisa het ontbijt vreemd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "anders",
+            "vreemd",
+            "nieuw",
+            "kende niet"
+          ],
+          [
+            "roemenië",
+            "thuis",
+            "daar",
+            "vroeger"
+          ],
+          [
+            "brood",
+            "jam",
+            "gewend",
+            "altijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa thuis in Roemenië altijd at."
+    },
+    {
+      "question": "Vind jij dat Lisa goed reageerde op het nieuwe ontbijt? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "mooi",
+            "fijn",
+            "juist",
+            "slim"
+          ],
+          [
+            "proberen",
+            "proeven",
+            "probeerde",
+            "deed"
+          ],
+          [
+            "open",
+            "nieuw",
+            "durven",
+            "dapper"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat deed Lisa toen mama zei dat ze het moest proberen?"
+    },
+    {
+      "question": "Wat betekent het woord 'enthousiast' in de laatste alinea?",
+      "questionType": "woordbetekenis",
+      "acceptableAnswers": [
+        "blij",
+        "vrolijk",
+        "opgewonden",
+        "vol vreugde"
+      ],
+      "hint": "Kijk hoe Lisa praat over de pannenkoeken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-ontbijt-verrassing/image-1.png",
+      "alt": "Lisa kijkt nieuwsgierig naar pannenkoeken en chocolademelk op tafel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-ontbijt-verrassing/image-2.png",
+      "alt": "Lisa neemt een hapje van de pannenkoek en lacht blij"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking curiously at Dutch pancakes with powdered sugar and hot chocolate with whipped cream on a festive breakfast table, children's book illustration style, warm kitchen setting",
+    "The same young girl taking a bite of pancake with a delighted expression on her face, her mother smiling in the background, cozy Dutch kitchen, children's book illustration style"
+  ]
+}

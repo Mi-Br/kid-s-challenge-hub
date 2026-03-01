@@ -1,0 +1,104 @@
+{
+  "id": "lenas-verrassing",
+  "title": "Lena's Verrassing",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Lena zag dat haar kleine broer Tim verdrietig was. Morgen werd hij zes jaar, maar mama was ziek in bed. \"We hebben geen versieringen voor je feest,\" zei papa bezorgd.\n\nToen Lena het hoorde, kreeg ze een idee. Ze ging naar de zolder omdat daar oude spullen lagen. Ze vond gekleurde blaadjes, lijm en glitters. \"Ik ga zelf slingers maken,\" dacht ze.\n\nLena werkte de hele middag hard. Ze knipte hartjes en sterren uit het papier. Daarna plakte ze alles aan touwtjes omdat ze mooie slingers wilde. Het was moeilijk werk, want de lijm plakte aan haar vingers.\n\nDe volgende ochtend hing Lena alle slingers op terwijl Tim nog sliep. Ook mama kwam uit bed om te kijken. \"Wat prachtig!\" zei ze. Toen Tim wakker werd en de kamer zag, begon hij te stralen van blijdschap.",
+  "questions": [
+    {
+      "question": "Hoe oud wordt Tim?",
+      "questionType": "begrijpen",
+      "hint": "Kijk in de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waar ging Lena naartoe om spullen te zoeken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "naar de zolder",
+        "de zolder",
+        "zolder"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom was het moeilijk voor Lena om de slingers te maken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lijm",
+            "plakte",
+            "plakken"
+          ],
+          [
+            "vingers",
+            "handen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde met de lijm."
+    },
+    {
+      "question": "Vind je dat Lena lief was voor haar broer? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "natuurlijk"
+          ],
+          [
+            "hielp",
+            "help",
+            "hielpen",
+            "zorgen",
+            "zorgde"
+          ],
+          [
+            "hard",
+            "veel",
+            "lang",
+            "moeite"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lena allemaal deed voor Tim."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lenas-verrassing/image-1.png",
+      "alt": "Lena aan het knutselen met gekleurde blaadjes en lijm"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lenas-verrassing/image-2.png",
+      "alt": "Tim die blij kijkt naar de versierde kamer"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl working at a table with colorful paper, glue and glitter, making party decorations in a cozy Dutch home, children's book illustration style",
+    "A happy 6-year-old boy looking amazed at colorful paper streamers hanging in his birthday room, his sister and mother smiling nearby, children's book illustration style"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "het-mysterie-van-de-verdwenen-verkeersborden",
+  "title": "Het Mysterie van de Verdwenen Verkeersborden",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verkeer",
+  "text": "Vera fietst elke ochtend naar school via de Kerkstraat. Vandaag ziet ze iets vreemds: het stopteken bij de kruising is verdwenen! Alleen de metalen paal staat er nog, kaal en leeg.\n\nOp school vertelt ze het aan juf Marieke. \"Dat is gevaarlijk,\" zegt de juf bezorgd. \"Zonder verkeersborden weten automobilisten niet wanneer ze moeten stoppen.\" Vera besluit na schooltijd te onderzoeken wat er is gebeurd.\n\nBij de kruising ontmoet ze meneer De Vries, die zijn hond uitlaat. \"Gisteren was het bord er nog wel,\" vertelt hij. \"Ik zag een groot wit busje hier parkeren, maar dacht er niets van.\" Een oudere vrouw die langsloopt, voegt eraan toe: \"Die werkmannen van de gemeente waren hier bezig. Ze hadden oranje hesjes aan.\"\n\nVera denkt na. Als gemeente-werkmannen het bord hebben weggehaald, waarom is er dan geen tijdelijk bord geplaatst? Ze fietst naar het gemeentehuis en vraagt aan de receptionist: \"Hebben jullie werkmannen vandaag verkeersborden weggehaald?\" De man kijkt verbaasd. \"Nee, dat staat niet op de planning. Alle borden moeten blijven staan.\"\n\nOpeens begrijpt Vera het. De mannen met oranje hesjes waren geen echte gemeente-werkmannen! Ze belt meteen de politie. Een uur later arresteert de politie twee dieven die verkeersborden stelen om ze te verkopen. Dankzij Vera's onderzoek is het mysterie opgelost en komt er snel een nieuw stopteken bij de kruising.",
+  "questions": [
+    {
+      "question": "Welke straat gebruikt Vera om naar school te fietsen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de kerkstraat",
+        "kerkstraat"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom vond Vera het verdacht dat er geen tijdelijk bord was geplaatst?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "gemeente",
+            "werkmannen",
+            "werklieden"
+          ],
+          [
+            "tijdelijk",
+            "vervangend",
+            "andere"
+          ],
+          [
+            "bord",
+            "stopteken",
+            "verkeersbord"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat echte gemeente-werkmannen zouden doen."
+    },
+    {
+      "question": "Beschrijf de twee verschillende ontmoetingen die Vera had bij de kruising.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "meneer de vries",
+            "man",
+            "hond"
+          ],
+          [
+            "oudere vrouw",
+            "vrouw"
+          ],
+          [
+            "busje",
+            "auto"
+          ],
+          [
+            "oranje hesjes",
+            "werkmannen",
+            "gemeente"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het derde gedeelte van het verhaal nog eens."
+    },
+    {
+      "question": "Vind je dat Vera goed heeft gehandeld door zelf onderzoek te doen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening geven over Vera's handelen en dit onderbouwen. Zowel positieve (ze was slim, hielp de politie) als kritische (gevaarlijk, had eerder de politie kunnen bellen) meningen zijn geldig als ze worden uitgelegd.",
+        "exampleAnswer": "Ja, ik vind dat ze goed heeft gehandeld omdat ze slim was en de politie heeft geholpen om de dieven te pakken.",
+        "keyElements": [
+          "mening geven",
+          "uitleggen/onderbouwen",
+          "vera/handelen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de goede en slechte kanten van Vera's keuze."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over hoe een slim meisje een mysterie oplost door goed te observeren en vragen te stellen. De leerling moet begrijpen dat het over onderzoeken, oplossen van problemen, of moed tonen gaat.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat een mysterie oplost door goed na te denken en vragen te stellen.",
+        "keyElements": [
+          "mysterie/probleem oplossen",
+          "onderzoeken/vragen stellen",
+          "slim zijn/nadenken"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat het belangrijkste onderwerp van het hele verhaal is."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-verkeersborden/image-1.png",
+      "alt": "Vera op haar fiets bij een lege paal waar een verkeersbord zou moeten staan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-verkeersborden/image-2.png",
+      "alt": "Twee mannen in oranje hesjes die een verkeersbord in een wit busje laden"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl on a bicycle looking puzzled at an empty metal pole where a traffic sign should be, Dutch street intersection, children's book illustration style",
+    "Two suspicious men in orange safety vests loading a stolen stop sign into a white van, Dutch neighborhood setting, children's book illustration style"
+  ]
+}

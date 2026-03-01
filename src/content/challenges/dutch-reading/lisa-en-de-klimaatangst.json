@@ -1,0 +1,114 @@
+{
+  "id": "lisa-en-de-klimaatangst",
+  "title": "Lisa en de klimaatangst",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "milieu",
+  "text": "Lisa zit in groep acht van de basisschool. Ze kijkt vaak naar het nieuws met haar ouders. Het nieuws gaat veel over het klimaat. Ze hoort dat de aarde warmer wordt. Ze hoort dat er meer overstromingen komen. Lisa wordt bang van dit nieuws.\n\nOp school praat de juf over het milieu. Ze vertelt dat bomen goed zijn voor de lucht. Ze zegt dat plastic slecht is voor de zee. Lisa luistert goed. Maar ze voelt zich verdrietig. Ze denkt: kan ik wel iets doen? Ben ik te klein om te helpen?\n\nThuis praat Lisa met haar moeder over haar zorgen. Haar moeder zegt dat ze Lisa begrijpt. \"Veel kinderen maken zich zorgen over de toekomst,\" zegt mama. \"Dat is normaal. Maar je bent niet alleen. Er zijn veel mensen die helpen.\"\n\nLisa's moeder laat foto's zien van zonnepanelen op hun dak. Ze lopen naar de tuin. Daar laat mama zien hoe ze groenten kweken zonder gif. \"Kijk,\" zegt mama, \"wij helpen ook. Kleine dingen zijn belangrijk.\"\n\nDe volgende dag voelt Lisa zich beter. Ze besluit om mee te doen met de milieuclub op school. Ze gaat flyers maken over plastic. Ze wil andere kinderen helpen. Lisa weet nu dat ze niet machteloos is. Ze kan wel degelijk iets doen voor het milieu.",
+  "questions": [
+    {
+      "question": "Waar kijkt Lisa vaak naar?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het nieuws",
+        "naar het nieuws"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal.",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "het nieuws",
+          "naar het nieuws"
+        ]
+      }
+    },
+    {
+      "question": "Waarom wordt Lisa bang van het nieuws?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "klimaat",
+            "aarde",
+            "warmer",
+            "overstromingen"
+          ],
+          [
+            "bang",
+            "verdrietig",
+            "zorgen",
+            "angstig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa hoort in het nieuws."
+    },
+    {
+      "question": "Wat doet Lisa's moeder om het milieu te helpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zonnepanelen",
+            "dak"
+          ],
+          [
+            "groenten",
+            "kweken",
+            "gif",
+            "tuin"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat mama laat zien in de vierde alinea."
+    },
+    {
+      "question": "Hoe voelt Lisa zich aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "beter",
+            "goed",
+            "hoopvol"
+          ],
+          [
+            "helpen",
+            "doen",
+            "meedoen",
+            "actief"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lisa-en-de-klimaatangst/image-1.png",
+      "alt": "Lisa kijkt bezorgd naar het klimaatnieuws op televisie"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lisa-en-de-klimaatangst/image-2.png",
+      "alt": "Lisa en haar moeder bekijken zonnepanelen en de moestuin"
+    }
+  ],
+  "imagePrompts": [
+    "A worried young Dutch girl sitting on a couch watching climate change news on TV with her parents, children's book illustration style",
+    "A young girl and her mother standing in a garden with solar panels on the roof, looking at vegetables growing, children's book illustration style"
+  ]
+}

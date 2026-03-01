@@ -1,0 +1,129 @@
+{
+  "id": "het-schoolparlement",
+  "title": "Het Schoolparlement",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "democratie",
+  "text": "Lisa zit in groep 8 op het Willem van Oranje College. Deze week krijgt haar klas een les over democratie. De meester vertelt over verkiezingen en stemmen.\n\n\"Wij gaan ook een schoolparlement maken,\" zegt de meester. \"Jullie mogen kandidaten kiezen. Elke kandidaat mag één speech houden.\" Lisa denkt: dit wordt leuk!\n\nDe volgende dag houdt Jasper zijn speech. Hij belooft gratis snoep voor iedereen. Alle kinderen juichen hard. Lisa denkt ook: wat een goed idee!\n\nMaar dan vraagt Mila: \"Jasper, waar komt het geld vandaan voor al dat snoep?\" Jasper weet geen antwoord. Hij wordt rood en zegt: \"Eh... dat zoeken we later wel uit.\"\n\nLisa begint na te denken. Ze praat thuis met haar vader over de speeches. \"Papa, Jasper belooft gratis snoep, maar hij weet niet hoe dat kan.\" Haar vader lacht: \"Lisa, dat is precies wat echte politici ook doen. Ze beloven veel, maar ze vertellen niet altijd hoe.\"\n\nDe volgende dag stemt Lisa voor Emma. Emma belooft geen gratis snoep, maar wel betere fietsenrekken. Dat is realistisch en nuttig voor de school. Lisa heeft geleerd om goed naar plannen te luisteren, niet alleen naar mooie beloftes.",
+  "questions": [
+    {
+      "question": "Wat belooft Jasper in zijn speech?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "gratis snoep",
+        "gratis snoep voor iedereen",
+        "snoep voor iedereen"
+      ],
+      "hint": "Kijk naar de derde alinea."
+    },
+    {
+      "question": "Waarom wordt Jasper rood tijdens zijn speech?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "antwoord",
+            "weet",
+            "wist",
+            "kent"
+          ],
+          [
+            "niet",
+            "geen"
+          ],
+          [
+            "geld",
+            "betalen",
+            "kosten",
+            "financieren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Mila vraagt en hoe Jasper reageert."
+    },
+    {
+      "question": "Wat leert Lisa's vader haar over politici?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "beloven",
+            "belooft",
+            "beloftes"
+          ],
+          [
+            "veel",
+            "mooie",
+            "leuke"
+          ],
+          [
+            "vertellen",
+            "zeggen",
+            "uitleggen",
+            "vertelt"
+          ],
+          [
+            "niet",
+            "geen",
+            "weinig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat papa tegen Lisa zegt in de vijfde alinea."
+    },
+    {
+      "question": "Vind jij dat Lisa een goede keuze maakt door voor Emma te stemmen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "realistisch",
+            "nuttig",
+            "mogelijk",
+            "echt",
+            "praktisch"
+          ],
+          [
+            "beter",
+            "goed",
+            "slim",
+            "verstandig"
+          ],
+          [
+            "school",
+            "iedereen",
+            "leerlingen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over het verschil tussen Emma's plan en Jaspers belofte."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-schoolparlement/image-1.png",
+      "alt": "Lisa luistert naar speeches in de klas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-schoolparlement/image-2.png",
+      "alt": "Jasper wordt rood terwijl hij spreekt"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a Dutch classroom where students are giving speeches about school elections, with Lisa listening attentively from her desk",
+    "Children's book illustration of a boy named Jasper looking embarrassed and turning red while speaking in front of his classmates, unable to answer a question"
+  ]
+}

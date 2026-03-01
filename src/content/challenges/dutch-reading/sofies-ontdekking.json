@@ -1,0 +1,145 @@
+{
+  "id": "sofies-ontdekking",
+  "title": "Sofies Ontdekking",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "gezondheid",
+  "text": "Sofie had altijd gedacht dat haar moeder gewoon moe was. Al maanden bleef mama de hele dag in bed liggen en vergat ze soms om boodschappen te doen. \"Mama is lui geworden,\" dacht Sofie. Ze begreep niet waarom haar vrolijke moeder nu nooit meer lachte.\n\nOp school vertelde juf Linda over verschillende ziekten. \"Sommige ziekten kun je niet zien,\" legde ze uit. \"Depressie is zo'n ziekte. Mensen met depressie voelen zich heel verdrietig en hebben geen energie meer. Het is niet hun schuld.\" Sofie luisterde aandachtig. Dit klonk bekend.\n\nDie avond keek Sofie anders naar haar moeder. Mama zat stil op de bank en staarde voor zich uit. \"Ben je ziek, mama?\" vroeg Sofie voorzichtig. Haar moeder knikte langzaam. \"Ik heb hulp nodig, Sofie. Maar ik schaamde me ervoor.\" Sofie omhelsde haar moeder stevig.\n\nSamen gingen ze naar de dokter. De dokter legde uit dat depressie een echte ziekte is die goed behandeld kan worden. Mama begon met therapie en kreeg medicijnen. Langzaam kwam er weer kleur in mama's wangen. Sofie had geleerd dat begrip en liefde de eerste stappen zijn naar genezing.\n\nNu helpt Sofie andere kinderen die zich zorgen maken over hun ouders. Ze vertelt hun verhaal en laat zien dat het belangrijk is om hulp te zoeken. \"Praten over problemen maakt ze kleiner,\" zegt ze altijd.",
+  "questions": [
+    {
+      "question": "Wat dacht Sofie eerst over haar moeder?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dat ze lui geworden was",
+        "dat mama lui geworden was",
+        "mama is lui geworden"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom schaamde mama zich ervoor om hulp te zoeken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "schamen",
+            "schaamde",
+            "schaamte"
+          ],
+          [
+            "depressie",
+            "ziek",
+            "ziekte",
+            "problemen"
+          ],
+          [
+            "begrijpen",
+            "niet snappen",
+            "uitleggen",
+            "mensen denken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat mensen vaak denken over depressie."
+    },
+    {
+      "question": "Wat leerde Sofie over het helpen van mensen met depressie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "begrip",
+            "begrijpen",
+            "verstaan"
+          ],
+          [
+            "liefde",
+            "steun",
+            "helpen",
+            "zorgen"
+          ],
+          [
+            "hulp zoeken",
+            "hulp",
+            "dokter",
+            "therapie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de vierde alinea."
+    },
+    {
+      "question": "Vind je dat Sofie goed heeft gereageerd toen ze begreep dat haar moeder ziek was? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "verstandig",
+            "slim"
+          ],
+          [
+            "omhelzen",
+            "steun",
+            "samen",
+            "helpen",
+            "zorgen"
+          ],
+          [
+            "dokter",
+            "hulp zoeken",
+            "praten",
+            "begrijpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Sofie reageerde nadat juf Linda uitleg had gegeven."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het leren herkennen van mentale gezondheid problemen en het belang van hulp zoeken en begrip tonen.",
+        "exampleAnswer": "Het verhaal gaat over het begrijpen dat depressie een echte ziekte is en dat je hulp moet zoeken.",
+        "keyElements": [
+          "depressie/mentale ziekte herkennen",
+          "hulp zoeken/dokter",
+          "begrip/steun"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Sofie leerde en hoe dit haar leven veranderde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sofies-ontdekking/image-1.png",
+      "alt": "Sofie praat voorzichtig met haar moeder die stil op de bank zit"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sofies-ontdekking/image-2.png",
+      "alt": "Sofie en haar moeder samen bij de dokter voor hulp"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl talking gently to her mother who sits quietly on a couch looking sad, in a cozy Dutch living room, children's book illustration style",
+    "A mother and daughter sitting together in a doctor's office having a conversation with a friendly doctor, warm and hopeful atmosphere, children's book illustration style"
+  ]
+}

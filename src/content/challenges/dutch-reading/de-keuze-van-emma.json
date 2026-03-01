@@ -1,0 +1,126 @@
+{
+  "id": "de-keuze-van-emma",
+  "title": "De Keuze van Emma",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "gezondheid",
+  "text": "Emma zit in groep 7 en sport veel. Ze zwemt drie keer per week en voetbalt op zaterdag. Emma eet altijd gezond en drinkt veel water.\n\nVandaag heeft haar beste vriendin Lisa een feestje. Lisa heeft veel snoep en frisdrank gekocht. \"Emma, probeer deze chips!\" zegt Lisa. \"En neem ook wat cola!\" Alle andere kinderen eten snoep en drinken frisdrank.\n\nEmma voelt zich onzeker. Ze wil niet anders zijn dan de anderen. Maar ze weet ook dat ze morgen een belangrijke zwemwedstrijd heeft. Haar trainer heeft gezegd dat sporters goed moeten eten.\n\n\"Kom op Emma, doe niet zo saai!\" zegt Kevin. \"Een beetje snoep is niet erg.\" Emma kijkt naar haar vrienden. Ze lachen en hebben plezier met het snoep.\n\nEmma denkt na over haar keuze. Ze wil een goede vriendin zijn, maar ook een goede sporter. Na een tijdje neemt ze een appel uit haar tas. \"Ik eet liever gezond,\" zegt ze rustig. \"Morgen heb ik een wedstrijd.\"\n\nSommige kinderen lachen, maar Lisa begrijpt het. \"Dat is slim van je,\" zegt Lisa. \"Ik hoop dat je wint morgen!\" Emma voelt zich goed over haar beslissing.",
+  "questions": [
+    {
+      "question": "Hoe vaak zwemt Emma per week?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "drie"
+          ],
+          [
+            "keer"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom wil Emma geen snoep eten op het feestje?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "wedstrijd",
+            "zwemwedstrijd",
+            "zwemmen"
+          ],
+          [
+            "gezond",
+            "goed eten",
+            "sporters"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma morgen moet doen."
+    },
+    {
+      "question": "Hoe voelt Emma zich toen Kevin zei dat ze saai was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "onzeker",
+            "twijfel",
+            "twijfelt"
+          ],
+          [
+            "anders",
+            "verschillend",
+            "niet hetzelfde"
+          ],
+          [
+            "druk",
+            "pressure",
+            "moeilijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er staat over hoe Emma zich voelt bij de andere kinderen."
+    },
+    {
+      "question": "Vind jij dat Emma de juiste keuze heeft gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet"
+          ],
+          [
+            "gezond",
+            "sport",
+            "wedstrijd",
+            "goede keuze",
+            "slim"
+          ],
+          [
+            "vrienden",
+            "vriendschap",
+            "aardig zijn"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de voor- en nadelen van Emma's beslissing."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-emma/image-1.png",
+      "alt": "Emma op een kinderfeestje met snoep en frisdrank om haar heen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-emma/image-2.png",
+      "alt": "Emma die een appel eet terwijl andere kinderen snoep eten"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl at a children's party looking uncertain while surrounded by candy and soft drinks, other kids eating sweets, children's book illustration style",
+    "A young Dutch girl eating an apple while other children eat candy at a party, she looks confident in her choice, children's book illustration style"
+  ]
+}

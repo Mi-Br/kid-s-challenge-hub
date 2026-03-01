@@ -1,0 +1,112 @@
+{
+  "id": "anna-frank-en-de-oorlog",
+  "title": "Anna Frank en de Oorlog",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Emma las een boek over Anna Frank voor haar schoolproject. Het verhaal maakte haar verdrietig en bang tegelijk. Anna was een joods meisje dat zich moest verstoppen tijdens de Tweede Wereldoorlog in Amsterdam.\n\nEmma wist niet veel over die tijd. Haar oma vertelde haar dat Nederlandse joden toen heel veel gevaar liepen. Veel families moesten zich verstoppen in geheime kamers. Anna schreef dagboek over haar leven in het Achterhuis.\n\nEmma voelde zich schuldig dat ze Anna's verhaal zo moeilijk vond. Ze dacht dat ze sterker moest zijn. Haar leraar zei dat het normaal was om verdrietig te worden van oorlogsverhalen. Hij legde uit dat empathie belangrijk is.\n\nToen Emma meer verhalen las, begreep ze de geschiedenis beter. Ze besloot om Anna's verhaal te delen met haar klas. Emma wilde dat andere kinderen ook leerden over moed en hoop tijdens donkere tijden.\n\nNu begrijpt Emma dat leren over geschiedenis soms pijn doet, maar wel nodig is. Ze is trots dat ze Anna's verhaal kan vertellen aan anderen.",
+  "questions": [
+    {
+      "question": "Over wie las Emma een boek?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "anna frank"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "anna frank"
+        ]
+      }
+    },
+    {
+      "question": "Waarom voelde Emma zich schuldig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "moeilijk",
+            "zwaar",
+            "lastig"
+          ],
+          [
+            "vond",
+            "vinden",
+            "dacht",
+            "denken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over Emma's gevoelens."
+    },
+    {
+      "question": "Hoe veranderde Emma's houding tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "begreep",
+            "begrijpen",
+            "leerde",
+            "leren"
+          ],
+          [
+            "delen",
+            "vertellen",
+            "verhaal",
+            "verhalen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Emma zich voelde aan het begin en aan het eind."
+    },
+    {
+      "question": "Wat besloot Emma te doen na het lezen van meer verhalen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "delen",
+            "vertellen",
+            "verhaal"
+          ],
+          [
+            "klas",
+            "kinderen",
+            "anderen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de vierde alinea over Emma's besluit."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/anna-frank-en-de-oorlog/image-1.png",
+      "alt": "Emma leest een boek over Anna Frank aan haar bureau"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/anna-frank-en-de-oorlog/image-2.png",
+      "alt": "Emma vertelt Anna's verhaal aan haar klasgenoten"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch girl named Emma sitting at a desk reading a book about Anne Frank, looking thoughtful and emotional, children's book illustration style",
+    "Emma standing in front of her classroom sharing Anne Frank's story with her classmates who are listening attentively, children's book illustration style"
+  ]
+}

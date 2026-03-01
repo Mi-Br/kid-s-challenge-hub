@@ -1,0 +1,81 @@
+{
+  "id": "lara-helpt-met-verjaardag",
+  "title": "Lara helpt met verjaardag",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verjaardagen",
+  "text": "Lara loopt naar school. Ze ziet haar vriendin Noor huilen in de tuin.\n\n\"Wat is er?\" vraagt Lara. Noor vertelt: \"Morgen ben ik jarig. Maar mama en papa hebben geen geld voor een feest. Ik krijg geen taart en geen slingers.\"\n\nLara denkt na. Thuis vraagt ze aan mama: \"Mogen we Noor helpen met haar verjaardag?\" Mama zegt: \"Dat is lief van je, Lara. We kunnen samen een taart bakken.\"\n\nDe volgende dag komen Lara en mama naar Noors huis. Ze hebben een zelfgemaakte taart en papieren slingers. Noors mama en papa zijn zo blij.\n\nNoor straalt van geluk. \"Dit is de mooiste verjaardag ooit!\" zegt ze. Lara voelt zich warm en trots omdat ze heeft geholpen.",
+  "questions": [
+    {
+      "question": "Waar ziet Lara haar vriendin huilen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de tuin"
+      ],
+      "hint": "Kijk naar de eerste paragraaf."
+    },
+    {
+      "question": "Waarom kan Noor geen feest hebben?",
+      "questionType": "begrijpen",
+      "hint": "Noor vertelt dit aan Lara in de tweede paragraaf.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "mama"
+          ],
+          [
+            "papa"
+          ],
+          [
+            "hebben"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe voelt Lara zich aan het eind van het verhaal en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "warm",
+            "trots",
+            "blij",
+            "goed",
+            "fijn"
+          ],
+          [
+            "helpen",
+            "geholpen",
+            "hielp",
+            "help"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lara-helpt-met-verjaardag/image-1.png",
+      "alt": "Lara troost haar huilende vriendin Noor in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lara-helpt-met-verjaardag/image-2.png",
+      "alt": "Lara en haar mama brengen een zelfgemaakte taart en slingers naar Noors huis"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl comforting her crying friend in a Dutch garden, children's book illustration style, warm and empathetic scene",
+    "A mother and daughter bringing a homemade birthday cake and paper decorations to their neighbor's house, children's book illustration style, cheerful Dutch residential setting"
+  ]
+}

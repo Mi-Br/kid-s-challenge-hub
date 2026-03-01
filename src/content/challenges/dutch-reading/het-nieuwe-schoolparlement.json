@@ -1,0 +1,142 @@
+{
+  "id": "het-nieuwe-schoolparlement",
+  "title": "Het Nieuwe Schoolparlement",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "democratie",
+  "text": "Emma was altijd de beste van de klas geweest. Ze had de hoogste cijfers, de mooiste werkstukken en alle leraren waren dol op haar. Daarom was ze er zeker van dat zij de nieuwe voorzitter van het schoolparlement zou worden.\n\nToen de verkiezingen werden aangekondigd, begon Emma meteen met campagne voeren. Ze maakte kleurrijke posters en beloofde langere pauzes en minder huiswerk. Ze was ervan overtuigd dat iedereen op haar zou stemmen.\n\nMaar tijdens de speeches voor de hele school gebeurde er iets onverwachts. Sam, een rustige jongen uit haar klas, hield een indrukwekkende toespraak. Hij sprak over eerlijkheid, samenwerking en het luisteren naar alle leerlingen. Emma voelde haar hart bonken toen ze zag hoe enthousiast iedereen reageerde.\n\nNa de stemming werd Sam tot voorzitter gekozen met een grote meerderheid. Emma was teleurgesteld en boos. Hoe kon dit gebeuren? Zij was toch veel slimmer dan Sam?\n\nDe dagen erna observeerde Emma hoe Sam zijn nieuwe rol vervulde. Hij organiseerde vergaderingen waar iedereen zijn mening mocht geven. Hij luisterde naar de zorgen van de jongere leerlingen en probeerde oplossingen te vinden die voor iedereen werkten. Emma zag dat democratie niet alleen ging om wie het slimst was.\n\nLangzaam begon Emma te begrijpen dat leiderschap meer was dan goede cijfers hebben. Sam had iets wat zij niet had: hij kon mensen samenbrengen en naar elkaar laten luisteren. Emma besloot om Sam te helpen en werd zijn belangrijkste adviseur.\n\n'Dank je wel voor je steun,' zei Sam na een succesvolle vergadering. Emma glimlachte. Ze had geleerd dat democratie draait om samenwerken, niet om winnen.",
+  "questions": [
+    {
+      "question": "Waarom was Emma er zeker van dat zij voorzitter zou worden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze was altijd de beste van de klas geweest",
+        "ze had de hoogste cijfers",
+        "ze had de mooiste werkstukken"
+      ],
+      "hint": "Kijk naar de eerste alinea waar wordt uitgelegd hoe Emma op school presteerde."
+    },
+    {
+      "question": "Waarom reageerde iedereen zo enthousiast op Sams toespraak?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "eerlijkheid",
+            "eerlijk",
+            "rechtvaardig"
+          ],
+          [
+            "samenwerking",
+            "samenwerken",
+            "samen"
+          ],
+          [
+            "luisteren",
+            "luisterde",
+            "hoorde",
+            "aanhoren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan de onderwerpen waar Sam over sprak in zijn toespraak."
+    },
+    {
+      "question": "Wat leerde Emma over democratie door naar Sam te kijken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "samenwerken",
+            "samenwerking",
+            "samen",
+            "teamwork"
+          ],
+          [
+            "luisteren",
+            "luisterde",
+            "aanhoren",
+            "horen"
+          ],
+          [
+            "mensen samenbrengen",
+            "verbinden",
+            "verenigen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vijfde en zesde alinea over wat Emma observeerde."
+    },
+    {
+      "question": "Vind je dat Emma goed reageerde op haar nederlaag? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "positief",
+            "juist"
+          ],
+          [
+            "leerde",
+            "groeide",
+            "ontwikkelde",
+            "veranderde"
+          ],
+          [
+            "help",
+            "steun",
+            "adviseur",
+            "samenwerken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Emma veranderde van boos en teleurgesteld naar iemand die Sam ging helpen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over democratie en leiderschap, waarbij samenwerking en luisteren belangrijker zijn dan alleen slim zijn. De nadruk ligt op het feit dat Emma leerde dat democratie niet gaat om winnen maar om samen oplossingen zoeken.",
+        "exampleAnswer": "Het verhaal gaat over democratie en dat goed leiderschap betekent dat je naar iedereen luistert en samenwerkt, niet alleen de slimste bent.",
+        "keyElements": [
+          "democratie/leiderschap",
+          "samenwerken/luisteren",
+          "niet alleen slim/cijfers"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Emma heeft geleerd over democratie en leiderschap."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-nieuwe-schoolparlement/image-1.png",
+      "alt": "Emma en Sam staan voor de klas tijdens hun verkiezingsspeeches"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-nieuwe-schoolparlement/image-2.png",
+      "alt": "Sam leidt een vergadering terwijl Emma luistert en notities maakt"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a school election scene with Emma and Sam giving speeches to their classmates in a Dutch primary school classroom, Emma looking confident with colorful posters, Sam speaking earnestly",
+    "Children's book illustration of Sam leading a student council meeting with diverse students sitting in a circle, Emma taking notes as an advisor, democratic discussion atmosphere in a Dutch school setting"
+  ]
+}

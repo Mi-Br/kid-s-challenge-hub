@@ -1,0 +1,115 @@
+{
+  "id": "de-magische-verkeerslichten",
+  "title": "De Magische Verkeerslichten",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verkeer",
+  "text": "Emma fietste elke ochtend langs de drukke Hoofdstraat naar school. Ze ergerde zich altijd aan de oude man bij de verkeerslichten. Hij droeg een rare paarse pet en mompelde vreemde woorden terwijl hij op groen wachtte.\n\n\"Wat een rare kwibus,\" dacht Emma steeds. Ze probeerde altijd ver bij hem vandaan te blijven omdat hij zo anders was dan andere mensen. Zijn kleren waren oud en zijn fiets had rare belletjes die zachte melodieën speelden.\n\nOp een regenachtige donderdag gebeurde er iets bijzonders. Emma zag hoe de man zijn handen opstak naar de rode verkeerslichten. Plotseling sprongen alle lichten tegelijk op groen! Alle auto's, fietsers en voetgangers konden veilig oversteken zonder te wachten.\n\n\"Dat kan niet,\" fluisterde Emma verbaasd. Maar de volgende dag zag ze het opnieuw gebeuren. De man leek de verkeerslichten te kunnen besturen met zijn vriendelijke gebaren. Hij hielp iedereen sneller en veiliger door het verkeer.\n\nEmma besloot naar hem toe te fietsen. \"Hoe doet u dat?\" vroeg ze nieuwsgierig. De man glimlachte en zei: \"Kind, ik luister gewoon naar wat de stad nodig heeft. Soms hebben we allemaal wat hulp nodig om verder te komen.\" Vanaf die dag groette Emma hem elke ochtend vriendelijk.",
+  "questions": [
+    {
+      "question": "Welke kleur pet droeg de oude man?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "paars",
+        "paarse"
+      ],
+      "hint": "Kijk in de eerste alinea naar wat Emma over de man opmerkt."
+    },
+    {
+      "question": "Waarom bleef Emma eerst ver bij de man vandaan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "anders",
+            "vreemd",
+            "raar",
+            "bijzonder"
+          ],
+          [
+            "mensen",
+            "anderen",
+            "gewoon"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma dacht over hoe de man eruit zag en zich gedroeg."
+    },
+    {
+      "question": "Wat deed de man om de verkeerslichten te veranderen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "handen",
+            "gebaren",
+            "gebaar"
+          ],
+          [
+            "opsteken",
+            "opstak",
+            "opsteken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea goed. Wat deed hij met zijn lichaam?"
+    },
+    {
+      "question": "Vind je dat Emma goed handelde door uiteindelijk met de man te praten? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Emma's gedrag en dit onderbouwen. Goede antwoorden kunnen stellen dat het goed was omdat ze haar vooroordelen overwon, nieuwsgierig werd, of leerde dat anders zijn niet slecht hoeft te zijn.",
+        "exampleAnswer": "Ja, dat vind ik goed omdat ze haar vooroordeel overwon en ontdekte dat de man eigenlijk aardig en behulpzaam was.",
+        "keyElements": [
+          "vooroordeel/oordeel/mening",
+          "veranderen/overwinnen/leren",
+          "aardig/goed/behulpzaam"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe Emma's mening over de man veranderde en wat ze daarvan leerde."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het niet oordelen over mensen die anders zijn en ontdekken dat iedereen bijzondere kwaliteiten kan hebben. De kernboodschap is over vooroordelen overwinnen en openheid.",
+        "exampleAnswer": "Het verhaal gaat erover dat je mensen niet moet beoordelen omdat ze er anders uitzien, want iedereen kan bijzondere dingen doen.",
+        "keyElements": [
+          "oordelen/beoordelen/vooroordeel",
+          "anders/verschillend",
+          "bijzonder/speciaal/uniek"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Emma leerde over de man en wat de schrijver ons wil vertellen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-verkeerslichten/image-1.png",
+      "alt": "Een oude man met een paarse pet staat bij verkeerslichten met een fiets met belletjes"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-verkeerslichten/image-2.png",
+      "alt": "De man steekt zijn handen op naar de verkeerslichten die magisch van kleur veranderen"
+    }
+  ],
+  "imagePrompts": [
+    "An elderly man with a purple hat standing next to traffic lights with a bicycle that has small bells, in a busy Dutch street scene, children's book illustration style",
+    "The same elderly man raising his hands toward traffic lights that are magically glowing and changing colors, with cars and cyclists waiting safely, children's book illustration style"
+  ]
+}

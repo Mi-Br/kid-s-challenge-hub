@@ -1,0 +1,142 @@
+{
+  "id": "de-magische-wereld-van-cijfers",
+  "title": "De Magische Wereld van Cijfers",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wetenschap",
+  "text": "In een tijd waarin schermen gloeien als moderne kristallen bollen, ontmoette Zara een video die beloofde de waarheid over het klimaat te onthullen. De titel flitste als neon: 'Wetenschappers liegen! De echte cijfers die ze verbergen!'\n\nDe stem in de video klonk zo overtuigend, alsof elk woord in goud was gegraveerd. Grafieken dansten over het scherm, getallen sprongen als acrobaten van punt naar punt. \"Kijk naar deze temperatuurmetingen uit 1850,\" zei de man met de diepe stem. \"Ze tonen aan dat de aarde juist afkoelt.\" Zara's ogen volgden de lijnen, haar hart bonkte van opwinding. Eindelijk iemand die de moed had om de waarheid te vertellen!\n\nDe volgende dag op school vertelde Zara enthousiast aan haar leraar meneer De Vries wat ze had ontdekt. Hij keek bedachtzaam, zijn vingers drumden zachtjes op zijn bureau. \"Interessant,\" mompelde hij. \"Kun je me vertellen wie deze video heeft gemaakt? En waar die cijfers vandaan komen?\"\n\nThuisgekomen begon Zara te graven als een archeoloog die schatten zoekt. Ze zocht de naam van de maker op: geen wetenschappelijke opleiding, maar wel eigenaar van een oliemaatschappij. De temperatuurgegevens kwamen van slechts drie meetstations, terwijl er wereldwijd duizenden zijn. Bovendien waren de grafieken misleidend geschaald – als je inzoomde op korte periodes, leek alles anders dan wanneer je het grote plaatje bekeek.\n\nHaar vingers trilden toen ze doorklitte naar echte wetenschappelijke bronnen. Peer-reviewed onderzoeken vertelden een ander verhaal, gebaseerd op miljoenen meetpunten en decennia van zorgvuldige analyse. Plotseling voelde de video als een luchtspiegeling die langzaam oploste in de woestijn van informatie.\n\nDe volgende week presenteerde Zara haar bevindingen aan de klas. \"Ik dacht dat ik de waarheid had gevonden,\" zei ze, haar stem helder als kristal. \"Maar ik had alleen geleerd hoe makkelijk het is om cijfers te laten liegen wanneer je niet vraagt wie ze presenteert, waarom, en met welke methodes.\"\n\nMeneer De Vries glimlachte. \"Wetenschap draait niet om het geloven van één stem, maar om het luisteren naar het koor van bewijs dat door vele onderzoekers wordt gezongen. Kritisch denken is jullie kompas in deze oceaan van informatie.\"\n\nZara knikte, wijzer geworden. In een wereld vol glimmende beweringen had ze geleerd dat de mooiste waarheid vaak schuilt achter de grijze, minder opwindende muren van zorgvuldige wetenschap.",
+  "questions": [
+    {
+      "question": "Leg uit waarom Zara's ontdekking over de maker van de video belangrijk was voor het beoordelen van de informatie.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de achtergrond van de maker (eigenaar oliemaatschappij, geen wetenschappelijke opleiding) de betrouwbaarheid van de informatie beïnvloedt vanwege mogelijk belangenconflict.",
+        "exampleAnswer": "Het was belangrijk omdat de maker eigenaar was van een oliemaatschappij en geen wetenschappelijke opleiding had, waardoor hij een eigen belang had bij het ontkennen van klimaatverandering.",
+        "keyElements": [
+          "belangenconflict/eigen belang",
+          "oliemaatschappij",
+          "geen wetenschappelijke opleiding/achtergrond"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat Zara ontdekte over wie de video had gemaakt en welk bedrijf hij had."
+    },
+    {
+      "question": "Wat is volgens meneer De Vries het verschil tussen geloven en wetenschap?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "koor",
+            "vele",
+            "meerdere",
+            "veel"
+          ],
+          [
+            "bewijs",
+            "onderzoek",
+            "onderzoekers"
+          ],
+          [
+            "één stem",
+            "een stem",
+            "geloven"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat meneer De Vries zegt over het koor van bewijs."
+    },
+    {
+      "question": "Analyseer waarom de schrijver de metafoor van 'een oceaan van informatie' gebruikt aan het einde van het verhaal.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat een oceaan verwijst naar de enorme hoeveelheid informatie waarin je kunt verdwalen, en dat kritisch denken als kompas helpt om de goede richting te vinden.",
+        "exampleAnswer": "Een oceaan is groot en je kunt er makkelijk verdwalen, net zoals in alle informatie die er bestaat. Kritisch denken helpt je de juiste weg te vinden, zoals een kompas op zee.",
+        "keyElements": [
+          "groot/veel/enorm",
+          "verdwalen/weg kwijt",
+          "kompas/richting vinden"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over hoe een oceaan voelt en waarom je daar een kompas nodig hebt."
+    },
+    {
+      "question": "Beoordeel of de video die Zara zag een betrouwbare bron was en geef drie argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet concluderen dat de video niet betrouwbaar was en ten minste twee van deze argumenten geven: maker heeft belangenconflict (oliemaatschappij), beperkte data (drie meetstations vs duizenden), misleidende presentatie (geschaalde grafieken), geen peer review.",
+        "exampleAnswer": "De video was niet betrouwbaar omdat: 1) de maker een oliemaatschappij had en dus eigen belangen, 2) hij gebruikte maar drie meetstations terwijl er duizenden zijn, en 3) de grafieken waren misleidend geschaald.",
+        "keyElements": [
+          "niet betrouwbaar/onbetrouwbaar",
+          "belangenconflict/eigen belang/oliemaatschappij",
+          "beperkte data/drie meetstations",
+          "misleidend/misleidende grafieken"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk aan alle problemen die Zara ontdekte toen ze de video nakeek."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van kritisch denken en het controleren van informatiebronnen voordat je ze gelooft, vooral in het digitale tijdperk.",
+        "exampleAnswer": "Het verhaal gaat over hoe belangrijk het is om informatie te controleren en kritisch na te denken voordat je iets gelooft, vooral op internet.",
+        "keyElements": [
+          "kritisch denken/nadenken",
+          "informatie controleren/checken",
+          "bronnen controleren",
+          "niet zomaar geloven"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Zara heeft geleerd door deze ervaring."
+    },
+    {
+      "question": "Waarom heeft de schrijver dit verhaal volgens jou geschreven? Wat wilde hij of zij de lezers leren?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver jongeren wil waarschuwen voor misleidende informatie en hen wil leren hoe ze betrouwbare van onbetrouwbare bronnen kunnen onderscheiden.",
+        "exampleAnswer": "De schrijver wilde jongeren leren om voorzichtig te zijn met informatie op internet en hen laten zien hoe je kunt controleren of iets waar is.",
+        "keyElements": [
+          "waarschuwen/voorzichtig zijn",
+          "misleidende informatie/nepnieuws",
+          "leren controleren/checken",
+          "betrouwbare bronnen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan welke les Zara leerde en waarom dat belangrijk is voor jongeren vandaag."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-wereld-van-cijfers/image-1.png",
+      "alt": "Zara kijkt gefascineerd naar een video op haar laptop met grafieken en cijfers"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-wereld-van-cijfers/image-2.png",
+      "alt": "Zara presenteert haar bevindingen aan de klas met meneer De Vries"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking fascinated at her laptop screen showing colorful graphs and charts, in a cozy bedroom setting, children's book illustration style",
+    "A teenage girl presenting to her classmates in a bright classroom, with a friendly male teacher smiling in the background, children's book illustration style"
+  ]
+}

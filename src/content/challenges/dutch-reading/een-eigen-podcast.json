@@ -1,0 +1,110 @@
+{
+  "id": "een-eigen-podcast",
+  "title": "Een Eigen Podcast",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "media",
+  "text": "Lotte zit aan de keukentafel met haar laptop. Ze wil een podcast maken over boeken. Haar vriendin Emma heeft een populaire podcast over sport. Die heeft al duizend luisteraars.\n\nMaar Lotte weet niet waar ze moet beginnen. Ze heeft nog nooit een podcast gemaakt. Wat als niemand luistert? Wat als haar stem niet goed klinkt? Ze draait aan haar haar en staart naar het lege scherm.\n\nZijn ouders zijn druk met ruziemaken in de woonkamer. Ze praten over geld en werk. Ze hebben geen tijd om haar te helpen. Lotte voelt zich alleen met haar zorgen.\n\nDan denkt ze aan haar lievelingsboek. Dat geeft haar een idee. Ze kan beginnen met een aflevering over dat boek. Misschien luisteren haar klasgenoten wel. Ze opent een nieuw bestand en begint te typen.\n\nLotte weet nog steeds niet of haar podcast goed wordt. Maar ze wil het proberen. Ze hoopt dat mensen van boeken houden net zoals zij.",
+  "questions": [
+    {
+      "question": "Over welk onderwerp wil Lotte een podcast maken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "boeken"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelt Lotte zich alleen met haar zorgen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ouders",
+            "papa",
+            "mama",
+            "vader",
+            "moeder"
+          ],
+          [
+            "druk",
+            "bezig",
+            "ruzie",
+            "ruziemaken",
+            "geen tijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over wat haar ouders doen."
+    },
+    {
+      "question": "Wat geeft Lotte het idee om te beginnen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lievelingsboek",
+            "favoriete boek",
+            "boek"
+          ],
+          [
+            "denkt",
+            "herinnert",
+            "idee",
+            "inspiratie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de vierde alinea wat Lotte helpt."
+    },
+    {
+      "question": "Hoe voelt Lotte zich aan het einde van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "onzeker",
+            "twijfel",
+            "weet niet",
+            "niet zeker"
+          ],
+          [
+            "hoop",
+            "hoopt",
+            "proberen",
+            "wil proberen",
+            "moed"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea over wat Lotte denkt en voelt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/een-eigen-podcast/image-1.png",
+      "alt": "Lotte zit aan de keukentafel met haar laptop"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/een-eigen-podcast/image-2.png",
+      "alt": "Lotte begint te typen op haar laptop"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting at a kitchen table with a laptop, looking uncertain and worried, children's book illustration style",
+    "The same girl typing on her laptop with a more determined expression, starting to work on her project, children's book illustration style"
+  ]
+}

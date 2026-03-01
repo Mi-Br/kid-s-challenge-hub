@@ -1,0 +1,122 @@
+{
+  "id": "het-mysterie-van-de-kapotte-verkeerslichten",
+  "title": "Het Mysterie van de Kapotte Verkeerslichten",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verkeer",
+  "text": "Sofie fietst elke ochtend naar school door de Hoofdstraat. Vandaag is er iets heel vreemds. Alle verkeerslichten knipperen oranje! Auto's rijden heel voorzichtig en mensen kijken verbaasd.\n\nOp het schoolplein vertelt Sofie het aan haar vriendin Emma. \"Misschien is er een ongeluk gebeurd,\" zegt Emma. \"Of de elektriciteit is kapot.\" Sofie vindt het mysterieus. Ze wil uitzoeken wat er aan de hand is.\n\nNa school fietst Sofie een andere route naar huis. Ze rijdt langs de politiepost en het gemeentehuis. Ook daar knipperen de verkeerslichten oranje. Voor de elektriciteitswinkel staat een grote vrachtwagen. Twee mannen in blauwe pakken zijn bezig met kabels.\n\nSofie stopt bij de mannen. \"Wat doen jullie?\" vraagt ze beleefd. De oudste man lacht vriendelijk. \"We vervangen oude kabels,\" legt hij uit. \"Daardoor werken de verkeerslichten vandaag niet goed. Morgen is alles weer normaal.\"\n\nSofie fietst blij naar huis. Het mysterie is opgelost! Ze kan niet wachten om het aan Emma te vertellen. Soms hebben vreemde dingen een heel gewone verklaring.",
+  "questions": [
+    {
+      "question": "Welke kleur knipperen de verkeerslichten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oranje"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom denkt Sofie dat de situatie mysterieus is?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vreemd",
+            "raar",
+            "gek",
+            "mysterieus"
+          ],
+          [
+            "verkeerslichten",
+            "lichten",
+            "oranje"
+          ],
+          [
+            "weten",
+            "begrijpen",
+            "snappen",
+            "uitzoeken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Sofie ziet en voelt."
+    },
+    {
+      "question": "Wat ontdekt Sofie bij de elektriciteitswinkel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vrachtwagen",
+            "auto",
+            "wagen"
+          ],
+          [
+            "mannen",
+            "mensen",
+            "werkers"
+          ],
+          [
+            "kabels",
+            "elektriciteit",
+            "draden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea goed."
+    },
+    {
+      "question": "Vind je dat Sofie goed heeft gehandeld door de mannen te vragen wat ze deden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "slim",
+            "handig",
+            "verstandig"
+          ],
+          [
+            "vragen",
+            "vroeg",
+            "gevraagd"
+          ],
+          [
+            "weten",
+            "ontdekken",
+            "uitzoeken",
+            "begrijpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na: wat gebeurde er nadat Sofie de vraag stelde?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-kapotte-verkeerslichten/image-1.png",
+      "alt": "Sofie fietst door de straat met oranje knipperende verkeerslichten"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-kapotte-verkeerslichten/image-2.png",
+      "alt": "Sofie praat met de mannen bij de vrachtwagen voor de elektriciteitswinkel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl on a bicycle looking puzzled at orange flashing traffic lights on a Dutch street, cars moving slowly, children's book illustration style",
+    "A young girl on a bicycle talking to two friendly workmen in blue overalls next to a large truck outside an electrical shop, with cables visible, children's book illustration style"
+  ]
+}

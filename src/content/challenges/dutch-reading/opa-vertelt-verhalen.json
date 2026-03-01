@@ -1,0 +1,53 @@
+{
+  "id": "opa-vertelt-verhalen",
+  "title": "Opa Vertelt Verhalen",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "familie",
+  "text": "Lisa is bij opa op de boerderij. Ze is bang voor opa's lange verhalen. Opa zit altijd in zijn oude stoel. Hij vertelt veel over vroeger.\n\nMama zegt: \"Luister naar opa, Lisa. Hij kent mooie verhalen.\" Lisa wil weglopen. Maar ze blijft staan.\n\nOpa begint te vertellen. Hij praat over een klein veulen op de boerderij. Het veulen was heel speels. Lisa luistert goed. Het verhaal is niet saai! Ze lacht veel.\n\n\"Nog een verhaal, opa!\" zegt Lisa. Nu vindt ze opa's verhalen heel leuk.",
+  "questions": [
+    {
+      "question": "Waar is Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij opa op de boerderij",
+        "op de boerderij"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waar zit opa altijd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in zijn oude stoel",
+        "in zijn stoel"
+      ],
+      "hint": "Zoek in de tweede alinea."
+    },
+    {
+      "question": "Waarover vertelt opa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "over een klein veulen",
+        "een klein veulen",
+        "over een veulen"
+      ],
+      "hint": "Lees de derde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/opa-vertelt-verhalen/image-1.png",
+      "alt": "Opa zit in zijn oude stoel en Lisa luistert"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/opa-vertelt-verhalen/image-2.png",
+      "alt": "Lisa lacht om opa's verhaal over het veulen"
+    }
+  ],
+  "imagePrompts": [
+    "An elderly grandfather sitting in an old armchair on a Dutch farm, telling a story to a young girl named Lisa who stands nearby listening, children's book illustration style with warm countryside setting",
+    "A young girl laughing happily while listening to her grandfather's story about a playful foal, set in a cozy Dutch farmhouse interior, children's book illustration style"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "de-nieuwe-trui",
+  "title": "De Nieuwe Trui",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "kleding",
+  "text": "Lisa kreeg een nieuwe rode trui van haar oma. De trui was heel zacht en warm. Ze wilde hem meteen naar school aan.\n\nOp school zei Bas: \"Wat een mooie trui!\" Lisa was heel blij. Ze rende naar buiten om te spelen. Maar toen gebeurde er iets ergs. De trui scheurde bij de schommel.\n\nLisa was verdrietig. \"Mijn trui is kapot,\" zei ze tegen juf Anke. Juf Anke keek naar de scheur. \"Maak je niet druk,\" zei ze. \"Mijn moeder kan dit maken.\"\n\nDe volgende dag bracht juf Anke de trui terug. De scheur was weg! Lisa trok de trui aan. \"Dank je wel!\" zei ze blij. Nu kon ze weer trots haar rode trui dragen.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de trui?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Van wie kreeg Lisa de trui?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oma",
+        "haar oma"
+      ],
+      "hint": "Lees de eerste zin goed."
+    },
+    {
+      "question": "Waarom was Lisa verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "trui",
+            "kleding"
+          ],
+          [
+            "kapot",
+            "scheurde",
+            "scheur",
+            "gescheurd",
+            "stuk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat gebeurde er bij de schommel?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-trui/image-1.png",
+      "alt": "Lisa draagt een rode trui op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-trui/image-2.png",
+      "alt": "De trui is gescheurd bij de schommel"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl wearing a bright red soft sweater at school, smiling proudly, children's book illustration style",
+    "A torn red sweater caught on playground swing equipment, with the girl looking sad, Dutch school playground background, children's book illustration style"
+  ]
+}

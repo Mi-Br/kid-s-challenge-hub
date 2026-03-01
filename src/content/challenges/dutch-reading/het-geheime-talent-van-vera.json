@@ -1,0 +1,109 @@
+{
+  "id": "het-geheime-talent-van-vera",
+  "title": "Het Geheime Talent van Vera",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "vriendschap",
+  "text": "Vera staarde naar het grote podium in de schoolaula. Morgen zou de talentenjacht plaatsvinden, maar zij had zich niet aangemeld. \"Ik heb geen talent,\" had ze tegen haar beste vriendin Lotte gezegd.\n\nLotte dacht daar heel anders over. Zij had Vera al vaak horen zingen tijdens het fietsen naar school. Als Vera dacht dat niemand luisterde, zong ze prachtige liedjes. Haar stem klonk helder en zuiver, maar Vera wist het zelf niet. \"Mocht je van gedachten veranderen, dan kun je je nog tot vanavond opgeven,\" zei Lotte voorzichtig.\n\nDie middag gingen de meisjes samen naar het park. Vera begon weer te zingen terwijl ze op de schommel zat. Een oudere man die met zijn hond wandelde, bleef staan luisteren. \"Wat een prachtige stem!\" riep hij uit. \"Ben jij een echte zangeres?\" Vera werd vuurrood en stopte meteen met zingen.\n\nLotte greep haar kans. \"Zie je wel? Iedereen hoort hoe mooi je zingt, behalve jijzelf. Volwassenen begrijpen vaak beter wat echt talent is.\" Vera schudde haar hoofd. Voor haar was zingen gewoon leuk, niet bijzonder. Kinderen denken vaak dat iets alleen speciaal is als het moeilijk voelt.\n\nToen ze thuiskwamen, had Lotte een plan bedacht. \"Indien je meedoet aan de talentenjacht, dan sta ik naast je op het podium. We doen het samen!\" Vera aarzelde lang, maar de vriendschap met Lotte was sterker dan haar angst. Ze besloot zich toch op te geven.\n\nDe volgende dag stonden beide meisjes op het podium. Vera's stem vulde de hele aula met een prachtig lied. Het publiek luisterde ademloos. Toen ze klaar was, barstte er een geweldig applaus los. Vera keek verbaasd de zaal in. Voor het eerst begreep ze wat Lotte al die tijd had gezien: zij had werkelijk een bijzonder talent voor zingen.",
+  "questions": [
+    {
+      "question": "Wat zei de man in het park over Vera's stem?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wat een prachtige stem",
+        "prachtige stem"
+      ],
+      "hint": "Kijk in de derde alinea naar wat de man uitriep."
+    },
+    {
+      "question": "Waarom dacht Vera eerst dat ze geen talent had?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "zingen",
+            "zong",
+            "stem"
+          ],
+          [
+            "leuk",
+            "gewoon",
+            "normaal",
+            "niet bijzonder",
+            "niet speciaal"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea over hoe Vera over zingen dacht."
+    },
+    {
+      "question": "Wat is het verschil tussen hoe kinderen en volwassenen naar talent kijken volgens dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat volwassenen talent beter herkennen dan kinderen, en dat kinderen denken dat iets alleen bijzonder is als het moeilijk aanvoelt.",
+        "exampleAnswer": "Volwassenen begrijpen beter wat echt talent is, maar kinderen denken dat iets alleen speciaal is als het moeilijk voelt.",
+        "keyElements": [
+          "volwassenen/oudere mensen begrijpen beter",
+          "kinderen denken dat het moeilijk moet zijn"
+        ],
+        "minWords": 5
+      },
+      "hint": "Zoek in de vierde alinea naar wat er over kinderen en volwassenen wordt gezegd."
+    },
+    {
+      "question": "Vind je dat Lotte een goede vriendin is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lotte en deze onderbouwen met voorbeelden uit de tekst zoals haar aanmoediging, steun of samen op het podium staan.",
+        "exampleAnswer": "Ja, Lotte is een goede vriendin omdat ze Vera helpt haar talent te ontdekken en samen met haar op het podium staat.",
+        "keyElements": [
+          "ja/nee + mening",
+          "helpen/aanmoedigen/steunen",
+          "samen/podium/vriendschap"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Lotte allemaal deed om Vera te helpen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het ontdekken van je eigen talent, vaak met hulp van goede vrienden die je beter zien dan jezelf.",
+        "exampleAnswer": "Het verhaal gaat over het ontdekken van je eigen talent met behulp van vrienden die je beter kennen dan jezelf.",
+        "keyElements": [
+          "talent ontdekken/vinden",
+          "vrienden/vriendschap helpen",
+          "jezelf niet kennen/zien"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Vera heeft geleerd en wie haar daarbij geholpen heeft."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheime-talent-van-vera/image-1.png",
+      "alt": "Vera en Lotte in een Nederlands park, Vera zingt op een schommel terwijl een oudere man met zijn hond bewonderend luistert"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheime-talent-van-vera/image-2.png",
+      "alt": "Vera en Lotte staan samen op het schoolpodium, Vera zingt voor een vol publiek dat aandachtig luistert"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls in a Dutch park, one singing on a swing while an elderly man with a dog listens admiringly, children's book illustration style, warm afternoon lighting",
+    "Two young girls standing together on a school stage, one singing into a microphone while the other stands supportively beside her, audience watching attentively, children's book illustration style, bright stage lighting"
+  ]
+}

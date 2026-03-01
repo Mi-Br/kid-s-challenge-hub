@@ -1,0 +1,133 @@
+{
+  "id": "de-stem-van-de-boom",
+  "title": "De Stem van de Boom",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "milieu",
+  "text": "Ik ben Lotte, en ik ga jullie een verhaal vertellen dat alles veranderde. Het begint met mijn opa, die al weken niet meer naar buiten wilde. Hij zat maar in zijn stoel en staarde door het raam naar de grote eikenboom in onze tuin.\n\nTerwijl opa steeds stiller werd, gebeurde er iets vreselijks met onze boom. De bladeren werden geel en vielen af, maar het was nog maar april. De takken zagen er droog en broos uit. Mama zei dat het door de vervuiling kwam - de fabrieken in de buurt lozen giftige stoffen in de grond.\n\nOpa praatte bijna niet meer tegen ons. Papa dacht dat hij gewoon moe was, maar ik zag dat zijn ogen verdrietig stonden. Ondertussen werd de boom elke dag zieker. De vogels kwamen er niet meer in zitten, en de grond eronder was kaal geworden.\n\nOp een dag vond ik opa huilend bij het raam. \"Die boom sterft, net zoals ik van binnen,\" fluisterde hij. Toen begreep ik het: opa had een depressie, en de zieke boom maakte het nog erger. Hij voelde zich net zo hulpeloos als die stervende eik.\n\nIk vertelde mama wat opa had gezegd. Ze schrok en belde meteen de dokter. Opa kreeg hulp van een psycholoog, en wij gingen samen met de buren protesteren tegen de vervuiling. Want soms hebben zowel mensen als bomen hulp nodig om weer gezond te worden.",
+  "questions": [
+    {
+      "question": "Welke kleur kregen de bladeren van de eikenboom in april?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel"
+      ],
+      "hint": "Kijk in de tweede alinea."
+    },
+    {
+      "question": "Waarom werd de boom ziek volgens mama?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vervuiling",
+            "vervuild",
+            "vuil"
+          ],
+          [
+            "fabrieken",
+            "fabriek",
+            "industrie"
+          ],
+          [
+            "giftige",
+            "giftig",
+            "gif",
+            "chemisch",
+            "schadelijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Mama legt uit wat er gebeurt in de tweede alinea."
+    },
+    {
+      "question": "Hoe voelde opa zich toen Lotte hem bij het raam vond?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "droevig",
+            "bedroefd"
+          ],
+          [
+            "depressie",
+            "depressief",
+            "somber"
+          ],
+          [
+            "hulpeloos",
+            "machteloos",
+            "wanhopig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat opa zegt en doet in de vierde alinea."
+    },
+    {
+      "question": "Wat deed Lotte's familie om beide problemen op te lossen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "dokter",
+            "psycholoog",
+            "hulp",
+            "behandeling"
+          ],
+          [
+            "protesteren",
+            "protesteerden",
+            "actie",
+            "demonstreren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed door."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herkennen van mentale problemen en milieuprobleme, en dat beide hulp en actie nodig hebben.",
+        "exampleAnswer": "Het verhaal gaat erover dat je mentale problemen moet herkennen en dat zowel mensen als de natuur hulp nodig hebben.",
+        "keyElements": [
+          "mentale gezondheid/depressie/psychische problemen",
+          "milieuprobleme/vervuiling",
+          "hulp zoeken/actie ondernemen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Lotte leert over haar opa en de boom."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-van-de-boom/image-1.png",
+      "alt": "Een meisje kijkt naar haar opa die verdrietig bij het raam zit en naar een zieke boom staart"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-van-de-boom/image-2.png",
+      "alt": "Mensen protesteren tegen vervuiling terwijl een dokter een oudere man helpt"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking concerned at her grandfather who sits sadly by a window, staring at a dying oak tree with yellow falling leaves, children's book illustration style",
+    "A community protest against pollution with families holding signs, while in the background a doctor helps an elderly man, showing both environmental and mental health care, children's book illustration style"
+  ]
+}

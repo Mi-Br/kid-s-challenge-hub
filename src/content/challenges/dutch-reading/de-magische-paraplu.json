@@ -1,0 +1,66 @@
+{
+  "id": "de-magische-paraplu",
+  "title": "De Magische Paraplu",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "het weer",
+  "text": "Lisa heeft een nieuwe paraplu. De paraplu is geel en heeft vrolijke bloemen. Vandaag regent het hard in Amsterdam.\n\nLisa loopt naar school. Ze ziet een oude man bij de bushalte. De man heeft geen paraplu en wordt heel nat. Hij kijkt verdrietig omdat zijn kleren nat worden.\n\nLisa denkt: \"Die man heeft hulp nodig.\" Ze loopt naar de man toe. \"Meneer, wilt u onder mijn paraplu staan?\" vraagt ze vriendelijk. De man lacht en zegt: \"Dank je wel, lief meisje!\"\n\nSamen staan ze onder de gele paraplu. De man vertelt grappige verhalen over vroeger. Lisa lacht hard om zijn verhalen. Plotseling stopt de regen en komt de zon tevoorschijn.\n\nDe man zegt: \"Door jouw hulp ben ik droog gebleven. Jij bent een echte held!\" Lisa voelt zich heel blij. Ze wuift naar de man en loopt vrolijk naar school.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Lisa's paraplu?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom heeft de oude man hulp nodig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "regent",
+            "regen",
+            "nat",
+            "regenen"
+          ],
+          [
+            "paraplu",
+            "geen paraplu",
+            "paraplu heeft"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan het weer en wat de man niet heeft."
+    },
+    {
+      "question": "Waar staan Lisa en de man samen onder de paraplu?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij de bushalte",
+        "bushalte"
+      ],
+      "hint": "Lees waar Lisa de man ziet staan."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-paraplu/image-1.png",
+      "alt": "Lisa met een gele paraplu met bloemen loopt door de regen in Amsterdam"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-paraplu/image-2.png",
+      "alt": "Lisa en de oude man staan samen onder de gele paraplu bij de bushalte"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with a bright yellow umbrella decorated with flowers walking through the rain on a Dutch street, children's book illustration style",
+    "A young girl sharing her yellow floral umbrella with an elderly man at a bus stop, both smiling as they stay dry together, children's book illustration style"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "opa-en-het-verhaal-van-de-klok",
+  "title": "Opa en het verhaal van de klok",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "\"Kijk eens naar die oude klok,\" zei opa. Hij wees naar de grote klok die aan de muur hing.\n\n\"Waarom is die klok zo bijzonder?\" vroeg Emma. Ze zat op opa's schoot bij het warme vuur.\n\n\"Die klok heeft een geheim verhaal,\" antwoordde opa geheimzinnig. \"Mijn vader maakte hem toen ik nog een klein jongetje was.\"\n\n\"Maar opa, de klok loopt niet meer,\" zei Emma. \"Kijk, de wijzers staan stil op drie uur.\"\n\n\"Dat klopt,\" lachte opa. \"De klok stopte precies op het moment dat jij werd geboren. Het was drie uur 's nachts!\"\n\nEmma keek verbaasd. \"Echt waar? Stopte hij omdat ik geboren werd?\"\n\n\"Misschien wel,\" glimlachte opa. \"Of misschien was het toeval. Maar ik vind het een mooi verhaal. Nu denk ik altijd aan jou als ik naar de klok kijk.\"\n\n\"Dan moet de klok nooit meer gaan lopen,\" zei Emma blij. \"Want dan blijft hij altijd mijn tijd vertellen!\"",
+  "questions": [
+    {
+      "question": "Hoe laat staan de wijzers van de klok?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "drie uur",
+        "op drie uur"
+      ],
+      "hint": "Kijk naar wat Emma over de wijzers zegt."
+    },
+    {
+      "question": "Waarom is de klok bijzonder voor opa?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vader",
+            "papa"
+          ],
+          [
+            "maakte",
+            "gemaakt",
+            "maken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wie de klok heeft gemaakt."
+    },
+    {
+      "question": "Wat vind jij van opa's verhaal over de klok?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "mooi",
+            "leuk",
+            "fijn",
+            "bijzonder",
+            "speciaal"
+          ],
+          [
+            "verhaal",
+            "vertelling",
+            "geschiedenis"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Geef je eigen mening over het verhaal."
+    },
+    {
+      "question": "Wat betekent het woord 'geheimzinnig' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Hoe vertelt opa over het verhaal van de klok?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "mysterieus"
+          ],
+          [
+            "spannend"
+          ],
+          [
+            "met een geheim"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/opa-en-het-verhaal-van-de-klok/image-1.png",
+      "alt": "Een meisje zit op opa's schoot bij een warm vuur"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/opa-en-het-verhaal-van-de-klok/image-2.png",
+      "alt": "Een oude klok aan de muur met wijzers die op drie uur staan"
+    }
+  ],
+  "imagePrompts": [
+    "A cozy Dutch living room scene with an elderly grandfather holding a young girl on his lap by a fireplace, warm lighting, children's book illustration style",
+    "An old wooden wall clock with hands stopped at three o'clock, hanging on a traditional Dutch home wall, children's book illustration style"
+  ]
+}

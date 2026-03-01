@@ -1,0 +1,138 @@
+{
+  "id": "de-reis-naar-binnen",
+  "title": "De Reis naar Binnen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "reizen",
+  "text": "Lara had altijd gedacht dat haar oudere broer Max gewoon een beetje vreemd was. Hij vermeed drukke plaatsen, sprak weinig tijdens familiediners, en sloot zich vaak op in zijn kamer. \"Max is gewoon introvert,\" zeiden haar ouders steevast, hoewel hun stem een ondertoon van bezorgdheid verried.\n\nToen de familie een reis naar Parijs plande – iets waar ze al jaren van droomden – reageerde Max alsof ze hem naar de maan wilden sturen. \"Ik ga niet,\" verklaarde hij kortaf tijdens het ontbijt, terwijl zijn handen trilden rond zijn koffiekop als bladeren in de herfstwind. Lara's ouders wisselden die blik uit: de stille communicatie van bezorgde ouders die al maanden probeerden te ontcijferen wat er in hun zoon omging.\n\n\"Maar Max, dit is onze droomreis!\" protesteerde Lara. \"We hebben er zo lang voor gespaard.\" Ze begreep niet waarom haar broer, die vroeger altijd vol verhalen zat over verre landen, nu de kans op een echt avontuur afsloeg. Het was alsof er een onzichtbare muur om hem heen was opgetrokken, ondoordringbaar voor hun familieliefde.\n\nDie avond hoorde Lara haar ouders fluisteren in de keuken. \"We kunnen hem niet dwingen,\" zei papa. \"Misschien moeten we professionele hulp zoeken.\" Het woord 'professioneel' liet iets kouds door Lara's maag glijden. Was er dan echt iets mis met Max?\n\nDe weken erna observeerde Lara haar broer met nieuwe ogen. Ze zag hoe hij bij onverwachte geluiden ineenkromp, hoe hij drie keer controleerde of de voordeur op slot zat, hoe hij soms midden in een gesprek wegdreef alsof zijn geest op reis was naar plekken waar niemand hem kon volgen. Langzaam begon ze te begrijpen dat Max wel degelijk reisde – alleen niet naar de bestemmingen die in reisgidsen stonden.\n\nOp een regenachtige donderdag vond ze de moed om het onderwerp aan te snijden. \"Max,\" begon ze voorzichtig, \"vertel me eens over jouw reizen.\" Hij keek haar verward aan. \"Ik bedoel,\" vervolgde ze, \"waar gaat je hoofd naartoe als je er niet bent?\" Voor het eerst in maanden zag ze iets zachts in zijn ogen verschijnen. \"Naar donkere plekken,\" fluisterde hij. \"Plekken waar ik de weg kwijtraak.\"\n\nDie avond googelde Lara uren over angststoornissen en depressie. Ze las verhalen van andere jongeren die, net als Max, gevangen zaten in hun eigen gedachten. Ze ontdekte dat mentale gezondheid net zo echt en belangrijk is als fysieke gezondheid, en dat hulp zoeken geen teken van zwakte is, maar juist van moed.\n\nDe volgende ochtend legde ze een artikel naast Max's ontbijt. \"Misschien,\" zei ze zacht, \"kun je iemand helpen om een kaart te maken van die donkere plekken. Zodat je de weg terug kunt vinden.\" Max's ogen vulden zich met tranen – de eerste emotie die ze in tijden bij hem had gezien. \"Denk je dat papa en mama dat willen betalen?\" vroeg hij. Lara glimlachte. \"Ik denk dat ze alles zouden betalen om jou gelukkig te zien. Dit is misschien wel de belangrijkste reis die je ooit zult maken.\"",
+  "questions": [
+    {
+      "question": "Waarom begreep Lara aanvankelijk niet waarom Max de reis afsloeg?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "verhalen",
+            "avontuur",
+            "verre landen",
+            "droomde"
+          ],
+          [
+            "vroeger",
+            "eerst",
+            "voorheen",
+            "altijd"
+          ],
+          [
+            "verwachtte",
+            "dacht",
+            "begreep niet",
+            "snapte niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Max vroeger was volgens Lara."
+    },
+    {
+      "question": "Welke metafoor gebruikt de schrijver om Max's situatie te beschrijven?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "muur",
+            "onzichtbare muur",
+            "ondoordringbaar"
+          ],
+          [
+            "opgetrokken",
+            "gebouwd",
+            "omheen"
+          ],
+          [
+            "isolatie",
+            "afgescheiden",
+            "apart"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek naar een vergelijking die beschrijft hoe Max zich afsluit van zijn familie."
+    },
+    {
+      "question": "Hoe verandert Lara's perspectief op mentale gezondheid gedurende het verhaal?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Lara eerst niet begreep wat er aan de hand was met Max, maar door observatie en onderzoek leerde dat mentale gezondheid echt en belangrijk is, net zo belangrijk als fysieke gezondheid.",
+        "exampleAnswer": "Eerst dacht Lara dat Max gewoon vreemd deed, maar later begreep ze dat hij mentale problemen had en dat dat net zo echt is als fysieke problemen.",
+        "keyElements": [
+          "eerst/aanvankelijk niet begrijpen",
+          "later/uiteindelijk wel begrijpen",
+          "mentale gezondheid/psychische problemen",
+          "net zo belangrijk/echt als fysiek"
+        ],
+        "minWords": 8
+      },
+      "hint": "Vergelijk wat Lara aan het begin dacht met wat ze aan het eind begreep."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herkennen en begrijpen van mentale gezondheidsproblemen, en het belang van hulp zoeken en steun van familie.",
+        "exampleAnswer": "Het verhaal gaat over het leren begrijpen van mentale gezondheidsproblemen en hoe belangrijk het is om hulp te zoeken en elkaar te steunen.",
+        "keyElements": [
+          "mentale gezondheid/psychische problemen",
+          "begrijpen/herkennen",
+          "hulp zoeken/steun",
+          "familie/begrip"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de belangrijkste boodschap die de schrijver wil overbrengen."
+    },
+    {
+      "question": "Wat bedoelt Lara met 'de belangrijkste reis die je ooit zult maken' aan het eind?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Lara doelt op de innerlijke reis naar genezing, het zoeken van hulp voor mentale problemen, wat belangrijker is dan fysiek reizen.",
+        "exampleAnswer": "Ze bedoelt de reis naar genezing, het zoeken van hulp voor zijn mentale problemen.",
+        "keyElements": [
+          "genezing/beter worden",
+          "hulp zoeken/therapie",
+          "innerlijke reis/mentale reis",
+          "belangrijker dan gewoon reizen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan het contrast tussen de fysieke reis naar Parijs en de reis die Max volgens Lara zou moeten maken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-reis-naar-binnen/image-1.png",
+      "alt": "Max zit alleen in zijn kamer terwijl zijn familie beneden plannen maakt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-reis-naar-binnen/image-2.png",
+      "alt": "Lara en Max hebben een belangrijk gesprek aan de keukentafel"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy sitting alone in his bedroom looking withdrawn and anxious, while downstairs his family discusses travel plans around a kitchen table, children's book illustration style with warm and cool color contrast",
+    "A caring teenage sister placing a supportive hand on her older brother's shoulder as they have an emotional conversation at a kitchen table, with morning sunlight streaming through the window, children's book illustration style"
+  ]
+}

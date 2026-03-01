@@ -1,0 +1,49 @@
+{
+  "id": "de-nieuwe-speeltuin",
+  "title": "De Nieuwe Speeltuin",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de buurt",
+  "text": "Emma loopt naar de nieuwe speeltuin. De speeltuin is groot. Er zijn veel kinderen. Emma kent niemand. Ze staat bij het hek. Emma is bang.\n\nEr is een grote glijbaan. De glijbaan is rood en geel. Emma kijkt naar de glijbaan. Een meisje glijdt naar beneden. Het meisje lacht hard. Emma denkt: dat ziet er leuk uit.\n\nEmma loopt naar de glijbaan. Ze klimt langzaam naar boven. Emma glijdt naar beneden. Het gaat snel! Emma lacht nu ook. Het is heel leuk. Emma glijdt nog een keer. En nog een keer. Nu vindt Emma de nieuwe speeltuin fijn.",
+  "questions": [
+    {
+      "question": "Welke kleuren heeft de glijbaan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood en geel"
+      ],
+      "hint": "Kijk in de tweede alinea."
+    },
+    {
+      "question": "Waar staat Emma eerst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij het hek"
+      ],
+      "hint": "Lees de eerste alinea goed."
+    },
+    {
+      "question": "Hoe voelt Emma zich eerst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bang"
+      ],
+      "hint": "Kijk aan het einde van de eerste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-speeltuin/image-1.png",
+      "alt": "Emma staat bij het hek van de nieuwe speeltuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-speeltuin/image-2.png",
+      "alt": "Emma glijdt blij van de rode en gele glijbaan"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Emma standing nervously by the fence of a new playground, looking at a large red and yellow slide with other children playing, children's book illustration style",
+    "Emma happily sliding down the big red and yellow slide with a big smile on her face, other children playing in the background, children's book illustration style"
+  ]
+}

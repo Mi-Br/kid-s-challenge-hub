@@ -1,0 +1,98 @@
+{
+  "id": "mila-en-de-donder",
+  "title": "Mila en de Donder",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "Mila was altijd bang voor onweer. Als de donkere wolken kwamen, kroop ze onder haar dekbed. De donder klonk zo hard! Het leek wel alsof de lucht brak.\n\nOma kwam op bezoek toen het weer ging regenen. \"Waarom verstop je je, lieverd?\" vroeg oma vriendelijk. Mila fluisterde: \"De donder is eng. Hij maakt me bang.\" Oma glimlachte omdat ze dit begreep.\n\n\"Kom maar mee naar het raam,\" zei oma zacht. \"Onweer is niet gevaarlijk als je binnen bent. Het is eigenlijk prachtig om te zien.\" Mila's mama knikte want dit was waar.\n\nSamen stonden ze bij het grote raam. Eerst zagen ze een felle bliksem. Toen hoorden ze de donder rollen. \"Zie je hoe mooi dat licht is?\" vroeg oma. Mila keek en vond het eigenlijk best knap.\n\nNa een tijdje was Mila niet meer bang. Ze ontdekte dat onweer spannend kon zijn in plaats van eng. \"Dank je wel, oma,\" zei ze blij. Nu kijkt Mila altijd naar buiten als het onweert.",
+  "questions": [
+    {
+      "question": "Waar kroop Mila naartoe als de donkere wolken kwamen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "onder haar dekbed",
+        "onder het dekbed"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waar verstopte Mila zich voor?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de donder",
+        "onweer",
+        "donder"
+      ],
+      "hint": "Lees wat Mila tegen oma zegt."
+    },
+    {
+      "question": "Waarom was Mila na een tijdje niet meer bang?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zag",
+            "zien",
+            "keek",
+            "kijken",
+            "ontdekte"
+          ],
+          [
+            "mooi",
+            "prachtig",
+            "knap",
+            "spannend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde bij het raam."
+    },
+    {
+      "question": "Wat vind jij van oma's manier om Mila te helpen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "slim",
+            "lief",
+            "aardig",
+            "mooi"
+          ],
+          [
+            "helpen",
+            "hielp",
+            "leren",
+            "leerde",
+            "laten zien",
+            "toonde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe oma Mila moed gaf."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mila-en-de-donder/image-1.png",
+      "alt": "Mila verstopt zich onder haar dekbed terwijl buiten donkere wolken zijn"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mila-en-de-donder/image-2.png",
+      "alt": "Mila staat samen met oma bij het raam en kijkt naar de bliksem"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl hiding under her blanket in bed while dark storm clouds are visible through the window, children's book illustration style",
+    "A grandmother and young girl standing together at a large window watching lightning flash outside during a thunderstorm, children's book illustration style"
+  ]
+}

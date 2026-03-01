@@ -1,0 +1,95 @@
+{
+  "id": "de-ruzie-om-de-beer",
+  "title": "De Ruzie om de Beer",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Lisa hoorde het zachte geluid van regen tegen het raam. Ze rook de geur van mama's pannenkoeken uit de keuken. In haar handen hield ze Bruintje, haar lievelingsbeer. Het zachte bont voelde warm aan tegen haar wang.\n\nTom kwam binnen en zag Bruintje. \"Die is van mij!\" riep hij, omdat hij boos was. Hij trok hard aan de beer. Lisa trok terug. Ze hoorden een scheurend geluid. Bruintje's arm ging kapot.\n\nLisa begon te huilen. Tom werd stil omdat hij schrok van wat er gebeurd was. De kamer werd heel stil. Alleen de regen tikte nog tegen het raam.\n\nMama kwam binnen en zag de kapotte beer. \"Wat is hier gebeurd?\" vroeg ze zacht. Tom keek naar de grond want hij voelde zich schuldig. Lisa veegde haar tranen weg.\n\n\"We gingen ruzie maken om Bruintje,\" zei Lisa. \"Nu is hij kapot.\" Tom knikte. \"Het spijt me,\" fluisterde hij. Mama pakte naald en draad. \"Samen kunnen we hem misschien maken,\" zei ze.",
+  "questions": [
+    {
+      "question": "Welke geur rook Lisa uit de keuken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "pannenkoeken",
+        "mama's pannenkoeken"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Hoe voelde Bruintje's bont aan tegen Lisa's wang?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "warm"
+      ],
+      "hint": "Zoek in de eerste alinea."
+    },
+    {
+      "question": "Waarom werd Tom stil nadat Bruintje kapot ging?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schrok",
+            "schrikken",
+            "geschrokken"
+          ],
+          [
+            "gebeurd",
+            "gebeurde",
+            "kapot",
+            "stuk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Tom's gevoel toen hij zag wat er gebeurde."
+    },
+    {
+      "question": "Vind je dat Tom het goed deed door sorry te zeggen? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "netjes",
+            "braaf"
+          ],
+          [
+            "sorry",
+            "spijt",
+            "excuses"
+          ],
+          [
+            "fout",
+            "verkeerd",
+            "schuld"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat denk jij over Tom's reactie aan het eind?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-ruzie-om-de-beer/image-1.png",
+      "alt": "Lisa en Tom trekken allebei aan een bruine teddybeer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-ruzie-om-de-beer/image-2.png",
+      "alt": "Mama met naald en draad bij de kapotte beer"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch children in a living room pulling on opposite ends of a brown teddy bear during an argument, children's book illustration style, rainy day visible through window",
+    "A mother sitting at a table with needle and thread next to a torn teddy bear while two children watch sadly, cozy Dutch home interior, children's book illustration style"
+  ]
+}

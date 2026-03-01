@@ -1,0 +1,127 @@
+{
+  "id": "de-klassenvertegenwoordiger",
+  "title": "De Klassenvertegenwoordiger",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "democratie",
+  "text": "Amira staarde naar het briefje in haar handen. \"Kandidaat voor klassenvertegenwoordiger: Amira Hassan.\" Haar beste vriendin Sophie had haar naam opgeschreven zonder het te vragen.\n\n\"Waarom heb je dat gedaan?\" fluisterde Amira tijdens de pauze. \"Ik wil helemaal niet kandidaat zijn.\"\n\nSophie haalde haar schouders op. \"Je bent perfect voor deze functie. Je helpt iedereen altijd.\"\n\nMaar Amira voelde zich verscheurd. Thuis zeiden haar ouders vaak dat je je niet teveel moet laten opvallen op school. \"Concentreer je op je cijfers,\" zei haar vader altijd. \"Dat is het belangrijkste.\" In Nederland daarentegen moedigden leraren juist aan om mee te doen en je mening te geven.\n\nDie middag sprak meester Van der Berg over democratie. \"Elke stem telt,\" legde hij uit. \"En elke leerling heeft het recht om gekozen te worden.\" Hij keek Amira aan. \"Wat vind jij daarvan, Amira?\"\n\n\"Ehm... dat is waar,\" zei ze zacht, maar ze dacht: 'Als mijn ouders dit horen, worden ze boos.'\n\nToen ze thuiskwam, vertelde ze niets over de verkiezingen. Tijdens het eten praatte haar familie in het Arabisch over een familiefeest. Amira voelde zich op dat moment veilig en geborgen. Hier hoefde ze niets te bewijzen.\n\nDe volgende dag hield ze haar verkiezingstoespraak. \"Als ik word gekozen,\" zei ze tegen de klas, \"dan zorg ik ervoor dat iedereen wordt gehoord. Want dat is democratie.\" Haar stem klonk zelfverzekerd, maar haar hart bonkte.\n\nNa school vertelde ze eindelijk aan haar moeder over de verkiezingen. Tot haar verbazing glimlachte haar moeder. \"Ik ben trots op je,\" zei ze. \"In ons thuisland hadden vrouwen niet altijd een stem. Jij hebt hier de kans om die wel te gebruiken.\"\n\nAmira begreep toen dat ze niet hoefde te kiezen tussen haar Marokkaanse en Nederlandse identiteit. Ze kon beide zijn: een dochter die haar ouders respecteert én een leerling die opkomt voor haar klasgenoten.",
+  "questions": [
+    {
+      "question": "Wie schreef Amira's naam op als kandidaat?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "sophie",
+        "haar beste vriendin sophie"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelde Amira zich verscheurd over de verkiezingen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ouders",
+            "thuis",
+            "familie",
+            "vader",
+            "moeder"
+          ],
+          [
+            "opvallen",
+            "concentreren",
+            "cijfers",
+            "mening"
+          ],
+          [
+            "nederland",
+            "nederlandse",
+            "school",
+            "leraren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat haar ouders zeiden en wat op school werd aangemoedigd."
+    },
+    {
+      "question": "Hoe veranderde Amira's moeder haar kijk op de verkiezingen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "trots",
+            "trots op je"
+          ],
+          [
+            "thuisland",
+            "vrouwen",
+            "stem"
+          ],
+          [
+            "kans",
+            "gebruiken",
+            "gebruik"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat haar moeder zei over vrouwen en stemmen."
+    },
+    {
+      "question": "Beoordeel of Amira een goede klassenvertegenwoordiger zou zijn en leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Amira's geschiktheid en dit onderbouwen met voorbeelden uit de tekst, zoals dat ze iedereen helpt, zegt dat iedereen gehoord moet worden, of dat ze beide culturen begrijpt.",
+        "exampleAnswer": "Ja, Amira zou een goede klassenvertegenwoordiger zijn omdat ze zegt dat iedereen gehoord moet worden en Sophie zegt dat ze iedereen altijd helpt.",
+        "keyElements": [
+          "helpen/helpt",
+          "iedereen/gehoord",
+          "zorgzaam/begripvol"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Sophie over Amira zei en wat Amira zelf beloofde."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het combineren van verschillende culturele identiteiten, of over het vinden van een balans tussen thuis en school, of over het leren dat je niet hoeft te kiezen tussen verschillende delen van jezelf.",
+        "exampleAnswer": "Het verhaal gaat erover dat je niet hoeft te kiezen tussen verschillende delen van je identiteit, maar dat je beide kunt zijn.",
+        "keyElements": [
+          "identiteit/cultuur",
+          "combineren/beide",
+          "kiezen/balans"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Amira aan het eind begreep over haar identiteit."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-klassenvertegenwoordiger/image-1.png",
+      "alt": "Amira houdt een verkiezingsbriefje vast in een Nederlandse klaslokaal"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-klassenvertegenwoordiger/image-2.png",
+      "alt": "Amira praat met haar moeder thuis na school"
+    }
+  ],
+  "imagePrompts": [
+    "A young Moroccan-Dutch girl holding an election paper in a modern Dutch classroom, looking uncertain, children's book illustration style",
+    "The same girl talking with her mother at home in a warm kitchen with Moroccan decorations, both smiling, children's book illustration style"
+  ]
+}

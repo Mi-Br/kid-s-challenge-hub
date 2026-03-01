@@ -1,0 +1,50 @@
+{
+  "id": "toms-spreekbeurt",
+  "title": "Toms Spreekbeurt",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "school",
+  "text": "Tom heeft spreekbeurt. Hij moet praten over zijn hond. Tom is zenuwachtig.\n\nTom staat voor de klas. Hij laat een foto zien. \"Dit is Bello,\" zegt Tom. \"Bello is bruin en wit.\"\n\nTom praat over zijn hond. \"Bello kan zitten en liggen. Hij speelt graag met een bal.\" De kinderen luisteren goed.\n\nNa de spreekbeurt klappen alle kinderen. Juf Lisa zegt: \"Goed gedaan, Tom!\" Tom is blij. Hij is niet meer zenuwachtig.",
+  "questions": [
+    {
+      "question": "Welke kleur is Bello?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bruin en wit"
+      ],
+      "hint": "Kijk naar wat Tom over Bello zegt."
+    },
+    {
+      "question": "Wat kan Bello doen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zitten en liggen",
+        "zitten en liggen en spelen met een bal"
+      ],
+      "hint": "Tom vertelt wat Bello allemaal kan."
+    },
+    {
+      "question": "Hoe voelt Tom in het begin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zenuwachtig"
+      ],
+      "hint": "Lees de eerste zin goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/toms-spreekbeurt/image-1.png",
+      "alt": "Tom staat voor de klas en houdt een foto van zijn hond omhoog"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/toms-spreekbeurt/image-2.png",
+      "alt": "Kinderen klappen na Toms spreekbeurt, juf Lisa glimlacht"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy standing in front of a classroom holding up a photo of his brown and white dog, children's book illustration style, warm classroom setting",
+    "Children clapping in a Dutch classroom while a teacher smiles approvingly, the boy looking happy and relieved, children's book illustration style"
+  ]
+}

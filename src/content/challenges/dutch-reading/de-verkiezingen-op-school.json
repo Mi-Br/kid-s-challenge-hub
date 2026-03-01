@@ -1,0 +1,119 @@
+{
+  "id": "de-verkiezingen-op-school",
+  "title": "De Verkiezingen op School",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "democratie",
+  "text": "Lisa had altijd gedacht dat verkiezingen eerlijk waren. Toen de leerlingenraad nieuwe leden zocht, meldde zij zich meteen aan. \"Iedereen heeft een gelijke kans,\" zei meester Van Dam tijdens de informatiebijeenkomst.\n\nTijdens de campagneperiode merkte Lisa echter iets vreemds op. Haar tegenstander Kevin kreeg veel meer aandacht van andere leerlingen. Hij deelde gratis snoep uit en zijn ouders hadden professionele posters laten maken. Lisa's zelfgemaakte flyers zagen er armzalig uit in vergelijking. Ze realiseerde zich plotseling dat Kevin's familie veel rijker was dan de hare.\n\nDe dagen voor de verkiezingen voelde Lisa zich ongemakkelijk. Was dit wel eerlijk? Zij had net zoveel goede ideeën als Kevin, maar zij kon geen dure campagne voeren. Bovendien spraken veel kinderen thuis alleen maar Nederlands, terwijl Lisa haar ouders altijd moest helpen met moeilijke brieven van school. Had zij wel dezelfde kansen als andere kinderen?\n\nOp de verkiezingsdag won Kevin met grote voorsprong. Lisa voelde zich eerst teleurgesteld en boos. Moest zij zich schuldig voelen omdat haar familie minder geld had? Of moest Kevin zich schuldig voelen omdat zijn familie meer privileges had? Ze wist het niet meer.\n\nNa de verkiezingen besloot Lisa haar energie anders te gebruiken. Zij begon een werkgroep die kinderen helpt die thuis een andere taal spreken. Ook organiseerde zij gratis activiteiten voor alle leerlingen, ongeacht hun achtergrond. Misschien kon zij zo het verschil maken dat het schoolsysteem niet maakte.\n\nToch bleef er een knagend gevoel. Waren de verkiezingen nu wel democratisch geweest? En wat betekende eerlijkheid eigenlijk als niet iedereen met dezelfde voordelen begon? Lisa wist niet zeker of haar acties genoeg waren, of dat er diepere problemen waren die zij als kind niet kon oplossen.",
+  "questions": [
+    {
+      "question": "Wat voor materiaal gebruikte Kevin voor zijn campagne?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "professionele posters",
+        "posters"
+      ],
+      "hint": "Kijk naar de tweede alinea waar Lisa Kevin's campagne vergelijkt met die van haarzelf."
+    },
+    {
+      "question": "Waarom had Lisa volgens jou minder kansen dan Kevin om de verkiezingen te winnen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Lisa minder financiële middelen had voor haar campagne en dat haar gezinssituatie (andere thuistaal) haar benadeelde. Ook de ongelijke startpositie moet worden genoemd.",
+        "exampleAnswer": "Lisa had minder geld voor haar campagne en moest thuis haar ouders helpen met Nederlandse brieven, terwijl Kevin dure posters kon maken en gratis snoep kon uitdelen.",
+        "keyElements": [
+          "geld/financiële middelen/rijkdom",
+          "thuistaal/taalbarrière/Nederlandse problemen",
+          "ongelijke kansen/startpositie"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan de verschillen tussen Lisa's en Kevin's gezinssituatie die in de tekst worden genoemd."
+    },
+    {
+      "question": "Wat was volgens jou het belangrijkste dilemma waar Lisa mee worstelde na de verkiezingen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet het kerndilemma over eerlijkheid en privileges herkennen: was het democratisch als mensen niet met gelijke kansen beginnen, en hoe ga je om met ongelijkheid.",
+        "exampleAnswer": "Lisa vroeg zich af of de verkiezingen wel eerlijk waren omdat niet iedereen dezelfde kansen had, en of het systeem wel democratisch was.",
+        "keyElements": [
+          "eerlijkheid/rechtvaardigheid",
+          "gelijke kansen/privileges/voordelen",
+          "democratie/democratisch systeem"
+        ],
+        "minWords": 8
+      },
+      "hint": "Let op Lisa's gedachten in de vierde en laatste alinea over eerlijkheid en democratie."
+    },
+    {
+      "question": "Beoordeel Lisa's reactie na haar nederlaag. Vind je dat zij de juiste keuze maakte en waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet Lisa's beslissing evalueren om een werkgroep te beginnen en gratis activiteiten te organiseren. Een goede evaluatie bevat zowel een oordeel als een onderbouwing met argumenten.",
+        "exampleAnswer": "Ik vind dat Lisa een goede keuze maakte omdat zij probeerde het probleem op te lossen in plaats van boos te blijven. Zij hielp andere kinderen met dezelfde problemen als zijzelf had.",
+        "keyElements": [
+          "positieve actie/constructief/problemen oplossen",
+          "anderen helpen/werkgroep/gratis activiteiten",
+          "persoonlijke mening met onderbouwing"
+        ],
+        "minWords": 10
+      },
+      "hint": "Kijk naar wat Lisa deed in de vijfde alinea en bedenk wat jij daarvan vindt."
+    },
+    {
+      "question": "Wat is de hoofdboodschap die de schrijver wil overbrengen met dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over ongelijke kansen in democratische processen en hoe je constructief kunt omgaan met systemen die niet voor iedereen eerlijk zijn.",
+        "exampleAnswer": "Het verhaal laat zien dat democratie niet altijd eerlijk is omdat mensen niet allemaal dezelfde kansen hebben, maar dat je wel zelf actie kunt ondernemen om het beter te maken.",
+        "keyElements": [
+          "democratie/verkiezingen niet altijd eerlijk",
+          "ongelijke kansen/privileges/voordelen",
+          "zelf actie ondernemen/positieve verandering"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over wat de schrijver je wil leren over democratie en eerlijkheid."
+    },
+    {
+      "question": "Waarom eindigt het verhaal met Lisa's twijfels over of haar acties wel genoeg zijn?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver een open einde kiest om te laten zien dat democratische problemen complex zijn en niet makkelijk op te lossen. Het creëert ook een realistisch beeld van hoe mensen worstelen met grote maatschappelijke vraagstukken.",
+        "exampleAnswer": "De schrijver wil laten zien dat democratische problemen ingewikkeld zijn en dat zelfs goede acties misschien niet genoeg zijn om alles op te lossen.",
+        "keyElements": [
+          "complexe problemen/ingewikkeld",
+          "realistische weergave/worsteling",
+          "open einde/onzekerheid/twijfel"
+        ],
+        "minWords": 8
+      },
+      "hint": "Let op de laatste zin en denk na over waarom de schrijver Lisa onzeker laat blijven."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verkiezingen-op-school/image-1.png",
+      "alt": "Lisa en Kevin hangen campagneposters op in de schoolgang"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verkiezingen-op-school/image-2.png",
+      "alt": "Lisa helpt andere kinderen in een klaslokaal tijdens een werkgroepbijeenkomst"
+    }
+  ],
+  "imagePrompts": [
+    "Two children hanging campaign posters in a Dutch school hallway, one with professional colorful posters and one with simple handmade flyers, children's book illustration style",
+    "A girl helping younger children with homework in a classroom setting, diverse group of children, warm and supportive atmosphere, children's book illustration style"
+  ]
+}

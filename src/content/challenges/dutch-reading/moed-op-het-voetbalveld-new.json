@@ -1,0 +1,119 @@
+{
+  "id": "moed-op-het-voetbalveld",
+  "title": "Moed op het Voetbalveld",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "sport",
+  "text": "Lisa heeft zich opgegeven voor het voetbalteam van haar school. Ze speelt al jaren voetbal en is een van de beste spelers van haar klas. Maar wanneer ze op de eerste training komt, merkt ze dat alle andere kinderen jongens zijn.\n\nDe trainer, meneer Van Der Berg, kijkt verbaasd toen Lisa binnenkomt. \"Ben je verdwaald?\" vraagt hij. \"Het damesteam traint op dinsdag.\" Lisa legt uit dat ze bij dit team wil spelen omdat ze goed genoeg is. De trainer zucht en zegt dat ze mag blijven, maar hij klinkt niet enthousiast.\n\nTijdens de training gebeuren er vervelende dingen. Enkele jongens gooien de bal expres te hard naar Lisa. Anderen roepen dat meisjes niet kunnen voetballen. Wanneer Lisa een prachtige goal maakt, zeggen ze dat het geluk was. Lisa voelt zich boos en verdrietig, maar ze zegt niets omdat ze bang is dat de trainer haar wegzal sturen.\n\nNa de training hoort Lisa de trainer tegen de assistent-trainer zeggen: \"Dat meisje brengt alleen maar problemen met zich mee. Misschien kunnen we haar ontmoedigen zodat ze zelf wegga­at.\" Lisa's hart bonkt van woede. Ze weet dat dit niet eerlijk is.\n\nThuis vertelt Lisa alles aan haar vader. Hij luistert aandachtig en zegt: \"Soms moeten we opkomen voor wat juist is, ook als het moeilijk is. Jij hebt het recht om te spelen waar je talent ligt.\" Deze woorden geven Lisa moed.\n\nDe volgende week gaat Lisa naar de training met een plan. Wanneer de jongens weer gemeen doen, spreekt ze hen rustig maar duidelijk aan: \"Ik ben hier omdat ik goed kan voetballen, net zoals jullie. Geef me een eerlijke kans.\" Haar zelfvertrouwen verrast iedereen. Enkele jongens beginnen respectvoller tegen haar te doen.\n\nAan het eind van de training loopt Lisa naar meneer Van Der Berg. Met een ferme stem zegt ze: \"Ik wil graag blijven in dit team. Ik denk dat u me nog niet een echte kans hebt gegeven om te laten zien wat ik kan.\" De trainer kijkt haar onderzoekend aan en knikt langzaam. \"Oké, Lisa. Laat maar zien wat je kunt.\"\n\nVanaf die dag verandert alles. Lisa speelt fantastisch en helpt het team veel wedstrijden te winnen. De meeste jongens accepteren haar nu volledig. Meneer Van Der Berg geeft toe dat hij zich heeft vergist. Lisa heeft geleerd dat je soms moet vechten voor je plek, maar dat moed en talent uiteindelijk worden beloond.",
+  "questions": [
+    {
+      "question": "Wat zegt de trainer tegen Lisa als ze voor het eerst bij de training komt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ben je verdwaald",
+        "het damesteam traint op dinsdag"
+      ],
+      "hint": "Kijk naar wat meneer Van Der Berg vraagt in de tweede alinea."
+    },
+    {
+      "question": "Waarom zegt Lisa in het begin niets tegen de jongens die gemeen tegen haar doen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "vreest"
+          ],
+          [
+            "wegsturen",
+            "wegstuur",
+            "wegzal sturen",
+            "eruit",
+            "weg"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan Lisa's gevoel over wat de trainer zou kunnen doen."
+    },
+    {
+      "question": "Hoe verandert Lisa's gedrag nadat ze met haar vader heeft gepraat?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "spreekt",
+            "praat",
+            "zegt",
+            "spreek"
+          ],
+          [
+            "zelfvertrouwen",
+            "moed",
+            "moedig",
+            "duidelijk",
+            "rustig maar duidelijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees hoe Lisa reageert in de zesde alinea."
+    },
+    {
+      "question": "Vind je dat meneer Van Der Berg zich correct gedroeg? Leg je mening uit.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de trainer en deze onderbouwen met voorbeelden uit de tekst. Ze kunnen zeggen dat hij incorrect was (discriminatie) of dat hij uiteindelijk veranderde. Belangrijke elementen: oordeel + uitleg.",
+        "exampleAnswer": "Nee, hij deed niet correct. Hij wilde Lisa ontmoedigen en gaf haar niet eerlijk een kans omdat ze een meisje was.",
+        "keyElements": [
+          "niet correct/verkeerd/fout",
+          "discriminatie/ongelijk/oneerlijk",
+          "veranderen/verbeteren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat de trainer zei tegen zijn assistent en hoe hij later veranderde."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over opkomen voor jezelf, eerlijkheid en gelijkheid in sport. Het kan ook gaan over moed tonen tegen onrechtvaardigheid of dat talent belangrijker is dan geslacht.",
+        "exampleAnswer": "Het verhaal gaat erover dat je moet opkomen voor jezelf en dat iedereen een eerlijke kans verdient, ongeacht of je een jongen of meisje bent.",
+        "keyElements": [
+          "opkomen/vechten voor jezelf",
+          "eerlijke kans/gelijkheid",
+          "moed/doorzetten"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat leert Lisa en wat wil de schrijver ons vertellen over eerlijkheid?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/moed-op-het-voetbalveld/image-1.png",
+      "alt": "Lisa staat alleen op het voetbalveld terwijl jongens om haar heen staan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/moed-op-het-voetbalveld/image-2.png",
+      "alt": "Lisa praat zelfverzekerd met meneer Van Der Berg na de training"
+    }
+  ],
+  "imagePrompts": [
+    "A determined girl in soccer gear standing on a Dutch school football field surrounded by boys in team uniforms, children's book illustration style, showing tension and determination",
+    "A confident young girl talking to an adult male soccer coach after training, soccer field in background, children's book illustration style, showing courage and resolution"
+  ]
+}

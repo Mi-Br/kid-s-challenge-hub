@@ -1,0 +1,108 @@
+{
+  "id": "de-verkeerde-schoenen",
+  "title": "De Verkeerde Schoenen",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "kleding",
+  "text": "Lena heeft nieuwe schoenen gekregen van haar oma. Ze zijn heel mooi en wit. Lena vindt ze zo mooi dat ze ze elke dag wil dragen.\n\nOp maandag draagt Lena haar nieuwe witte schoenen naar school. Het regent hard buiten. Mama zegt: \"Lena, trek je regenlaarzen aan omdat het regent.\" Maar Lena wil haar mooie schoenen aan. \"Deze zijn mooier,\" zegt ze.\n\nOp school moet Lena buiten spelen. Alle kinderen rennen door de plassen. Lena rent ook mee omdat ze wil spelen met haar vrienden. Haar witte schoenen worden bruin van de modder.\n\nNa school kijkt Lena naar haar schoenen. Ze zijn niet meer wit en mooi. Ze zijn vies en nat. Lena voelt zich verdrietig omdat haar mooie schoenen kapot zijn.\n\nThuisgekomen ziet mama de schoenen. \"Wat jammer,\" zegt mama. \"Morgen kiezen we samen de juiste schoenen voor het weer.\" Lena knikt omdat ze begrijpt dat mama gelijk had.\n\nDe volgende dag regent het weer. Lena trekt haar regenlaarzen aan. Na school zijn haar voeten droog en warm. Ze is blij dat ze de juiste schoenen heeft gekozen.",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de nieuwe schoenen van Lena?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit",
+        "witte"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke schoenen wilde mama dat Lena aantrok?",
+      "questionType": "begrijpen",
+      "hint": "Lees wat mama op maandag zegt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "regenlaarzen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom werden Lena's schoenen vies?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "regen",
+            "regende",
+            "nat",
+            "water",
+            "plassen"
+          ],
+          [
+            "spelen",
+            "speelde",
+            "rennen",
+            "rende",
+            "buiten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan het weer en wat Lena deed op school."
+    },
+    {
+      "question": "Vind jij dat Lena een goede keuze maakte? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "nee",
+            "niet",
+            "slecht",
+            "fout"
+          ],
+          [
+            "regen",
+            "weer",
+            "nat",
+            "modder",
+            "vies"
+          ],
+          [
+            "mama",
+            "luisteren",
+            "geluisterd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde met de schoenen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verkeerde-schoenen/image-1.png",
+      "alt": "Lena met haar nieuwe witte schoenen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verkeerde-schoenen/image-2.png",
+      "alt": "Lena's vieze schoenen na het spelen in de regen"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl named Lena proudly wearing beautiful new white shoes, standing in her bedroom, children's book illustration style",
+    "The same girl looking sad at her muddy, dirty white shoes after playing outside in the rain, with puddles and mud visible, children's book illustration style"
+  ]
+}

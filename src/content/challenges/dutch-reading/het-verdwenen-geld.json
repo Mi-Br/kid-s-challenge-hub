@@ -1,0 +1,123 @@
+{
+  "id": "het-verdwenen-geld",
+  "title": "Het Verdwenen Geld",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de markt",
+  "text": "Sanne ging met haar moeder naar de markt in het centrum. Ze had tien euro gekregen om groenten te kopen bij de kraam van meneer Jansen. Sanne stopte het geld voorzichtig in haar broekzak.\n\nBij de eerste kraam kocht moeder kaas. Daarna liepen ze naar de bloemenverkoper. Sanne controleerde haar zak - het geld zat er nog steeds in. Ze waren blij omdat de zon scheen en het druk was op de markt.\n\nToen ze bij meneer Jansen kwamen, greep Sanne in haar zak. Haar gezicht werd wit. Het geld was weg! Ze keek overal op de grond, maar vond niets. Tranen rolden over haar wangen omdat ze het geld had verloren.\n\n\"Wacht even\", zei meneer Jansen vriendelijk. \"Ik heb daarnet een briefje van tien euro gevonden bij mijn kraam. Misschien is het van jou?\" Hij liet het biljet zien. Sanne herkende het meteen omdat er een kleine scheur in de hoek zat.\n\n\"Dat is mijn geld!\" riep Sanne opgelucht. Ze bedankte meneer Jansen hartelijk. Nu kon ze eindelijk de verse wortelen en sla kopen die haar moeder nodig had voor het avondeten.",
+  "questions": [
+    {
+      "question": "Hoeveel euro had Sanne gekregen?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "tien"
+          ],
+          [
+            "euro"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom werd Sannes gezicht wit toen ze bij meneer Jansen kwam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "euro",
+            "briefje"
+          ],
+          [
+            "weg",
+            "verloren",
+            "kwijt",
+            "verdwenen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Sanne ontdekte toen ze in haar zak greep."
+    },
+    {
+      "question": "Hoe kon Sanne bewijzen dat het briefje van haar was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "scheur",
+            "gescheurd"
+          ],
+          [
+            "hoek",
+            "kant"
+          ],
+          [
+            "herkende",
+            "herkende",
+            "herkennen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea goed."
+    },
+    {
+      "question": "Vind je dat meneer Jansen zich goed gedroeg? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "aardig",
+            "lief",
+            "vriendelijk"
+          ],
+          [
+            "help",
+            "hielp",
+            "helpen",
+            "teruggaf",
+            "terugeven",
+            "gevonden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat meneer Jansen deed toen hij het geld vond."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-geld/image-1.png",
+      "alt": "Sanne en haar moeder lopen over de drukke markt met verschillende kramen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-geld/image-2.png",
+      "alt": "Meneer Jansen geeft het gevonden briefje van tien euro terug aan Sanne"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl and her mother walking through a busy outdoor market with colorful vegetable and flower stalls, sunny day, children's book illustration style",
+    "A kind elderly market vendor showing a ten euro bill to a relieved young girl at his vegetable stand, children's book illustration style"
+  ]
+}

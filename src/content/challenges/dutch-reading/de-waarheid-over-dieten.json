@@ -1,0 +1,95 @@
+{
+  "id": "de-waarheid-over-dieten",
+  "title": "De Waarheid over Diëten",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "gezondheid",
+  "text": "Lisa zag het bericht op Instagram. Een bekend meisje uit haar klas had een foto gepost van een speciale thee. \"Met deze thee ben ik vijf kilo afgevallen in één week!\" stond erbij. Lisa keek naar zichzelf in de spiegel en voelde zich niet goed.\n\nDe volgende dag kocht Lisa de dure thee online. Ze dronk elke dag drie koppen. Na een week was ze twee kilo lichter, maar ze voelde zich zwak en moe. Haar moeder maakte zich zorgen.\n\n\"Wie heeft je over die thee verteld?\" vroeg haar moeder. Lisa liet de Instagram post zien. Haar moeder fronste haar wenkbrauwen. \"Weet je dat dit meisje geld krijgt voor elk product dat ze verkoopt? Ze is niet eerlijk over de risico's.\"\n\nLisa begreep het nu. Ze had geen kritische vragen gesteld. Ze besloot eerst met de schoolarts te praten voordat ze nog meer dieetproducten zou proberen. Haar lichaam was nog aan het groeien en had alle voedingsstoffen nodig.\n\nVanaf toen controleerde Lisa altijd wie achter gezondheidsadviezen zat en of ze er geld mee verdienden. Ze leerde dat echte gezondheid niet uit een theezakje kwam.",
+  "questions": [
+    {
+      "question": "Hoeveel kilo was Lisa afgevallen na één week?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "twee kilo",
+        "2 kilo",
+        "twee"
+      ],
+      "hint": "Zoek in de derde alinea naar het aantal kilo."
+    },
+    {
+      "question": "Waarom was de Instagram post niet betrouwbaar?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "betaald",
+            "betaling",
+            "verdiende",
+            "verkoopt"
+          ],
+          [
+            "eerlijk",
+            "betrouwbaar",
+            "risico's",
+            "risico",
+            "gevaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa's moeder zei over geld verdienen."
+    },
+    {
+      "question": "Hoe voelde Lisa zich na een week thee drinken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zwak",
+            "moe",
+            "niet goed",
+            "slecht"
+          ],
+          [
+            "voelde",
+            "was",
+            "werd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk in de derde alinea naar hoe Lisa's lichaam reageerde."
+    },
+    {
+      "question": "Met wie wilde Lisa eerst praten voordat ze nieuwe dieetproducten zou proberen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de schoolarts",
+        "schoolarts"
+      ],
+      "hint": "Zoek in de vierde alinea naar de persoon die Lisa wilde raadplegen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-over-dieten/image-1.png",
+      "alt": "Lisa kijkt naar een Instagram post op haar telefoon over dieetthee"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-over-dieten/image-2.png",
+      "alt": "Lisa praat met haar moeder over de Instagram post"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking at her phone showing an Instagram post about diet tea, children's book illustration style, concerned expression",
+    "A teenage girl and her mother looking at a phone together, discussing social media, children's book illustration style, caring conversation"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "aisha-en-de-markt",
+  "title": "Aisha en de Markt",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de markt",
+  "text": "Aisha loopt met haar moeder naar de markt. Het is woensdag en de markt is vol met mensen. Aisha vindt de markt eng omdat alles zo druk is.\n\nBij de groentekraam staat een oude man met een grote snor. Hij praat heel hard en Aisha verstaat hem niet goed. \"Die man is raar,\" denkt Aisha. Ze verstopt zich achter haar moeder.\n\nDe man ziet Aisha en lacht vriendelijk. \"Hallo meisje! Wil je een appel proberen?\" Hij geeft haar een rode appel. De appel smaakt heel zoet en lekker.\n\n\"Dank je wel,\" zegt Aisha zacht. De man knipoogt naar haar. \"Ik kom uit Marokko, net zoals jouw mama denk ik. Welkom op mijn markt!\" Nu begrijpt Aisha waarom hij zo praat. Hij is niet raar, hij is gewoon anders dan zij.",
+  "questions": [
+    {
+      "question": "Op welke dag gaat Aisha naar de markt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "woensdag"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Welke kleur heeft de appel die Aisha krijgt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Lees wat de man aan Aisha geeft."
+    },
+    {
+      "question": "Waarom vond Aisha de man eerst raar?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hard",
+            "luid",
+            "veel"
+          ],
+          [
+            "praten",
+            "praat",
+            "praatte"
+          ],
+          [
+            "verstaan",
+            "verstaat",
+            "verstond",
+            "begrijpen",
+            "begreep"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe de man praatte."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/aisha-en-de-markt/image-1.png",
+      "alt": "Aisha loopt met haar moeder op een drukke markt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/aisha-en-de-markt/image-2.png",
+      "alt": "De vriendelijke man geeft Aisha een rode appel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with hijab walking with her mother through a busy Dutch market with colorful fruit and vegetable stalls, children's book illustration style",
+    "A kind elderly man with a large mustache at a fruit stand giving a red apple to a shy young girl, warm and welcoming scene, children's book illustration style"
+  ]
+}

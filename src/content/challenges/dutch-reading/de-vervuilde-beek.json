@@ -1,0 +1,136 @@
+{
+  "id": "de-vervuilde-beek",
+  "title": "De Vervuilde Beek",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "milieu",
+  "text": "Amira woonde al twee jaar in Nederland, maar ze voelde zich nog steeds anders dan de andere kinderen. Elke dag liep ze langs de beek achter haar huis naar school. De beek was vroeger schoon en helder geweest, had haar Nederlandse buurvrouw verteld. Nu dreef er plastic afval in het water en rook het vies.\n\nOp een dag ontdekte Amira dat er nog meer kapot was. Kleine visjes dreven dood aan de oppervlakte. Ze was boos en verdrietig tegelijk. In Marokko had haar opa haar geleerd dat water heilig was. \"Water is leven,\" zei hij altijd. Maar deze beek was dood aan het gaan.\n\nAmira besloot iets te doen. Ze begon foto's te maken van het vervuilde water. Eerst was ze bang dat niemand naar haar zou luisteren omdat ze anders was. Maar toen bedacht ze dat het milieu iedereen aanging, ongeacht waar je vandaan kwam.\n\nOp school liet ze de foto's aan haar meester zien. Hij was geschokt en wilde meteen helpen. Samen schreven ze een brief naar de gemeente. Binnen twee weken kwam er een team om de beek schoon te maken. De vervuiling kwam van een fabriek die illegaal afval loosde.\n\nNu, drie maanden later, zwemmen er weer kleine visjes in de beek. Amira voelt zich trots en minder anders dan voorheen. Ze heeft begrepen dat je kunt bijdragen aan Nederland, ook al ben je hier niet geboren. Haar actie heeft niet alleen de beek gered, maar ook haar gevoel van thuishoren versterkt.",
+  "questions": [
+    {
+      "question": "Wat dreef er in het water van de beek?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "plastic afval"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom was Amira eerst bang dat niemand naar haar zou luisteren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "anders",
+            "verschillend",
+            "vreemd"
+          ],
+          [
+            "luisteren",
+            "geloven",
+            "serieus nemen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Amira zich voelde in Nederland."
+    },
+    {
+      "question": "Hoe heeft Amira's actie haar gevoel van thuishoren veranderd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "trots",
+            "beter",
+            "sterker"
+          ],
+          [
+            "thuishoren",
+            "bijdragen",
+            "helpen",
+            "deel uitmaken"
+          ],
+          [
+            "minder anders",
+            "meer thuis",
+            "geaccepteerd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed."
+    },
+    {
+      "question": "Vind je dat Amira de juiste aanpak heeft gekozen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "goed",
+            "juist",
+            "verkeerd"
+          ],
+          [
+            "foto's",
+            "bewijs",
+            "meester",
+            "gemeente",
+            "brief"
+          ],
+          [
+            "effectief",
+            "werkte",
+            "resultaat",
+            "succes",
+            "gelukt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde nadat Amira actie ondernam."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe iemand die zich anders voelt toch een bijdrage kan leveren aan de samenleving, en dat milieuproblemen iedereen aangaan ongeacht je achtergrond.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat zich anders voelt maar ontdekt dat ze wel degelijk iets kan betekenen voor Nederland door het milieu te helpen.",
+        "keyElements": [
+          "bijdragen/helpen",
+          "anders voelen/thuishoren",
+          "milieu/water beschermen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Amira heeft geleerd over zichzelf en haar plaats in Nederland."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-vervuilde-beek/image-1.png",
+      "alt": "Een meisje met donker haar die verdrietig kijkt naar een vervuilde beek met plastic afval"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-vervuilde-beek/image-2.png",
+      "alt": "Hetzelfde meisje die trots foto's laat zien aan haar meester in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "A young Moroccan-Dutch girl with dark hair standing sadly by a polluted stream with plastic waste floating in murky water, children's book illustration style, Dutch countryside background",
+    "The same girl proudly showing photographs to her male teacher in a Dutch classroom, both looking engaged and determined, children's book illustration style, bright classroom setting"
+  ]
+}

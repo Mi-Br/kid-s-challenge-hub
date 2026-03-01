@@ -1,0 +1,84 @@
+{
+  "id": "zwemmen-in-de-vijver",
+  "title": "Zwemmen in de Vijver",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de buurt",
+  "text": "Lisa woont in een leuke buurt met een grote vijver. Alle kinderen uit de buurt spelen vaak bij het water. Maar Lisa zwemt nooit in de vijver.\n\nOp een warme dag ziet Lisa de andere kinderen zwemmen. Ze lachen en spetteren in het water. Een grote zwaan zwemt ook in de vijver. De zwaan is boos omdat de kinderen te veel lawaai maken. Hij slaat met zijn vleugels naar Tom.\n\nLisa is bang voor het water en voor de zwaan. Maar het ziet er wel leuk uit. Haar vriendin Emma roept: \"Kom Lisa, het water is heerlijk!\"\n\nLisa doet voorzichtig haar teenjes in het water. Het is inderdaad heerlijk! Ze gaat steeds dieper het water in. De zwaan zwemt rustig weg omdat Lisa zacht praat tegen hem.\n\nNu zwemt Lisa elke dag in de vijver. Ze is niet meer bang voor het water. De zwaan is nu haar vriend geworden.",
+  "questions": [
+    {
+      "question": "Waar woont Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in een leuke buurt met een grote vijver",
+        "in een buurt met een vijver"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom was de zwaan boos op de kinderen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lawaai",
+            "geluid",
+            "herrie"
+          ],
+          [
+            "maken",
+            "maakten",
+            "gemaakt"
+          ],
+          [
+            "veel",
+            "te veel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea nog eens goed."
+    },
+    {
+      "question": "Hoe voelde Lisa zich eerst over het water?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "bangig"
+          ],
+          [
+            "water",
+            "zwemmen",
+            "vijver"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan Lisa's gevoel in de derde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/zwemmen-in-de-vijver/image-1.png",
+      "alt": "Lisa staat bij de rand van de vijver en kijkt naar kinderen die zwemmen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/zwemmen-in-de-vijver/image-2.png",
+      "alt": "Lisa zwemt vrolijk in de vijver met de zwaan rustig naast haar"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl standing hesitantly at the edge of a pond while other children are swimming and splashing, with a large swan in the water looking annoyed, children's book illustration style",
+    "The same girl now swimming happily in the pond with the swan swimming peacefully beside her, both looking calm and friendly, children's book illustration style"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "nieuws-op-school",
+  "title": "Nieuws op School",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "media",
+  "text": "Emma kijkt naar het journaal op televisie. De nieuwslezer vertelt over vervuiling in de oceaan. Plastic flessen en tassen drijven in het water. Vissen en zeevogels kunnen er ziek van worden.\n\nDe volgende dag praat de juf erover op school. \"Wie heeft het nieuws gezien?\" vraagt ze. Emma steekt haar vinger op. \"Ik zag heel veel plastic in de zee,\" zegt ze. \"Dat is niet goed voor de dieren.\"\n\nDe juf knikt. \"Klopt, Emma. Dit gebeurt over de hele wereld. Ook in Nederland maken mensen te veel afval. Wat kunnen wij doen?\" De kinderen denken na. Tom zegt: \"Minder plastic gebruiken.\" Lisa roept: \"Afval opruimen in het park!\"\n\nEmma voelt zich verdrietig. Het probleem lijkt zo groot. Hoe kan zij, een klein meisje, de hele wereld helpen? Ze zucht diep.\n\nDan krijgt Emma een idee. \"Juf, kunnen we een krant maken voor onze school? Dan kunnen andere kinderen ook lezen over het milieu.\" De juf vindt het een goed plan. \"We beginnen deze week,\" zegt ze. \"Iedereen mag meehelpen.\"\n\nEmma glimlacht weer. Nu kan zij ook nieuws maken, niet alleen kijken. Misschien kunnen meer kinderen dan helpen met de vervuiling.",
+  "questions": [
+    {
+      "question": "Wat zag Emma op het journaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "vervuiling in de oceaan",
+        "plastic flessen en tassen in het water",
+        "plastic in de zee"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelde Emma zich verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "groot",
+            "enorm",
+            "veel"
+          ],
+          [
+            "probleem",
+            "vervuiling",
+            "milieu"
+          ],
+          [
+            "klein",
+            "weinig",
+            "alleen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma dacht over het probleem en zichzelf."
+    },
+    {
+      "question": "Wat wilde Tom doen tegen de vervuiling?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "minder plastic gebruiken",
+        "minder plastic"
+      ],
+      "hint": "Kijk naar wat Tom zegt in de derde alinea."
+    },
+    {
+      "question": "Wat voor gevoel kreeg Emma aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "gelukkig",
+            "vrolijk",
+            "glimlacht"
+          ],
+          [
+            "helpen",
+            "doen",
+            "oplossen"
+          ],
+          [
+            "hoop",
+            "plan",
+            "idee"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea nog eens."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/nieuws-op-school/image-1.png",
+      "alt": "Emma kijkt naar het journaal op televisie"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/nieuws-op-school/image-2.png",
+      "alt": "Emma vertelt haar idee aan de juf in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl watching television news showing ocean pollution with plastic bottles floating in water, children's book illustration style",
+    "A girl raising her hand in a Dutch classroom telling her teacher about making a school newspaper, other children listening, children's book illustration style"
+  ]
+}

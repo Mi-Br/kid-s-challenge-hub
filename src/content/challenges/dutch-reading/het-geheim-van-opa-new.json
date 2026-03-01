@@ -1,0 +1,139 @@
+{
+  "id": "het-geheim-van-opa",
+  "title": "Het Geheim van Opa",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wetenschap",
+  "text": "Lisa vond altijd dat haar opa een gewone oude man was. Hij woonde in een klein huisje en deed elke dag de boodschappen. Maar toen opa ziek werd, ontdekte Lisa iets bijzonders.\n\nIn opa's studeerkamer stond een grote kast vol met dikke boeken over sterren en planeten. Op zijn bureau lagen stapels oude foto's van telescopen en laboratoria. Lisa begreep er niets van. Waarom had opa al deze spullen?\n\nToen mama kwam, zag ze Lisa tussen de boeken zitten. \"Opa was vroeger een beroemde astronoom,\" vertelde mama zachtjes. \"Hij heeft nieuwe sterren ontdekt en heeft jarenlang gewerkt bij de Sterrenwacht in Leiden. Maar hij wilde er nooit over praten omdat hij dacht dat jullie het saai zouden vinden.\"\n\nLisa voelde zich verdrietig. Waarom had opa zijn belangrijke werk geheimgehouden? Ze had zo graag meer willen weten over zijn onderzoek. Nu begreep ze waarom opa altijd naar de sterrenhemel keek voordat hij naar bed ging.\n\nDie avond ging Lisa naar opa's kamer in het ziekenhuis. \"Opa,\" zei ze, \"wil je me vertellen over de sterren die je hebt ontdekt?\" Opa's ogen begonnen te stralen. Voor het eerst deelde hij zijn verhalen over het heelal met zijn kleindochter.",
+  "questions": [
+    {
+      "question": "Waar heeft opa vroeger gewerkt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij de sterrenwacht in leiden",
+        "de sterrenwacht in leiden",
+        "sterrenwacht in leiden"
+      ],
+      "hint": "Kijk in de derde paragraaf wat mama vertelt."
+    },
+    {
+      "question": "Waarom vertelde opa nooit over zijn werk als astronoom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "dacht",
+            "dachten",
+            "denken",
+            "gedacht"
+          ],
+          [
+            "saai",
+            "boring",
+            "niet interessant",
+            "oninteressant"
+          ],
+          [
+            "vinden",
+            "zou",
+            "zouden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat mama zegt over waarom opa er niet over praatte."
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen ze hoorde dat opa zijn werk had geheimgehouden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "triest",
+            "bedroefd"
+          ],
+          [
+            "teleurgesteld",
+            "jammer",
+            "spijt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de vierde paragraaf naar Lisa's gevoel."
+    },
+    {
+      "question": "Wat laat dit verhaal zien over het belang van communicatie tussen familieleden?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "praten",
+            "vertellen",
+            "delen",
+            "communiceren",
+            "bespreken"
+          ],
+          [
+            "belangrijk",
+            "nodig",
+            "moet",
+            "moeten",
+            "hoort"
+          ],
+          [
+            "familie",
+            "familieleden",
+            "elkaar",
+            "samen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er was gebeurd als opa en Lisa eerder hadden gepraat."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van het delen van verhalen binnen families en dat we vaak meer gemeen hebben met onze familieleden dan we denken.",
+        "exampleAnswer": "Het verhaal gaat over het belang van open communicatie in families en dat we onze familie beter moeten leren kennen.",
+        "keyElements": [
+          "familie/familieleden",
+          "praten/delen/communiceren",
+          "geheimen/verborgen",
+          "leren kennen/begrijpen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de belangrijkste boodschap die de schrijver wil overbrengen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-opa/image-1.png",
+      "alt": "Lisa ontdekt de boeken en foto's over sterrenkunde in opa's studeerkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-opa/image-2.png",
+      "alt": "Lisa praat met opa in het ziekenhuis over zijn werk als astronoom"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl discovering astronomy books and telescope photographs in her grandfather's study room, children's book illustration style, warm lighting",
+    "A girl talking with her elderly grandfather in a hospital room, both looking happy as they discuss stars and space, children's book illustration style"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "de-sterren-van-thuis",
+  "title": "De Sterren van Thuis",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wetenschap",
+  "text": "Amara staarde door de telescoop in het sterrenlaboratorium van haar school. Ze was geboren in Somalië, maar woonde nu al vijf jaar in Nederland. Thuis vertelde haar oma altijd verhalen over de sterren boven Afrika. \"Die sterren zijn anders dan hier,\" zei oma vaak.\n\nVandaag ontdekte Amara iets bijzonders. De sterrenkaart in haar natuurkundeboek toonde precies dezelfde sterrenbeelden als oma beschreef. De Grote Beer, Orion, de Poolster - ze waren overal hetzelfde! Maar waarom vertelden de Nederlandse kinderen dan andere verhalen over dezelfde sterren?\n\nAmara begreep het plotseling. Het probleem zat niet in de sterren, maar in de verhalen die mensen erover vertelden. In Nederland leerden kinderen Griekse mythen over de sterrenbeelden. In Somalië kende oma Afrikaanse legendes over dezelfde lichtpuntjes.\n\nDe volgende dag hield Amara een presentatie voor haar klas. Ze vertelde zowel de Nederlandse als de Somalische verhalen over de sterren. Haar klasgenoten waren verbaasd dat er zoveel verschillende verhalen over hetzelfde bestonden. \"Wetenschap verbindt ons allemaal,\" zei Amara. \"Maar cultuur maakt het interessant.\"\n\nDe leraar was onder de indruk. Hij vroeg of Amara elke maand een verhaal wilde vertellen over astronomie in verschillende culturen. Amara knikte enthousiast. Nu voelde ze zich niet meer alleen Somalisch of alleen Nederlands - ze was een brug tussen beide werelden.",
+  "questions": [
+    {
+      "question": "Hoeveel jaar woont Amara al in Nederland?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "vijf jaar",
+        "5 jaar",
+        "vijf"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dacht Amara eerst dat de sterren in Nederland anders waren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verhalen",
+            "legendes",
+            "mythen",
+            "vertellen"
+          ],
+          [
+            "anders",
+            "verschillend",
+            "niet hetzelfde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat oma vertelde en wat Amara op school hoorde."
+    },
+    {
+      "question": "Wat ontdekte Amara in haar natuurkundeboek?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zelfde",
+            "dezelfde",
+            "gelijk"
+          ],
+          [
+            "sterrenbeelden",
+            "sterren",
+            "constellaties"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea nog eens goed."
+    },
+    {
+      "question": "Vind je het een goed idee dat Amara verhalen uit verschillende culturen vertelt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "goed",
+            "slecht",
+            "positief",
+            "negatief"
+          ],
+          [
+            "cultuur",
+            "culturen",
+            "verschillende",
+            "diversiteit",
+            "verhalen"
+          ],
+          [
+            "leren",
+            "kennis",
+            "begrijpen",
+            "respect",
+            "tolerantie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat de andere kinderen leerden van Amara's verhalen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het vinden van verbinding tussen verschillende culturen door wetenschap, of over het omarmen van een multiculturele identiteit.",
+        "exampleAnswer": "Het verhaal gaat over hoe wetenschap mensen uit verschillende culturen kan verbinden en hoe je trots kunt zijn op beide culturen.",
+        "keyElements": [
+          "culturen/cultuur verbinden",
+          "wetenschap/sterren",
+          "identiteit/beide werelden",
+          "brug/verbinding"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe Amara zich aan het eind voelt en wat ze geleerd heeft."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-sterren-van-thuis/image-1.png",
+      "alt": "Amara kijkt door een telescoop in het sterrenlaboratorium"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-sterren-van-thuis/image-2.png",
+      "alt": "Amara geeft een presentatie voor haar klas over sterrenbeelden"
+    }
+  ],
+  "imagePrompts": [
+    "A young Somali-Dutch girl looking through a telescope in a school science laboratory, with star charts and astronomy books on the table, children's book illustration style",
+    "The same girl giving an enthusiastic presentation to her diverse classroom, pointing to star constellation drawings on a whiteboard, other children listening with interest, children's book illustration style"
+  ]
+}

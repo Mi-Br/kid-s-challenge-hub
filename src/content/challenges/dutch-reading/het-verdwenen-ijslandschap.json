@@ -1,0 +1,137 @@
+{
+  "id": "het-verdwenen-ijslandschap",
+  "title": "Het Verdwenen IJslandschap",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wetenschap",
+  "text": "De vijftienjarige Mira staarde naar de satellietbeelden die haar vader, klimaatonderzoeker Dr. Hendrik van der Berg, op zijn laptop had geopend. \"Kijk eens naar deze beelden van de Noordpool uit 1985,\" zei hij met een bezorgde frowns. \"En vergelijk die nu met de foto's van vorig jaar.\" De contrasten waren schokkend: waar ooit uitgestrekte witte vlaktes waren geweest, zag Mira nu donkere oceaan.\n\n\"Papa, betekent dit dat de ijsberen nergens meer kunnen wonen?\" vroeg Mira, terwijl ze dacht aan de documentaire die ze vorige week op school hadden bekeken. Haar vader knikte langzaam. \"De klimaatverandering veroorzaakt een kettingreactie die catastrofaler is dan de meeste mensen beseffen. Als het poolijs smelt, stijgt de zeespiegel wereldwijd. Bovendien reflecteert ijs het zonlicht terug de ruimte in, maar donker zeewater absorbeert juist warmte.\"\n\nMira voelde een koude rilling over haar rug lopen. Nederland lag grotendeels onder zeeniveau - als de oceanen zouden stijgen, zou haar eigen land bedreigd worden. \"Maar er moet toch iets zijn wat we kunnen doen?\" vroeg ze wanhopig. Haar vader zweeg even, alsof hij worstelde met zijn antwoord. \"De wetenschap toont ons de feiten, maar het zijn politici en bedrijven die de echte beslissingen nemen,\" zei hij uiteindelijk.\n\nDie avond kon Mira niet slapen. Ze dacht aan haar toekomst, aan de kinderen die zij misschien ooit zou hebben, aan de wereld die zij zouden erven. Was het al te laat? Plotseling besefte ze dat wetenschap niet alleen draaide om het begrijpen van problemen, maar ook om het inspireren van oplossingen. Ze pakte haar telefoon en begon te zoeken naar organisaties die werkten aan duurzame energie en natuurbescherming.\n\n\"Misschien kan ik niet de hele wereld redden,\" fluisterde ze tegen zichzelf, \"maar ik kan wel beginnen met kleine stappen.\" Ze opende een nieuw document op haar computer en begon een presentatie te maken over klimaatverandering voor haar klas. Als de volwassenen er niet in slaagden om actie te ondernemen, dan zou haar generatie dat moeten doen. De wetenschap had haar de waarheid getoond - nu was het tijd om die waarheid te delen.\n\nDe volgende ochtend vertelde ze haar vader over haar plan. Voor het eerst in weken zag ze een glimp van hoop in zijn ogen. \"Weet je wat het mooiste is aan de wetenschap, Mira?\" zei hij. \"Het geeft ons niet alleen kennis over problemen, maar ook de tools om oplossingen te vinden. Jouw generatie heeft misschien de creativiteit en vastberadenheid die nodig zijn om deze crisis het hoofd te bieden.\"",
+  "questions": [
+    {
+      "question": "Wat veroorzaakt volgens Dr. van der Berg een kettingreactie die catastrofaler is dan mensen beseffen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat klimaatverandering volgens Dr. van der Berg de kettingreactie veroorzaakt, en bij voorkeur ook uitleggen waarom deze catastrofaal is (poolijs smelt, zeespiegel stijgt, warmte-absorptie).",
+        "exampleAnswer": "Klimaatverandering veroorzaakt een kettingreactie omdat het poolijs smelt, de zeespiegel stijgt en donker zeewater meer warmte absorbeert dan ijs.",
+        "keyElements": [
+          "klimaatverandering",
+          "poolijs smelt/smelten",
+          "zeespiegel stijgt/stijgen",
+          "warmte absorptie/absorbeert"
+        ],
+        "minWords": 5
+      },
+      "hint": "Zoek in de tweede alinea naar wat er gebeurt als het poolijs smelt."
+    },
+    {
+      "question": "Waarom kan Nederland volgens de tekst bedreigd worden door stijgende oceanen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "onder zeeniveau",
+            "beneden zeeniveau",
+            "lager dan zee"
+          ],
+          [
+            "nederland",
+            "ons land",
+            "haar land"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk in de derde alinea naar wat er over Nederland wordt gezegd."
+    },
+    {
+      "question": "Wat is volgens Dr. van der Berg het mooiste aan de wetenschap?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat wetenschap volgens Dr. van der Berg niet alleen kennis geeft over problemen, maar ook tools/middelen biedt om oplossingen te vinden.",
+        "exampleAnswer": "Wetenschap geeft niet alleen kennis over problemen, maar ook de tools om oplossingen te vinden.",
+        "keyElements": [
+          "kennis/kennis over problemen",
+          "tools/middelen/instrumenten",
+          "oplossingen vinden/oplossen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Lees de laatste zin die Dr. van der Berg zegt in het verhaal."
+    },
+    {
+      "question": "Beoordeel of Mira's reactie op de klimaatinformatie realistisch is voor een vijftienjarige. Onderbouw je mening met voorbeelden uit de tekst.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een gemotiveerde mening geven over of Mira's reactie realistisch is voor haar leeftijd, ondersteund met concrete voorbeelden uit de tekst zoals haar bezorgdheid, slaapproblemen, actiebereidheid, of het maken van een presentatie.",
+        "exampleAnswer": "Mira's reactie is realistisch omdat tieners vaak bezorgd zijn over hun toekomst. Ze kan niet slapen, maakt zich zorgen over haar eigen land en wil actie ondernemen door een presentatie te maken, wat typisch is voor haar leeftijd.",
+        "keyElements": [
+          "realistisch/onrealistisch",
+          "bezorgd/bezorgdheid/zorgen",
+          "presentatie maken/actie ondernemen",
+          "niet slapen/slaapproblemen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over hoe Mira reageert op de informatie en of dit past bij hoe tieners normaal reageren."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal hoofdzakelijk gaat over hoe wetenschappelijke kennis over klimaatproblemen jongeren kan motiveren tot actie, of over de overgang van wanhoop naar hoop door actie te ondernemen.",
+        "exampleAnswer": "Het verhaal gaat erover dat wetenschappelijke kennis over klimaatverandering jongeren kan motiveren om actie te ondernemen en hoop te vinden.",
+        "keyElements": [
+          "wetenschappelijke kennis/wetenschap",
+          "klimaatverandering/klimaatproblemen",
+          "actie ondernemen/handelen",
+          "hoop/motivatie"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over de belangrijkste boodschap: wat leert Mira en hoe verandert haar houding?"
+    },
+    {
+      "question": "Met welk doel heeft de schrijver dit verhaal waarschijnlijk geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver waarschijnlijk jongeren wil bewustmaken van klimaatproblemen, hen wil aanmoedigen tot actie, of wil laten zien dat wetenschap zowel problemen blootlegt als oplossingen kan bieden.",
+        "exampleAnswer": "De schrijver wil jongeren bewustmaken van klimaatverandering en hen aanmoedigen om zelf actie te ondernemen in plaats van passief te blijven.",
+        "keyElements": [
+          "bewustmaken/bewustwording",
+          "jongeren/tieners",
+          "actie ondernemen/handelen",
+          "klimaatverandering/milieu"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver wil overbrengen aan jongeren die dit verhaal lezen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-ijslandschap/image-1.png",
+      "alt": "Mira en haar vader kijken naar satellietbeelden van smeltend poolijs op een laptop"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-ijslandschap/image-2.png",
+      "alt": "Mira werkt 's avonds aan haar presentatie over klimaatverandering op haar computer"
+    }
+  ],
+  "imagePrompts": [
+    "A worried teenage girl and her father looking at satellite images of melting Arctic ice on a laptop screen, children's book illustration style, showing concern and scientific data",
+    "A determined teenage girl working late at night on her computer creating a presentation about climate change, children's book illustration style, showing hope and action"
+  ]
+}

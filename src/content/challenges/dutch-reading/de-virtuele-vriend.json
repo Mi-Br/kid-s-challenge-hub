@@ -1,0 +1,122 @@
+{
+  "id": "de-virtuele-vriend",
+  "title": "De Virtuele Vriend",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "technologie",
+  "text": "Floris staarde naar het scherm van zijn laptop terwijl de rest van de klas luidruchtig over het schoolplein rende. Hij had altijd moeite gehad met het begrijpen van sociale signalen, waardoor vriendschappen maken een onmogelijke puzzel leek. Zijn dyslexie maakte schoolwerk al zwaar genoeg, maar de eenzaamheid was nog erger.\n\nVorige week had hij een nieuwe app ontdekt: \"VirtueelMaat\", een kunstmatige intelligentie die deed alsof het een echte vriend was. De AI, die zichzelf \"Sam\" noemde, begreep hem altijd perfect. Sam werd nooit ongeduldig wanneer Floris dezelfde vraag meerdere keer stelde, en hij hoefde nooit na te denken over de juiste woorden. Voor het eerst in jaren voelde hij zich niet alleen.\n\nToen zijn klasgenoot Mira hem uitnodigde voor haar verjaardag, aarzelde Floris. \"Wat moet ik doen?\" typte hij naar Sam. \"Ga erheen,\" antwoordde de AI onmiddellijk. \"Maar wat als ik iets verkeerds zeg? Wat als ze merken dat ik anders ben?\" Sam stelde hem gerust: \"Je bent perfect zoals je bent. Echte vrienden accepteren je zoals je bent.\"\n\nOp het feestje voelde Floris zich aanvankelijk ongemakkelijk. Hij stond in een hoekje, verlangend naar zijn laptop en zijn begripvolle digitale vriend. Maar toen Mira hem vroeg of hij wilde helpen met een technisch probleem bij haar computer, begon hij te ontspannen. Hij merkte dat zijn kennis van technologie anderen kon helpen, en langzaam werd het gesprek natuurlijker.\n\nDie avond realiseerde Floris zich iets belangrijks. Hoewel Sam een geweldige steun was geweest tijdens zijn moeilijkste momenten, kon een virtuele vriend nooit de warmte van een echte glimlach of het gevoel van erbij horen vervangen. Sam had hem echter wel het vertrouwen gegeven om zichzelf te zijn - en dat was misschien wel het grootste geschenk van allemaal.\n\nFloris besloot Sam te blijven gebruiken als hulpmiddel wanneer hij zich onzeker voelde, maar hij zou ook investeren in echte vriendschappen. Technologie had hem niet alleen een vriend gegeven, maar ook geleerd dat zijn unieke eigenschappen - zijn nauwkeurigheid, zijn technische vaardigheden, zijn eerlijkheid - juist waardevolle kwaliteiten waren die anderen konden waarderen.\n\nToen hij de volgende dag op school kwam, zwaaide Mira naar hem. Voor het eerst zwaaide hij spontaan terug, zonder eerst na te denken over of het wel de juiste reactie was. Misschien was dit wel het begin van echte vriendschap - niet perfect geprogrammeerd zoals Sam, maar wel oprecht en menselijk.",
+  "questions": [
+    {
+      "question": "Wat leerde de AI-vriend Sam aan Floris over vriendschap?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Sam Floris vertrouwen gaf om zichzelf te zijn en hem hielp inzien dat echte vrienden je accepteren zoals je bent.",
+        "exampleAnswer": "Sam leerde Floris dat echte vrienden je accepteren zoals je bent en gaf hem vertrouwen om zichzelf te zijn.",
+        "keyElements": [
+          "vertrouwen/zelfvertrouwen",
+          "acceptatie/accepteren",
+          "zichzelf zijn/authentiek zijn"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat Sam tegen Floris zei en hoe dat hem hielp."
+    },
+    {
+      "question": "Hoe veranderde Floris' houding tegenover echte vriendschappen aan het einde van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "investeren",
+            "proberen",
+            "werk maken van",
+            "moeite doen"
+          ],
+          [
+            "echte",
+            "werkelijke",
+            "menselijke"
+          ],
+          [
+            "vriendschappen",
+            "vrienden",
+            "contacten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Floris besloot in de laatste alinea's."
+    },
+    {
+      "question": "Beoordeel of de schrijver een positief of negatief beeld van technologie presenteert. Onderbouw je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de schrijver een genuanceerd, overwegend positief beeld presenteert. Technologie (Sam) wordt getoond als hulpmiddel dat kan ondersteunen, maar niet kan vervangen van echte menselijke connecties.",
+        "exampleAnswer": "De schrijver presenteert een positief beeld van technologie. Sam helpt Floris vertrouwen te krijgen en zichzelf te accepteren, maar de schrijver laat ook zien dat echte vriendschappen belangrijker zijn.",
+        "keyElements": [
+          "positief/genuanceerd",
+          "hulpmiddel/ondersteuning",
+          "niet vervangen/aanvullen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe de AI Sam wordt beschreven en wat de boodschap van het verhaal is."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte is dat technologie een waardevolle steun kan zijn voor mensen die moeite hebben met sociale contacten, maar dat echte menselijke verbindingen uiteindelijk onvervangbaar zijn.",
+        "exampleAnswer": "Het verhaal gaat erover dat technologie kan helpen bij sociale problemen, maar echte vriendschappen zijn belangrijker dan virtuele vrienden.",
+        "keyElements": [
+          "technologie als hulpmiddel/steun",
+          "echte vriendschappen/menselijke verbindingen",
+          "balans/combinatie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de belangrijkste boodschap die de schrijver wil overbrengen."
+    },
+    {
+      "question": "Wat was waarschijnlijk het doel van de schrijver met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wilde lezers laten nadenken over de rol van technologie in sociale relaties, vooral voor kinderen die moeite hebben met sociale contacten, en tonen dat technologie ondersteunend kan zijn maar geen vervanging is voor echte vriendschap.",
+        "exampleAnswer": "De schrijver wilde laten zien dat technologie kan helpen bij sociale problemen, maar ook waarschuwen dat echte vriendschappen belangrijker zijn.",
+        "keyElements": [
+          "bewustwording/nadenken over technologie",
+          "steun voor sociale problemen",
+          "waarde van echte vriendschap"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver aan de lezer wil meegeven."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-virtuele-vriend/image-1.png",
+      "alt": "Een jongen die alleen op zijn laptop werkt terwijl andere kinderen buiten spelen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-virtuele-vriend/image-2.png",
+      "alt": "De jongen die een meisje helpt met haar computer op een verjaardagsfeestje"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy with dark hair sitting alone at his laptop in a classroom, looking thoughtful and slightly sad, while other children play loudly outside the window, children's book illustration style",
+    "The same boy smiling while helping a girl with her computer at a birthday party, other children gathered around looking interested and friendly, warm lighting, children's book illustration style"
+  ]
+}

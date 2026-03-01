@@ -1,0 +1,71 @@
+{
+  "id": "dierensporen-zoeken",
+  "title": "Dierensporen Zoeken",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "dieren",
+  "text": "Lisa is in het bos. Ze zoekt sporen van dieren. Ze heeft een boek over sporen.\n\nEerst ziet Lisa kleine pootjes in de modder. Ze denkt: dat is een konijn! Ze volgt de sporen. Maar de sporen gaan naar een hol van een egel.\n\nLisa is verdrietig. Ze keek niet goed in haar boek. De pootjes waren te klein voor een konijn.\n\nDaarna kijkt Lisa weer in het boek. Ze vindt nieuwe sporen. Ze ziet grote poten, kleine poten en hele kleine poten. Nu weet ze zeker: dit zijn hondenpoten!",
+  "questions": [
+    {
+      "question": "Wat heeft Lisa bij zich in het bos?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een boek over sporen",
+        "een boek"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welk dier woont in het hol?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een egel",
+        "egel"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom was Lisa verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "keek",
+            "kijken",
+            "gekeken"
+          ],
+          [
+            "goed",
+            "goed",
+            "verkeerd",
+            "fout"
+          ],
+          [
+            "boek",
+            "boek"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa fout deed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/dierensporen-zoeken/image-1.png",
+      "alt": "Lisa kijkt naar pootafdrukken in de modder"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/dierensporen-zoeken/image-2.png",
+      "alt": "Lisa vindt verschillende grote en kleine pootafdrukken"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with a book examining small animal footprints in muddy ground in a Dutch forest, children's book illustration style",
+    "A young girl looking at different sized dog paw prints in the dirt, holding an animal tracks guidebook, children's book illustration style"
+  ]
+}

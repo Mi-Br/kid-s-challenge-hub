@@ -1,0 +1,98 @@
+{
+  "id": "de-gemiste-sneeuwdag",
+  "title": "De Gemiste Sneeuwdag",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "Emma kijkt door het raam naar buiten. Er vallen grote witte vlokken uit de lucht. \"Het sneeuwt!\" roept ze blij. Vandaag is het Sinterklaas en mama heeft beloofd dat ze samen een sneeuwpop gaan maken.\n\nMaar Emma heeft gisteren ruzie gemaakt met haar zusje Lotte. Ze heeft Lotte's tekening verscheurd omdat ze boos was. Nu durft Emma niet naar beneden te gaan. Ze voelt zich verdrietig en schuldig.\n\n\"Lotte, het spijt me heel erg,\" zegt Emma zachtjes als ze de keuken inloopt. \"Ik was gemeen tegen jou. Wil je me vergeven?\" Lotte kijkt op van haar chocolademelk. \"Ik was ook verdrietig,\" zegt ze. \"Maar ik vergeef je wel.\"\n\nSamen rennen ze naar buiten. De sneeuw is perfect voor een sneeuwpop. Ze rollen grote ballen en zetten ze op elkaar. \"Dit wordt de mooiste Sinterklaas-sneeuwpop ooit!\" lacht Emma. Ze is zo blij dat ze het weer goed heeft gemaakt met Lotte.",
+  "questions": [
+    {
+      "question": "Welke feestdag is het in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "sinterklaas"
+      ],
+      "hint": "Kijk in de tweede alinea."
+    },
+    {
+      "question": "Wat heeft Emma met Lotte's tekening gedaan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "verscheurd",
+        "ze heeft lotte's tekening verscheurd"
+      ],
+      "hint": "Lees de tweede alinea nog eens goed."
+    },
+    {
+      "question": "Waarom durft Emma eerst niet naar beneden te gaan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schuldig",
+            "verdrietig",
+            "schaamte",
+            "spijt"
+          ],
+          [
+            "ruzie",
+            "ruzie gemaakt",
+            "boos geweest",
+            "gemeen geweest"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma de dag ervoor heeft gedaan."
+    },
+    {
+      "question": "Vind jij dat Emma goed heeft gehandeld door sorry te zeggen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "braaf"
+          ],
+          [
+            "sorry",
+            "verontschuldigen",
+            "spijt",
+            "vergiffenis"
+          ],
+          [
+            "eerlijk",
+            "moedig",
+            "lief",
+            "aardig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe je je zou voelen als iemand sorry tegen jou zei."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gemiste-sneeuwdag/image-1.png",
+      "alt": "Emma kijkt verdrietig door het raam naar de vallende sneeuw"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gemiste-sneeuwdag/image-2.png",
+      "alt": "Emma en Lotte maken samen een sneeuwpop in de tuin"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking sadly through a window at falling snow on Sinterklaas day, children's book illustration style",
+    "Two sisters happily building a snowman together in a snowy Dutch garden, children's book illustration style"
+  ]
+}

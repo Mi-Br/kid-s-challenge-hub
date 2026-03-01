@@ -1,0 +1,64 @@
+{
+  "id": "de-bladeren-van-opa",
+  "title": "De Bladeren van Opa",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "seizoenen",
+  "text": "Liam woont bij zijn opa in Amsterdam. Het is herfst en de bomen verliezen hun bladeren. Opa heeft een mooie tuin met grote bomen.\n\nOpa vraagt aan Liam: \"Wil jij de bladeren harken? Dan krijg je twee euro.\" Liam zegt ja. Hij wil het geld verdienen. Opa geeft hem de hark en gaat naar binnen.\n\nLiam harkt een half uur. Zijn armen doen pijn. Hij kijkt naar de stapel bladeren. Er liggen nog veel bladeren op de grond. Zijn vrienden spelen voetbal in het park. Ze roepen: \"Kom je ook?\"\n\nLiam denkt na. Hij wil graag voetballen. Maar hij heeft opa beloofd om te helpen. Hij blijft harken. Na een uur is de tuin schoon.\n\nOpa komt naar buiten. Hij kijkt rond. \"Wat een mooi werk, Liam!\" zegt hij. \"Je bent een echte hulp.\" Hij geeft Liam twee euro en een koekje. Liam voelt zich trots.",
+  "questions": [
+    {
+      "question": "Welk seizoen is het in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "herfst"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Hoeveel geld krijgt Liam van opa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "twee euro"
+      ],
+      "hint": "Opa zegt dit in de tweede alinea."
+    },
+    {
+      "question": "Waarom blijft Liam harken als zijn vrienden hem roepen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "beloofd",
+            "belofte",
+            "beloven"
+          ],
+          [
+            "helpen",
+            "hulp",
+            "geholpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Liam over zijn belofte denkt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-bladeren-van-opa/image-1.png",
+      "alt": "Liam en zijn opa in de tuin vol herfstbladeren"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-bladeren-van-opa/image-2.png",
+      "alt": "Liam harkt alleen in de tuin terwijl zijn vrienden in de verte spelen"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy and his grandfather in a Dutch garden filled with autumn leaves, grandfather handing a rake to the boy, children's book illustration style",
+    "A young boy raking leaves alone in a garden while his friends play football in the distance at a Dutch park, children's book illustration style"
+  ]
+}

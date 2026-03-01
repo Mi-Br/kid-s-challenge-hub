@@ -1,0 +1,136 @@
+{
+  "id": "de-magische-hond",
+  "title": "De Magische Hond",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "huisdieren",
+  "text": "Lisa's moeder dacht dat hun nieuwe hond Bramble gewoon een beetje slim was. \"Kijk hoe snel hij trucs leert,\" zei ze toen Bramble perfect zat na één keer vragen. Maar Lisa merkte andere dingen op die haar moeder niet zag.\n\nElke ochtend voordat Lisa wakker werd, had Bramble al haar schooltas klaargezet bij de deur. Haar huiswerk lag altijd netjes bovenop, ook al had ze het de avond ervoor ergens anders gelaten. Wanneer Lisa naar school vertrok, zat Bramble bij het raam en keek haar na tot ze de hoek om was.\n\nOp een regenachtige donderdag verloor Lisa haar sleutels ergens tussen school en huis. Ze stond nat en verdrietig voor de deur omdat niemand thuis was. Plotseling hoorde ze de grendel verschuiven. De deur ging open en daar stond Bramble met de sleutels in zijn bek, alsof hij al die tijd had gewacht.\n\n\"Hoe kan een hond nou sleutels vinden die ik buiten heb verloren?\" dacht Lisa hardop. Bramble kwispelde en likte haar hand, maar in zijn ogen zag ze iets wat ze nooit eerder bij een hond had gezien: hij leek te begrijpen dat hij iets bijzonders had gedaan.\n\nDie avond besloot Lisa om Bramble te observeren. Ze deed alsof ze sliep maar gluurde vanuit haar bed naar beneden. Wat ze zag, zou ze nooit vergeten. Bramble liep rechtop door de kamer, pakte haar schoolboeken en legde ze in de juiste volgorde voor de volgende dag. Toen hij klaar was, ging hij weer op vier poten lopen en krulde zich op in zijn mand.\n\nLisa glimlachte in het donker. Ze had altijd al gewild dat ze een heel bijzondere hond zou hebben. Nu wist ze zeker dat haar wens was uitgekomen, ook al zou niemand haar ooit geloven.",
+  "questions": [
+    {
+      "question": "Waar legde Bramble Lisa's huiswerk altijd neer?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bovenop haar schooltas",
+        "bovenop",
+        "op haar schooltas"
+      ],
+      "hint": "Kijk in de tweede alinea hoe Bramble Lisa's spullen klaarzet."
+    },
+    {
+      "question": "Waarom kon Lisa niet naar binnen toen ze thuiskwam van school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verloren",
+            "kwijt",
+            "kwijtgeraakt"
+          ],
+          [
+            "sleutels",
+            "sleutel"
+          ],
+          [
+            "niemand",
+            "niet",
+            "geen"
+          ],
+          [
+            "thuis"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over wat er gebeurde op de regenachtige donderdag."
+    },
+    {
+      "question": "Hoe gedroeg Bramble zich anders dan een gewone hond?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "rechtop",
+            "rechtop lopen",
+            "twee poten"
+          ],
+          [
+            "schooltas",
+            "spullen",
+            "boeken",
+            "huiswerk"
+          ],
+          [
+            "klaarzetten",
+            "klaarleggen",
+            "pakken",
+            "leggen",
+            "zetten"
+          ],
+          [
+            "sleutels",
+            "deur",
+            "openen",
+            "grendel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan alle bijzondere dingen die Bramble deed die Lisa opmerkte."
+    },
+    {
+      "question": "Vind je dat Lisa gelijk heeft dat niemand haar zal geloven? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee) en uitleggen waarom mensen wel of niet zouden geloven dat een hond zulke magische dingen kan doen. De nadruk ligt op de redenering.",
+        "exampleAnswer": "Ja, want volwassenen geloven meestal niet in magische dieren en denken dat Lisa het verzint.",
+        "keyElements": [
+          "mening/geloven/niet geloven",
+          "uitleg/omdat/want",
+          "magisch/bijzonder/ongewoon"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe volwassenen reageren op verhalen over magische dieren."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over een kind dat ontdekt dat haar huisdier magische krachten heeft, of over het vinden van iets bijzonders in het gewone leven.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat ontdekt dat haar hond magische krachten heeft.",
+        "keyElements": [
+          "ontdekken/vinden",
+          "bijzonder/magisch/speciaal",
+          "hond/huisdier"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat het belangrijkste is dat er in het hele verhaal gebeurt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-hond/image-1.png",
+      "alt": "Een meisje kijkt verbaasd naar een slimme hond die haar schooltas klaarzet"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-hond/image-2.png",
+      "alt": "Een hond die rechtop loopt en schoolboeken oppakt in een donkere kamer"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking amazed as an intelligent dog prepares her school bag by the door, children's book illustration style with warm home interior",
+    "A magical scene showing a dog walking upright in a dark room, organizing school books while a girl secretly watches from her bed, children's book illustration style"
+  ]
+}

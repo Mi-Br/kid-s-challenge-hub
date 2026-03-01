@@ -1,0 +1,85 @@
+{
+  "id": "lotte-en-pim-in-de-bibliotheek",
+  "title": "Lotte en Pim in de bibliotheek",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de bibliotheek",
+  "text": "Lotte en Pim gingen elke zaterdag samen naar de bibliotheek. Ze lazen graag boeken over dieren en avonturen. De bibliotheek was hun speciale plek.\n\nVorige week kwam er een nieuwe jongen in hun klas. Hij heette Sam. Sam vroeg of Pim zaterdag wilde voetballen. Pim zei ja. Hij vergat zijn afspraak met Lotte.\n\nLotte wachtte een uur bij de bibliotheek. Pim kwam niet. Ze was verdrietig en boos. Later zag ze Pim voetballen met Sam in het park.\n\nPim voelde zich slecht. Hij miste de bibliotheek met Lotte. De volgende zaterdag ging hij naar de bibliotheek. Lotte was er ook.\n\n\"Sorry Lotte,\" zei Pim. \"Ik was een slechte vriend.\" Lotte glimlachte. \"Volgende keer neem je Sam ook mee,\" zei ze. Nu gingen ze alle drie samen naar de bibliotheek.",
+  "questions": [
+    {
+      "question": "Waar gingen Lotte en Pim elke zaterdag naartoe?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de bibliotheek",
+        "naar de bibliotheek"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom kwam Pim niet naar de bibliotheek?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "voetballen",
+            "voetbal",
+            "gespeeld"
+          ],
+          [
+            "sam",
+            "nieuwe jongen",
+            "jongen"
+          ],
+          [
+            "vergat",
+            "vergeten",
+            "afspraak vergeten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Pim deed in plaats van naar de bibliotheek te gaan."
+    },
+    {
+      "question": "Hoe voelde Lotte zich toen Pim niet kwam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "triest",
+            "zielig"
+          ],
+          [
+            "boos",
+            "kwaad",
+            "boos en verdrietig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het derde stukje. Hoe voelde Lotte zich?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lotte-en-pim-in-de-bibliotheek/image-1.png",
+      "alt": "Lotte en Pim zitten samen tussen de boekenkasten in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lotte-en-pim-in-de-bibliotheek/image-2.png",
+      "alt": "Lotte, Pim en Sam lopen samen naar de bibliotheek"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, a girl with brown hair and a boy with blonde hair, sitting together reading books between library shelves, children's book illustration style, warm lighting",
+    "Three children walking together toward a Dutch library building, the girl and blonde boy from before plus a new dark-haired boy, children's book illustration style, friendly neighborhood setting"
+  ]
+}

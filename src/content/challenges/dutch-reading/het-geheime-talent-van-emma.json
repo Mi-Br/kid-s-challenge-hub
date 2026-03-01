@@ -1,0 +1,86 @@
+{
+  "id": "het-geheime-talent-van-emma",
+  "title": "Het Geheime Talent van Emma",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Emma zit in de klas en kijkt naar buiten. Haar hart klopt snel omdat vandaag de dansles begint. Ze heeft nog nooit gedanst. Haar handen trillen een beetje.\n\nToen Emma klein was, viel ze vaak. Haar benen waren niet sterk genoeg. Mama zei altijd: \"Voorzichtig Emma, je kunt je pijn doen.\" Daarom deed Emma nooit aan sport.\n\nNu staat Emma voor de danszaal. Binnen horen de kinderen vrolijke muziek. Hun voeten stampen op de grond. Emma wil weglopen, maar de danslerares ziet haar.\n\n\"Kom binnen Emma! We gaan beginnen,\" roept juf Linda. Emma loopt langzaam naar binnen omdat ze bang is om te vallen. Haar wangen worden rood.\n\nDe muziek begint. Emma beweegt haar armen voorzichtig. Eerst doet ze alles heel langzaam. Maar dan voelt ze de muziek in haar lichaam. Haar benen worden sterker. Haar voeten dansen vanzelf op het ritme.\n\n\"Kijk Emma! Je danst prachtig,\" zegt juf Linda. Emma lacht omdat ze zo blij is. Nu weet ze dat haar lichaam wel kan dansen. Haar hart klopt nog steeds snel, maar nu van vreugde.",
+  "questions": [
+    {
+      "question": "Welk lichaamsdeel klopt snel bij Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "hart"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Welke kleur krijgen Emma's wangen in de danszaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood"
+      ],
+      "hint": "Zoek in het gedeelte waar Emma de danszaal binnenkomt."
+    },
+    {
+      "question": "Waarom deed Emma vroeger nooit aan sport?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vallen",
+            "viel",
+            "valt"
+          ],
+          [
+            "bang",
+            "voorzichtig",
+            "pijn doen"
+          ],
+          [
+            "benen",
+            "niet sterk",
+            "zwak"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde toen Emma klein was."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over iets nieuws proberen ondanks angst, en ontdekken dat je lichaam meer kan dan je denkt.",
+        "exampleAnswer": "Het verhaal gaat over dat je nieuwe dingen moet proberen, ook als je bang bent.",
+        "keyElements": [
+          "nieuwe dingen proberen/iets nieuws doen",
+          "bang zijn/angst hebben",
+          "lichaam kan meer/ontdekken wat je kunt"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat leert Emma over haarzelf en haar lichaam?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheime-talent-van-emma/image-1.png",
+      "alt": "Emma staat nerveus voor de danszaal en kijkt naar binnen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheime-talent-van-emma/image-2.png",
+      "alt": "Emma danst vrolijk in de danszaal met een grote glimlach"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with nervous expression standing outside a dance studio door, looking through the window at children dancing inside, children's book illustration style",
+    "The same girl now happily dancing inside the studio with arms raised and a big smile, moving to music with other children, children's book illustration style"
+  ]
+}

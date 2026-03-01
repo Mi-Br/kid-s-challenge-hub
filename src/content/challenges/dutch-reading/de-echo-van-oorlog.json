@@ -1,0 +1,124 @@
+{
+  "id": "de-echo-van-oorlog",
+  "title": "De Echo van Oorlog",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Elke woensdag wandelde Miriam met haar oma door het Vondelpark. De oude dame sprak zelden over vroeger, maar vandaag bleef ze lang stilstaan bij het monument. \"Mijn vader verdween toen ik acht was,\" fluisterde oma plotseling. \"De buren zeiden dat hij op reis was, maar ik wist dat ze logen. Hun ogen verraadden de waarheid.\"\n\nMiriam kende de verhalen uit geschiedenisboeken - over deportaties, onderduikers, en families die van de ene op de andere dag uiteengerukt werden. Maar nu voelde ze de koude werkelijkheid door haar botten trekken. Dit waren geen cijfers of data meer, maar littekens in het hart van haar eigen familie.\n\n\"Waarom vertel je dit nu pas?\" vroeg Miriam zacht. Oma's stem trilde als herfstbladeren in de wind: \"Omdat stilte ook een vorm van overleven was. We leerden onze pijn op te sluiten, bang dat woorden nieuwe tragedies zouden uitlokken.\" Ze keek naar een groep kinderen die lachend voorbijrende. \"Jullie generatie verdient de waarheid, hoe zwaar die ook is.\"\n\nDie avond staarde Miriam naar foto's van overgrootouders die ze nooit had gekend. Ze begreep nu waarom oma altijd nerveus werd van luide stemmen, waarom ze extra eten bewaarde in kastjes, waarom vertrouwen zo moeilijk voor haar was. Het verleden had zich als een onzichtbare draad door hun familie geweven.\n\nTerwijl ze de verhalen van andere oorlogskinderen opzocht, ontdekte Miriam een patroon dat haar deed rillen. Overal ter wereld werden families uiteen gedreven door machthebbers die anderen tot zondebok maakten. De mechanismen van onderdrukking leken zich door de geschiedenis te herhalen, als een sinister echo.\n\n\"Wat kan ik doen?\" schreef Miriam in haar dagboek. \"Hoe doorbreek je cycli van pijn die al generaties duren?\" Ze dacht aan oma's woorden over stilte en overleven. Misschien was luisteren naar verhalen al een eerste stap. Misschien lag kracht juist in het weigeren om de pijn door te geven aan volgende generaties.",
+  "questions": [
+    {
+      "question": "Wat merkte Miriam op aan de ogen van de buren toen haar oma acht jaar was?",
+      "questionType": "begrijpen",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "ze verraadden de waarheid",
+          "hun ogen verraadden de waarheid",
+          "de waarheid"
+        ]
+      },
+      "hint": "Kijk naar wat oma zegt over de reactie van de buren."
+    },
+    {
+      "question": "Waarom bewaarde oma extra eten in kastjes volgens Miriam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat dit gedrag voortkomt uit oorlogstrauma en angst voor tekorten, als gevolg van wat oma heeft meegemaakt tijdens de oorlog.",
+        "exampleAnswer": "Door de oorlog was oma bang dat er geen eten zou zijn, dus bewaarde ze altijd extra eten voor noodgevallen.",
+        "keyElements": [
+          "oorlogstrauma/oorlogservaringen/trauma",
+          "angst/bang/bezorgd",
+          "tekort/honger/geen eten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan hoe oorlogservaringen iemands gedrag kunnen beïnvloeden."
+    },
+    {
+      "question": "Welk patroon ontdekte Miriam toen ze verhalen van andere oorlogskinderen opzocht?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat Miriam een patroon van systemische onderdrukking door de geschiedenis heen ontdekte, waarbij machthebbers steeds andere groepen tot zondebok maken.",
+        "exampleAnswer": "Dat overal ter wereld machthebbers families uit elkaar drijven door anderen tot zondebok te maken, en dit patroon zich door de geschiedenis herhaalt.",
+        "keyElements": [
+          "machthebbers/onderdrukking/systeem",
+          "zondebok/uitsluiting",
+          "herhaling/patroon/cyclus"
+        ],
+        "minWords": 8
+      },
+      "hint": "Let op wat Miriam ontdekt over hoe onderdrukking werkt in verschillende tijden en plaatsen."
+    },
+    {
+      "question": "Wat bedoelt de schrijver met 'het verleden had zich als een onzichtbare draad door hun familie geweven'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet de metafoor begrijpen: trauma en oorlogservaringen beïnvloeden het gedrag van latere generaties op manieren die niet altijd zichtbaar zijn.",
+        "exampleAnswer": "Dat de oorlogservaringen van oma nog steeds invloed hebben op het gezin, ook al is de oorlog lang geleden en spreekt ze er niet over.",
+        "keyElements": [
+          "trauma/invloed/gevolgen",
+          "generaties/doorgegeven/erfenis",
+          "onzichtbaar/verborgen/stil"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over hoe ervaringen van ouders en grootouders doorwerken in families."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe historisch trauma doorwerkt in families en hoe erkenning en het delen van verhalen kunnen helpen om pijnlijke cycli te doorbreken.",
+        "exampleAnswer": "Het verhaal gaat over hoe oorlogstrauma doorgegeven wordt aan volgende generaties, en hoe belangrijk het is om deze verhalen te delen om de pijn te doorbreken.",
+        "keyElements": [
+          "trauma/pijn/oorlog",
+          "generaties/doorgeven/familie",
+          "verhalen/delen/doorbreken"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Miriam leert over haar familie en wat zij uiteindelijk wil doen."
+    },
+    {
+      "question": "Waarom schreef de auteur volgens jou dit verhaal? Wat wilde zij de lezers laten begrijpen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de auteur bewustwording wil creëren over hoe historische onrechtvaardigheid doorwerkt in families, en het belang van het delen van verhalen om cycli van pijn te doorbreken.",
+        "exampleAnswer": "De auteur wil laten zien hoe oorlogstrauma invloed heeft op families, en dat het belangrijk is om over moeilijke geschiedenis te praten om te voorkomen dat pijn wordt doorgegeven.",
+        "keyElements": [
+          "bewustwording/begrijpen/inzicht",
+          "trauma/geschiedenis/oorlog",
+          "verhalen/praten/delen"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk aan wat de auteur wil dat jongeren zoals jij leren over geschiedenis en families."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-echo-van-oorlog/image-1.png",
+      "alt": "Een meisje en haar oma staan voor een monument in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-echo-van-oorlog/image-2.png",
+      "alt": "Een meisje bekijkt oude familiefoto's aan een tafel"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl and her elderly grandmother standing solemnly before a memorial monument in a Dutch park, autumn setting, children's book illustration style, emotional and contemplative mood",
+    "A young girl sitting at a table examining old black and white family photographs by lamplight, with empty photo frames nearby, children's book illustration style, introspective atmosphere"
+  ]
+}

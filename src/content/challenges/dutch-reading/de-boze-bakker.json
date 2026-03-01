@@ -1,0 +1,72 @@
+{
+  "id": "de-boze-bakker",
+  "title": "De Boze Bakker",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "beroepen",
+  "text": "Meester Jan is bakker in Amsterdam. Hij maakt elke dag vers brood. Maar Jan is boos op de postbode.\n\nDe postbode komt altijd om acht uur. Dan moet Jan stoppen met brood bakken. Jan vindt dit heel vervelend. Hij roept tegen de postbode.\n\nDe postbode heet Kees. Kees begrijpt niet waarom Jan boos is. Kees doet gewoon zijn werk. Hij brengt de post op tijd.\n\nOp dinsdag praten Jan en Kees samen. Jan legt uit dat hij vroeg brood maakt. Kees begrijpt het nu. Hij komt vanaf nu om negen uur.\n\nNu zijn Jan en Kees blij. Jan kan rustig brood bakken. Kees doet zijn werk zonder problemen. Ze zijn goede vrienden geworden.",
+  "questions": [
+    {
+      "question": "Wat is het beroep van meester Jan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bakker"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Hoe laat komt de postbode eerst?",
+      "questionType": "begrijpen",
+      "hint": "Zoek naar de tijd in de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "acht"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was Jan boos op Kees?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "stoppen",
+            "stop",
+            "stopt"
+          ],
+          [
+            "bakken",
+            "bakker",
+            "brood"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurt om acht uur."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-boze-bakker/image-1.png",
+      "alt": "Bakker Jan staat boos bij zijn oven met brood"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-boze-bakker/image-2.png",
+      "alt": "Jan en Kees praten vriendelijk samen buiten de bakkerij"
+    }
+  ],
+  "imagePrompts": [
+    "A baker in a traditional Dutch bakery looking frustrated while a mailman arrives, children's book illustration style with warm bakery interior and fresh bread",
+    "A baker and mailman having a friendly conversation outside a Dutch bakery on a sunny Amsterdam street, children's book illustration style"
+  ]
+}

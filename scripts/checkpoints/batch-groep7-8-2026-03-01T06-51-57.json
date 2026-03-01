@@ -1,0 +1,39 @@
+{
+  "plan": {
+    "timestamp": "2026-03-01T06-51-57",
+    "groepLevel": "groep7-8",
+    "targetCount": 20,
+    "topicSequence": [
+      "wetenschap",
+      "cultuur",
+      "reizen",
+      "democratie",
+      "media",
+      "Nederlandse geschiedenis",
+      "wereldkeuken",
+      "gezondheid",
+      "technologie",
+      "milieu",
+      "gezondheid",
+      "wereldkeuken",
+      "reizen",
+      "Nederlandse geschiedenis",
+      "democratie",
+      "media",
+      "technologie",
+      "milieu",
+      "cultuur",
+      "wetenschap"
+    ],
+    "estimatedApiCalls": 20,
+    "estimatedTokensPerCall": 3000,
+    "estimatedCost": "0.60",
+    "estimatedTimeMinutes": 30
+  },
+  "completedCount": 20,
+  "failedIndices": [
+    9
+  ],
+  "resultsCount": 19,
+  "lastSaved": "2026-03-01T06:51:57.141Z"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "samen-sterker",
+  "title": "Samen Sterker",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "vriendschap",
+  "text": "Emma had altijd gedacht dat ze niet goed was in sport. Op school deed ze nooit mee met voetbal of basketbal, omdat ze bang was om fouten te maken. Tijdens de pauze zat ze meestal alleen op een bankje.\n\nOp een dinsdag kwam Liam naar haar toe. \"Waarom speel je niet mee?\" vroeg hij vriendelijk. Emma vertelde dat ze zich onzeker voelde over sport. \"Maar misschien ben je wel goed in iets anders,\" zei Liam. \"Wil je mijn skippingball proberen?\"\n\nEerst wilde Emma niet, maar Liam bleef aardige dingen zeggen. Voorzichtig pakte ze het touw. Tot haar verbazing lukte het! Ze kon al snel vijf keer achter elkaar springen zonder te stoppen. Liam klapte enthousiast voor haar.\n\nDaarna oefenden Emma en Liam elke dag samen. Emma werd steeds beter met het springtouw. Ze voelde zich trots en gelukkig. Door Liams vriendschap had ze ontdekt dat ze wel goed was in sport, maar dan op haar eigen manier.\n\nNu heeft Emma veel meer zelfvertrouwen. Ze speelt nog steeds het liefst met het springtouw, maar soms doet ze ook mee met andere spellen. Want ze weet nu dat echte vrienden je helpen om te ontdekken wat je goed kunt.",
+  "questions": [
+    {
+      "question": "Waar zat Emma meestal tijdens de pauze?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op een bankje",
+        "alleen op een bankje"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom wilde Emma eerst niet meespelen met sport?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "onzeker",
+            "voelde zich onzeker"
+          ],
+          [
+            "fouten",
+            "fout",
+            "verkeerd doen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan Emma's gevoel over sport in het begin."
+    },
+    {
+      "question": "Hoe veranderde Emma's gevoel door Liams vriendschap?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "trots",
+            "gelukkig",
+            "blij",
+            "zelfvertrouwen",
+            "beter voelen"
+          ],
+          [
+            "ontdekte",
+            "ontdekken",
+            "wist",
+            "leerde",
+            "begreep"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste twee alinea's over hoe Emma zich nu voelt."
+    },
+    {
+      "question": "Vind je dat Liam een goede vriend is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "aardig",
+            "lief",
+            "vriendelijk"
+          ],
+          [
+            "hielp",
+            "helpen",
+            "steunde",
+            "moedigde aan",
+            "bleef aardige dingen zeggen",
+            "klapte"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Liam deed om Emma te helpen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/samen-sterker/image-1.png",
+      "alt": "Emma zit alleen op een bankje terwijl andere kinderen spelen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/samen-sterker/image-2.png",
+      "alt": "Liam en Emma oefenen samen met het springtouw op het schoolplein"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sitting alone on a school bench watching other children play sports in the background, children's book illustration style with soft colors",
+    "Two children practicing jump rope together in a Dutch school playground, the girl looking happy and confident, children's book illustration style"
+  ]
+}

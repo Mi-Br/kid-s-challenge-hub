@@ -1,0 +1,91 @@
+{
+  "id": "het-geheim-van-de-wolken",
+  "title": "Het Geheim van de Wolken",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "het weer",
+  "text": "Lisa kijkt naar de grijze wolken. Het gaat vast regenen vandaag. Maar oma zegt: \"De zon komt later.\"\n\nLisa en oma gaan naar het park. De wind waait hard. Lisa heeft het koud. \"Oma, wanneer komt de zon?\" vraagt Lisa.\n\n\"Kijk naar de wolken,\" zegt oma. \"Ze bewegen snel.\" Lisa ziet dat oma gelijk heeft. De wolken gaan weg.\n\nPlotseling komt de zon tevoorschijn. Het park wordt warm en mooi. Lisa lacht. \"Oma, je had gelijk! De wolken gaan altijd weg.\"\n\nOma knikt. \"Het weer verandert altijd, Lisa. Wolken komen en gaan. Dat is het geheim van de wolken.\"",
+  "questions": [
+    {
+      "question": "Wat zegt oma over de zon?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "komt"
+          ],
+          [
+            "later"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom heeft Lisa het koud in het park?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "wind",
+            "waait",
+            "hard waait"
+          ],
+          [
+            "koud",
+            "koud weer",
+            "niet warm"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan het weer in het park."
+    },
+    {
+      "question": "Wat is het geheim van de wolken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "komen",
+            "gaan",
+            "bewegen",
+            "veranderen"
+          ],
+          [
+            "altijd",
+            "steeds",
+            "elke keer"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat oma aan het eind zegt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-wolken/image-1.png",
+      "alt": "Lisa en oma kijken naar grijze wolken in de lucht"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-wolken/image-2.png",
+      "alt": "De zon komt tevoorschijn tussen de wolken in het park"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her grandmother looking up at grey clouds in the sky, children's book illustration style, Dutch park setting",
+    "Bright sunshine breaking through moving clouds over a beautiful park with a happy girl and grandmother, children's book illustration style"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "het-vervuilde-schoolplein",
+  "title": "Het Vervuilde Schoolplein",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wereldkeuken",
+  "text": "Mira zat op het schoolplein haar Turkse börek te eten. Het was pauze en morgen had ze een grote toets voor Nederlands. Ze keek om zich heen en zag overal verpakkingen van eten liggen. Plastic zakjes van chips, aluminium blikjes van frisdrank en kartonnen dozen van pizza. Het plein zag er vies uit.\n\nHaar vriendin Sanne kwam naast haar zitten. \"Wat eet je?\" vroeg ze. \"Börek,\" antwoordde Mira. \"Mijn moeder maakt het met spinazie en kaas. Het komt uit Turkije.\" Sanne keek nieuwsgierig. \"Lekker! Maar waarom gebruik je geen verpakking zoals wij?\" Mira had haar eten in een herbruikbare doos meegenomen.\n\n\"Kijk eens om je heen,\" zei Mira. \"Al dat afval komt van verpakkingen. In Turkije gooien we niet zoveel weg.\" Sanne volgde Mira's blik. Ze had het nooit eerder opgemerkt. \"Maar iedereen doet het toch,\" zei Sanne. \"Dan is het normaal.\" Mira schudde haar hoofd. \"Normaal betekent niet goed.\"\n\nDie middag zocht Mira informatie op internet voor haar toets. Ze vond artikelen over plastic vervuiling. Oceanen vol afval. Dieren die stikten in plastic. Ze voelde zich verdrietig en boos. Hoe kon de wereld zo vervuild raken? En waarom deed niemand er iets aan?\n\nDe volgende dag na de toets sprak Mira met meester Jan. \"Kunnen we niet iets doen tegen het afval op het plein?\" vroeg ze. Meester Jan glimlachte. \"Wat stel je voor?\" Mira dacht na. \"Misschien kunnen we prullenbakken neerzetten. En lessen geven over afval.\" De meester knikte. \"Goed idee. Wil je een werkgroep beginnen?\"\n\nMira voelde zich plotseling hoopvol. Ze kon wel degelijk iets doen. Kleine stappen, maar het was een begin.",
+  "questions": [
+    {
+      "question": "Wat heeft Mira morgen op school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een grote toets voor nederlands",
+        "een toets voor nederlands",
+        "een grote toets"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom gebruikt Mira geen verpakking voor haar eten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "afval",
+            "vervuiling",
+            "verpakkingen",
+            "weggooien"
+          ],
+          [
+            "milieu",
+            "natuur",
+            "plastic",
+            "vervuild"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Mira zegt over het schoolplein."
+    },
+    {
+      "question": "Hoe voelde Mira zich toen ze de artikelen over vervuiling las?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de vierde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "verdrietig"
+          ],
+          [
+            "boos"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom denk je dat Mira een werkgroep wil beginnen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "helpen",
+            "oplossen",
+            "veranderen",
+            "verbeteren",
+            "doen"
+          ],
+          [
+            "afval",
+            "vervuiling",
+            "probleem",
+            "milieu",
+            "plein"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan Mira's gevoelens en wat ze wil bereiken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-vervuilde-schoolplein/image-1.png",
+      "alt": "Mira zit op het schoolplein en eet börek uit een herbruikbare doos, terwijl er afval om haar heen ligt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-vervuilde-schoolplein/image-2.png",
+      "alt": "Mira praat hoopvol met meester Jan over een werkgroep tegen afval"
+    }
+  ],
+  "imagePrompts": [
+    "A Turkish-Dutch girl sitting on a school playground eating börek from a reusable container, with plastic waste and food packaging scattered around the ground, children's book illustration style",
+    "A hopeful girl talking to a male teacher in a classroom, both looking excited about starting an environmental project, children's book illustration style"
+  ]
+}

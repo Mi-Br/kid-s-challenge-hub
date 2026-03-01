@@ -1,0 +1,125 @@
+{
+  "id": "oneerlijk-in-de-keuken",
+  "title": "Oneerlijk in de Keuken",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wereldkeuken",
+  "text": "Maya zit in groep 8 en heeft stress over de eindtoets. Op school organiseert juf Marieke een wereldkeuken-project. Alle kinderen moeten een gerecht uit hun eigen cultuur maken.\n\nMaya komt uit Turkije en wil dolma maken. Dat zijn gevulde wijnbladeren met rijst. Haar oma heeft haar het recept geleerd. Maya is er trots op.\n\nTijdens de presentaties krijgt Pim veel complimenten. Hij heeft pizza gemaakt omdat zijn vader Italiaans is. Iedereen vindt pizza lekker. Maar als Maya haar dolma laat proeven, trekken sommige kinderen vies gezichten. \"Wat zit erin?\" vragen ze. \"Het ziet er raar uit.\"\n\nMaya voelt zich verdrietig. Waarom wordt pizza wel geaccepteerd en haar eten niet? Ze begint te twijfelen aan haar eigen cultuur. Misschien moet ze zich meer Nederlands gedragen om erbij te horen.\n\nDan ziet Maya dat hetzelfde gebeurt met Ahmed en zijn Marokkaanse couscous. Ook Ling krijgt rare blikken bij haar Chinese loempia's. Maya begint het te snappen. Het gaat niet om haar alleen. Sommige gerechten worden meteen geaccepteerd en andere niet.\n\nMaya denkt na. Ze kan doen alsof ze pizza ook het lekkerste vindt. Of ze kan trots blijven op haar eigen eten en cultuur. Ze besluit om de volgende keer nog meer over dolma te vertellen. Misschien helpt dat andere kinderen om het te begrijpen.",
+  "questions": [
+    {
+      "question": "Wat moet Maya maken voor het wereldkeuken-project?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dolma",
+        "gevulde wijnbladeren",
+        "gevulde wijnbladeren met rijst"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom voelt Maya zich verdrietig na haar presentatie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "kinderen",
+            "anderen",
+            "klasgenoten",
+            "medeleerlingen"
+          ],
+          [
+            "vies",
+            "raar",
+            "vreemd",
+            "negatief",
+            "slecht"
+          ],
+          [
+            "gezichten",
+            "reacties",
+            "reactie",
+            "blikken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog een keer."
+    },
+    {
+      "question": "Welke andere kinderen hebben hetzelfde probleem als Maya?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ahmed",
+            "ling"
+          ],
+          [
+            "couscous",
+            "loempia",
+            "loempia's"
+          ],
+          [
+            "marokkaanse",
+            "chinese",
+            "marokkaans",
+            "chinees"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "De vijfde alinea geeft het antwoord."
+    },
+    {
+      "question": "Wat besluit Maya aan het einde te doen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "meer",
+            "beter",
+            "uitgebreider"
+          ],
+          [
+            "vertellen",
+            "uitleggen",
+            "verhalen",
+            "praten"
+          ],
+          [
+            "dolma",
+            "eten",
+            "cultuur",
+            "gerecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Het antwoord staat in de laatste zin."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/oneerlijk-in-de-keuken/image-1.png",
+      "alt": "Maya presenteert haar dolma in de klas terwijl andere kinderen kijken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/oneerlijk-in-de-keuken/image-2.png",
+      "alt": "Maya ziet Ahmed en Ling ook verdrietig kijken bij hun gerechten"
+    }
+  ],
+  "imagePrompts": [
+    "A Turkish girl presenting dolma (stuffed grape leaves) to her diverse Dutch elementary school class, some children looking curious while others make skeptical faces, children's book illustration style",
+    "Three children of different ethnicities (Turkish, Moroccan, Chinese) looking sad while standing next to their traditional food dishes in a Dutch classroom, children's book illustration style"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "de-waarheid-achter-het-scherm",
+  "title": "De Waarheid Achter het Scherm",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "media",
+  "text": "Lisa scrollt door haar telefoon. Elke video, elke foto vertelt hetzelfde verhaal: jonge mensen die perfect lijken. Hun leven ziet er geweldig uit. Altijd lachend, altijd succesvol. \"Zo wil ik ook leven,\" denkt Lisa. Ze gelooft dat deze beelden de werkelijkheid tonen.\n\nOp school bespreekt meester Jan sociale media. \"Niet alles wat jullie zien is echt,\" zegt hij. Lisa schudt haar hoofd. Natuurlijk is het echt! Deze mensen posten toch hun eigen leven? Ze rolt met haar ogen wanneer de meester foto's toont die bewerkt zijn. \"Dat geldt niet voor de accounts die ik volg,\" fluistert ze tegen haar vriendin Mara.\n\nThuis bekijkt Lisa een documentaire over influencers. Ze ziet hoe foto's uren worden voorbereid. Professionele camera's, speciale verlichting, tientallen pogingen voor één perfecte opname. Dan worden de foto's nog digitaal aangepast. Rimpels verdwijnen, tanden worden witter, lichamen worden slanker. Lisa voelt een steek van twijfel, maar duwt deze weg.\n\n\"Dit zijn vast extreme voorbeelden,\" denkt ze. Ze opent Instagram en bekijkt haar favoriete account opnieuw. Deze keer vallen haar dingen op die ze eerder niet zag. De achtergrond is altijd perfect opgeruimd. Er zijn nooit slechte haardag-foto's. Zelfs tijdens een \"spontane\" wandeling ziet alles er geposeerd uit.\n\nDie avond belt Lisa's oudere zus Emma. Emma vertelt over haar werk bij een marketingbedrijf. \"We creëren verhalen voor merken,\" legt ze uit. \"Niets is spontaan. Elke post is zorgvuldig gepland om een bepaald gevoel op te wekken. We willen dat mensen denken: als ik dit product koop, krijg ik ook zo'n leven.\"\n\nLisa staart naar haar telefoon. Die perfecte levens... zijn het allemaal advertenties? Ze denkt aan haar eigen foto's. Ook zij kiest alleen de beste uit. Ook zij gebruikt filters. Misschien doet iedereen dat wel. Voor het eerst realiseert ze zich dat sociale media niet het echte leven tonen, maar een gepoliste versie ervan.\n\n\"Maar wat is dan wel echt?\" vraagt Lisa zich af. Ze kijkt om zich heen in haar kamer. Haar bureau is rommelig, haar haar zit warrig, en ze voelt zich soms onzeker. Dit is haar echte leven. Niet perfect, maar wel echt. Misschien is dat genoeg.",
+  "questions": [
+    {
+      "question": "Wat betekent het woord 'gepoliste' in de laatste alinea?",
+      "questionType": "woordbetekenis",
+      "acceptableAnswers": [
+        "gladgestreken",
+        "mooier gemaakte",
+        "verbeterde",
+        "perfecte",
+        "bewerkte"
+      ],
+      "hint": "Denk aan het verschil tussen het echte leven en wat je op sociale media ziet.",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "gladgestreken",
+          "mooier gemaakte",
+          "verbeterde",
+          "perfecte",
+          "bewerkte"
+        ]
+      }
+    },
+    {
+      "question": "Waarom begint Lisa te twijfelen aan wat ze op sociale media ziet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "documentaire",
+            "film",
+            "ziet",
+            "bekijkt"
+          ],
+          [
+            "bewerkt",
+            "aangepast",
+            "voorbereid",
+            "geposeerd",
+            "gepland"
+          ],
+          [
+            "niet echt",
+            "niet waar",
+            "nep",
+            "fake"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Lisa allemaal te weten komt in de derde en vierde alinea."
+    },
+    {
+      "question": "Hoe verandert Lisa's kijk op sociale media tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Lisa eerst geloofde dat sociale media echt waren, maar later inziet dat het bewerkte versies van de werkelijkheid zijn. De overgang van geloven naar twijfelen naar begrijpen moet duidelijk worden.",
+        "exampleAnswer": "Eerst dacht Lisa dat alles op sociale media echt was, maar door de documentaire en haar zus begrijpt ze dat het allemaal bewerkt en gepland is.",
+        "keyElements": [
+          "eerst geloofde/dacht echt",
+          "later snapt/begrijpt/realiseert",
+          "bewerkt/gepland/nep"
+        ],
+        "minWords": 6
+      },
+      "hint": "Vergelijk hoe Lisa denkt aan het begin van het verhaal met hoe ze denkt aan het eind."
+    },
+    {
+      "question": "Waarom gebruiken bedrijven volgens Emma sociale media?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verkopen",
+            "kopen",
+            "product",
+            "adverteren"
+          ],
+          [
+            "gevoel",
+            "gevoel opwekken",
+            "emotie",
+            "verlangen"
+          ],
+          [
+            "verhalen",
+            "verhaal",
+            "creëren",
+            "maken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Emma zegt over haar werk bij het marketingbedrijf."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het besef dat sociale media geen eerlijk beeld van de werkelijkheid geven, en dat het belangrijk is om kritisch te zijn naar wat je online ziet.",
+        "exampleAnswer": "Het verhaal laat zien dat je niet alles moet geloven wat je op sociale media ziet, omdat het vaak bewerkt en gepland is.",
+        "keyElements": [
+          "sociale media/online niet echt",
+          "kritisch zijn/nadenken",
+          "bewerkt/gepland/nep"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over wat de schrijver je wil leren over sociale media."
+    },
+    {
+      "question": "Waarom heeft de schrijver dit verhaal geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver jongeren wil waarschuwen voor de gevaren van sociale media en hen wil aanmoedigen om kritisch te zijn naar wat ze online zien.",
+        "exampleAnswer": "De schrijver wil jongeren laten begrijpen dat ze niet alles moeten geloven wat ze op sociale media zien.",
+        "keyElements": [
+          "waarschuwen/leren/vertellen",
+          "jongeren/kinderen/lezers",
+          "kritisch/voorzichtig zijn"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan waarom de schrijver wil dat jij dit verhaal leest. Wat wil hij je leren?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-achter-het-scherm/image-1.png",
+      "alt": "Een meisje kijkt naar haar telefoon en ziet perfecte foto's op sociale media"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-achter-het-scherm/image-2.png",
+      "alt": "Het meisje kijkt om zich heen in haar echte, rommelige kamer"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking at her phone screen showing perfect social media posts, children's book illustration style, warm lighting",
+    "The same girl looking around her real messy bedroom with books scattered on her desk, children's book illustration style, natural lighting showing reality vs social media"
+  ]
+}

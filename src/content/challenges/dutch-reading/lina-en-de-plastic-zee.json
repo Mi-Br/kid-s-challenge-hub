@@ -1,0 +1,156 @@
+{
+  "id": "lina-en-de-plastic-zee",
+  "title": "Lina en de Plastic Zee",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "milieu",
+  "text": "Lina ging met haar klas naar het strand van Scheveningen. Ze had er al weken naar uitgekeken. Ze wilde mooie foto's maken voor Instagram.\n\nMaar toen ze aankwamen, schrok Lina. Het strand lag vol plastic flessen, zakjes en rietjes. De zee was grijs en vuil. \"Dit is verschrikkelijk,\" zei ze tegen haar vriendin Emma. \"Ik ga dit op Instagram zetten. Mensen moeten dit zien.\"\n\nLina maakte foto's van het vuile strand. Ze postte ze met de tekst: \"Help onze zee! Stop met plastic gebruiken.\" Binnen een uur hadden al vijftig mensen haar bericht gedeeld. \"Wow,\" dacht Lina. \"Via social media kan ik echt iets doen.\"\n\nDie avond zocht Lina op internet naar oplossingen. Ze vond een groep die elke zaterdag het strand schoonmaakt. Ook leerde ze dat ze minder plastic kon gebruiken door een herbruikbare waterfles te kopen.\n\nDe volgende week nam Lina haar nieuwe waterfles mee naar school. \"Waarom gebruik je geen plastic flesje?\" vroeg haar klasgenoot. \"Omdat ik de zee wil beschermen,\" zei Lina trots. Ze voelde zich goed. Ze deed nu zelf iets tegen het plastic probleem.",
+  "questions": [
+    {
+      "question": "Waar ging Lina met haar klas naartoe?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het strand van scheveningen",
+        "scheveningen",
+        "naar het strand"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom was Lina geschrokken toen ze aankwam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "plastic",
+            "vuil",
+            "vies",
+            "vervuiling"
+          ],
+          [
+            "strand",
+            "zee",
+            "water"
+          ],
+          [
+            "flessen",
+            "zakjes",
+            "rietjes",
+            "afval"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede paragraaf. Wat zag Lina op het strand?"
+    },
+    {
+      "question": "Wat deed Lina om andere mensen te waarschuwen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "foto's",
+            "foto",
+            "fotos",
+            "plaatjes"
+          ],
+          [
+            "instagram",
+            "gepost",
+            "postte",
+            "social media"
+          ],
+          [
+            "gedeeld",
+            "delen",
+            "verspreid",
+            "verteld"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de derde paragraaf. Hoe gebruikte Lina social media?"
+    },
+    {
+      "question": "Hoe voelde Lina zich aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "trots",
+            "blij",
+            "tevreden"
+          ],
+          [
+            "helpen",
+            "deed",
+            "bijdragen",
+            "actie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal."
+    },
+    {
+      "question": "Vind jij dat Lina het probleem op een goede manier aanpakte? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "goed",
+            "slecht",
+            "wel",
+            "niet"
+          ],
+          [
+            "social media",
+            "instagram",
+            "internet",
+            "delen",
+            "foto's"
+          ],
+          [
+            "waterfles",
+            "herbruikbaar",
+            "plastic",
+            "minder gebruiken",
+            "schoonmaken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lina deed: foto's delen, oplossingen zoeken, zelf veranderen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lina-en-de-plastic-zee/image-1.png",
+      "alt": "Een meisje dat geschrokken kijkt naar een strand vol plastic afval"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lina-en-de-plastic-zee/image-2.png",
+      "alt": "Een meisje dat trots haar herbruikbare waterfles laat zien op school"
+    }
+  ],
+  "imagePrompts": [
+    "A shocked teenage girl looking at a beach covered with plastic bottles, bags and straws, with grey polluted water, children's book illustration style",
+    "A proud teenage girl showing her reusable water bottle to classmates in a Dutch school classroom, children's book illustration style"
+  ]
+}

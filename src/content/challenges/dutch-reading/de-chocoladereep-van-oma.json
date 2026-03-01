@@ -1,0 +1,102 @@
+{
+  "id": "de-chocoladereep-van-oma",
+  "title": "De Chocoladereep van Oma",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Lisa zag de grote chocoladereep op de keukentafel liggen. Oma had hem voor het bezoek van tante Marie gekocht. \"Die is niet voor jou,\" had oma gezegd. Maar Lisa wilde zo graag een stukje proeven.\n\nToen oma naar boven ging, pakte Lisa de chocoladereep. Ze brak er een groot stuk af en at het op. De chocolade smaakte heerlijk, maar Lisa voelde zich verdrietig. Ze had oma's chocolade gestolen.\n\nEen uur later kwam tante Marie op bezoek. Oma wilde de chocolade pakken, maar zag dat er een groot stuk ontbrak. \"Wat is er gebeurd?\" vroeg oma verbaasd. Lisa werd rood en keek naar de grond.\n\n\"Ik heb het gedaan, oma,\" zei Lisa zachtjes. \"Het spijt me heel erg.\" Oma keek teleurgesteld, maar ook begripvol. Lisa rende naar haar spaarpot en haalde er geld uit. \"Ik koop een nieuwe chocoladereep voor tante Marie,\" zei ze.\n\nSamen gingen oma en Lisa naar de winkel. Lisa kocht met haar eigen geld een nieuwe chocoladereep. Tante Marie was blij met het cadeautje en oma was trots op Lisa omdat ze eerlijk was geweest.",
+  "questions": [
+    {
+      "question": "Waar lag de chocoladereep?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op de keukentafel",
+        "keukentafel"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Voor wie had oma de chocoladereep gekocht?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "voor tante marie",
+        "tante marie"
+      ],
+      "hint": "Lees de tweede zin van de eerste alinea."
+    },
+    {
+      "question": "Waarom voelde Lisa zich verdrietig nadat ze de chocolade had gegeten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gestolen",
+            "gepakt",
+            "weggenomen"
+          ],
+          [
+            "oma's",
+            "van oma",
+            "oma"
+          ],
+          [
+            "niet mocht",
+            "verboden",
+            "niet voor haar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa had gedaan en hoe dat voelde."
+    },
+    {
+      "question": "Vind je dat Lisa het goede deed door een nieuwe chocoladereep te kopen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "braaf"
+          ],
+          [
+            "sorry",
+            "spijt",
+            "excuses",
+            "eerlijk"
+          ],
+          [
+            "eigen geld",
+            "spaarpot",
+            "betaalde zelf",
+            "kocht nieuwe"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa probeerde om haar fout goed te maken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-chocoladereep-van-oma/image-1.png",
+      "alt": "Lisa kijkt naar een grote chocoladereep op de keukentafel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-chocoladereep-van-oma/image-2.png",
+      "alt": "Lisa en oma lopen samen naar de winkel om een nieuwe chocoladereep te kopen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa looking longingly at a large chocolate bar on a kitchen table, children's book illustration style, Dutch home interior",
+    "A young girl and her grandmother walking together to a small Dutch neighborhood shop, the girl carrying coins from her piggy bank, children's book illustration style"
+  ]
+}

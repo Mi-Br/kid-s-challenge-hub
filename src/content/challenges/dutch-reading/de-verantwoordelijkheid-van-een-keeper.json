@@ -1,0 +1,129 @@
+{
+  "id": "de-verantwoordelijkheid-van-een-keeper",
+  "title": "De Verantwoordelijkheid van een Keeper",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "sport",
+  "text": "Sarah heeft eindelijk haar droom bereikt. Ze is keeper van het schoolteam geworden, omdat de vorige keeper naar een andere school is verhuisd. De coach heeft haar gekozen boven drie andere kandidaten. \"Je bent nu verantwoordelijk voor ons doel,\" zegt hij streng. \"Het hele team rekent op jou.\"\n\nDe eerste wedstrijd is over twee weken tegen de beste ploeg van de regio. Sarah traint elke dag na school, omdat ze weet dat iedereen naar haar kijkt. Haar ouders zijn trots en hebben al kaartjes gekocht voor familie uit België. De druk voelt zwaar op haar schouders.\n\nDan krijgt Sarah een uitnodiging die alles verandert. Haar beste vriendin Lisa nodigt haar uit voor een weekend naar een pretpark, precies op het moment van de belangrijke wedstrijd. \"Kom op, het is maar voetbal,\" zegt Lisa. \"Je kunt toch wel een keer overslaan? Je bent nog maar reserve-keeper geweest.\"\n\nSarah voelt haar hart bonken. Het pretpark lijkt zo verleidelijk vergeleken met de spanning van de wedstrijd. Ze stelt zich voor hoe teleurgesteld haar teamgenoten zullen zijn als ze hen in de steek laat. Maar tegelijk denkt ze aan alle lol die ze zou missen met Lisa.\n\nDe avond voor de wedstrijd ligt Sarah wakker in bed. Ze realiseert zich dat verantwoordelijkheid betekent dat je keuzes maakt, ook als die moeilijk zijn. Ze stuurt Lisa een berichtje: \"Sorry, ik kan niet mee. Mijn team heeft me nodig.\" De volgende dag staat ze trots in het doel en weet dat ze de juiste beslissing heeft genomen, ongeacht de uitslag van de wedstrijd.",
+  "questions": [
+    {
+      "question": "Wie is er naar een andere school verhuisd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de vorige keeper"
+      ],
+      "hint": "Lees de eerste zin van de tweede paragraaf goed."
+    },
+    {
+      "question": "Waarom voelt Sarah zoveel druk?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "iedereen",
+            "teamgenoten",
+            "team",
+            "familie",
+            "ouders"
+          ],
+          [
+            "kijkt",
+            "rekent",
+            "verwacht",
+            "vertrouwt"
+          ],
+          [
+            "haar",
+            "sarah"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wie er allemaal naar haar kijkt en op haar rekent."
+    },
+    {
+      "question": "Wat maakt Lisa's uitnodiging zo verleidelijk voor Sarah?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "pretpark",
+            "lol",
+            "plezier",
+            "leuk"
+          ],
+          [
+            "spanning",
+            "druk",
+            "stress",
+            "moeilijk",
+            "zwaar"
+          ],
+          [
+            "ontsnappen",
+            "weg",
+            "niet",
+            "geen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk het pretpark met hoe Sarah zich voelt over de wedstrijd."
+    },
+    {
+      "question": "Vind je dat Sarah de juiste keuze heeft gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijk standpunt innemen over Sarah's keuze en dit onderbouwen met argumenten over verantwoordelijkheid, betrouwbaarheid of teamwerk. Zowel 'ja' als 'nee' is acceptabel als het goed wordt uitgelegd.",
+        "exampleAnswer": "Ja, Sarah heeft de juiste keuze gemaakt omdat haar team op haar rekende en ze verantwoordelijk was voor het doel.",
+        "keyElements": [
+          "verantwoordelijkheid/betrouwbaarheid/teamwerk",
+          "uitleg/omdat/want",
+          "standpunt/mening"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat verantwoordelijkheid betekent en geef je eigen mening."
+    },
+    {
+      "question": "Wat is de hoofdboodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het nemen van verantwoordelijkheid en het maken van moeilijke maar juiste keuzes, zelfs als dat betekent dat je iets leuks moet opgeven.",
+        "exampleAnswer": "Het verhaal gaat erover dat je soms moeilijke keuzes moet maken en je verantwoordelijkheid moet nemen, ook als dat betekent dat je iets leuks moet opgeven.",
+        "keyElements": [
+          "verantwoordelijkheid/plicht",
+          "moeilijke keuzes/beslissingen",
+          "opgeven/offers brengen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat wil de schrijver je leren over het maken van keuzes?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verantwoordelijkheid-van-een-keeper/image-1.png",
+      "alt": "Sarah staat in keeperstenue in het doel, met een bezorgde uitdrukking terwijl haar teamgenoten naar haar kijken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verantwoordelijkheid-van-een-keeper/image-2.png",
+      "alt": "Sarah ligt 's avonds wakker in bed met haar telefoon in haar hand, denkend aan haar keuze"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl in goalkeeper uniform standing in a soccer goal, looking worried with pressure, while her teammates watch her, children's book illustration style",
+    "A young girl lying awake in bed at night, holding her phone, looking contemplative and conflicted, moonlight streaming through window, children's book illustration style"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "het-nieuwe-voetballetje",
+  "title": "Het Nieuwe Voetballetje",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "spelen",
+  "text": "Lisa heeft een nieuw voetballetje. Het voetballetje is rood en wit. Lisa is bang voor het voetballetje.\n\nLisa kijkt naar het voetballetje. Het voetballetje ligt op het gras. Lisa wil het voetballetje proberen. Lisa raakt het voetballetje aan.\n\nLisa trapt het voetballetje. Het voetballetje rolt weg. Lisa lacht! Lisa vindt het voetballetje leuk. Nu speelt Lisa elke dag met het voetballetje.",
+  "questions": [
+    {
+      "question": "Welke kleuren heeft het voetballetje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood en wit"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waar ligt het voetballetje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op het gras"
+      ],
+      "hint": "Zoek in de tweede alinea."
+    },
+    {
+      "question": "Hoe voelt Lisa zich eerst?",
+      "questionType": "begrijpen",
+      "hint": "Lees de eerste alinea goed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "bang"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-nieuwe-voetballetje/image-1.png",
+      "alt": "Lisa kijkt voorzichtig naar een rood-wit voetballetje op het groene gras"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-nieuwe-voetballetje/image-2.png",
+      "alt": "Lisa lacht vrolijk terwijl ze het voetballetje wegtrapt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa looking cautiously at a red and white soccer ball lying on green grass, children's book illustration style",
+    "Lisa happily laughing while kicking the red and white soccer ball, showing her joy and confidence, children's book illustration style"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sarias-mooie-jurk",
+  "title": "Saria's Mooie Jurk",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "kleding",
+  "text": "Saria heeft een mooie jurk. De jurk is roze en wit. Ze draagt de jurk naar school.\n\nOp school ziet ze Emma. Emma heeft geen mooie jurk aan. Emma is verdrietig. Ze kijkt naar Saria's jurk.\n\nSaria ziet dat Emma verdrietig is. Ze wil Emma helpen. Saria heeft een idee. Ze heeft thuis nog een jurk.\n\nNa school gaat Saria naar huis. Ze pakt haar blauwe jurk. De jurk is ook mooi. Saria brengt de jurk naar Emma.\n\nEmma is heel blij. Ze zegt dank je wel. Nu hebben beide meisjes een mooie jurk. Ze zijn allebei gelukkig.",
+  "questions": [
+    {
+      "question": "Welke kleuren heeft Saria's jurk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "roze en wit"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Hoe voelt Emma als ze Saria's jurk ziet?",
+      "questionType": "begrijpen",
+      "hint": "Lees de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "verdrietig"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Welke kleur heeft de jurk die Saria aan Emma geeft?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw",
+        "blauwe"
+      ],
+      "hint": "Kijk naar de vierde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sarias-mooie-jurk/image-1.png",
+      "alt": "Saria in haar roze en witte jurk op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sarias-mooie-jurk/image-2.png",
+      "alt": "Saria geeft haar blauwe jurk aan Emma"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Saria wearing a beautiful pink and white dress at school, children's book illustration style, bright and cheerful",
+    "Two young girls, one giving a blue dress to another girl who looks happy and grateful, children's book illustration style, warm and friendly scene"
+  ]
+}

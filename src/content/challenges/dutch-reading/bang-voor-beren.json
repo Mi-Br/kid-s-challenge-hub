@@ -1,0 +1,116 @@
+{
+  "id": "bang-voor-beren",
+  "title": "Bang voor Beren",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "\"Mama, ik wil niet naar het bos,\" zei Lisa. \"Daar zijn beren die ons eten stelen.\"\n\n\"Maar schatje, er wonen geen beren in Nederlandse bossen,\" zei mama. \"We gaan picknicken. Ik heb broodjes en koekjes gemaakt.\"\n\n\"Echt geen beren?\" vroeg Lisa bang.\n\n\"Nee hoor. Kom maar mee,\" zei papa omdat hij de picknickmand oppakte.\n\nIn het bos zette mama de deken neer. Lisa keek steeds om zich heen. Opeens hoorde ze een geluid.\n\n\"Wat was dat?\" fluisterde Lisa.\n\n\"Kijk eens,\" wees papa. \"Het is een eekhoorn die nootjes zoekt.\"\n\nLisa lachte. \"Hij lijkt op een kleine beer, maar dan lief.\"\n\n\"Zie je wel,\" zei mama. \"Het bos is veilig. Nu kunnen we van onze boterhammen genieten.\"\n\nLisa nam een grote hap. \"Dit is de lekkerste picknick ooit!\"",
+  "questions": [
+    {
+      "question": "Wat had mama gemaakt voor de picknick?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "broodjes en koekjes"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom wou Lisa niet naar het bos?",
+      "questionType": "begrijpen",
+      "hint": "Lisa zegt dit in de eerste zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "daar"
+          ],
+          [
+            "beren"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was Lisa eerst bang maar later niet meer?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "geen",
+            "niet",
+            "geen beren"
+          ],
+          [
+            "veilig",
+            "lief",
+            "kleine beer",
+            "eekhoorn"
+          ],
+          [
+            "zag",
+            "zien",
+            "keek",
+            "kijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat papa en mama zeiden, en wat Lisa in het bos zag."
+    },
+    {
+      "question": "Vind je dat Lisa's ouders haar goed hebben geholpen? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed"
+          ],
+          [
+            "uitleggen",
+            "uitgelegd",
+            "zeiden",
+            "laten zien",
+            "toonden"
+          ],
+          [
+            "geen beren",
+            "veilig",
+            "lief",
+            "niet gevaarlijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat deden mama en papa om Lisa te helpen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/bang-voor-beren/image-1.png",
+      "alt": "Een meisje dat bang kijkt naar het bos terwijl haar ouders een picknickmand dragen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/bang-voor-beren/image-2.png",
+      "alt": "Een schattige eekhoorn in het bos die nootjes zoekt, met een gezin op een picknickkleed"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking worried at a forest while her parents carry a picnic basket, children's book illustration style, Dutch countryside setting",
+    "A cute squirrel looking for nuts in a Dutch forest with a family having a picnic on a blanket nearby, children's book illustration style, sunny day"
+  ]
+}

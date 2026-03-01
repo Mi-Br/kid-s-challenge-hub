@@ -1,0 +1,121 @@
+{
+  "id": "mijn-eerste-experiment",
+  "title": "Mijn Eerste Experiment",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wetenschap",
+  "text": "Ik ben Lisa en ik zit in groep 7. Vandaag moeten we een experiment doen voor de wetenschapsles. Mevrouw de Jong zegt dat we allemaal een plant moeten laten groeien. Maar ik wil niet hetzelfde doen als iedereen.\n\nMijn vrienden kiezen allemaal bonen. Die groeien snel en dat is makkelijk. Maar ik kies radijs. Papa vindt het een gek idee. Hij zegt dat radijs moeilijk is om te laten groeien. Mama wil dat ik ook bonen kies.\n\nIk doe toch wat ik wil. Ik plant de radijs in een potje met aarde. Elke dag geef ik water. Na een week zie ik kleine groene blaadjes. Mijn radijs groeit!\n\nMijn vrienden hebben problemen. Hun bonen worden geel en vallen om. Ze hebben te veel water gegeven. Mijn radijs wordt elke dag groter en sterker.\n\nNu begrijp ik waarom ik radijs koos. Ik hou van uitdagingen. Ik wil niet hetzelfde doen als anderen. Mevrouw de Jong is trots op mij. Mijn experiment is het beste van de klas.",
+  "questions": [
+    {
+      "question": "Welke plant kiest Lisa voor het experiment?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "radijs"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom hebben de bonen van Lisa's vrienden problemen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "te veel",
+            "veel",
+            "teveel"
+          ],
+          [
+            "water",
+            "gegeven",
+            "gaven"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea goed."
+    },
+    {
+      "question": "Wat leert Lisa over zichzelf door dit experiment?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "uitdagingen",
+            "uitdaging",
+            "moeilijke dingen"
+          ],
+          [
+            "anders",
+            "verschillend",
+            "niet hetzelfde"
+          ],
+          [
+            "houdt van",
+            "houdt",
+            "hou van",
+            "wil"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "De laatste alinea vertelt wat Lisa over zichzelf ontdekt."
+    },
+    {
+      "question": "Vind je dat Lisa gelijk had om radijs te kiezen? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "juist",
+            "nee",
+            "niet",
+            "fout"
+          ],
+          [
+            "omdat",
+            "want",
+            "daarom",
+            "dus"
+          ],
+          [
+            "experiment",
+            "radijs",
+            "anders",
+            "zelf",
+            "eigen",
+            "keuze"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Geef je mening en leg uit waarom je dat denkt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-experiment/image-1.png",
+      "alt": "Lisa plant radijszaadjes in een potje met aarde"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-experiment/image-2.png",
+      "alt": "Lisa kijkt trots naar haar groeiende radijs terwijl de bonen van haar vrienden geel worden"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl with brown hair planting radish seeds in a small pot with soil on a classroom desk, children's book illustration style, bright classroom setting",
+    "The same girl looking proudly at her healthy growing radish plant with green leaves while in the background other students look worried at their yellowing bean plants, children's book illustration style"
+  ]
+}

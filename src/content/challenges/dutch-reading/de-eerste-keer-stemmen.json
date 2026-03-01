@@ -1,0 +1,121 @@
+{
+  "id": "de-eerste-keer-stemmen",
+  "title": "De Eerste Keer Stemmen",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "democratie",
+  "text": "Lotte is achttien jaar geworden. Ze krijgt een brief van de gemeente. Het is een stembiljet voor de verkiezingen. Ze mag voor het eerst stemmen!\n\nLotte weet niet veel van politiek. Ze vraagt haar vader om hulp. \"Alle partijen beloven meer geld voor de zorg en het onderwijs,\" zegt hij. \"Maar ze hebben allemaal andere plannen.\" Lotte voelt zich verward en boos. Hoe moet ze kiezen?\n\nOp school praat Lotte met haar vrienden via WhatsApp. \"Ik ga gewoon niet stemmen,\" typt ze. \"Het maakt toch niks uit.\" Maar haar vriendin Emma reageert snel: \"Mijn oma zegt dat vrouwen vroeger niet mochten stemmen. Wij hebben geluk!\"\n\nLotte denkt na over Emma's woorden. Ze zoekt informatie op internet over de partijen. Langzaam begrijpt ze de verschillen. Op de verkiezingsdag gaat ze naar het stembureau. Ze vult het biljet in en stopt het in de stembus. Lotte voelt zich trots. Ze heeft meegedaan aan de democratie.",
+  "questions": [
+    {
+      "question": "Wat krijgt Lotte van de gemeente?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een stembiljet",
+        "stembiljet",
+        "een brief met een stembiljet"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelt Lotte zich verward en boos als ze met haar vader praat?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kiezen",
+            "keuze",
+            "moeilijk",
+            "weet niet",
+            "weten"
+          ],
+          [
+            "partijen",
+            "politiek",
+            "verschillen",
+            "plannen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat haar vader vertelt over de partijen."
+    },
+    {
+      "question": "Wat zegt Emma's oma volgens Emma?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de WhatsApp-conversatie tussen de meisjes.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vrouwen"
+          ],
+          [
+            "vroeger"
+          ],
+          [
+            "niet"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe verandert Lotte's gevoel over stemmen door het verhaal heen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "eerst",
+            "begin",
+            "aanvankelijk",
+            "vroeger"
+          ],
+          [
+            "niet",
+            "geen",
+            "wil niet",
+            "wilt niet"
+          ],
+          [
+            "later",
+            "daarna",
+            "uiteindelijk",
+            "slot"
+          ],
+          [
+            "wel",
+            "toch",
+            "gaat",
+            "doet",
+            "stemt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Lotte denkt in het begin met hoe ze zich voelt aan het eind."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-eerste-keer-stemmen/image-1.png",
+      "alt": "Een achttienjarig meisje die een brief opent van de gemeente"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-eerste-keer-stemmen/image-2.png",
+      "alt": "Een jong meisje die trots haar stembiljet in de stembus doet"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch woman opening an official letter from the municipality with a voting ballot, children's book illustration style, bright and engaging colors",
+    "A proud young woman putting her completed ballot into a voting box at a Dutch polling station, children's book illustration style, democratic atmosphere"
+  ]
+}

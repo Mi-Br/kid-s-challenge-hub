@@ -1,0 +1,117 @@
+{
+  "id": "joren-en-de-regenjas",
+  "title": "Joren en de regenjas",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "Het regent hard buiten. Joren staat bij het raam en kijkt naar de grijze wolken. \"Wat een slechte dag,\" denkt hij. \"Ik wil naar het park, maar nu kan dat niet.\"\n\nMama komt de kamer in met zijn gele regenjas. \"Trek deze aan, dan kun je toch naar buiten,\" zegt ze vriendelijk. Maar Joren wordt boos. \"Die jas is lelijk! Ik wil hem niet aan!\" Hij gooit de regenjas op de grond.\n\nMama wordt verdrietig. Ze pakt de jas op en hangt hem weer in de kast. \"Oké dan,\" zegt ze zacht en loopt weg. Joren ziet dat mama's ogen vochtig zijn.\n\nJoren voelt zich rot. Hij had niet zo gemeen moeten zijn. De regenjas kan er toch niks aan doen? En mama wilde hem alleen maar helpen. \"Waarom was ik zo vervelend?\" denkt hij.\n\nEven later gaat Joren naar de keuken. Mama staat bij het aanrecht. \"Sorry mama,\" zegt hij zacht. \"Ik was niet aardig. Mag ik de gele regenjas toch aantrekken?\"\n\nMama glimlacht en knuffelt hem. \"Natuurlijk mag dat. En weet je wat? We gaan samen naar buiten. In de regen springen is heel leuk!\" Ze pakken allebei hun regenjas.\n\nBuiten rennen ze door de plassen. Het water spat alle kanten op. Joren lacht hard. \"Dit is veel leuker dan binnen zitten,\" roept hij blij. De regen voelt fris op zijn gezicht.\n\n\"Dank je wel mama, voor de regenjas en voor het samen spelen,\" zegt Joren als ze weer binnen zijn. Mama geeft hem een warme knuffel. \"Graag gedaan, lieverd. Samen is alles leuker.\"",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Jorens regenjas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel",
+        "gele"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom wordt mama verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "boos",
+            "gemeen",
+            "vervelend",
+            "lelijk"
+          ],
+          [
+            "gooit",
+            "gooide",
+            "weggooien"
+          ],
+          [
+            "regenjas",
+            "jas"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Joren doet met de regenjas."
+    },
+    {
+      "question": "Hoe voelt Joren zich nadat mama wegloopt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "rot",
+            "slecht",
+            "verdrietig",
+            "schuldig"
+          ],
+          [
+            "spijt",
+            "sorry",
+            "fout"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea goed."
+    },
+    {
+      "question": "Vind jij dat Joren goed heeft gemaakt wat er gebeurde? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "sorry",
+            "excuus",
+            "spijt"
+          ],
+          [
+            "samen",
+            "knuffel",
+            "spelen",
+            "speelde"
+          ],
+          [
+            "ja",
+            "wel",
+            "goed",
+            "niet",
+            "nee"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Joren doet om het goed te maken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/joren-en-de-regenjas/image-1.png",
+      "alt": "Joren gooit boos de gele regenjas op de grond terwijl mama verdrietig kijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/joren-en-de-regenjas/image-2.png",
+      "alt": "Joren en mama springen samen door plassen in de regen"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy angrily throwing a yellow raincoat on the floor while his mother looks sad in the background, children's book illustration style with rain visible through a window",
+    "A happy mother and son jumping in puddles together wearing yellow raincoats in the rain, both smiling and laughing, children's book illustration style with water splashing around them"
+  ]
+}

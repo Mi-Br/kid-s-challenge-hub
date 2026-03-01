@@ -1,0 +1,123 @@
+{
+  "id": "anna-en-de-rolstoel",
+  "title": "Anna en de Rolstoel",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verkeer",
+  "text": "Anna fietst elke dag naar school door de Hoofdstraat. Het is een drukke straat met veel auto's en bussen. Anna vindt het verkeer soms een beetje eng, maar ze kent de weg heel goed.\n\nOp maandag ziet Anna een nieuw meisje bij het zebrapad. Het meisje zit in een rolstoel en wacht al heel lang. Anna denkt eerst: 'Waarom steekt ze niet over? Het licht is groen!' Anna begrijpt niet waarom het meisje blijft wachten.\n\nAnna stapt van haar fiets en loopt naar het meisje toe. 'Hallo, ik ben Anna. Wil je oversteken?' vraagt ze vriendelijk. Het meisje knikt. 'Ik ben Yasmin. Ik durf niet alleen over te steken omdat de auto's zo hard rijden. Kunnen we samen gaan?'\n\nDaarna helpt Anna Yasmin elke dag bij het oversteken. Ze wachten samen tot alle auto's stoppen. Anna ontdekt dat Yasmin heel grappig is en veel weet over voetbal. Nu zijn ze beste vriendinnen geworden, omdat Anna heeft geleerd dat Yasmin gewoon hulp nodig had bij het verkeer.",
+  "questions": [
+    {
+      "question": "Door welke straat fietst Anna naar school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de hoofdstraat",
+        "hoofdstraat"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom durft Yasmin niet alleen over te steken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "auto's",
+            "verkeer",
+            "autos"
+          ],
+          [
+            "hard",
+            "snel",
+            "gevaarlijk"
+          ],
+          [
+            "rijden",
+            "rijdt",
+            "gaan"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Yasmin vertelt Anna waarom ze wacht bij het zebrapad."
+    },
+    {
+      "question": "Hoe verandert Anna's mening over Yasmin in het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "begrijpt",
+            "snapt",
+            "leert",
+            "ontdekt"
+          ],
+          [
+            "hulp",
+            "helpen",
+            "samen"
+          ],
+          [
+            "vrienden",
+            "vriendinnen",
+            "aardig",
+            "grappig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Anna eerst dacht en hoe ze er aan het eind over denkt."
+    },
+    {
+      "question": "Vind je dat Anna goed heeft gehandeld? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "prima"
+          ],
+          [
+            "helpen",
+            "hulp",
+            "geholpen",
+            "helpt"
+          ],
+          [
+            "vriendelijk",
+            "aardig",
+            "lief",
+            "zorgzaam"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Anna deed toen ze zag dat Yasmin hulp nodig had."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/anna-en-de-rolstoel/image-1.png",
+      "alt": "Anna op haar fiets in een drukke Nederlandse straat met auto's en bussen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/anna-en-de-rolstoel/image-2.png",
+      "alt": "Anna en Yasmin die samen wachten bij het zebrapad"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch girl named Anna cycling on a busy street with cars and buses, children's book illustration style, bright colors",
+    "Two girls at a zebra crossing - one standing next to her bicycle and another in a wheelchair, waiting to cross together, Dutch street scene, children's book illustration style"
+  ]
+}

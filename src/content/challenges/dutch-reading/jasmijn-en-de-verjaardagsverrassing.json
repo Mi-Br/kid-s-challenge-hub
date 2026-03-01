@@ -1,0 +1,109 @@
+{
+  "id": "jasmijn-en-de-verjaardagsverrassing",
+  "title": "Jasmijn en de Verjaardagsverrassing",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Jasmijn keek naar de lege uitnodigingen op haar bureau. Morgen werd ze acht jaar, maar ze had nog geen vrienden uitgenodigd. Op school speelde ze meestal alleen omdat ze te verlegen was om mee te doen.\n\nMama kwam haar kamer binnen. \"Waarom zie je er zo verdrietig uit?\" vroeg ze zacht. Jasmijn vertelde dat ze bang was dat niemand zou komen. \"Misschien kun je één klasgenoot uitnodigen,\" stelde mama voor. \"Klein beginnen is ook goed.\"\n\nDe volgende dag gaf Jasmijn een uitnodiging aan Lotte, die altijd aardig tegen haar was. Lotte werd heel blij en zei dat ze graag zou komen. Na school ging Jasmijn naar huis omdat ze zich zenuwachtig voelde.\n\nToen Jasmijn thuiskwam, hoorde ze stemmen in de tuin. Ze liep naar buiten en zag niet alleen Lotte, maar ook drie andere kinderen uit haar klas! Ze hadden zelf besloten om ook te komen omdat Lotte had verteld hoe lief Jasmijn was.\n\n\"Verrassing!\" riepen ze allemaal tegelijk. Jasmijn voelde haar wangen warm worden van blijdschap. Misschien was vrienden maken helemaal niet zo eng als ze had gedacht.",
+  "questions": [
+    {
+      "question": "Hoeveel jaar wordt Jasmijn?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "acht"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoeveel klasgenoten nodigt Jasmijn uit?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "één",
+        "een",
+        "1"
+      ],
+      "hint": "Lees wat mama voorstelt en wat Jasmijn doet."
+    },
+    {
+      "question": "Waarom speelt Jasmijn meestal alleen op school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verlegen",
+            "schuw",
+            "bang"
+          ],
+          [
+            "meedoen",
+            "spelen",
+            "samen",
+            "vrienden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "In de eerste alinea staat waarom ze niet meedoet."
+    },
+    {
+      "question": "Vind je dat Jasmijn gelijk had om bang te zijn? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet"
+          ],
+          [
+            "vrienden",
+            "kinderen",
+            "komen",
+            "kwamen",
+            "aardig",
+            "lief"
+          ],
+          [
+            "bang",
+            "zenuwachtig",
+            "verdrietig",
+            "blij",
+            "blijdschap"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe het verhaal afloopt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/jasmijn-en-de-verjaardagsverrassing/image-1.png",
+      "alt": "Een verlegen meisje kijkt naar lege uitnodigingen op haar bureau"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/jasmijn-en-de-verjaardagsverrassing/image-2.png",
+      "alt": "Vier kinderen staan in een tuin en roepen verrassing naar een blij meisje"
+    }
+  ],
+  "imagePrompts": [
+    "A shy 8-year-old Dutch girl with dark hair sitting at her desk looking sadly at empty birthday invitation cards, children's book illustration style, soft lighting in a cozy bedroom",
+    "Four happy children standing in a sunny Dutch garden shouting surprise to a delighted birthday girl, colorful party decorations, children's book illustration style, joyful atmosphere"
+  ]
+}

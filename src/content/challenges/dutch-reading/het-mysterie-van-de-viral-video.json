@@ -1,0 +1,147 @@
+{
+  "id": "het-mysterie-van-de-viral-video",
+  "title": "Het Mysterie van de Viral Video",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "cultuur",
+  "text": "Lara zat op haar bed en scrollde door TikTok toen ze een video zag die haar hart deed kloppen. Een Nederlandse influencer met miljoen volgers beweerde dat een beroemd museum in Amsterdam artefacten had gestolen van andere landen. De video had al twee miljoen views en duizenden woedende reacties.\n\n\"Dit kan niet waar zijn,\" fluisterde Lara, maar de beelden leken zo overtuigend. De influencer toonde foto's van voorwerpen in het museum naast krantenkoppen over gestolen kunst. Binnen een uur had Lara de video gedeeld met al haar vrienden, die hem op hun beurt doorstuurden. De verontwaardiging verspreidde zich als een virus door hun vriendengroep.\n\nDe volgende dag op school hoorde Lara klasgenoten praten over een boycot van het museum. Sommigen wilden zelfs protesteren. Maar hun geschiedenisleraar, meneer Van Dam, keek bezorgd toen hij de verhitte discussies hoorde. \"Hebben jullie de bronnen gecontroleerd?\" vroeg hij voorzichtig.\n\nThuisgekomen besloot Lara dieper te graven. Ze ontdekte dat de influencer geen achtergrond had in kunstgeschiedenis of journalistiek, maar vooral beautytips en lifestyle-content maakte. De krantenkoppen in de video bleken uit context getrokken te zijn – ze gingen over een heel ander museum in een ander land. Bovendien werd de video gesponsord door een concurrent van het Nederlandse museum.\n\nLara voelde zich misselijk worden. Ze had meegedaan aan het verspreiden van nepnieuws, en nu zag ze overal de gevolgen: online haatberichten naar het museum, medewerkers die bedreigd werden, en toeristen die hun bezoeken annuleerden. De waarheid was veel gecompliceerder dan de simpele, emotionele verhaal dat zo aantrekkelijk had geleken.\n\nDie avond maakte Lara haar eigen video – een rectificatie waarin ze uitlegde hoe ze was misleid en waarom het controleren van bronnen zo belangrijk is. Haar video kreeg veel minder views dan het originele nepnieuws, maar de lessen die ze had geleerd zouden haar voor de rest van haar leven bijblijven. In onze digitale wereld, besefte ze, was kritisch denken niet langer optioneel maar essentieel voor elke verantwoordelijke burger.",
+  "questions": [
+    {
+      "question": "Wat was het onderwerp van de virale video die Lara zag?",
+      "questionType": "begrijpen",
+      "hint": "Lees de eerste alinea nog eens goed door.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "nederlands"
+          ],
+          [
+            "museum"
+          ],
+          [
+            "artefacten"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom geloofde Lara aanvankelijk de claims in de video?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "overtuigend",
+            "geloofwaardig",
+            "echt",
+            "waar"
+          ],
+          [
+            "foto's",
+            "beelden",
+            "bewijs",
+            "krantenkoppen"
+          ],
+          [
+            "influencer",
+            "beroemd",
+            "miljoen volgers",
+            "populair"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er in de tweede alinea staat over hoe de video eruitzag."
+    },
+    {
+      "question": "Welke waarschuwingssignalen over de betrouwbaarheid van de bron ontdekte Lara later?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet meerdere problemen met de bron identificeren: de influencer heeft geen expertise, de krantenkoppen waren uit context, en er was een financieel belang (sponsoring door concurrent).",
+        "exampleAnswer": "De influencer had geen achtergrond in kunstgeschiedenis, de krantenkoppen gingen over een ander museum, en de video werd gesponsord door een concurrent.",
+        "keyElements": [
+          "geen expertise/achtergrond",
+          "krantenkoppen uit context/verkeerd museum",
+          "gesponsord/concurrent/financieel belang"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk in de vierde alinea naar wat Lara ontdekte over de maker van de video."
+    },
+    {
+      "question": "Beoordeel Lara's reactie nadat ze de waarheid ontdekte. Was dit de juiste aanpak?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet Lara's besluit om een rectificatievideo te maken positief beoordelen en uitleggen waarom dit verantwoordelijk gedrag is, ook al bereikte het minder mensen.",
+        "exampleAnswer": "Ja, Lara deed het juiste door een rectificatievideo te maken. Ook al kreeg die minder views, ze nam verantwoordelijkheid voor haar fout en probeerde de schade te herstellen.",
+        "keyElements": [
+          "verantwoordelijk/juist",
+          "rectificatie/herstellen/corrigeren",
+          "schade/gevolgen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Lara deed in de laatste alinea en waarom dat belangrijk was."
+    },
+    {
+      "question": "Wat is de hoofdboodschap die de schrijver wil overbrengen met dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van kritisch denken en bronnenonderzoek in het digitale tijdperk, en de gevaren van het ongecontroleerd delen van informatie.",
+        "exampleAnswer": "Het verhaal laat zien hoe belangrijk het is om informatie te controleren voordat je het deelt, en dat kritisch denken essentieel is in onze digitale wereld.",
+        "keyElements": [
+          "kritisch denken/controleren",
+          "bronnen/informatie checken",
+          "digitale wereld/media",
+          "verantwoordelijkheid"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk aan de les die Lara leert en wat er in de allerlaatste zin staat."
+    },
+    {
+      "question": "Waarom koos de schrijver ervoor om dit verhaal te vertellen vanuit het perspectief van een tiener die een fout maakt?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver een herkenbare situatie creëert waarmee jonge lezers zich kunnen identificeren, en toont dat iedereen vatbaar is voor desinformatie maar dat je van fouten kunt leren.",
+        "exampleAnswer": "Door een tiener te laten zien die dezelfde fout maakt als veel mensen, kunnen lezers zich identificeren met het verhaal en leren van Lara's ervaring zonder zich aangevallen te voelen.",
+        "keyElements": [
+          "identificatie/herkenbaar",
+          "leren van fouten/ervaring",
+          "niet veroordelend/begripvol"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk eraan hoe het verhaal jou als lezer laat voelen over het maken van fouten met sociale media."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-viral-video/image-1.png",
+      "alt": "Een tienermeisje kijkt geschokt naar haar telefoon in haar slaapkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-viral-video/image-2.png",
+      "alt": "Het meisje zit aan haar bureau en onderzoekt informatie op haar laptop"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting on her bed looking shocked at her phone screen showing a viral video, children's book illustration style, warm bedroom lighting, Dutch home interior",
+    "The same teenage girl sitting at her desk researching on her laptop with multiple browser tabs open, looking focused and determined, children's book illustration style, evening lighting"
+  ]
+}

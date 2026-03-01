@@ -1,0 +1,73 @@
+{
+  "id": "water-spuiten-in-de-tuin",
+  "title": "Water Spuiten in de Tuin",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "spelen",
+  "text": "Lisa kijkt door het raam. Het is een warme dag. Mama heeft een grote groene slang in de tuin gelegd. Er komt water uit de slang.\n\n\"Kom je naar buiten?\" roept mama. Lisa schudt haar hoofd. Ze heeft nog nooit met water gespeeld. Het lijkt eng. Wat als het water koud is?\n\nMama pakt de slang. Ze spuit water op de bloemen. Dan spuit ze water op de tegels. Het water glinstert in de zon. \"Het water is lekker warm,\" zegt mama. \"Wil je het voelen?\"\n\nLisa loopt langzaam naar buiten. Ze steekt haar hand uit. Het water voelt inderdaad warm. En het kietelt! Lisa begint te lachen. \"Mag ik ook?\" vraagt ze.\n\nMama geeft de slang aan Lisa. Lisa spuit water op de bloemen, net zoals mama deed. Dan spuit ze per ongeluk water op haar eigen voeten. Dat is zo grappig! Ze spuit nog meer water op zichzelf.\n\n\"Kijk, ik ben een watermonster!\" roept Lisa. Ze rent door de tuin en spuit water in de lucht. Het water valt als regen op haar hoofd. Lisa is nu helemaal nat, maar ze vindt het heerlijk. Water spuiten is het leukste spel ooit!",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de slang?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "groen",
+        "grote groene"
+      ],
+      "hint": "Kijk naar het eerste stukje van het verhaal."
+    },
+    {
+      "question": "Waarom wil Lisa eerst niet naar buiten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "eng",
+            "bang",
+            "angstig"
+          ],
+          [
+            "water",
+            "spelen",
+            "nooit"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa nog nooit heeft gedaan."
+    },
+    {
+      "question": "Hoe voelt het water volgens mama?",
+      "questionType": "begrijpen",
+      "hint": "Mama zegt iets over het water in het derde stukje.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "warm"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/water-spuiten-in-de-tuin/image-1.png",
+      "alt": "Lisa kijkt door het raam naar mama met de waterslang in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/water-spuiten-in-de-tuin/image-2.png",
+      "alt": "Lisa speelt blij met de waterslang en is helemaal nat"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking through a window at her mother holding a green garden hose in a sunny Dutch backyard, children's book illustration style",
+    "The same girl playing joyfully with the garden hose, completely soaked with water, running around the garden with water spraying everywhere, children's book illustration style"
+  ]
+}

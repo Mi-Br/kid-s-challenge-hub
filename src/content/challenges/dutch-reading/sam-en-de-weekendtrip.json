@@ -1,0 +1,130 @@
+{
+  "id": "sam-en-de-weekendtrip",
+  "title": "Sam en de Weekendtrip",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "reizen",
+  "text": "Sam was heel blij. Zijn vriendin Lisa had hem gevraagd om samen naar Amsterdam te gaan. Ze waren nu drie maanden samen. Het zou hun eerste echte weekendtrip zijn.\n\nVrijdagavond pakte Sam zijn tas. Hij nam extra kleren mee en zijn telefoonlader. Lisa had hem een WhatsApp bericht gestuurd: \"Ik heb het hotel geboekt! We hebben een kamer met uitzicht op de grachten.\" Sam was opgewonden.\n\nZaterdag vertrokken ze met de trein naar Amsterdam. Lisa had alles gepland. Ze zouden naar het Van Gogh Museum gaan en daarna door de Jordaan wandelen. \"Ik heb ook een restaurant uitgezocht voor vanavond,\" zei Lisa in de trein.\n\nMaar Sam voelde zich ongemakkelijk. Lisa had alles geregeld zonder hem te vragen. Hij wilde ook mee beslissen. Toen ze in Amsterdam aankwamen, zei hij voorzichtig: \"Lisa, vind je het goed als ik ook soms kies wat we doen?\"\n\nLisa keek verbaasd. \"Natuurlijk! Ik dacht dat je het fijn zou vinden als ik alles regelde.\" Ze praatten erover tijdens de lunch. Sam legde uit dat hij graag samen wilde plannen. Lisa begreep het meteen.\n\n\"Oké, wat wil jij dan doen vanmiddag?\" vroeg Lisa. Sam had een idee. \"Laten we een rondvaart door de grachten doen. En jij mag kiezen waar we vanavond eten.\" Lisa glimlachte. \"Dat is een goed plan!\"\n\nDe rest van het weekend was perfect. Ze deelden de keuzes en hadden allebei plezier. Op zondag, in de trein terug naar huis, stuurde Sam een foto van hen samen naar zijn beste vriend. \"Beste weekend ooit!\" typte hij erbij.",
+  "questions": [
+    {
+      "question": "Hoe lang zijn Sam en Lisa samen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "drie maanden"
+      ],
+      "hint": "Zoek naar informatie over hun relatie in het begin van het verhaal."
+    },
+    {
+      "question": "Waarom voelde Sam zich ongemakkelijk in Amsterdam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "alles",
+            "gepland",
+            "geregeld",
+            "gekozen"
+          ],
+          [
+            "zonder",
+            "niet",
+            "geen"
+          ],
+          [
+            "vragen",
+            "gevraagd",
+            "beslissen",
+            "kiezen",
+            "mee beslissen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa had gedaan met de plannen voor de trip."
+    },
+    {
+      "question": "Hoe losten Sam en Lisa hun probleem op?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "praatten",
+            "praten",
+            "uitleggen",
+            "legde uit"
+          ],
+          [
+            "samen",
+            "allebei",
+            "deelden",
+            "delen"
+          ],
+          [
+            "keuzes",
+            "plannen",
+            "beslissen",
+            "kiezen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat er gebeurde tijdens en na de lunch."
+    },
+    {
+      "question": "Vind jij dat Sam en Lisa goed hebben gecommuniceerd? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "prima",
+            "nee",
+            "niet"
+          ],
+          [
+            "praatten",
+            "praten",
+            "zei",
+            "legde uit",
+            "begreep",
+            "luisteren"
+          ],
+          [
+            "samen",
+            "allebei",
+            "oplossing",
+            "probleem"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe ze het conflict oplosten en wat er daarna gebeurde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sam-en-de-weekendtrip/image-1.png",
+      "alt": "Sam en Lisa in de trein naar Amsterdam, zij kijkt naar haar telefoon"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sam-en-de-weekendtrip/image-2.png",
+      "alt": "Sam en Lisa praten tijdens de lunch in een café in Amsterdam"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage couple sitting in a Dutch train heading to Amsterdam, the girl looking at her phone showing travel plans while the boy looks thoughtful, children's book illustration style",
+    "Two teenagers having a conversation over lunch at a cozy Amsterdam café, both looking engaged in discussion with canal houses visible through the window, children's book illustration style"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "de-kale-boom",
+  "title": "De Kale Boom",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "natuur",
+  "text": "Emma staarde naar de grote eik in de tuin. De boom was volledig kaal, zijn zwarte takken staken scherp af tegen de grijze hemel. \"Die boom is dood,\" mompelde ze tegen haar opa, die naast haar stond. \"We moeten hem omzagen.\"\n\nOpa schudde zijn hoofd. \"Wacht maar tot de lente, Emma. Deze boom heeft me geholpen toen ik klein was, net zoals hij jou zal helpen.\" Emma begreep er niets van. Hoe kon een dode boom haar helpen?\n\nTijdens de winter bleef Emma naar de boom kijken. Soms zag ze vogels in de takken zitten, ook al waren er geen bladeren. In februari ontdekte ze kleine knoppen aan de uiteinden van de takken. \"Opa, er groeit iets!\" riep ze verbaasd.\n\n\"Dat dacht ik al,\" zei opa glimlachend. \"Bomen hebben hun eigen tijd, Emma. Ze weten wanneer ze moeten rusten en wanneer ze moeten groeien.\"\n\nToen de lente kwam, explodeerde de boom in een zee van groene bladeren. Emma begreep nu wat opa bedoelde. Soms lijken dingen dood, maar ze wachten gewoon op het juiste moment om weer tot leven te komen. Ze had geleerd dat geduld en vertrouwen belangrijk zijn, niet alleen voor bomen, maar ook voor mensen.",
+  "questions": [
+    {
+      "question": "Welke kleur hadden de takken van de boom in de winter?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zwart",
+        "zwarte"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom wilde Emma de boom omzagen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "dood",
+            "gestorven",
+            "dode"
+          ],
+          [
+            "dacht",
+            "dachte",
+            "meende",
+            "vond",
+            "geloofde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma dacht over de boom in de winter."
+    },
+    {
+      "question": "Hoe veranderde Emma's mening over de boom gedurende het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "eerst",
+            "begin",
+            "aanvankelijk",
+            "vroeger"
+          ],
+          [
+            "later",
+            "daarna",
+            "uiteindelijk",
+            "toen",
+            "nu"
+          ],
+          [
+            "dood",
+            "dode",
+            "gestorven"
+          ],
+          [
+            "leven",
+            "levend",
+            "groeien",
+            "groeit",
+            "groeide"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk wat Emma aan het begin dacht met wat ze aan het eind begreep."
+    },
+    {
+      "question": "Vind je dat opa gelijk had om te wachten? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee) en deze onderbouwen met argumenten uit het verhaal of eigen ervaring. Redenen kunnen zijn: geduld loont, natuur heeft eigen ritme, niet te snel oordelen.",
+        "exampleAnswer": "Ja, opa had gelijk omdat de boom niet echt dood was en later weer uitliep. Hij wist dat bomen hun eigen tijd hebben.",
+        "keyElements": [
+          "gelijk/ongelijk",
+          "geduld/wachten/tijd",
+          "boom/natuur/groeien"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat er gebeurde toen ze wel wachtten."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over geduld, niet te snel oordelen, dat dingen tijd nodig hebben om te groeien, of dat uiterlijk kan bedriegen.",
+        "exampleAnswer": "Het verhaal gaat erover dat je geduldig moet zijn en niet te snel moet oordelen over dingen.",
+        "keyElements": [
+          "geduld/wachten/tijd",
+          "oordelen/denken/mening",
+          "natuur/groeien/veranderen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat leerde Emma van deze ervaring met de boom?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kale-boom/image-1.png",
+      "alt": "Emma en opa staan voor een grote kale eikenboom in de winter"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kale-boom/image-2.png",
+      "alt": "Dezelfde boom vol groene bladeren in de lente, met Emma die er blij naar kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and elderly man standing in front of a large bare oak tree in winter, black branches against gray sky, children's book illustration style",
+    "The same oak tree in spring full of bright green leaves with the girl looking up at it happily, children's book illustration style"
+  ]
+}

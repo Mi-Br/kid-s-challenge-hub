@@ -1,0 +1,121 @@
+{
+  "id": "de-eerste-schooldag",
+  "title": "De Eerste Schooldag",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Emma staat voor de grote rode poort van haar nieuwe school. Haar mama heeft een nieuwe baan in Nederland gevonden. Daarom moeten zij naar een andere stad verhuizen. Emma voelt vlinders in haar buik omdat ze bang is voor nieuwe dingen.\n\nTerwijl Emma naar het grote schoolgebouw kijkt, loopt er een ander meisje langs de speelplaats. Dit meisje heet Sofie en zij heeft ook vlinders in haar buik. Vandaag krijgt Sofie namelijk een nieuwe klasgenoot uit een ander land. Ze vraagt zich af of dit nieuwe meisje aardig zal zijn.\n\nDe schoolbel gaat en Emma loopt langzaam naar binnen. Haar nieuwe juf, meester Tom, wijst naar een lege stoel naast een meisje met blonde vlechten. \"Ga maar naast Sofie zitten,\" zegt hij vriendelijk. Emma glimlacht voorzichtig.\n\nSofie kijkt naar Emma en fluistert: \"Ik ben Sofie. Kom je uit een ander land?\" Emma knikt en antwoordt zacht: \"Ja, uit Polen. Ik ben Emma.\" Sofie straalt omdat Emma er zo aardig uitziet.\n\nIn de pauze laat Sofie de hele speelplaats aan Emma zien. Ze spelen samen op de glijbaan en de schommel. Emma merkt dat haar buikpijn langzaam verdwijnt omdat Sofie zo vriendelijk is. \"School in Nederland is eigenlijk heel leuk,\" denkt Emma blij.",
+  "questions": [
+    {
+      "question": "Uit welk land komt Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "polen"
+      ],
+      "hint": "Kijk naar wat Emma antwoordt aan Sofie."
+    },
+    {
+      "question": "Waarom heeft Emma vlinders in haar buik?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig",
+            "nerveus"
+          ],
+          [
+            "nieuwe",
+            "nieuw"
+          ],
+          [
+            "dingen",
+            "school",
+            "situatie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de eerste alinea nog eens goed."
+    },
+    {
+      "question": "Hoe verandert Emma's gevoel gedurende het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig"
+          ],
+          [
+            "blij",
+            "gelukkig",
+            "vrolijk",
+            "fijn"
+          ],
+          [
+            "verandert",
+            "wordt",
+            "gaat",
+            "verdwijnt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Emma zich voelt aan het begin en aan het eind."
+    },
+    {
+      "question": "Vind je dat Sofie een goede klasgenoot is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed"
+          ],
+          [
+            "aardig",
+            "vriendelijk",
+            "lief",
+            "behulpzaam"
+          ],
+          [
+            "laat zien",
+            "speelt",
+            "helpt",
+            "wijst"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Sofie allemaal doet om Emma te helpen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-eerste-schooldag/image-1.png",
+      "alt": "Emma staat nerveus voor de grote rode schoolpoort"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-eerste-schooldag/image-2.png",
+      "alt": "Emma en Sofie spelen samen op de speelplaats met de glijbaan"
+    }
+  ],
+  "imagePrompts": [
+    "A nervous young girl with dark hair standing in front of a large red school gate, looking up at a big Dutch school building, children's book illustration style, warm morning light",
+    "Two young girls playing happily together on a playground with a slide and swings, one with blonde braids and one with dark hair, Dutch school playground setting, children's book illustration style"
+  ]
+}

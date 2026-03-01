@@ -1,0 +1,117 @@
+{
+  "id": "oma-s-lunchgeheim",
+  "title": "Oma's Lunchgeheim",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Lisa zit in groep 4 en neemt altijd lunch mee naar school. Vandaag heeft mama weer gewone boterhammen gemaakt. Lisa zucht omdat ze deze boterhammen saai vindt.\n\nOp de speelplaats ziet Lisa dat Tom een bijzondere lunch heeft. Hij eet kleine ronde broodjes met kaas. \"Wat lekker!\" zegt Lisa. Tom lacht en vertelt dat zijn oma ze heeft gemaakt.\n\nThuis vertelt Lisa aan mama over Toms lunch. Mama belt oma op want zij wil het recept ook leren. Oma komt de volgende dag op bezoek en bakt samen met mama.\n\nDe dag erna heeft Lisa dezelfde ronde broodjes in haar lunchbox. Alle kinderen willen weten hoe ze gemaakt zijn. Lisa is trots en vertelt over oma's geheim recept. Nu heeft zij de leukste lunch van de klas.",
+  "questions": [
+    {
+      "question": "Welke vorm hebben de broodjes van Tom?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rond",
+        "ronde"
+      ],
+      "hint": "Kijk in de tweede alinea hoe de broodjes worden beschreven."
+    },
+    {
+      "question": "Welke vorm hebben de broodjes van Tom?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rond",
+        "ronde"
+      ],
+      "hint": "Kijk in de tweede alinea hoe de broodjes worden beschreven."
+    },
+    {
+      "question": "Waarom belt mama naar oma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "recept",
+            "maken",
+            "leren"
+          ],
+          [
+            "broodjes",
+            "lunch",
+            "eten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat mama wil leren van oma."
+    },
+    {
+      "question": "Wat betekent 'geheim recept' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk na waarom de andere kinderen de broodjes niet kennen.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "bijzonder recept"
+          ],
+          [
+            "speciaal recept"
+          ],
+          [
+            "recept dat niet iedereen kent"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind je het goed dat Lisa trots is op haar lunch? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "wel"
+          ],
+          [
+            "bijzonder",
+            "speciaal",
+            "anders",
+            "uniek"
+          ],
+          [
+            "oma",
+            "familie",
+            "samen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er bijzonder is aan Lisa's nieuwe lunch."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/oma-s-lunchgeheim/image-1.png",
+      "alt": "Lisa en Tom eten lunch op de speelplaats, Tom heeft ronde broodjes"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/oma-s-lunchgeheim/image-2.png",
+      "alt": "Oma, mama en Lisa bakken samen ronde broodjes in de keuken"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of two young children eating lunch on a Dutch school playground, one girl looking curious at a boy's special round bread rolls, sunny day",
+    "Children's book illustration of three generations - grandmother, mother, and young girl - baking together in a cozy Dutch kitchen, making small round bread rolls, warm family scene"
+  ]
+}

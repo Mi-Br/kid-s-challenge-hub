@@ -1,0 +1,74 @@
+{
+  "id": "de-voetbal-in-het-water",
+  "title": "De Voetbal in het Water",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "spelen",
+  "text": "Lisa speelt voetbal in het park. Ze trapt de bal hard weg. De bal rolt naar de vijver. Plons! De bal valt in het water.\n\nLisa kijkt naar de bal. De bal drijft op het water. Ze kan er niet bij. Lisa wordt verdrietig omdat ze niet kan zwemmen.\n\nDan ziet Lisa een jongen met een lange stok. 'Kan je me helpen?' vraagt Lisa. De jongen knikt en steekt de stok in het water.\n\n'Bijna!' zegt de jongen. Hij trekt de bal naar de kant. Lisa pakt de bal op. 'Dank je wel!' zegt ze blij. Nu kan ze weer voetballen. Lisa heeft geleerd om hulp te vragen.",
+  "questions": [
+    {
+      "question": "Waar valt de bal in?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het water",
+        "de vijver",
+        "in het water",
+        "in de vijver"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom wordt Lisa verdrietig?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze kan niet zwemmen",
+        "omdat ze niet kan zwemmen",
+        "ze kan er niet bij"
+      ],
+      "hint": "Lees de tweede alinea."
+    },
+    {
+      "question": "Hoe helpt de jongen Lisa?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "stok",
+            "lange stok"
+          ],
+          [
+            "steekt",
+            "steekt in",
+            "in het water",
+            "water"
+          ],
+          [
+            "trekt",
+            "trekt naar",
+            "naar de kant"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat de jongen doet met zijn stok."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-voetbal-in-het-water/image-1.png",
+      "alt": "Lisa staat bij een vijver en kijkt naar haar voetbal die in het water drijft"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-voetbal-in-het-water/image-2.png",
+      "alt": "Een jongen helpt Lisa door de bal uit het water te halen met een lange stok"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl standing by a pond looking sad at her soccer ball floating in the water, children's book illustration style, Dutch park setting",
+    "A helpful boy using a long stick to pull a soccer ball out of a pond while a girl watches hopefully, children's book illustration style, sunny day"
+  ]
+}

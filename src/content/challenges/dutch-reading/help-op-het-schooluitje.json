@@ -1,0 +1,54 @@
+{
+  "id": "help-op-het-schooluitje",
+  "title": "Help op het Schooluitje",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "school",
+  "text": "Lisa gaat met de klas naar de kinderboerderij. Ze ziet alle dieren. Er zijn schapen, geiten en konijnen.\n\nLisa ziet een klein meisje bij de geitjes. Het meisje huilt. Ze heeft haar knuffel verloren. Lisa wil helpen.\n\nLisa zoekt overal naar de knuffel. Ze kijkt bij de schapen. Ze kijkt bij de konijnen. Dan ziet ze de knuffel bij de geitjes.\n\nLisa geeft de knuffel terug. Het kleine meisje lacht nu. Lisa voelt zich blij dat ze heeft geholpen.",
+  "questions": [
+    {
+      "question": "Waar gaat Lisa naartoe met de klas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "kinderboerderij",
+        "de kinderboerderij",
+        "naar de kinderboerderij"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Welke dieren ziet Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "schapen, geiten en konijnen",
+        "schapen geiten en konijnen",
+        "schapen geiten konijnen"
+      ],
+      "hint": "Kijk aan het eind van de eerste alinea."
+    },
+    {
+      "question": "Wat heeft het kleine meisje verloren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "knuffel",
+        "haar knuffel"
+      ],
+      "hint": "Kijk in de tweede alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/help-op-het-schooluitje/image-1.png",
+      "alt": "Lisa kijkt naar de dieren op de kinderboerderij"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/help-op-het-schooluitje/image-2.png",
+      "alt": "Lisa geeft de knuffel terug aan het kleine meisje"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking at farm animals including sheep, goats and rabbits at a petting zoo, children's book illustration style",
+    "A young girl giving a stuffed toy back to a smaller crying child near goats at a petting zoo, both children smiling, children's book illustration style"
+  ]
+}

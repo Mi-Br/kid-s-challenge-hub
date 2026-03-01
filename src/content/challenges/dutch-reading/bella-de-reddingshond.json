@@ -1,0 +1,111 @@
+{
+  "id": "bella-de-reddingshond",
+  "title": "Bella de Reddingshond",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "huisdieren",
+  "text": "Vorig jaar kreeg Mila een puppy van haar ouders. Het was een golden retriever en ze noemde haar Bella. Bella was speels en vrolijk, maar ook heel ongehoorzaam. Ze luisterde nooit goed naar Mila.\n\nOp een dag zei mama: \"Misschien moet Bella naar een hondentraining.\" Mila vond dat een goed idee. Elke zaterdagochtend gingen ze naar het park voor de lessen.\n\nDe trainer heette meneer Van Dam. Hij leerde Bella zitten, blijven en komen als Mila riep. Na drie weken kon Bella al veel trucs. Ze was een slimme hond!\n\nToen zei meneer Van Dam iets bijzonders: \"Bella heeft talent voor reddingswerk. Golden retrievers zijn daar heel goed in.\" Hij legde uit dat reddingshonden vermiste mensen kunnen zoeken omdat ze zo goed kunnen ruiken.\n\nMila werd enthousiast. Samen met Bella begon ze speciale trainingen. Bella leerde hoe ze mensen kon zoeken die verdwaald waren. Ze moest hun geur volgen en blaffen als ze iemand vond.\n\nNa een half jaar was Bella officieel een reddingshond. Vorige week hielp ze de politie om een oude man te vinden die was verdwaald in het bos. Bella vond hem binnen een uur!\n\nNu is Mila heel trots op haar hond. \"Eerst dacht ik dat Bella gewoon stout was,\" vertelt ze aan haar vrienden. \"Maar eigenlijk was ze alleen maar slim en had ze een speciale taak nodig.\"",
+  "questions": [
+    {
+      "question": "Wat voor ras is Bella?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "golden retriever"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dachten Mila en haar mama dat Bella naar een training moest?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ongehoorzaam",
+            "gehoorzaam",
+            "luisterde niet",
+            "luisteren"
+          ],
+          [
+            "stout",
+            "braaf",
+            "gedrag"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Bella zich gedroeg in het begin."
+    },
+    {
+      "question": "Hoe kunnen reddingshonden vermiste mensen vinden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ruiken",
+            "geur",
+            "neus"
+          ],
+          [
+            "zoeken",
+            "vinden",
+            "volgen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Meneer Van Dam legt dit uit in de vierde alinea."
+    },
+    {
+      "question": "Vind jij dat Mila een goede eigenaar is voor Bella? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "training",
+            "les",
+            "lessen",
+            "oefenen"
+          ],
+          [
+            "zorgen",
+            "zorg",
+            "helpen",
+            "geduld"
+          ],
+          [
+            "trots",
+            "blij",
+            "lief",
+            "goed"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Mila allemaal voor Bella doet."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/bella-de-reddingshond/image-1.png",
+      "alt": "Mila traint met Bella in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/bella-de-reddingshond/image-2.png",
+      "alt": "Bella zoekt naar een vermiste persoon in het bos"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl training with her golden retriever puppy in a Dutch park, the trainer showing commands, children's book illustration style",
+    "A golden retriever search and rescue dog with a vest searching for a missing person in a forest, sniffing the ground, children's book illustration style"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "het-verhaal-van-anne-frank",
+  "title": "Het verhaal van Anne Frank",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Lisa dacht dat de Tweede Wereldoorlog heel lang geleden was. Ze dacht dat het niets met haar leven te maken had. Haar oma was oud en praatte vaak over vroeger, maar Lisa luisterde nooit echt.\n\nOp school moest Lisa een werkstuk maken over Anne Frank. Ze ging naar het Anne Frank Huis in Amsterdam. Daar zag ze de kleine kamers waar Anne zich had verstopt. Lisa las Anne's dagboek en zag foto's van haar familie.\n\nLisa wilde het niet geloven. Anne was bijna even oud als zij! Anne hield van lezen en schrijven, net als Lisa. Anne maakte ruzie met haar zus, net als Lisa met haar broer. Maar Anne mocht niet naar school en niet naar buiten.\n\nToen Lisa thuiskwam, ging ze naar haar oma. Ze vroeg: 'Oma, was jij er ook tijdens de oorlog?' Haar oma knikte. 'Ik was toen twaalf jaar oud, net als jij nu.' Lisa begreep ineens dat de oorlog niet zo lang geleden was. Haar oma had het allemaal meegemaakt.\n\nNu luistert Lisa altijd als oma verhalen vertelt. Ze begrijpt dat geschiedenis niet alleen in boeken staat. Het is ook in de verhalen van mensen om haar heen.",
+  "questions": [
+    {
+      "question": "Hoe oud was Lisa's oma tijdens de oorlog?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "twaalf jaar",
+        "twaalf",
+        "12 jaar",
+        "12"
+      ],
+      "hint": "Kijk naar wat oma zegt in het vierde deel van het verhaal."
+    },
+    {
+      "question": "Waarom wilde Lisa eerst niet naar de verhalen van haar oma luisteren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "dacht",
+            "dachten",
+            "denken",
+            "vond",
+            "vonden",
+            "vinden"
+          ],
+          [
+            "lang geleden",
+            "vroeger",
+            "verleden",
+            "oud",
+            "oude"
+          ],
+          [
+            "niets",
+            "geen",
+            "niet belangrijk",
+            "oninteressant"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa dacht over de oorlog in het begin."
+    },
+    {
+      "question": "Noem twee dingen die Anne en Lisa allebei leuk vonden.",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "lezen en schrijven",
+        "schrijven en lezen"
+      ],
+      "hint": "Zoek in het derde deel waar Lisa ontdekt wat Anne leuk vond."
+    },
+    {
+      "question": "Hoe veranderde Lisa's mening over geschiedenis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "begreep",
+            "begrijpen",
+            "snapte",
+            "snappen",
+            "inzien",
+            "realiseren"
+          ],
+          [
+            "niet lang geleden",
+            "dichtbij",
+            "recent",
+            "kort geleden"
+          ],
+          [
+            "verhalen",
+            "mensen",
+            "oma",
+            "familie",
+            "persoonlijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het laatste deel van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verhaal-van-anne-frank/image-1.png",
+      "alt": "Lisa in het Anne Frank Huis die het dagboek leest"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verhaal-van-anne-frank/image-2.png",
+      "alt": "Lisa praat met haar oma aan de keukentafel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa reading Anne Frank's diary in the Anne Frank House museum in Amsterdam, children's book illustration style, thoughtful expression, historical atmosphere",
+    "A young girl sitting at a kitchen table with her elderly grandmother, both talking earnestly, warm lighting, children's book illustration style, emotional conversation"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "lola-leert-stroopwafels-bakken",
+  "title": "Lola leert stroopwafels bakken",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Lola woont nu drie maanden in Nederland. Vandaag gaat ze naar oma Jansen omdat het Koningsdag is. Oma wil samen stroopwafels maken voor het feest.\n\n\"Ik heb nog nooit stroopwafels gemaakt,\" zegt Lola bang. \"Het lijkt zo moeilijk!\" Oma lacht vriendelijk. \"Maak je geen zorgen, kindje. We doen het samen.\"\n\nEerst maken ze het deeg. Lola meet de bloem af, maar ze gooit per ongeluk te veel in de kom. Het deeg wordt te dik. \"O nee!\" roept Lola. \"Nu is alles verpest!\" Maar oma helpt haar. Ze voegen water toe en kneden opnieuw.\n\nDan komt het moeilijkste deel: het stroopwafelijzer. Het ijzer is erg heet en Lola is voorzichtig. Ze legt het deeg erin en drukt het dicht. Na twee minuten doet ze het open. \"Kijk!\" roept ze blij. \"Het is gelukt!\"\n\nAls laatste snijden ze de warme wafel open en smeren er stroop tussen. Lola proeft haar eerste zelfgemaakte stroopwafel. \"Mmm, deze is nog lekkerder dan uit de winkel!\" zegt ze trots. Nu kan ze ook Nederlandse koekjes maken.",
+  "questions": [
+    {
+      "question": "Hoe lang woont Lola al in Nederland?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "drie"
+          ],
+          [
+            "maanden"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom gaat het deeg eerst mis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "te veel",
+            "teveel",
+            "veel"
+          ],
+          [
+            "bloem",
+            "meel"
+          ],
+          [
+            "kom",
+            "gooit",
+            "gooide"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er gebeurt als Lola de bloem afmeet."
+    },
+    {
+      "question": "Vind je dat oma Jansen een goede lerares is? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "helpt",
+            "helpen",
+            "geduldig",
+            "vriendelijk",
+            "aardig"
+          ],
+          [
+            "samen",
+            "zorgen",
+            "geen zorgen",
+            "rustig",
+            "kalm"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe oma reageert als Lola fouten maakt."
+    },
+    {
+      "question": "Wat betekent 'verpest' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Lola denkt dit als het deeg te dik wordt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "kapot"
+          ],
+          [
+            "mislukt"
+          ],
+          [
+            "fout"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lola-leert-stroopwafels-bakken/image-1.png",
+      "alt": "Lola en oma Jansen maken samen deeg in de keuken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lola-leert-stroopwafels-bakken/image-2.png",
+      "alt": "Lola opent het stroopwafelijzer en ziet haar eerste wafel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with dark hair and an elderly Dutch grandmother making dough together in a cozy kitchen, flour scattered on the counter, children's book illustration style",
+    "The same girl opening a traditional Dutch stroopwafel iron with excitement, golden waffle visible inside, warm kitchen lighting, children's book illustration style"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "de-verborgen-kleuren",
+  "title": "De Verborgen Kleuren",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "cultuur",
+  "text": "Sam staarde naar de grijze betonnen muur waar vroeger een prachtig muurschildering had gestaan. De kleuren die ooit als een regenboog over de zijkant van het oude cultuurcentrum hadden gedanst, waren weggevaagd door stadsontwikkelaars die moderne kantoorgebouwen wilden bouwen. Het voelde alsof een deel van hun ziel was weggenomen.\n\nDe kunstwerken in hun buurt verdwenen een voor een, zoals bladeren die in de herfst van bomen vallen. Eerst het mozaïek bij de speeltuin, daarna de kleurrijke graffiti onder de brug, en nu dit meesterwerk dat generaties van kunstenaars hadden bijgedragen aan de identiteit van hun wijk. Sam voelde zich machteloos, als een klein steentje dat weggespoeld wordt door een grote golf.\n\n\"Waarom gebeurt dit allemaal?\" vroeg Sam aan hun grootmoeder, die als kunstenaar jarenlang in deze buurt had gewoond. \"Omdat mensen vergeten zijn dat cultuur de ziel van een gemeenschap is,\" antwoordde zij zacht. \"Kunst verbindt ons met onze geschiedenis, onze emoties, onze dromen. Zonder cultuur zijn we slechts gebouwen en straten.\"\n\nDie avond lag Sam wakker, worsteld met vragen over wie zij werkelijk waren en hoe zij zich in deze veranderende wereld wilden uitdrukken. Was kunst alleen voor 'echte' kunstenaars? Konden zij, als tiener die nog zoekende was naar hun eigen identiteit, ook iets betekenen?\n\nToen Sam de volgende ochtend door de buurt wandelde, ontdekte zij iets bijzonders. Op verschillende plekken hadden buurtbewoners kleine kunstwerkjes geplaatst: een beschilderde bloempot hier, een kleurrijke steen daar, een gedichtje op een lantaarnpaal. Het was alsof de gemeenschap stilletjes in opstand was gekomen tegen de grijze uniformiteit.\n\nGeïnspireerd door deze ontdekking, begon Sam met een simpel plan. Zij organiseerde 'Kleurkracht' - een initiatief waarbij kinderen, tieners en volwassenen samen kleine kunstprojecten realiseerden. Niet om de grote muurschilderingen te vervangen, maar om te laten zien dat cultuur leeft in elke creatieve handeling, hoe klein ook.\n\nBinnen enkele maanden transformeerde de buurt langzaam maar zeker. De grijze muren kregen nieuwe verhalen te vertellen, en Sam ontdekte dat hun eigen creativiteit geen grenzen kende - net zoals hun identiteit, die zich als een kunstwerk ontwikkelde, laag voor laag, kleur voor kleur.",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe een individu kan reageren op het verlies van cultuur door zelf actie te ondernemen en een gemeenschap te mobiliseren. De kern is dat cultuur behouden en gecreëerd kan worden door gewone mensen.",
+        "exampleAnswer": "Het verhaal gaat over hoe Sam ontdekt dat gewone mensen samen cultuur kunnen beschermen en creëren, ook al verdwijnen grote kunstwerken.",
+        "keyElements": [
+          "cultuur behouden/beschermen",
+          "gemeenschap/samen",
+          "zelf actie ondernemen/initiatief nemen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Sam uiteindelijk doet en wat dat betekent voor de buurt."
+    },
+    {
+      "question": "Waarom voelde Sam zich 'als een klein steentje dat weggespoeld wordt door een grote golf'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat dit beeldspraak is voor machteloosheid. Sam voelt zich klein en onbelangrijk tegenover de grote veranderingen in de buurt.",
+        "exampleAnswer": "Sam voelde zich machteloos en klein tegenover de grote veranderingen die de kunstwerken in hun buurt lieten verdwijnen.",
+        "keyElements": [
+          "machteloos/hulpeloos",
+          "klein/onbelangrijk",
+          "tegenover grote veranderingen/krachten"
+        ],
+        "minWords": 5
+      },
+      "hint": "Dit is beeldspraak - denk na over wat Sam voelt als alle kunst verdwijnt."
+    },
+    {
+      "question": "Hoe verandert Sams houding gedurende het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet het contrast zien tussen Sams aanvankelijke machteloosheid en hun uiteindelijke actieve houding. Van passief toekijken naar actief handelen.",
+        "exampleAnswer": "In het begin voelt Sam zich machteloos en verdrietig, maar later wordt Sam actief en organiseert een initiatief om cultuur terug te brengen.",
+        "keyElements": [
+          "van machteloos naar actief",
+          "van verdrietig/hopeloos naar hoopvol",
+          "van passief naar handelend"
+        ],
+        "minWords": 6
+      },
+      "hint": "Vergelijk hoe Sam zich voelt aan het begin met wat Sam aan het einde doet."
+    },
+    {
+      "question": "Wat wilde de schrijver met dit verhaal bereiken?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil inspireren tot actie en wil laten zien dat iedereen, ook jongeren, kunnen bijdragen aan het behoud van cultuur. Ook het thema van identiteitsontwikkeling en empowerment speelt een rol.",
+        "exampleAnswer": "De schrijver wil lezers inspireren om zelf actie te ondernemen voor cultuur en laten zien dat ook jongeren een verschil kunnen maken.",
+        "keyElements": [
+          "inspireren tot actie/motiveren",
+          "cultuur belangrijk/behouden",
+          "jongeren kunnen verschil maken/empowerment"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver wil overbrengen aan de lezer."
+    },
+    {
+      "question": "Beoordeel of 'Kleurkracht' een goede oplossing was voor het probleem in de buurt. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een onderbouwde mening geven over de effectiviteit van Sams initiatief. Goede antwoorden bevatten zowel een standpunt als argumenten, zoals: het betrok de gemeenschap, het was realistisch uitvoerbaar, het bracht kleur terug, maar misschien was het niet genoeg om de grote verliezen te compenseren.",
+        "exampleAnswer": "Ik denk dat Kleurkracht een goede oplossing was omdat het mensen samenbracht en de buurt weer kleurrijk maakte, maar het kon natuurlijk niet de grote muurschilderingen vervangen.",
+        "keyElements": [
+          "eigen mening/standpunt",
+          "argumenten/omdat/want",
+          "effect op gemeenschap/buurt"
+        ],
+        "minWords": 8
+      },
+      "hint": "Geef je eigen mening en leg uit waarom je dat vindt met voorbeelden uit het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verborgen-kleuren/image-1.png",
+      "alt": "Sam staat voor een grijze muur waar vroeger een kleurrijk muurschildering was"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verborgen-kleuren/image-2.png",
+      "alt": "Buurtbewoners plaatsen samen kleine kunstwerkjes in de straat"
+    }
+  ],
+  "imagePrompts": [
+    "A teenager with questioning expression standing in front of a grey concrete wall where colorful street art once was, children's book illustration style, Dutch urban neighborhood setting",
+    "Community members of different ages placing small colorful art pieces around the neighborhood - painted flowerpots, colorful stones, poems on lamp posts, children's book illustration style, hopeful atmosphere"
+  ]
+}

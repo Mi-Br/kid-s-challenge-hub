@@ -1,0 +1,146 @@
+{
+  "id": "de-verkiezingsdag",
+  "title": "De Verkiezingsdag",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "democratie",
+  "text": "Emma loopt met haar moeder naar het stembureau in de oude school. Overal hangen posters van politieke partijen. \"Waarom mag ik niet stemmen?\" vraagt Emma. \"Je moet achttien zijn,\" antwoordt haar moeder.\n\nIn het stembureau zitten vrijwilligers achter tafels. Ze controleren de stempassen en geven rode potloden uit. Emma's moeder laat haar identiteitskaart zien. \"Stemmen is een belangrijk recht,\" fluistert ze tegen Emma. \"Niet iedereen ter wereld mag dit.\"\n\nEmma kijkt toe hoe haar moeder achter een rood gordijn verdwijnt. Na een paar minuten komt ze terug met een opgevouwen papiertje. Ze stopt het in een doorzichtige stembus. \"Zo bepalen we samen wie ons land gaat besturen,\" zegt haar moeder trots.\n\nThuis vertelt Emma aan haar grootvader over de verkiezingen. \"Ik vind het oneerlijk dat ik niet mag stemmen,\" zegt ze. Grootvader glimlacht: \"Vroeger mochten vrouwen helemaal niet stemmen. Jouw overgrootmoeder heeft daar hard voor gevochten. Wees geduldig, jouw tijd komt nog.\"\n\nDie avond kijkt Emma naar de verkiezingsuitzending op televisie. Ze ziet hoe de stemmen worden geteld. Sommige partijen hebben veel stemmen gekregen, andere weinig. \"Zo werkt democratie,\" denkt Emma. \"Iedereen mag kiezen, maar de meerderheid beslist.\" Ze besluit dat ze de komende jaren goed zal opletten, want op haar achttiende wil ze een goede keuze maken.",
+  "questions": [
+    {
+      "question": "Wat moeten mensen laten zien in het stembureau?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "identiteitskaart",
+        "hun identiteitskaart"
+      ],
+      "hint": "Kijk naar wat Emma's moeder doet in het tweede deel van het verhaal.",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "identiteitskaart",
+          "hun identiteitskaart"
+        ]
+      }
+    },
+    {
+      "question": "Waarom vindt Emma het oneerlijk dat zij niet mag stemmen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "jong",
+            "achttien",
+            "leeftijd",
+            "te jong"
+          ],
+          [
+            "stemmen",
+            "stemrecht",
+            "verkiezingen",
+            "kiezen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma's moeder zegt over de leeftijd."
+    },
+    {
+      "question": "Hoe heeft Emma's overgrootmoeder bijgedragen aan de democratie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "gevochten",
+            "vocht",
+            "streed",
+            "gestreden"
+          ],
+          [
+            "vrouwen",
+            "vrouw",
+            "vrouwenstemrecht",
+            "vrouwenrechten"
+          ],
+          [
+            "stemrecht",
+            "stemmen",
+            "verkiezingen",
+            "kiezen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat grootvader vertelt over het verleden."
+    },
+    {
+      "question": "Vind jij het terecht dat je pas op je achttiende mag stemmen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "terecht",
+            "goed",
+            "juist",
+            "eerlijk",
+            "onterecht",
+            "slecht",
+            "oneerlijk"
+          ],
+          [
+            "volwassen",
+            "rijp",
+            "ervaring",
+            "kennis",
+            "verantwoordelijk",
+            "jong",
+            "onervaren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Geef je eigen mening en leg uit waarom je dat denkt."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe democratie werkt en hoe belangrijk stemrecht is. Het kan gaan over Emma die leert over democratie, of over hoe stemrecht een kostbaar recht is dat niet vanzelfsprekend is.",
+        "exampleAnswer": "Het verhaal gaat over hoe belangrijk stemrecht is en hoe Emma leert over democratie.",
+        "keyElements": [
+          "democratie/stemrecht/verkiezingen",
+          "belangrijk/kostbaar/waardevol",
+          "leren/begrijpen/ontdekken"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat wil de schrijver je leren over democratie?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verkiezingsdag/image-1.png",
+      "alt": "Emma en haar moeder lopen naar het stembureau"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verkiezingsdag/image-2.png",
+      "alt": "Emma's moeder stopt haar stembiljet in de stembus"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her mother walking towards a polling station in an old Dutch school building, with colorful political party posters on the walls, children's book illustration style",
+    "A woman putting a folded ballot paper into a transparent ballot box while her daughter watches, inside a polling station with volunteers at tables, children's book illustration style"
+  ]
+}

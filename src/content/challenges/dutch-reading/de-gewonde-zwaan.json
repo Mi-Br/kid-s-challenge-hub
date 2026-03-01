@@ -1,0 +1,91 @@
+{
+  "id": "de-gewonde-zwaan",
+  "title": "De Gewonde Zwaan",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Emma ging met haar opa naar het Vondelpark. Het was Koningsdag en overal waren mensen in het oranje. Opa had beloofd dat ze de zwanen zouden voeren.\n\nBij de vijver zag Emma een grote witte zwaan. Het dier lag stil op de kant. \"Opa, kijk!\" riep Emma. \"Die zwaan kan niet bewegen.\" Ze zag een plastic zak om de poot van het dier.\n\nEmma wilde de zwaan helpen. Ze ging voorzichtig naar het dier toe. De zwaan keek bang en probeerde weg te zwemmen. Maar hij kon niet want de zak zat vast aan een tak.\n\n\"Niet bang zijn,\" fluisterde Emma. Ze pakte de plastic zak heel voorzichtig vast. Langzaam trok ze de zak van de poot. De zwaan werd rustiger omdat Emma zo lief praatte.\n\nToen de poot vrij was, zwom de zwaan snel het water in. Hij klapwiekte vrolijk met zijn vleugels. Emma was blij dat ze het dier had geholpen. Opa gaf haar een knuffel omdat ze zo dapper was geweest.",
+  "questions": [
+    {
+      "question": "Waar gingen Emma en opa naartoe?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het vondelpark",
+        "naar het vondelpark"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Welke dag was het in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "koningsdag"
+      ],
+      "hint": "Lees de tweede zin van de eerste alinea."
+    },
+    {
+      "question": "Waarom kon de zwaan niet weg zwemmen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zak",
+            "plastic",
+            "plastic zak"
+          ],
+          [
+            "vast",
+            "vastzitten",
+            "zat vast"
+          ],
+          [
+            "tak",
+            "aan een tak"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het einde van de derde alinea."
+    },
+    {
+      "question": "Wat betekent het woord 'klapwiekte' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk na over wat de zwaan deed toen hij blij was.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "bewoog met zijn vleugels"
+          ],
+          [
+            "sloeg met zijn vleugels"
+          ],
+          [
+            "flapperde met zijn vleugels"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gewonde-zwaan/image-1.png",
+      "alt": "Emma en opa bij de vijver in het Vondelpark op Koningsdag"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gewonde-zwaan/image-2.png",
+      "alt": "Emma helpt voorzichtig de zwaan door de plastic zak los te maken"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl Emma with her grandfather at a pond in Vondelpark on King's Day, people wearing orange in the background, Dutch park setting, children's book illustration style",
+    "A young girl Emma carefully helping a white swan by removing a plastic bag from its foot near a pond, the swan looking calmer, children's book illustration style"
+  ]
+}

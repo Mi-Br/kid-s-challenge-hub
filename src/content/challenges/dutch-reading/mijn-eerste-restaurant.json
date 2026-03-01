@@ -1,0 +1,103 @@
+{
+  "id": "mijn-eerste-restaurant",
+  "title": "Mijn Eerste Restaurant",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Lisa loopt met mama naar het restaurant. Ze is een beetje bang omdat ze nog nooit in een restaurant heeft gegeten. \"Wat als het eten vies is?\" denkt ze.\n\nDe ober geeft hun een menukaart. Lisa ziet veel moeilijke woorden. Ze kent pizza wel, want die eet ze thuis ook. \"Ik wil pizza margherita,\" zegt ze zacht.\n\nDe ober brengt een grote pizza. Lisa neemt een hapje. \"Wauw, dit is veel lekkerder dan thuis!\" zegt ze blij. De pizza is warm en de kaas smelt in haar mond.\n\nNa het eten krijgt Lisa een ijsje als toetje. Ze vindt het restaurant nu heel leuk. \"Mogen we volgende week weer komen?\" vraagt ze aan mama. Nu wil ze altijd in restaurants eten!",
+  "questions": [
+    {
+      "question": "Wat bestelt Lisa in het restaurant?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "pizza margherita",
+        "pizza"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom was Lisa eerst bang voor het restaurant?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nooit",
+            "nog nooit",
+            "eerste keer"
+          ],
+          [
+            "gegeten",
+            "restaurant",
+            "eten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa nog nooit had gedaan."
+    },
+    {
+      "question": "Hoe verandert Lisa's mening over het restaurant?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "zenuwachtig",
+            "angstig"
+          ],
+          [
+            "blij",
+            "leuk",
+            "lekker",
+            "fijn"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Lisa zich voelt aan het begin en aan het eind."
+    },
+    {
+      "question": "Wat betekent het woord 'toetje' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa krijgt dit na de pizza.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "dessert"
+          ],
+          [
+            "iets zoets na het eten"
+          ],
+          [
+            "ijsje"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-restaurant/image-1.png",
+      "alt": "Een nerveus meisje met haar moeder voor een restaurant"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-restaurant/image-2.png",
+      "alt": "Een blij meisje die pizza eet in een restaurant"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking nervous while walking with her mother towards a cozy restaurant entrance, children's book illustration style",
+    "The same girl now smiling happily while eating a large pizza margherita at a restaurant table, warm lighting, children's book illustration style"
+  ]
+}

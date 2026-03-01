@@ -1,0 +1,101 @@
+{
+  "id": "de-pijn-in-mijn-voet",
+  "title": "De Pijn in Mijn Voet",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Lisa voelde een scherpe pijn in haar rechtervoet toen ze opstond. De vloer kraakte onder haar gewicht. Ze rook de geur van warme pannenkoeken uit de keuken, maar ze kon niet lopen.\n\n\"Mama, mijn voet doet zeer!\" riep Lisa. Ze ging weer zitten omdat het te veel pijn deed. Mama kwam naar boven en bekeek Lisa's voet. \"Je hebt je teen gestoten,\" zei mama. \"Probeer maar te lopen.\"\n\nLisa stapte voorzichtig naar beneden. Bij elke stap voelde ze de koude treden onder haar blote voeten. Maar de pijn werd erger. Ze hield zich vast aan de leuning omdat ze bijna viel.\n\n\"Dit gaat niet,\" dacht Lisa. Ze ging terug naar haar kamer en trok dikke sokken aan. Daarna liep ze heel langzaam de trap af. De zachte sokken voelden warm aan haar voeten. Nu deed het veel minder pijn.\n\nBeneden hoorde Lisa mama roepen: \"Lisa, kom je pannenkoeken eten?\" Lisa glimlachte en liep naar de keuken. Ze rook de zoete geur weer. Haar voet deed nog een beetje pijn, maar ze kon wel lopen. \"Ik kom eraan!\" riep ze terug.",
+  "questions": [
+    {
+      "question": "Welke voet doet pijn bij Lisa?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "rechtervoet"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Welke voet doet pijn bij Lisa?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "rechtervoet"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom kon Lisa eerst niet goed lopen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "pijn",
+            "zeer",
+            "deed pijn"
+          ],
+          [
+            "voet",
+            "teen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met haar voet was."
+    },
+    {
+      "question": "Wat betekent 'voorzichtig' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk hoe Lisa de trap afging.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "langzaam"
+          ],
+          [
+            "oplettend"
+          ],
+          [
+            "heel langzaam"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-pijn-in-mijn-voet/image-1.png",
+      "alt": "Lisa zit op haar bed en houdt haar pijnlijke voet vast"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-pijn-in-mijn-voet/image-2.png",
+      "alt": "Lisa loopt voorzichtig de trap af met dikke sokken aan"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sitting on her bed holding her painful foot, children's book illustration style, soft morning light",
+    "A young girl carefully walking down stairs wearing thick socks, holding the railing, children's book illustration style"
+  ]
+}

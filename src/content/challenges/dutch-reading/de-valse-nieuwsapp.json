@@ -1,0 +1,138 @@
+{
+  "id": "de-valse-nieuwsapp",
+  "title": "De Valse Nieuwsapp",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "technologie",
+  "text": "Lisa zag de app FlitsNieuws op haar telefoon. \"Alle scholen in Nederland sluiten volgende week!\" stond er. Wat spannend! Ze deelde het bericht meteen met haar vrienden.\n\nMaar toen herinnerde Lisa zich wat haar leraar had gezegd. Vorig jaar had hij verteld over nepnieuws op het internet. \"Controleer altijd je bronnen,\" had hij gezegd. \"Kijk wie het artikel heeft geschreven en wanneer.\"\n\nLisa opende het artikel opnieuw. Er stond geen naam van een schrijver bij. Ook was er geen datum te vinden. Het bericht kwam niet van een bekende nieuwssite zoals NOS of RTL Nieuws. FlitsNieuws kende niemand.\n\nDe volgende dag ging Lisa gewoon naar school. Alle lessen waren er nog. Haar leraar lachte toen ze het verhaal vertelde. \"Goed dat je hebt nagedacht, Lisa. Niet alles wat je online leest is waar. Vraag jezelf altijd af: wie heeft dit geschreven en waarom?\"\n\nLisa voelde zich een beetje dom omdat ze het eerste bericht zo snel had gedeeld. Maar ze had wel een belangrijke les geleerd. Nu checkt ze altijd haar bronnen voordat ze iets deelt. Want nepnieuws verspreidt zich sneller dan echt nieuws.\n\nSinds die dag gebruikt Lisa alleen betrouwbare nieuwssites. Ze leest altijd wie de schrijver is en wanneer het artikel is gepubliceerd. Zo zorgt ze ervoor dat ze geen valse informatie meer deelt.",
+  "questions": [
+    {
+      "question": "Wat stond er in het bericht van FlitsNieuws?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "alle scholen in nederland sluiten volgende week",
+        "scholen sluiten volgende week",
+        "alle scholen sluiten volgende week"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom twijfelde Lisa aan het bericht van FlitsNieuws?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "leraar",
+            "onderwijzer",
+            "meester",
+            "juf"
+          ],
+          [
+            "zei",
+            "gezegd",
+            "verteld",
+            "uitgelegd",
+            "geleerd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa zich herinnerde uit de tweede alinea."
+    },
+    {
+      "question": "Welke problemen ontdekte Lisa bij het FlitsNieuws artikel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "naam",
+            "schrijver",
+            "auteur"
+          ],
+          [
+            "datum",
+            "tijdstip",
+            "wanneer"
+          ],
+          [
+            "onbekend",
+            "kende",
+            "niemand",
+            "niet bekend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lisa controleerde verschillende dingen in de derde alinea."
+    },
+    {
+      "question": "Wat is volgens jou het belangrijkste advies uit dit verhaal voor anderen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "controleren",
+            "checken",
+            "nakijken",
+            "onderzoeken"
+          ],
+          [
+            "bronnen",
+            "bron",
+            "website",
+            "sites"
+          ],
+          [
+            "delen",
+            "doorsturen",
+            "versturen",
+            "verzenden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa heeft geleerd en hoe anderen dezelfde fout kunnen voorkomen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het kritisch beoordelen van informatie op het internet en het controleren van bronnen voordat je iets gelooft of deelt. Het gaat over mediawijsheid en het herkennen van nepnieuws.",
+        "exampleAnswer": "Het verhaal gaat over het belang van bronnen controleren voordat je nieuwsberichten gelooft of deelt.",
+        "keyElements": [
+          "bronnen controleren/checken",
+          "nepnieuws/valse informatie",
+          "kritisch denken/nadenken"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat wil de schrijver je leren over het omgaan met informatie op internet?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-valse-nieuwsapp/image-1.png",
+      "alt": "Lisa kijkt naar een nieuwsbericht op haar telefoon"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-valse-nieuwsapp/image-2.png",
+      "alt": "Lisa controleert de bron van het nieuwsartikel op haar telefoon"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch teenage girl looking shocked at her smartphone screen showing a news app with dramatic headlines, children's book illustration style",
+    "A Dutch teenage girl carefully examining her smartphone, looking thoughtful and analytical while checking the source of a news article, children's book illustration style"
+  ]
+}

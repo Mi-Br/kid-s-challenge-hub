@@ -1,0 +1,81 @@
+{
+  "id": "sinterklaas-verrassing",
+  "title": "Sinterklaas Verrassing",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Lisa is nieuw in Nederland. Ze woont hier pas drie maanden. Vandaag ziet ze veel kinderen met gekleurde snoepjes op straat. Ze ruikt de zoete geur van chocolade en hoort vrolijke liedjes.\n\nHaar buurmeisje Emma komt naar haar toe. \"Weet je wat Sinterklaas is?\" vraagt Emma. Lisa schudt haar hoofd. \"Sinterklaas is een feest in december,\" legt Emma uit. \"Hij brengt cadeautjes voor alle kinderen.\"\n\nEmma vraagt of Lisa een liedje wil zingen. \"Ik kan niet zingen,\" zegt Lisa zachtjes. Maar Emma houdt aan. Ze begint: \"Sinterklaas kapoentje, gooi wat in mijn schoentje.\" Lisa zingt voorzichtig mee. Haar stem klinkt helder en mooi.\n\n\"Wat zing je prachtig!\" roept Emma uit. Lisa voelt haar wangen warm worden. Ze heeft nooit geweten dat ze goed kan zingen. Thuis oefent ze elke dag Nederlandse liedjes. Bij de Sinterklaasviering op school zingt ze voor de hele klas. Iedereen klapt hard voor haar.",
+  "questions": [
+    {
+      "question": "Hoe lang woont Lisa al in Nederland?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "drie"
+          ],
+          [
+            "maanden"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "In welke maand is Sinterklaas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "december",
+        "in december"
+      ],
+      "hint": "Emma legt het uit aan Lisa."
+    },
+    {
+      "question": "Waarom voelt Lisa haar wangen warm worden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "trots",
+            "gelukkig",
+            "verlegen",
+            "bloos",
+            "bloost"
+          ],
+          [
+            "mooi",
+            "prachtig",
+            "goed",
+            "compliment",
+            "zingen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma tegen Lisa zegt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-verrassing/image-1.png",
+      "alt": "Lisa en Emma staan op straat met kinderen die snoepjes hebben"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-verrassing/image-2.png",
+      "alt": "Lisa zingt voor de klas tijdens de Sinterklaasviering"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls talking on a Dutch street during Sinterklaas celebration, children in background holding colorful candy, festive December atmosphere, children's book illustration style",
+    "A girl singing confidently in front of her classroom during a Sinterklaas school celebration, other children clapping and smiling, warm classroom setting, children's book illustration style"
+  ]
+}

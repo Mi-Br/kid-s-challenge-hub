@@ -1,0 +1,112 @@
+{
+  "id": "de-enge-ballonnen",
+  "title": "De Enge Ballonnen",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Woensdag werd Lieke acht jaar. Ze wilde een groot feest omdat ze eindelijk een echte grote meid was. Mama zei dat ze zelf de ballonnen mocht uitkiezen in de winkel.\n\nIn de speelgoedwinkel hingen overal kleurige ballonnen. Lieke zag rode, blauwe en gele ballonnen die er vrolijk uitzagen. Maar toen ontdekte ze iets bijzonders: gigantische zilveren ballonnen die bijna net zo groot waren als zijzelf. \"Die wil ik!\" riep ze uit.\n\n\"Weet je het zeker?\" vroeg mama. \"Ze zijn heel groot en glimmend. Misschien vind je ze straks eng omdat ze zo raar bewegen in de wind.\" Lieke schudde haar hoofd. \"Ik ben niet bang meer, mama. Ik ben al acht!\"\n\nThuis hing papa de zilveren ballonnen op in de tuin. De wind deed ze heen en weer zwaaien. Ze maakten ook vreemde geluiden toen ze tegen elkaar botsten. Lieke verstopte zich achter mama omdat de ballonnen er nu ineens heel griezelig uitzagen.\n\n\"Kijk goed,\" zei papa vriendelijk. \"Het zijn gewoon ballonnen met lucht erin. Ze kunnen je geen pijn doen.\" Hij liet Lieke de ballonnen voorzichtig aanraken. Ze voelden zacht aan en waren helemaal niet eng.\n\nToen de vriendjes kwamen, vonden ze de zilveren ballonnen het mooiste wat ze ooit hadden gezien. \"Wat een geweldig feest!\" riepen ze. Lieke glunderde van trots. De ballonnen die eerst zo eng leken, maakten haar verjaardag nu extra speciaal.",
+  "questions": [
+    {
+      "question": "Hoe oud werd Lieke?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "acht"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe zagen de zilveren ballonnen eruit in de winkel?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de tweede alinea wat er bijzonder was aan de ballonnen.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "gigantisch"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom verstopte Lieke zich achter mama?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "eng",
+            "griezelig",
+            "vreemd",
+            "raar"
+          ],
+          [
+            "ballonnen",
+            "ballon"
+          ],
+          [
+            "bewogen",
+            "zwaaiden",
+            "geluiden",
+            "botsten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe de ballonnen eruitzagen in de tuin."
+    },
+    {
+      "question": "Wat betekent het woord 'glunderde' in het verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lees de laatste zin. Hoe voelde Lieke zich toen iedereen de ballonnen mooi vond?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "was blij"
+          ],
+          [
+            "was trots"
+          ],
+          [
+            "straalde"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-enge-ballonnen/image-1.png",
+      "alt": "Een meisje dat grote zilveren ballonnen bekijkt in een speelgoedwinkel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-enge-ballonnen/image-2.png",
+      "alt": "Zilveren ballonnen die bewegen in de wind in een tuin tijdens een kinderfeestje"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking at huge silver balloons in a colorful toy store, children's book illustration style, bright and cheerful interior",
+    "Large silver balloons swaying in the wind in a Dutch backyard during a children's birthday party, with kids playing around them, children's book illustration style"
+  ]
+}

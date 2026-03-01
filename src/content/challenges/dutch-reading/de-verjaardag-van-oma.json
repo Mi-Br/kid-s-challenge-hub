@@ -1,0 +1,108 @@
+{
+  "id": "de-verjaardag-van-oma",
+  "title": "De Verjaardag van Oma",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de buurt",
+  "text": "Lisa en Tom gingen naar oma's verjaardag. Oma woonde in een oude flat in hun buurt. Alle buren kwamen ook omdat oma altijd aardig was voor iedereen.\n\nLisa zag de mooie taart op tafel. Ze pakte snel een groot stuk want ze hield van chocoladetaart. Tom deed hetzelfde. Ze aten hun stukken heel snel op.\n\nToen oma de taart wilde aansnijden, waren de mooiste stukken al weg. Oma keek verdrietig naar de taart. \"Oh,\" zei ze zacht, \"er is niet genoeg voor alle buren.\"\n\nLisa en Tom voelden zich schuldig. Ze hadden niet nagedacht over de andere gasten. \"Sorry oma,\" zei Lisa. \"We waren niet beleefd.\"\n\nTom ging naar de bakkerij om de hoek. Hij kocht een nieuwe kleine taart van zijn zakgeld. \"Voor u, oma,\" zei hij. \"Nu heeft iedereen genoeg.\"\n\nOma glimlachte breed. Alle buren klapten voor Tom. Lisa beloofde dat ze de volgende keer eerst zou vragen voordat ze iets nam.",
+  "questions": [
+    {
+      "question": "Waar woonde oma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in een oude flat in hun buurt",
+        "in een oude flat"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Waarom kwamen alle buren naar oma's feest?",
+      "questionType": "begrijpen",
+      "hint": "Het antwoord staat in de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "altijd"
+          ],
+          [
+            "aardig"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom voelden Lisa en Tom zich schuldig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "taart",
+            "stuk",
+            "stukken"
+          ],
+          [
+            "gepakt",
+            "genomen",
+            "weggenomen",
+            "opgegeten",
+            "aten"
+          ],
+          [
+            "buren",
+            "gasten",
+            "anderen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde met de taart."
+    },
+    {
+      "question": "Wat betekent het woord 'beleefd' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa zegt dit nadat ze en Tom iets verkeerd hadden gedaan.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "aardig"
+          ],
+          [
+            "netjes"
+          ],
+          [
+            "hoffelijk"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verjaardag-van-oma/image-1.png",
+      "alt": "Lisa en Tom bij oma's verjaardagsfeest met alle buren"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verjaardag-van-oma/image-2.png",
+      "alt": "Tom die een nieuwe taart brengt voor oma"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a birthday party in an elderly woman's apartment with neighbors of all ages gathered around a table with a chocolate cake, Dutch apartment building setting",
+    "Children's book illustration of a young boy carrying a small cake from a Dutch bakery while an elderly woman and neighbors smile and clap in the background"
+  ]
+}

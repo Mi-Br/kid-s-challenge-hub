@@ -1,0 +1,100 @@
+{
+  "id": "het-geheime-aquarium",
+  "title": "Het Geheime Aquarium",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "\"Opa, waar zijn alle vissen?\" vroeg Emma toen ze in de lege vijver keek.\n\n\"Die zijn weggevlucht, denk ik,\" zei opa verdrietig. \"Gisteren zag ik een grote vis alle kleine vissen opeten.\"\n\n\"Maar opa, dat komt omdat ik de snoek erin heb gedaan!\" riep Emma uit. \"Ik vond hem in de sloot en dacht dat hij vriendjes wilde.\"\n\nMama schudde haar hoofd. \"Emma, een snoek is een roofdier. Die eet andere vissen op.\"\n\n\"O nee!\" Emma begon te huilen. \"Ik wilde de vissen helpen, niet wegjagen!\"\n\n\"We kunnen nieuwe vissen kopen,\" zei opa zacht. \"Maar eerst moet de snoek weg.\"\n\n\"Ik help mee,\" zei Emma. \"Want dit is mijn fout.\"\n\nSamen vingen ze de snoek met een groot net. Emma zette hem terug bij de sloot waar hij thuishoorde.\n\n\"Nu kunnen we weer nieuwe goudvissen kopen,\" zei mama. \"Maar alleen vreedzame vissen deze keer.\"\n\n\"Beloofd!\" zei Emma blij.",
+  "questions": [
+    {
+      "question": "Welk dier heeft Emma in de vijver gedaan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een snoek",
+        "snoek",
+        "de snoek"
+      ],
+      "hint": "Kijk naar wat Emma zegt in het derde stukje."
+    },
+    {
+      "question": "Waar vond Emma de snoek?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de sloot",
+        "sloot",
+        "de sloot"
+      ],
+      "hint": "Emma vertelt waar ze het dier heeft gevonden."
+    },
+    {
+      "question": "Waarom zijn de vissen uit de vijver verdwenen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "snoek",
+            "grote vis",
+            "roofdier"
+          ],
+          [
+            "opeten",
+            "opgegeten",
+            "eet",
+            "at"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat mama zegt over een snoek."
+    },
+    {
+      "question": "Vind jij dat Emma goed heeft gereageerd toen ze hoorde wat er was gebeurd?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "prima"
+          ],
+          [
+            "helpen",
+            "help",
+            "meehelpen",
+            "oplossen"
+          ],
+          [
+            "sorry",
+            "spijt",
+            "fout",
+            "schuld"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Emma doet nadat ze hoort dat het haar fout was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheime-aquarium/image-1.png",
+      "alt": "Emma kijkt verdrietig in een lege vijver terwijl opa en mama naast haar staan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheime-aquarium/image-2.png",
+      "alt": "Emma en opa vangen samen de snoek met een groot net uit de vijver"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking sadly into an empty garden pond while her grandfather and mother stand beside her, children's book illustration style, Dutch garden setting",
+    "A young girl and her grandfather working together to catch a large pike fish with a net from a garden pond, children's book illustration style, showing teamwork and problem-solving"
+  ]
+}

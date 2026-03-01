@@ -1,0 +1,143 @@
+{
+  "id": "de-laatste-brief-uit-praag",
+  "title": "De Laatste Brief uit Praag",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "reizen",
+  "text": "Mijn zus Eva was altijd de avontuurlijke van ons gezin. Vorige zomer reisde ze alleen naar Praag voor een maand, terwijl ik thuis bleef met mijn boeken en computerspelletjes. Haar eerste brieven waren vol enthousiasme over de gotische architectuur en de levendige nachtmarkten. Ze schreef dat ze zich nog nooit zo vrij had gevoeld.\n\nNa twee weken werden haar berichten korter en vager. 'Alles is fantastisch hier,' schreef ze, maar haar handschrift werd slordig en ze vergat details die normaal belangrijk voor haar waren. Mama maakte zich zorgen, maar papa zei dat Eva gewoon genoot van haar onafhankelijkheid. Ik voelde echter dat er iets niet klopte – Eva's vrolijke toon leek geforceerd, alsof ze probeerde iets te verbergen.\n\nDe laatste brief kwam drie dagen voor haar geplande terugkeer. Eva beschreef een romantisch diner bij de rivier met 'iemand heel bijzonders', maar de zinnen waren warrig en sommige woorden waren doorgestreept. Ze noemde deze persoon 'mijn redder' en schreef dat ze 'misschien wel voor altijd zou blijven'. Het meest verontrustende was dat ze haar plannen om rechten te gaan studeren plotseling had opgegeven.\n\nToen Eva niet op de afgesproken dag thuiskwam, vlogen mijn ouders naar Praag. Ze vonden haar in een klein appartement, verwaard en uitgeput. Later bleek dat ze in een depressieve episode was geraakt – iets wat ze nooit eerder had meegemaakt. De 'bijzondere persoon' was een vreemde die misbruik had gemaakt van haar kwetsbare toestand. Eva had zich geschaamd om hulp te vragen, omdat ze dacht dat ze sterk genoeg was om alles alleen op te lossen.\n\nNu, een jaar later, gaat het veel beter met Eva. Ze heeft professionele hulp gezocht en begrijpt dat mentale gezondheid net zo belangrijk is als fysieke gezondheid. Ze plant alweer nieuwe reizen, maar nu met de kennis dat avontuur en voorzichtigheid hand in hand kunnen gaan. Ik heb geleerd dat liefde soms betekent dat je de signalen moet herkennen wanneer iemand in nood verkeert, ook al proberen ze het te verbergen.",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herkennen van mentale gezondheidsproblemen en het belang van hulp zoeken. De nadruk ligt op het feit dat mensen kunnen doen alsof alles goed gaat terwijl ze eigenlijk hulp nodig hebben.",
+        "exampleAnswer": "Het verhaal laat zien hoe belangrijk het is om signalen van mentale gezondheidsproblemen te herkennen en dat het oké is om hulp te vragen.",
+        "keyElements": [
+          "mentale gezondheid/depressie/psychische problemen",
+          "hulp zoeken/signalen herkennen/steun vragen",
+          "verbergen/doen alsof/schamen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat de familie heeft geleerd over Eva's problemen en hulp zoeken."
+    },
+    {
+      "question": "Waarom denk je dat de schrijver dit verhaal vanuit het perspectief van Eva's broer/zus heeft geschreven in plaats van vanuit Eva zelf?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het perspectief van een familielid laat zien hoe mensen om ons heen signalen kunnen opmerken en dat het verhaal toegankelijker wordt voor lezers die zelf misschien een dierbare met mentale gezondheidsproblemen hebben.",
+        "exampleAnswer": "Door het vanuit de broer/zus te vertellen kunnen lezers zich herkennen in hoe je signalen herkent bij iemand die je dierbaar is.",
+        "keyElements": [
+          "signalen herkennen/opmerken",
+          "familielid/dierbare/broer/zus perspectief",
+          "herkenbaarheid/toegankelijk voor lezers"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de verteller kan zien wat Eva misschien zelf niet kon uitleggen."
+    },
+    {
+      "question": "Hoe veranderde Eva's gedrag tijdens haar reis, en wat waren de concrete signalen dat er iets niet goed ging?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "korter",
+            "vager",
+            "slordig",
+            "warrig",
+            "geforceerd"
+          ],
+          [
+            "brieven",
+            "berichten",
+            "schrijven",
+            "schreef"
+          ],
+          [
+            "details",
+            "plannen",
+            "handschrift",
+            "toon",
+            "zinnen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de tweede en derde alinea waar beschreven wordt hoe haar brieven veranderden."
+    },
+    {
+      "question": "Evalueer Eva's beslissing om haar problemen voor haar familie te verbergen. Kun je begrijpen waarom ze dit deed?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet kunnen begrijpen dat Eva zich schaamde en dacht dat ze sterk genoeg was om het alleen op te lossen. Een goede evaluatie toont begrip voor haar situatie maar erkent ook dat hulp zoeken beter was geweest.",
+        "exampleAnswer": "Ik kan begrijpen dat Eva zich schaamde omdat ze altijd de sterke was, maar het was beter geweest als ze eerder hulp had gevraagd.",
+        "keyElements": [
+          "schaamte/schamen",
+          "sterk/alleen oplossen",
+          "hulp vragen/eerder hulp",
+          "begrijpen/begrijpelijk"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat er in de vierde alinea staat over waarom Eva geen hulp vroeg."
+    },
+    {
+      "question": "Leg uit wat de schrijver bedoelt met de zin 'avontuur en voorzichtigheid hand in hand kunnen gaan' aan het einde van het verhaal.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "voorzichtig",
+            "opletten",
+            "voorbereiden",
+            "bewust",
+            "alert"
+          ],
+          [
+            "reizen",
+            "avontuur",
+            "ontdekken",
+            "ervaren"
+          ],
+          [
+            "balans",
+            "combineren",
+            "samen",
+            "tegelijk",
+            "beide"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Eva nu anders doet bij het plannen van reizen vergeleken met voorheen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-laatste-brief-uit-praag/image-1.png",
+      "alt": "Eva schrijft een brief aan een tafel in een Praagse kamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-laatste-brief-uit-praag/image-2.png",
+      "alt": "Een familie herenigd op het vliegveld, Eva ziet er moe uit"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting at a small table in a Prague apartment writing a letter, looking confused and tired, with Gothic architecture visible through the window, children's book illustration style",
+    "A family reunion at an airport, parents embracing their exhausted teenage daughter who looks relieved but fragile, warm lighting suggesting hope, children's book illustration style"
+  ]
+}

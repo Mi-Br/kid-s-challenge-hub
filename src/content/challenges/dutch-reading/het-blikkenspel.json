@@ -1,0 +1,78 @@
+{
+  "id": "het-blikkenspel",
+  "title": "Het Blikkenspel",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "spelen",
+  "text": "Lisa speelt in de tuin bij haar oma. Ze ziet lege blikken op een plank. \"Mag ik ermee spelen, oma?\" vraagt ze. Oma knikt en lacht.\n\nLisa zet de blikken op elkaar. Ze pakt een bal en gooit hem naar de blikken. KLETS! Alle blikken vallen om. \"Wat leuk!\" roept Lisa.\n\nDan hoort ze oma roepen vanuit de keuken. \"O nee, mijn jam-blikken!\" Lisa kijkt goed naar de blikken. Er staan letters op: AARDBEIEN JAM. Nu begrijpt ze het. Dit waren geen speelgoed-blikken maar oma's lege jam-blikken!\n\nLisa voelt zich verdrietig. Ze heeft oma's spullen gebruikt zonder te vragen wat ze waren. Snel zet ze alle blikken netjes terug op de plank.\n\nAls oma naar buiten komt, zegt Lisa: \"Sorry oma, ik dacht dat het speelgoed was. Ik heb je jam-blikken gebruikt.\" Oma glimlacht en knuffelt Lisa. \"Dat geeft niet, lieverd. Ze waren toch leeg. Volgende keer vragen we samen wat er in de blikken zat, goed?\"",
+  "questions": [
+    {
+      "question": "Waar speelt Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de tuin bij haar oma",
+        "in de tuin",
+        "bij oma in de tuin"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat stond er op de blikken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "aardbeien jam",
+        "letters",
+        "letters: aardbeien jam"
+      ],
+      "hint": "Lisa kijkt goed naar de blikken en ziet iets staan."
+    },
+    {
+      "question": "Waarom voelde Lisa zich verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gebruikte",
+            "gebruikt",
+            "gebruiken",
+            "gepakt",
+            "nam",
+            "genomen"
+          ],
+          [
+            "vragen",
+            "gevraagd",
+            "vroeg",
+            "toestemming"
+          ],
+          [
+            "oma's",
+            "oma",
+            "spullen",
+            "blikken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa deed zonder iets te weten."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-blikkenspel/image-1.png",
+      "alt": "Lisa die blikken op elkaar zet in oma's tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-blikkenspel/image-2.png",
+      "alt": "Lisa die sorry zegt tegen oma terwijl ze elkaar knuffelen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl stacking empty cans in a grandmother's garden, children's book illustration style, with a cozy Dutch backyard setting",
+    "A young girl apologizing to her smiling grandmother while they hug, with scattered cans visible in the background, children's book illustration style"
+  ]
+}

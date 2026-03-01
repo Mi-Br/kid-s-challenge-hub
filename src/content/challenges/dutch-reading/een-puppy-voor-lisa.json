@@ -1,0 +1,105 @@
+{
+  "id": "een-puppy-voor-lisa",
+  "title": "Een Puppy voor Lisa",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Lisa wilde al heel lang een puppy. Elke dag vroeg ze aan mama: \"Mogen we een hondje?\" Mama zei altijd: \"Ons huis is te klein voor een hond.\"\n\nOp zaterdag ging Lisa met mama naar het dierenasiel. \"Als we een kleine hond vinden, zou dat misschien kunnen,\" zei mama. Lisa was heel blij! Ze zag veel honden. Een grote bruine hond blafte hard. Een kleine witte hond sprong tegen het hek.\n\nDe medewerker vertelde: \"Deze kleine hond heet Pip. Hij is nog maar zes maanden oud.\" Pip kwispelde met zijn staart. Hij likte Lisa's hand. \"Pip is heel lief,\" zei Lisa. Mama keek bezorgd. \"Maar kunnen we hem wel goed verzorgen?\"\n\nLisa beloofde: \"Ik zal elke dag met Pip wandelen. Ik geef hem eten en water.\" De medewerker zei: \"Jullie kunnen eerst een week nadenken.\" Lisa en mama gingen naar huis. Lisa droomde die nacht van Pip.\n\nDe volgende week dacht Lisa veel na. Ze las boeken over honden. Als ze goed voor Pip zou zorgen, zouden ze beste vrienden worden. Maar wat als mama toch nee zei?",
+  "questions": [
+    {
+      "question": "Wat zei mama altijd als Lisa vroeg om een hondje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ons huis is te klein voor een hond"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat beloofde Lisa aan mama over Pip?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ik zal elke dag met pip wandelen. ik geef hem eten en water",
+        "elke dag wandelen en eten en water geven"
+      ],
+      "hint": "Zoek in de vierde alinea wat Lisa zou doen."
+    },
+    {
+      "question": "Waarom wilde Lisa graag een puppy?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lang",
+            "heel lang",
+            "altijd"
+          ],
+          [
+            "wilde",
+            "wil",
+            "wou",
+            "wensen",
+            "verlangen"
+          ],
+          [
+            "puppy",
+            "hond",
+            "hondje",
+            "huisdier"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe lang Lisa al een wens had."
+    },
+    {
+      "question": "Vind jij dat Lisa een goede eigenaar voor Pip zou zijn?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "geschikt"
+          ],
+          [
+            "beloofde",
+            "beloven",
+            "zorgen",
+            "verzorgen",
+            "wandelen"
+          ],
+          [
+            "boeken",
+            "lezen",
+            "leerde",
+            "nadenken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Lisa allemaal deed om zich voor te bereiden."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/een-puppy-voor-lisa/image-1.png",
+      "alt": "Lisa en mama kijken naar kleine hond Pip in het dierenasiel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/een-puppy-voor-lisa/image-2.png",
+      "alt": "Lisa leest thuis boeken over honden"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl and her mother looking at a small white puppy named Pip in an animal shelter, the puppy wagging his tail behind a fence, children's book illustration style",
+    "A young girl reading books about dogs at home, dreaming about taking care of a puppy, cozy Dutch living room setting, children's book illustration style"
+  ]
+}

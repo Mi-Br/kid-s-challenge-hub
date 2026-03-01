@@ -1,0 +1,126 @@
+{
+  "id": "de-rare-voet",
+  "title": "De Rare Voet",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Emma zat op haar bed en keek naar haar linkervoet. Die voet was anders dan haar rechtervoet. Hij was een beetje kleiner en de tenen waren korter. Emma vond haar linkervoet heel lelijk. Ze droeg altijd lange sokken, omdat ze zich schaamde.\n\nOp school had Emma geen vrienden. Ze deed nooit mee met sport omdat ze bang was dat andere kinderen haar voet zouden zien. In de pauze bleef ze binnen zitten. De juf vroeg vaak waarom Emma zo stil was, maar Emma vertelde niets.\n\nOp een dag kwam er een nieuwe jongen in de klas. Hij heette Luuk en hij had een bijzondere arm. Zijn rechterarm was korter dan zijn linkerarm en zijn hand had maar drie vingers. Luuk was vrolijk en praatte veel. Hij deed mee met alles.\n\nToen de kinderen gingen voetballen, liep Luuk vrolijk mee naar buiten. Emma keek vanuit het raam. Ze zag dat Luuk heel goed kon voetballen, ook met zijn bijzondere arm. De andere kinderen vonden het gewoon normaal.\n\nNa school liep Emma naar Luuk toe. 'Ben je niet bang dat kinderen naar je arm kijken?' vroeg ze zacht. Luuk lachte. 'Eerst wel,' zei hij. 'Maar toen ontdekte ik dat mijn arm heel handig is. Ik kan er dingen mee doen die anderen niet kunnen. Kijk!' Luuk pakte met zijn drie vingers een klein steentje op en gooide het heel ver weg.\n\nDe volgende dag deed Emma haar korte sokken aan. Ze liep naar buiten waar de kinderen aan het voetballen waren. 'Mag ik meedoen?' vroeg ze. Toen de kinderen haar voet zagen, zei Luuk: 'Wat cool! Jij kunt vast heel snel rennen met die voet!' Emma probeerde het. Tot haar verbazing kon ze echt heel snel rennen. Haar kleine voet was lichter en dat maakte haar sneller dan alle andere kinderen.",
+  "questions": [
+    {
+      "question": "Welke kleur sokken droeg Emma altijd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "lange sokken",
+        "lange"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke kleur sokken droeg Emma altijd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "lange sokken",
+        "lange"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom deed Emma eerst niet mee met sport?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "schaamde",
+            "verlegen"
+          ],
+          [
+            "voet",
+            "voeten"
+          ],
+          [
+            "zien",
+            "kijken",
+            "zag",
+            "keek"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Emma's gevoel over haar voet."
+    },
+    {
+      "question": "Vind je dat Luuk een goede vriend is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "aardig",
+            "lief"
+          ],
+          [
+            "helpen",
+            "hielp",
+            "moed",
+            "vrolijk",
+            "lachte"
+          ],
+          [
+            "anders",
+            "bijzonder",
+            "normaal",
+            "gewoon"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Luuk deed om Emma te helpen."
+    },
+    {
+      "question": "Wat betekent het woord 'ontdekte' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Luuk vertelt wat hij over zijn arm leerde.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "kwam erachter"
+          ],
+          [
+            "leerde"
+          ],
+          [
+            "begreep"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-rare-voet/image-1.png",
+      "alt": "Emma zit op haar bed en kijkt naar haar voeten"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-rare-voet/image-2.png",
+      "alt": "Emma rent snel op het schoolplein met andere kinderen"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl sitting on her bed looking sadly at her feet, one foot is smaller than the other, children's book illustration style, soft colors",
+    "The same girl running very fast on a Dutch school playground with other children watching in amazement, she looks happy and confident, children's book illustration style"
+  ]
+}

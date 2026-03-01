@@ -1,0 +1,120 @@
+{
+  "id": "de-geheime-boodschap",
+  "title": "De Geheime Boodschap",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de bibliotheek",
+  "text": "Lotte en Emma waren al sinds groep drie de beste vriendinnen. Elke woensdagmiddag gingen ze samen naar de bibliotheek om boeken uit te zoeken. Emma hield van spannende verhalen over ridders en draken, terwijl Lotte liever grappige boeken over dieren las.\n\nOp een woensdag ontdekte Emma een oud boek dat \"De Schat van Vriendschap\" heette. Tussen de bladzijden vond ze een briefje met een raadsel: \"Waar de stenen muren verhalen bewaren, daar wacht een verrassing voor echte vrienden.\" Emma wilde het raadsel meteen met Lotte oplossen, maar Lotte was bezig met haar huiswerk voor de rekentoets.\n\n\"Kan het niet wachten?\" zuchtte Lotte geïrriteerd. \"Ik moet deze sommen nog afmaken.\" Emma voelde zich teleurgesteld omdat Lotte geen tijd had voor hun avontuur. Ze besloot het raadsel alleen op te lossen.\n\nDe volgende week kwam Emma elke dag alleen naar de bibliotheek. Ze zocht tussen de oude boeken en vroeg de bibliothecaris om hulp. Ondertussen miste Lotte hun gezamenlijke bezoekjes, maar ze was te trots om het toe te geven. Ze dacht dat Emma geen vrienden meer met haar wilde zijn.\n\nOp vrijdag vond Emma eindelijk de oplossing van het raadsel. Achter een oude encyclopedie lag een klein doosje met twee vriendschapsarmbandjes erin. Er zat ook een briefje bij: \"Voor twee vriendinnen die samen op avontuur gaan.\" Emma begrefte dat het raadsel alleen leuk was als je het samen oploste.\n\nDie middag ging Emma naar Lotte toe. \"Het spijt me dat ik je niet heb geholpen met rekenen,\" zei ze zacht. \"En het spijt mij dat ik zo geïrriteerd deed,\" antwoordde Lotte. Ze omhelsden elkaar en beloofden dat ze voortaan altijd eerlijk zouden zijn over hun gevoelens. Samen gingen ze terug naar de bibliotheek om hun vriendschap te vieren met een nieuw boek.",
+  "questions": [
+    {
+      "question": "Welke soort boeken leest Lotte het liefst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "grappige boeken over dieren"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom wilde Lotte niet meteen het raadsel oplossen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "huiswerk",
+            "sommen",
+            "rekenen",
+            "rekentoets",
+            "toets"
+          ],
+          [
+            "bezig",
+            "maken",
+            "afmaken",
+            "doen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Lotte zegt in de tweede alinea."
+    },
+    {
+      "question": "Hoe voelden beide meisjes zich toen ze niet meer samen naar de bibliotheek gingen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "teleurgesteld",
+            "verdrietig",
+            "triest",
+            "miste",
+            "gemist"
+          ],
+          [
+            "trots",
+            "trots om toe te geven",
+            "geen vrienden",
+            "alleen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de derde en vierde alinea naar hun gevoelens."
+    },
+    {
+      "question": "Vind jij dat Emma gelijk had om alleen het raadsel op te lossen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee/deels) en uitleggen waarom, bijvoorbeeld: Emma wilde avontuur maar Lotte had geen tijd, of vrienden moeten samen dingen doen, of Emma had moeten wachten.",
+        "exampleAnswer": "Nee, want vrienden horen samen avonturen te beleven. Emma had kunnen wachten tot Lotte klaar was met haar huiswerk.",
+        "keyElements": [
+          "mening geven",
+          "uitleg/reden",
+          "vriendschap/samen/alleen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat vrienden voor elkaar doen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over vriendschap, eerlijk zijn tegen elkaar, samen problemen oplossen, of dat ruziemaken en verzoenen bij vriendschap hoort.",
+        "exampleAnswer": "Het verhaal gaat over vriendschap en dat je eerlijk moet zijn tegen elkaar als je problemen hebt.",
+        "keyElements": [
+          "vriendschap",
+          "eerlijk/eerlijk zijn",
+          "samen/problemen oplossen",
+          "ruzie/verzoenen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over de belangrijkste les van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-boodschap/image-1.png",
+      "alt": "Twee meisjes zoeken samen boeken uit in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-boodschap/image-2.png",
+      "alt": "Een meisje vindt een doosje met vriendschapsarmbandjes achter oude boeken"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls browsing books together in a cozy Dutch library with tall bookshelves, children's book illustration style, warm lighting",
+    "A girl discovering a small box with friendship bracelets hidden behind old encyclopedias on a library shelf, children's book illustration style, magical moment"
+  ]
+}

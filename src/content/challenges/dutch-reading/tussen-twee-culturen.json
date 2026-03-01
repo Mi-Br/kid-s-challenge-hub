@@ -1,0 +1,144 @@
+{
+  "id": "tussen-twee-culturen",
+  "title": "Tussen Twee Culturen",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "cultuur",
+  "text": "Leila voelde zich verward toen ze in de spiegel keek. Vandaag was het de multiculturele dag op school en alle kinderen mochten kleding uit hun eigen cultuur dragen. Haar moeder had haar mooie Marokkaanse kaftan klaargelegd, maar Leila twijfelde.\n\n\"Waarom draag je die jurk niet?\" vroeg haar Nederlandse vriendin Emma. \"Hij is zo mooi!\" Leila schudde haar hoofd. Ze was bang dat andere kinderen haar zouden uitlachen omdat ze er anders uitzag. Thuis sprak ze Arabisch met haar ouders en at ze traditionele couscous. Op school praatte ze Nederlands en at ze boterhammen met kaas.\n\nDie middag besloot Leila iets belangrijks te doen. Ze ging naar de schoolbibliotheek en zocht boeken over Marokko. Ze las over de prachtige steden, de geschiedenis en de tradities. Toen begreep ze dat beide culturen deel van haar waren. Ze hoefde niet te kiezen tussen Nederlands zijn of Marokkaans zijn.\n\nDe volgende week organiseerde Leila een presentatie voor haar klas. Ze liet foto's zien van Nederlandse tulpen en Marokkaanse woestijnen. \"Ik ben een brug tussen twee werelden,\" zei ze trots. \"Dat maakt me niet anders, maar juist bijzonder.\" Haar klasgenoten applaudisseerden, en Leila voelde eindelijk vrede met wie ze was.\n\nVan die dag af droeg Leila soms haar kaftan naar school en soms gewone Nederlandse kleding. Ze realiseerde zich dat identiteit niet zwart of wit hoefde te zijn, maar dat er prachtige kleuren bestonden in de ruimte daartussen.",
+  "questions": [
+    {
+      "question": "Welke kleding had Leila's moeder voor haar klaargelegd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "marokkaanse kaftan",
+        "kaftan",
+        "mooie marokkaanse kaftan"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom twijfelde Leila om de kaftan te dragen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "bezorgd",
+            "onzeker"
+          ],
+          [
+            "uitlachen",
+            "uitgelachen",
+            "pesten",
+            "anders",
+            "opvallen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Leila's gevoelens in de tweede alinea."
+    },
+    {
+      "question": "Wat deed Leila in de bibliotheek om haar probleem op te lossen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zocht",
+            "las",
+            "keek",
+            "bestudeerde"
+          ],
+          [
+            "boeken",
+            "informatie",
+            "verhalen"
+          ],
+          [
+            "marokko",
+            "marokkaanse",
+            "cultuur",
+            "tradities",
+            "geschiedenis"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over wat Leila in de bibliotheek deed."
+    },
+    {
+      "question": "Hoe toonde Leila aan haar klasgenoten dat ze trots was op beide culturen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "organiseerde",
+            "gaf",
+            "hield"
+          ],
+          [
+            "presentatie",
+            "verhaal",
+            "uitleg"
+          ],
+          [
+            "foto's",
+            "plaatjes",
+            "beelden"
+          ],
+          [
+            "tulpen",
+            "woestijnen",
+            "nederland",
+            "marokko",
+            "beide",
+            "twee"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de vierde alinea over wat Leila de volgende week deed."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het accepteren en combineren van verschillende culturele identiteiten, en dat je niet hoeft te kiezen tussen culturen maar beide kunt omarmen.",
+        "exampleAnswer": "Je kunt trots zijn op meerdere culturen tegelijk en hoeft niet te kiezen tussen wie je bent.",
+        "keyElements": [
+          "meerdere culturen/identiteiten",
+          "niet kiezen/combineren",
+          "trots zijn/accepteren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Leila leerde over haar identiteit."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/tussen-twee-culturen/image-1.png",
+      "alt": "Leila kijkt twijfelend in de spiegel terwijl ze een Marokkaanse kaftan vasthoudt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/tussen-twee-culturen/image-2.png",
+      "alt": "Leila geeft een presentatie aan haar klas met foto's van tulpen en woestijnen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl of Moroccan-Dutch heritage looking uncertain while holding a beautiful traditional kaftan, standing in front of a mirror in a Dutch bedroom, children's book illustration style",
+    "A confident young girl presenting to her diverse classroom, showing pictures of Dutch tulips and Moroccan desert landscapes on a board, other children listening attentively, children's book illustration style"
+  ]
+}

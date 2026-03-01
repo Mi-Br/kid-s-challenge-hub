@@ -1,0 +1,122 @@
+{
+  "id": "de-grote-glijbaan",
+  "title": "De Grote Glijbaan",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "Emma gaat naar het nieuwe speelpark bij de school. Het is Koningsdag en alle kinderen spelen buiten. Ze ziet een heel grote glijbaan. De glijbaan is zo hoog als een huis!\n\nBij de glijbaan staat een klein meisje. Het meisje heet Sara en ze huilt. \"Ik wil naar beneden maar ik durf niet\", zegt Sara. Emma begrijpt hoe Sara zich voelt, omdat zij ook bang was voor hoge dingen.\n\nEmma denkt na. Ze weet dat Sara hulp nodig heeft. \"Kom Sara, we gaan samen\", zegt Emma vriendelijk. \"Ik help je.\" Ze pakt Sara's hand vast.\n\nSamen klimmen ze naar boven. Emma zegt: \"Doe je ogen dicht en tel tot drie.\" Sara doet wat Emma zegt. \"Een, twee, drie!\" Ze glijden samen naar beneden. Sara lacht heel hard.\n\n\"Dank je wel Emma!\", roept Sara blij. \"Nu durf ik het alleen ook!\" Emma voelt zich heel trots omdat ze een nieuwe vriendin heeft geholpen. Ze spelen de hele middag samen op de glijbaan.",
+  "questions": [
+    {
+      "question": "Welke feestdag is het in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "koningsdag"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom huilt Sara bij de glijbaan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "durf niet",
+            "durft niet"
+          ],
+          [
+            "hoog",
+            "hoge",
+            "groot",
+            "grote"
+          ],
+          [
+            "glijbaan",
+            "naar beneden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Sara zegt waarom ze huilt in de tweede alinea."
+    },
+    {
+      "question": "Hoe helpt Emma Sara?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "samen",
+            "samen gaan",
+            "hand vasthouden",
+            "hand vast"
+          ],
+          [
+            "ogen dicht",
+            "dichtdoen",
+            "tellen"
+          ],
+          [
+            "helpen",
+            "helpt",
+            "geholpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Emma doet en zegt in de derde en vierde alinea."
+    },
+    {
+      "question": "Vind je Emma een goede vriendin? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "lief",
+            "aardig",
+            "vriendelijk"
+          ],
+          [
+            "helpen",
+            "helpt",
+            "geholpen",
+            "hulp"
+          ],
+          [
+            "begrijpt",
+            "snapt",
+            "voelt",
+            "meevoelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma doet voor Sara."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-grote-glijbaan/image-1.png",
+      "alt": "Emma en Sara staan bij een grote glijbaan op Koningsdag"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-grote-glijbaan/image-2.png",
+      "alt": "Emma en Sara glijden samen naar beneden en lachen"
+    }
+  ],
+  "imagePrompts": [
+    "A children's book illustration of two young girls at a very tall playground slide on King's Day in the Netherlands, with orange decorations visible, one girl looking scared while the other girl reaches out kindly to help her",
+    "A children's book illustration of two young girls sliding down a big slide together, holding hands and laughing with joy, orange King's Day decorations in the background of a Dutch playground"
+  ]
+}

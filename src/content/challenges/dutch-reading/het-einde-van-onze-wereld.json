@@ -1,0 +1,136 @@
+{
+  "id": "het-einde-van-onze-wereld",
+  "title": "Het Einde van Onze Wereld",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "media",
+  "text": "Lisa zette haar computer aan en opende haar nieuwsapp. Elke ochtend deed ze hetzelfde: eerst het weer, dan het nieuws. Maar vandaag was alles anders. Op haar scherm verschenen berichten over verdwijnende ijsberen, smeltende gletsjers en stijgende zeespiegels. Ze had dit soort verhalen wel eens gezien, maar nooit echt aandacht aan besteed.\n\nTerwijl ze verder scrollde, vond ze een documentaire over de Noordpool. De beelden toonden ijsberen die op kleine ijsschotsen zaten, omringd door donker water. \"Binnen twintig jaar kunnen deze dieren uitsterven,\" zei de verslaggever. Lisa's hart klopte sneller. Ze dacht aan de ijsbeer die ze vorig jaar in Artis had gezien. Was dat misschien een van de laatste?\n\nOp school kon Lisa niet stoppen met denken aan de documentaire. Tijdens de pauze praatte ze met haar vriendin Emma over wat ze had gezien. \"Mijn vader zegt dat journalisten alles overdrijven om meer kijkers te krijgen,\" zei Emma. \"Hij gelooft niet in klimaatverandering.\" Lisa voelde zich verward. Wie had gelijk? De documentaire had zo echt geleken.\n\nThuis zocht Lisa meer informatie op verschillende nieuwssites. CNN, NOS, BBC - overal las ze hetzelfde verhaal. Wetenschappers waarschuwden voor stijgende temperaturen en extreme weersomstandigheden. Op YouTube vond ze echter ook video's die beweerden dat alles nep was. \"Fake news!\" riepen sommige mensen in de reacties. Lisa wist niet meer wat ze moest geloven.\n\nDie avond praatte ze met haar oudere broer Tom over haar zorgen. \"Media kunnen zowel waarheid als leugens verspreiden,\" legde hij uit. \"Het belangrijkste is dat je kritisch blijft en verschillende bronnen vergelijkt.\" Hij liet haar zien hoe ze betrouwbare nieuwssites kon herkennen en hoe ze wetenschappelijke artikelen kon vinden.\n\nLisa leerde dat niet alle media hetzelfde zijn. Sommige journalisten werken hard om de waarheid te vertellen, terwijl anderen vooral willen schokkeren of geld verdienen. Ze begreep nu waarom het zo belangrijk was om goed na te denken over wat ze las en zag. De volgende ochtend opende ze weer haar nieuwsapp, maar deze keer veel bewuster dan voorheen.",
+  "questions": [
+    {
+      "question": "Welke dieren kunnen volgens de verslaggever binnen twintig jaar uitsterven?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ijsberen"
+      ],
+      "hint": "Zoek naar wat de verslaggever in de documentaire zegt."
+    },
+    {
+      "question": "Waarom denkt Emma dat journalisten overdrijven?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kijkers",
+            "meer kijkers",
+            "publiek",
+            "mensen"
+          ],
+          [
+            "krijgen",
+            "trekken",
+            "hebben",
+            "willen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Emma's vader tegen haar heeft gezegd."
+    },
+    {
+      "question": "Waarom voelde Lisa zich verward na het gesprek met Emma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "wist",
+            "weet",
+            "weten",
+            "twijfelde"
+          ],
+          [
+            "geloven",
+            "vertrouwen",
+            "geloof"
+          ],
+          [
+            "gelijk",
+            "waar",
+            "waarheid",
+            "juist"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan Lisa's reactie na Emma's uitleg over haar vader."
+    },
+    {
+      "question": "Wat is volgens Tom het belangrijkste bij het lezen van nieuws?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kritisch",
+            "voorzichtig",
+            "nadenken"
+          ],
+          [
+            "bronnen",
+            "sites",
+            "nieuwssites",
+            "informatie"
+          ],
+          [
+            "vergelijken",
+            "vergelijkt",
+            "controleren",
+            "checken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek naar de raad die Tom aan Lisa geeft."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het kritisch omgaan met media en nieuwsinformatie. Het belang van het controleren van bronnen en niet alles klakkeloos geloven moet duidelijk worden.",
+        "exampleAnswer": "Het verhaal gaat over het belang van kritisch denken bij het lezen van nieuws en het vergelijken van verschillende bronnen.",
+        "keyElements": [
+          "kritisch/voorzichtig",
+          "media/nieuws",
+          "bronnen/informatie",
+          "vergelijken/controleren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Lisa leert gedurende het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-einde-van-onze-wereld/image-1.png",
+      "alt": "Lisa zit achter haar computer en kijkt geschokt naar nieuwsberichten over klimaatverandering"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-einde-van-onze-wereld/image-2.png",
+      "alt": "Lisa en Tom zitten samen achter de computer en bekijken verschillende nieuwssites"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage Dutch girl sitting at her computer looking shocked and worried while reading climate change news on her screen, children's book illustration style",
+    "A teenage Dutch girl and her older brother sitting together at a computer, comparing different news websites on the screen, children's book illustration style"
+  ]
+}

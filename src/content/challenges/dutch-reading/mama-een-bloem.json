@@ -1,0 +1,49 @@
+{
+  "id": "mama-een-bloem",
+  "title": "Mama een bloem",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "familie",
+  "text": "Het is moederdag. Tim wil mama blij maken. Hij pakt een bloem uit de tuin. De bloem is geel en mooi.\n\nTim geeft de bloem aan mama. Mama is heel blij. Ze geeft Tim een knuffel. Tim voelt zich goed.\n\nMama zet de bloem in een vaas. De bloem staat op tafel. Tim en mama zijn beide blij.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de bloem?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar zet mama de bloem?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in een vaas"
+      ],
+      "hint": "Kijk naar de laatste alinea."
+    },
+    {
+      "question": "Waar staat de vaas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op tafel"
+      ],
+      "hint": "Kijk naar de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mama-een-bloem/image-1.png",
+      "alt": "Tim pakt een gele bloem uit de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mama-een-bloem/image-2.png",
+      "alt": "Mama geeft Tim een knuffel met de bloem"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy picking a yellow flower from a garden, children's book illustration style, bright and cheerful",
+    "A mother hugging her son while holding a yellow flower, both smiling happily, children's book illustration style"
+  ]
+}

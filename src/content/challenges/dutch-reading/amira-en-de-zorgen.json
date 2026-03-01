@@ -1,0 +1,142 @@
+{
+  "id": "amira-en-de-zorgen",
+  "title": "Amira en de Zorgen",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "gezondheid",
+  "text": "Amira zat in de klas en keek naar haar beste vriendin Yasmin. Yasmin was altijd vrolijk geweest, maar de laatste weken was ze heel anders. Ze praatte bijna niet meer en at haar lunch niet op. Tijdens de pauze bleef ze vaak alleen zitten.\n\nThuis vertelde Amira aan haar moeder over Yasmin. \"Mama, ik begrijp het niet. Yasmin doet zo raar,\" zei ze. Haar moeder luisterde goed. \"Misschien heeft Yasmin het moeilijk,\" antwoordde mama. \"Soms voelen mensen zich verdrietig of angstig, ook al kunnen ze er niet over praten.\"\n\nDe volgende dag op school ging Amira naast Yasmin zitten. \"Gaat het wel goed met je?\" vroeg ze zacht. Yasmin begon te huilen. \"Ik voel me altijd zo moe en verdrietig,\" fluisterde ze. \"Mijn ouders denken dat ik gewoon lui ben, maar ik kan er niks aan doen.\"\n\nAmira nam Yasmins hand vast. Ze had geleerd dat mentale gezondheid net zo belangrijk is als fysieke gezondheid. \"We gaan samen naar juf Marieke,\" zei Amira. \"Zij kan ons helpen.\" Yasmin knikte dankbaar.\n\nJuf Marieke luisterde naar beide meisjes. Ze legde uit dat Yasmin misschien hulp nodig had van een professional. \"Er is niks mis met hulp vragen,\" zei de juf vriendelijk. \"We gaan je ouders bellen zodat ze begrijpen wat er aan de hand is.\"\n\nEen paar weken later glimlachte Yasmin weer. Ze kreeg hulp van een psycholoog en praatte nu open over haar gevoelens. Amira was blij dat ze haar vriendin had geholpen. Ze begreep nu dat mentale problemen echt zijn en dat iedereen wel eens hulp kan gebruiken.",
+  "questions": [
+    {
+      "question": "Wat deed Yasmin tijdens de pauze de laatste weken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze bleef vaak alleen zitten",
+        "alleen zitten",
+        "vaak alleen zitten"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dachten Yasmins ouders dat ze lui was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "begrijpen",
+            "begrepen",
+            "snapten",
+            "wisten"
+          ],
+          [
+            "moe",
+            "verdrietig",
+            "gevoel",
+            "gevoelens",
+            "mentaal",
+            "psychisch"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Yasmin zelf vertelt over hoe ze zich voelt."
+    },
+    {
+      "question": "Wat is volgens juf Marieke belangrijk om te weten over hulp vragen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niks",
+            "niets",
+            "niet"
+          ],
+          [
+            "mis",
+            "erg",
+            "verkeerd",
+            "fout"
+          ],
+          [
+            "hulp",
+            "vragen",
+            "vragen om hulp"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat juf Marieke zegt in de vijfde alinea."
+    },
+    {
+      "question": "Evalueer Amira's reactie toen ze merkte dat haar vriendin het moeilijk had. Was dit een goede manier om te helpen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "juist",
+            "correct",
+            "slim",
+            "verstandig"
+          ],
+          [
+            "luisteren",
+            "luisterde",
+            "praten",
+            "praatte",
+            "helpen",
+            "hielp"
+          ],
+          [
+            "hulp",
+            "juf",
+            "volwassene",
+            "professional"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de stappen die Amira heeft genomen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herkennen van mentale gezondheidsproblemen, het belang van begrip en empathie, en dat hulp zoeken normaal en belangrijk is.",
+        "exampleAnswer": "Het verhaal gaat over mentale gezondheid en dat het belangrijk is om vrienden te helpen door naar ze te luisteren en samen hulp te zoeken.",
+        "keyElements": [
+          "mentale gezondheid/psychische problemen",
+          "vriendschap/helpen",
+          "hulp zoeken/professional"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Amira heeft geleerd en waarom dit verhaal is geschreven."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/amira-en-de-zorgen/image-1.png",
+      "alt": "Amira kijkt bezorgd naar haar vriendin Yasmin die alleen zit in de pauze"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/amira-en-de-zorgen/image-2.png",
+      "alt": "Amira en Yasmin praten samen met juf Marieke in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls in a Dutch school playground, one girl with Middle Eastern features looking concerned at her friend who sits alone on a bench looking sad, children's book illustration style",
+    "A kind female Dutch teacher sitting with two young diverse girls in a bright classroom, having a caring conversation, children's book illustration style"
+  ]
+}

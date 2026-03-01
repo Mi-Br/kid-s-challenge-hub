@@ -1,0 +1,115 @@
+{
+  "id": "het-geheim-van-de-verdwenen-bomen",
+  "title": "Het Geheim van de Verdwenen Bomen",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "natuur",
+  "text": "Lisa fietste elke dag door het Vondelpark naar school. Ze hield van de grote oude bomen die schaduw gaven op warme dagen. Maar deze maandag zag ze iets vreemds: drie grote eiken waren verdwenen! Waar de bomen hadden gestaan, lagen nu alleen hoopjes zaagsel.\n\nOp school vertelde Lisa het aan haar vriendin Emma. \"Misschien zijn ze ziek geworden,\" zei Emma. \"Of misschien had de gemeente geen geld meer om ze te verzorgen.\" Lisa geloofde er niets van. Die bomen waren kerngezond geweest.\n\nDie middag ging Lisa terug naar het park. Ze onderzocht de plek waar de bomen hadden gestaan. Tussen het zaagsel vond ze kleine stukjes plastic en glinsterende metaalresten. Vreemd... Ze liep verder en ontdekte nog meer kapotte plekken in de grond.\n\nToen Lisa beter keek, zag ze iets dat haar hart deed bonken. In de grond zaten diepe sporen van zware machines. Iemand was hier 's nachts geweest om de bomen weg te halen! Maar waarom? En wie zou zoiets doen?\n\nDe volgende dag sprak Lisa met meneer De Wit, de parkverzorger. Zijn gezicht werd donker toen hij haar verhaal hoorde. \"Dat zijn boomdiefen,\" fluisterde hij. \"Ze stelen waardevolle oude bomen om ze ergens anders te verkopen. Het is een groot probleem in Nederland.\" Hij beloofde dat hij de politie zou bellen.\n\nDankzij Lisa's speurwerk konden de daders worden gevonden. Ze hadden de bomen verkocht aan een rijke man voor zijn privétuin. De bomen werden teruggebracht naar het park, waar ze opnieuw werden geplant. Lisa leerde dat één persoon het verschil kan maken voor de natuur.",
+  "questions": [
+    {
+      "question": "Hoeveel grote eiken waren er verdwenen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "drie",
+        "3",
+        "drie grote eiken"
+      ],
+      "hint": "Kijk naar wat Lisa zag toen ze door het park fietste."
+    },
+    {
+      "question": "Waarom geloofde Lisa niet dat de bomen ziek waren geworden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kerngezond",
+            "gezond",
+            "niet ziek"
+          ],
+          [
+            "geweest",
+            "waren",
+            "hadden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa wist van de toestand van de bomen."
+    },
+    {
+      "question": "Welke aanwijzingen vond Lisa tussen het zaagsel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "plastic",
+            "stukjes plastic",
+            "kleine stukjes plastic"
+          ],
+          [
+            "metaalresten",
+            "metaal",
+            "glinsterende metaalresten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het derde stukje nog eens goed."
+    },
+    {
+      "question": "Vind je dat Lisa goed heeft gehandeld door het probleem te onderzoeken? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lisa's handelen en dit onderbouwen met argumenten uit de tekst. Goede argumenten: ze heeft de daders gevonden, de bomen gered, geleerd dat één persoon verschil kan maken. Of: ze had gevaar kunnen lopen, het was werk voor volwassenen.",
+        "exampleAnswer": "Ja, Lisa heeft goed gehandeld omdat zij door te onderzoeken heeft geholpen de daders te vinden en de bomen te redden.",
+        "keyElements": [
+          "onderzoeken/speurwerk",
+          "daders gevonden/geholpen",
+          "bomen gered/teruggebracht"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat er gebeurd is dankzij Lisa's actie."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe één persoon verschil kan maken voor de natuur, of over het oplossen van milieucriminaliteit door alert te zijn.",
+        "exampleAnswer": "Het verhaal gaat erover dat één persoon het verschil kan maken om de natuur te beschermen.",
+        "keyElements": [
+          "één persoon/iemand/mensen",
+          "verschil maken/helpen",
+          "natuur/milieu/bomen beschermen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat heeft Lisa geleerd aan het einde van het verhaal?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-verdwenen-bomen/image-1.png",
+      "alt": "Lisa op haar fiets in het Vondelpark, kijkend naar de lege plekken waar bomen hebben gestaan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-verdwenen-bomen/image-2.png",
+      "alt": "Lisa die sporen van zware machines in de grond onderzoekt tussen het zaagsel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl on a bicycle in a Dutch park looking puzzled at empty spots where large trees used to be, with piles of sawdust on the ground, children's book illustration style",
+    "A determined young girl crouching down examining tire tracks and metal fragments in the dirt near sawdust piles, with a concerned expression, children's book illustration style"
+  ]
+}

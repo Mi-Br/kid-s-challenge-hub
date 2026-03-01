@@ -1,0 +1,138 @@
+{
+  "id": "de-stille-stem",
+  "title": "De Stille Stem",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "media",
+  "text": "Daan zat voor zijn computer, terwijl de geluiden van het huishouden om hem heen wegvielen. Zijn vingers vlogen over het toetsenbord, waarbij hij zorgvuldig elke zin redigeerde die hij had geschreven voor zijn online blog over klimaatverandering. Voor hem was schrijven de enige manier om zijn gedachten helder te krijgen – spreken voor een groep was ondenkbaar vanwege zijn autisme.\n\nToen de schoolkrant een artikel wilde over de nieuwe regels voor sociale media op school, vroeg niemand Daan om mee te helpen. Hoewel hij meer over digitale platformen wist dan de meeste volwassenen, werd hij vaak over het hoofd gezien omdat hij niet makkelijk in groepsgesprekken meedeed. De hoofdredacteur had liever leerlingen gekozen die \"beter konden communiceren\", zoals zij het uitdrukte.\n\nDie avond ontdekte Daan dat het schoolbestuur van plan was om alle blogs en sociale media-accounts van leerlingen te controleren. De maatregel was bedoeld om cyberpesten tegen te gaan, maar volgens Daan ging dit veel te ver. Zijn eigen blog – zijn veilige plek om te schrijven over onderwerpen die hem passioneerden – zou nu onder toezicht staan van leraren die zijn interesse in klimaatwetenschap niet altijd begrepen.\n\nIn plaats van opgeven besloot Daan een uitgebreid onderzoeksartikel te schrijven over privacy en vrijheid van meningsuiting voor jongeren. Hij interviewde via e-mail verschillende experts, analyseerde de nieuwe schoolregels, en vergeleek ze met de rechten die kinderen hebben volgens internationale verdragen. Het artikel werd langer en grondiger dan alles wat de schoolkrant ooit had gepubliceerd.\n\nWanneer Daan zijn artikel indiende, werd het eerst afgewezen omdat het \"te ingewikkeld\" was. Maar toen ouders en andere scholen aandacht begonnen te besteden aan zijn online publicatie, moest de school wel luisteren. Uiteindelijk werden de regels aangepast, waarbij de privacy van leerlingen beter werd beschermd. Daan had bewezen dat zijn stille stem – uitgedrukt door middel van zorgvuldig gekozen woorden – krachtiger kon zijn dan de luidste sprekers in de klas.\n\nDe schoolkrant bood hem excuses aan en vroeg of hij een vaste column wilde schrijven. Voor het eerst voelde Daan dat zijn unieke manier van communiceren niet alleen geaccepteerd werd, maar ook gewaardeerd.",
+  "questions": [
+    {
+      "question": "Waarom vond Daan de plannen van het schoolbestuur problematisch?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Daan bezwaar had tegen de controle van blogs en sociale media omdat dit zijn privacy en vrijheid van meningsuiting bedreigde, en omdat zijn blog zijn veilige plek was om te schrijven.",
+        "exampleAnswer": "Daan vond het problematisch omdat het schoolbestuur alle blogs wilde controleren, wat zijn privacy en vrijheid van meningsuiting aantastte, en omdat zijn blog zijn veilige plek was.",
+        "keyElements": [
+          "privacy/privé",
+          "vrijheid/vrijheid van meningsuiting",
+          "controle/toezicht",
+          "veilige plek/eigen plek"
+        ],
+        "minWords": 8
+      },
+      "hint": "Kijk naar wat het schoolbestuur wilde doen en waarom Daan daar bezwaar tegen had."
+    },
+    {
+      "question": "Hoe toont dit verhaal dat het Nederlandse onderwijssysteem tekortschiet voor neurodivergente leerlingen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet kritiek kunnen leveren op het onderwijssysteem door te benoemen dat Daan werd uitgesloten omdat hij anders communiceert, dat zijn kennis niet werd erkend, en dat het systeem alleen traditionele communicatie waardeert.",
+        "exampleAnswer": "Het onderwijssysteem sluit leerlingen als Daan uit omdat ze anders communiceren. Hij werd niet gevraagd mee te helpen ondanks zijn kennis, en de school waardeerde alleen leerlingen die 'goed kunnen communiceren' op de traditionele manier.",
+        "keyElements": [
+          "uitgesloten/over het hoofd gezien",
+          "anders communiceren/andere manier",
+          "traditionele communicatie/groepsgesprekken",
+          "kennis niet erkend"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over hoe de school omging met Daan's autisme en andere manier van communiceren."
+    },
+    {
+      "question": "Welke onderzoeksmethoden gebruikte Daan voor zijn artikel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "interviewde",
+            "interviews",
+            "interviewen"
+          ],
+          [
+            "experts",
+            "deskundigen",
+            "specialisten"
+          ],
+          [
+            "analyseerde",
+            "analyseren",
+            "analyse",
+            "onderzocht",
+            "onderzoeken"
+          ],
+          [
+            "vergeleek",
+            "vergelijken",
+            "vergelijking"
+          ],
+          [
+            "verdragen",
+            "internationale verdragen",
+            "kinderrechten",
+            "rechten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk in de vierde alinea naar wat Daan allemaal deed om zijn artikel te schrijven."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe iemand met autisme zijn eigen sterke punten ontdekt en gebruikt om verandering te bewerkstelligen, ondanks dat hij eerst werd uitgesloten.",
+        "exampleAnswer": "Het verhaal gaat erover dat mensen die anders zijn hun eigen unieke krachten kunnen gebruiken om belangrijke veranderingen te maken, ook al worden ze eerst niet begrepen of uitgesloten.",
+        "keyElements": [
+          "anders zijn/autisme/neurodivergent",
+          "eigen krachten/sterke punten",
+          "verandering/impact maken",
+          "uitgesloten/niet begrepen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat de schrijver je wil laten zien over mensen die anders zijn en hun mogelijkheden."
+    },
+    {
+      "question": "Wat was volgens de schrijver het doel van dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de schrijver wil laten zien dat het onderwijssysteem en de maatschappij moeten veranderen om neurodivergente mensen beter te waarderen, en dat verschillende manieren van communiceren waardevol zijn.",
+        "exampleAnswer": "De schrijver wil laten zien dat scholen en de maatschappij moeten leren om verschillende manieren van communiceren te waarderen, en dat mensen met autisme waardevolle bijdragen kunnen leveren als ze de kans krijgen.",
+        "keyElements": [
+          "waarderen/erkennen",
+          "verschillende communicatie/andere manieren",
+          "maatschappij/scholen moeten veranderen",
+          "kans krijgen/inclusie"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over welke boodschap de schrijver wil overbrengen over hoe we omgaan met mensen die anders zijn."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stille-stem/image-1.png",
+      "alt": "Daan zit achter zijn computer en schrijft op zijn blog"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stille-stem/image-2.png",
+      "alt": "Daan presenteert zijn onderzoeksartikel terwijl schoolbestuur en ouders luisteren"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy with autism sitting at his computer in his bedroom, focused on writing a blog post about climate change, children's book illustration style, warm lighting, showing his concentration and passion for writing",
+    "A school meeting room where a teenage boy presents his research article to school board members and parents, showing him gaining recognition for his work, children's book illustration style, hopeful atmosphere"
+  ]
+}

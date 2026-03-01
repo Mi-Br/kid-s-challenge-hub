@@ -1,0 +1,133 @@
+{
+  "id": "de-plastic-discussie",
+  "title": "De Plastic Discussie",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "milieu",
+  "text": "Lisa was altijd heel voorzichtig met het milieu. Ze bracht plastic naar de recycling bak. Ze gebruikte herbruikbare tassen voor de boodschappen. Thuis vertelde ze vaak aan haar ouders hoe belangrijk het milieu is.\n\nOp school kreeg Lisa een nieuwe medeleerling in haar klas. Jamal kwam uit Syrië en woonde nu in Nederland. Hij gebruikte altijd plastic zakjes voor zijn lunch. Lisa vond dit niet goed. \"Plastic is slecht voor de natuur,\" zei ze tegen hem.\n\nJamal keek verdrietig. Hij legde uit dat zijn familie weinig geld had. Plastic zakjes waren goedkoop. Herbruikbare dozen waren te duur voor hen. Lisa begreep dit niet goed. Thuis had haar familie altijd genoeg geld.\n\nLisa postte op Instagram over plastic en het milieu. Veel kinderen reageerden. Sommige kinderen schreven dat hun ouders ook weinig geld hadden. Ze konden niet altijd dure milieuvriendelijke spullen kopen.\n\nLisa dacht na over de reacties op haar post. Ze begreep nu dat niet alle families hetzelfde leven hebben. Milieu is belangrijk, maar geld is ook belangrijk voor families. Lisa besloot om samen met Jamal naar goedkope milieuvriendelijke oplossingen te zoeken.",
+  "questions": [
+    {
+      "question": "Wat deed Lisa altijd met plastic?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze bracht plastic naar de recycling bak",
+        "bracht het naar de recycling bak",
+        "naar de recycling bak brengen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom gebruikte Jamal plastic zakjes voor zijn lunch?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "weinig",
+            "min",
+            "niet veel"
+          ],
+          [
+            "geld",
+            "euros",
+            "budget"
+          ],
+          [
+            "goedkoop",
+            "goedkope",
+            "duur",
+            "dure",
+            "te duur"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Jamal vertelde Lisa waarom hij plastic zakjes gebruikte."
+    },
+    {
+      "question": "Hoe reageerden kinderen op Lisa's Instagram post?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ouders",
+            "familie",
+            "families"
+          ],
+          [
+            "weinig",
+            "min",
+            "niet veel"
+          ],
+          [
+            "geld",
+            "euros",
+            "budget"
+          ],
+          [
+            "duur",
+            "dure",
+            "goedkoop"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er gebeurde nadat Lisa haar bericht plaatste."
+    },
+    {
+      "question": "Wat leerde Lisa van deze situatie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "families",
+            "familie",
+            "mensen"
+          ],
+          [
+            "verschillend",
+            "anders",
+            "niet hetzelfde",
+            "hetzelfde"
+          ],
+          [
+            "leven",
+            "situatie",
+            "omstandigheden"
+          ],
+          [
+            "geld",
+            "belangrijk",
+            "arm",
+            "rijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa begreep aan het einde van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-plastic-discussie/image-1.png",
+      "alt": "Lisa en Jamal praten bij de lunchtafel op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-plastic-discussie/image-2.png",
+      "alt": "Lisa kijkt naar reacties op haar telefoon"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, Lisa and Jamal, talking at a school lunch table, children's book illustration style, Lisa looking concerned while Jamal holds plastic lunch bags",
+    "A teenage girl looking at her phone reading Instagram comments, children's book illustration style, thoughtful expression on her face"
+  ]
+}

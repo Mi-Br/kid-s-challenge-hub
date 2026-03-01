@@ -1,0 +1,119 @@
+{
+  "id": "de-verkeersbrigadier",
+  "title": "De Verkeersbrigadier",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verkeer",
+  "text": "Lisa was trots toen meester Van Dam haar vroeg om verkeersbrigadier te worden. \"Jij bent verantwoordelijk voor de veiligheid van alle kinderen bij het zebrapad,\" zei hij. \"Elke ochtend en middag moet je daar staan met je stopbord.\"\n\nDe eerste week ging alles perfect. Lisa stond elke dag op tijd bij de oversteekplaats voor de school. Ze hield haar rode stopbord hoog omhoog wanneer kinderen wilden oversteken. De automobilisten remden altijd netjes af omdat ze Lisa's signaal respecteerden.\n\nMaar op vrijdagmiddag regende het hard. Lisa's beste vriendin Mila riep: \"Kom nou, Lisa! We kunnen naar mijn huis rennen en computerspelletjes doen. Kijk, er zijn toch geen kleine kinderen meer die moeten oversteken.\" Lisa keek om zich heen. Inderdaad, de meeste leerlingen waren al naar huis.\n\nToch bleef er een knagend gevoel in Lisa's buik. Stel dat er nog wel een kind kwam? Stel dat er een ongeluk gebeurde omdat zij niet op haar post stond? \"Sorry Mila,\" zei Lisa terwijl ze stevig haar stopbord vasthield. \"Ik moet hier blijven tot kwart over vier, zoals ik beloofd heb.\"\n\nOp dat moment kwam kleine Daan van groep 2 aangelopen met zijn rugzak. Hij was duidelijk te laat van school vertrokken. Lisa glimlachte en hielp hem veilig de straat oversteken. \"Gelukkig ben jij er nog!\" zuchtte Daan opgelucht. Lisa voelde zich warm worden van binnen, ondanks de koude regen.",
+  "questions": [
+    {
+      "question": "Hoe laat moet Lisa blijven tot aan het zebrapad?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "kwart over vier",
+        "tot kwart over vier"
+      ],
+      "hint": "Kijk in de laatste alinea wat Lisa zegt."
+    },
+    {
+      "question": "Waarom wil Mila dat Lisa weggaat van het zebrapad?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "regent",
+            "regen",
+            "regende",
+            "hard"
+          ],
+          [
+            "spelen",
+            "spelletjes",
+            "computerspelletjes",
+            "doen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat het weer doet en wat Mila wil gaan doen."
+    },
+    {
+      "question": "Wat voelt Lisa in haar buik en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "knagend",
+            "knagen",
+            "knaagt"
+          ],
+          [
+            "ongeluk",
+            "gebeuren",
+            "gebeurde",
+            "kind",
+            "veiligheid",
+            "gevaarlijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea over Lisa's gevoel."
+    },
+    {
+      "question": "Vind je dat Lisa de juiste keuze maakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over Lisa's keuze en deze onderbouwen met argumenten uit de tekst. Ze kunnen zowel voor als tegen zijn, maar moeten hun antwoord motiveren.",
+        "exampleAnswer": "Ja, Lisa maakt de juiste keuze omdat ze verantwoordelijk is voor de veiligheid van alle kinderen en ze heeft het beloofd. Ze bewijst dat ze betrouwbaar is.",
+        "keyElements": [
+          "verantwoordelijkheid/verantwoordelijk",
+          "veiligheid/veilig",
+          "betrouwbaar/beloofd"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat verantwoordelijkheid betekent en wat er had kunnen gebeuren."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal hoofdzakelijk gaat over verantwoordelijkheid nemen en betrouwbaar zijn, ook als dat moeilijk is.",
+        "exampleAnswer": "Het verhaal gaat over verantwoordelijkheid nemen en betrouwbaar blijven, ook als het moeilijk is.",
+        "keyElements": [
+          "verantwoordelijkheid/verantwoordelijk",
+          "betrouwbaar/betrouwbaarheid",
+          "doorzetten/volhouden"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over de les die Lisa leert in dit verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verkeersbrigadier/image-1.png",
+      "alt": "Lisa staat bij het zebrapad met haar rode stopbord"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verkeersbrigadier/image-2.png",
+      "alt": "Lisa helpt kleine Daan oversteken in de regen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with a safety vest holding a red stop sign at a zebra crossing near a Dutch school, children's book illustration style",
+    "A young girl helping a small boy cross the street in heavy rain, both getting wet but the girl smiling proudly, Dutch street scene, children's book illustration style"
+  ]
+}

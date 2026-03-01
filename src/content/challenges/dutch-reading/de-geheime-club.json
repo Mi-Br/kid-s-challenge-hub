@@ -1,0 +1,107 @@
+{
+  "id": "de-geheime-club",
+  "title": "De Geheime Club",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "vriendschap",
+  "text": "Lotte en Iris zijn al drie jaar beste vriendinnen. Ze zitten samen in groep zes van de Koperslager school in Utrecht. Elke woensdag na school gaan ze naar het park achter de bibliotheek. Daar hebben ze een geheime club onder de grote eikenboom. De wind ruist door de bladeren en de zon schijnt warm op hun gezicht.\n\nVorige week kwam er een nieuw meisje in hun klas. Ze heet Emma en komt uit Duitsland. Emma spreekt nog niet zo goed Nederlands, maar ze is heel aardig. Lotte wil Emma graag uitnodigen voor hun geheime club. Maar Iris vindt dat niet leuk. \"Het is onze club,\" zegt Iris boos. \"Alleen voor ons tweeën!\"\n\nDe volgende dag speelt Lotte in de pauze met Emma op het schoolplein. Ze leren Emma Nederlandse woorden. Iris voelt zich buitengesloten en gaat alleen bij de klimrekken staan. De grijze wolken hangen laag boven het schoolgebouw. Na school loopt Iris zonder Lotte naar huis.\n\nThuis voelt Lotte zich verdrietig. Ze mist haar beste vriendin. De volgende ochtend regent het hard. Lotte ziet dat Iris haar paraplu vergeten is. Lotte rent naar Iris toe en houdt haar paraplu boven hen beiden. \"Sorry,\" zegt Lotte. \"Ik had je moeten vragen wat jij wilde.\"\n\nIris kijkt naar Lotte en glimlacht. \"Ik was ook niet aardig,\" zegt ze. \"Emma mag best bij onze club. Misschien wordt het wel nog leuker met z'n drieën.\" Die middag zitten alle drie de meisjes onder de eikenboom. Emma leert Nederlandse liedjes en vertelt verhalen over Duitsland. Hun vriendschap is nu sterker dan ooit.",
+  "questions": [
+    {
+      "question": "Hoe lang zijn Lotte en Iris al vriendinnen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "drie jaar",
+        "al drie jaar"
+      ],
+      "hint": "Het antwoord staat in de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelt Iris zich buitengesloten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lotte",
+            "vriendin"
+          ],
+          [
+            "speelt",
+            "speelde",
+            "spelen",
+            "spel"
+          ],
+          [
+            "emma",
+            "nieuwe",
+            "nieuw meisje"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lotte doet in de pauze."
+    },
+    {
+      "question": "Vind je dat Lotte goed handelt als ze haar paraplu deelt? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "lief",
+            "aardig",
+            "juist"
+          ],
+          [
+            "helpt",
+            "helpen",
+            "deelt",
+            "delen",
+            "zorgt",
+            "zorgen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat een goede vriend doet als het regent."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over vriendschap, ruzie maken en weer goede vrienden worden. Ook het idee dat vriendschap sterker kan worden na een conflict is goed.",
+        "exampleAnswer": "Het verhaal gaat over vriendschap en dat ruzie soms gebeurt, maar dat je het weer goed kunt maken.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "ruzie/conflict/problemen",
+          "goedmaken/oplossen/sorry"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat er gebeurt tussen Lotte en Iris in het hele verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-club/image-1.png",
+      "alt": "Twee meisjes zitten onder een grote eikenboom in een park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-club/image-2.png",
+      "alt": "Een meisje houdt een paraplu boven twee kinderen in de regen"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls sitting under a large oak tree in a Dutch park behind a library, children's book illustration style, warm sunlight filtering through leaves",
+    "A girl sharing her umbrella with another girl in the rain on a school playground with grey clouds overhead, children's book illustration style"
+  ]
+}

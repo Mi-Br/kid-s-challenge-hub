@@ -1,0 +1,114 @@
+{
+  "id": "het-mysterie-van-sinterklaas",
+  "title": "Het Mysterie van Sinterklaas",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Emma woonde nog maar drie maanden in Nederland. Sinterklaas was heel nieuw voor haar. Op 5 december ging ze naar haar vriendin Lisa.\n\n\"Kijk!\" riep Lisa. \"Er staan cadeautjes bij de deur!\" Maar toen Lisa de cadeautjes oppakte, begon ze te huilen. \"Dit is niet mijn cadeau,\" zei ze. \"Hier staat de naam Piet op. Ik ben Lisa!\" Emma keek naar het cadeautje. Er stond inderdaad 'Voor Piet' op het pakje.\n\nEmma wilde Lisa helpen. Ze keek goed rond in de kamer. Op de tafel lag een briefje. Emma las: \"Lieve kinderen, de cadeautjes liggen verstopt in huis. Zoek maar goed! Groeten, Sinterklaas.\" Nu begreep Emma het. Dit was een spelletje!\n\n\"Lisa, dit cadeau is niet van jou omdat het een aanwijzing is,\" zei Emma. \"We moeten naar Piet zoeken!\" Lisa droogde haar tranen. Samen gingen ze naar Lisa's grote broer. Hij heette Piet! Bij zijn kamer vonden ze meer cadeautjes.\n\n\"Sinterklaas heeft een zoekspel gemaakt,\" lachte Lisa. \"Wat slim van hem!\" Emma vond het een geweldig Nederlands feest. Nu begreep ze waarom alle kinderen zo blij werden van Sinterklaas.",
+  "questions": [
+    {
+      "question": "Hoe lang woont Emma al in Nederland?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "drie"
+          ],
+          [
+            "maanden"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom begon Lisa te huilen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "cadeau",
+            "cadeautje",
+            "pakje"
+          ],
+          [
+            "piet",
+            "naam",
+            "verkeerd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Lisa zegt over het cadeautje."
+    },
+    {
+      "question": "Hoe ontdekte Emma dat het een spelletje was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "briefje",
+            "brief",
+            "las"
+          ],
+          [
+            "sinterklaas",
+            "verstopt",
+            "zoeken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma op de tafel vond."
+    },
+    {
+      "question": "Vind jij dat Emma een goede vriendin is? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "helpen",
+            "hielp",
+            "wilde"
+          ],
+          [
+            "oplossen",
+            "zoeken",
+            "ontdekken",
+            "uitvinden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma deed toen Lisa verdrietig was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-sinterklaas/image-1.png",
+      "alt": "Emma en Lisa kijken naar cadeautjes bij de deur met de naam Piet erop"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-sinterklaas/image-2.png",
+      "alt": "Emma leest het briefje van Sinterklaas terwijl Lisa naar haar kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls, one blonde and one with dark hair, looking at wrapped presents by a front door, one girl looking sad, children's book illustration style, warm Dutch home interior",
+    "The blonde girl reading a handwritten note while the dark-haired girl watches hopefully, cozy living room with Sinterklaas decorations, children's book illustration style"
+  ]
+}

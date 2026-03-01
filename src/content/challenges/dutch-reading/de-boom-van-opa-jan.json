@@ -1,0 +1,130 @@
+{
+  "id": "de-boom-van-opa-jan",
+  "title": "De Boom van Opa Jan",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de buurt",
+  "text": "\"Kijk, Lotte!\" zegt mama. \"Daar is opa Jan bij zijn boom.\"\n\nLotte ziet de oude man in de tuin. Hij staat bij de grote appelboom.\n\n\"Dag opa Jan!\" roept Lotte. \"Wat doet u?\"\n\n\"Hallo lieve Lotte,\" zegt opa Jan verdrietig. \"Ik kijk naar mijn boom. Hij is ziek. Kijk, alle bladeren worden geel. En de appels vallen op de grond.\"\n\nLotte loopt naar de boom. \"O nee! Dat is niet goed. Wat gaat er gebeuren?\"\n\n\"Misschien moet de boom weg,\" zegt opa Jan. \"Dat vind ik zo erg. Deze boom staat hier al vijftig jaar. Mijn vader heeft hem geplant toen ik klein was.\"\n\n\"Maar opa Jan,\" zegt Lotte, \"misschien kunnen we de boom helpen?\"\n\n\"Hoe dan, kleine meid?\"\n\n\"Ik weet het niet. Maar we proberen het toch?\" Lotte denkt na. \"Mijn mama weet veel van planten. En meneer De Wit van de tuinwinkel ook!\"\n\nOpa Jan kijkt hoopvol. \"Denk je dat ze ons willen helpen?\"\n\n\"Natuurlijk! Iedereen in de buurt houdt van uw boom. In de lente zitten er altijd vogels. En wij spelen er vaak onder.\"\n\nDie middag komt mama met Lotte naar opa Jan.\n\n\"Dag opa,\" zegt mama vriendelijk. \"Lotte vertelde over uw boom. Mag ik kijken?\"\n\nMama voelt de aarde rond de boom. \"Ik denk dat de boom te weinig water krijgt. Door de hete zomer.\"\n\n\"Wat kunnen we doen?\" vraagt opa Jan.\n\n\"We geven hem elke dag water. En speciale voeding voor zieke bomen. Meneer De Wit heeft dat in zijn winkel.\"\n\nLotte springt blij op en neer. \"Ik help mee! Elke dag na school kom ik water geven!\"\n\nDrie weken later staat Lotte weer bij de boom. De bladeren zijn nu groen. Er hangen mooie rode appels aan de takken.\n\n\"Lotte!\" roept opa Jan blij. \"Kom gauw! Kijk eens naar onze boom!\"\n\n\"Wat mooi!\" zegt Lotte. \"De boom is weer gezond!\"\n\n\"Dank je wel, lieve Lotte. Jij hebt mijn boom gered. En mij ook een beetje.\"\n\nLotte krijgt een dikke knuffel van opa Jan. \"We zijn goede buren,\" zegt ze. \"Goede buren helpen elkaar toch?\"",
+  "questions": [
+    {
+      "question": "Hoe oud is de boom van opa Jan?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in het gesprek waar opa Jan over zijn vader vertelt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijftig"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom is de boom ziek geworden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "weinig",
+            "te weinig",
+            "niet genoeg"
+          ],
+          [
+            "water",
+            "drinken"
+          ],
+          [
+            "hete",
+            "warme",
+            "droge"
+          ],
+          [
+            "zomer",
+            "weer"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Mama ontdekt wat er mis is met de boom."
+    },
+    {
+      "question": "Vind je dat Lotte een goede buurmeisje is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "helpt",
+            "helpen",
+            "geholpen"
+          ],
+          [
+            "aardig",
+            "lief",
+            "goed"
+          ],
+          [
+            "water",
+            "zorgt",
+            "verzorgt"
+          ],
+          [
+            "elke dag",
+            "iedere dag",
+            "dagelijks"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lotte allemaal doet voor opa Jan."
+    },
+    {
+      "question": "Wat betekent het woord 'hoopvol' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Opa Jan voelt zich zo als hij denkt dat de boom misschien gered kan worden.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "met hoop"
+          ],
+          [
+            "blij"
+          ],
+          [
+            "vrolijk"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-boom-van-opa-jan/image-1.png",
+      "alt": "Lotte praat met opa Jan bij de zieke appelboom in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-boom-van-opa-jan/image-2.png",
+      "alt": "Lotte geeft water aan de gezonde appelboom met rode appels"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl talking with an elderly man next to a sick apple tree with yellow leaves and fallen apples in a neighborhood garden, children's book illustration style",
+    "The same girl watering a healthy apple tree with green leaves and red apples while the elderly man watches happily, Dutch neighborhood setting, children's book illustration style"
+  ]
+}

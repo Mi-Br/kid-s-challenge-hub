@@ -1,0 +1,123 @@
+{
+  "id": "de-herfstvriend",
+  "title": "De Herfstvriend",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "seizoenen",
+  "text": "Emma en Sofie waren al drie jaar beste vriendinnen. Elke herfst gingen ze samen bladeren rapen in het Vondelpark. \"Kijk, deze is prachtig!\" riep Emma altijd. \"Net zo mooi als goud!\" antwoordde Sofie dan.\n\nVorige week kwam er een nieuw meisje in hun klas. Lisa heette ze. Lisa had mooie blonde krullen en sprak grappig Nederlands omdat ze uit Duitsland kwam. \"Wil je met mij naar het park?\" vroeg Lisa aan Emma. \"We kunnen kastanjes zoeken voor een knutselproject.\"\n\nEmma vond Lisa heel aardig. Ze ging met Lisa naar het park en vergat haar afspraak met Sofie. Sofie wachtte een hele tijd bij de grote eik waar ze altijd afspraken. Toen Emma eindelijk kwam, was Sofie verdrietig. \"Waarom kwam je niet?\" vroeg ze. \"Ik heb op je gewacht.\" Emma voelde zich schuldig maar zei niets.\n\nDe volgende dagen speelde Emma steeds vaker met Lisa. Sofie werd steeds stiller. Op een koude herfstdag zag Emma hoe Sofie alleen bladeren raapte. Sofie zag er zo eenzaam uit tussen de gele en rode herfstbladeren. Toen begreep Emma wat ze had gedaan.\n\n\"Sofie, het spijt me,\" zei Emma. \"Ik ben een slechte vriendin geweest. Lisa is aardig, maar jij bent mijn allerbeste vriendin.\" Sofie glimlachte voorzichtig. \"Misschien kan Lisa ook onze vriendin worden?\" stelde ze voor. En zo werden ze met z'n drieën vrienden, net als de mooie herfstkleuren die samen het park zo mooi maken.",
+  "questions": [
+    {
+      "question": "Hoe lang waren Emma en Sofie al vriendinnen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "drie jaar",
+        "al drie jaar"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelde Emma zich schuldig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vergat",
+            "vergeten",
+            "niet gekomen"
+          ],
+          [
+            "afspraak",
+            "wachten",
+            "gewacht"
+          ],
+          [
+            "sofie",
+            "vriendin"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma deed toen ze met Lisa naar het park ging."
+    },
+    {
+      "question": "Wat deed Sofie toen Emma steeds met Lisa speelde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "stiller",
+            "stil",
+            "eenzaam"
+          ],
+          [
+            "alleen",
+            "zonder emma"
+          ],
+          [
+            "verdrietig",
+            "droevig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea nog een keer goed."
+    },
+    {
+      "question": "Vind je dat Emma een goede oplossing bedacht? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "wel",
+            "juist"
+          ],
+          [
+            "nee",
+            "niet goed",
+            "slecht",
+            "fout"
+          ],
+          [
+            "sorry",
+            "spijt",
+            "excuses"
+          ],
+          [
+            "samen",
+            "alledrie",
+            "drie vrienden",
+            "met z'n drieën"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe het verhaal afloopt en of alle vrienden nu gelukkig zijn."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-herfstvriend/image-1.png",
+      "alt": "Drie meisjes rapen samen kleurrijke herfstbladeren in een Nederlands park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-herfstvriend/image-2.png",
+      "alt": "Een eenzaam meisje staat alleen tussen gele en rode herfstbladeren"
+    }
+  ],
+  "imagePrompts": [
+    "Three young girls collecting colorful autumn leaves together in a Dutch park, children's book illustration style, warm fall colors, friendly atmosphere",
+    "A lonely girl standing alone among yellow and red autumn leaves in a park, children's book illustration style, melancholy mood, fall season"
+  ]
+}

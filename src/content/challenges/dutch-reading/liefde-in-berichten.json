@@ -1,0 +1,129 @@
+{
+  "id": "liefde-in-berichten",
+  "title": "Liefde in Berichten",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "cultuur",
+  "text": "**WhatsApp-chat, 14:23**\nMira: \"Hé! Zien we elkaar vanavond nog?\"\nJoris: \"Natuurlijk! Kom je naar de film?\"\n\n**Dagboekfragment, 15 maart**\n*Mijn hart bonst nog steeds als ik zijn naam zie op mijn telefoon. Is dit liefde? Mama zegt dat ik nog te jong ben, maar zij begrijpt het niet. Joris is anders dan andere jongens.*\n\n**E-mail van Mira aan haar nicht Yasmin, 19:45**\nLieve Yasmin,\nJe vroeg hoe het met Joris gaat. Eerlijk gezegd weet ik het niet meer. Gisteren zei hij dat ik \"te veel\" was omdat ik drie keer per dag berichten stuur. Maar ik mis hem gewoon! In Marokko was het anders tussen jongens en meisjes. Hier in Nederland lijkt alles zo vrij, maar ook zo ingewikkeld.\n\n**Fragment uit schoolkrant, column door Mira**\n*Cultuurverschillen in de liefde*\nAls Nederlands-Marokkaanse tiener navigeer ik tussen twee werelden. Thuis verwacht men bescheidenheid en respect. Op school zie ik Nederlandse meisjes openlijk zoenen met hun vriendjes. Waar hoor ik bij? Misschien ligt het antwoord niet in kiezen tussen culturen, maar in het creëren van mijn eigen pad.\n\n**SMS-gesprek, 20:15**\nJoris: \"Sorry voor gisteren. Ik snapte je niet.\"\nMira: \"Het geeft niet. Kunnen we praten?\"\nJoris: \"Ja. Ik wil je beter begrijpen.\"\n\n**Brief die nooit verstuurd werd**\n*Lieve Joris,\nIk realiseer me nu dat liefde niet alleen gevoel is, maar ook begrip. Jij komt uit een gezin waar emoties vrij geuit worden. Ik leerde vroeger dat liefde iets kostbaars is dat je beschermt. Misschien kunnen we allebei wat leren van elkaars cultuur? Echte liefde groeit wanneer twee mensen bereid zijn te luisteren en te veranderen.*\n\n*Met liefde,\nMira*",
+  "questions": [
+    {
+      "question": "Welke emotie ervaart Mira wanneer zij een bericht van Joris ontvangt volgens het dagboekfragment?",
+      "questionType": "begrijpen",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal"
+      },
+      "acceptableAnswers": [
+        "haar hart bonst",
+        "hart bonst",
+        "bonzend hart"
+      ],
+      "hint": "Kijk naar het dagboekfragment van 15 maart."
+    },
+    {
+      "question": "Analyseer hoe Mira's culturele achtergrond haar perspectief op romantische relaties beïnvloedt en vergelijk dit met de Nederlandse cultuur zoals zij die ervaart.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Mira tussen twee culturen navigeert: de Marokkaanse cultuur (bescheidenheid, respect, liefde als kostbaar iets dat beschermd wordt) versus de Nederlandse cultuur (openheid, vrijheid, emoties vrij uiten). Een goede analyse toont begrip van deze spanning.",
+        "exampleAnswer": "Mira komt uit een Marokkaanse cultuur waar bescheidenheid en respect belangrijk zijn, en waar liefde kostbaar is. In Nederland ziet ze meer openheid, zoals zoenen op school. Dit zorgt voor verwarring omdat ze tussen twee werelden leeft.",
+        "keyElements": [
+          "culturele verschillen/spanning",
+          "Marokkaanse/Nederlandse cultuur",
+          "bescheidenheid/openheid",
+          "navigeren/kiezen tussen werelden"
+        ],
+        "minWords": 8
+      },
+      "hint": "Bestudeer vooral de e-mail aan Yasmin en het fragment uit de schoolkrant."
+    },
+    {
+      "question": "Interpreteer de ontwikkeling in de communicatie tussen Mira en Joris door de verschillende berichtvormen heen en leg uit wat dit revealeert over hun relatiegroei.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet de progressie zien van oppervlakkige WhatsApp-berichten naar conflict via SMS naar begrip en bereidheid tot luisteren. De verschillende vormen (chat, SMS, brief) symboliseren verschillende niveaus van intimiteit en diepgang.",
+        "exampleAnswer": "Hun communicatie begint oppervlakkig via WhatsApp, wordt gespannen in SMS na conflict, maar eindigt met begrip. De brief toont Mira's diepste gedachten. Dit laat zien dat echte liefde groeit door communicatie en begrip.",
+        "keyElements": [
+          "communicatie ontwikkeling/progressie",
+          "oppervlakkig naar diep",
+          "conflict naar begrip",
+          "verschillende berichtvormen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Volg de chronologie van hun berichten en let op de verandering in toon en inhoud."
+    },
+    {
+      "question": "Beoordeel Mira's conclusie dat 'echte liefde groeit wanneer twee mensen bereid zijn te luisteren en te veranderen' en onderbouw je mening met voorbeelden uit de tekst.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een gefundeerde mening geven over Mira's conclusie, ondersteund met concrete voorbeelden uit de tekst zoals Joris' verontschuldiging, zijn bereidheid te begrijpen, of Mira's eigen groei in begrip.",
+        "exampleAnswer": "Ik ben het eens met Mira. Joris verontschuldigt zich en wil haar beter begrijpen, terwijl Mira leert dat liefde meer is dan gevoel. Beiden groeien door te luisteren naar elkaar.",
+        "keyElements": [
+          "mening/beoordeling",
+          "onderbouwing/voorbeelden",
+          "luisteren/veranderen/begrip",
+          "groei/ontwikkeling"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over de verandering die beide personages doormaken en gebruik concrete voorbeelden."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal over interculturele liefde?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte draait om het navigeren tussen verschillende culturen in de liefde, waarbij echte verbinding ontstaat door wederzijds begrip en de bereidheid om van elkaar te leren, niet door het kiezen van één cultuur boven de andere.",
+        "exampleAnswer": "Het verhaal gaat over hoe liefde tussen verschillende culturen kan werken wanneer beide partners bereid zijn om elkaars achtergrond te begrijpen en samen te groeien.",
+        "keyElements": [
+          "interculturele liefde/verschillende culturen",
+          "wederzijds begrip/samen leren",
+          "navigeren tussen werelden",
+          "groei/verandering"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de schrijfster ons wil leren over liefde tussen verschillende culturen."
+    },
+    {
+      "question": "Waarom kiest de schrijfster ervoor om het verhaal te vertellen door verschillende tekstvormen zoals berichten, dagboek en brieven in plaats van een gewoon verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de fragmentarische vorm de moderne communicatie weergeeft, verschillende perspectieven toont, en de intieme, persoonlijke aard van het verhaal versterkt. Elk medium heeft zijn eigen functie in het tonen van de relatiedynamiek.",
+        "exampleAnswer": "Door verschillende tekstvormen te gebruiken laat de schrijfster zien hoe jongeren echt communiceren. Elk medium toont een ander kant van hun relatie, van oppervlakkige berichten tot diepe gedachten in dagboeken.",
+        "keyElements": [
+          "verschillende tekstvormen/fragmentarisch",
+          "moderne communicatie/realisme",
+          "verschillende perspectieven/kanten",
+          "intimiteit/persoonlijk"
+        ],
+        "minWords": 7
+      },
+      "hint": "Overweeg waarom elk teksttype (WhatsApp, dagboek, e-mail, etc.) iets anders toevoegt aan het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/liefde-in-berichten/image-1.png",
+      "alt": "Een tienermeisje kijkt naar haar telefoon met verschillende app-iconen zichtbaar"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/liefde-in-berichten/image-2.png",
+      "alt": "Twee tieners zitten samen en praten, hun telefoons opzij gelegd"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl of Moroccan-Dutch heritage looking at her smartphone with various messaging app icons visible on the screen, sitting in a modern Dutch bedroom, children's book illustration style, soft lighting",
+    "Two teenagers, a Moroccan-Dutch girl and a Dutch boy, sitting together on a park bench having a serious conversation, their phones set aside, Dutch park setting with typical Dutch architecture in background, children's book illustration style"
+  ]
+}

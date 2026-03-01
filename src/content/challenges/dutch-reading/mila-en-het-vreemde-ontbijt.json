@@ -1,0 +1,94 @@
+{
+  "id": "mila-en-het-vreemde-ontbijt",
+  "title": "Mila en het Vreemde Ontbijt",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Mila keek naar haar bord. Daar lag iets grijs en plats. Het zag er raar uit. \"Wat is dit?\" vroeg ze aan mama.\n\n\"Dat is havermout,\" zei mama. \"In Nederland eten veel kinderen dat. Het is gezond voor je.\" Mila schudde haar hoofd. In Marokko at ze altijd brood met jam.\n\nPapa zat naast haar. Hij at de havermout wel. \"Mmm, lekker,\" zei hij omdat hij wilde helpen. Maar Mila geloofde hem niet. Het zag er nog steeds vies uit.\n\n\"Je moet naar school,\" zei mama. \"Probeer het eerst.\" Mila nam een kleine hap. Het smaakte zoet en warm. Eigenlijk was het niet zo erg. Ze nam nog een hap.\n\nToen ze klaar was, glimlachte Mila. \"Morgen wil ik weer havermout,\" zei ze. Papa knipoogde naar haar. Nieuwe dingen waren soms best lekker.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de havermout?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "grijs"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat at Mila vroeger in Marokko?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "brood met jam"
+      ],
+      "hint": "Dit staat in de tweede alinea."
+    },
+    {
+      "question": "Waarom geloofde Mila papa niet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zag",
+            "ziet",
+            "uitzien",
+            "eruitzien"
+          ],
+          [
+            "vies",
+            "raar",
+            "erg",
+            "lelijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Mila van de havermout vond."
+    },
+    {
+      "question": "Vind jij dat Mila moedig was? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "probeerde",
+            "proberen",
+            "proefde",
+            "proeven",
+            "deed"
+          ],
+          [
+            "bang",
+            "eng",
+            "nieuw",
+            "vreemd",
+            "durven",
+            "moedig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Mila deed toen ze bang was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mila-en-het-vreemde-ontbijt/image-1.png",
+      "alt": "Mila kijkt naar een bord met grijze havermout"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mila-en-het-vreemde-ontbijt/image-2.png",
+      "alt": "Mila glimlacht na het eten van de havermout"
+    }
+  ],
+  "imagePrompts": [
+    "A young Moroccan girl sitting at a Dutch breakfast table looking uncertainly at a bowl of grey oatmeal, children's book illustration style",
+    "The same girl now smiling happily after trying the oatmeal, with her parents looking proud, warm kitchen setting, children's book illustration style"
+  ]
+}

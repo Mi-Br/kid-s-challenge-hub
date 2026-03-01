@@ -1,0 +1,132 @@
+{
+  "id": "vrienden-op-de-markt",
+  "title": "Vrienden op de Markt",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de markt",
+  "text": "Elke zaterdagochtend ging Lieke met haar oma naar de markt in het centrum. Ze kenden alle verkopers bij naam en oma kocht altijd verse groenten bij dezelfde kraam. Vorige week had Lieke daar haar nieuwe klasgenoot Amara ontmoet, die met haar moeder boodschappen deed. Ze hadden afgesproken om deze zaterdag samen de markt te ontdekken.\n\nToen Lieke bij de groentekraam aankwam, zag ze Amara al wachten. \"Hoi! Ik heb mijn zakgeld meegenomen,\" zei Amara vrolijk. \"Mijn moeder zegt dat ik zelf mag kiezen wat ik koop.\" Lieke glimlachte, maar voelde zich een beetje ongemakkelijk. Haar oma gaf haar nooit eigen geld om uit te geven op de markt.\n\nDe twee meisjes liepen samen tussen de kramen door. Amara kocht een kleurrijke armband bij de sieradenkraam en een zoete wafel bij de bakkerij. \"Neem jij ook iets?\" vroeg ze aan Lieke. Lieke schudde haar hoofd en mompelde dat ze geen honger had. Eigenlijk schaamde ze zich omdat ze geen geld had.\n\nBij de boekenkraam bleef Lieke staan. Ze bladerde door een mooi prentenboek over dieren, maar zette het snel terug toen ze de prijs zag. Amara, die net een stripboek had gekocht, merkte Liekes teleurgestelde blik op. \"Waarom koop je het niet?\" vroeg ze. Lieke voelde haar wangen rood worden en zei kortaf: \"Ik vind het eigenlijk niet zo mooi.\"\n\nAmara keek verbaasd. Ze had gezien hoe Lieke het boek bewonderde. Langzaam begreep ze dat haar nieuwe vriendin misschien geen zakgeld had om iets te kopen. Zonder iets te zeggen, liep ze terug naar de boekverkoper. \"Meneer, mag ik dat dierenboek ook nog?\" Ze betaalde en gaf het boek aan Lieke. \"Een cadeau van mij naar jou,\" zei ze zacht.\n\nLieke keek naar het boek in haar handen en toen naar Amara. Ze besefte dat echte vriendschap niet gaat om hoeveel geld je hebt, maar om hoe je voor elkaar zorgt. \"Dankjewel,\" fluisterde ze. \"En sorry dat ik niet eerlijk was.\" Amara glimlachte. \"Dat geeft niet. Volgende week neem ik weer geld mee, dan kunnen we samen iets leuks uitzoeken.\" Hand in hand liepen ze terug naar oma, die trots naar haar kleindochter en haar nieuwe vriendin keek.",
+  "questions": [
+    {
+      "question": "Waar komt Lieke elke zaterdag met haar oma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "naar de markt",
+        "naar de markt in het centrum",
+        "de markt",
+        "markt"
+      ],
+      "hint": "Kijk naar de allereerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom wilde Lieke het dierenboek niet kopen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "zakgeld",
+            "betalen",
+            "prijs",
+            "duur"
+          ],
+          [
+            "geen",
+            "niet",
+            "kon niet",
+            "had niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat er gebeurt bij de sieradenkraam en de bakkerij."
+    },
+    {
+      "question": "Hoe toont Amara dat zij een goede vriendin is?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "boek",
+            "dierenboek",
+            "cadeau",
+            "kocht",
+            "kopen",
+            "gaf"
+          ],
+          [
+            "begreep",
+            "snapte",
+            "zag",
+            "merkte",
+            "besefte"
+          ],
+          [
+            "help",
+            "hielp",
+            "zorgt",
+            "zorg",
+            "aardig",
+            "lief"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Amara doet bij de boekenkraam."
+    },
+    {
+      "question": "Vind je dat Lieke goed reageerde toen ze het boek kreeg? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Liekes reactie en dit onderbouwen. Positieve antwoorden kunnen focussen op dankbaarheid, excuses, eerlijkheid. Negatieve antwoorden op dat ze eerder eerlijk had moeten zijn.",
+        "exampleAnswer": "Ja, want ze zei dankjewel en sorry. Ze was eerlijk over haar fout.",
+        "keyElements": [
+          "dankbaar/dankjewel/bedankte",
+          "sorry/excuses/eerlijk",
+          "goed/slecht/fout"
+        ],
+        "minWords": 5
+      },
+      "hint": "Kijk naar wat Lieke zegt en doet als ze het boek krijgt."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte gaat over echte vriendschap die niet afhangt van geld of spullen, maar van begrip en zorgen voor elkaar. De leerling moet dit kernidee begrijpen.",
+        "exampleAnswer": "Echte vriendschap gaat niet om geld hebben, maar om voor elkaar zorgen.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "geld/zakgeld/spullen",
+          "zorgen/begrijpen/helpen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Lieke leert over vriendschap aan het eind."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/vrienden-op-de-markt/image-1.png",
+      "alt": "Twee meisjes lopen samen tussen de kleurrijke marktkramen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/vrienden-op-de-markt/image-2.png",
+      "alt": "Een meisje geeft een boek cadeau aan haar vriendin bij de boekenkraam"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls walking together through a vibrant Dutch market with colorful stalls selling vegetables, books and jewelry, children's book illustration style, sunny Saturday morning atmosphere",
+    "A girl with dark skin giving a picture book about animals as a gift to her blonde friend at a book stall, both girls smiling warmly, Dutch market scene, children's book illustration style"
+  ]
+}

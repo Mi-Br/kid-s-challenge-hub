@@ -1,0 +1,130 @@
+{
+  "id": "het-verdwenen-vogelboekje",
+  "title": "Het Verdwenen Vogelboekje",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Lisa kreeg een nieuw vogelboekje van haar opa. Ze was er heel blij mee omdat ze graag wilde leren welke vogels in het park wonen. Het boekje had mooie plaatjes van alle Nederlandse vogels.\n\nDe volgende dag ging Lisa naar het Vondelpark met haar mama. Ze nam het vogelboekje mee in haar rugzak. Bij de vijver zag ze een grote witte vogel met een lange nek. Lisa wilde het boekje pakken om te kijken wat voor vogel het was.\n\nMaar het boekje was weg! Lisa keek overal in haar rugzak. Ze zocht op de grond en onder de bank. Ze werd heel verdrietig want het was een cadeau van opa.\n\nToen hoorde Lisa een raar geluid. Quack, quack! De witte vogel had iets in zijn snavel. Het was haar vogelboekje! De zwaan had het gepakt toen Lisa even niet keek.\n\nLisa en haar mama lachten hard. De zwaan liet het boekje vallen en zwom weg. Nu wist Lisa welke vogel ze had gezien, ook zonder het boekje te lezen!",
+  "questions": [
+    {
+      "question": "Van wie kreeg Lisa het vogelboekje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "van haar opa",
+        "haar opa",
+        "opa"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Van wie kreeg Lisa het vogelboekje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "van haar opa",
+        "haar opa",
+        "opa"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom werd Lisa verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "boekje",
+            "boek"
+          ],
+          [
+            "weg",
+            "kwijt",
+            "verdwenen",
+            "zoek"
+          ],
+          [
+            "cadeau",
+            "van opa",
+            "opa"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met het boekje gebeurde."
+    },
+    {
+      "question": "Wat betekent het woord 'snavel' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "De zwaan had iets in zijn snavel. Wat is dat bij een vogel?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "de bek van de vogel"
+          ],
+          [
+            "bek van een vogel"
+          ],
+          [
+            "vogelbek"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat de zwaan stout was? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "stout"
+          ],
+          [
+            "nee",
+            "niet",
+            "geen"
+          ],
+          [
+            "pakken",
+            "pakte",
+            "genomen"
+          ],
+          [
+            "weten",
+            "wist",
+            "begrijpen",
+            "snapt",
+            "snap"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat denk jij? Wist de zwaan wat hij deed?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-vogelboekje/image-1.png",
+      "alt": "Lisa bij de vijver in het park met haar rugzak, kijkend naar een witte zwaan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-vogelboekje/image-2.png",
+      "alt": "De zwaan met het vogelboekje in zijn snavel, Lisa en mama lachen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with a backpack standing by a pond in a Dutch park, looking at a large white swan, children's book illustration style, bright colors",
+    "A white swan holding a small bird guide book in its beak while a girl and her mother laugh nearby, children's book illustration style, cheerful scene"
+  ]
+}

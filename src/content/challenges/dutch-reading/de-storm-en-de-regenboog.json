@@ -1,0 +1,114 @@
+{
+  "id": "de-storm-en-de-regenboog",
+  "title": "De Storm en de Regenboog",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "\"Mama, mag ik buiten spelen?\" vraagt Lisa. \"Het is zo mooi weer!\"\n\n\"Nee Lisa,\" zegt mama. \"Er komt een storm. Kijk maar naar de lucht. De wolken zijn heel donker.\"\n\nLisa kijkt niet naar buiten. \"Maar het regent niet!\" roept ze boos.\n\n\"Ik ga wel naar buiten!\" Lisa rent naar de tuin.\n\nNa vijf minuten begint het te regenen. Na tien minuten waait de wind heel hard. Lisa wordt helemaal nat omdat ze geen jas aan heeft.\n\n\"Help!\" roept Lisa. \"Ik word nat en koud!\"\n\nMama doet de deur open. \"Kom snel binnen, lieve schat.\"\n\nLisa rent naar binnen. Ze is nat van de regen en bibbert van de kou.\n\n\"Sorry mama,\" zegt Lisa zacht. \"Ik had naar je moeten luisteren. Je wist dat er een storm kwam.\"\n\n\"Het geeft niet,\" zegt mama. \"Nu weet je waarom we naar het weer kijken. Droge kleren aantrekken?\"\n\nDe volgende dag kijkt Lisa eerst naar de lucht. De zon schijnt en er zijn witte wolken. \"Mama, nu is het wel mooi weer voor buiten!\"",
+  "questions": [
+    {
+      "question": "Waarom mag Lisa niet naar buiten van mama?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar wat mama zegt in het begin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "komt"
+          ],
+          [
+            "storm"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom werd Lisa nat en koud?",
+      "questionType": "begrijpen",
+      "hint": "Lees wat er gebeurt als het gaat regenen.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "geen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen ze nat werd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "bang was"
+          ],
+          [
+            "koud",
+            "nat",
+            "rillen",
+            "bibberen",
+            "bibbert",
+            "koud werd"
+          ],
+          [
+            "spijt",
+            "sorry",
+            "verdrietig",
+            "slecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa roept en doet als het regent."
+    },
+    {
+      "question": "Wat betekent het woord 'bibbert' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa bibbert omdat ze nat en koud is.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "ze heeft het koud"
+          ],
+          [
+            "trillen van de kou"
+          ],
+          [
+            "rillen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-storm-en-de-regenboog/image-1.png",
+      "alt": "Lisa praat met mama bij het raam terwijl donkere wolken buiten zichtbaar zijn"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-storm-en-de-regenboog/image-2.png",
+      "alt": "Lisa rent nat en koud terug naar huis in de regen en wind"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl talking to her mother by a window, with dark storm clouds visible outside in the sky, children's book illustration style",
+    "A young girl running back to the house in the rain and wind, getting soaked and looking cold and worried, children's book illustration style"
+  ]
+}

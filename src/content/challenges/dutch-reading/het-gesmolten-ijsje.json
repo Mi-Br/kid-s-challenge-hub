@@ -1,0 +1,103 @@
+{
+  "id": "het-gesmolten-ijsje",
+  "title": "Het Gesmolten Ijsje",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Lisa en haar broertje Tim staan in de rij bij de ijskraam. Het is heel warm vandaag en de zon schijnt fel. Lisa heeft geld van mama gekregen voor twee ijsjes.\n\n\"Ik wil chocolade!\" roept Tim. Lisa koopt een chocolade-ijsje voor Tim en aardbei voor zichzelf. Ze gaat op het bankje zitten omdat ze moe is van het wachten.\n\nTim rent naar de speeltuin omdat hij zijn vrienden ziet. \"Wacht op mij!\" roept hij. Zijn ijsje valt op de grond. Het chocolade-ijs smelt snel op de warme tegels.\n\nTim komt terug en ziet zijn ijsje. Zijn ogen worden nat van de tranen. \"Mijn ijsje is weg,\" fluistert hij verdrietig. Lisa voelt zich schuldig omdat ze niet goed op hem heeft gelet.\n\n\"Het spijt me, Tim. Hier, neem mijn ijsje,\" zegt Lisa. Ze geeft haar aardbei-ijsje aan hem. Tim kijkt naar zijn grote zus. \"Maar dan heb jij niks,\" zegt hij zacht.",
+  "questions": [
+    {
+      "question": "Welke smaak ijsje wilde Tim?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "chocolade"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Welke smaak ijsje wilde Tim?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "chocolade"
+      ],
+      "hint": "Tim roept dit in het begin van het verhaal."
+    },
+    {
+      "question": "Waarom viel Tims ijsje op de grond?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "rent",
+            "rende",
+            "rennen",
+            "hard lopen"
+          ],
+          [
+            "speeltuin",
+            "vrienden",
+            "spelen"
+          ],
+          [
+            "haast",
+            "snel",
+            "hard"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Tim deed toen hij zijn vrienden zag."
+    },
+    {
+      "question": "Vind je dat Lisa een goede zus is? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "deelt",
+            "delen",
+            "geeft",
+            "geven",
+            "aardig",
+            "lief"
+          ],
+          [
+            "ijsje",
+            "aardbei"
+          ],
+          [
+            "goed",
+            "goede",
+            "ja",
+            "wel",
+            "niet",
+            "nee"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Lisa doet aan het eind van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-gesmolten-ijsje/image-1.png",
+      "alt": "Lisa en Tim staan bij een ijskraam op een warme zomerdag"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-gesmolten-ijsje/image-2.png",
+      "alt": "Een gesmolten chocolade-ijsje ligt op de warme tegels"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, Lisa and her little brother Tim, standing at a colorful ice cream cart on a sunny summer day in a Dutch park, children's book illustration style",
+    "A melted chocolate ice cream on warm pavement tiles with a sad little boy looking at it, sunny day, children's book illustration style"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "brave-kiki-en-de-grote-hond",
+  "title": "Brave Kiki en de Grote Hond",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "huisdieren",
+  "text": "Kiki is een kleine gele kanarie. Ze woont bij Emma in een grote kooi. De kooi staat bij het raam. Kiki zingt elke dag vrolijke liedjes.\n\nOp een dag komt er een grote zwarte hond in de tuin. De hond blaft heel hard. Kiki wordt bang en verstopt zich achter haar speeltje. Emma ziet dat Kiki bang is.\n\n'Wat gebeurt er, Kiki?' vraagt Emma zacht. Kiki piept angstig. De hond blaft weer. Emma kijkt door het raam en ziet de grote hond.\n\n'Maak je geen zorgen,' zegt Emma tegen Kiki. 'Ik ga naar buiten.' Emma loopt naar de tuin. Ze ziet dat de hond honger heeft. Hij heeft geen water of eten.\n\nEmma geeft de hond water en brood. De hond kwispelt blij met zijn staart. Hij blaft niet meer. Kiki hoort dat het stil is. Ze komt uit haar verstopplek en zingt weer.\n\n'Goed zo, Kiki!' zegt Emma trots. 'Je bent heel dapper.' Kiki zingt nog mooier. Ze is niet meer bang.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Kiki?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel",
+        "gele"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom wordt Kiki bang?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hond",
+            "grote hond",
+            "zwarte hond"
+          ],
+          [
+            "blaft",
+            "blaffen",
+            "blaf",
+            "hard blaft"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er in de tuin gebeurt."
+    },
+    {
+      "question": "Wat geeft Emma aan de hond?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "water en brood",
+        "brood en water"
+      ],
+      "hint": "Lees de vijfde alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/brave-kiki-en-de-grote-hond/image-1.png",
+      "alt": "Een kleine gele kanarie in een kooi bij het raam, met een meisje ernaast"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/brave-kiki-en-de-grote-hond/image-2.png",
+      "alt": "Een meisje dat water en brood geeft aan een grote zwarte hond in de tuin"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a small yellow canary named Kiki in a large cage by the window, with a young Dutch girl named Emma standing nearby in a cozy living room",
+    "Children's book illustration of a young Dutch girl giving water and bread to a large black dog in a backyard garden, with the dog wagging its tail happily"
+  ]
+}

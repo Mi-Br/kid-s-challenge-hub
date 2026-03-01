@@ -1,0 +1,58 @@
+{
+  "id": "de-hond-van-buurman-kees",
+  "title": "De Hond van Buurman Kees",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de buurt",
+  "text": "Emma woont in een klein dorp. Naast haar huis woont buurman Kees. Buurman Kees heeft een grote zwarte hond. De hond heet Rex.\n\nEmma is bang voor Rex. Rex blaft hard als Emma langsloopt. Emma rent altijd weg. Ze durft niet naar de winkel te lopen.\n\nMama zegt: \"Rex is lief, Emma. Hij wil spelen.\" Papa zegt ook: \"Rex doet geen pijn.\" Maar Emma blijft bang.\n\nVandaag ligt Rex in de tuin. Hij slaapt in de zon. Emma loopt heel zacht langs het hek. Rex doet zijn ogen open. Hij kwispelt met zijn staart.\n\nBuurman Kees komt naar buiten. \"Hallo Emma,\" zegt hij. \"Rex vindt je aardig. Wil je hem aaien?\" Emma kijkt naar Rex. Rex likt haar hand. Hij is zacht en warm.\n\n\"Rex is lief!\" zegt Emma. Nu is ze niet meer bang. Ze aait Rex elke dag.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de hond van buurman Kees?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zwart",
+        "grote zwarte"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat doet Emma altijd als Rex blaft?",
+      "questionType": "begrijpen",
+      "hint": "Lees de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "rent"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe heet de hond?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rex"
+      ],
+      "hint": "De naam staat in de eerste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-hond-van-buurman-kees/image-1.png",
+      "alt": "Emma kijkt bang naar een grote zwarte hond achter een hek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-hond-van-buurman-kees/image-2.png",
+      "alt": "Emma aait de vriendelijke hond Rex terwijl buurman Kees toekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking nervously at a large friendly black dog behind a garden fence in a small Dutch village, children's book illustration style",
+    "A young girl happily petting a gentle black dog while an elderly Dutch neighbor watches with a smile, sunny garden setting, children's book illustration style"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "het-mysterie-van-de-gele-bloemen",
+  "title": "Het Mysterie van de Gele Bloemen",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "natuur",
+  "text": "Emma wandelde door het Vondelpark met haar oma. Het was een warme lentedag en overal bloeiden bloemen. Maar er was iets vreemds. Gisteren had Emma hier nog prachtige gele narcissen gezien. Nu waren ze allemaal verdwenen!\n\n\"Oma, waar zijn alle gele bloemen gebleven?\" vroeg Emma bezorgd. Haar oma keek om zich heen en fronste haar wenkbrauwen. \"Dat is inderdaad heel vreemd, lieverd. Laten we eens goed kijken.\"\n\nEmma begon rond te lopen en zocht naar aanwijzingen. Bij de vijver ontdekte ze kleine gele blaadjes op de grond. Daarna vond ze een paar afgeknapte stengels tussen de struiken. Maar wie zou alle bloemen hebben weggenomen?\n\nToen Emma langs de bankjes liep, hoorde ze een zacht geritsel. Ze keek onder een grote eik en zag iets bewegen. Emma dacht bij zichzelf: zou dit de oplossing van het mysterie zijn?\n\nVoorzichtig kwam Emma dichterbij. Onder de boom zat een groot konijn. Het beest had nog gele bloemblaadjes rond zijn snuit! \"Oma, kom snel!\" riep Emma lachend. \"Ik heb de dief gevonden. Het konijn heeft alle narcissen opgegeten!\"\n\nHaar oma kwam aangelopen en glimlachte. \"Goed opgelost, Emma! Konijnen zijn inderdaad erg gek op bloemen. Ze eten vooral gele en oranje bloemen omdat die zoet smaken.\" Emma was trots op zichzelf. Ze had haar eerste natuurmysterie opgelost!",
+  "questions": [
+    {
+      "question": "In welk park wandelden Emma en haar oma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "vondelpark",
+        "het vondelpark"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom was Emma bezorgd toen ze door het park liep?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gele",
+            "geel",
+            "bloemen",
+            "narcissen"
+          ],
+          [
+            "verdwenen",
+            "weg",
+            "weggenomen",
+            "kwijt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma gisteren had gezien en wat er nu anders was."
+    },
+    {
+      "question": "Welke aanwijzingen vond Emma om het mysterie op te lossen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "gele",
+            "geel",
+            "blaadjes",
+            "bladeren"
+          ],
+          [
+            "stengels",
+            "stengetjes",
+            "afgeknapte"
+          ],
+          [
+            "geritsel",
+            "geluid",
+            "bewegen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Emma ontdekte verschillende sporen voordat ze de dader vond."
+    },
+    {
+      "question": "Vind jij dat Emma slim heeft gehandeld? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "slim",
+            "knap",
+            "goed",
+            "handig"
+          ],
+          [
+            "aanwijzingen",
+            "sporen",
+            "zocht",
+            "onderzocht",
+            "keek"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Emma het mysterie heeft opgelost."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-gele-bloemen/image-1.png",
+      "alt": "Emma en haar oma wandelen door het Vondelpark op een zonnige lentedag"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-gele-bloemen/image-2.png",
+      "alt": "Een groot konijn onder een eikenboom met gele bloemblaadjes rond zijn snuit"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her grandmother walking through a sunny Dutch park with trees and flower beds, children's book illustration style",
+    "A large rabbit sitting under an oak tree with yellow flower petals around its mouth, in a park setting, children's book illustration style"
+  ]
+}

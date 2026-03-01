@@ -1,0 +1,146 @@
+{
+  "id": "de-stem-van-nina",
+  "title": "De Stem van Nina",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "democratie",
+  "text": "Nina woont in een groot huis met een tuin. Haar ouders hebben goede banen en ze gaat naar een privéschool. Ze vindt het normaal dat iedereen zo leeft als zij.\n\nOp school krijgt Nina een project over de gemeenteraadsverkiezingen. Ze moet interviews doen met mensen uit verschillende wijken. Haar lerares geeft haar adressen in de oude binnenstad, waar ze nog nooit is geweest.\n\nBij het eerste huis opent een mevrouw met vermoeide ogen de deur. 'Stemmen?' zegt ze bitter. 'Waarom zou ik? Er verandert toch niks voor ons. De politici beloven van alles, maar wij krijgen nog steeds geen fatsoenlijke speeltuin voor onze kinderen. De straten zijn kapot en niemand repareert ze.'\n\nNina is verbaasd. In haar wijk zijn de wegen glad en de parken prachtig. Ze vraagt door: 'Maar u kunt toch meepraten? Dat is democratie.' De vrouw lacht droog. 'Meepraten? Kind, wanneer zijn de gemeenteraadsvergaderingen? Op dinsdagavond om acht uur. Dan werk ik in de supermarkt. En wie gaat er naar die vergaderingen? Mensen zoals jouw ouders, met tijd en geld.'\n\nDie avond praat Nina met haar vader. Hij vertelt dat hij vaak naar vergaderingen gaat en dat hij de burgemeester persoonlijk kent. 'Democratie werkt,' zegt hij, 'je moet je gewoon laten horen.' Maar Nina denkt aan de vermoeide vrouw die 's avonds moet werken.\n\nNina begint haar onderzoek anders te doen. Ze ontdekt dat veel mensen in bepaalde wijken niet stemmen omdat ze het gevoel hebben dat hun stem niet telt. Ze leest over ongelijkheid in de samenleving en hoe rijke mensen meer invloed hebben op politieke beslissingen.\n\nVoor haar project schrijft Nina niet alleen over hoe democratie werkt, maar ook over waarom het niet voor iedereen hetzelfde werkt. Ze stelt voor dat de gemeente vergaderingen op verschillende tijden houdt en in verschillende wijken. Haar lerares is onder de indruk: 'Je hebt begrepen dat democratie meer is dan alleen stemmen, Nina.'",
+  "questions": [
+    {
+      "question": "Waar woont Nina?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in een groot huis met een tuin"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom stemt de mevrouw uit de binnenstad niet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "verandert",
+            "veranderen",
+            "helpt",
+            "helpen"
+          ],
+          [
+            "niks",
+            "niets",
+            "weinig"
+          ],
+          [
+            "werk",
+            "werkt",
+            "werken",
+            "tijd",
+            "geen tijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat de mevrouw zegt over politici en haar werk."
+    },
+    {
+      "question": "Wat ontdekt Nina over ongelijkheid in de democratie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "rijke",
+            "rijken",
+            "geld",
+            "invloed"
+          ],
+          [
+            "arme",
+            "armen",
+            "werken",
+            "tijd"
+          ],
+          [
+            "ongelijk",
+            "ongelijkheid",
+            "verschil",
+            "verschillend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Nina leert over mensen met geld en tijd versus mensen die moeten werken."
+    },
+    {
+      "question": "Vind je Nina's voorstellen voor de gemeente goed? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 8,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "slim",
+            "handig",
+            "nuttig",
+            "helpt"
+          ],
+          [
+            "slecht",
+            "dom",
+            "onhandig",
+            "nutteloos"
+          ],
+          [
+            "tijd",
+            "tijden",
+            "werk",
+            "werken",
+            "mensen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over of haar ideeën zouden helpen voor mensen zoals de mevrouw uit de binnenstad."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe democratie niet voor iedereen hetzelfde werkt en over ongelijkheid in de maatschappij. Nina leert dat haar privileges haar een andere kijk geven op democratie.",
+        "exampleAnswer": "Het verhaal gaat over een rijk meisje dat leert dat democratie niet eerlijk is voor iedereen.",
+        "keyElements": [
+          "ongelijkheid/verschil",
+          "democratie/stemmen",
+          "rijk/arm",
+          "leren/ontdekken"
+        ],
+        "minWords": 8
+      },
+      "hint": "Wat leert Nina over democratie en waarom werkt het niet voor iedereen hetzelfde?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-van-nina/image-1.png",
+      "alt": "Nina praat met een vermoeide vrouw bij de deur van een klein huis in de oude binnenstad"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-van-nina/image-2.png",
+      "alt": "Nina zit aan haar bureau en schrijft haar onderzoek over democratie en ongelijkheid"
+    }
+  ],
+  "imagePrompts": [
+    "A privileged teenage girl talking to a tired working-class woman at the door of a small house in an old Dutch neighborhood, children's book illustration style with realistic characters showing social contrast",
+    "A thoughtful teenage girl sitting at her desk writing a school project about democracy and inequality, with notes and books spread around her, children's book illustration style showing her moment of understanding"
+  ]
+}

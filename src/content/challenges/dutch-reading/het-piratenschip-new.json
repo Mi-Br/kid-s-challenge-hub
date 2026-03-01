@@ -1,0 +1,95 @@
+{
+  "id": "het-piratenschip",
+  "title": "Het Piratenschip",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "Anouk en Daan speelden in de tuin. Ze hadden een groot piratenschip gebouwd van dozen en oude lakens. Anouk was de kapitein omdat zij het plan had bedacht. Ze droeg een zwarte hoed en zwaaide met een houten zwaard.\n\n\"Ahoy, matroos Daan!\" riep Anouk. \"We moeten de schat zoeken op het eiland!\" Maar toen ging de wind hard waaien. Het laken dat hun zeil was, scheurde kapot. Hun mooie schip zag er nu zielig uit.\n\n\"Ons schip is kapot,\" zei Daan verdrietig. \"Nu kunnen we niet meer varen.\" Anouk keek naar het gescheurde zeil. Ze dacht na. Als ze snel handelden, zouden ze het schip kunnen repareren.\n\n\"Wacht even,\" riep Anouk. \"Ik heb een idee!\" Ze rende naar binnen en kwam terug met tape en een nieuwe deken. Samen plakten ze het zeil vast. Het schip zag er weer prachtig uit.\n\n\"Hoera!\" juichte Daan. \"Nu kunnen we toch op avontuur!\" Ze voeren weer verder op zoek naar de verborgen schat. Want echte piraten geven nooit op, ook niet als er problemen zijn.",
+  "questions": [
+    {
+      "question": "Wat droeg Anouk op haar hoofd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een zwarte hoed",
+        "zwarte hoed"
+      ],
+      "hint": "Kijk in de eerste alinea naar wat Anouk droeg."
+    },
+    {
+      "question": "Wat gebeurde er met het laken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het scheurde kapot",
+        "scheurde kapot",
+        "het ging kapot"
+      ],
+      "hint": "Kijk in de tweede alinea naar wat de wind deed."
+    },
+    {
+      "question": "Waarom was Daan verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schip",
+            "boot"
+          ],
+          [
+            "kapot",
+            "stuk",
+            "gescheurd",
+            "scheurde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde met hun piratenschip."
+    },
+    {
+      "question": "Vind jij dat Anouk een goede kapitein is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "oplossing",
+            "idee",
+            "plan",
+            "repareren",
+            "maken",
+            "plakken"
+          ],
+          [
+            "goed",
+            "slim",
+            "handig",
+            "helpt",
+            "lost op"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Anouk het probleem oploste."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-piratenschip/image-1.png",
+      "alt": "Anouk en Daan spelen piraat in hun zelfgemaakte schip in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-piratenschip/image-2.png",
+      "alt": "Het gescheurde zeil van het piratenschip waait in de wind"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch children playing pirates in their backyard, with a homemade ship built from cardboard boxes and sheets, one child wearing a black pirate hat and holding a wooden sword, children's book illustration style",
+    "A torn white sheet blowing in the wind, part of a makeshift pirate ship made from boxes in a Dutch garden, looking sad and broken, children's book illustration style"
+  ]
+}

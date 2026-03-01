@@ -1,0 +1,127 @@
+{
+  "id": "lisa-durft-te-zwemmen",
+  "title": "Lisa durft te zwemmen",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Lisa staat aan de rand van het zwembad. Haar hart klopt heel hard. Ze kijkt naar het diepe water en voelt zich bang. Haar armen trillen een beetje.\n\n\"Kom maar, Lisa!\" roept zwemjuf Marieke. \"Je kunt het wel.\" Maar Lisa schudt haar hoofd. Ze denkt: mijn benen zijn te zwak om te zwemmen.\n\nTerwijl Lisa naar het water staart, ziet ze Emma springen. Emma lacht en spartelt vrolijk rond. Tegelijkertijd oefent groep zes aan de andere kant hun duiken. Lisa denkt aan haar oma, die altijd zei: \"Moed groeit als een bloem, langzaam maar zeker.\"\n\nLisa doet haar ogen dicht. Ze voelt haar voeten op de koude tegels. Langzaam laat ze zich in het water zakken. Het water voelt warm en zacht om haar lichaam.\n\n\"Kijk eens!\" roept Emma blij. \"Lisa zwemt!\" Lisa merkt dat haar angst verdwenen is. Haar benen bewegen rustig door het water omdat ze ontdekt heeft dat zwemmen eigenlijk heel fijn is.",
+  "questions": [
+    {
+      "question": "Wat doet Lisa's hart aan de rand van het zwembad?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "klopt"
+          ],
+          [
+            "heel"
+          ],
+          [
+            "hard"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat zegt oma altijd over moed?",
+      "questionType": "begrijpen",
+      "hint": "Lisa denkt aan haar oma in de derde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "moed"
+          ],
+          [
+            "groeit"
+          ],
+          [
+            "bloem,"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom dacht Lisa dat ze niet kon zwemmen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "benen",
+            "been"
+          ],
+          [
+            "zwak",
+            "te zwak",
+            "zwakke"
+          ],
+          [
+            "bang",
+            "angst",
+            "angstig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa over haar benen dacht."
+    },
+    {
+      "question": "Vind je dat Lisa moedig is? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "moedig"
+          ],
+          [
+            "bang",
+            "angst",
+            "angstig",
+            "durft",
+            "durfde"
+          ],
+          [
+            "zwemmen",
+            "water",
+            "proberen",
+            "probeerde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa deed ondanks haar angst."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lisa-durft-te-zwemmen/image-1.png",
+      "alt": "Lisa staat bang aan de rand van het zwembad"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lisa-durft-te-zwemmen/image-2.png",
+      "alt": "Lisa zwemt vrolijk in het water terwijl Emma toekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa standing nervously at the edge of a swimming pool, her arms trembling slightly, looking scared at the deep water, children's book illustration style",
+    "Lisa swimming happily in the pool water while another girl Emma watches and cheers, both girls smiling, warm indoor pool setting, children's book illustration style"
+  ]
+}

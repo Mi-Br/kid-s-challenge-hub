@@ -1,0 +1,92 @@
+{
+  "id": "het-water-speelgoed",
+  "title": "Het Water Speelgoed",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "\"Opa, kijk eens!\" roept Emma. \"Ik heb een nieuwe waterpistool gekregen van papa!\"\n\n\"Wat leuk!\" zegt opa. \"Vroeger speelde ik ook met water. Maar wij hadden geen waterpistool. We speelden met de tuinslang.\"\n\n\"Mag ik ermee spelen in de tuin?\" vraagt Emma aan mama.\n\n\"Natuurlijk,\" antwoordt mama. \"Maar zorg dat je kleren niet te nat worden.\"\n\nEmma rent naar buiten omdat ze heel erg wil spelen. Ze spuit water op de bloemen en op de vogels. Dan legt ze haar waterpistool naast het zwembadje neer.\n\n\"Emma, kom binnen voor de lunch!\" roept mama na een uur.\n\nNa het eten wil Emma weer spelen. Maar haar waterpistool is weg! \"Waar is mijn waterpistool?\" huilt ze. \"Ik kan het niet vinden!\"\n\n\"Misschien ligt het in de schuur,\" zegt papa.\n\n\"Of onder de struiken,\" denkt mama.\n\nEmma zoekt overal. In de schuur, onder de struiken, achter de schommel. Niets!\n\n\"Kijk eens in het zwembadje,\" zegt opa.\n\nEmma kijkt. Daar drijft haar waterpistool in het water! \"Gevonden!\" juicht ze. \"Het viel in het zwembadje toen ik ging lunchen!\"",
+  "questions": [
+    {
+      "question": "Wat kreeg Emma van papa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een nieuwe waterpistool"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat speelde opa vroeger?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "met de tuinslang"
+      ],
+      "hint": "Opa vertelt over zijn tijd als kind."
+    },
+    {
+      "question": "Waarom rent Emma naar buiten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "wil",
+            "wou",
+            "wilde"
+          ],
+          [
+            "spelen",
+            "speel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Emma heeft een reden om snel naar buiten te gaan."
+    },
+    {
+      "question": "Vind jij dat Emma goed zocht naar haar waterpistool?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed"
+          ],
+          [
+            "nee",
+            "niet",
+            "slecht"
+          ],
+          [
+            "zoekt",
+            "zocht",
+            "keek",
+            "kijkt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan alle plaatsen waar Emma keek."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-water-speelgoed/image-1.png",
+      "alt": "Emma speelt met een waterpistool in de tuin terwijl opa en mama toekijken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-water-speelgoed/image-2.png",
+      "alt": "Het waterpistool drijft in het zwembadje en Emma wijst ernaar"
+    }
+  ],
+  "imagePrompts": [
+    "A happy young girl playing with a water pistol in a Dutch garden while grandfather and mother watch, children's book illustration style with bright colors",
+    "A water pistol floating in a small kiddie pool with a relieved girl pointing at it, Dutch backyard setting, children's book illustration style"
+  ]
+}

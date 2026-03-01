@@ -1,0 +1,124 @@
+{
+  "id": "marvin-de-moedige-nieuwslezer",
+  "title": "Marvin de Moedige Nieuwslezer",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "beroepen",
+  "text": "Marvin werkt als nieuwslezer bij de lokale televisiezender. Elke avond om zes uur vertelt hij de belangrijkste gebeurtenissen aan de kijkers. Hij heeft altijd geloofd dat een goede journalist de waarheid moet vertellen, net zoals zijn grootvader hem vertelde over de beroemde nieuwslezer die tijdens de oorlog weigerde leugens te vertellen.\n\nOp een dinsdag kreeg Marvin een bijzonder nieuwsbericht op zijn bureau. De burgemeester van de stad had veel geld weggenomen uit de kas voor het nieuwe speeltuinproject. Marvin las het rapport zorgvuldig door en controleerde alle feiten tweemaal. Het bewijs was duidelijk: de burgemeester had zich schuldig gemaakt aan corruptie.\n\nToen Marvin het script voorbereidde voor de uitzending, kwam zijn baas binnen. \"Dit verhaal over de burgemeester mag niet op televisie,\" zei hij streng. \"De burgemeester is een goede vriend van onze directeur.\" Marvin voelde zijn maag omdraaien. Hij dacht aan de kinderen die geen nieuwe speeltuin zouden krijgen omdat het geld gestolen was. Maar hij was ook bang om zijn baan te verliezen.\n\nDie avond zat Marvin achter zijn bureau in de studio. De camera's waren aan en duizenden mensen keken naar hem. Eerst las hij de gewone berichten voor: het weer, een nieuwe winkel in het centrum, een voetbalwedstrijd. Toen kwam het moment van de waarheid. Zijn handen trilden toen hij naar zijn script keek.\n\n\"En nu het belangrijkste nieuws van vandaag,\" begon Marvin met een vaste stem. \"Uit onderzoek is gebleken dat burgemeester Van Dijk geld heeft weggenomen dat bestemd was voor het nieuwe speeltuinproject. Dit geld, meer dan vijftigduizend euro, is gebruikt voor zijn eigen vakantie naar Dubai.\" De studio werd doodstil. Marvin wist dat zijn baas woedend zou zijn, maar hij voelde zich eindelijk vrij.\n\nDe volgende dag waren er veel reacties. Sommige mensen vonden Marvin dapper omdat hij de waarheid had verteld. Anderen waren boos op hem omdat ze dachten dat hij de burgemeester had verraden. Zijn baas ontsloeg hem inderdaad, maar drie dagen later belde de hoofdredacteur van het nationale nieuws. \"We hebben gehoord wat je hebt gedaan,\" zei ze. \"Wij zoeken precies zo'n journalist die de moed heeft om de waarheid te vertellen. Wil je bij ons komen werken?\"\n\nMarvin glimlachte toen hij terugdacht aan de woorden van zijn grootvader: \"De waarheid vertellen is soms moeilijk, maar het is altijd goed.\" Hij had het goede gedaan, en nu kreeg hij daar een beloning voor. De kinderen in de stad zouden uiteindelijk toch hun speeltuin krijgen, omdat de politie het gestolen geld had teruggevonden.",
+  "questions": [
+    {
+      "question": "Hoeveel geld had burgemeester Van Dijk weggenomen volgens het nieuwsbericht?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar wat Marvin precies voorlas tijdens de nieuwsuitzending.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijftigduizend"
+          ],
+          [
+            "euro"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom wilde Marvins baas niet dat het verhaal over de burgemeester werd uitgezonden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "burgemeester",
+            "Van Dijk"
+          ],
+          [
+            "vriend",
+            "vrienden",
+            "vriendschap"
+          ],
+          [
+            "directeur",
+            "baas",
+            "chef"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat de baas tegen Marvin zei in het derde stukje."
+    },
+    {
+      "question": "Vergelijk hoe Marvin zich voelde voor en na het voorlezen van het nieuws over de burgemeester.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Marvin eerst bang en nerveus was (trillen, maag omdraaien), maar zich na het vertellen van de waarheid vrij en opgelucht voelde.",
+        "exampleAnswer": "Voor het nieuws was Marvin bang en trilden zijn handen, maar na het vertellen van de waarheid voelde hij zich vrij.",
+        "keyElements": [
+          "bang/nerveus/trillen",
+          "vrij/opgelucht/goed",
+          "voor/na"
+        ],
+        "minWords": 5
+      },
+      "hint": "Let op Marvins gevoelens in het vierde en vijfde stukje."
+    },
+    {
+      "question": "Vind je dat Marvin de juiste keuze heeft gemaakt door het nieuws toch uit te zenden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja of nee) en deze onderbouwen met argumenten zoals: waarheid vertellen is belangrijk, kinderen hebben recht op hun speeltuin, journalisten moeten eerlijk zijn, of juist: hij had zijn baas moeten gehoorzamen.",
+        "exampleAnswer": "Ja, want de waarheid vertellen is belangrijk en anders zouden de kinderen nooit hun speeltuin krijgen.",
+        "keyElements": [
+          "ja/nee/wel/niet",
+          "waarheid/eerlijk",
+          "kinderen/speeltuin",
+          "journalist/baan"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat er zou gebeuren als Marvin het nieuws niet had verteld."
+    },
+    {
+      "question": "Wat is de hoofdboodschap die de schrijver wil overbrengen met dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed hebben om het juiste te doen, zelfs als dat moeilijk is. Het gaat over eerlijkheid, waarheid vertellen en dat goed gedrag uiteindelijk beloond wordt.",
+        "exampleAnswer": "Het verhaal gaat erover dat je moed moet hebben om de waarheid te vertellen, ook als dat moeilijk is.",
+        "keyElements": [
+          "moed/dapper/durven",
+          "waarheid/eerlijk",
+          "goed/juiste",
+          "moeilijk/zwaar"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Marvins grootvader zei en hoe het verhaal afloopt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/marvin-de-moedige-nieuwslezer/image-1.png",
+      "alt": "Marvin zit achter het nieuwsbureau in de televisiestudio"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/marvin-de-moedige-nieuwslezer/image-2.png",
+      "alt": "Marvin leest het belangrijke nieuws voor terwijl zijn handen trillen"
+    }
+  ],
+  "imagePrompts": [
+    "A professional Dutch news anchor named Marvin sitting behind a news desk in a television studio, wearing a suit, with bright studio lighting and cameras visible, children's book illustration style",
+    "The same news anchor looking nervous but determined as he reads from his script, his hands slightly trembling, close-up view showing his concentrated expression, children's book illustration style"
+  ]
+}

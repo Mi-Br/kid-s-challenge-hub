@@ -1,0 +1,119 @@
+{
+  "id": "de-geheime-boom",
+  "title": "De Geheime Boom",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "natuur",
+  "text": "Liam en Sanne zijn al vijf jaar beste vrienden. Ze wonen naast elkaar in Amsterdam-Noord en gaan elke dag samen naar school. Hun geheime plek is een oude eik in het Noorderpark waar ze hun fietsen neerzetten en over alles praten.\n\nOp een zonnige maandagmiddag ontdekken ze dat er planken rond de boom zijn geplaatst. Er hangt een bordje: 'GEVAAR - BOOM WORDT GEKAPT'. Liam wordt meteen boos. 'We moeten protesteren!' roept hij. 'Die boom is honderden jaren oud!' Maar Sanne schudt haar hoofd. 'Mijn vader werkt bij de gemeente. Hij zegt dat zieke bomen gevaarlijk zijn voor kinderen.'\n\nDe volgende dag spreken ze niet met elkaar. Liam organiseert een kleine demonstratie met klasgenoten. Hij maakt bordjes met 'RED ONZE BOOM!' Sanne voelt zich verdrietig omdat haar beste vriend haar niet begrijpt. Ze weet dat haar vader moeilijke beslissingen moet nemen om mensen veilig te houden.\n\nWoensdag gaat Sanne alleen naar het park. Ze ziet hoe Liam een ketting rond de boom bindt. Plotseling valt er een grote tak naar beneden, precies waar kinderen vaak spelen. Sanne rent naar Liam toe. 'Kijk!' wijst ze. 'De boom ís ziek. Maar misschien kunnen we een nieuwe boom planten op deze plek?'\n\nLiam kijkt naar de gevallen tak en begrijpt het. 'Jij had gelijk over de veiligheid,' zegt hij zacht. 'Maar jij had ook gelijk over het redden van de natuur,' antwoordt Sanne. Ze besluiten samen naar de gemeente te gaan met hun idee. Hun vriendschap is sterker geworden omdat ze allebei naar elkaar geluisterd hebben.",
+  "questions": [
+    {
+      "question": "Waar ligt de geheime plek van Liam en Sanne?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in het noorderpark",
+        "bij een oude eik in het noorderpark",
+        "bij de oude eik"
+      ],
+      "hint": "Kijk in de eerste alinea waar ze hun fietsen neerzetten."
+    },
+    {
+      "question": "Waarom wil Sanne eerst niet protesteren tegen het kappen van de boom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vader",
+            "papa"
+          ],
+          [
+            "gemeente",
+            "werk",
+            "werkt"
+          ],
+          [
+            "gevaar",
+            "gevaarlijk",
+            "veilig",
+            "veiligheid"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Sanne zegt over haar vader en zijn werk."
+    },
+    {
+      "question": "Wat verandert Liams mening over het kappen van de boom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "tak",
+            "takken"
+          ],
+          [
+            "valt",
+            "viel",
+            "vallen",
+            "naar beneden"
+          ],
+          [
+            "gevaarlijk",
+            "gevaar",
+            "ziek"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er gebeurt in de vierde alinea."
+    },
+    {
+      "question": "Vind je dat Liam en Sanne een goede oplossing hebben bedacht? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "nieuwe boom",
+            "boom planten",
+            "planten"
+          ],
+          [
+            "samen",
+            "samenwerken",
+            "allebei"
+          ],
+          [
+            "veilig",
+            "veiligheid",
+            "gevaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hun plan om samen naar de gemeente te gaan."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-boom/image-1.png",
+      "alt": "Twee kinderen zitten onder een grote oude eikenboom in een park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-boom/image-2.png",
+      "alt": "Een grote boomtak die op de grond is gevallen naast een boom met een gevaar-bordje"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch children, a boy and a girl, sitting under a large old oak tree in a Amsterdam park, talking and laughing, children's book illustration style, sunny day",
+    "A large fallen tree branch on the ground next to an old oak tree with a danger sign, park setting, children's book illustration style, showing the tree is unsafe"
+  ]
+}

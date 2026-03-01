@@ -1,0 +1,84 @@
+{
+  "id": "het-nieuwe-huis",
+  "title": "Het Nieuwe Huis",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de buurt",
+  "text": "Lisa zit voor het raam van haar nieuwe huis. Ze mist haar oude buurt heel erg. Daar woonden haar beste vrienden naast haar. Ze speelden elke dag samen in de tuin.\n\nVorige maand verhuisde Lisa met haar ouders naar deze straat. Alles is hier anders. De huizen zijn hoger en de winkels zijn verder weg. Lisa kent nog niemand in deze buurt.\n\nGisteren ging Lisa naar buiten om te spelen. Ze zag een meisje met krullend haar bij de speeltuin. Het meisje speelde alleen op de schommel. Lisa wilde niet naar haar toe gaan omdat ze verlegen was.\n\nVandaag ziet Lisa hetzelfde meisje weer. Nu speelt het meisje met een bal. Lisa denkt na over gisteren. Ze had naar dat meisje kunnen gaan om samen te spelen. Dat was stom van haar.\n\nLisa pakt haar eigen bal en gaat naar buiten. Ze loopt naar het meisje toe. \"Hoi, ik ben Lisa. Wil je samen voetballen?\" vraagt ze. Het meisje lacht en zegt: \"Ja leuk! Ik ben Emma en ik woon hier in de hoek.\" Ze spelen een uur samen en hebben veel plezier.",
+  "questions": [
+    {
+      "question": "Waar speelden Lisa en haar vrienden in de oude buurt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de tuin",
+        "samen in de tuin"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke kleur haar heeft het meisje bij de speeltuin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "krullend haar",
+        "krullen",
+        "krullend"
+      ],
+      "hint": "Lees wat er staat over het meisje bij de schommel."
+    },
+    {
+      "question": "Waarom ging Lisa gisteren niet naar het meisje toe?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verlegen",
+            "schuw",
+            "bang"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa zich voelde."
+    },
+    {
+      "question": "Wat betekent het woord 'stom' zoals Lisa het gebruikt?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa denkt terug aan wat ze gisteren deed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "dom"
+          ],
+          [
+            "niet slim"
+          ],
+          [
+            "niet goed"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-nieuwe-huis/image-1.png",
+      "alt": "Lisa kijkt uit het raam naar de nieuwe buurt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-nieuwe-huis/image-2.png",
+      "alt": "Lisa en Emma spelen samen met een bal"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with sad expression looking out the window of her new house at an unfamiliar Dutch neighborhood with tall houses, children's book illustration style",
+    "Two young girls happily playing with a soccer ball together in a Dutch neighborhood playground, one with curly hair, children's book illustration style"
+  ]
+}

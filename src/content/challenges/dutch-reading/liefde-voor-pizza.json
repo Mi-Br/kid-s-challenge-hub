@@ -1,0 +1,118 @@
+{
+  "id": "liefde-voor-pizza",
+  "title": "Liefde voor Pizza",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wereldkeuken",
+  "text": "Liam zag de advertentie op zijn telefoon. 'De beste pizza van Amsterdam!' stond er. Hij zag een foto van een gouden pizza met kaas die droop. Zijn maag rommelde. Hij had trek.\n\nDie avond ging Liam met zijn vrienden naar de pizzeria. De pizza was duur. Hij betaalde tien euro voor een kleine pizza. De pizza smaakte niet lekker. Hij was teleurgesteld.\n\nThuis zocht Liam op internet naar reviews van de pizzeria. Veel mensen schreven dat het eten slecht was. De advertentie had gelogen. Liam voelde zich dom.\n\nLiam leerde een les. Hij zou nooit meer een advertentie geloven zonder eerst reviews te lezen. Hij was nu voorzichtiger met reclames op internet.\n\nDe volgende dag zag Liam Emma uit zijn klas. Zij at een heerlijke pizza van een andere zaak. Liam kreeg vlinders in zijn buik. Hij wilde haar vragen waar zij die pizza had gekocht. Misschien konden zij samen pizza essen.",
+  "questions": [
+    {
+      "question": "Hoeveel betaalde Liam voor zijn pizza?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "tien euro",
+        "10 euro"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom voelde Liam zich dom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "advertentie",
+            "reclame"
+          ],
+          [
+            "geloven",
+            "geloofde",
+            "vertrouwen",
+            "vertrouwde"
+          ],
+          [
+            "gelogen",
+            "leugen",
+            "niet waar",
+            "slecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Liam ontdekte op internet."
+    },
+    {
+      "question": "Hoe veranderde Liam na deze ervaring?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "voorzichtiger",
+            "voorzichtig",
+            "opletten"
+          ],
+          [
+            "reviews",
+            "reviews lezen",
+            "eerst zoeken"
+          ],
+          [
+            "niet geloven",
+            "niet vertrouwen",
+            "twijfelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Liam besloot in de vierde alinea."
+    },
+    {
+      "question": "Welk gevoel kreeg Liam toen hij Emma zag?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vlinders",
+            "vlinders in zijn buik"
+          ],
+          [
+            "verliefd",
+            "verliefdheid",
+            "aantrekking"
+          ],
+          [
+            "leuk vinden",
+            "interesse",
+            "geïnteresseerd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea over Emma."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/liefde-voor-pizza/image-1.png",
+      "alt": "Een jongen kijkt naar een advertentie op zijn telefoon"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/liefde-voor-pizza/image-2.png",
+      "alt": "Een meisje eet pizza terwijl een jongen naar haar kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy looking at his phone showing a pizza advertisement, disappointed expression, children's book illustration style",
+    "A teenage girl eating pizza while a teenage boy watches her with interest and butterflies in his stomach, school setting, children's book illustration style"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "mika-wordt-acht",
+  "title": "Mika wordt acht",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "verjaardagen",
+  "text": "Mika wordt acht jaar. Ze denkt dat mama het vergeet. Papa praat zacht met oma. Oma knikt en glimlacht.\n\nMika gaat naar school. De klas zingt een liedje. Juf Emma geeft haar een kaart. Mika is blij maar ook verdrietig.\n\nMika komt thuis. Het huis is stil en donker. Mika opent de deur van de woonkamer. Alle lampen gaan aan. Mama, papa, oma en vrienden roepen: \"Gefeliciteerd!\"\n\nMika lacht en huilt tegelijk. De tafel staat vol met taart en cadeaus. Het is de beste verjaardag ooit. Mika vergeet dit feest nooit meer.",
+  "questions": [
+    {
+      "question": "Hoe oud wordt Mika?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "acht",
+        "acht jaar"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat krijgt Mika van juf Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een kaart",
+        "kaart"
+      ],
+      "hint": "Lees wat er op school gebeurt."
+    },
+    {
+      "question": "Waar staan de cadeaus?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op de tafel",
+        "de tafel"
+      ],
+      "hint": "Kijk naar de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mika-wordt-acht/image-1.png",
+      "alt": "Mika staat voor de deur van een donkere woonkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mika-wordt-acht/image-2.png",
+      "alt": "Familie en vrienden verrassen Mika met lichten en cadeaus"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl standing nervously in front of a dark living room door, children's book illustration style, simple and warm colors",
+    "A surprise birthday party scene with family and friends cheering, colorful balloons, cake and presents on a table, children's book illustration style"
+  ]
+}

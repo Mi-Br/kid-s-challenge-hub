@@ -1,0 +1,50 @@
+{
+  "id": "anouk-en-de-regen",
+  "title": "Anouk en de Regen",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "het weer",
+  "text": "Anouk kijkt uit het raam. Het regent hard. De druppels tikken op het glas. Mama zegt dat Anouk binnen moet blijven.\n\nAnouk vindt dat saai. Ze pakt haar jas. Ze gaat stiekem naar buiten. De regen valt op haar hoofd. Haar kleren worden nat.\n\nAnouk rent terug naar huis. Ze is helemaal nat. Mama helpt haar met droge kleren. Anouk zegt sorry tegen mama. Nu luistert ze altijd naar mama als het regent.",
+  "questions": [
+    {
+      "question": "Wat tikken op het glas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de druppels"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat pakt Anouk voordat ze naar buiten gaat?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "haar jas"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom worden Anouks kleren nat?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de regen valt op haar hoofd",
+        "het regent"
+      ],
+      "hint": "Wat gebeurt er buiten met Anouk?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/anouk-en-de-regen/image-1.png",
+      "alt": "Anouk kijkt uit het raam naar de regen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/anouk-en-de-regen/image-2.png",
+      "alt": "Anouk rent nat terug naar huis"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Anouk looking out a window at heavy rain, raindrops visible on the glass, children's book illustration style",
+    "The same girl running back to her house completely soaked from the rain, looking worried, children's book illustration style"
+  ]
+}

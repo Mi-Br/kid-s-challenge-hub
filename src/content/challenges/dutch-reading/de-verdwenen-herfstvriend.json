@@ -1,0 +1,126 @@
+{
+  "id": "de-verdwenen-herfstvriend",
+  "title": "De Verdwenen Herfstvriend",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "seizoenen",
+  "text": "Elke herfst kwam Joris naar het park om de mooiste bladeren te verzamelen. Hij had een speciaal schrift waarin hij alle kleuren tekende: goudgeel, roodbruin en oranje. Dit jaar was anders, omdat zijn beste vriend Tim naar een andere stad was verhuisd.\n\nIn oktober ontmoette Joris een oudere jongen die Sven heette. Sven verzamelde ook bladeren, maar hij gebruikte ze voor kunstwerken die hij online verkocht. \"Jouw tekeningen zijn kinderachtig,\" zei Sven toen hij Joris' schrift zag. \"Echte verzamelaars maken er geld mee.\" Joris voelde zich beschaamd en stopte met tekenen.\n\nWeken later ontving Joris een brief van Tim. Tim schreef dat hij zijn nieuwe klasgenoten had verteld over hun herfsttraditie. \"Ze vinden het geweldig dat we samen bladeren verzamelden en tekenden,\" schreef Tim. \"Ik mis onze wandelingen door het park. Heb je dit jaar weer mooie tekeningen gemaakt?\"\n\nJoris begreep plotseling dat Sven hem had misleid. Vriendschap draaide niet om geld verdienen, maar om gedeelde herinneringen en plezier. Hij pakte zijn schrift en begon weer te tekenen. De laatste herfstbladeren vielen, maar Joris wist dat echte vriendschap alle seizoenen overleeft.\n\nToen de winter begon, had Joris zijn schrift volgetekend. Hij stuurde foto's naar Tim en kreeg enthousiaste reacties terug. Hoewel ze ver uit elkaar woonden, voelden ze zich weer verbonden door hun liefde voor de herfst.",
+  "questions": [
+    {
+      "question": "Wat gebruikte Sven de bladeren voor?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "kunstwerken die hij online verkocht",
+        "kunstwerken"
+      ],
+      "hint": "Lees de tweede alinea nog eens."
+    },
+    {
+      "question": "Waarom voelde Joris zich beschaamd nadat hij Sven had ontmoet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "sven",
+            "jongen"
+          ],
+          [
+            "kinderachtig",
+            "niet goed",
+            "slecht",
+            "dom"
+          ],
+          [
+            "tekeningen",
+            "tekenen",
+            "schrift"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Sven over Joris' tekeningen zei."
+    },
+    {
+      "question": "Hoe veranderde Joris' mening over bladeren verzamelen na Tim's brief?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "begreep",
+            "snapte",
+            "realiseerde",
+            "dacht"
+          ],
+          [
+            "vriendschap",
+            "vrienden",
+            "vriend"
+          ],
+          [
+            "herinneringen",
+            "plezier",
+            "samen",
+            "gedeeld"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat er gebeurde nadat Joris Tim's brief las."
+    },
+    {
+      "question": "Vind je dat Joris de juiste beslissing nam aan het einde? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Joris' beslissing om weer te gaan tekenen en contact te zoeken met Tim, met een logische uitleg over vriendschap, persoonlijke interesses of het negeren van negatieve invloeden.",
+        "exampleAnswer": "Ja, hij nam de juiste beslissing omdat echte vrienden je aanmoedigen en niet afkraken. Tim vond zijn hobby leuk en dat is belangrijker dan wat Sven zei.",
+        "keyElements": [
+          "mening/beslissing",
+          "vriendschap/vrienden",
+          "uitleg/reden"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat echte vriendschap betekent."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van echte vriendschap en het niet laten beïnvloeden door negatieve mensen. De focus ligt op trouw blijven aan jezelf en je echte vrienden.",
+        "exampleAnswer": "Het verhaal gaat over echte vriendschap en dat je je niet moet laten beïnvloeden door mensen die je hobby's afkraken.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "beïnvloeden/misleiden",
+          "jezelf blijven/hobby"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat heeft Joris geleerd over vriendschap en over zichzelf?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-herfstvriend/image-1.png",
+      "alt": "Joris tekent bladeren in zijn schrift in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-herfstvriend/image-2.png",
+      "alt": "Joris leest Tim's brief met een glimlach"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy sitting in an autumn park, carefully drawing colorful fallen leaves in a notebook, with golden and red maple leaves scattered around him, children's book illustration style",
+    "A boy reading a letter with a happy expression while sitting at a desk, autumn leaves visible through the window behind him, warm indoor lighting, children's book illustration style"
+  ]
+}

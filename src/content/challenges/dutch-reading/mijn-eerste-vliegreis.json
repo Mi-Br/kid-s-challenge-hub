@@ -1,0 +1,104 @@
+{
+  "id": "mijn-eerste-vliegreis",
+  "title": "Mijn Eerste Vliegreis",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "reizen",
+  "text": "Lisa had nog nooit gevlogen. Haar familie ging altijd met de auto op vakantie naar Frankrijk. Maar dit jaar vlogen ze naar Spanje. Lisa was zenuwachtig.\n\nOp Schiphol was het heel druk. Overal waren mensen met koffers. Lisa hield haar moeder's hand vast. Ze waren vroeg omdat ze hun bagage moesten inchecken. Daarna gingen ze door de controle. Een mevrouw keek in hun tassen.\n\nIn het vliegtuig zat Lisa bij het raam. Ze keek naar buiten en zag de huizen steeds kleiner worden. \"Kijk mama, alles lijkt op speelgoed!\" zei ze. Het vliegtuig vloog boven de wolken. Lisa was niet meer bang.\n\nNa twee uur landden ze in Barcelona. Het was veel warmer dan in Nederland. Lisa was blij dat ze zo snel in Spanje was. \"Vliegen is niet eng,\" dacht ze. \"Het is juist heel leuk!\"\n\nDie avond belde Lisa haar oma. Ze vertelde over het vliegen en over de mooie wolken. Haar oma was trots op haar. \"Volgend jaar ga ik weer vliegen,\" zei Lisa. \"Misschien wel naar Italië!\"",
+  "questions": [
+    {
+      "question": "Waar ging Lisa's familie altijd naartoe met de auto?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "frankrijk"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom was Lisa zenuwachtig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nog nooit",
+            "eerste keer",
+            "nooit eerder"
+          ],
+          [
+            "gevlogen",
+            "vliegen",
+            "vliegtuig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Lisa's ervaring met vliegen."
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen het vliegtuig boven de wolken vloog?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niet meer bang",
+            "niet bang",
+            "geen angst"
+          ],
+          [
+            "beter",
+            "rustiger",
+            "fijn"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het einde van de derde alinea."
+    },
+    {
+      "question": "Vind jij dat Lisa dapper was? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "dapper"
+          ],
+          [
+            "zenuwachtig",
+            "bang",
+            "eng",
+            "eerste keer",
+            "moedig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa omging met haar angst."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-vliegreis/image-1.png",
+      "alt": "Lisa kijkt uit het vliegtuigraam naar de kleine huizen beneden"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-vliegreis/image-2.png",
+      "alt": "Lisa belt haar oma en vertelt enthousiast over haar reis"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking excitedly out of an airplane window, seeing tiny houses and fields below, children's book illustration style, bright and cheerful colors",
+    "A happy girl talking on the phone to her grandmother, gesturing enthusiastically while telling about her airplane trip, cozy home setting, children's book illustration style"
+  ]
+}

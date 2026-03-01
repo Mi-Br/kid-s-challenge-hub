@@ -1,0 +1,144 @@
+{
+  "id": "de-schoolreis-naar-parijs",
+  "title": "De Schoolreis naar Parijs",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "reizen",
+  "text": "Lisa kijkt naar de brief op tafel. De schoolreis naar Parijs kost vierhonderd euro. Dat is veel geld voor haar ouders. Maar alle vrienden uit haar klas gaan mee. Vooral Daan, de jongen die ze leuk vindt.\n\nIn de pauze praten haar vriendinnen alleen maar over Parijs. Ze willen samen de Eiffeltoren bekijken en winkelen. Lisa voelt zich verdrietig. Ze durft niet te zeggen dat ze misschien niet mee kan.\n\nDie avond praat Lisa met haar moeder. Mama zegt dat ze het geld kunnen sparen. Het wordt wel krap, maar het kan. Lisa is blij en bang tegelijk. Wat als de reis niet leuk wordt? Wat als ze heimwee krijgt?\n\nLisa besluit om mee te gaan. Ze weet niet alles wat er gaat gebeuren. Dat maakt haar zenuwachtig, maar ook nieuwsgierig. Ze gaat haar eerste buitenlandse reis maken met haar klas.",
+  "questions": [
+    {
+      "question": "Hoeveel kost de schoolreis naar Parijs?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vierhonderd"
+          ],
+          [
+            "euro"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom voelt Lisa zich verdrietig in de pauze?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niet mee",
+            "misschien niet",
+            "kan niet mee"
+          ],
+          [
+            "durft niet",
+            "durft niet zeggen",
+            "zegt niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa niet durft te vertellen aan haar vriendinnen."
+    },
+    {
+      "question": "Wat vindt Lisa's moeder van de reis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kan",
+            "kunnen",
+            "mogelijk"
+          ],
+          [
+            "sparen",
+            "geld sparen",
+            "sparen voor"
+          ],
+          [
+            "krap",
+            "wordt krap",
+            "wel krap"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat mama zegt over het geld in het derde stukje."
+    },
+    {
+      "question": "Welke gevoelens heeft Lisa over haar besluit om mee te gaan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zenuwachtig",
+            "bang",
+            "onzeker"
+          ],
+          [
+            "nieuwsgierig",
+            "blij",
+            "opgewonden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het laatste stukje van het verhaal."
+    },
+    {
+      "question": "Vind jij dat Lisa de juiste beslissing heeft genomen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "juist",
+            "verstandig"
+          ],
+          [
+            "nee",
+            "niet",
+            "verkeerd",
+            "slecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Geef je eigen mening en vertel waarom je dat denkt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-schoolreis-naar-parijs/image-1.png",
+      "alt": "Lisa kijkt naar een brief op tafel over de schoolreis"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-schoolreis-naar-parijs/image-2.png",
+      "alt": "Lisa praat met haar moeder in de woonkamer"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage Dutch girl with brown hair looking thoughtfully at a school letter on a kitchen table, children's book illustration style, warm home setting",
+    "A teenage girl having a serious conversation with her mother in a cozy Dutch living room, both sitting on a couch, children's book illustration style"
+  ]
+}

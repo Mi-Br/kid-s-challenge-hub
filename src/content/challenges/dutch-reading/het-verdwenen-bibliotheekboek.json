@@ -1,0 +1,115 @@
+{
+  "id": "het-verdwenen-bibliotheekboek",
+  "title": "Het Verdwenen Bibliotheekboek",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Lisa rook de geur van oude boeken toen ze de schoolbibliotheek binnenkwam. Ze hoorde het zachte gefluister van andere kinderen die tussen de boekenkasten liepen. Haar vingers gleden over de ruwe ruggen van de boeken. Ze zocht haar lievelingsboek over draken.\n\nMeester Jan, de bibliothecaris, zag er vandaag streng uit omdat iemand een boek was vergeten in te leveren. Lisa voelde haar wangen warm worden. Gisteren had ze het drakenboek mee naar huis genomen, maar nu kon ze het nergens vinden.\n\nThuis zocht Lisa overal. Ze keek onder haar bed, tussen de kussens van de bank, en zelfs in de wasmand. Haar moeder hoorde haar zuchten. \"Wat zoek je toch?\" vroeg ze. Lisa vertelde over het verdwenen boek want ze was bang dat meester Jan boos zou worden.\n\nDe volgende dag ging Lisa vroeg naar school. Ze rook de bekende boekengeur weer en hoorde het kraken van de houten vloer. Toen zag ze iets glinsteren tussen de bladeren in de schooltuin. Het was het drakenboek! Het was uit haar rugzak gevallen. Lisa glimlachte omdat ze het boek kon terugbrengen.",
+  "questions": [
+    {
+      "question": "Welke geur rook Lisa in de bibliotheek?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oude boeken",
+        "de geur van oude boeken"
+      ],
+      "hint": "Lees de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom zag meester Jan er streng uit?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "iemand",
+            "kind",
+            "leerling"
+          ],
+          [
+            "boek",
+            "boeken"
+          ],
+          [
+            "vergeten",
+            "vergat",
+            "niet ingeleverd",
+            "inleveren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk in de tweede alinea naar wat er met een boek was gebeurd."
+    },
+    {
+      "question": "Vind jij dat Lisa goed heeft gezocht naar het boek? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed"
+          ],
+          [
+            "overal",
+            "veel plaatsen",
+            "drie plaatsen",
+            "bed",
+            "bank",
+            "wasmand"
+          ],
+          [
+            "zocht",
+            "keek",
+            "gezocht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan alle plaatsen waar Lisa heeft gekeken."
+    },
+    {
+      "question": "Wat betekent 'glinsteren' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa zag iets tussen de bladeren dat licht weerkaatste.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "schijnen"
+          ],
+          [
+            "licht geven"
+          ],
+          [
+            "reflecteren"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-bibliotheekboek/image-1.png",
+      "alt": "Lisa zoekt tussen de boekenkasten in de schoolbibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-bibliotheekboek/image-2.png",
+      "alt": "Het drakenboek ligt glinsterende tussen de bladeren in de schooltuin"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl searching between tall bookshelves in a school library, sunlight streaming through windows, children's book illustration style",
+    "A colorful dragon book lying among fallen autumn leaves in a school garden, sunlight making it glisten, children's book illustration style"
+  ]
+}

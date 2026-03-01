@@ -1,0 +1,66 @@
+{
+  "id": "mijn-kat-is-weg",
+  "title": "Mijn kat is weg",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "dieren",
+  "text": "Lisa heeft een lieve kat. Haar kat heet Sofie en is zwart met witte pootjes. Elke dag speelt Lisa met Sofie in de tuin.\n\nVandaag kan Lisa Sofie nergens vinden. 'Sofie, waar ben je?' roept Lisa. Ze kijkt onder het bed en in de kast, maar Sofie is er niet. Lisa wordt heel verdrietig.\n\n'Mama, ik kan Sofie niet vinden!' zegt Lisa. Ze begint te huilen. Mama helpt Lisa zoeken. Ze kijken samen in de keuken en in de woonkamer.\n\nDan hoort Lisa een zacht geluid. Het komt uit de schuur. 'Miauw, miauw,' klinkt het. Lisa rent naar de schuur en doet de deur open. Daar zit Sofie met vier kleine katjes!\n\n'Kijk mama, Sofie heeft baby's gekregen!' roept Lisa blij. Nu begrijpt ze waarom Sofie zich had verstopt. Sofie wilde een veilige plek voor haar kleintjes.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Sofie?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zwart met witte pootjes"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom werd Lisa verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "sofie",
+            "kat",
+            "haar kat"
+          ],
+          [
+            "vinden",
+            "zoeken",
+            "kwijt",
+            "weg"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa probeerde te doen maar niet kon."
+    },
+    {
+      "question": "Waar vond Lisa Sofie uiteindelijk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de schuur",
+        "de schuur"
+      ],
+      "hint": "Lisa hoorde een geluid en rende ergens naartoe."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-kat-is-weg/image-1.png",
+      "alt": "Een meisje dat verdrietig zoekt naar haar zwarte kat met witte pootjes"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-kat-is-weg/image-2.png",
+      "alt": "Een zwarte kat met vier kleine katjes in een schuur"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking sad while searching for her black cat with white paws in a typical Dutch house, children's book illustration style",
+    "A black cat with white paws sitting protectively with four tiny kittens in a wooden garden shed, warm lighting, children's book illustration style"
+  ]
+}

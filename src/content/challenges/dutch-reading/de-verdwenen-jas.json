@@ -1,0 +1,91 @@
+{
+  "id": "de-verdwenen-jas",
+  "title": "De Verdwenen Jas",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "kleding",
+  "text": "Emma heeft een nieuwe winterjas. De jas is paars met zilver sterren erop. Ze draagt hem elke dag naar school omdat hij zo warm en mooi is.\n\nVandaag gaat Emma naar het speelplein na school. Ze hangt haar jas aan het hek omdat het warm wordt van het rennen. Als ze klaar is met spelen, wil ze naar huis gaan. Maar haar mooie paarse jas is weg!\n\nEmma zoekt overal. Ze kijkt onder de glijbaan en achter de schommels. Ook vraagt ze aan andere kinderen: \"Hebben jullie mijn jas gezien?\" Niemand heeft hem gezien. Emma wordt verdrietig en begint te huilen.\n\nDan komt meester Jan naar buiten. Hij heeft iets in zijn handen. \"Zoek je dit?\" vraagt hij vriendelijk. Het is Emma's jas! \"Ik vond hem op de grond,\" zegt hij. \"De wind heeft hem weggeblazen van het hek.\"\n\nEmma is zo blij! Ze trekt haar warme jas aan en bedankt meester Jan. Nu weet ze dat ze haar jas beter moet vasthouden zodat de wind hem niet meer kan wegblazen.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Emma's winterjas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "paars",
+        "paars met zilver sterren",
+        "paars met sterren"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar hangt Emma haar jas toen ze ging spelen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "aan het hek",
+        "het hek"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom werd Emma verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "jas",
+            "winterjas",
+            "paarse jas"
+          ],
+          [
+            "weg",
+            "verdwenen",
+            "kwijt",
+            "zoeken",
+            "niet vinden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde met Emma's jas."
+    },
+    {
+      "question": "Wat moet Emma doen zodat dit niet meer gebeurt?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk naar de laatste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "haar jas beter vasthouden"
+          ],
+          [
+            "de jas vasthouden"
+          ],
+          [
+            "beter oppassen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-jas/image-1.png",
+      "alt": "Emma speelt op het speelplein terwijl haar paarse jas aan het hek hangt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-jas/image-2.png",
+      "alt": "Meester Jan geeft Emma haar paarse jas terug"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl playing on a Dutch playground while her purple jacket with silver stars hangs on a fence, children's book illustration style",
+    "A kind teacher holding a purple jacket with silver stars, giving it back to a relieved young girl, children's book illustration style"
+  ]
+}

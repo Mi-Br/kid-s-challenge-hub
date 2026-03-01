@@ -1,0 +1,65 @@
+{
+  "id": "de-magische-spiegel",
+  "title": "De Magische Spiegel",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "het lichaam",
+  "text": "Lisa was niet blij met haar lichaam. Haar neus was te groot en haar oren staken uit. In de oude winkel vond ze een magische spiegel.\n\n\"Ik wens dat ik anders uitzie,\" zei Lisa tegen de spiegel. Plotseling had ze een kleine neus en platte oren. Haar buik was plat en haar benen waren lang en dun.\n\nOp school herkende niemand Lisa meer. \"Wie ben jij?\" vroeg haar beste vriendin Emma. Lisa was verdrietig omdat Emma haar niet kende. Ze miste haar oude lichaam heel erg.\n\nDie avond ging Lisa terug naar de magische spiegel. \"Ik wil mijn eigen lichaam terug,\" zei ze. De spiegel glansde en Lisa zag er weer uit zoals vroeger. Nu was ze blij met haar grote neus en uitstekende oren.",
+  "questions": [
+    {
+      "question": "Wat vond Lisa van haar neus?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "te groot"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat wenste Lisa tegen de spiegel?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dat ze anders uitzag",
+        "anders uitzie"
+      ],
+      "hint": "Zoek naar wat Lisa zei in de tweede alinea."
+    },
+    {
+      "question": "Waarom was Lisa verdrietig op school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "herkende",
+            "kende",
+            "herkennen"
+          ],
+          [
+            "emma",
+            "vriendin",
+            "niemand"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde met Emma."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-spiegel/image-1.png",
+      "alt": "Lisa staat voor een magische spiegel in een oude winkel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-spiegel/image-2.png",
+      "alt": "Lisa en Emma op school, Emma kijkt verward naar Lisa"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa standing in front of a glowing magical mirror in an old antique shop, children's book illustration style",
+    "Two young girls at school, one looking confused and not recognizing her transformed friend, children's book illustration style"
+  ]
+}

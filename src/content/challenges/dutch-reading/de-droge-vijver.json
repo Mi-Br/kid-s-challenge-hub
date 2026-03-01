@@ -1,0 +1,133 @@
+{
+  "id": "de-droge-vijver",
+  "title": "De Droge Vijver",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "milieu",
+  "text": "Lisa woont in een klein dorp buiten Amsterdam. Haar ouders maken vaak ruzie over geld. Daarom gaat ze veel naar buiten.\n\nElke dag na school loopt Lisa naar de vijver in het park. Daar zwemmen eenden en vissen. Lisa geeft ze vaak brood. Maar deze week is de vijver bijna leeg. De eenden zijn weg. Alleen modder en dode vissen liggen op de bodem.\n\nLisa vraagt aan haar buurman wat er gebeurd is. \"Het regent te weinig,\" zegt hij. \"En de fabriek gebruikt te veel water uit de rivier.\" Lisa voelt zich boos en verdrietig. Ze weet niet wat ze kan doen.\n\nDe volgende dag praat Lisa met haar juf. \"We kunnen water sparen thuis,\" zegt de juf. \"En we kunnen brieven schrijven aan de burgemeester.\" Lisa voelt zich ineens veel beter. Ze heeft een plan.\n\nDie avond vraagt Lisa aan haar ouders of ze korter kunnen douchen. Haar moeder zegt: \"Dat is een goed idee.\" Voor het eerst deze week lachen haar ouders samen. Lisa schrijft ook een brief aan de burgemeester over de vijver.",
+  "questions": [
+    {
+      "question": "Waarom gaat Lisa veel naar buiten?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "haar"
+          ],
+          [
+            "ouders"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat ligt er op de bodem van de vijver?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "modder en dode vissen"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom is Lisa boos en verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vijver",
+            "water",
+            "eenden",
+            "vissen"
+          ],
+          [
+            "droog",
+            "leeg",
+            "weg",
+            "dood",
+            "dode"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met de vijver en de dieren is gebeurd."
+    },
+    {
+      "question": "Hoe voelt Lisa zich na het gesprek met haar juf?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "beter",
+            "goed",
+            "blij",
+            "hoopvol"
+          ],
+          [
+            "plan",
+            "idee",
+            "oplossing",
+            "helpen",
+            "doen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea."
+    },
+    {
+      "question": "Welke twee dingen doet Lisa om te helpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "water",
+            "douche",
+            "douchen",
+            "sparen"
+          ],
+          [
+            "brief",
+            "brieven",
+            "schrijven",
+            "schrijft",
+            "burgemeester"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-droge-vijver/image-1.png",
+      "alt": "Lisa kijkt naar de droge vijver met modder en dode vissen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-droge-vijver/image-2.png",
+      "alt": "Lisa schrijft een brief aan de burgemeester terwijl haar ouders samen lachen"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking sadly at a nearly empty pond with mud and dead fish at the bottom, in a children's book illustration style",
+    "A young girl writing a letter at a kitchen table while her parents smile together in the background, children's book illustration style"
+  ]
+}

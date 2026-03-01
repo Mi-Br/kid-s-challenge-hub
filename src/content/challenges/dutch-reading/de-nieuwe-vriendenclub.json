@@ -1,0 +1,78 @@
+{
+  "id": "de-nieuwe-vriendenclub",
+  "title": "De Nieuwe Vriendenclub",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "school",
+  "text": "Het is herfst en de bladeren vallen van de bomen. Op het schoolplein zit Emma alleen op een bankje. Ze kijkt naar de andere kinderen die samen spelen. Emma is nieuw op school en kent nog niemand.\n\nLotte ziet Emma zitten. \"Waarom zit je hier alleen?\" vraagt Lotte vriendelijk. Emma vertelt dat ze geen vrienden heeft. \"Ik wil graag meedoen, maar ik durf niet te vragen,\" zegt Emma zacht.\n\nLotte heeft een goed idee. \"We maken een nieuwe club!\" zegt ze blij. \"Een club voor alle kinderen die nieuwe vrienden willen maken. Jij mag de eerste zijn.\" Emma's ogen beginnen te stralen.\n\nAl snel doen meer kinderen mee. Ze spelen samen verstoppertje en voetbal. Emma lacht en rent met de anderen mee. \"Dit is de beste club ooit,\" roept Emma vrolijk. Nu heeft ze eindelijk echte vrienden gevonden.",
+  "questions": [
+    {
+      "question": "In welke tijd van het jaar speelt dit verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "herfst",
+        "in de herfst"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom zit Emma alleen op het bankje?",
+      "questionType": "begrijpen",
+      "hint": "Lees het eerste stukje nog een keer goed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "nieuw"
+          ],
+          [
+            "school"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe voelt Emma zich toen Lotte het idee voor de club voorstelde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "vrolijk",
+            "gelukkig",
+            "fijn"
+          ],
+          [
+            "ogen",
+            "stralen",
+            "straalde",
+            "straalden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met Emma's ogen gebeurde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-vriendenclub/image-1.png",
+      "alt": "Emma zit alleen op een bankje op het schoolplein terwijl andere kinderen spelen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-vriendenclub/image-2.png",
+      "alt": "Een groep kinderen speelt samen op het schoolplein, Emma rent mee en lacht"
+    }
+  ],
+  "imagePrompts": [
+    "A lonely girl sitting on a bench in a Dutch school playground during autumn with falling leaves, other children playing in the background, children's book illustration style",
+    "A group of happy children playing together on a school playground, running and laughing, with autumn trees in the background, children's book illustration style"
+  ]
+}

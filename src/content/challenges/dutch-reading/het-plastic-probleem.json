@@ -1,0 +1,110 @@
+{
+  "id": "het-plastic-probleem",
+  "title": "Het Plastic Probleem",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wetenschap",
+  "text": "Lisa loopt met haar moeder door het park. Ze ziet veel afval op de grond. Plastic flessen, zakjes en bekertjes liggen overal. \"Waarom ligt hier zo veel rommel?\" vraagt Lisa aan haar moeder.\n\n\"Mensen gooien hun afval niet in de prullenbak,\" zegt mama. \"En plastic is heel slecht voor de natuur. Het gaat nooit weg. Vogels en vissen denken dat het eten is. Dan worden ze ziek.\"\n\nLisa wordt boos. \"Dat is gemeen! Waarom doen mensen dat?\" Ze wil de dieren helpen maar weet niet hoe.\n\nThuis zoekt Lisa informatie op internet. Ze leest dat plastic honderden jaren blijft bestaan. Ze ontdekt dat één plastic fles wel 450 jaar nodig heeft om weg te gaan. Dat is heel lang!\n\nLisa heeft een idee. Ze maakt een poster voor op school. \"Stop plastic afval!\" schrijft ze erop. \"Gebruik je eigen drinkfles!\" Ze plakt de poster bij de ingang. Haar juf vindt het een goed plan.\n\nDe volgende dag brengt Lisa haar eigen waterfles mee naar school. Drie vrienden doen hetzelfde. Lisa voelt zich blij. Ze helpt de natuur door kleine dingen te doen.",
+  "questions": [
+    {
+      "question": "Waar loopt Lisa met haar moeder?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "door het park",
+        "in het park"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom worden vogels en vissen ziek van plastic?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "denken",
+            "denkt",
+            "dacht"
+          ],
+          [
+            "eten",
+            "voedsel",
+            "voer"
+          ],
+          [
+            "plastic",
+            "afval",
+            "rommel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de tweede alinea wat mama zegt over dieren en plastic."
+    },
+    {
+      "question": "Hoe voelt Lisa zich toen ze hoorde over de dieren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "boos",
+            "woedend",
+            "kwaad"
+          ],
+          [
+            "verdrietig",
+            "triest"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er in de derde alinea staat over Lisa's gevoel."
+    },
+    {
+      "question": "Wat doet Lisa om het plastic probleem op te lossen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "poster",
+            "plakat"
+          ],
+          [
+            "maakt",
+            "maken",
+            "gemaakt"
+          ],
+          [
+            "school",
+            "klas"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de vijfde alinea naar Lisa's oplossing."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-plastic-probleem/image-1.png",
+      "alt": "Lisa en haar moeder lopen door een park vol plastic afval"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-plastic-probleem/image-2.png",
+      "alt": "Lisa hangt een poster op school met de tekst Stop plastic afval"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her mother walking through a Dutch park littered with plastic bottles and trash, the girl looking concerned, children's book illustration style",
+    "A young girl hanging up a colorful poster at school entrance that says 'Stop plastic afval!' with other students looking interested, children's book illustration style"
+  ]
+}

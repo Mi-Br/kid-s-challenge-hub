@@ -1,0 +1,73 @@
+{
+  "id": "het-zieke-visje",
+  "title": "Het Zieke Visje",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "dieren",
+  "text": "Lisa heeft een mooi aquarium in haar kamer. Er zwemmen vijf goudvissen in. Elke dag geeft ze hen eten.\n\nOp maandag ziet Lisa dat één visje heel langzaam zwemt. Het goudvisje ligt vaak op de bodem. Lisa maakt zich zorgen omdat het visje ziek lijkt.\n\nLisa vraagt hulp aan haar vader. Samen kijken ze naar het water. Het water is een beetje groen en vuil. Papa zegt dat ze het aquarium moeten schoonmaken.\n\nLisa en papa maken het aquarium samen schoon. Ze doen nieuw, helder water erin. Het zieke visje begint meteen sneller te zwemmen. Lisa is blij dat het visje weer gezond is.",
+  "questions": [
+    {
+      "question": "Hoeveel goudvissen zwemmen er in het aquarium?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijf"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Op welke dag ziet Lisa dat het visje langzaam zwemt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "maandag",
+        "op maandag"
+      ],
+      "hint": "Het staat in de tweede alinea."
+    },
+    {
+      "question": "Waarom was het visje ziek?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "water",
+            "aquarium"
+          ],
+          [
+            "vuil",
+            "groen",
+            "vies",
+            "smerig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat papa zei over het water."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-zieke-visje/image-1.png",
+      "alt": "Lisa kijkt naar haar aquarium met vijf goudvissen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-zieke-visje/image-2.png",
+      "alt": "Lisa en papa maken samen het aquarium schoon"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking at her fish tank with five goldfish swimming inside, children's book illustration style, bright and colorful",
+    "A girl and her father cleaning a fish tank together, putting in fresh clear water, the goldfish swimming happily, children's book illustration style"
+  ]
+}

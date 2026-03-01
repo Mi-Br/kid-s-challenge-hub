@@ -1,0 +1,119 @@
+{
+  "id": "het-verhaal-van-twee-vrienden",
+  "title": "Het Verhaal van Twee Vrienden",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "beroepen",
+  "text": "Misschien begint elk verhaal wel met een einde. Voor Lotte en Emma begon het einde toen ze allebei dezelfde droom hadden: dierenarts worden.\n\n'Ik ga eerst studeren,' verklaarde Emma op een regenachtige donderdag. 'Daarna open ik mijn eigen praktijk.' Haar stem klonk vastberaden, alsof ze al jaren over dit plan nadacht. Lotte knikte, maar vanbinnen voelde ze een steek. Zij wilde ook dierenarts worden, maar durfde het niet hardop te zeggen.\n\nWeken gingen voorbij waarin hun gesprekken steeds korter werden. Emma sprak alleen nog over studeren en cijfers. Lotte begon zich dom te voelen omdat zij niet zulke hoge cijfers haalde. 'Misschien word ik maar kapster,' mompelde ze tijdens de pauze. Emma gaf geen antwoord – ze was bezig met een biologieboek.\n\nOp een dag zag Lotte Emma huilen bij de fietsenstalling. 'Wat is er?' vroeg ze voorzichtig. Emma keek op met rode ogen. 'Ik ben bang dat ik niet slim genoeg ben voor de universiteit. Iedereen verwacht zoveel van me.' Plotseling begreep Lotte dat Emma net zo onzeker was als zij.\n\n'Weet je wat grappig is?' zei Lotte zacht. 'Jij denkt dat je niet slim genoeg bent, en ik dacht dat ik te dom was om met jou bevriend te zijn.' Ze gingen naast elkaar op een bankje zitten. 'Misschien kunnen we elkaar helpen,' stelde Emma voor. 'Jij bent veel beter in verzorging dan ik. En ik kan je helpen met biologie.'\n\nSinds die dag weten ze dat vriendschap niet betekent dat je dezelfde dromen moet hebben. Emma wil nog steeds dierenarts worden, en Lotte heeft ontdekt dat ze graag verpleegster wil worden. Samen bedenken ze al hoe ze later kunnen samenwerken: Emma als dierenarts, Lotte als dierenartsassistente. Want de mooiste verhalen eindigen vaak waar ze begonnen – bij vriendschap.",
+  "questions": [
+    {
+      "question": "Welke kleur ogen had Emma toen Lotte haar bij de fietsenstalling zag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rode",
+        "rood"
+      ],
+      "hint": "Kijk naar de vierde alinea."
+    },
+    {
+      "question": "Waarom begon Lotte zich dom te voelen naast Emma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "cijfers",
+            "slechte cijfers",
+            "lage cijfers",
+            "niet hoge cijfers"
+          ],
+          [
+            "studeren",
+            "slim",
+            "slimmer",
+            "intelligenter"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma deed en waar Lotte zich zorgen over maakte."
+    },
+    {
+      "question": "Hoe verandert de vriendschap tussen Lotte en Emma in het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "elkaar helpen",
+            "samenwerken",
+            "steunen",
+            "helpen"
+          ],
+          [
+            "begrijpen",
+            "begreep",
+            "snapten",
+            "inzien",
+            "realiseren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het begin en het einde van het verhaal."
+    },
+    {
+      "question": "Vind je dat de meisjes een goede oplossing hebben gevonden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de oplossing en deze onderbouwen. Goede argumenten kunnen zijn: ze helpen elkaar, ze respecteren elkaars dromen, ze werken samen in plaats van concurreren, of ze hebben allebei hun eigen sterke punten gevonden.",
+        "exampleAnswer": "Ja, ik vind het een goede oplossing omdat ze elkaar nu helpen in plaats van concurreren. Ze kunnen allebei hun droom volgen en later samenwerken.",
+        "keyElements": [
+          "helpen/samenwerken/steunen",
+          "eigen dromen/verschillend",
+          "respecteren/accepteren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe hun oplossing beide meisjes helpt."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over echte vriendschap die verschillen accepteert en over samenwerken in plaats van concurreren. Het kan ook gaan over het overwinnen van onzekerheid door openheid.",
+        "exampleAnswer": "Het verhaal gaat erover dat echte vrienden elkaar helpen en dat je niet hetzelfde hoeft te zijn om goede vrienden te blijven.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "verschillen/accepteren",
+          "helpen/samenwerken"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na: wat wil de schrijver ons leren over vriendschap?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verhaal-van-twee-vrienden/image-1.png",
+      "alt": "Twee meisjes zitten op een schoolbankje en praten met elkaar"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verhaal-van-twee-vrienden/image-2.png",
+      "alt": "Een meisje met rode ogen huilt bij de fietsenstalling terwijl haar vriendin naast haar staat"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch school girls sitting on a bench outside their school, having a heart-to-heart conversation, children's book illustration style, warm and caring atmosphere",
+    "A girl with red eyes crying near a bicycle parking area at a Dutch school, while her friend approaches her with concern, children's book illustration style, emotional scene"
+  ]
+}

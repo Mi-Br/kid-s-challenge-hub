@@ -1,0 +1,93 @@
+{
+  "id": "de-zere-knie",
+  "title": "De Zere Knie",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Emma speelt graag voetbal in het park. Haar opa zegt altijd: \"Warm eerst je spieren op, Emma. Dat deed ik ook toen ik jong was.\" Maar Emma denkt dat opwarmen saai is. \"Ik ben sterk genoeg,\" zegt ze tegen zichzelf.\n\nVandaag rent Emma meteen het veld op omdat ze snel wil scoren. Ze denkt: \"Ik hoef niet langzaam te beginnen zoals opa zegt.\" Plotseling valt ze hard op de grond. Haar knie doet veel pijn en ze kan niet meer lopen.\n\nThuis vertelt mama over haar eigen voetbaltijd. \"Ik deed ook nooit warming-up,\" zegt mama. \"Toen brak ik mijn arm. Daarna luisterde ik wel naar opa's advies.\" Emma begrijpt nu waarom haar lichaam pijn heeft.\n\nDe volgende week is Emma's knie beter. Voor ze gaat voetballen, rekt ze haar armen en benen. \"Opwarmen is niet saai,\" denkt Emma. \"Het helpt mijn spieren en botten.\" Nu speelt ze veel beter want haar lichaam is goed voorbereid.",
+  "questions": [
+    {
+      "question": "Wat zegt opa altijd tegen Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "warm eerst je spieren op",
+        "warm eerst je spieren op emma",
+        "dat deed ik ook toen ik jong was"
+      ],
+      "hint": "Kijk naar de eerste zin die opa zegt."
+    },
+    {
+      "question": "Wat denkt Emma over opwarmen voordat ze valt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dat opwarmen saai is",
+        "opwarmen is saai",
+        "saai"
+      ],
+      "hint": "Zoek wat Emma denkt in de eerste alinea."
+    },
+    {
+      "question": "Waarom valt Emma op de grond?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geen",
+            "niet",
+            "nooit"
+          ],
+          [
+            "opwarmen",
+            "warming-up",
+            "warmde op",
+            "warmt op"
+          ],
+          [
+            "snel",
+            "meteen",
+            "direct",
+            "hard",
+            "plotseling"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma niet deed voordat ze ging spelen."
+    },
+    {
+      "question": "Wat is het belangrijkste dat Emma leert in dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Emma leert waarom opwarmen belangrijk is voor haar lichaam, en dat je naar goede raad moet luisteren.",
+        "exampleAnswer": "Emma leert dat opwarmen belangrijk is zodat je geen pijn krijgt.",
+        "keyElements": [
+          "opwarmen/warming-up belangrijk",
+          "luisteren naar advies/raad",
+          "lichaam beschermen/zorgen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over hoe Emma anders gaat denken over sporten."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-zere-knie/image-1.png",
+      "alt": "Emma rent snel het voetbalveld op zonder op te warmen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-zere-knie/image-2.png",
+      "alt": "Emma zit op de grond met pijn aan haar knie"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl running quickly onto a soccer field in a Dutch park, skipping warm-up exercises, children's book illustration style",
+    "The same girl sitting on the ground holding her hurt knee with a pained expression, other children looking concerned, children's book illustration style"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "een-reis-naar-parijs",
+  "title": "Een Reis naar Parijs",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "reizen",
+  "text": "Lisa heeft altijd gedacht dat reizen saai is. Haar vrienden op school praten vaak over hun vakanties naar verre landen. \"Dat is niks voor mij,\" zegt Lisa altijd. \"Ik vind het leuker om thuis te blijven. Dan kan ik lezen en gamen.\"\n\nVorige week vertelde haar klasgenoot Emma over haar reis naar Parijs. \"We hebben de Eiffeltoren bekeken en heerlijk eten geproefd,\" vertelde Emma enthousiast. Lisa luisterde, maar dacht: \"Dat klinkt vermoeiend. Al dat lopen en vreemde mensen ontmoeten.\"\n\nDe leraar kondigde toen aan dat de klas een schoolreis naar Parijs zou maken. Alle leerlingen waren blij, behalve Lisa. Ze voelde zich anders dan de rest. \"Waarom ben ik niet enthousiast zoals de anderen?\" vroeg ze zich af. Ze was bang dat haar klasgenoten haar vreemd zouden vinden.\n\nTijdens de voorbereidingen voor de reis begon Lisa toch nieuwsgierig te worden. Ze keek op internet naar foto's van Parijs. De mooie gebouwen en musea zagen er interessanter uit dan ze had gedacht. Misschien had ze zich vergist over reizen.\n\nOp de dag van vertrek stapte Lisa nerveus in de bus. Maar tijdens de reis naar Frankrijk ontdekte ze dat het heel leuk was om met haar klasgenoten te praten. In Parijs bezocht ze het Louvre museum en proefde ze Franse kaas. \"Reizen is eigenlijk veel leuker dan ik dacht,\" zei Lisa tegen Emma. Ze had geleerd dat je soms je mening moet veranderen.",
+  "questions": [
+    {
+      "question": "Wat vond Lisa altijd leuker dan reizen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "thuis blijven",
+        "lezen en gamen",
+        "thuis blijven om te lezen en gamen"
+      ],
+      "hint": "Kijk naar de eerste alinea waar Lisa uitlegt wat zij leuk vindt."
+    },
+    {
+      "question": "Waarom voelde Lisa zich anders dan haar klasgenoten toen de schoolreis werd aangekondigd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "geen"
+          ],
+          [
+            "enthousiast",
+            "blij",
+            "vrolijk",
+            "opgewonden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Lisa reageerde op het nieuws van de schoolreis in de derde alinea."
+    },
+    {
+      "question": "Wat maakte dat Lisa nieuwsgierig werd over de reis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "foto's",
+            "plaatjes",
+            "afbeeldingen"
+          ],
+          [
+            "internet",
+            "online",
+            "computer"
+          ],
+          [
+            "gebouwen",
+            "musea",
+            "parijs"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea over wat Lisa deed tijdens de voorbereidingen."
+    },
+    {
+      "question": "Hoe veranderde Lisa's mening over reizen en waarom is dit belangrijk?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "veranderde",
+            "veranderd",
+            "anders",
+            "wijzigde"
+          ],
+          [
+            "ervaring",
+            "ervaren",
+            "ontdekken",
+            "leren",
+            "geleerd"
+          ],
+          [
+            "leuk",
+            "leuker",
+            "plezier",
+            "fijn"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de laatste alinea waar Lisa haar nieuwe inzicht deelt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/een-reis-naar-parijs/image-1.png",
+      "alt": "Lisa kijkt op haar computer naar foto's van Parijs terwijl haar klasgenoten enthousiast over reizen praten"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/een-reis-naar-parijs/image-2.png",
+      "alt": "Lisa en Emma staan voor de Eiffeltoren in Parijs, Lisa lacht en kijkt blij"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting at her computer looking at photos of Paris on the screen while other students in the background are talking excitedly about travel, children's book illustration style",
+    "Two teenage girls standing in front of the Eiffel Tower in Paris, one girl smiling happily having changed her mind about traveling, children's book illustration style"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "de-keuze-van-lotte",
+  "title": "De Keuze van Lotte",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "democratie",
+  "text": "Lotte zit in groep acht van basisschool De Regenboog. Volgende week zijn er schoolverkiezingen voor de leerlingenraad. Alle leerlingen van groep zeven en acht mogen stemmen.\n\nOp maandag komen drie kandidaten hun plannen vertellen in de aula. Sara wil meer speeltoestellen op het plein. Tom belooft langere pauzes en minder huiswerk. Lisa vertelt over een schoolmoestuin waar alle kinderen kunnen helpen.\n\nLotte vindt Tom heel grappig. Hij heeft leuke grappen en alle kinderen lachen. Zijn plannen klinken ook het beste. Minder huiswerk zou fijn zijn voor de toets week.\n\nThujs vertelt Lotte over de verkiezingen aan haar moeder. \"Welke plannen kun je echt uitvoeren?\" vraagt mama. \"Kan Tom beslissen over huiswerk? Dat doen toch de juffen en meesters?\"\n\nLotte denkt na. Tom kan inderdaad niet beslissen over huiswerk. Dat mogen alleen de leerkrachten. Sara's speeltoestellen kosten veel geld. Dat heeft de school misschien niet. Lisa's moestuin kan wel. De leerlingenraad mag helpen bij het schoolplein.\n\nOp vrijdag gaat Lotte naar het stemlokaal in haar klas. Ze maakt haar keuze. Ze stemt op Lisa omdat haar plan het meest realistisch is.",
+  "questions": [
+    {
+      "question": "Op welke dag komen de kandidaten hun plannen vertellen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "maandag",
+        "op maandag"
+      ],
+      "hint": "Kijk naar het begin van de tweede alinea."
+    },
+    {
+      "question": "Waarom kan Tom zijn belofte over huiswerk niet waarmaken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "leerkrachten",
+            "juffen",
+            "meesters",
+            "leraren"
+          ],
+          [
+            "beslissen",
+            "bepalen",
+            "besluit",
+            "beslist"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lottes moeder stelt een belangrijke vraag over wie beslissingen mag nemen."
+    },
+    {
+      "question": "Waarom vindt Lotte Lisa's plan het beste?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "realistisch",
+            "mogelijk",
+            "haalbaar",
+            "uitvoeren"
+          ],
+          [
+            "kan",
+            "lukt",
+            "mogelijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal goed."
+    },
+    {
+      "question": "Wat leer je uit dit verhaal over stemmen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "nadenken",
+            "denken",
+            "overwegen"
+          ],
+          [
+            "plannen",
+            "beloftes",
+            "ideeën"
+          ],
+          [
+            "mogelijk",
+            "realistisch",
+            "haalbaar",
+            "uitvoeren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Lotte van gedachten verandert en waarom."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-lotte/image-1.png",
+      "alt": "Drie kinderen presenteren hun plannen voor de leerlingenraad in de schoolaula"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-lotte/image-2.png",
+      "alt": "Lotte stemt in het klaslokaal bij de schoolverkiezingen"
+    }
+  ],
+  "imagePrompts": [
+    "Three elementary school children presenting their campaign ideas to classmates in a Dutch school assembly hall, children's book illustration style, bright and engaging",
+    "A young girl casting her vote at a classroom voting booth during school elections, other students waiting in line, children's book illustration style"
+  ]
+}

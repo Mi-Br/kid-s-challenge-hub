@@ -1,0 +1,81 @@
+{
+  "id": "mijn-bijzondere-konijn",
+  "title": "Mijn Bijzondere Konijn",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "huisdieren",
+  "text": "Lisa had een klein wit konijn. Het konijn heette Sneeuwbal. Sneeuwbal had rode ogen en lange oren.\n\nOp school vertelde Lisa over haar konijn. \"Mijn konijn heeft rode ogen,\" zei ze. De andere kinderen vonden dat eng. \"Dat is raar,\" zei Tom. \"Konijnen hebben bruine ogen.\"\n\nLisa werd verdrietig. Thuis vroeg ze aan haar moeder: \"Waarom heeft Sneeuwbal rode ogen?\" Mama legde uit: \"Sneeuwbal is een albino konijn. Dat betekent dat hij wit haar heeft en rode ogen. Het maakt hem bijzonder.\"\n\nDe volgende dag bracht Lisa foto's van Sneeuwbal mee naar school. Ze liet zien hoe lief haar konijn was. Sneeuwbal at wortels uit Lisa's hand. Hij sprong vrolijk in de tuin.\n\nTom keek naar de foto's. \"Sorry Lisa,\" zei hij. \"Je konijn is heel mooi. Ik wist niet dat albino konijnen bestaan. Sneeuwbal ziet er lief uit.\"",
+  "questions": [
+    {
+      "question": "Welke kleur ogen heeft Sneeuwbal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode",
+        "rode ogen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke kleur ogen dachten de kinderen dat konijnen hebben?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bruin",
+        "bruine",
+        "bruine ogen"
+      ],
+      "hint": "Lees wat Tom zegt in de tweede alinea."
+    },
+    {
+      "question": "Waarom werd Lisa verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kinderen",
+            "andere",
+            "tom",
+            "klasgenoten"
+          ],
+          [
+            "eng",
+            "raar",
+            "vreemd",
+            "vonden",
+            "zeiden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat de andere kinderen zeiden."
+    },
+    {
+      "question": "Wat betekent albino volgens mama?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit haar en rode ogen",
+        "wit haar en rode ogen hebben",
+        "dat hij wit haar heeft en rode ogen"
+      ],
+      "hint": "Lees wat mama uitlegt in de derde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-bijzondere-konijn/image-1.png",
+      "alt": "Een meisje met een klein wit konijn met rode ogen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-bijzondere-konijn/image-2.png",
+      "alt": "Kinderen op school kijken naar foto's van het konijn"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl holding a small white rabbit with red eyes in a typical Dutch backyard with a small garden, children's book illustration style",
+    "Children in a Dutch classroom looking at photos of a white rabbit, with the girl showing the pictures to her classmates, children's book illustration style"
+  ]
+}

@@ -1,0 +1,2085 @@
+{
+  "groep4-5": {
+    "dieren": [
+      {
+        "id": "huisdier_kiezen",
+        "name": "Een huisdier kiezen",
+        "settings": ["dierenwinkel", "dierenasiel", "bij de buren", "op internet gezien"],
+        "conflicts": ["allergieën in gezin", "klein appartement", "ouders niet zeker", "duur"],
+        "characters": ["kind dat lang wacht", "zus die bang is", "vriendelijke medewerker", "ouder die twijfelt"]
+      },
+      {
+        "id": "huisdier_verzorgen",
+        "name": "Huisdier verzorgen",
+        "settings": ["thuis badkamer", "dierenarts kliniek", "tuin", "dierenopvang"],
+        "conflicts": ["huisdier ziek", "vergeten voeren", "vakantie regelen", "te wild"],
+        "characters": ["verantwoordelijk kind", "dierenarts", "buurman die helpt", "broer die lui is"]
+      },
+      {
+        "id": "huisdier_verloren",
+        "name": "Huisdier is weg",
+        "settings": ["buurt fietsen", "dierenopvang", "dierenarts", "politie"],
+        "conflicts": ["kan nergens vinden", "iemand anders vond het", "geen idee waar kijken", "bijna gemist"],
+        "characters": ["verdrietig kind", "vrienden die helpen", "aardige vinder", "politieagent"]
+      },
+      {
+        "id": "huisdier_spelen",
+        "name": "Spelen met huisdier",
+        "settings": ["achtertuin", "park", "woonkamer", "strand"],
+        "conflicts": ["huisdier wil niet spelen", "ander kind wil niet meedoen", "huisdier ondeugd uit", "veel te warm"],
+        "characters": ["spelend kind", "vrienden", "ouder", "huisdier"]
+      },
+      {
+        "id": "wilde_dieren_zien",
+        "name": "Wilde dieren zien",
+        "settings": ["dierentuin", "safari park", "vogelhuisje", "vijver in bos"],
+        "conflicts": ["diertje verborgen", "te veel gedoe", "bang van beest", "voorbij voor je het ziet"],
+        "characters": ["enthousiast kind", "gids", "toeschouwer die stoort", "dierenbeschermer"]
+      },
+      {
+        "id": "dier_voeden",
+        "name": "Dier voeden en helpen",
+        "settings": ["vogelhuisje", "voetje voeren", "dierenpark", "schuilplaats bouwen"],
+        "conflicts": ["dier durf niet eten", "voer op", "dier verdwenen", "gebrek aan voer"],
+        "characters": ["zorgzaam kind", "opa die voedert", "vogelaar", "broertje die speelt"]
+      },
+      {
+        "id": "insectenhuis",
+        "name": "Insectenhuis maken",
+        "settings": ["achtertuin", "schoolplein", "vensterbank", "boomhut"],
+        "conflicts": ["insecten willen niet", "huis valt uit elkaar", "broer vernielt het", "niemand ziet het"],
+        "characters": ["creatief kind", "vader", "vriendin", "bioloog"]
+      },
+      {
+        "id": "dier_redden",
+        "name": "Een dier redden",
+        "settings": ["vogelval", "net om poot", "uit water", "onder auto"],
+        "conflicts": ["dier beweegt wild", "kan niet goed bereiken", "iemand helpt niet", "erg gewond"],
+        "characters": ["moedig kind", "vrienden", "volwassene", "dierenarts"]
+      },
+      {
+        "id": "dieren_sporen",
+        "name": "Sporen van dieren zoeken",
+        "settings": ["bos", "tuin", "strand", "modderige plek"],
+        "conflicts": ["spoor volgen lastig", "spoor verdwenen", "verkeerde dier", "ander kind lacht"],
+        "characters": ["onderzoeker kind", "vrienden", "boswachter", "dierenwetenschapper"]
+      },
+      {
+        "id": "aquarium_onderzoeken",
+        "name": "Aquarium of vijver onderzoeken",
+        "settings": ["thuis aquarium", "school aquarium", "wilde vijver", "aquaticum"],
+        "conflicts": ["vissen verstopt", "aquarium leeg", "water ziet groen", "roofdier"],
+        "characters": ["nieuwsgierig kind", "aquariumman", "schooljuf", "visser"]
+      },
+      {
+        "id": "dier_vriendschap",
+        "name": "Vriendschap met dier",
+        "settings": ["boerderij", "buurtkat", "staldier", "huisdier van ander"],
+        "conflicts": ["dier vertrouwt niet", "eigenaar is streng", "dier gaat weg", "dier is ziek"],
+        "characters": ["dierenlief kind", "boer", "eigenaar", "dier"]
+      },
+      {
+        "id": "dieren_geluiden",
+        "name": "Dierengeluiden raden",
+        "settings": ["dierentuin", "bos 's nachts", "opname luisteren", "schuur"],
+        "conflicts": ["geluid lijkt op ander dier", "kan niet raden", "geluid heel zacht", "iedereen roept door elkaar"],
+        "characters": ["speelend kind", "vrienden", "gids", "dierenkenner"]
+      }
+    ],
+    "school": [
+      {
+        "id": "eerste_dag_school",
+        "name": "Eerste dag op school",
+        "settings": ["klaslokaal", "speelplaats", "bus", "poort van school"],
+        "conflicts": ["mama moet weg", "geen vrienden", "juf is streng", "alles is groot"],
+        "characters": ["nerveus kind", "lieve juf", "vriendelijk kind", "mama"]
+      },
+      {
+        "id": "nieuwe_juf",
+        "name": "Nieuwe juf of meester",
+        "settings": ["klaslokaal", "gym les", "bibliotheek", "kantoor"],
+        "conflicts": ["juf/meester streng", "ander kind stoort", "geen geduld", "te veel huiswerk"],
+        "characters": ["onzeker kind", "nieuwe leerkracht", "oude vrienden", "stoer kind"]
+      },
+      {
+        "id": "groepswerk_project",
+        "name": "Groepswerk project",
+        "settings": ["klaslokaal", "bibliotheek", "thuis", "expositie"],
+        "conflicts": ["groep wil niet werken", "ander kind domineert", "ideeën botsen", "tijd op"],
+        "characters": ["leider kind", "lui kind", "chaoot", "stiller"]
+      },
+      {
+        "id": "voetbal_pauze",
+        "name": "Voetbal op de pauze",
+        "settings": ["speelplaats", "gym les", "voetbalveld", "schooltuin"],
+        "conflicts": ["kan niet goed voetballen", "niet gekozen", "bal kwijt", "oneerlijke ref"],
+        "characters": ["sportief kind", "beste speler", "verdrietig kind", "vrienden"]
+      },
+      {
+        "id": "klasgenoot_problemen",
+        "name": "Ruzie met klasgenoot",
+        "settings": ["klaslokaal", "pauze", "toiletten", "gang"],
+        "conflicts": ["misverstand", "jaloers", "gemene opmerking", "schuld onduidelijk"],
+        "characters": ["twee vrienden", "getuige", "juf", "andere kinderen"]
+      },
+      {
+        "id": "schooluitje",
+        "name": "Schooluitje",
+        "settings": ["museum", "dierentuin", "boerderij", "busrit"],
+        "conflicts": ["kind blijft achter", "iets kapot gemaakt", "verliest groep", "ziek worden"],
+        "characters": ["enthousiast kind", "juf", "gids", "vrienden"]
+      },
+      {
+        "id": "huiswerk_moeilijk",
+        "name": "Huiswerk is te moeilijk",
+        "settings": ["thuis", "bibliotheek", "wiskundeles", "Nederlands"],
+        "conflicts": ["begrijp het niet", "kan niet concentreren", "ouder helpt niet goed", "vrienden snappen het wel"],
+        "characters": ["moeizaam kind", "ouder", "juf", "slimmer kind"]
+      },
+      {
+        "id": "show_and_tell",
+        "name": "Show and tell",
+        "settings": ["klaslokaal", "spreekbeurt", "kring", "schoolfeest"],
+        "conflicts": ["iets vergeten", "iets gaat mis", "lachen met spulletje", "alles was beter"],
+        "characters": ["zenuwen kind", "klasgenoten", "juf", "gast"]
+      },
+      {
+        "id": "vrienden_groep",
+        "name": "Vrienden groep opzetten",
+        "settings": ["speelplaats", "klaslokaal", "boomhut", "thuis"],
+        "conflicts": ["iemand voelt zich buitengesloten", "ruzie in groep", "iemand wil niet", "anderen jaloers"],
+        "characters": ["leider kind", "volgers", "buitenstaander", "volwassene"]
+      },
+      {
+        "id": "schoolfeest",
+        "name": "Schoolfeest voorbereiding",
+        "settings": ["klaslokaal", "speelplaats", "gymzaal", "schoolplein"],
+        "conflicts": ["niemand helpt", "decoratie is lelijk", "iets gaat mis", "anderen helpen niet"],
+        "characters": ["organisator kind", "helpers", "juf", "twijfelaars"]
+      },
+      {
+        "id": "gym_les_grappig",
+        "name": "Grappige gym les",
+        "settings": ["gymzaal", "speelplaats", "zwembad", "sportveld"],
+        "conflicts": ["kind valt", "niemand snapt", "iemand lacht", "je bent altijd last"],
+        "characters": ["sportlief kind", "gymdocent", "sporters", "onhandige kinderen"]
+      },
+      {
+        "id": "bibliotheek_avontuur",
+        "name": "Bibliotheek avontuur",
+        "settings": ["schoolbibliotheek", "gemeentelijk", "librarian", "boekenkast"],
+        "conflicts": ["kan boek niet vinden", "boek niet leuk", "bibliothecaris streng", "veel te veel boeken"],
+        "characters": ["leeslustig kind", "bibliothecaris", "vrienden", "jonger kind"]
+      }
+    ],
+    "familie": [
+      {
+        "id": "broer_zus_ruzie",
+        "name": "Ruzie met broer of zus",
+        "settings": ["slaapkamer", "woonkamer", "tuin", "auto"],
+        "conflicts": ["speelgoed gepakt", "geheim verraad", "oneerlijk", "schuld onduidelijk"],
+        "characters": ["twee kinderen", "ouder", "hele familie", "vriend/vriendin"]
+      },
+      {
+        "id": "nieuwe_broer_zus",
+        "name": "Nieuw broertje of zusje",
+        "settings": ["ziekenhuis", "thuis", "bevalling", "baby kamer"],
+        "conflicts": ["kind voelt zich vergeten", "baby huilt veel", "jaloezie", "niet wat je wou"],
+        "characters": ["ouder kind", "baby", "ouders", "opa/oma"]
+      },
+      {
+        "id": "opa_oma_bezoek",
+        "name": "Opa en oma bezoeken",
+        "settings": ["huisje opa", "appeltaart maken", "tuin", "verhalen luisteren"],
+        "conflicts": ["opa ziek", "lange reis", "niets te doen", "ouders gaan vroeg"],
+        "characters": ["liefdevol kind", "opa/oma", "ouders", "broer/zus"]
+      },
+      {
+        "id": "familie_etentje",
+        "name": "Familie etentje",
+        "settings": ["thuis", "restaurant", "opa's huis", "feestje"],
+        "conflicts": ["nichtje/neefje stoort", "eten lekker", "ouders ruziën", "verveling"],
+        "characters": ["hele familie", "kinderen", "volwassenen", "gastheer"]
+      },
+      {
+        "id": "mama_papa_werken",
+        "name": "Mama/papa gaat werken",
+        "settings": ["thuis", "kantoor", "kinderopvang", "crèche"],
+        "conflicts": ["wil niet mee", "verdriet", "angst", "oppas niet aardig"],
+        "characters": ["kind", "ouder", "oppas", "andere kinderen"]
+      },
+      {
+        "id": "vader_moeder_dag",
+        "name": "Vader of moederdag",
+        "settings": ["thuis", "school", "winkel", "maak iets"],
+        "conflicts": ["vergeef cadeau", "cadeau slecht", "mama/papa niet blij", "niets bijzonders"],
+        "characters": ["kind", "ouder", "broer/zus", "vriendin"]
+      },
+      {
+        "id": "familie_foto",
+        "name": "Familie foto nemen",
+        "settings": ["fotostudio", "thuis", "bos", "tuin"],
+        "conflicts": ["iemand wil niet", "iemand lacht verkeerd", "wind voor haar", "niemand ziet glad"],
+        "characters": ["familie", "fotograaf", "moeilijk kind", "fotograaf"]
+      },
+      {
+        "id": "opa_oma_verhalen",
+        "name": "Verhalen van vroeger",
+        "settings": ["opa's zitplaats", "oude fotoboek", "opa's schuur", "brandend vuur"],
+        "conflicts": ["lange verhalen", "boring", "oma slaapt in", "veel gelachen"],
+        "characters": ["opa/oma", "kind", "broer/zus", "ouder"]
+      },
+      {
+        "id": "familie_vakantie",
+        "name": "Familie vakantie",
+        "settings": ["auto", "trein", "campground", "strand"],
+        "conflicts": ["auto kapot", "weer slecht", "verveling onderweg", "plek vol"],
+        "characters": ["hele familie", "chauffeur", "kind", "anderen in auto"]
+      },
+      {
+        "id": "broer_helpen",
+        "name": "Broertje helpen",
+        "settings": ["speelplaats", "voetbal", "fietsen", "huiswerk"],
+        "conflicts": ["broertje wil niet", "je bent te snel", "broertje valt", "anderen lachen"],
+        "characters": ["groot kind", "klein broertje", "vrienden", "ouder"]
+      },
+      {
+        "id": "huishouden_helpen",
+        "name": "Huishouden helpen",
+        "settings": ["keuken", "tuin", "afwassen", "stofzuigen"],
+        "conflicts": ["verveling", "mama is streng", "iets kapot", "broer helpt niet"],
+        "characters": ["hulpvaardig kind", "mama", "papa", "broer/zus"]
+      },
+      {
+        "id": "geheim_in_familie",
+        "name": "Geheim in familie",
+        "settings": ["thuis", "kamer", "buiten afspreken", "telefoontje"],
+        "conflicts": ["geheim zwaar", "iemand komt erachter", "weet niet of vertellen", "schuldgevoel"],
+        "characters": ["kind", "familielid", "ouder", "vertrouweling"]
+      }
+    ],
+    "vrienden": [
+      {
+        "id": "beste_vriend_kibbel",
+        "name": "Kibbel met beste vriend",
+        "settings": ["speelplaats", "huis vriend", "voetbalveld", "thuis"],
+        "conflicts": ["misverstand", "stoer kind tussendoor", "jaloers", "schuld onduidelijk"],
+        "characters": ["twee vrienden", "tussenpersoon", "ander kind", "ouder"]
+      },
+      {
+        "id": "nieuwe_vriend",
+        "name": "Nieuwe vriend maken",
+        "settings": ["school", "speelplaats", "voetbalteam", "voetpaden"],
+        "conflicts": ["verlegen", "ander kind accepteert niet", "al vrienden", "ander te stoer"],
+        "characters": ["schuw kind", "nieuwkomer", "bestaande vrienden", "bemiddelaar"]
+      },
+      {
+        "id": "vriend_wegzieken",
+        "name": "Vriend gaat naar ander schooltje",
+        "settings": ["school", "laatste dag", "afscheidsfeestje", "thuis"],
+        "conflicts": ["verdriet", "geen afscheid", "vriend blij weg", "bang nieuw"],
+        "characters": ["twee vrienden", "andere kinderen", "juf", "ouders"]
+      },
+      {
+        "id": "groep_grappenmaker",
+        "name": "Groep van grappenmakers",
+        "settings": ["school", "speelplaats", "zwembad", "thuis"],
+        "conflicts": ["grap verkeerd", "iemand voelt zich uitgelachen", "grappen grof", "volwassene boos"],
+        "characters": ["grappig kind", "vrienden", "slachtoffer", "volwassene"]
+      },
+      {
+        "id": "vriend_ziek",
+        "name": "Beste vriend is ziek",
+        "settings": ["ziekenhuis", "thuis vriend", "school zonder", "telefoontje"],
+        "conflicts": ["bezoek mag niet", "ernstig ziek", "lang ziek", "bang"],
+        "characters": ["bezorgd kind", "zieke vriend", "ouders", "dokter"]
+      },
+      {
+        "id": "vriend_verhuizen",
+        "name": "Vriend verhuist weg",
+        "settings": ["verhuiswagen", "laatste speelmiddag", "adres opschrijven", "afscheid nemen"],
+        "conflicts": ["verhuizing snel", "geen adres", "sad ending", "hoop voor contact"],
+        "characters": ["twee vrienden", "verhuizers", "ouders", "andere kinderen"]
+      },
+      {
+        "id": "vriendenpaar_probleem",
+        "name": "Vriendenpaar geeft probleem",
+        "settings": ["school", "speelplaats", "feestje", "groep"],
+        "conflicts": ["je wilt mee met beide", "ze hebben ruzie", "je kiest kant", "alleen voelen"],
+        "characters": ["jij", "twee vrienden", "anderen", "volwassene"]
+      },
+      {
+        "id": "bully_op_school",
+        "name": "Gemeen kind op school",
+        "settings": ["school", "speelplaats", "toilet", "bus"],
+        "conflicts": ["pest je", "bang", "vrienden zijn ook bang", "durft niet zeggen"],
+        "characters": ["bang kind", "bully", "vrienden", "volwassene"]
+      },
+      {
+        "id": "spelen_alleen",
+        "name": "Alleen spelen terwijl anderen spelen",
+        "settings": ["speelplaats", "schoolfeest", "schoolkamp", "voetbal"],
+        "conflicts": ["niemand nodig jou uit", "jaloers", "durft niet vragen", "anders hobbies"],
+        "characters": ["eenzaam kind", "groepje kinderen", "sympathiek kind", "juf"]
+      },
+      {
+        "id": "vriend_slecht_gedrag",
+        "name": "Vriend doet slechte dingen",
+        "settings": ["school", "speelplaats", "zwembad", "thuis"],
+        "conflicts": ["vriend drijft je mee", "durft niet nee zeggen", "schuldgevoel", "wil niet verraden"],
+        "characters": ["kind", "slecht vriendpaar", "anderen", "volwassene"]
+      },
+      {
+        "id": "vriendjes_sleepover",
+        "name": "Sleeperparty met vriendjes",
+        "settings": ["slaapkamer", "huiskamer", "tuin tent", "schuur"],
+        "conflicts": ["heimwee", "grappig wordt grof", "ruzie 's nachts", "iemand voelt zich buitengesloten"],
+        "characters": ["gastheer", "gasten", "ouders", "huisdier"]
+      },
+      {
+        "id": "vrienden_geheim",
+        "name": "Geheim onder vrienden",
+        "settings": ["speelplaats", "boomhut", "kamer", "gang school"],
+        "conflicts": ["geheim zwaar", "iemand verraadt", "drietal hebben geheim", "bang om te zeggen"],
+        "characters": ["vrienden", "outsider", "volwassene", "verkliker"]
+      }
+    ],
+    "eten": [
+      {
+        "id": "mama_kookt",
+        "name": "Mama/papa kookt favorieten",
+        "settings": ["keuken", "eettafel", "tuin barbecue", "restaurant"],
+        "conflicts": ["mama kookt niet goed", "iemand lust niet", "voedsel op", "te veel wachten"],
+        "characters": ["hongerig kind", "mama", "familie", "broer/zus"]
+      },
+      {
+        "id": "groente_niet_lust",
+        "name": "Groente eten weigeren",
+        "settings": ["eettafel", "bord vol", "keuken", "school"],
+        "conflicts": ["mama forceert", "niemand eet", "groentesoep", "broccoli geen zin"],
+        "characters": ["kieskeurig kind", "mama", "papa", "broertje"]
+      },
+      {
+        "id": "gebak_maken",
+        "name": "Gebak of taart maken",
+        "settings": ["keuken", "oma's keuken", "bakkerij", "schoolkamp"],
+        "conflicts": ["deeg valt", "te veel meel", "bakoven te heet", "in je gezicht"],
+        "characters": ["bakker kind", "oma", "mama", "broer/zus"]
+      },
+      {
+        "id": "lunch_meenemen_school",
+        "name": "Lunch meenemen naar school",
+        "settings": ["lunchpauze", "speelplaats", "klaslokaal", "toiletten"],
+        "conflicts": ["vergeten", "andere kinderen willen stelen", "kapot", "niet lekker"],
+        "characters": ["hongrig kind", "vrienden", "andere kinderen", "juf"]
+      },
+      {
+        "id": "snoep_kopen",
+        "name": "Snoepjes kopen in winkeltje",
+        "settings": ["snoepwinkel", "buurtwinkel", "kermis", "markt"],
+        "conflicts": ["geld niet genoeg", "snoepje verkocht", "verkoper streng", "broer wil ook"],
+        "characters": ["graag snoepend kind", "verkoper", "vrienden", "broer/zus"]
+      },
+      {
+        "id": "picknick_eten",
+        "name": "Picknick in het bos",
+        "settings": ["bos", "park", "strand", "weiland"],
+        "conflicts": ["eten valt in modder", "mier in mand", "eten op", "vogels stelen"],
+        "characters": ["hongerig kind", "familie", "vrienden", "dieren"]
+      },
+      {
+        "id": "pizza_nacht",
+        "name": "Pizza pizzaavond",
+        "settings": ["thuis", "pizzeria", "keukentafel", "tuin"],
+        "conflicts": ["pizza verkeerd", "te heet", "verkeerde soort", "niemand aardappels lust"],
+        "characters": ["hongerig kind", "pizza levering", "familie", "vrienden"]
+      },
+      {
+        "id": "water_drinken",
+        "name": "Water vs frisdrank",
+        "settings": ["school", "sportwedstrijd", "thuis", "feestje"],
+        "conflicts": ["mama zegt alleen water", "vrienden hebben frisdrank", "dorst teveel", "liever cola"],
+        "characters": ["dorsting kind", "mama", "vrienden", "sporters"]
+      },
+      {
+        "id": "ontbijt_dingen",
+        "name": "Ontbijt kibbel",
+        "settings": ["keuken", "eettafel", "spoedsituatie", "naar school"],
+        "conflicts": ["geen honger", "ontbijt klaar niet", "te snel eten", "vervuilde kleren"],
+        "characters": ["slaperig kind", "mama", "papa", "broertje"]
+      },
+      {
+        "id": "chips_verboden",
+        "name": "Chips en snoep verboden",
+        "settings": ["winkel", "feestje", "thuis", "vriends huis"],
+        "conflicts": ["iedereen eet chips", "mama ziet niet", "vrienden hebben wel", "verlangen ernar"],
+        "characters": ["verlangende kind", "mama", "vrienden", "tante"]
+      },
+      {
+        "id": "restaurant_eerste_keer",
+        "name": "Eerste keer in restaurant",
+        "settings": ["restaurants", "terras", "pizzeria", "chinees"],
+        "conflicts": ["menu te ingewikkeld", "weet niet wat bestellen", "ander eten", "veel te duur"],
+        "characters": ["nerveus kind", "ouders", "ober", "familie"]
+      },
+      {
+        "id": "ijs_zomer",
+        "name": "Ijsje in zomer",
+        "settings": ["ijskraam", "beach", "park", "winkel"],
+        "conflicts": ["smelts te snel", "verkeerde smaak", "geld op", "rij te lang"],
+        "characters": ["warm kind", "ouder", "ijsman", "vrienden"]
+      }
+    ],
+    "huiswerk": [
+      {
+        "id": "rekenen_moeilijk",
+        "name": "Rekenen huiswerk moeilijk",
+        "settings": ["tafel", "thuis", "huiswerk plek", "woonkamer"],
+        "conflicts": ["begrijpt niet", "ouder geen geduld", "vrienden snappen beter", "veel opgaven"],
+        "characters": ["moeizaam kind", "ouder", "juf", "slimmer kind"]
+      },
+      {
+        "id": "huiswerk_vergeten",
+        "name": "Huiswerk vergeten",
+        "settings": ["school", "klaslokaal", "thuis", "juf's bureau"],
+        "conflicts": ["thuis vergeten", "tasche thuis", "juf boos", "straf"],
+        "characters": ["disorganiseerd kind", "juf", "ouder", "vrienden"]
+      },
+      {
+        "id": "schrijven_werk",
+        "name": "Schrijfwerk huiswerk",
+        "settings": ["tafel", "schrift", "potlood", "lamp"],
+        "conflicts": ["hand doet pijn", "pen werkt niet", "veel te doen", "lelijk schrift"],
+        "characters": ["schrijvend kind", "ouder", "juf", "broer/zus"]
+      },
+      {
+        "id": "boekrapport",
+        "name": "Boekrapport schrijven",
+        "settings": ["tafel", "boekenkast", "bibliotheek", "school"],
+        "conflicts": ["boek niet afgelezen", "weet niet wat schrijven", "te veel woorden", "saai boek"],
+        "characters": ["luwe lezer", "ouder", "juf", "bibliothecaris"]
+      },
+      {
+        "id": "project_doen",
+        "name": "Project huiswerk",
+        "settings": ["tafel", "knutselmaterialen", "thuis", "kameel"],
+        "conflicts": ["geen idee", "materiaal niet", "mislukt", "te moeilijk"],
+        "characters": ["creatief kind", "mama", "papa", "vrienden"]
+      },
+      {
+        "id": "huiswerk_aflening",
+        "name": "Huiswerk aflenking",
+        "settings": ["tafel", "slaapkamer", "woonkamer", "buiten"],
+        "conflicts": ["broer/zus stoort", "televisie aan", "vrienden buiten", "spel veel erger"],
+        "characters": ["moeizaam kind", "afleidende factor", "ouder", "broer/zus"]
+      },
+      {
+        "id": "taal_huiswerk",
+        "name": "Taal huiswerk",
+        "settings": ["tafel", "schrift", "dictee", "schrijven"],
+        "conflicts": ["spelling moeilijk", "begrijpt niet", "veel fouten", "juf ziet het"],
+        "characters": ["moeizaam kind", "ouder", "juf", "taalgeek kind"]
+      },
+      {
+        "id": "huiswerk_samen",
+        "name": "Huiswerk maken met vrienden",
+        "settings": ["tafel", "huis vriend", "bibliotheek", "bank"],
+        "conflicts": ["afleiden elkaar", "ruzie over antwoord", "anders begrijpen", "veel gelachen"],
+        "characters": ["twee vrienden", "derde vriend", "ouder", "juf"]
+      },
+      {
+        "id": "vragen_hulp",
+        "name": "Hulp vragen voor huiswerk",
+        "settings": ["tafel", "thuis", "schoolbank", "juf's bureau"],
+        "conflicts": ["durft niet vragen", "schaam zich", "ouder helpt verkeerd", "juf geen tijd"],
+        "characters": ["verlegen kind", "ouder", "juf", "klasgenoot"]
+      },
+      {
+        "id": "repetitie_maken",
+        "name": "Repetitie voor toets",
+        "settings": ["tafel", "schrift", "boek", "thuis"],
+        "conflicts": ["weet niets", "veel stof", "lang geleden gegeven", "moe"],
+        "characters": ["nerveus kind", "ouder", "juf", "vrienden"]
+      },
+      {
+        "id": "huiswerk_klaar",
+        "name": "Huiswerk eindelijk klaar",
+        "settings": ["tafel", "slaapkamer", "woonkamer", "schrift"],
+        "conflicts": ["staat fout in", "juf ziet fout", "vervolg erger", "opluchting"],
+        "characters": ["moeizaam kind", "ouder", "juf", "zelf"]
+      },
+      {
+        "id": "huiswerk_strubbel",
+        "name": "Ruzie over huiswerk",
+        "settings": ["tafel", "slaapkamer", "woonkamer", "school"],
+        "conflicts": ["ouder streng", "kind boos", "uitstel", "traantjes"],
+        "characters": ["boos kind", "strenge ouder", "ander ouder", "broer/zus"]
+      }
+    ],
+    "vakantie": [
+      {
+        "id": "campingavontuur",
+        "name": "Camping avontuur",
+        "settings": ["campground", "tent", "kampvuur", "bospad"],
+        "conflicts": ["tent lek", "verliezen in bos", "spullen nat", "heimwee"],
+        "characters": ["avontuurlijk kind", "ouders", "buurcampers", "bergingsman"]
+      },
+      {
+        "id": "strand_zand",
+        "name": "Strand en zand",
+        "settings": ["strand", "zee", "zandkasteel", "parasol"],
+        "conflicts": ["golven groot", "zand overal", "zonnebrand", "zout in ogen"],
+        "characters": ["strandkindje", "broer/zus", "ouders", "medestrandganger"]
+      },
+      {
+        "id": "autorit_lang",
+        "name": "Lange autorit",
+        "settings": ["auto", "snelweg", "raststop", "anderland"],
+        "conflicts": ["zit te lang", "verveling", "auto warm", "piassen nodig"],
+        "characters": ["onrustig kind", "ouders", "buurkinderen", "benzinepompman"]
+      },
+      {
+        "id": "zweefpark",
+        "name": "Zwembad of zwefpark",
+        "settings": ["zwembad", "golfslanden", "groot bad", "waterslide"],
+        "conflicts": ["bang voor water", "golven eng", "vele kinderen", "zwemles"],
+        "characters": ["bang kind", "vrienden", "badmeester", "ouder"]
+      },
+      {
+        "id": "bergwandelen",
+        "name": "Bergwandelen",
+        "settings": ["bergpad", "hut", "top bereikt", "vallei"],
+        "conflicts": ["te vermoeiend", "verliezen weg", "gevallen", "lange afdaling"],
+        "characters": ["moe kind", "ouders", "bergführer", "broer/zus"]
+      },
+      {
+        "id": "hotel_verblijf",
+        "name": "Hotel verblijf",
+        "settings": ["hotel", "kamers", "ontbijt", "speelplaats"],
+        "conflicts": ["bed ongemak", "ander eten", "verveling 's avonds", "duurder"],
+        "characters": ["nieuwsgierig kind", "hotelhouder", "ouders", "buurkinderen"]
+      },
+      {
+        "id": "vliegreis",
+        "name": "Vliegtuigreis",
+        "settings": ["vliegveld", "vliegtuig", "lucht", "ander land"],
+        "conflicts": ["bang voor vliegen", "oren pijn", "nauwe zitplek", "lange wachtrij"],
+        "characters": ["nerveus kind", "steward", "ouders", "medevlieger"]
+      },
+      {
+        "id": "citytrip",
+        "name": "Citytrip groot stad",
+        "settings": ["grotestad", "museum", "tramrij", "gracht"],
+        "conflicts": ["veel loopwerk", "tempo ouders snel", "veel geluid", "grote menigte"],
+        "characters": ["moe kind", "ouders", "gids", "straatmuzikant"]
+      },
+      {
+        "id": "vakantie_vrienden",
+        "name": "Vakantie met vrienden",
+        "settings": ["gehuurde huis", "strand", "bergen", "bos"],
+        "conflicts": ["groep te groot", "anders willen", "verveeld als groep", "ruzie"],
+        "characters": ["drie vrienden", "ouders", "gastheer", "andere groep"]
+      },
+      {
+        "id": "vakantie_thuis",
+        "name": "Vakantie thuis blijven",
+        "settings": ["thuis", "tuin", "buurt", "park"],
+        "conflicts": ["allen weg", "verveling", "vrienden weg", "ouders werken"],
+        "characters": ["alleen kind", "ouders werken", "oppas", "huisdier"]
+      },
+      {
+        "id": "spullen_verliezen",
+        "name": "Spullen verliezen op vakantie",
+        "settings": ["hotel", "strand", "auto", "restaurant"],
+        "conflicts": ["waar is mijn ding", "waardevol ding", "ouders boos", "gefrustreerd"],
+        "characters": ["onzorgvuldig kind", "ouders", "hoteleigenaar", "zoeker"]
+      },
+      {
+        "id": "vakantie_huiswerk",
+        "name": "Huiswerk tijdens vakantie",
+        "settings": ["strand", "hotel", "tuin", "vakantie-thuis"],
+        "conflicts": ["mee moeten nemen", "wil niet doen", "vrienden spelen", "ouders eisen"],
+        "characters": ["lui kind", "ouders", "vrienden", "juf"]
+      }
+    ],
+    "weer": [
+      {
+        "id": "regen_spelen",
+        "name": "Spelen in regen",
+        "settings": ["tuin", "straat", "park", "plas"],
+        "conflicts": ["mama zegt nee", "kleren worden nat", "schoenen modderig", "ziekte"],
+        "characters": ["speellust kind", "mama", "vrienden", "broer/zus"]
+      },
+      {
+        "id": "sneeuw_spelen",
+        "name": "Sneeuw avontuur",
+        "settings": ["sneeuwveld", "tuin", "berg", "straat"],
+        "conflicts": ["sneeuw snel weg", "voeten bevriezen", "sneeuw nat", "ijzigheid"],
+        "characters": ["vrolijk kind", "vrienden", "ouders", "huisdier"]
+      },
+      {
+        "id": "wind_speel",
+        "name": "Wind spelen",
+        "settings": ["zee", "duin", "heuvel", "open terrein"],
+        "conflicts": ["vlieger weggewaaid", "wind te sterk", "je valt bijna", "haren in gezicht"],
+        "characters": ["avontuurlijk kind", "vrienden", "ouders", "ander kind"]
+      },
+      {
+        "id": "zon_heet",
+        "name": "Hitte en zon",
+        "settings": ["park", "speelplaats", "thuis", "strand"],
+        "conflicts": ["zon te heet", "zonnebrand", "dorst", "moe"],
+        "characters": ["heet kind", "vrienden", "ouder", "ijsman"]
+      },
+      {
+        "id": "onweer_bang",
+        "name": "Onweer",
+        "settings": ["thuis", "boomhut", "auto", "schuur"],
+        "conflicts": ["bang voor bliksem", "donder luid", "licht uit", "donker"],
+        "characters": ["bang kind", "ouder", "broer/zus", "huisdier"]
+      },
+      {
+        "id": "hagel_koud",
+        "name": "Hagel en kou",
+        "settings": ["straat", "speelplaats", "thuis", "schuur"],
+        "conflicts": ["ijskoud", "kleren niet warm", "voetjes bevriezen", "moet naar binnen"],
+        "characters": ["koud kind", "vrienden", "ouders", "concierge"]
+      },
+      {
+        "id": "modder_speel",
+        "name": "Modder spelen",
+        "settings": ["plas", "modderput", "tuin", "bospad"],
+        "conflicts": ["veel te modderig", "kleren kapot", "mama ziet", "voetjes nat"],
+        "characters": ["smerig kind", "vrienden", "mama", "broer/zus"]
+      },
+      {
+        "id": "dageraad",
+        "name": "Vroeg wakker voor zonsopgang",
+        "settings": ["vroeg ochtend", "heuvel", "water", "balkon"],
+        "conflicts": ["erg slaperig", "ouders willen slapen", "veel voorbereiding", "heel mooi"],
+        "characters": ["vroeg kind", "ouders", "vrienden", "natuur"]
+      },
+      {
+        "id": "schemering_donker",
+        "name": "Schemeringspel",
+        "settings": ["tuinen", "park", "buurt", "boomhut"],
+        "conflicts": ["mag niet buiten", "donker wordt", "ouders roepen", "spannend"],
+        "characters": ["speellustig kind", "vrienden", "ouders", "huisdier"]
+      },
+      {
+        "id": "seizoen_wisseling",
+        "name": "Wisseling seizoen",
+        "settings": ["tuin", "park", "bos", "straat"],
+        "conflicts": ["herfst bladeren", "winter sneeuw", "lente bloemen", "zomer warm"],
+        "characters": ["observerend kind", "mama", "vrienden", "natuur"]
+      },
+      {
+        "id": "weerbuien",
+        "name": "Weer verandert snel",
+        "settings": ["buiten", "speelplaats", "zee", "berg"],
+        "conflicts": ["weer snel verandert", "geplande activiteit afgezegd", "weer draadje", "regenjas vergeten"],
+        "characters": ["onvoorziene kind", "ouders", "vrienden", "natuur"]
+      },
+      {
+        "id": "regenboog_kijken",
+        "name": "Regenboog zoeken",
+        "settings": ["na regen", "achtertuin", "heuvel", "zee"],
+        "conflicts": ["regenboog al weg", "kan niet vinden", "te mooi om waar te zijn", "vrienden zien anders"],
+        "characters": ["dromer kind", "vrienden", "ouders", "natuur"]
+      }
+    ],
+    "spelen": [
+      {
+        "id": "spelletjes_speel",
+        "name": "Tafelspelletjes",
+        "settings": ["eettafel", "keukentafel", "huiskamer", "vriendshuis"],
+        "conflicts": ["verliest altijd", "broer cheaten", "saai spel", "vrienden willen ander"],
+        "characters": ["verliest kind", "winnaar", "broer/zus", "ouders"]
+      },
+      {
+        "id": "voetbalspel",
+        "name": "Voetbal speeltje",
+        "settings": ["speelplaats", "voetbalveld", "tuin", "straat"],
+        "conflicts": ["voet pijn", "kan niet goed voetballen", "oneerlijk raken", "verliezen"],
+        "characters": ["voetballer kind", "vrienden", "goaltender", "scheidsrechter"]
+      },
+      {
+        "id": "tikkertje_speel",
+        "name": "Tikkertje",
+        "settings": ["speelplaats", "tuin", "straat", "park"],
+        "conflicts": ["bent always it", "iemand vals tikken", "valt", "voelt zich gepest"],
+        "characters": ["het kind", "vliechtende", "vrienden", "toeschouwer"]
+      },
+      {
+        "id": "verstoppertje",
+        "name": "Verstoppertje",
+        "settings": ["tuin", "boomhut", "schuur", "groot huis"],
+        "conflicts": ["kan niet goed plaats vinden", "andere doen vals", "iemand ziet niet", "huis eng donker"],
+        "characters": ["speelend kind", "zoeker", "verstoppers", "ouders"]
+      },
+      {
+        "id": "schommel_lopen",
+        "name": "Schommelen",
+        "settings": ["speelplaats", "tuin speelgoed", "park", "strand"],
+        "conflicts": ["schommel vol", "kan niet hoog", "anderen duwen niet", "mama zeg stop"],
+        "characters": ["schommelend kind", "vrienden", "duwer", "ander kind"]
+      },
+      {
+        "id": "glijbaan_speel",
+        "name": "Glijbaan adrenaline",
+        "settings": ["speelplaats", "waterpark", "tuin", "park"],
+        "conflicts": ["bang voor hoog", "veel kinderen", "glijbaan heet", "onderbroek omhoog"],
+        "characters": ["bang child", "vrienden", "duwer", "behulpzaam kind"]
+      },
+      {
+        "id": "katten_muizen",
+        "name": "Katten en muizen",
+        "settings": ["speelplaats", "zaal", "gym lokaal", "park"],
+        "conflicts": ["voelt zich gepest", "vals tikken", "anderen doen vals", "valt"],
+        "characters": ["kat", "muis", "vrienden", "juf"]
+      },
+      {
+        "id": "zandbak_speel",
+        "name": "Zandbak spelen",
+        "settings": ["zandbak", "strand", "speelplaats", "tuin"],
+        "conflicts": ["ander pakt zand", "zand in ogen", "zandkasteel kapot", "zand overal"],
+        "characters": ["zandbakker", "ander kind", "vrienden", "broer/zus"]
+      },
+      {
+        "id": "schip_speel",
+        "name": "Schip en piraten",
+        "settings": ["tuin", "boomhut", "zoldertrap", "stoel"],
+        "conflicts": ["schip kapot", "ander kind wil kapitein", "veel te wild", "ander voelt zich buitengesloten"],
+        "characters": ["scheepskapitein", "piraat", "vrijwilliger", "observant kind"]
+      },
+      {
+        "id": "pop_speel",
+        "name": "Poppenspelen",
+        "settings": ["huisje", "kamer", "pop tent", "poppenhoek"],
+        "conflicts": ["ouder speelt mee", "broer stoort", "pop kapot", "verveeld"],
+        "characters": ["speelend kind", "pop", "broer/zus", "ouder"]
+      },
+      {
+        "id": "blikken_gooien",
+        "name": "Blikken gooien",
+        "settings": ["tuin", "speelplaats", "park", "binnenplaats"],
+        "conflicts": ["raakt niet", "verkeerde blik", "veel te wild", "anders voelt zich buitengesloten"],
+        "characters": ["gooier kind", "vrienden", "onderzoeker", "juf"]
+      },
+      {
+        "id": "water_spelen",
+        "name": "Water spelen",
+        "settings": ["tuin", "emmer", "slang", "zwembadje"],
+        "conflicts": ["water te koud", "anderen nat spuiten", "mama ziet", "kleren nat"],
+        "characters": ["nat kind", "vrienden", "ouders", "huisdier"]
+      }
+    ],
+    "verjaardagen": [
+      {
+        "id": "verjaardag_voorbereiding",
+        "name": "Verjaardag voorbereiding",
+        "settings": ["thuis", "tuin", "zaal huren", "restaurant"],
+        "conflicts": ["vergeet voorbereiding", "te veel gedoe", "vrienden willen meer", "budget klein"],
+        "characters": ["jarig kind", "ouders", "vrienden", "familie"]
+      },
+      {
+        "id": "verjaardag_cake",
+        "name": "Verjaardagstaart",
+        "settings": ["keuken", "bakkerij", "thuis maken", "restaurant"],
+        "conflicts": ["taart kapot", "verkeerde smaak", "taart brandt", "vergeet kaarsjes"],
+        "characters": ["jarig kind", "mama", "bakker", "familie"]
+      },
+      {
+        "id": "verjaardag_cadeaus",
+        "name": "Verjaardag cadeaus",
+        "settings": ["thuis", "speelplaats", "feest", "winkel"],
+        "conflicts": ["wil iets anders", "cadeau niet wat je wou", "cadeau geen baterie", "veel duplicaten"],
+        "characters": ["jarig kind", "schenker", "ouders", "vrienden"]
+      },
+      {
+        "id": "verjaardag_feest",
+        "name": "Verjaardagsfeestje",
+        "settings": ["thuis", "tuin", "zaal", "restaurant"],
+        "conflicts": ["niet veel vrienden", "vrienden zitten saai", "voedsel niet klaar", "ander kind doet moeilijk"],
+        "characters": ["jarig kind", "vrienden", "ouders", "bezoeker"]
+      },
+      {
+        "id": "verjaardag_geen_vrienden",
+        "name": "Verjaardag geen vrienden",
+        "settings": ["thuis", "school", "eenzaam", "alleen"],
+        "conflicts": ["niemand veel vrienden", "niemand nodig uit", "triest voelen", "ander feest"],
+        "characters": ["eenzaam jarig kind", "ouders", "familie", "vrienden"]
+      },
+      {
+        "id": "verjaardag_spel",
+        "name": "Spelletjes op verjaardag",
+        "settings": ["feestzaal", "tuin", "thuis", "speelplaats"],
+        "conflicts": ["spelletje verveling", "ander kind domineert", "ander voelt zich buitengesloten", "veel huis"],
+        "characters": ["speellustig kind", "vrienden", "ouders", "animator"]
+      },
+      {
+        "id": "verjaardag_decoratie",
+        "name": "Verjaardagsdecoratie",
+        "settings": ["thuis", "tuin", "zaal", "winkel"],
+        "conflicts": ["decoratie niet mooie", "veel gedoe", "spullen kapot", "te saai"],
+        "characters": ["decoreerend kind", "mama", "papa", "vrienden"]
+      },
+      {
+        "id": "verjaardag_geen_geld",
+        "name": "Verjaardag zonder geld",
+        "settings": ["thuis", "tuin", "eenvoudig feest", "vrienden"],
+        "conflicts": ["geen geld feest", "voelt zich pover", "anderen hebben groot feest", "ouders niet betalen"],
+        "characters": ["jarig arm kind", "ouders", "vrienden", "vriendelijk kind"]
+      },
+      {
+        "id": "verjaardag_geheim",
+        "name": "Verrassingsverjaardag",
+        "settings": ["thuis", "tuin", "restaurant", "zaal"],
+        "conflicts": ["geheim onthuld", "verrassing mislukt", "vrienden laten slippen", "ander voelt zich buitengesloten"],
+        "characters": ["planners", "jarig kind", "vrienden", "familie"]
+      },
+      {
+        "id": "verjaardag_cadeau_zelf",
+        "name": "Cadeau zelf kiezen",
+        "settings": ["winkel", "computer", "ouders", "catalog"],
+        "conflicts": ["te duur", "ouders anderhalf zeggen", "wat je wil niet bestaan", "broer/zus jaloers"],
+        "characters": ["wensend kind", "ouders", "verkopers", "broer/zus"]
+      },
+      {
+        "id": "verjaardag_niet_jarig",
+        "name": "Feest van ander kind",
+        "settings": ["vriend's huis", "feest", "tuin", "zaal"],
+        "conflicts": ["voelt zich buitengesloten", "spel niet leuk", "vrienden elkaars kant", "verdriet"],
+        "characters": ["nietwillend kind", "jarig kind", "andere vrienden", "ouders"]
+      },
+      {
+        "id": "verjaardag_veel_kinderen",
+        "name": "Grote verjaardagsgroep",
+        "settings": ["zaal", "tuin groot", "restaurant", "speelplaats"],
+        "conflicts": ["veel te veel kids", "rumoerig", "verliest vriend", "voelt zich verdwaald"],
+        "characters": ["overvloeid kind", "vrienden", "ouders", "animator"]
+      }
+    ]
+  },
+  "groep5-6": {
+    "dieren": [
+      {
+        "id": "dier_eigenaarschap",
+        "name": "Leren verantwoordelijkheid voor dier",
+        "settings": ["thuis", "boerderij", "opvang", "veterinair"],
+        "conflicts": ["dier lijdt", "vergeten zorgen", "erkenning missen", "verantwoordelijkheid zwaar"],
+        "characters": ["leerling kind", "oudere leer", "volwassene", "dier"]
+      },
+      {
+        "id": "dieren_recht_beweging",
+        "name": "Dieren moeten buiten kunnen",
+        "settings": ["kleine kooi", "vogelbak", "buiten laten", "dierenrechten"],
+        "conflicts": ["kooi te klein", "ouder onverantwoordelijk", "dier ziek", "vrijheid vs veiligheid"],
+        "characters": ["vogelvoedster kind", "ouder", "dier", "dierenrechtenactivist"]
+      },
+      {
+        "id": "rescue_dier_opvang",
+        "name": "Dier redden en opvangen",
+        "settings": ["dierenasiel", "straat", "water", "ophaalplaats"],
+        "conflicts": ["dier gewond", "kan niet zelf helpen", "ouder twijfelt", "dier bang"],
+        "characters": ["medelijdend kind", "ouders", "opvanger", "dier"]
+      },
+      {
+        "id": "dieren_communicatie",
+        "name": "Lichaamstaal van dieren",
+        "settings": ["boerderij", "dierentuin", "thuis", "observatieplek"],
+        "conflicts": ["dier onbegrijpelijk", "kind misleidt", "dier boos", "vrienden zie niet"],
+        "characters": ["bioloog kind", "vrienden", "dierenkundige", "dier"]
+      },
+      {
+        "id": "wilde_dieren_bescherming",
+        "name": "Wilde dieren beschermen",
+        "settings": ["natuurgebied", "bos", "water", "nacht"],
+        "conflicts": ["habitat bedreigd", "mens doet slecht", "onmacht voelen", "lange strijd"],
+        "characters": ["activistisch kind", "milieu groep", "boosdoener", "wildekat"]
+      },
+      {
+        "id": "huisdier_gedrag_begrijpen",
+        "name": "Eigenaardig huisdiergedrag",
+        "settings": ["thuis", "soort habitat", "gedragstherapeut", "onderzoek"],
+        "conflicts": ["gedrag eng", "dier vermoord", "kind niet begrijp", "dierenarts confuus"],
+        "characters": ["puzzelend kind", "ouders", "dierengedragsdeskundige", "dier"]
+      },
+      {
+        "id": "dieren_voortplanting",
+        "name": "Jonge dieren ter wereld",
+        "settings": ["boerderij", "dierentuin", "nest", "onderwijsstudio"],
+        "conflicts": ["dier gaat bevallen", "jongen sterfelijk", "veel kinderen", "opvoeders"],
+        "characters": ["nieuwsgierig kind", "ouders", "boer", "dierenarts"]
+      },
+      {
+        "id": "dieren_wintervoorbereiding",
+        "name": "Dieren voorbereiden winter",
+        "settings": ["tuin", "vogelhuisje", "hibernatie", "voerautomaat"],
+        "conflicts": ["voer niet genoeg", "dier verdwijnt", "jong dier", "hard winter"],
+        "characters": ["zorgzaam kind", "ouders", "gids", "dier"]
+      },
+      {
+        "id": "allergisch_dier",
+        "name": "Allergie voor dier",
+        "settings": ["thuis", "allergeest", "ziekenhuis", "medicijn"],
+        "conflicts": ["wil dier hebben", "kan niet dicht", "triest", "compromis"],
+        "characters": ["droomeralig kind", "ouders", "dokter", "dierenhuis"]
+      },
+      {
+        "id": "dieren_naamgeving",
+        "name": "Dier juiste naam geven",
+        "settings": ["winkel", "opvang", "thuis", "petermerk"],
+        "conflicts": ["naam moeilijk", "groep stemt", "naam al gebruikt", "dier zelf naam"],
+        "characters": ["naambestemming kind", "vrienden", "ouders", "opvanger"]
+      },
+      {
+        "id": "dieren_conflict_kind",
+        "name": "Conflict dier en kind",
+        "settings": ["speelplaats", "thuis", "dier territorie", "training"],
+        "conflicts": ["dier agressief", "child gekrabd", "bang nu", "training"],
+        "characters": ["bang kind", "dier", "ouders", "trainerspertise"]
+      },
+      {
+        "id": "nachtdieren_avontuur",
+        "name": "Nachtdieren spotten",
+        "settings": ["nacht buiten", "bos", "oppervlakte", "telescoop"],
+        "conflicts": ["donker eng", "dieren zien niet", "geluid bang", "ouders ongerust"],
+        "characters": ["avontuurlijk kind", "vrienden", "ouders", "nachtbioloog"]
+      }
+    ],
+    "school": [
+      {
+        "id": "school_verandering",
+        "name": "Naar nieuw schoolgebouw",
+        "settings": ["oude school", "nieuwe school", "openingsdag", "verbouwing"],
+        "conflicts": ["oudegebouw verlaten", "nieuwe juf", "vrienden verspreid", "onwennigheid"],
+        "characters": ["nostalgisch kind", "vrienden", "juf oud", "juf nieuw"]
+      },
+      {
+        "id": "school_repetitie_zenuwachtig",
+        "name": "Repetitie zenuwachtig",
+        "settings": ["klaslokaal", "toetswerkplaats", "banken", "juf's bureau"],
+        "conflicts": ["onvoldoende", "medestudent jokt", "stress", "zelfvertrouwen laag"],
+        "characters": ["nerveus kind", "leraar", "slimmer kind", "ouders"]
+      },
+      {
+        "id": "school_populair_kind",
+        "name": "Populaire kind wordt erg",
+        "settings": ["school", "speelplaats", "kantoor", "groep"],
+        "conflicts": ["aandacht stijgt", "trots wordt", "vrienden sterven weg", "ontzag vervangd"],
+        "characters": ["populaire kind", "vrienden", "jaloers kind", "volwassene"]
+      },
+      {
+        "id": "school_leraar_onrecht",
+        "name": "Leraar doet onrechtvaardig",
+        "settings": ["klaslokaal", "kantoor", "juf's bureau", "gesprek"],
+        "conflicts": ["straf oneerlijk", "kind zwijgt", "ouders boos", "schuld onduidelijk"],
+        "characters": ["onrechtvaardig kind", "leraar", "ouders", "klasgenoten"]
+      },
+      {
+        "id": "school_wisselingen_vrienden",
+        "name": "Vrienden naar ander schooltje",
+        "settings": ["school", "klaslokaal", "afscheid", "nieuw"],
+        "conflicts": ["verlies", "verdriet", "bang nieuw", "vervanging"],
+        "characters": ["achterblijvend kind", "vertrekkende vrienden", "ouders", "leraar"]
+      },
+      {
+        "id": "school_groepswerk_conflict",
+        "name": "Groepwerk gaat stuk",
+        "settings": ["klaslokaal", "bibliotheek", "thuistuin", "presentatie"],
+        "conflicts": ["iemand werkt niet", "ideeën botsen", "verdeling onduidelijk", "deadline"],
+        "characters": ["leider kind", "lui lid", "andersdenkend lid", "leraar"]
+      },
+      {
+        "id": "school_plek_verandering",
+        "name": "Zitplaats verandering",
+        "settings": ["klaslokaal", "tafels", "banken", "alfabetisch"],
+        "conflicts": ["weg van vrienden", "naast lastig kind", "concentratie hard", "leraar onflexibel"],
+        "characters": ["bezorgd kind", "vrienden", "lastig kind", "leraar"]
+      },
+      {
+        "id": "school_ziek_uitval",
+        "name": "Lange ziekte school uit",
+        "settings": ["thuis", "ziekenhuisbed", "huiswerk", "terugkomst"],
+        "conflicts": ["achterloop stof", "vrienden verder", "revalidatie lang", "onzekerheid"],
+        "characters": ["ziek kind", "ouders", "leraar", "vrienden"]
+      },
+      {
+        "id": "school_bully_gang",
+        "name": "Bullygangonderwijl gang",
+        "settings": ["school", "gang", "toilet", "buiten"],
+        "conflicts": ["pest je", "durft niet zeggen", "niemand ziet", "hulp weigerd"],
+        "characters": ["bang kind", "bullygang", "vrienden", "volwassene"]
+      },
+      {
+        "id": "school_spreken_moeilijk",
+        "name": "Presenteren moeilijk",
+        "settings": ["klaslokaal", "spreekbeurt", "klas", "zenuwachtigheid"],
+        "conflicts": ["durft niet spreken", "stotteren", "vergeet alles", "klasgenoten lachen"],
+        "characters": ["verlegen kind", "klasgenoten", "leraar", "vrienden"]
+      },
+      {
+        "id": "school_cijfers_beter",
+        "name": "Sterke vak ontdekken",
+        "settings": ["klaslokaal", "testresultaten", "tabel", "feedback"],
+        "conflicts": ["sterkte onbekend", "ouders kritisch", "andere vak slecht", "twijfel"],
+        "characters": ["sterk kind", "ouders", "leraar", "vrienden"]
+      },
+      {
+        "id": "school_leren_ander",
+        "name": "Ander kind leren",
+        "settings": ["klaslokaal", "bibliotheek", "thuis vriend", "huiswerk"],
+        "conflicts": ["ander leraar niet begrijpen", "jij ook niet altijd", "onmacht voelen", "dankbaarheid"]
+      }
+    ],
+    "familie": [
+      {
+        "id": "familie_geheim",
+        "name": "Familie geheim ontdekt",
+        "settings": ["thuis", "zolder", "privé ruimte", "ouders gesprek"],
+        "conflicts": ["geheim zwaar", "wie zeggen", "schuldgevoel", "vertrouwen gescheurd"]
+      },
+      {
+        "id": "familie_scheiding",
+        "name": "Ouders gaan scheiden",
+        "settings": ["thuis", "twee huizen", "gesprek", "rechtzaal"],
+        "conflicts": ["verdriet", "onmacht", "kant kiezen", "schuldgevoel"],
+        "characters": ["verdrietig kind", "ouders", "psycholoog", "broer/zus"]
+      },
+      {
+        "id": "familie_stiefvader",
+        "name": "Stiefvader of stiefmoeder",
+        "settings": ["thuis", "vakantie", "restaurant", "nieuwe gezin"],
+        "conflicts": ["voelt zich verraden", "jaloezie", "schuldgevoel", "acceptatie"],
+        "characters": ["verdrietig kind", "mama/papa", "stiefouder", "zus/broer"]
+      },
+      {
+        "id": "familie_verhuizing",
+        "name": "Familie verhuist weg",
+        "settings": ["oude huis", "verhuiswagen", "nieuwe stad", "afscheid"],
+        "conflicts": ["vrienden verlaten", "school verandering", "onbekend", "verdriet"],
+        "characters": ["verdrietig kind", "ouders", "vrienden", "families"]
+      },
+      {
+        "id": "familie_opa_ziekte",
+        "name": "Opa of oma wordt ziek",
+        "settings": ["ziekenhuis", "opa's huis", "thuis", "last"],
+        "conflicts": ["angst verlies", "ziekte niet begrijpelijk", "bezoeken pijnlijk", "verandering"],
+        "characters": ["bezorgd kind", "zieke opa/oma", "ouders", "ziekenhuisarts"]
+      },
+      {
+        "id": "familie_erfenis_ruzie",
+        "name": "Erfenis veroorzaakt ruzie",
+        "settings": ["opa's huis", "rechtbank", "familiebijeenkomst", "advocaat"],
+        "conflicts": ["oneerlijk voelen", "familie splitst", "ouders boos", "geld probleem"],
+        "characters": ["verwarrd kind", "ouders", "tante/oom", "advocaat"]
+      },
+      {
+        "id": "familie_nichte_neef",
+        "name": "Nichte wordt populair",
+        "settings": ["feest", "school", "speelplaats", "samenkomst"],
+        "conflicts": ["jaloezie", "uitgeloten voelen", "vergelijking", "onderwaardeerd"],
+        "characters": ["jaloers kind", "populaire nichte", "ouders", "vrienden"]
+      },
+      {
+        "id": "familie_viering",
+        "name": "Grote familie viering",
+        "settings": ["opa's huis", "bruiloft", "jubileum", "thuis"],
+        "conflicts": ["veel gedoe", "verveling", "onverwacht gast", "ruzie"],
+        "characters": ["kind", "hele familie", "gast", "ouders"]
+      },
+      {
+        "id": "familie_arbeid_kind",
+        "name": "Kind moet thuis helpen",
+        "settings": ["thuis", "tuin", "huishouden", "schoonmaken"],
+        "conflicts": ["veel werk", "vrienden spelen", "vermoeiing", "oneerlijk"],
+        "characters": ["werkend kind", "luie broer/zus", "ouders", "vrienden"]
+      },
+      {
+        "id": "familie_adoptie",
+        "name": "Familie adoptie",
+        "settings": ["kantoor", "rechtbank", "thuis", "introductie"],
+        "conflicts": ["onzekerheid", "acceptatie", "schuldgevoel", "verandering"],
+        "characters": ["betrokken kind", "ouders", "nieuw gezinslid", "maatschappelijk werker"]
+      },
+      {
+        "id": "familie_homogenezin",
+        "name": "Twee moeders of twee vaders",
+        "settings": ["school", "thuis", "vriends huis", "speelplaats"],
+        "conflicts": ["ouders zeggen", "vriends reactie", "acceptatie", "normaliteit"],
+        "characters": ["child", "twee moeders/vaders", "vrienden", "klasgenoten"]
+      },
+      {
+        "id": "familie_zorgzaam",
+        "name": "Familie met zorgbehoefte",
+        "settings": ["thuis", "zorg", "school", "hulp"],
+        "conflicts": ["veel aandacht weg", "onzichtbaarheid", "schuld", "maturiteit"]
+      }
+    ],
+    "vrienden": [
+      {
+        "id": "vrienden_online_vriendschap",
+        "name": "Online vrienden kennen",
+        "settings": ["online", "game", "chat", "vergadering"],
+        "conflicts": ["persoon anders IRL", "afstand", "vertrouwen", "vervalsing"]
+      },
+      {
+        "id": "vrienden_groep_uitstoting",
+        "name": "Uit groep gegooid",
+        "settings": ["school", "speelplaats", "groepschat", "feest"],
+        "conflicts": ["eenzaamheid", "verdriet", "vraag waarom", "wraak"]
+      },
+      {
+        "id": "vrienden_slechte_invloed",
+        "name": "Vriend doet slechte dingen",
+        "settings": ["school", "buurt", "thuis", "winkel"],
+        "conflicts": ["dilemma loyaliteit", "meegesleuropheid", "schuld", "afstand"]
+      },
+      {
+        "id": "vrienden_crush_driehoek",
+        "name": "Driehoeksverhouding liefde",
+        "settings": ["school", "feest", "thuis", "klas"],
+        "conflicts": ["verdriet", "jaloezie", "vriendschap kapot", "schuld"]
+      },
+      {
+        "id": "vrienden_verraad",
+        "name": "Vriend verraadt geheim",
+        "settings": ["school", "groep", "gang", "speelplaats"],
+        "conflicts": ["vertrouwen gescheurd", "verdriet", "wraak", "vergeving"]
+      },
+      {
+        "id": "vrienden_andere_vrienden",
+        "name": "Vriend maakt andere vrienden",
+        "settings": ["school", "speelplaats", "feest", "groep"],
+        "conflicts": ["afstand", "jaloezie", "eenzaamheid", "acceptatie"]
+      },
+      {
+        "id": "vrienden_dieren",
+        "name": "Vriendschap over dieren",
+        "settings": ["dierenasiel", "boerderij", "dierentuin", "bos"],
+        "conflicts": ["liefde voor dieren", "bescherming", "conflict anderen", "acceptatie"]
+      },
+      {
+        "id": "vrienden_richtingsverschil",
+        "name": "Groei richtingsverschil",
+        "settings": ["school", "thuis", "groep", "activiteiten"],
+        "conflicts": ["interesse divergeert", "acceptatie", "eenzaamheid", "verdriet"]
+      },
+      {
+        "id": "vrienden_verschillende_cultuur",
+        "name": "Vriendschap andere cultuur",
+        "settings": ["school", "thuis", "feest", "buurt"],
+        "conflicts": ["cultuurverschil", "familie acceptatie", "misverstand", "integratie"]
+      },
+      {
+        "id": "vrienden_domme_grap",
+        "name": "Grap gaat fout",
+        "settings": ["school", "speelplaats", "feest", "online"],
+        "conflicts": ["doel geklwetst", "schuld", "ongeluk", "vergeving"]
+      },
+      {
+        "id": "vrienden_avondviering",
+        "name": "Vriendennacht avontuur",
+        "settings": ["huiskamer", "schuur", "tent", "bos"],
+        "conflicts": ["onverwachtse gebeurtenis", "angst", "sterke band", "herinnering"]
+      },
+      {
+        "id": "vrienden_competitie",
+        "name": "Competitie tussen vrienden",
+        "settings": ["sport", "school", "spel", "prestatie"],
+        "conflicts": ["rivaliteit", "jaloezie", "vriendschap test", "acceptatie"]
+      }
+    ],
+    "eten": [
+      {
+        "id": "eten_gezondheid",
+        "name": "Gezonde voeding of fastfood",
+        "settings": ["thuis", "school", "restaurant", "gezondheid"],
+        "conflicts": ["gezondheid vs lust", "mama streng", "vrienden fastfood", "zucht"]
+      },
+      {
+        "id": "eten_cultureel_voedsel",
+        "name": "Ander cultuursvoedsel",
+        "settings": ["restaurant", "vriend's huis", "thuis", "festival"],
+        "conflicts": ["onbekend eten", "smaak vreemd", "acceptatie", "cultuur"]
+      },
+      {
+        "id": "eten_allergie",
+        "name": "Voedselallergieën",
+        "settings": ["thuis", "school", "feest", "allergieman"],
+        "conflicts": ["beperking voelt", "vrienden begrijpen niet", "risico", "acceptatie"]
+      },
+      {
+        "id": "eten_lactose",
+        "name": "Lactose intolerantie",
+        "settings": ["thuis", "school", "eten moment", "medisch"],
+        "conflicts": ["zuivel verboden", "voelt zich anders", "vrienden begrijpen niet", "aanpassing"]
+      },
+      {
+        "id": "eten_vegetarisch",
+        "name": "Vegetarisch kiezen",
+        "settings": ["thuis", "restaurant", "school", "familie"],
+        "conflicts": ["anders voelen", "ouders twijfel", "vrienden lachen", "overtuiging"]
+      },
+      {
+        "id": "eten_dieet",
+        "name": "Dieet voor gewicht",
+        "settings": ["thuis", "dokter", "school", "zelf-imago"],
+        "conflicts": ["zelf-imago", "beperking", "vrienden begrijpen niet", "gezondheid"]
+      },
+      {
+        "id": "eten_culturele_viering",
+        "name": "Voedsel en cultuur viering",
+        "settings": ["thuis", "school", "festival", "familie"],
+        "conflicts": ["traditie", "acceptatie", "identiteit", "communicatie"]
+      },
+      {
+        "id": "eten_etiquette",
+        "name": "Eetgebruiken in restaurant",
+        "settings": ["restaurant", "etiquette", "vork mes", "gast"]
+      },
+      {
+        "id": "eten_koken_aanteren",
+        "name": "Leren zelf koken",
+        "settings": ["keuken", "mama", "recepten", "feest"],
+        "conflicts": ["veiligheid", "onbeholpenheid", "faalangst", "trots"]
+      },
+      {
+        "id": "eten_gezondheid_voeling",
+        "name": "Voelen zich ziek van eten",
+        "settings": ["school", "eetafval", "buik pijn", "dokter"],
+        "conflicts": ["ziekte angst", "eetangst", "lijden", "helpen"]
+      },
+      {
+        "id": "eten_vrienden_feest",
+        "name": "Vrienden feest eten",
+        "settings": ["feest", "vriends huis", "eten", "feestje"],
+        "conflicts": ["gastvrij eten", "discreet", "onbekend eten", "plezier"]
+      },
+      {
+        "id": "eten_groenten_haat",
+        "name": "Haat groente puur",
+        "settings": ["thuis", "eettafel", "school", "mama"],
+        "conflicts": ["health voeling", "mama streng", "vrienden lachen", "zucht"]
+      }
+    ],
+    "huiswerk": [
+      {
+        "id": "huiswerk_veel",
+        "name": "Te veel huiswerk",
+        "settings": ["thuis", "tafel", "school", "moeheid"],
+        "conflicts": ["overmoeiding", "vrienden spelen", "ouders eisen", "school"]
+      },
+      {
+        "id": "huiswerk_lang",
+        "name": "Huiswerk duurt erg lang",
+        "settings": ["tafel", "schrift", "tijd", "concentratie"],
+        "conflicts": ["concentratie probleem", "ADHD mogelijk", "hulp", "stress"]
+      },
+      {
+        "id": "huiswerk_vader_help",
+        "name": "Ouder helpt te veel",
+        "settings": ["thuis", "tafel", "huiswerk", "ouder"],
+        "conflicts": ["afhankelijkheid", "eigen denken", "onzekerheid", "onrust"]
+      },
+      {
+        "id": "huiswerk_toets",
+        "name": "Toets voorbereiding stress",
+        "settings": ["thuis", "tafel", "test", "zenuwen"],
+        "conflicts": ["examen angst", "falen vrees", "tekort voorbereiding", "stress"]
+      },
+      {
+        "id": "huiswerk_online",
+        "name": "Online huiswerk afleiden",
+        "settings": ["computer", "internet", "game", "huiswerk"],
+        "conflicts": ["afleiding internet", "verleidingen", "tijd", "concentratie"]
+      },
+      {
+        "id": "huiswerk_groep",
+        "name": "Groepshuiswerk online",
+        "settings": ["online", "groepschat", "video", "deadline"],
+        "conflicts": ["coördinatie", "iemand niet werken", "communicatie", "deadline"]
+      },
+      {
+        "id": "huiswerk_taal",
+        "name": "Taal huiswerk verwarring",
+        "settings": ["schrift", "taal", "grammar", "juf"],
+        "conflicts": ["taal complex", "regels verwarrend", "juf onduidelijk", "frustatie"]
+      },
+      {
+        "id": "huiswerk_creativiteit",
+        "name": "Creative huiswerk",
+        "settings": ["tafel", "kunstmaterialen", "project", "imagination"],
+        "conflicts": ["creativiteit blok", "perfectie drang", "zelf-kritiek", "resultaat"]
+      },
+      {
+        "id": "huiswerk_presentatie",
+        "name": "Huiswerk presentatie",
+        "settings": ["klaslokaal", "presentatie", "publiek", "zenuwen"],
+        "conflicts": ["spreekangst", "voorbereiding", "publiek", "critique"]
+      },
+      {
+        "id": "huiswerk_fout_juf",
+        "name": "Juf gaf verkeerd huiswerk",
+        "settings": ["klaslokaal", "juf", "huiswerk", "verwarring"],
+        "conflicts": ["verwarring", "oneerlijk voelen", "spijt", "misverstand"]
+      },
+      {
+        "id": "huiswerk_ziek_inhalen",
+        "name": "Ziek huiswerk inhalen",
+        "settings": ["thuis", "ziekenhuisbed", "huiswerk", "achterstand"],
+        "conflicts": ["achterstand", "zwakte", "druck", "fatiga"]
+      },
+      {
+        "id": "huiswerk_nachtelijk_paniek",
+        "name": "Huiswerk paniek 's ochtend",
+        "settings": ["thuis", "nacht", "ochtend", "school"],
+        "conflicts": ["uitstel", "paniek", "onvoorbereheid", "stress"]
+      }
+    ],
+    "vakantie": [
+      {
+        "id": "vakantie_languit",
+        "name": "Vakantie verveling",
+        "settings": ["thuis", "vakantieweken", "tuin", "rust"],
+        "conflicts": ["verveling", "vrienden weg", "activiteiten op", "rust"]
+      },
+      {
+        "id": "vakantie_avontuur",
+        "name": "Vakantie avontuurzoeken",
+        "settings": ["bos", "bergen", "zee", "exploratie"],
+        "conflicts": ["avontuur", "ontdekking", "veiligheid", "opwinding"]
+      },
+      {
+        "id": "vakantie_cultureel",
+        "name": "Cultureel vakantie",
+        "settings": ["museum", "monument", "stad", "gids"],
+        "conflicts": ["leren", "verveling", "cultuur", "educatie"]
+      },
+      {
+        "id": "vakantie_vrienden",
+        "name": "Vakantie scheiden vrienden",
+        "settings": ["vakantie", "vertrek", "afstand", "contact"],
+        "conflicts": ["afstand", "onrust", "kontakt", "verwachting"]
+      },
+      {
+        "id": "vakantie_thuis_arm",
+        "name": "Vakantie thuis geen geld",
+        "settings": ["thuis", "tuin", "buurt", "armoede"],
+        "conflicts": ["armoede", "zelf-imago", "vrienden weg", "acceptatie"]
+      },
+      {
+        "id": "vakantie_familie",
+        "name": "Vakantie familieconflict",
+        "settings": ["auto", "hotel", "familie", "vakantie"],
+        "conflicts": ["familieruzie", "gedwongenheid", "afleiding", "onrust"]
+      },
+      {
+        "id": "vakantie_jeugdkamp",
+        "name": "Jeugdkamp first time",
+        "settings": ["kamp", "tent", "kampvuur", "vrienden"],
+        "conflicts": ["heimwee", "groep", "onbekend", "groei"]
+      },
+      {
+        "id": "vakantie_uitwisseling",
+        "name": "Buitenlandse uitwisseling",
+        "settings": ["buitenland", "gastgezin", "school", "taal"],
+        "conflicts": ["taal barrière", "angst", "groei", "ontmoeting"]
+      },
+      {
+        "id": "vakantie_werkend",
+        "name": "Vakantie werken tiener",
+        "settings": ["werk", "winkel", "evenement", "baantje"],
+        "conflicts": ["volwassenheid", "verantwoordelijkheid", "geld", "plicht"]
+      },
+      {
+        "id": "vakantie_ouders_apart",
+        "name": "Gescheiden ouders vakantie",
+        "settings": ["twee locaties", "mama", "papa", "keuze"],
+        "conflicts": ["keuze", "loyaliteit", "verdriet", "splitsing"]
+      },
+      {
+        "id": "vakantie_geheim",
+        "name": "Vakantie geheim avontuur",
+        "settings": ["vakantiebestemming", "avontuur", "vrienden", "toezicht"],
+        "conflicts": ["inbreuk regels", "spanning", "veronderstel", "gewaarschuwd"]
+      },
+      {
+        "id": "vakantie_leerzaam",
+        "name": "Vakantie leert iets",
+        "settings": ["vakantiebestemming", "ervaring", "groei", "introspectie"],
+        "conflicts": ["zelfontdekking", "groei", "acceptatie", "leven"]
+      }
+    ],
+    "weer": [
+      {
+        "id": "weer_allergie",
+        "name": "Pollen allergie",
+        "settings": ["lente", "buiten", "neus", "medicijn"],
+        "conflicts": ["allergie", "buiten spelen", "medische", "acceptatie"]
+      },
+      {
+        "id": "weer_zon_warm_ziek",
+        "name": "Te heet ziek",
+        "settings": ["zomer", "zon", "lichaamstemperatuur", "hospitaal"],
+        "conflicts": ["hitte ziekte", "voeling", "angst", "zorg"]
+      },
+      {
+        "id": "weer_onweer_trauma",
+        "name": "Onweer trauma",
+        "settings": ["stormbui", "bliksem", "angst", "veiligheid"],
+        "conflicts": ["fobia", "angst", "rationale", "hulp"]
+      },
+      {
+        "id": "weer_sneeuw_school",
+        "name": "Sneeuw schoolsluitingsdrama",
+        "settings": ["sneeuw", "school dicht", "vrij", "telegramme"],
+        "conflicts": ["chaos", "ouders werken", "zorg", "vrolijkheid"]
+      },
+      {
+        "id": "weer_moesson",
+        "name": "Moesson seizoen",
+        "settings": ["moesson", "regen", "modder", "water"],
+        "conflicts": ["water teveel", "regen vast", "activiteiten annulering", "verdriet"]
+      },
+      {
+        "id": "weer_droogte",
+        "name": "Droogte tuin",
+        "settings": ["droogte", "tuin", "verdroging", "voelen"],
+        "conflicts": ["voeling verantwoordelijkheid", "voeling impotent", "natuur", "angst"]
+      },
+      {
+        "id": "weer_kleurrijkheid",
+        "name": "Herfst pracht",
+        "settings": ["herfst", "bladeren", "kleuren", "natuur"],
+        "conflicts": ["schoonheid waarnemen", "herfst droerigheid", "groei", "cyclus"]
+      },
+      {
+        "id": "weer_wintersport",
+        "name": "Wintersport skill",
+        "settings": ["winter", "ski", "snowboard", "berg"],
+        "conflicts": ["sport", "risico", "falen", "meesterschap"]
+      },
+      {
+        "id": "weer_lente_voeling",
+        "name": "Lente hoop",
+        "settings": ["lente", "groei", "bloemen", "vernieuwing"],
+        "conflicts": ["optimisme", "groei", "verandering", "leven"]
+      },
+      {
+        "id": "weer_regenjas_style",
+        "name": "Regenweer stijl",
+        "settings": ["regen", "regenjas", "latten", "modder"],
+        "conflicts": ["mode", "functionaliteit", "zelf-imago", "voeling"]
+      },
+      {
+        "id": "weer_buiten_bloem",
+        "name": "Buiten bloemen",
+        "settings": ["buiten", "bloemen", "natuur", "seizoen"],
+        "conflicts": ["natuur schoonheid", "voeling", "groei", "observatie"]
+      },
+      {
+        "id": "weer_wind_power",
+        "name": "Wind energisering",
+        "settings": ["winderig", "vlieger", "zee", "macht"],
+        "conflicts": ["natuur kracht", "adrenaline", "angst", "macht voelen"]
+      }
+    ]
+  },
+  "groep7-8": {
+    "dieren": [
+      {
+        "id": "ethiek_dierprueven",
+        "name": "Ethische dierprueven",
+        "settings": ["laboratorium", "ethiek commissie", "activisten", "wetenschap"],
+        "conflicts": ["medisch vooruitgang vs dierenleed", "moraal", "sciëntie", "standpunt"]
+      },
+      {
+        "id": "dieren_sport",
+        "name": "Dieren in sport",
+        "settings": ["circus", "stierengevecht", "paardenracen", "ethiek"],
+        "conflicts": ["exploitatie", "welzijn", "cultuur", "moderne ethiek"]
+      },
+      {
+        "id": "dieren_extinctie",
+        "name": "Bedreigde diersoort",
+        "settings": ["savanne", "jungle", "lab", "natuurreservaat"],
+        "conflicts": ["habitat verlies", "jacht", "handel", "inzet"]
+      },
+      {
+        "id": "dieren_domesticatie",
+        "name": "Domesticatie gevolgen",
+        "settings": ["boerderij", "fokkerij", "genetica", "geschiedenis"],
+        "conflicts": ["natuurlijk vs kunstmatig", "voedselzekerheid", "ethiek", "geschiedenis"]
+      },
+      {
+        "id": "dieren_communicatie_taal",
+        "name": "Taal en dierencommunicatie",
+        "settings": ["bioloog", "onderzoek", "cognitivisten", "definitie"],
+        "conflicts": ["wat is taal", "intelligentie", "ethische implicaties", "antropocentrische bias"]
+      },
+      {
+        "id": "dieren_rechten_activisme",
+        "name": "Dierenrechten activisme",
+        "settings": ["protest", "slachthuis", "activisten", "recht"],
+        "conflicts": ["gerechtigheid vs praktische", "moraal", "geweld", "inzet"]
+      },
+      {
+        "id": "dieren_fokkerij_rotatie",
+        "name": "Fokkerij rotatie genetica",
+        "settings": ["fokkerij", "lab", "genetisch", "diergezondheid"],
+        "conflicts": ["genetische diversiteit", "raszuiverheid", "gezondheid", "ethiek"]
+      },
+      {
+        "id": "dieren_monoculture_risico",
+        "name": "Monocultuur risicovolle dieren",
+        "settings": ["boerderij", "eco systeem", "risico", "biodiversiteit"],
+        "conflicts": ["economie", "gezondheid", "risico", "duurzaamheid"]
+      },
+      {
+        "id": "dieren_zeepark",
+        "name": "Zeepark versus oceaan",
+        "settings": ["zeepark", "oceaan", "onderzoek", "natuur"],
+        "conflicts": ["gevangenis", "onderzoek", "educatie", "ethiek"]
+      },
+      {
+        "id": "dieren_jachttraditie",
+        "name": "Jacht traditie versus ethiek",
+        "settings": ["jacht", "voedsel", "cultuur", "moderne voeling"],
+        "conflicts": ["traditie versus moderniteit", "dierenleed", "voedsel", "cultuur"]
+      },
+      {
+        "id": "dieren_insectencide",
+        "name": "Insectenbestrijding",
+        "settings": ["landbouw", "insecticide", "ecosystem", "landbouw"],
+        "conflicts": ["voedselproductie", "ecosysteem", "gezondheid", "oplossingen"]
+      },
+      {
+        "id": "dieren_dierproeven_alternatieven",
+        "name": "Alternatieven dierproeven",
+        "settings": ["lab", "computersimulatie", "ethiek", "sciëntie"],
+        "conflicts": ["medisch vooruitgang", "ethiek", "kostenbaten", "validiteit"]
+      }
+    ],
+    "school": [
+      {
+        "id": "school_identiteit",
+        "name": "School identiteit zoeken",
+        "settings": ["school", "cliques", "zelf", "puberteitsleeftijd"],
+        "conflicts": ["wie ben ik", "groepsdruk", "zelfstand", "acceptatie"]
+      },
+      {
+        "id": "school_discriminatie",
+        "name": "School discriminatie",
+        "settings": ["klaslokaal", "speelplaats", "leraar", "discriminatie"],
+        "conflicts": ["rassisme", "sexisme", "abilisme", "moeilijkheid"]
+      },
+      {
+        "id": "school_seksueel_grensoverschrijding",
+        "name": "Seksueel grensoverschrijding",
+        "settings": ["school", "gang", "toilet", "grensoverschrijding"],
+        "conflicts": ["consent", "trauma", "spreken", "hulp"]
+      },
+      {
+        "id": "school_mentale_gezondheid",
+        "name": "Mentale gezondheid panic",
+        "settings": ["school", "ziekenhuisplek", "angststoornis", "therapie"],
+        "conflicts": ["mentale gezondheid stigma", "hulp zoeken", "normalisering", "zorg"]
+      },
+      {
+        "id": "school_druk_prestatie",
+        "name": "Prestatiedruk raken",
+        "settings": ["school", "ouders", "competitie", "rankings"],
+        "conflicts": ["zelfwaarde", "falen angst", "gezondheid", "doel"]
+      },
+      {
+        "id": "school_examen",
+        "name": "Staatsexamen stress",
+        "settings": ["school", "examenkamer", "test", "toekomst"],
+        "conflicts": ["toekomstige keuze", "stress", "waarschijnlijkheid", "zelfvertrouwen"]
+      },
+      {
+        "id": "school_seksualiteit",
+        "name": "Seksualiteit ontdekking",
+        "settings": ["school", "vrienden", "relatie", "seks educatie"],
+        "conflicts": ["identiteit", "taboe", "peerdruk", "lichaamsbewijsvoering"]
+      },
+      {
+        "id": "school_roddel",
+        "name": "Roddel ronde online",
+        "settings": ["school", "socialmedia", "online", "reputatie"],
+        "conflicts": ["roddel", "cyberbully", "reputatie", "cyberraum"]
+      },
+      {
+        "id": "school_zelfschadiging",
+        "name": "Zelfschadiging gedrag",
+        "settings": ["school", "badkamer", "geheim", "hulp"],
+        "conflicts": ["pijn", "copingmechanisme", "trauma", "hulp"]
+      },
+      {
+        "id": "school_drugs_alcohol",
+        "name": "Drugs en alcohol aanbod",
+        "settings": ["feest", "vrienden", "aanbod", "keuze"],
+        "conflicts": ["peer pressure", "gezondheid", "legaal", "verslaving"]
+      },
+      {
+        "id": "school_verandering_puberteit",
+        "name": "Puberteit transformatie",
+        "settings": ["school", "lichaam", "relaties", "identiteit"],
+        "conflicts": ["lichaamsvreemding", "seksueel voelen", "identiteit", "acceptatie"]
+      },
+      {
+        "id": "school_universiteitskeuze",
+        "name": "Universiteitskeuze",
+        "settings": ["school", "advies bureau", "universiteit", "toekomst"],
+        "conflicts": ["toekomst", "keuze", "oudersverwachting", "zelfinteresse"]
+      }
+    ],
+    "familie": [
+      {
+        "id": "familie_volwassen_conflict",
+        "name": "Volwassen conflict ouders",
+        "settings": ["thuis", "ouders", "ruzie", "kind observant"],
+        "conflicts": ["kind in midden", "loyaliteit split", "volwassenheid inzicht", "machtelos"]
+      },
+      {
+        "id": "familie_geloof",
+        "name": "Geloof verschillen",
+        "settings": ["thuis", "religie", "familie", "waarden"],
+        "conflicts": ["waarden differentieel", "identiteit", "acceptatie", "rebelle"]
+      },
+      {
+        "id": "familie_ouder_ziek_ernstig",
+        "name": "Ouder kanker of ernstige ziekte",
+        "settings": ["ziekenhuis", "thuis", "zorg", "emotie"],
+        "conflicts": ["dood voeling", "voeling verantwoordelijkheid", "zorg", "voelen"]
+      },
+      {
+        "id": "familie_financieel",
+        "name": "Familie financieel probleem",
+        "settings": ["thuis", "bespreking", "stress", "armoede"],
+        "conflicts": ["schuld", "armoede", "zelf-imago", "voeling machtelos"]
+      },
+      {
+        "id": "familie_homoseksualiteit",
+        "name": "Familielid homoseksualiteit",
+        "settings": ["thuis", "familie", "acceptatie", "communicatie"],
+        "conflicts": ["acceptatie", "cultuur", "waarden", "familieband"]
+      },
+      {
+        "id": "familie_middelbare_scholier",
+        "name": "Volwassen wordend puber",
+        "settings": ["thuis", "onafhankelijkheid", "regels", "conflict"],
+        "conflicts": ["onafhankelijkheid", "grenzen", "vertrouwen", "communicatie"]
+      },
+      {
+        "id": "familie_adoptie_open",
+        "name": "Adoptie origine zoeken",
+        "settings": ["thuis", "famille", "adoptie bureau", "zoeken"],
+        "conflicts": ["identiteit", "oorsprong", "loyaliteit", "voeling"]
+      },
+      {
+        "id": "familie_geweld_huiselijk",
+        "name": "Huiselijk geweld",
+        "settings": ["thuis", "geweld", "politie", "veiligheid"],
+        "conflicts": ["veiligheid", "loyaliteit", "voelen schaamte", "hulp"],
+        "characters": ["bevreesd kind", "gewelddadige ouder", "andere ouder", "hulpdienst"]
+      },
+      {
+        "id": "familie_ouder_uitgaan",
+        "name": "Ouder nieuw relatie",
+        "settings": ["thuis", "nieuwe partner", "acceptatie", "verdriet"],
+        "conflicts": ["verdriet", "jalozie", "acceptatie", "loyaliteit"]
+      },
+      {
+        "id": "familie_zus_groeien",
+        "name": "Zus/broer scheiden levens",
+        "settings": ["thuis", "school", "vrienden", "groei"],
+        "conflicts": ["afstand", "acceptatie", "onafhankelijkheid", "familieband"]
+      },
+      {
+        "id": "familie_ouder_werkverslaafd",
+        "name": "Ouder werkverslaafd",
+        "settings": ["thuis", "werk", "afstandelijk", "voeling"],
+        "conflicts": ["voeling verlaten", "afhankelijkheid", "begrip", "voeling"]
+      },
+      {
+        "id": "familie_erfenis_trauma",
+        "name": "Familie erfenis trauma",
+        "settings": ["thuis", "familie", "geschiedenis", "voeling"],
+        "conflicts": ["erfenis pijn", "cyclus breken", "voeling identiteit", "acceptatie"]
+      }
+    ],
+    "vrienden": [
+      {
+        "id": "vrienden_relatie",
+        "name": "Eerste echte relatie",
+        "settings": ["school", "feest", "relatie", "vrienden"],
+        "conflicts": ["seksuele voeling", "ervaring voelen", "zelfvertrouwen", "voeling"]
+      },
+      {
+        "id": "vrienden_breakup",
+        "name": "Hartzeer en breuk",
+        "settings": ["school", "thuis", "verdriet", "toekomst"],
+        "conflicts": ["verdriet", "veronderstel", "identiteit", "voeling"]
+      },
+      {
+        "id": "vrienden_jealoersheid",
+        "name": "Jaloersheid vriendenpaar",
+        "settings": ["school", "vrienden", "relatie", "conflict"],
+        "conflicts": ["jaloers", "loyaliteit", "verlies", "voeling"]
+      },
+      {
+        "id": "vrienden_groepsdynamiek",
+        "name": "Groepsdynamiek dominant",
+        "settings": ["school", "vrienden", "macht", "conflict"],
+        "conflicts": ["macht", "dominantie", "acceptatie", "zelfstand"]
+      },
+      {
+        "id": "vrienden_social_media",
+        "name": "Social media face-off",
+        "settings": ["socialmedia", "online", "reputatie", "vrienden"],
+        "conflicts": ["online vs offline", "autenticiteit", "curatiedruk", "voeling"]
+      },
+      {
+        "id": "vrienden_groepskwestie",
+        "name": "Groepsidentiteit crisis",
+        "settings": ["school", "vrienden", "identiteit", "conflict"],
+        "conflicts": ["identiteit", "normen", "onafhankelijkheid", "acceptatie"]
+      },
+      {
+        "id": "vrienden_gemeen",
+        "name": "Vrienden gemeen tegen elkaar",
+        "settings": ["school", "vrienden", "gemeen", "conflict"],
+        "conflicts": ["gemeen", "schuldgevoel", "voeling", "vergeving"]
+      },
+      {
+        "id": "vrienden_seks",
+        "name": "Seksualiteit in vriendschap",
+        "settings": ["school", "vrienden", "seksualiteit", "taboe"],
+        "conflicts": ["taboe", "voeling", "communicatie", "acceptatie"]
+      },
+      {
+        "id": "vrienden_drug_alcohol",
+        "name": "Drugs in vriendenprijzen",
+        "settings": ["feest", "vrienden", "aanbod", "keuze"],
+        "conflicts": ["peerdruk", "gezondheid", "voeling", "loyaliteit"]
+      },
+      {
+        "id": "vrienden_sekste",
+        "name": "Vrienden ander geslacht voeling",
+        "settings": ["school", "vrienden", "geslacht voeling", "romance"],
+        "conflicts": ["voeling", "relatie grens", "communicatie", "voeling"]
+      },
+      {
+        "id": "vrienden_online_alleen",
+        "name": "Online vrienden vorming",
+        "settings": ["online", "game", "socialmedia", "vriendschap"],
+        "conflicts": ["isolatie", "diepte vriendschap", "vertrouwen", "realiteit"]
+      },
+      {
+        "id": "vrienden_toekomst_split",
+        "name": "Vrienden verschillende universiteiten",
+        "settings": ["school", "universiteit", "afstand", "toekomst"],
+        "conflicts": ["afstand", "loyaliteit", "groei", "voeling"]
+      }
+    ],
+    "eten": [
+      {
+        "id": "eten_lichaamscult",
+        "name": "Lichaamscultuur eetgedrag",
+        "settings": ["school", "socialmedia", "lichaam imago", "eten"],
+        "conflicts": ["lichaamsvreemding", "eetgedrag", "media invloed", "gezondheid"]
+      },
+      {
+        "id": "eten_eetstoornis",
+        "name": "Eetstoornis verschijning",
+        "settings": ["thuis", "school", "dokter", "thera"],
+        "conflicts": ["lichaamsvreemding", "controle behoefte", "gezondheid", "hulp"]
+      },
+      {
+        "id": "eten_vegetarisme_extremisme",
+        "name": "Vegetarisme extreme",
+        "settings": ["thuis", "vrienden", "familie", "activisme"],
+        "conflicts": ["activisme", "moraal", "extremisme", "voeling"]
+      },
+      {
+        "id": "eten_voedselsoevereiniteit",
+        "name": "Voedselsoevereiniteit",
+        "settings": ["boerderij", "landbouw", "voedsel", "globaal"],
+        "conflicts": ["voedselzekerheid", "traditie", "moderno", "voeling"]
+      },
+      {
+        "id": "eten_voedseladditie",
+        "name": "Voedseladditieën en gezondheid",
+        "settings": ["winkel", "voedsel", "gezondheid", "onderzoek"],
+        "conflicts": ["gezondheid", "additie", "industrieel", "keus"]
+      },
+      {
+        "id": "eten_fairtrade",
+        "name": "Fair trade midden koppelingen",
+        "settings": ["winkel", "kafé", "globaal", "ethiek"],
+        "conflicts": ["ethiek", "voedsel herkomst", "eerlijkheid", "voeling"]
+      },
+      {
+        "id": "eten_culturele_voeding",
+        "name": "Voeding culturele identiteit",
+        "settings": ["thuis", "vrienden", "cultuur", "voeding"],
+        "conflicts": ["identiteit", "acceptatie", "integratie", "traditie"]
+      },
+      {
+        "id": "eten_halaal_kosjer",
+        "name": "Religieus voedsel voorkeur",
+        "settings": ["school", "cafeteria", "religieus", "voeding"],
+        "conflicts": ["religieus", "schuld", "acceptatie", "identiteit"]
+      },
+      {
+        "id": "eten_vegan_purist",
+        "name": "Vegan ethische purist",
+        "settings": ["thuis", "vrienden", "ethiek", "voeding"],
+        "conflicts": ["ethiek", "praktijk", "vrienden", "zelfdiscipline"]
+      },
+      {
+        "id": "eten_giftige_water",
+        "name": "Voedsel giftigheid",
+        "settings": ["winkel", "gezondheid", "onderzoek", "angst"],
+        "conflicts": ["angst", "gezondheid", "informatie", "vertrouwen"]
+      },
+      {
+        "id": "eten_industrie_voeding",
+        "name": "Voeding industriële impact",
+        "settings": ["boerderij", "fabriek", "milieu", "voeding"],
+        "conflicts": ["milieu", "gezondheid", "praktijk", "verandering"]
+      },
+      {
+        "id": "eten_restaurant_ervaring",
+        "name": "Restaurant sociale ervaring",
+        "settings": ["restaurant", "vrienden", "etiquette", "ervaring"],
+        "conflicts": ["sociale voeling", "etiquette", "ervaring", "voeling"]
+      }
+    ],
+    "huiswerk": [
+      {
+        "id": "huiswerk_identiteit_maken",
+        "name": "Huiswerk zorgt stress identiteit",
+        "settings": ["thuis", "school", "stress", "zelfwaarde"],
+        "conflicts": ["identiteit", "zelfwaarde", "stress", "voeling"]
+      },
+      {
+        "id": "huiswerk_middelbare",
+        "name": "Middelbare huiswerk hoeveelheid",
+        "settings": ["school", "thuis", "stress", "tijd management"],
+        "conflicts": ["hoeveelheid", "tijd", "gezondheid", "prioriteit"]
+      },
+      {
+        "id": "huiswerk_proctored",
+        "name": "Surveillance huiswerk",
+        "settings": ["thuis", "camera", "toezicht", "privacy"],
+        "conflicts": ["privacy", "vertrouwen", "autonomie", "voeling"]
+      },
+      {
+        "id": "huiswerk_plagiarisme",
+        "name": "Plagiaat temptatie",
+        "settings": ["thuis", "internet", "voorgekookt", "ethiek"],
+        "conflicts": ["gemak", "integriteit", "schuld", "voeling"]
+      },
+      {
+        "id": "huiswerk_ai_tools",
+        "name": "AI tools huiswerk",
+        "settings": ["thuis", "chatbot", "ai", "ethiek"],
+        "conflicts": ["gemak", "lerning voeling", "integriteit", "toekomst"]
+      },
+      {
+        "id": "huiswerk_evaluatie",
+        "name": "Huiswerk evaluatie feedback",
+        "settings": ["school", "leraar", "feedback", "verbetering"],
+        "conflicts": ["kritiek", "zelfwaarde", "motivatie", "groei"]
+      },
+      {
+        "id": "huiswerk_taalleertijd",
+        "name": "Tweede taal huiswerk",
+        "settings": ["school", "huiswerk", "taal", "moeilijkheid"],
+        "conflicts": ["taal", "zelfvertrouwen", "voeling", "groei"]
+      },
+      {
+        "id": "huiswerk_onderwijstype",
+        "name": "Huiswerk leertype mismatch",
+        "settings": ["school", "huiswerk", "leren", "style"],
+        "conflicts": ["leertype", "frustatie", "motivatie", "succes"]
+      },
+      {
+        "id": "huiswerk_handen_ervaring",
+        "name": "Praktische project huiswerk",
+        "settings": ["thuis", "project", "handen", "ervaring"],
+        "conflicts": ["hands-on", "creativiteit", "voeling", "succes"]
+      },
+      {
+        "id": "huiswerk_groep_online",
+        "name": "Groep huiswerk online",
+        "settings": ["online", "groep", "collaboratie", "deadline"],
+        "conflicts": ["coördinatie", "timezone", "communicatie", "deadline"]
+      },
+      {
+        "id": "huiswerk_reflectie",
+        "name": "Reflectief leren",
+        "settings": ["school", "huiswerk", "reflectie", "leren"],
+        "conflicts": ["leren", "inzicht", "groei", "voeling"]
+      },
+      {
+        "id": "huiswerk_transfereren",
+        "name": "Transfer van kennis",
+        "settings": ["school", "huiswerk", "transfer", "praktijk"],
+        "conflicts": ["praktische", "theorie", "transfer", "relevantie"]
+      }
+    ],
+    "vakantie": [
+      {
+        "id": "vakantie_zelf_organiseren",
+        "name": "Vakantie zelf organiseren",
+        "settings": ["vakantie planning", "boeken", "autonomie", "verantwoordelijkheid"],
+        "conflicts": ["autonomie", "verantwoordelijkheid", "foutloos", "voeling"]
+      },
+      {
+        "id": "vakantie_solo_reizen",
+        "name": "Solo reisavontuur",
+        "settings": ["vakantie", "solo", "avontuur", "wereld"],
+        "conflicts": ["onafhankelijkheid", "risico", "groei", "voeling"]
+      },
+      {
+        "id": "vakantie_backpacking",
+        "name": "Backpacking trip vrienden",
+        "settings": ["backpacking", "vrienden", "avontuur", "wereld"],
+        "conflicts": ["groepsdynamiek", "geld", "voeling", "ervaring"]
+      },
+      {
+        "id": "vakantie_werk",
+        "name": "Vakantie werken abroad",
+        "settings": ["buitenland", "werk", "vakantie", "inkomsten"],
+        "conflicts": ["volwassenheid", "ervaring", "geld", "taalbarrière"]
+      },
+      {
+        "id": "vakantie_duurzaam",
+        "name": "Duurzame vakantie",
+        "settings": ["eco-vakantie", "natuur", "duurzaam", "ethiek"],
+        "conflicts": ["ethiek", "praktijk", "voeling", "impact"]
+      },
+      {
+        "id": "vakantie_cultureel_diepgang",
+        "name": "Culturele immersie",
+        "settings": ["vakantie", "cultuur", "taal", "lokaal"],
+        "conflicts": ["culturele gevoeligheid", "taal", "voeling", "leren"]
+      },
+      {
+        "id": "vakantie_ouders_apart",
+        "name": "Vakantie ouders split",
+        "settings": ["vakantie", "twee ouders", "keuze", "loyaliteit"],
+        "conflicts": ["loyaliteit", "voeling", "keuze", "voeling"]
+      },
+      {
+        "id": "vakantie_freiwillig",
+        "name": "Vrijwilliger vakantie",
+        "settings": ["vakantie", "vrijwilligerswerk", "hulp", "wereld"],
+        "conflicts": ["hulp", "ethiek", "experience", "leren"]
+      },
+      {
+        "id": "vakantie_stagediensten",
+        "name": "Stage vakantie",
+        "settings": ["vakantie", "stage", "werk", "ervaring"],
+        "conflicts": ["carrière", "voeling", "ervaring", "toekomst"]
+      },
+      {
+        "id": "vakantie_festival",
+        "name": "Festival vakantie groep",
+        "settings": ["festival", "vrienden", "muziek", "ervaring"],
+        "conflicts": ["groepsdynamiek", "veiligheid", "voeling", "geheugen"]
+      },
+      {
+        "id": "vakantie_ontmoeting",
+        "name": "Vakantie verliefdheid",
+        "settings": ["vakantie", "romance", "meeting", "afstand"],
+        "conflicts": ["vakantie romance", "afstand", "realiteit", "voeling"]
+      },
+      {
+        "id": "vakantie_terugging",
+        "name": "Vakantie heimwee terugkeer",
+        "settings": ["vakantie", "thuiskomst", "groei", "verandering"],
+        "conflicts": ["verandering", "groei", "aanpassing", "voeling"]
+      }
+    ],
+    "weer": [
+      {
+        "id": "weer_klimaat_angst",
+        "name": "Klimaatverandering anxiety",
+        "settings": ["klimaat", "nieuws", "toekomst", "voeling"],
+        "conflicts": ["angst", "voeling machtelos", "toekomst", "actie"]
+      },
+      {
+        "id": "weer_klimaat_activisme",
+        "name": "Klimaat activist",
+        "settings": ["protest", "klimaat", "activisme", "actie"],
+        "conflicts": ["activisme", "ethiek", "methode", "effektiviteit"]
+      },
+      {
+        "id": "weer_natuurramp",
+        "name": "Natuurramp trauma",
+        "settings": ["natuurramp", "evacuatie", "verlies", "trauma"],
+        "conflicts": ["trauma", "verlies", "PTSD", "herstel"]
+      },
+      {
+        "id": "weer_seizoen_voeling",
+        "name": "Seizoenaffectieve stoornis",
+        "settings": ["winter", "depressie", "seizoen", "gezondheid"],
+        "conflicts": ["depressie", "seizoen", "gezondheid", "hulp"]
+      },
+      {
+        "id": "weer_extreme_weerapparaat",
+        "name": "Extreme weer preparatie",
+        "settings": ["extreme weer", "preparatie", "veiligheid", "anticipatie"],
+        "conflicts": ["preparatie", "paranoïa", "realisme", "angst"]
+      },
+      {
+        "id": "weer_outdoor_voeling",
+        "name": "Outdoor voeling natuur",
+        "settings": ["natuur", "outdoor", "activiteit", "voeling"],
+        "conflicts": ["voeling natuur", "gezondheid", "voeling", "leren"]
+      },
+      {
+        "id": "weer_sport_seizoen",
+        "name": "Sport seizoen voorbereiding",
+        "settings": ["sport", "seizoen", "training", "prestatie"],
+        "conflicts": ["trainingsintensiteit", "gezondheid", "blessure", "mentaal"]
+      },
+      {
+        "id": "weer_fotografie",
+        "name": "Weer fotografie passie",
+        "settings": ["fotografie", "weer", "natuur", "kunst"],
+        "conflicts": ["voeling natuur", "kunst", "creatie", "voeling"]
+      },
+      {
+        "id": "weer_landschap_verandering",
+        "name": "Landschap verandering observatie",
+        "settings": ["natuurgebied", "verandering", "erosie", "observatie"],
+        "conflicts": ["voeling machtelos", "observatie", "voeling verlies", "inzicht"]
+      },
+      {
+        "id": "weer_vogelmigratie",
+        "name": "Vogel migratie",
+        "settings": ["vogelmigratie", "seizoen", "natuur", "observatie"],
+        "conflicts": ["voeling natuur", "cyclus", "voeling", "voelen"]
+      },
+      {
+        "id": "weer_nacht_hemel",
+        "name": "Nacht hemel sterren",
+        "settings": ["nacht", "sterren", "universum", "reflectie"],
+        "conflicts": ["grootte universum", "voeling klein", "voeling", "betekenis"]
+      },
+      {
+        "id": "weer_wetenschap_voeling",
+        "name": "Weer wetenschappelijk",
+        "settings": ["weer", "wetenschap", "voorspelling", "onderzoek"],
+        "conflicts": ["wetenschap", "voeling wonder", "kennis", "voeling"]
+      }
+    ]
+  }
+}

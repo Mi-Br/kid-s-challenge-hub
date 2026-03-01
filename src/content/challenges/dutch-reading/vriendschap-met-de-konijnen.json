@@ -1,0 +1,124 @@
+{
+  "id": "vriendschap-met-de-konijnen",
+  "title": "Vriendschap met de Konijnen",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Lisa woont naast de boerderij van meneer De Jong. Achter het hek zijn twee kleine konijnen. Ze hebben zachte grijze vacht en lange oren. Lisa kijkt graag naar de dieren.\n\nOp maandag gaat Lisa naar de konijnen. Ze heeft wortels uit de keuken meegenomen. Voorzichtig steekt ze haar hand door het hek. De konijnen komen dichterbij omdat ze honger hebben. Ze eten de wortels op. Lisa lacht want ze vindt het leuk.\n\nOp dinsdag doet Lisa hetzelfde. Ze geeft de konijnen weer eten. Maar dan gebeurt er iets vervelends. Lisa laat per ongeluk het hek open. De twee konijnen lopen weg! Ze rennen naar de straat.\n\nLisa schrikt heel erg. Ze denkt: \"Oh nee, wat heb ik gedaan?\" Ze rent achter de dieren aan. Gelukkig kan ze de konijnen pakken voordat er auto's komen. Ze brengt ze terug naar hun hok.\n\nMeneer De Jong komt naar buiten omdat hij lawaai hoort. Hij ziet Lisa met de konijnen. \"Wat is er gebeurd?\" vraagt hij. Lisa wordt rood. Ze vertelt de waarheid over het open hek.\n\n\"Het spijt me heel erg,\" zegt Lisa. \"Ik wilde de konijnen alleen maar eten geven omdat ik ze aardig vind. Mag ik helpen om het goed te maken?\" Meneer De Jong denkt even na. Dan glimlacht hij.\n\n\"Je bent eerlijk geweest,\" zegt hij. \"Dat vind ik belangrijk. Als je wilt, mag je elke dag de konijnen voeren. Maar dan leer ik je eerst hoe je het hek goed dicht doet.\" Lisa knikt blij. Nu heeft ze echte vrienden gevonden.",
+  "questions": [
+    {
+      "question": "Welke kleur vacht hebben de konijnen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "grijs",
+        "grijze"
+      ],
+      "hint": "Kijk naar de eerste alinea waar de konijnen worden beschreven."
+    },
+    {
+      "question": "Welke kleur vacht hebben de konijnen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "grijs",
+        "grijze"
+      ],
+      "hint": "Kijk naar de eerste alinea waar de konijnen worden beschreven."
+    },
+    {
+      "question": "Waarom komen de konijnen dichterbij als Lisa haar hand uitsteekt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "honger",
+            "eten",
+            "voedsel",
+            "wortels"
+          ],
+          [
+            "willen",
+            "wilde",
+            "hebben",
+            "hadden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat dieren nodig hebben om te leven."
+    },
+    {
+      "question": "Vind jij dat Lisa het juiste deed door de waarheid te vertellen? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "eerlijk",
+            "braaf"
+          ],
+          [
+            "waarheid",
+            "vertellen",
+            "zeggen",
+            "eerlijk",
+            "opbiechten"
+          ],
+          [
+            "fout",
+            "foutje",
+            "vergissing",
+            "ongeluk",
+            "per ongeluk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurt als je eerlijk bent."
+    },
+    {
+      "question": "Wat betekent het woord 'voorzichtig' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa doet iets langzaam en rustig met haar hand.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "langzaam"
+          ],
+          [
+            "rustig"
+          ],
+          [
+            "niet snel"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/vriendschap-met-de-konijnen/image-1.png",
+      "alt": "Lisa geeft wortels aan twee grijze konijnen door een hek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/vriendschap-met-de-konijnen/image-2.png",
+      "alt": "Lisa rent achter twee konijnen aan die naar de straat lopen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl feeding carrots to two grey rabbits through a farm fence, children's book illustration style, soft watercolor technique",
+    "A worried young girl chasing two grey rabbits that are running toward a street, children's book illustration style, dynamic scene"
+  ]
+}

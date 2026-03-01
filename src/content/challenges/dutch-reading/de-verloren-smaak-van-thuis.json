@@ -1,0 +1,138 @@
+{
+  "id": "de-verloren-smaak-van-thuis",
+  "title": "De Verloren Smaak van Thuis",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wereldkeuken",
+  "text": "Amara staarde naar het menu van het nieuwe 'authentieke' Ethiopische restaurant in het centrum van Amsterdam. Haar hart zonk toen ze de prijzen zag: dertig euro voor injera met wat groenten, terwijl haar moeder hetzelfde gerecht thuis voor drie euro kon maken.\n\n\"Dit is precies wat mijn oma vroeger kocht,\" fluisterde de Nederlandse vrouw aan de tafel naast hen tegen haar vriend, wijzend naar het berbere-kruidenmengsel. \"Zo exotisch en mysterieus.\" Amara's wangen gloeiden van schaamte. Exotisch? Dit waren gewoon de kruiden die haar familie al generaties gebruikte.\n\nDe eigenaar, een Nederlandse zakenman die twee maanden in Addis Abeba had doorgebracht, presenteerde zichzelf als expert in de Ethiopische keuken. Hij had de recepten 'verfijnd' voor de Nederlandse smaak, zoals hij trots vertelde aan journalisten. Amara begreep dat dit betekende: minder pittig, duurder, en verpakt in een verhaal dat westerlingen wilden horen.\n\nThuis bereidde haar moeder elke week dezelfde gerechten voor hun buren - Somalische, Eritrese en Nederlandse families die allemaal kwamen genieten van haar kookkunst. Niemand noemde het exotisch; het was gewoon lekker eten, gedeeld met liefde. Maar hier, in dit restaurant, was hun cultuur een product geworden.\n\nAmara realiseerde zich plotseling dat dit patroon zich overal herhaalde. In de Surinaamse restaurants werden de eigenaren vaak verdrongen door investeerders die de recepten 'aanpasten'. Turkse bakkers moesten concurreren met hipster-bakkerijen die hun baklava verkochten als 'Ottomaanse delicatesse'. Het was alsof hun culturen alleen waardevol waren wanneer ze door anderen werden verteld.\n\nToen de ober - een Nederlandse student die een workshop Ethiopische kookkunst had gevolgd - hun bestelling opnam, nam Amara een moedig besluit. \"Weet je wat berbere werkelijk betekent in onze cultuur?\" vroeg ze vriendelijk maar vastberaden. \"Mag ik je het echte verhaal vertellen achter dit gerecht?\"\n\nDie avond besloot Amara om samen met haar moeder kooklessen te gaan geven, waarbij zij zelf hun verhalen zouden vertellen. Het zou tijd worden dat de mensen niet alleen de smaken proefden, maar ook de echte geschiedenis erachter leerden kennen.",
+  "questions": [
+    {
+      "question": "Volgens de tekst betekent 'verfijnd voor de Nederlandse smaak' dat de gerechten minder pittig en duurder worden gemaakt. Welke andere verandering wordt genoemd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verpakt",
+            "verhaal",
+            "vertellen"
+          ],
+          [
+            "verhaal",
+            "verhalen",
+            "verteld"
+          ],
+          [
+            "westerlingen",
+            "nederlanders",
+            "westerse"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat de eigenaar doet behalve de recepten aanpassen."
+    },
+    {
+      "question": "Waarom voelt Amara zich ongemakkelijk wanneer de Nederlandse vrouw de kruiden 'exotisch en mysterieus' noemt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Amara zich ongemakkelijk voelt omdat de kruiden voor haar gewone dagelijkse ingrediënten zijn die haar familie al generaties gebruikt, terwijl anderen ze zien als iets vreemds en bijzonders.",
+        "exampleAnswer": "Voor Amara zijn het gewone kruiden die haar familie altijd gebruikt, maar anderen maken er iets vreemds en bijzonders van.",
+        "keyElements": [
+          "gewoon/normaal/dagelijks",
+          "familie/generaties",
+          "vreemd/bijzonder gemaakt"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over hoe Amara deze kruiden kent en gebruikt."
+    },
+    {
+      "question": "Welk patroon herkent Amara in de manier waarop verschillende culturen worden behandeld in de restaurantwereld?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat eigenaren van restaurants met traditionele gerechten worden verdrongen of moeten concurreren met anderen die hun cultuur overnemen en aanpassen.",
+        "exampleAnswer": "Eigenaren worden verdrongen door anderen die hun traditionele gerechten overnemen en aanpassen.",
+        "keyElements": [
+          "verdrongen/vervangen",
+          "overnemen/stelen",
+          "aanpassen/veranderen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Lees de vijfde alinea over wat er gebeurt met Surinaamse en Turkse ondernemers."
+    },
+    {
+      "question": "Beoordeel Amara's beslissing om kooklessen te gaan geven. Denk je dat dit een goede oplossing is voor het probleem dat in de tekst wordt beschreven? Leg je mening uit.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over Amara's beslissing en deze onderbouwen met argumenten die aansluiten bij het probleem van culturele toe-eigening dat in de tekst wordt beschreven.",
+        "exampleAnswer": "Ik denk dat het een goede oplossing is omdat mensen dan de echte verhalen horen van de mensen die de cultuur werkelijk kennen, in plaats van alleen de versie van anderen.",
+        "keyElements": [
+          "goede/slechte oplossing",
+          "echte verhalen/eigenaren",
+          "onderbouwing/reden"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat het eigenlijke probleem is en of Amara's aanpak dit kan oplossen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe culturen worden overgenomen en gecommercialiseerd door anderen, en hoe belangrijk het is dat mensen hun eigen verhalen kunnen vertellen.",
+        "exampleAnswer": "Het verhaal gaat erover dat culturen van minderheden vaak worden overgenomen door anderen die er geld aan verdienen, terwijl de echte eigenaren worden buitengesloten.",
+        "keyElements": [
+          "cultuur overgenomen/gestolen",
+          "commercialisering/geld verdienen",
+          "eigen verhalen vertellen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat er met Amara's cultuur gebeurt en wat zij daaraan wil doen."
+    },
+    {
+      "question": "Waarom schreef de auteur dit verhaal? Wat wilde hij of zij de lezer laten begrijpen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de auteur bewustzijn wil creëren over culturele toe-eigening en de lezer wil laten nadenken over wie er profiteert van culturen en wie er wordt buitengesloten.",
+        "exampleAnswer": "De auteur wilde laten zien hoe culturen van minderheden vaak worden overgenomen door anderen, en dat we moeten nadenken over wie er werkelijk profiteert van deze culturen.",
+        "keyElements": [
+          "bewustzijn/nadenken",
+          "culturele toe-eigening/overnemen",
+          "eerlijkheid/rechtvaardigheid"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de auteur wil overbrengen over cultuur en eigendom."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verloren-smaak-van-thuis/image-1.png",
+      "alt": "Amara kijkt teleurgesteld naar het dure menu van het Ethiopische restaurant"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verloren-smaak-van-thuis/image-2.png",
+      "alt": "Amara praat vastberaden met de ober over de echte betekenis van berbere kruiden"
+    }
+  ],
+  "imagePrompts": [
+    "A young Ethiopian-Dutch girl looking disappointed while reading an expensive menu at a trendy Amsterdam restaurant, children's book illustration style, warm lighting, other diners in background",
+    "The same girl speaking confidently to a Dutch waiter, gesturing expressively as she explains about spices, children's book illustration style, restaurant setting with Ethiopian decorations"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "de-geheime-tuin-van-oma",
+  "title": "De Geheime Tuin van Oma",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "gezondheid",
+  "text": "Lisa woonde in een groot huis met een perfecte tuin. Elke dag at ze verse fruit en groenten die haar ouders in de biologische winkel kochten. Ze had nooit nagedacht over waar haar eten vandaan kwam.\n\nOp een dag bezocht ze haar oma in een oude buurt van Amsterdam. Oma's huis was klein en donker. Achter het huis lag een kleine tuin vol onbekende planten. \"Dit zijn mijn medicijnen,\" zei oma met een glimlach. Ze wees naar de verschillende kruiden.\n\n\"Medicijnen?\" vroeg Lisa verbaasd. \"Maar u gaat toch naar de dokter als u ziek bent?\" Oma schudde haar hoofd. \"Kind, dokters zijn duur. Ik kan ze niet altijd betalen. Deze planten helpen mij al jaren. Kijk, deze plant helpt tegen hoofdpijn.\" Ze plukte een paar blaadjes en wreef ze tussen haar vingers.\n\nLisa voelde zich ongemakkelijk. Ze had nooit geweten dat sommige mensen geen geld hadden voor dokters. Thuis ging ze altijd naar de tandarts en de huisarts wanneer dat nodig was. \"Maar oma, wat als u echt ziek wordt?\" vroeg ze bezorgd.\n\n\"Dan hoop ik dat mijn planten genoeg zijn,\" antwoordde oma rustig. Ze liet Lisa de verschillende kruiden ruiken en vertelde oude verhalen over elke plant. Lisa luisterde en leerde, maar voelde zich ook schuldig omdat zij zoveel geluk had gehad.\n\nDie avond praatte Lisa met haar ouders over oma's situatie. Samen besloten ze om oma te helpen met de kosten van de zorgverzekering. Maar Lisa wilde meer doen. Ze begon zelf kruiden te kweken en las boeken over natuurlijke geneeskunde. Ze ontdekte dat beide werelden waardevol waren - moderne zorg én oude wijsheid.",
+  "questions": [
+    {
+      "question": "Waar koopt Lisa's familie hun fruit en groenten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de biologische winkel",
+        "biologische winkel",
+        "de biologische winkel"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom gaat oma niet altijd naar de dokter als ze ziek is?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "duur",
+            "kosten",
+            "betalen",
+            "geld"
+          ],
+          [
+            "dokters",
+            "dokter",
+            "zorg",
+            "medische"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat oma zegt over dokters."
+    },
+    {
+      "question": "Hoe voelt Lisa zich toen ze hoorde over oma's situatie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "ongemakkelijk",
+            "schuldig",
+            "bezorgd",
+            "verdrietig"
+          ],
+          [
+            "voelde",
+            "voelt",
+            "gevoel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op Lisa's reactie in de vierde en vijfde alinea."
+    },
+    {
+      "question": "Vind je dat Lisa goed reageerde op oma's situatie? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "juist",
+            "verkeerd",
+            "slecht",
+            "positief",
+            "negatief"
+          ],
+          [
+            "helpen",
+            "help",
+            "hielp",
+            "hulp",
+            "steun",
+            "ondersteuning"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa deed om oma te helpen en of dat een goede keuze was."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over bewustwording van privileges en het omzetten van die bewustwording in positieve actie. Het gaat over verschillen in toegang tot zorg en hoe mensen elkaar kunnen helpen.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat ontdekt dat niet iedereen dezelfde kansen heeft en besluit om te helpen.",
+        "keyElements": [
+          "bewustwording/beseffen",
+          "verschillen/ongelijkheid",
+          "helpen/actie ondernemen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Lisa leert en hoe ze verandert door het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-tuin-van-oma/image-1.png",
+      "alt": "Oma laat verschillende kruiden zien in haar kleine tuin terwijl Lisa aandachtig kijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-tuin-van-oma/image-2.png",
+      "alt": "Lisa praat met haar ouders in de woonkamer over oma's situatie"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of an elderly Dutch grandmother showing various herbs and medicinal plants in a small urban garden to a young girl, warm afternoon lighting, detailed botanical elements",
+    "Children's book illustration of a young girl having a serious conversation with her parents in a comfortable Dutch living room, evening lighting, caring family atmosphere"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "de-magische-jas",
+  "title": "De Magische Jas",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "kleding",
+  "text": "Lisa krijgt een nieuwe jas van haar oma. De jas is rood en warm. \"Deze jas is speciaal,\" zegt oma met een glimlach.\n\nOp school draagt Lisa de rode jas. Ze voelt zich heel mooi. Maar dan zegt ze gemene dingen tegen haar vriendin Mira. \"Jouw jas is lelijk,\" zegt Lisa. Mira wordt verdrietig.\n\nOpeens voelt Lisa iets raars. De mooie rode jas wordt grijs en koud. Lisa begrijpt het nu. De jas wordt lelijk als zij gemeen is.\n\nLisa zegt sorry tegen Mira. Ze geeft Mira een knuffel. \"Je bent mijn beste vriendin,\" zegt ze. Meteen wordt de jas weer rood en warm. Lisa lacht blij. Nu begrijpt ze wat oma bedoelde.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de jas van Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom wordt Mira verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gemeen",
+            "gemene",
+            "lelijk"
+          ],
+          [
+            "zegt",
+            "zei",
+            "zeggen",
+            "vertelt",
+            "vertelde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa tegen Mira zegt."
+    },
+    {
+      "question": "Wat gebeurt er met de jas als Lisa gemeen is?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "grijs",
+            "koud",
+            "lelijk"
+          ],
+          [
+            "wordt",
+            "word",
+            "verandert",
+            "veranderde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog een keer."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-jas/image-1.png",
+      "alt": "Lisa draagt een rode jas op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-magische-jas/image-2.png",
+      "alt": "Lisa geeft Mira een knuffel en de jas wordt weer rood"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa wearing a bright red coat at school, talking to another girl, children's book illustration style with warm colors",
+    "Two young girls hugging each other, one wearing a magical red coat that glows warmly, children's book illustration style showing friendship and kindness"
+  ]
+}

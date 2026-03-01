@@ -1,0 +1,84 @@
+{
+  "id": "mila-en-de-nieuwe-hond",
+  "title": "Mila en de Nieuwe Hond",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "huisdieren",
+  "text": "Mila wilde al jaren een hond. Elke dag vroeg ze aan mama en papa: \"Mogen we een hond?\" Mama zei altijd nee. Ze vond honden te veel werk.\n\nOp een dag kwam papa thuis met een grote verrassing. Hij had een kleine bruine puppy bij zich. \"Dit is Rex\", zei papa. \"Hij woont nu bij ons.\" Mila was heel blij. Ze sprong op en neer van geluk.\n\nMama was boos. \"Waarom deed je dit zonder mij te vragen?\", zei mama tegen papa. \"Nu moeten we elke dag de hond uitlaten. En wie gaat hem eten geven?\" Papa keek verdrietig naar de grond.\n\nMila begreep dat mama en papa ruzie hadden over Rex. Ze wilde niet dat haar ouders boos waren. Mila dacht lang na. Toen had ze een goed idee. \"Ik zorg voor Rex\", zei ze. \"Ik geef hem eten en ik laat hem uit.\"\n\nMama en papa keken naar Mila. \"Beloof je dat echt?\", vroeg mama. \"Ja, dat beloof ik\", zei Mila. \"Dan proberen we het\", zei mama met een glimlach. Papa was ook weer blij. Rex blaft en kwispelt met zijn staart.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de puppy?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bruin",
+        "bruine"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom was mama boos op papa?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vroeg",
+            "vragen",
+            "gevraagd"
+          ],
+          [
+            "zonder",
+            "niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat mama tegen papa zei in de derde alinea."
+    },
+    {
+      "question": "Hoe loste Mila het probleem op?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zorgen",
+            "zorg",
+            "verzorgen"
+          ],
+          [
+            "eten",
+            "voeren",
+            "geven"
+          ],
+          [
+            "uitlaten",
+            "uitlaat",
+            "lopen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Mila beloofde in de vierde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mila-en-de-nieuwe-hond/image-1.png",
+      "alt": "Papa komt thuis met een kleine bruine puppy terwijl Mila blij springt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mila-en-de-nieuwe-hond/image-2.png",
+      "alt": "Mama en papa kijken naar Mila terwijl ze belooft voor de hond te zorgen"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl jumping with joy as her father arrives home carrying a small brown puppy, children's book illustration style, warm family home setting",
+    "A Dutch family having a conversation about a small brown puppy, the daughter speaking earnestly to her parents who are listening carefully, children's book illustration style, cozy living room"
+  ]
+}

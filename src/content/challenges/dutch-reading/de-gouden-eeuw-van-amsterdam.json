@@ -1,0 +1,145 @@
+{
+  "id": "de-gouden-eeuw-van-amsterdam",
+  "title": "De Gouden Eeuw van Amsterdam",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "reizen",
+  "text": "Mijn naam is Pieter en ik ben vijftien jaar oud. Het is 1650 en ik woon in Amsterdam tijdens de Gouden Eeuw. Mijn vader is koopman en handelt in specerijen uit Azië. Ik dacht altijd dat onze familie rijk werd omdat we zo hard werkten.\n\nVandaag ging ik met vader naar de haven. Daar zag ik voor het eerst de grote VOC-schepen die terugkwamen van hun reizen naar de Oost. De schepen waren vol met peper, kaneel en andere kostbare specerijen. Maar ik zag ook iets anders: de matrosen zagen er moe en ziek uit. Vader vertelde me dat veel mannen tijdens de lange reizen sterven aan ziektes.\n\nToen we thuiskwamen, hoorde ik vader praten met zijn zakenpartner. Ze spraken over de plantages in Indonesië waar de specerijen groeien. \"De lokale mensen werken hard voor ons\", zei vader. \"Ze krijgen weinig betaald, maar dat maakt onze winst groter.\" Plotseling begreep ik dat onze rijkdom niet alleen van hard werken komt.\n\nIk voelde me verdrietig en boos. Hoe konden we rijk zijn terwijl anderen zo weinig krijgen? Die avond sprak ik met mijn oudere zus Anna. Zij vertelde me dat er mensen in Amsterdam zijn die proberen de arbeiders beter te behandelen. \"Sommige kooplieden betalen eerlijkere lonen\", zei ze. \"Misschien kunnen wij ook iets veranderen.\"\n\nDe volgende dag besloot ik om vader te vertellen wat ik voelde. \"Vader\", zei ik, \"kunnen wij de mensen in de Oost niet beter betalen?\" Vader keek me lang aan. \"Pieter\", zei hij, \"dat is een goede vraag. Misschien is het tijd om onze manier van handelen te bekijken.\" Ik hoopte dat we samen een eerlijkere manier van zaken doen zouden kunnen vinden.",
+  "questions": [
+    {
+      "question": "In welk jaar speelt dit verhaal zich af?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "1650"
+      ],
+      "hint": "Zoek naar het jaartal in de eerste alinea."
+    },
+    {
+      "question": "Waarom voelde Pieter zich verdrietig en boos nadat hij zijn vader hoorde praten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "rijkdom",
+            "rijk",
+            "geld",
+            "winst"
+          ],
+          [
+            "anderen",
+            "mensen",
+            "arbeiders",
+            "lokale"
+          ],
+          [
+            "weinig",
+            "slecht",
+            "oneerlijk",
+            "uitgebuit"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Pieter ontdekte over hoe zijn familie rijk werd."
+    },
+    {
+      "question": "Wat stelde Anna voor als mogelijke oplossing?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "eerlijkere",
+            "betere",
+            "hogere",
+            "faire"
+          ],
+          [
+            "lonen",
+            "betaling",
+            "betalen",
+            "geld"
+          ],
+          [
+            "behandelen",
+            "behandeling",
+            "helpen",
+            "veranderen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Anna tegen Pieter zei over andere kooplieden."
+    },
+    {
+      "question": "Beoordeel Pieters beslissing om met zijn vader te praten. Was dit een goede keuze?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "juist",
+            "moedig",
+            "belangrijk",
+            "positief"
+          ],
+          [
+            "praten",
+            "spreken",
+            "communiceren",
+            "bespreken"
+          ],
+          [
+            "eerlijk",
+            "veranderen",
+            "verbeteren",
+            "oplossing"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde toen Pieter zijn gevoelens deelde."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over een jongen die ontdekt dat rijkdom soms ten koste van anderen gaat, en dat hij probeert dit te veranderen.",
+        "exampleAnswer": "Het verhaal gaat over een jongen die leert dat zijn familie rijk werd door anderen slecht te behandelen, en dat hij dit wil veranderen.",
+        "keyElements": [
+          "ontdekken/leren",
+          "rijkdom/winst",
+          "anderen/arbeiders",
+          "veranderen/verbeteren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over Pieters ontdekking en wat hij daarmee deed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gouden-eeuw-van-amsterdam/image-1.png",
+      "alt": "Pieter en zijn vader bij de haven van Amsterdam met VOC-schepen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gouden-eeuw-van-amsterdam/image-2.png",
+      "alt": "Pieter praat met zijn vader in hun rijke koopmanshuis"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy and his merchant father standing at Amsterdam harbor in 1650, looking at large Dutch East India Company ships loaded with spices, children's book illustration style, Golden Age setting",
+    "A concerned teenage boy having a serious conversation with his well-dressed merchant father in a wealthy Dutch Golden Age house interior, children's book illustration style"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "de-verborgen-algoritme",
+  "title": "De Verborgen Algoritme",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "technologie",
+  "text": "Maya staarde naar het scherm van haar laptop. Opnieuw had ze een afwijzing ontvangen voor een bijbaantje. 'Onvoldoende geschikt voor deze functie,' stond er. Het was al de zevende afwijzing deze maand, terwijl haar cijfers uitstekend waren en ze vloeiend Nederlands, Engels en Arabisch sprak.\n\nHaar klasgenoot Thomas had verteld dat hij binnen een dag was aangenomen bij dezelfde kledingwinkel waar Maya was afgewezen. 'Vreemd,' dacht ze. Thomas had lagere cijfers en minder werkervaring. Maya voelde zich persoonlijk tekortgeschoten. Misschien was ze gewoon niet goed genoeg?\n\nTijdens de informaticalessen van meneer Van Der Berg leerde Maya over algoritmes en kunstmatige intelligentie. 'Bedrijven gebruiken tegenwoordig AI-systemen om sollicitaties te beoordelen,' legde hij uit. 'Deze systemen analyseren cv's en voorspellen welke kandidaten succesvol zullen zijn.' Maya luisterde aandachtig, maar begreep nog niet de volledige betekenis van zijn woorden.\n\nThuis googelde Maya naar 'discriminatie bij solliciteren met AI'. Tot haar verbijstering vond ze talloze artikelen over algoritmes die onbewust vooroordelen vertonen. Systemen die waren getraind op historische data bevoordeelden vaak mannelijke, Nederlandse kandidaten ten koste van vrouwen en mensen met een migratieachtergrond. Maya's Marokkaanse achternaam, die altijd haar trots was geweest, werd mogelijk door computers als 'risicofactor' bestempeld.\n\nDe realisatie trof haar als een mokerslag. Dit was geen persoonlijk falen, maar een systematisch probleem. Hoeveel andere jongeren met een migratieachtergrond werden onterecht afgewezen? Maya voelde boosheid opkomen - niet alleen om haar eigen situatie, maar om de structurele onrechtvaardigheid die verborgen lag achter ogenschijnlijk neutrale technologie.\n\nVervolgens onderzocht Maya dieper. Ze sprak met andere leerlingen op school en ontdekte dat Amira, Dmitri en Hassan soortgelijke ervaringen hadden. Allemaal hadden ze moeite gehad met het vinden van bijbaantjes, ondanks hun kwalificaties. Intussen werden hun Nederlandse klasgenoten wel uitgenodigd voor sollicitatiegesprekken.\n\nMaya stond voor een dilemma. Ze kon haar achternaam 'nederlandser' maken op haar cv, maar dat voelde als verraad aan haar identiteit. Alternatief kon ze de stilte doorbreken en anderen informeren over deze verborgen discriminatie. Na lange overweging besloot ze tot actie over te gaan.\n\nZe organiseerde een presentatie op school over algoritmische vooringenomenheid. Samen met Amira en Hassan richtte ze een bewustwordingscampagne op, waarin ze lokale bedrijven opriepen hun wervingsprocessen kritisch te evalueren. Maya realiseerde zich dat technologie niet inherent neutraal is - het weerspiegelt de vooroordelen van degenen die het creëren en implementeren.\n\nDe strijd was nog lang niet gestreden, maar Maya had haar stem gevonden in de confrontatie met een onzichtbare, maar krachtige vorm van systematische uitsluiting.",
+  "questions": [
+    {
+      "question": "Beschrijf hoe Maya's begrip van haar situatie verandert gedurende het verhaal.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Maya's perspectief verschuift van persoonlijk falen naar het herkennen van systematische discriminatie. De antwoord moet beide elementen bevatten.",
+        "exampleAnswer": "Maya dacht eerst dat ze zelf niet goed genoeg was, maar later begreep ze dat het systeem oneerlijk was tegen mensen met een migratieachtergrond.",
+        "keyElements": [
+          "persoonlijk/zelf de schuld",
+          "systeem/systematisch/structureel",
+          "discriminatie/oneerlijk/vooroordelen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Vergelijk hoe Maya denkt over haar afwijzingen aan het begin en aan het eind van het verhaal."
+    },
+    {
+      "question": "Welke rol speelt technologie in de discriminatie die Maya ervaart?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het antwoord moet uitleggen dat AI-systemen getraind op historische data vooroordelen reproduceren en dat technologie niet neutraal is.",
+        "exampleAnswer": "AI-systemen bij bedrijven zijn getraind op oude data die vooroordelen bevat, waardoor mensen met buitenlandse namen automatisch worden afgewezen.",
+        "keyElements": [
+          "AI/algoritme/systeem",
+          "historische data/oude gegevens",
+          "vooroordelen/discriminatie reproduceert/herhaalt"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Maya leert over hoe AI-systemen worden getraind en wat dat betekent."
+    },
+    {
+      "question": "Waarom besluit Maya om actie te ondernemen in plaats van gewoon haar naam te veranderen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het antwoord moet Maya's motivatie begrijpen: behoud van identiteit, solidariteit met anderen, en wens om het systeem te veranderen voor iedereen.",
+        "exampleAnswer": "Maya wil haar identiteit niet verloochenen en ze realiseert zich dat het probleem groter is dan alleen haarzelf, dus wil ze het systeem veranderen.",
+        "keyElements": [
+          "identiteit/trots/wie ze is",
+          "anderen helpen/solidariteit",
+          "systeem veranderen/probleem oplossen"
+        ],
+        "minWords": 7
+      },
+      "hint": "Kijk naar Maya's dilemma in de voorlaatste alinea en haar uiteindelijke keuze."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte gaat over het herkennen van verborgen systematische discriminatie in technologie en het belang van bewustwording en actie tegen onrechtvaardige systemen.",
+        "exampleAnswer": "Het verhaal gaat over hoe technologie discriminatie kan verbergen en dat je daar iets tegen kunt doen door anderen bewust te maken.",
+        "keyElements": [
+          "verborgen discriminatie/onzichtbare vooroordelen",
+          "technologie/AI niet neutraal",
+          "bewustwording/actie ondernemen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de grootste les die Maya leert en wat de schrijver wil dat de lezer begrijpt."
+    },
+    {
+      "question": "Met welk doel heeft de schrijver dit verhaal geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het doel is om lezers bewust te maken van algoritmische discriminatie en aan te sporen tot kritisch denken over technologie en sociale rechtvaardigheid.",
+        "exampleAnswer": "De schrijver wil mensen laten nadenken over hoe technologie kan discrimineren en waarom we daar aandacht voor moeten hebben.",
+        "keyElements": [
+          "bewustwording/aandacht voor probleem",
+          "kritisch nadenken/opletten",
+          "discriminatie/onrechtvaardigheid"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan welke boodschap de schrijver wil overbrengen aan jongeren zoals jij."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verborgen-algoritme/image-1.png",
+      "alt": "Maya kijkt teleurgesteld naar haar laptop screen met een afwijzingsmail"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verborgen-algoritme/image-2.png",
+      "alt": "Maya presenteert voor een groep leerlingen over algoritmische discriminatie"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl of Moroccan descent looking disappointed at her laptop screen showing a rejection email, children's book illustration style, modern Dutch bedroom setting",
+    "The same teenage girl giving a presentation to diverse classmates about algorithmic bias, pointing at a screen with AI diagrams, children's book illustration style, Dutch school classroom"
+  ]
+}

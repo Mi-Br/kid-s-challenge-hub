@@ -1,0 +1,84 @@
+{
+  "id": "de-bladeren-vallen",
+  "title": "De bladeren vallen",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "seizoenen",
+  "text": "Mila ziet dat de grote jongens de kleine kinderen pesten op het schoolplein. Ze gooien de bladeren van de herfst naar de kleintjes. De kleine kinderen huilen. Mila weet dat dit niet goed is, maar ze is bang.\n\nMila durft eerst niets te zeggen. Ze denkt: wat als de grote jongens boos op mij worden? Ze kijkt naar juf Emma die binnen koffie drinkt. Juf Emma ziet het pesten niet.\n\nDan valt er een blad op Mila's hoofd. Ze wordt boos. Ze loopt naar de grote jongens en zegt: 'Stop! Dit is niet aardig!' De grote jongens stoppen met gooien. Een klein meisje zegt: 'Dank je wel, Mila.'\n\nNa die dag helpt Mila altijd als ze pesten ziet. Ze heeft geleerd dat één persoon veel kan veranderen. De kleine kinderen spelen nu veilig op het plein.",
+  "questions": [
+    {
+      "question": "Wat gooien de grote jongens naar de kleintjes?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bladeren",
+        "de bladeren van de herfst"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom durft Mila eerst niets te zeggen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "angst"
+          ],
+          [
+            "grote jongens",
+            "jongens",
+            "pestkoppen"
+          ],
+          [
+            "boos",
+            "kwaad",
+            "woedend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea. Wat voelt Mila?"
+    },
+    {
+      "question": "Wat gebeurt er nadat Mila tegen de jongens zegt dat ze moeten stoppen?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de derde alinea wat er direct daarna gebeurt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "grote"
+          ],
+          [
+            "jongens"
+          ],
+          [
+            "stoppen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-bladeren-vallen/image-1.png",
+      "alt": "Grote kinderen gooien herfstbladeren naar kleine kinderen op het schoolplein"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-bladeren-vallen/image-2.png",
+      "alt": "Mila praat tegen de grote jongens en verdedigt de kleine kinderen"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of older kids throwing autumn leaves at younger children on a Dutch school playground, with fallen orange and yellow leaves scattered around",
+    "Children's book illustration of a brave girl named Mila standing up to older boys on a school playground, defending smaller children, autumn setting"
+  ]
+}

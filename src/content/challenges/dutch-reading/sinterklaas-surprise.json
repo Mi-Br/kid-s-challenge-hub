@@ -1,0 +1,67 @@
+{
+  "id": "sinterklaas-surprise",
+  "title": "Sinterklaas Surprise",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Lisa en Tim zijn beste vrienden. Ze gaan samen naar school in Amsterdam. Het is begin december en overal hangen Sinterklaas versieringen.\n\nLisa wil een groot cadeau kopen voor Sinterklaas. Ze heeft veel spaargeld. Tim heeft geen geld. Hij is verdrietig omdat hij niets kan kopen.\n\n\"Ik maak zelf een cadeau,\" zegt Tim. \"Dat is stom,\" zegt Lisa. \"Echte cadeaus zijn beter.\" Tim wordt boos en loopt weg.\n\nThuis denkt Lisa na. Ze begrijpt dat Tim verdrietig is. Ze gaat naar Tim toe. \"Sorry,\" zegt ze. \"Zelfgemaakte cadeaus zijn ook mooi.\"\n\nSamen maken ze een mooi boek met foto's. Lisa koopt het papier. Tim schrijft de verhalen. Hun ouders zijn heel blij met het cadeau.",
+  "questions": [
+    {
+      "question": "In welke maand speelt dit verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "december"
+      ],
+      "hint": "Kijk naar het begin van het verhaal."
+    },
+    {
+      "question": "Waarom is Tim verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "spaargeld",
+            "geld heeft"
+          ],
+          [
+            "kopen",
+            "cadeau kopen",
+            "niets kopen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Wat maken Lisa en Tim samen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een boek",
+        "een mooi boek",
+        "een boek met foto's",
+        "boek met foto's"
+      ],
+      "hint": "Kijk naar de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-surprise/image-1.png",
+      "alt": "Lisa en Tim lopen door een Nederlandse straat met Sinterklaas versieringen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-surprise/image-2.png",
+      "alt": "Lisa en Tim maken samen een boek met foto's aan tafel"
+    }
+  ],
+  "imagePrompts": [
+    "Two children walking through a Dutch street in Amsterdam decorated with Sinterklaas decorations, children's book illustration style, warm winter atmosphere",
+    "Two children sitting at a table making a photo book together, sharing materials and smiling, children's book illustration style, cozy indoor scene"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "het-geheimzinnige-huis",
+  "title": "Het Geheimzinnige Huis",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de buurt",
+  "text": "In de straat waar Luna woont, staat een oud huis met groene luiken. De tuin is vol met wilde bloemen en hoge bomen. Luna loopt er elke dag voorbij naar school, maar ze heeft nog nooit iemand gezien.\n\nVandaag hoort Luna zachte muziek uit het huis komen. Ze blijft staan en luistert. Het klinkt als een viool. Luna is bang omdat ze denkt dat het huis leeg is. Waarom komt er dan muziek uit?\n\nLuna loopt voorzichtig naar de voordeur. Ze klopt zachtjes aan. Een vriendelijke oude dame doet open. \"Hallo lieve kind,\" zegt ze. \"Ik ben mevrouw Van der Berg. Ik geef vioolles. Wil je misschien luisteren?\"\n\nLuna voelt zich meteen blij. Ze gaat naar binnen en ziet prachtige violen aan de muur hangen. Mevrouw Van der Berg speelt een vrolijk liedje. Luna vindt de muziek zo mooi dat ze begint te dansen.\n\n\"Zou je ook viool willen leren spelen?\" vraagt mevrouw Van der Berg. Luna knikt enthousiast. Ze heeft een nieuwe vriendin gevonden in haar eigen straat. Het geheimzinnige huis is nu haar favoriete plek geworden.",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de luiken van het oude huis?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "groen",
+        "groene"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Welke kleur hebben de luiken van het oude huis?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "groen",
+        "groene"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom was Luna eerst bang voor het huis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "dacht"
+          ],
+          [
+            "leeg",
+            "niemand",
+            "nooit iemand gezien"
+          ],
+          [
+            "muziek",
+            "viool",
+            "geluid"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Luna dacht over het huis en wat ze toen hoorde."
+    },
+    {
+      "question": "Wat betekent het woord 'geheimzinnige' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Luna wist niet wat er in het huis gebeurde. Hoe noem je zoiets?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "mysterieus"
+          ],
+          [
+            "vreemd"
+          ],
+          [
+            "raadselachtig"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheimzinnige-huis/image-1.png",
+      "alt": "Een oud huis met groene luiken en een wilde tuin vol bloemen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheimzinnige-huis/image-2.png",
+      "alt": "Luna luistert naar mevrouw Van der Berg die viool speelt in een kamer vol violen"
+    }
+  ],
+  "imagePrompts": [
+    "A mysterious old house with green shutters and an overgrown garden full of wild flowers and tall trees, children's book illustration style, cozy Dutch neighborhood street",
+    "A young girl listening to a kind elderly woman playing violin in a room with violins hanging on the walls, warm and welcoming atmosphere, children's book illustration style"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "het-nieuws-op-school",
+  "title": "Het Nieuws op School",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "media",
+  "text": "Lisa zit in groep 8 en wil graag bij de populaire groep horen. Die groep praat altijd over het laatste nieuws dat ze op sociale media hebben gelezen. Lisa kijkt thuis nooit naar het nieuws.\n\nOp maandag praat de populaire groep over een groot probleem met plastic in de zee. Lisa hoort dat er heel veel vissen doodgaan door het plastic. Ze wordt verdrietig van dit verhaal. Lisa wist niet dat dit gebeurde in de wereld.\n\nLisa gaat thuis op internet zoeken naar meer informatie. Ze leest veel artikelen over plastic vervuiling. Ze ontdekt dat mensen elke dag plastic weggooien dat in de zee terechtkomt. Lisa wordt boos en voelt zich machteloos.\n\nDe volgende dag vertelt Lisa aan haar klasgenoten wat ze heeft geleerd. Ze stelt voor om samen plastic op te ruimen in hun buurt. De populaire groep vindt dit een goed idee. Lisa voelt zich nu deel van de groep, maar vooral trots dat ze iets positiefs doet voor de natuur.\n\nLisa organiseert elke maand een opruimactie met haar klasgenoten. Ze maken ook foto's en delen deze op sociale media. Zo kunnen andere kinderen zien wat zij doen en misschien ook helpen.",
+  "questions": [
+    {
+      "question": "Waar praat de populaire groep over op maandag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een groot probleem met plastic in de zee",
+        "plastic in de zee",
+        "het probleem met plastic in de zee"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom wordt Lisa verdrietig als ze het verhaal hoort?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vissen",
+            "vis"
+          ],
+          [
+            "doodgaan",
+            "sterven",
+            "dood",
+            "overlijden"
+          ],
+          [
+            "plastic",
+            "vervuiling"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met de vissen gebeurt."
+    },
+    {
+      "question": "Hoe voelt Lisa zich nadat ze artikelen heeft gelezen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "boos",
+            "bozend",
+            "woedend",
+            "geïrriteerd"
+          ],
+          [
+            "machteloos",
+            "hulpeloos",
+            "zwak",
+            "onmachtig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lisa heeft twee gevoelens na het lezen van de artikelen."
+    },
+    {
+      "question": "Wat stelt Lisa voor aan haar klasgenoten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "plastic",
+            "afval",
+            "rommel"
+          ],
+          [
+            "opruimen",
+            "opruim",
+            "schoonmaken",
+            "verzamelen"
+          ],
+          [
+            "buurt",
+            "omgeving",
+            "straat"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lisa heeft een idee om samen iets te doen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-nieuws-op-school/image-1.png",
+      "alt": "Lisa luistert naar de populaire groep die praat over nieuws op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-nieuws-op-school/image-2.png",
+      "alt": "Lisa en klasgenoten ruimen plastic op in hun buurt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl listening to a group of popular students talking about news at a Dutch school, children's book illustration style",
+    "Children cleaning up plastic waste in a Dutch neighborhood street, working together with bags and gloves, children's book illustration style"
+  ]
+}

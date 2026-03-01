@@ -1,0 +1,123 @@
+{
+  "id": "het-mysterie-van-het-verdwenen-gereedschap",
+  "title": "Het Mysterie van het Verdwenen Gereedschap",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "beroepen",
+  "text": "Lise loopt vroeg naar de werkplaats van haar vader. Hij is timmerman en maakt prachtige meubels. Maar vandaag staat hij bezorgd naar zijn werkbank te kijken. \"Mijn beste gereedschap is verdwenen!\" roept hij uit. \"Mijn speciale hamer en mijn duurste zaag zijn weg.\"\n\nLise besluit om het mysterie op te lossen. Ze onderzoekt de werkplaats zorgvuldig. Eerst denkt ze dat de postbode het heeft gedaan, omdat zijn voetstappen nog vers zijn in de modder buiten. Maar de postbode vertelt haar: \"Ik heb alleen de post gebracht en ben meteen weer weggegaan.\"\n\nDaarna verdacht Lise de buurvrouw, mevrouw De Wit, die gisteren ruzie had met papa over de hoge heg tussen hun tuinen. \"Mensen kunnen soms gemeen doen als ze boos zijn,\" denkt Lise. Maar mevrouw De Wit laat haar zien dat ze de hele ochtend in haar eigen tuin heeft gewerkt.\n\nToen hoorde Lise een vreemd geluid uit de schuur achter het huis. Toen ze voorzichtig naar binnen keek, zag ze iets onverwachts. Daar stond Tom, haar grote broer, die druk bezig was met papa's gereedschap. Hij was een vogelhuisje aan het maken als verrassing voor Vaderdag!\n\n\"Het spijt me dat ik het gereedschap heb weggenomen zonder het te vragen,\" zegt Tom schuldbewust. \"Ik wilde papa verrassen, maar ik besefte niet dat hij zich zorgen zou maken.\" Papa lacht opgelucht wanneer hij het prachtige vogelhuisje ziet dat Tom heeft gemaakt.",
+  "questions": [
+    {
+      "question": "Welk beroep heeft Lise's vader?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "timmerman"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Waarom verdacht Lise eerst de postbode?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "voetstappen",
+            "voetsporen",
+            "sporen"
+          ],
+          [
+            "vers",
+            "nieuw",
+            "recent"
+          ],
+          [
+            "modder",
+            "grond",
+            "aarde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Lise zag buiten de werkplaats."
+    },
+    {
+      "question": "Hoe voelde Tom zich toen hij werd ontdekt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schuldig",
+            "schuldbewust",
+            "berouw"
+          ],
+          [
+            "spijt",
+            "sorry",
+            "excuses"
+          ],
+          [
+            "verkeerd",
+            "fout",
+            "slecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op hoe Tom reageert in de laatste alinea."
+    },
+    {
+      "question": "Vind je dat Tom goed heeft gehandeld? Leg je antwoord uit.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening geven over Toms handeling en dit onderbouwen. Ze kunnen zowel positieve aspecten (lieve verrassing maken) als negatieve aspecten (niet vragen, zorgen veroorzaken) noemen.",
+        "exampleAnswer": "Tom wilde iets liefs doen, maar hij had eerst moeten vragen voordat hij het gereedschap pakte.",
+        "keyElements": [
+          "verrassing/lief/aardig",
+          "vragen/toestemming",
+          "zorgen/problemen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de goede en slechte kanten van wat Tom deed."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het oplossen van een mysterie, of over communicatie binnen een familie, of over goede bedoelingen die verkeerd uitpakken.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat een mysterie oplost en ontdekt dat haar broer iets liefs wilde doen.",
+        "keyElements": [
+          "mysterie/raadsel/oplossen",
+          "familie/broer/zus",
+          "verrassing/bedoeling"
+        ],
+        "minWords": 8
+      },
+      "hint": "Waar draait het hele verhaal om?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-het-verdwenen-gereedschap/image-1.png",
+      "alt": "Een meisje dat onderzoek doet in een timmerwerkplaats"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-het-verdwenen-gereedschap/image-2.png",
+      "alt": "Een jongen die een vogelhuisje maakt in een schuur"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl investigating a carpenter's workshop, looking at tools and workbench, children's book illustration style with warm colors",
+    "A teenage boy building a birdhouse in a garden shed using carpenter tools, looking guilty but proud of his work, children's book illustration style"
+  ]
+}

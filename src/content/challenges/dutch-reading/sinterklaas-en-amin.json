@@ -1,0 +1,67 @@
+{
+  "id": "sinterklaas-en-amin",
+  "title": "Sinterklaas en Amin",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Amin kwam uit Syrië. Hij woonde nu in Nederland. Het was zijn eerste sinterklaasfeest op school.\n\nDe kinderen in zijn klas hadden pakjes. Ze zongen liedjes over Sinterklaas. Amin begreep het niet. In Syrië hadden ze geen Sinterklaas.\n\nMeester Jan zag dat Amin verdrietig was. Hij ging naar hem toe. \"Wil je meedoen met het feest?\" vroeg de meester. Amin knikte voorzichtig.\n\nEen meisje gaf Amin een pakje. \"Dit is voor jou,\" zei ze vriendelijk. Amin maakte het pakje open. Er zat een mooi boek in. Het boek ging over Nederlandse feesten.\n\nAmin lachte voor het eerst die dag. Hij vertelde de kinderen over feesten in Syrië. De kinderen luisterden met interesse. Ze vonden zijn verhalen heel bijzonder.",
+  "questions": [
+    {
+      "question": "Uit welk land kwam Amin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "syrië"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat zat er in het pakje voor Amin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een boek",
+        "een mooi boek",
+        "boek"
+      ],
+      "hint": "Lees de vierde alinea goed."
+    },
+    {
+      "question": "Waarom was Amin eerst verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "begreep",
+            "begrijpen",
+            "snapte",
+            "wist"
+          ],
+          [
+            "sinterklaas",
+            "feest",
+            "viering"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er anders was voor Amin."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-en-amin/image-1.png",
+      "alt": "Amin kijkt naar kinderen die sinterklaasfeest vieren op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sinterklaas-en-amin/image-2.png",
+      "alt": "Een meisje geeft Amin een pakje, Amin lacht blij"
+    }
+  ],
+  "imagePrompts": [
+    "A young Syrian boy named Amin watching Dutch children celebrating Sinterklaas at school, children's book illustration style, classroom setting with decorations",
+    "A friendly Dutch girl giving a wrapped present to Amin who is smiling happily, children's book illustration style, warm classroom atmosphere"
+  ]
+}

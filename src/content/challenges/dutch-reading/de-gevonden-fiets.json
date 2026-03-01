@@ -1,0 +1,130 @@
+{
+  "id": "de-gevonden-fiets",
+  "title": "De Gevonden Fiets",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verkeer",
+  "text": "Max fietst elke dag naar school door de drukke Hoofdstraat. Hij kent alle verkeersregels en let altijd goed op. Op een regenachtige dinsdag ziet hij een mooie rode fiets bij de bushalte staan. De fiets heeft geen slot en niemand is in de buurt.\n\nMax voelt zich blij omdat de fiets er zo mooi uitziet, maar hij voelt zich ook bang. Wat als iemand hem ziet? Hij kijkt om zich heen. De eigenaar is vast zijn fiets vergeten. Max denkt: \"Ik kan deze fiets naar huis rijden en later terugbrengen.\" Hij weet dat hij naar school moet, maar de fiets is zo verleidelijk.\n\nDan herinnert Max zich wat zijn vader altijd zegt: \"Andermans spullen pak je nooit.\" Hij voelt zich verdrietig dat hij de fiets niet kan houden, maar ook trots omdat hij het juiste wil doen. Max besluit om de fiets naar het politiebureau te brengen in plaats van naar school te gaan.\n\nBij het politiebureau vertelt Max het hele verhaal. De vriendelijke agent zegt: \"Dank je wel, Max. Je hebt het juiste gedaan.\" Later die dag belt de politie. De eigenaar heeft zijn fiets teruggekregen en wil Max bedanken. Max voelt zich nu helemaal gelukkig omdat hij eerlijk was.\n\nDe volgende dag krijgt Max een brief van de fietseigenaar met een cadeaubon voor de fietswinkel. \"Voor een eerlijke jongen,\" staat erin. Max glimlacht breed. Eerlijk zijn loont echt!",
+  "questions": [
+    {
+      "question": "Waar ziet Max de rode fiets staan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij de bushalte"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom besluit Max om de fiets naar het politiebureau te brengen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "juiste",
+            "goed",
+            "eerlijk",
+            "correct"
+          ],
+          [
+            "vader",
+            "papa",
+            "gezegd",
+            "zegt",
+            "verteld"
+          ],
+          [
+            "andermans",
+            "andere",
+            "anderen",
+            "niet van hem"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Max zich herinnert van zijn vader."
+    },
+    {
+      "question": "Hoe voelt Max zich aan het eind van het verhaal en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "gelukkig",
+            "blij",
+            "trots",
+            "goed"
+          ],
+          [
+            "eerlijk",
+            "juiste",
+            "goed gedaan",
+            "beloning"
+          ],
+          [
+            "cadeaubon",
+            "brief",
+            "bedankt",
+            "dankbaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea nog eens."
+    },
+    {
+      "question": "Vind je dat Max goed gehandeld heeft? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "correct",
+            "nee",
+            "fout"
+          ],
+          [
+            "eerlijk",
+            "eerlijkheid",
+            "stelen",
+            "jatten",
+            "pakken"
+          ],
+          [
+            "politie",
+            "teruggeven",
+            "eigenaar",
+            "terugbrengen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Max zijn keuzes en de gevolgen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gevonden-fiets/image-1.png",
+      "alt": "Een jongen die naar een rode fiets kijkt bij een bushalte"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gevonden-fiets/image-2.png",
+      "alt": "Een jongen die een fiets naar het politiebureau brengt"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy on his bicycle looking at a red bike without a lock at a bus stop on a rainy day, children's book illustration style, Dutch street setting with typical Dutch architecture",
+    "A young boy walking with a red bicycle towards a Dutch police station building, friendly police officer visible at the entrance, children's book illustration style, sunny day"
+  ]
+}

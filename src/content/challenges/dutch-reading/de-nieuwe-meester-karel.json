@@ -1,0 +1,101 @@
+{
+  "id": "de-nieuwe-meester-karel",
+  "title": "De Nieuwe Meester Karel",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Lena liep langzaam naar school omdat ze zenuwachtig was. Vandaag zou ze meester Karel ontmoeten. Hij was de nieuwe leerkracht van groep vijf. \"Meester Karel is heel streng,\" had haar buurjongen verteld.\n\nToen Lena de klas binnenkwam, zag ze een lange man met vriendelijke ogen. \"Goedemorgen Lena,\" zei meester Karel met een warme glimlach. \"Welkom in onze klas.\" Hij liet haar plaatsnemen naast Emma, die al vrolijk zwaaide.\n\nDe eerste les was rekenen. Meester Karel legde moeilijke sommen uit op een grappige manier. Hij gebruikte speelgoedauto's om te laten zien hoe optellen werkt. \"Als drie auto's naar de garage rijden en er komen twee auto's bij, hoeveel auto's zijn er dan?\" vroeg hij met een glimlach.\n\nIn de pauze dacht Lena na over de ochtend. Ze had zich zorgen gemaakt voor niets. Meester Karel was helemaal niet eng. Hij was juist aardig en maakte leren leuk. \"Ik vind onze nieuwe meester geweldig,\" fluisterde ze tegen Emma.\n\nNa de pauze las meester Karel een spannend verhaal voor. Zijn stem ging hard en zacht, want hij speelde alle personages na. Alle kinderen luisterden met open mond. Toen het verhaal afgelopen was, applaudisseerden ze allemaal.",
+  "questions": [
+    {
+      "question": "Wie had tegen Lena gezegd dat meester Karel heel streng was?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "haar buurjongen",
+        "de buurjongen"
+      ],
+      "hint": "Kijk in de eerste alinea naar wat Lena had gehoord."
+    },
+    {
+      "question": "Welk speelgoed gebruikte meester Karel om rekenen uit te leggen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "speelgoedauto's",
+        "auto's"
+      ],
+      "hint": "Zoek in de derde alinea naar wat hij gebruikte bij de sommen."
+    },
+    {
+      "question": "Waarom was Lena zenuwachtig toen ze naar school liep?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nieuwe",
+            "nieuw"
+          ],
+          [
+            "meester",
+            "leerkracht",
+            "leraar"
+          ],
+          [
+            "ontmoeten",
+            "zien",
+            "kennen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er die dag voor het eerst zou gebeuren."
+    },
+    {
+      "question": "Vind jij dat meester Karel een goede leerkracht is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "aardig",
+            "vriendelijk",
+            "lief",
+            "goed"
+          ],
+          [
+            "grappig",
+            "leuk",
+            "vrolijk",
+            "speels"
+          ],
+          [
+            "uitleggen",
+            "leren",
+            "verhaal",
+            "voorlezen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan alle dingen die meester Karel deed in het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-meester-karel/image-1.png",
+      "alt": "Meester Karel legt rekenen uit met speelgoedauto's aan kinderen in de klas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-meester-karel/image-2.png",
+      "alt": "Meester Karel leest een spannend verhaal voor aan luisterende kinderen"
+    }
+  ],
+  "imagePrompts": [
+    "A friendly tall male teacher explaining math using toy cars to young children in a Dutch elementary school classroom, children's book illustration style",
+    "The same teacher dramatically reading a story to attentive children sitting on a carpet in the classroom, making animated gestures, children's book illustration style"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "storm-en-vriendschap",
+  "title": "Storm en Vriendschap",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "het weer",
+  "text": "Bram de beer woont in het bos. Hij is dik en sterk. Vandaag regent het hard. De wind waait ook heel hard.\n\nBram gaat naar buiten. Hij wil spelen met zijn vriend Pip de eekhoorn. Maar de storm maakt Bram boos. Hij gooit een grote steen naar de boom van Pip. De steen maakt een gat in Pips huis.\n\nPip wordt verdrietig. Hij huilt omdat zijn huis kapot is. Bram ziet dat Pip verdrietig is. Nu voelt Bram zich schuldig. De storm is niet Pips schuld.\n\nBram zegt sorry tegen Pip. Hij helpt Pip om het gat te repareren. Ze zoeken takjes en bladeren. Samen maken ze het huis weer heel. Nu zijn Bram en Pip weer goede vrienden.",
+  "questions": [
+    {
+      "question": "Welk dier is Bram?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "beer",
+        "een beer"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat voor weer is het in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het regent hard en de wind waait hard",
+        "storm",
+        "regen en wind",
+        "slecht weer"
+      ],
+      "hint": "Lees de tweede alinea over het weer."
+    },
+    {
+      "question": "Waarom werd Pip verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "huis",
+            "boom"
+          ],
+          [
+            "kapot",
+            "gat",
+            "stuk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde met Pips huis."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/storm-en-vriendschap/image-1.png",
+      "alt": "Bram de beer gooit een steen naar de boom van Pip de eekhoorn tijdens een storm"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/storm-en-vriendschap/image-2.png",
+      "alt": "Bram en Pip repareren samen het gat in de boom met takjes en bladeren"
+    }
+  ],
+  "imagePrompts": [
+    "A large brown bear throwing a stone at a tree house during a heavy rainstorm with strong winds, while a small squirrel watches from inside the tree, children's book illustration style",
+    "A brown bear and a squirrel working together to repair a hole in a tree house using twigs and leaves, with clearing skies in the background, children's book illustration style"
+  ]
+}

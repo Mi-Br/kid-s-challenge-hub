@@ -1,0 +1,103 @@
+{
+  "id": "de-donderdag-met-donder",
+  "title": "De Donderdag met Donder",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "Lisa keek door het raam van haar kamer. Donkere wolken hingen boven de Nederlandse polder. \"Mama, er komt onweer aan,\" riep ze naar beneden. Haar stem trilde een beetje omdat ze bang was voor donder.\n\nMama kwam naar boven en ging naast Lisa zitten. \"Weet je wat, lieverd? Opa heeft me ooit verteld hoe je de afstand van de bliksem kunt meten. Als je de seconden telt tussen de flits en de donder, dan deel je dat door drie. Zo weet je hoeveel kilometer de bliksem ver weg is.\"\n\nOpeens flitste er een lichte straal door de lucht. Lisa begon snel te tellen: \"Een, twee, drie, vier, vijf, zes.\" Toen klonk er een harde BOEM! \"Zes gedeeld door drie is twee kilometer,\" rekende mama uit. \"Zie je wel? Het onweer is nog ver weg.\"\n\nToen kwam papa binnen met zijn grote paraplu. Hij had Lisa en mama gehoord praten over het onweer. \"Jullie hebben het over de storm, hè?\" zei hij lachend. \"Weten jullie dat donder eigenlijk gewoon het geluid van bliksem is? De lucht wordt zo heet door de bliksem dat hij snel uitzet. Dat maakt het geluid dat wij horen.\"\n\nLisa luisterde goed naar papa's uitleg. Ze had nooit geweten dat donder en bliksem eigenlijk hetzelfde ding waren. \"Dus donder kan me geen pijn doen?\" vroeg ze voorzichtig. Papa schudde zijn hoofd. \"Nee, donder is alleen geluid. En wij zijn veilig binnen.\"\n\nDe volgende bliksemflits kwam. Deze keer telde Lisa zonder angst: \"Een, twee, drie.\" De donder klonk luider, maar Lisa glimlachte. \"Eén kilometer!\" riep ze trots. Ze was niet meer bang omdat ze nu begreep wat er gebeurde. Het onweer was eigenlijk heel interessant om te bekijken vanuit hun warme, droge huis.",
+  "questions": [
+    {
+      "question": "Waar keek Lisa doorheen toen ze de wolken zag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het raam",
+        "het raam van haar kamer",
+        "door het raam"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Hoe kon Lisa meten hoe ver de bliksem weg was?",
+      "questionType": "begrijpen",
+      "hint": "Mama legt dit uit in de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "seconden"
+          ],
+          [
+            "tellen"
+          ],
+          [
+            "door"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was Lisa eerst bang voor het onweer?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig"
+          ],
+          [
+            "donder",
+            "onweer",
+            "geluid",
+            "boem"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa voelde in het begin van het verhaal."
+    },
+    {
+      "question": "Wat betekent het woord 'uitzet' in de uitleg van papa?",
+      "questionType": "woordbetekenis",
+      "hint": "Papa vertelt over warme lucht die iets doet door de bliksem.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "groter wordt"
+          ],
+          [
+            "zich uitbreidt"
+          ],
+          [
+            "groter maken"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-donderdag-met-donder/image-1.png",
+      "alt": "Lisa kijkt angstig door het raam naar donkere onweerswolken boven de Nederlandse polder"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-donderdag-met-donder/image-2.png",
+      "alt": "Lisa telt op haar vingers terwijl bliksem flitst en haar ouders uitleggen hoe onweer werkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking anxiously through a bedroom window at dark storm clouds gathering over the Dutch countryside with flat polders and windmills, children's book illustration style",
+    "The same girl now smiling and counting on her fingers while lightning flashes outside, with her parents explaining the storm to her in a cozy Dutch home interior, children's book illustration style"
+  ]
+}

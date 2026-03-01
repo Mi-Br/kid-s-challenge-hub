@@ -1,0 +1,72 @@
+{
+  "id": "emma-verjaardag-alleen",
+  "title": "Emma's Verjaardag Alleen",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "verjaardagen",
+  "text": "Emma wordt acht jaar. Het is haar verjaardag. Ze heeft een mooie blauwe jurk aan. Mama maakt taart. Papa hangt slingers op.\n\nEmma kijkt uit het raam. Ze wacht op vrienden. Maar er komt niemand. Emma wordt verdrietig. Ze heeft geen vrienden uitgenodigd.\n\nMama ziet dat Emma huilt. \"Wat is er?\" vraagt mama. \"Ik heb geen vrienden,\" zegt Emma. \"Dat is niet waar,\" zegt mama. \"Oma en opa komen straks. Tante Lisa komt ook.\"\n\nEr wordt gebeld. Oma en opa staan voor de deur. Ze hebben cadeaus. Tante Lisa komt ook. Ze zingt voor Emma. Emma lacht weer. Het wordt toch een fijne verjaardag.",
+  "questions": [
+    {
+      "question": "Hoe oud wordt Emma?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "acht"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Welke kleur jurk heeft Emma aan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw",
+        "blauwe"
+      ],
+      "hint": "Lees over Emma's kleren."
+    },
+    {
+      "question": "Waarom wordt Emma verdrietig?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar wat Emma tegen mama zegt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "heeft"
+          ],
+          [
+            "geen"
+          ],
+          [
+            "vrienden"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/emma-verjaardag-alleen/image-1.png",
+      "alt": "Emma in een blauwe jurk kijkt verdrietig uit het raam"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/emma-verjaardag-alleen/image-2.png",
+      "alt": "Oma, opa en tante Lisa komen met cadeaus bij Emma"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Emma in a blue dress looking sadly out the window while her parents decorate with streamers and cake in the background, children's book illustration style",
+    "A happy family scene with grandparents and an aunt arriving with presents for Emma's birthday party, everyone smiling together, children's book illustration style"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "een-ander-verhaal",
+  "title": "Een Ander Verhaal",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "cultuur",
+  "text": "Maya had altijd gedacht dat ze alles wist over haar wijk. Ze woonde hier al haar hele leven, ging naar de Nederlandse school en sprak perfect Nederlands. Haar beste vriendin Sanne woonde naast haar en ze deden alles samen.\n\nOp een middag liep Maya naar de bibliotheek toen ze Ahmed zag zitten op een bankje. Hij zat in haar klas maar ze hadden nooit echt gepraat. Ahmed staarde naar een brief in zijn handen en zag er verdrietig uit. Maya voelde haar hart sneller kloppen - ze vond Ahmed al maanden leuk, maar durfde het nooit te zeggen.\n\n\"Gaat het wel goed?\" vroeg Maya voorzichtig. Ahmed keek op en glimlachte zwakjes. \"Mijn oma schrijft uit Syrië. Ze mist me zo erg, maar ik kan haar Nederlandse verhalen niet vertellen. Ze begrijpt ze niet.\" Maya voelde zich plotseling klein. Zij kon altijd alles delen met haar oma, die drie straten verderop woonde.\n\n\"Misschien kan ik helpen,\" zei Maya. \"Ik spreek alleen Nederlands, maar we kunnen samen iets bedenken.\" Ahmed schudde zijn hoofd. \"Je begrijpt het niet. Jij hoeft nooit te kiezen tussen twee werelden.\" Die woorden raakten Maya diep. Ze had nooit beseft hoe makkelijk haar leven was.\n\nThuis kon Maya niet slapen. Ze dacht aan alle keren dat Ahmed stil was geweest in de klas, hoe hij soms alleen stond op het schoolplein. Ze voelde zich schuldig dat ze dit nooit had opgemerkt. Maar schuldig voelen was niet genoeg.\n\nDe volgende dag ging Maya naar mevrouw De Vries, de bibliothecaris. \"Heeft de bibliotheek boeken in andere talen?\" vroeg ze. \"Natuurlijk,\" zei mevrouw De Vries. \"We hebben een hele internationale afdeling. Waarom vraag je dat?\" Maya legde uit wat ze wilde doen.\n\nEen week later organiseerde Maya een verhalenavond in de bibliotheek. Kinderen uit verschillende landen vertelden verhalen in hun eigen taal, met Nederlandse vertaling erbij. Ahmed las een verhaal voor dat zijn oma hem had geleerd. Maya zag hoe trots hij keek en hoe geïnteresseerd de andere kinderen waren.\n\n\"Dank je wel,\" fluisterde Ahmed na afloop tegen Maya. Hoewel hij niet verliefd op haar werd, voelde Maya zich gelukkig. Ze had geleerd dat echte vriendschap soms belangrijker is dan romantische gevoelens.",
+  "questions": [
+    {
+      "question": "Waarom kon Ahmed zijn Nederlandse verhalen niet met zijn oma delen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze begrijpt ze niet",
+        "zijn oma begrijpt ze niet",
+        "omdat ze ze niet begrijpt"
+      ],
+      "hint": "Kijk naar wat Ahmed zegt over zijn oma in de derde alinea."
+    },
+    {
+      "question": "Hoe voelde Maya zich nadat Ahmed zei dat zij nooit hoeft te kiezen tussen twee werelden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "klein",
+            "schuldig",
+            "geraakt",
+            "diep geraakt"
+          ],
+          [
+            "besefte",
+            "beseft",
+            "realiseerde",
+            "had nooit beseft",
+            "nooit beseft"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan Maya's reactie na Ahmeds woorden en wat ze thuis voelde."
+    },
+    {
+      "question": "Waarom ging Maya naar de bibliothecaris om te vragen naar boeken in andere talen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "helpen",
+            "wilde helpen",
+            "wilde",
+            "help"
+          ],
+          [
+            "ahmed",
+            "anderen",
+            "kinderen"
+          ],
+          [
+            "verhalen",
+            "verhalenavond",
+            "organiseren",
+            "iets doen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Maya wilde bereiken na haar gesprek met Ahmed."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over bewustwording van privileges, empathie ontwikkelen voor anderen, en positieve actie ondernemen om verschillen te overbruggen.",
+        "exampleAnswer": "Het verhaal gaat over hoe Maya beseft dat niet iedereen dezelfde mogelijkheden heeft en hoe ze iets doet om anderen te helpen.",
+        "keyElements": [
+          "bewustzijn/beseffen/realiseren",
+          "privileges/voordelen/makkelijk leven",
+          "helpen/actie ondernemen/iets doen",
+          "verschillen/culturen/andere achtergronden"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan Maya's ontwikkeling in het verhaal - wat leert ze en wat doet ze ermee?"
+    },
+    {
+      "question": "Vind je dat Maya de juiste manier koos om Ahmed te helpen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Maya's aanpak en deze onderbouwen met argumenten uit de tekst of eigen redenering. Zowel positieve als negatieve oordelen zijn acceptabel als ze goed beargumenteerd zijn.",
+        "exampleAnswer": "Ja, ik vind het goed omdat Maya niet alleen medelijden had maar echt iets deed. Ze gaf Ahmed en andere kinderen de kans om hun cultuur te delen.",
+        "keyElements": [
+          "mening/vind/denk",
+          "omdat/want/reden",
+          "verhalenavond/organiseren/actie",
+          "positief/goed/juist of negatief/verkeerd/anders"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over het resultaat van Maya's actie en of dit een goede oplossing was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/een-ander-verhaal/image-1.png",
+      "alt": "Maya praat met Ahmed op een bankje terwijl hij een brief vasthoudt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/een-ander-verhaal/image-2.png",
+      "alt": "Kinderen van verschillende culturen vertellen verhalen in de bibliotheek"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch teenage girl talking to a sad Middle Eastern boy sitting on a park bench holding a letter, children's book illustration style, warm afternoon lighting",
+    "A multicultural storytelling event in a Dutch library with children from different cultures sharing stories, books and flags visible, children's book illustration style"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "de-enge-clown",
+  "title": "De Enge Clown",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Emma wordt vandaag zes jaar. Haar mama heeft een groot feest georganiseerd in de tuin. Alle kinderen uit haar klas komen. Emma is heel blij, maar ook een beetje bang. Want mama heeft een verrassing besteld: een echte clown!\n\nEmma vindt clowns eng omdat ze zo'n rare witte schmink hebben. Ze verstopt zich achter de schutting toen de clown aankwam. \"Kom Emma,\" zegt papa. \"Clown Pipo wil je feliciteren.\" Emma schudt haar hoofd want ze durft niet.\n\nAlle andere kinderen lachen om de grappige grapjes van clown Pipo. Hij kan jongleren met gekleurde ballen en maakt ballonnen in de vorm van hondjes. Emma kijkt vanuit haar verstopplek en vindt het eigenlijk wel leuk.\n\nDan valt er een ballon naast Emma neer. Clown Pipo komt naar haar toe en zegt zacht: \"Hallo Emma, gefeliciteerd met je verjaardag.\" Hij geeft haar de roze ballonhond. Emma ziet dat clown Pipo vriendelijke ogen heeft. Ze zegt heel zacht: \"Dank je wel.\" Maar of Emma durft mee te doen met de andere kinderen...",
+  "questions": [
+    {
+      "question": "Hoe oud wordt Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zes jaar",
+        "zes"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Hoe voelt Emma zich over de clown?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bang",
+        "een beetje bang"
+      ],
+      "hint": "Kijk in de eerste alinea."
+    },
+    {
+      "question": "Waarom vindt Emma clowns eng?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "witte",
+            "wit",
+            "rare"
+          ],
+          [
+            "schmink",
+            "verf",
+            "gezicht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er in de tweede alinea staat over hoe clowns eruitzien."
+    },
+    {
+      "question": "Vind jij dat Emma moet meespelen met de andere kinderen? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "moet",
+            "moeten"
+          ],
+          [
+            "nee",
+            "niet",
+            "hoeft"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat goed is voor Emma en geef je mening."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-enge-clown/image-1.png",
+      "alt": "Emma verstopt zich achter een schutting terwijl een clown in de tuin staat"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-enge-clown/image-2.png",
+      "alt": "Clown Pipo geeft Emma een roze ballonhond"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl hiding behind a wooden fence in a garden while a colorful clown performs for children at a birthday party, children's book illustration style",
+    "A friendly clown with kind eyes giving a pink balloon dog to a shy little girl, warm and reassuring scene, children's book illustration style"
+  ]
+}

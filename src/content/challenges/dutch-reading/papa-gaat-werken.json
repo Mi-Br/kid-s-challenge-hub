@@ -1,0 +1,98 @@
+{
+  "id": "papa-gaat-werken",
+  "title": "Papa Gaat Werken",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Papa zet zijn tas bij de deur. \"Ik ga vandaag werken,\" zegt hij tegen Lara. Lara wordt boos omdat papa wegaat. \"Ik wil niet dat je gaat!\" roept ze hard. Ze gooit haar speelgoed op de grond.\n\nPapa kijkt verdrietig. Hij bukt en pakt Lara's beer op. \"Het spijt me dat je boos bent,\" zegt papa zacht. Lara voelt zich nu ook verdrietig want papa ziet er zo triest uit.\n\n\"Sorry papa,\" fluistert Lara. \"Ik was stout.\" Papa geeft haar een knuffel. \"Het is goed, lieverd. Ik kom vanavond terug en dan spelen we samen.\" Ze zwaaien elkaar gedag bij het raam.\n\nVanuit papa's auto ziet hij Lara nog zwaaien. Hij denkt: \"Mijn kleine meid vindt het moeilijk als ik wegga.\" Papa voelt zich een beetje schuldig omdat hij Lara verdrietig maakte.\n\nDie avond komt papa thuis met een cadeautje. Het is Sinterklaas volgende week en hij heeft pepernoten gekocht. Lara rent naar de deur. \"Papa!\" roept ze blij. Ze eten samen pepernoten en vertellen over hun dag.",
+  "questions": [
+    {
+      "question": "Wat gooit Lara op de grond?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "haar speelgoed",
+        "speelgoed"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat koopt papa voor Lara?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "pepernoten"
+      ],
+      "hint": "Lees de laatste alinea goed."
+    },
+    {
+      "question": "Waarom wordt Lara verdrietig nadat ze boos was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "papa",
+            "vader"
+          ],
+          [
+            "verdrietig",
+            "triest",
+            "zielig"
+          ],
+          [
+            "ziet",
+            "kijkt",
+            "zag"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe papa eruitziet in de tweede alinea."
+    },
+    {
+      "question": "Vind jij dat papa en Lara het goed oplossen? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "sorry",
+            "excuses",
+            "spijt"
+          ],
+          [
+            "knuffel",
+            "knuffelen",
+            "omhelzen"
+          ],
+          [
+            "goed",
+            "lief",
+            "fijn",
+            "mooi"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat ze tegen elkaar zeggen en doen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/papa-gaat-werken/image-1.png",
+      "alt": "Papa met zijn tas bij de deur en boos meisje die speelgoed gooit"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/papa-gaat-werken/image-2.png",
+      "alt": "Papa en Lara eten samen pepernoten aan tafel"
+    }
+  ],
+  "imagePrompts": [
+    "A father with his work bag by the door and an upset little girl throwing toys on the floor in a Dutch home, children's book illustration style",
+    "A father and young daughter happily eating pepernoten cookies together at a kitchen table in the evening, children's book illustration style"
+  ]
+}

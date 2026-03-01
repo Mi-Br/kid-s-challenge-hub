@@ -1,0 +1,113 @@
+{
+  "id": "sams-nieuwe-jas",
+  "title": "Sams Nieuwe Jas",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "kleding",
+  "text": "Sam keek naar zijn oude winterjas. De rits was kapot en er zaten gaten in de mouwen. Vorige week had mama gezegd: \"We gaan binnenkort een nieuwe jas voor je kopen.\"\n\nIn de winkel probeerde Sam eerst een rode jas. \"Deze is te groot,\" zei hij teleurgesteld. Daarna pakte hij een blauwe jas, maar die was te klein. Sam werd boos omdat niets paste.\n\nToen herinnerde hij zich wat opa altijd zei: \"Geduld brengt geluk, Sam.\" Hij ademde diep in en keek nog een keer rond. In de hoek hing een groene jas die hij eerst niet had gezien.\n\nSam trok de groene jas aan. Hij paste perfect! Maar toen hij in de spiegel keek, zag hij iets bijzonders. Op de achterkant stond zijn naam geborduurd. \"Hoe kan dat?\" vroeg hij verbaasd. Mama glimlachte: \"Ik heb deze jas vorige maand al gekocht en laten borduren. Het was een verrassing!\"",
+  "questions": [
+    {
+      "question": "Wat was er kapot aan Sams oude jas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de rits"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat was er kapot aan Sams oude jas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de rits was kapot"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom werd Sam boos in de winkel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niets",
+            "geen",
+            "niet"
+          ],
+          [
+            "paste",
+            "pasten",
+            "passen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde met de rode en blauwe jas."
+    },
+    {
+      "question": "Wat betekent het woord 'geborduurd' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk naar de laatste alinea waar staat wat Sam op de jas zag.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "zijn naam erop gezet"
+          ],
+          [
+            "letters erop genaaid"
+          ],
+          [
+            "versierd met zijn naam"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind je dat mama een goede verrassing had? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "leuk",
+            "fijn"
+          ],
+          [
+            "verrassing",
+            "naam",
+            "jas",
+            "paste",
+            "perfect"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Sam zich voelde toen hij de groene jas ontdekte."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sams-nieuwe-jas/image-1.png",
+      "alt": "Sam probeert verschillende jassen in een kledingwinkel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sams-nieuwe-jas/image-2.png",
+      "alt": "Sam kijkt verbaasd in de spiegel naar zijn groene jas met zijn naam erop"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy trying on different colored winter coats in a Dutch clothing store, looking frustrated, children's book illustration style",
+    "A surprised young boy looking in a mirror wearing a green winter coat with his name embroidered on the back, his mother smiling nearby, children's book illustration style"
+  ]
+}

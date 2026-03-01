@@ -1,0 +1,119 @@
+{
+  "id": "de-verdwenen-boeken",
+  "title": "De Verdwenen Boeken",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de bibliotheek",
+  "text": "Lisa kwam elke woensdag naar de bibliotheek om nieuwe boeken te lenen. Ze hield van verhalen over avonturen en geheime werelden. Vandaag zocht ze naar het tweede deel van haar favoriete serie, maar het boek stond niet op de gewone plek.\n\nDe bibliothecaresse, mevrouw Van Dam, keek bezorgd toen Lisa haar vroeg naar het boek. \"Dat is vreemd,\" zei ze terwijl ze haar computer raadpleegde. \"Volgens het systeem zijn er deze week al drie boeken uit die serie verdwenen. Ze zijn niet uitgeleend, maar ook niet op de plank.\"\n\nLisa besloot zelf te onderzoeken wat er gebeurde. Ze liep door de verschillende afdelingen en lette goed op. Bij de kinderhoek zag ze een jongen die nerveus rondkeek voordat hij een boek in zijn rugzak stopte. Hij ging niet naar de balie om het boek te lenen.\n\nVoorzichtig volgde Lisa de jongen naar buiten. Op het plein zag ze hem met andere kinderen praten. Ze hoorde hem zeggen: \"Mijn ouders hebben geen geld voor boeken, maar ik wil zo graag lezen.\" Lisa voelde zich verdrietig omdat ze begreep waarom hij de boeken meenam.\n\nDe volgende dag vertelde Lisa aan mevrouw Van Dam wat ze had ontdekt. Samen bedachten ze een oplossing: de bibliotheek zou een speciale actie organiseren waarbij kinderen gratis boeken konden krijgen die anders weggegooid zouden worden. Hoewel Lisa blij was met de oplossing, bleef ze zich zorgen maken over alle kinderen die misschien nog steeds geen toegang hadden tot boeken.",
+  "questions": [
+    {
+      "question": "Waar kwam Lisa elke week om boeken te lenen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de bibliotheek",
+        "naar de bibliotheek"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom stopte de jongen het boek in zijn rugzak in plaats van het te lenen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "geen geld",
+            "arm",
+            "koop",
+            "kopen"
+          ],
+          [
+            "ouders",
+            "vader",
+            "moeder",
+            "familie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat de jongen zegt tegen de andere kinderen op het plein."
+    },
+    {
+      "question": "Wat voor gevoel kreeg Lisa toen ze de jongen hoorde praten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "droevig",
+            "zielig",
+            "medelijden"
+          ],
+          [
+            "begreep",
+            "snapte",
+            "verstond",
+            "besefte"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea waar Lisa de jongen hoort praten."
+    },
+    {
+      "question": "Vind je dat Lisa het juiste deed door de jongen te volgen? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee) en deze onderbouwen met argumenten. Beide standpunten zijn verdedigbaar: ja omdat ze problemen wilde oplossen, nee omdat het niet haar taak was of privacy schendt.",
+        "exampleAnswer": "Ik vind van wel, omdat Lisa wilde helpen en de bibliotheek wilde beschermen. Door hem te volgen kon ze het probleem begrijpen en een goede oplossing vinden.",
+        "keyElements": [
+          "mening/standpunt",
+          "onderbouwing/argument",
+          "helpen/oplossen of privacy/verkeerd"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de gevolgen van Lisa's actie en geef je eigen mening."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het begrijpen van andermans problemen en het vinden van oplossingen in plaats van straffen. Het gaat over empathie en sociale rechtvaardigheid rond toegang tot boeken/onderwijs.",
+        "exampleAnswer": "Het verhaal gaat over het begrijpen waarom mensen soms verkeerde dingen doen en het vinden van oplossingen die iedereen helpen.",
+        "keyElements": [
+          "begrijpen/begrip",
+          "problemen/moeilijkheden",
+          "oplossingen/helpen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Lisa leert over de jongen en hoe ze daarmee omgaat."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-boeken/image-1.png",
+      "alt": "Lisa zoekt tussen de boekenplanken in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-boeken/image-2.png",
+      "alt": "Een jongen stopt heimelijk een boek in zijn rugzak"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl searching through library bookshelves looking puzzled, children's book illustration style, warm library interior with colorful books",
+    "A nervous boy secretly putting a book into his backpack in a library corner, children's book illustration style, showing his worried expression"
+  ]
+}

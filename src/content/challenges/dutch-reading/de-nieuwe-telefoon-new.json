@@ -1,0 +1,119 @@
+{
+  "id": "de-nieuwe-telefoon",
+  "title": "De Nieuwe Telefoon",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "media",
+  "text": "Emma kreeg een nieuwe telefoon voor haar verjaardag. Het was een heel dure telefoon met een mooie camera. Ze was er heel blij mee.\n\nOp school liet Emma haar nieuwe telefoon aan iedereen zien. Haar vriendin Lisa zei: \"Wat een mooie telefoon! Ik wou dat ik er ook een had.\" Lisa had een oude telefoon die niet goed werkte.\n\nEmma maakte veel foto's met haar nieuwe telefoon. Ze zette de foto's op Instagram. Alle foto's kregen veel likes. Emma voelde zich populair.\n\nDie avond vertelde Emma's moeder over kinderen die geen telefoon hebben. \"Niet alle kinderen hebben ouders die een dure telefoon kunnen kopen,\" zei mama. Emma dacht aan Lisa. Zij voelde zich een beetje schuldig.\n\nDe volgende dag op school hielp Emma Lisa met het maken van foto's. Emma gebruikte haar telefoon om mooie foto's van Lisa te maken. Lisa was heel blij. Emma voelde zich goed omdat ze haar vriendin had geholpen.\n\nEmma besloot om vaker te delen met haar vrienden. Ze begreep nu dat niet iedereen dezelfde dingen heeft. Het is belangrijk om aardig te zijn voor elkaar.",
+  "questions": [
+    {
+      "question": "Wat kreeg Emma voor haar verjaardag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een nieuwe telefoon",
+        "een telefoon",
+        "een dure telefoon"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelde Emma zich schuldig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lisa",
+            "vriendin",
+            "anderen"
+          ],
+          [
+            "geen",
+            "niet",
+            "oude"
+          ],
+          [
+            "telefoon",
+            "dure",
+            "spullen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat mama zei en aan Lisa's situatie."
+    },
+    {
+      "question": "Hoe hielp Emma haar vriendin Lisa?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "foto's",
+            "foto",
+            "maken"
+          ],
+          [
+            "hielp",
+            "help",
+            "gebruikte"
+          ],
+          [
+            "telefoon",
+            "camera"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vijfde paragraaf goed."
+    },
+    {
+      "question": "Wat leerde Emma in dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "geen",
+            "andere"
+          ],
+          [
+            "iedereen",
+            "allemaal",
+            "kinderen"
+          ],
+          [
+            "delen",
+            "aardig",
+            "helpen",
+            "belangrijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de laatste paragraaf van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-telefoon/image-1.png",
+      "alt": "Emma laat haar nieuwe telefoon aan Lisa zien op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-telefoon/image-2.png",
+      "alt": "Emma maakt foto's van Lisa met haar telefoon"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch teenage girls at school, one showing her new smartphone to her friend, children's book illustration style, bright classroom setting",
+    "A Dutch teenage girl taking photos of her smiling friend with a smartphone, children's book illustration style, schoolyard background"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "de-smaak-van-herinneringen",
+  "title": "De Smaak van Herinneringen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wereldkeuken",
+  "text": "Yasmin staarde naar de dampende pan op het fornuis. De geur van kaneel en kardemom vulde de keuken, precies zoals vroeger in het huis van haar oma in Marokko. Maar hier, in hun appartement in Amsterdam, voelde alles anders. Haar Nederlandse vrienden zouden over een uur komen voor het diner dat ze had beloofd te koken.\n\n\"Misschien had ik gewoon pizza moeten bestellen,\" mompelde ze tegen zichzelf. Sinds ze naar Nederland was verhuisd, worstelde Yasmin met de vraag wie ze eigenlijk was. Op school sprak ze perfect Nederlands en praatte ze over voetbal en Nederlandse tv-series. Thuis met haar ouders keerde ze terug naar het Arabisch en de tradities van haar geboorteland.\n\nToen haar vriendin Lisa had gevraagd wat haar lievelingseten was, had Yasmin geaarzeld. Moest ze zeggen dat ze dol was op stroopwafels en bitterballen, zoals haar klasgenoten? Of moest ze eerlijk zijn over haar passie voor tajine en muntthee? Uiteindelijk had ze besloten haar vrienden uit te nodigen voor een authentieke Marokkaanse maaltijd.\n\nDe bel ging. Yasmin's hart bonsde terwijl ze naar de deur liep. Lisa, Tom en Sarah stonden voor de deur met nieuwsgierige gezichten. \"Het ruikt hier fantastisch!\" riep Lisa uit. \"Wat is dat voor heerlijke geur?\"\n\nTijdens het eten vertelde Yasmin verhalen over haar oma, die haar had geleerd koken toen ze klein was. Ze legde uit hoe je met je handen uit de tajine eet en waarom muntthee zo belangrijk is in de Marokkaanse cultuur. Haar vrienden luisterden gefascineerd en stelden talloze vragen.\n\n\"Weet je,\" zei Sarah terwijl ze een hapje nam, \"ik ben eigenlijk jaloers op je. Jij hebt toegang tot twee verschillende werelden. Dat maakt je juist zo bijzonder.\" Tom knikte instemmend. \"Mijn oma maakt alleen maar erwtensoep. Dit is veel interessanter!\"\n\nToen haar vrienden weg waren, ruimde Yasmin de keuken op met een glimlach. Ze besefte dat ze niet hoefde te kiezen tussen haar Marokkaanse en Nederlandse identiteit. Ze was beide, en dat was precies wat haar uniek maakte. De volgende week zou ze Lisa's moeder leren hoe je echte stroopwafels bakt – een perfecte uitwisseling van culturen.\n\nDie avond schreef Yasmin in haar dagboek: \"Vandaag heb ik ontdekt dat authenticiteit niet betekent dat je maar één ding kunt zijn. Ik ben Marokkaans-Nederlands, en beide delen van mij verdienen respect en ruimte.\"",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het accepteren van een dubbele culturele identiteit en het besef dat je niet hoeft te kiezen tussen verschillende delen van jezelf.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat leert dat ze zowel Marokkaans als Nederlands kan zijn en dat beide delen van haar identiteit waardevol zijn.",
+        "keyElements": [
+          "dubbele identiteit/twee culturen",
+          "accepteren/omarmen",
+          "niet kiezen/beide zijn"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Yasmin aan het eind van het verhaal heeft geleerd over zichzelf."
+    },
+    {
+      "question": "Waarom aarzelde Yasmin toen Lisa vroeg wat haar lievelingseten was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Yasmin twijfelde omdat ze niet wist of ze haar Nederlandse of Marokkaanse kant moest tonen, ze was onzeker over haar identiteit.",
+        "exampleAnswer": "Ze wist niet of ze Nederlands eten moest noemen om erbij te horen, of eerlijk moest zijn over haar liefde voor Marokkaans eten.",
+        "keyElements": [
+          "twijfel/onzekerheid",
+          "Nederlandse of Marokkaanse kant",
+          "erbij horen/acceptatie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar de tweede alinea waar wordt uitgelegd hoe Yasmin zich voelde over haar verschillende identiteiten."
+    },
+    {
+      "question": "Analyseer hoe de schrijver de contrasten tussen Yasmin's twee werelden gebruikt om haar innerlijke conflict te illustreren.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de schrijver bewust contrasten gebruikt (Nederlands op school vs Arabisch thuis, stroopwafels vs tajine, verschillende talen) om Yasmin's identiteitsworsteling te verduidelijken.",
+        "exampleAnswer": "De schrijver laat zien hoe Yasmin op school Nederlands spreekt over voetbal, maar thuis Arabisch spreekt en Marokkaanse tradities volgt. Deze tegenstellingen tonen haar innerlijke verdeeldheid.",
+        "keyElements": [
+          "contrasten/tegenstellingen",
+          "twee werelden/culturen",
+          "innerlijke conflict/worsteling"
+        ],
+        "minWords": 10
+      },
+      "hint": "Let op hoe de tweede alinea de verschillen tussen school en thuis beschrijft."
+    },
+    {
+      "question": "Wat wilde de schrijver volgens jou bereiken met dit verhaal? Onderbouw je antwoord met voorbeelden uit de tekst.",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wilde laten zien dat multiculturele identiteit iets positiefs is en dat je niet hoeft te kiezen tussen verschillende culturen. Moet voorbeelden uit de tekst gebruiken.",
+        "exampleAnswer": "De schrijver wilde laten zien dat je trots mag zijn op een multiculturele achtergrond. Dit blijkt uit Sarah's opmerking dat Yasmin 'toegang tot twee werelden' heeft en uit Yasmin's besluit om ook Lisa's moeder te leren koken.",
+        "keyElements": [
+          "multiculturele identiteit positief/waardevol",
+          "trots/acceptatie",
+          "voorbeelden uit tekst"
+        ],
+        "minWords": 12
+      },
+      "hint": "Denk na over de boodschap die de schrijver wil overbrengen en zoek concrete voorbeelden in het verhaal."
+    },
+    {
+      "question": "Evalueer of Yasmin's oplossing realistisch is. Zouden alle multiculturele jongeren deze ervaring hebben?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een onderbouwde mening geven over de realiteit van Yasmin's positieve ervaring, rekening houdend met mogelijke uitdagingen die andere multiculturele jongeren kunnen hebben.",
+        "exampleAnswer": "Yasmin heeft geluk dat haar vrienden zo positief reageren, maar niet alle multiculturele jongeren hebben zulke begripvolle vrienden. Sommigen ervaren misschien meer vooroordelen of druk om te kiezen.",
+        "keyElements": [
+          "eigen mening/evaluatie",
+          "realisme/werkelijkheid",
+          "andere ervaringen/uitdagingen"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over of alle jongeren met een multiculturele achtergrond zulke positieve reacties zouden krijgen van hun vrienden."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-smaak-van-herinneringen/image-1.png",
+      "alt": "Yasmin staat in de keuken bij een dampende pan met Marokkaanse kruiden"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-smaak-van-herinneringen/image-2.png",
+      "alt": "Yasmin en haar Nederlandse vrienden zitten rond een tafel met traditionele Marokkaanse tajine"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl with North African features standing in a modern Dutch kitchen, looking thoughtfully at a steaming pot with aromatic spices, children's book illustration style, warm lighting",
+    "A diverse group of teenagers sitting around a dining table sharing a traditional Moroccan tagine meal, laughing and engaged in conversation, children's book illustration style, cozy atmosphere"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "de-waarheid-over-sociale-media",
+  "title": "De Waarheid over Sociale Media",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "media",
+  "text": "Lisa kijkt elke dag naar de foto's op Instagram. Ze ziet haar klasgenoten op vakantie. Ze zien er allemaal zo gelukkig uit. Hun leven lijkt perfect. Lisa vraagt zich af waarom zij zich zo anders voelt. Waarom is zij niet altijd blij zoals de anderen?\n\nOp school vertelt Lisa over haar zorgen. Haar vriendin Emma luistert goed. Emma zegt dat sociale media niet altijd de waarheid laat zien. Mensen posten alleen hun mooie momenten. Ze laten hun verdrietige momenten niet zien. Emma vertelt dat ook zij zich soms verdrietig voelt. Dat is heel normaal.\n\nLisa begint na te denken over wat Emma zegt. Ze realiseert zich dat iedereen wel eens verdrietig is. Ook haar klasgenoten hebben moeilijke dagen. Maar die zie je niet op sociale media. Lisa voelt zich al wat beter. Ze besluit om minder tijd op Instagram door te brengen.\n\nLisa gaat vaker met echte vrienden praten in plaats van naar foto's kijken. Ze ontdekt dat haar vrienden ook zorgen hebben. Ze helpen elkaar. Lisa leert dat het oké is om niet altijd gelukkig te zijn. Ze praat nu openlijk over haar gevoelens. Dat voelt veel beter dan alleen maar naar foto's kijken.\n\nLisa gebruikt sociale media nu op een slimmere manier. Ze volgt accounts die eerlijk zijn over gevoelens. Ze post ook zelf eerlijker. Soms deelt ze dat ze een moeilijke dag heeft. Haar vrienden reageren lief. Lisa heeft geleerd dat echte vriendschap belangrijker is dan likes op internet.",
+  "questions": [
+    {
+      "question": "Waar kijkt Lisa elke dag naar?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "foto's op instagram",
+        "instagram foto's",
+        "de foto's op instagram"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelt Lisa zich anders dan haar klasgenoten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "sociale media",
+            "instagram",
+            "foto's"
+          ],
+          [
+            "perfect",
+            "gelukkig",
+            "blij",
+            "mooie momenten"
+          ],
+          [
+            "waarheid",
+            "niet echt",
+            "alleen mooie",
+            "verbergen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma uitlegt over sociale media."
+    },
+    {
+      "question": "Wat leert Lisa over haar klasgenoten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ook verdrietig",
+            "moeilijke dagen",
+            "zorgen hebben"
+          ],
+          [
+            "niet altijd gelukkig",
+            "niet altijd blij",
+            "ook problemen"
+          ],
+          [
+            "sociale media",
+            "niet de waarheid",
+            "verbergen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Lisa begint te begrijpen in de derde alinea."
+    },
+    {
+      "question": "Hoe gebruikt Lisa sociale media nu?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "slimmer",
+            "beter",
+            "anders"
+          ],
+          [
+            "eerlijk",
+            "eerlijker",
+            "open",
+            "openlijk"
+          ],
+          [
+            "echte vrienden",
+            "echt praten",
+            "minder tijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "De laatste alinea vertelt over Lisa's nieuwe manier."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-over-sociale-media/image-1.png",
+      "alt": "Lisa kijkt naar Instagram foto's op haar telefoon"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-over-sociale-media/image-2.png",
+      "alt": "Lisa praat met Emma op school over sociale media"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking at Instagram photos on her phone with a worried expression, children's book illustration style, Dutch school setting",
+    "Two teenage girls having a friendly conversation at school about social media and feelings, children's book illustration style, Dutch classroom background"
+  ]
+}

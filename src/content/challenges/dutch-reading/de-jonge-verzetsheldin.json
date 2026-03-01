@@ -1,0 +1,98 @@
+{
+  "id": "de-jonge-verzetsheldin",
+  "title": "De Jonge Verzetsheldin",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Lisa zat in groep 8 toen haar juf vertelde over de Tweede Wereldoorlog. Alle kinderen moesten een verhaal schrijven over een Nederlandse held uit die tijd. Lisa wist niet over wie ze moest schrijven.\n\nThuis vroeg Lisa aan haar oma: \"Oma, ken jij een echte held uit de oorlog?\" Oma glimlachte en pakte een oude foto. Op de foto stond een jong meisje met donker haar.\n\n\"Dit is Truus Wijsmuller,\" zei oma. \"Zij was nog maar achttien jaar toen de oorlog begon. Truus hielp Joodse kinderen om veilig naar Engeland te gaan. Ze redde meer dan duizend kinderen!\"\n\nLisa keek verbaasd naar de foto. \"Was ze zo jong? Ik dacht dat helden altijd oude mensen waren.\"\n\n\"Nee,\" zei oma. \"Helden kunnen elke leeftijd hebben. Truus was moedig omdat ze wist wat goed was. Ze deed gevaarlijk werk, maar ze wilde de kinderen helpen.\"\n\nLisa voelde zich trots. Nu wist ze over wie haar verhaal zou gaan. Misschien kon zij ook moedig zijn, net als Truus.",
+  "questions": [
+    {
+      "question": "Over welke tijd moesten de kinderen een verhaal schrijven?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de tweede wereldoorlog",
+        "tweede wereldoorlog",
+        "de oorlog"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom ging Lisa naar haar oma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "wist niet",
+            "weten",
+            "kende geen",
+            "hulp",
+            "help"
+          ],
+          [
+            "held",
+            "verhaal",
+            "schrijven"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa niet wist voor haar verhaal."
+    },
+    {
+      "question": "Hoe oud was Truus toen de oorlog begon?",
+      "questionType": "begrijpen",
+      "hint": "Het antwoord staat in het derde stukje.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "achttien"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat voor gevoel kreeg Lisa aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "trots",
+            "trotse"
+          ],
+          [
+            "moedig",
+            "moed",
+            "moediger"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal nog eens."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-jonge-verzetsheldin/image-1.png",
+      "alt": "Lisa en haar oma bekijken samen een oude foto van Truus Wijsmuller"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-jonge-verzetsheldin/image-2.png",
+      "alt": "Lisa schrijft enthousiast in haar schrift over haar verhaal"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her grandmother sitting together looking at an old black and white photograph, children's book illustration style, warm domestic setting",
+    "A young girl writing enthusiastically in her notebook at a desk, looking inspired and determined, children's book illustration style"
+  ]
+}

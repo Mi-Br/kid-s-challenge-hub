@@ -1,0 +1,141 @@
+{
+  "id": "de-stemming-van-amara",
+  "title": "De Stemming van Amara",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "democratie",
+  "text": "Amara stond voor het gemeentehuis in Utrecht en keek naar de Nederlandse vlag. Vandaag was er een belangrijke stemming over een nieuw speeltuinplan in haar wijk. Haar vader had uitgelegd dat iedereen van achttien jaar en ouder mocht stemmen. 'Dat is democratie,' had hij gezegd.\n\nAmara's Nederlandse vrienden wilden een moderne speeltuin met klimtoestellen en een voetbalveld. Haar Somalische buurvrouw wenste juist een rustige plek met bankjes en bloemen, waar moeders konden praten terwijl kinderen speelden. Beide groepen hadden goede argumenten.\n\nOp school moest Amara een presentatie geven over wat democratie voor haar betekende. Ze dacht na over haar eigen achtergrond. In Somalia waren haar ouders opgegroeid zonder vrije verkiezingen. Hier in Nederland kon iedereen zijn mening geven. Dat was kostbaar.\n\nAmara besloot in haar presentatie te vertellen dat democratie betekent dat verschillende culturen samen beslissingen nemen. Ze zou voorstellen om de gemeenteraad te vragen naar een speeltuin die beide groepen blij maakt. Want democratie draait om compromissen en respect voor elkaars wensen.\n\nDe volgende dag vertelde haar leraar dat de gemeenteraad inderdaad had besloten om vertegenwoordigers van alle wijkbewoners uit te nodigen voor een gesprek. Amara voelde zich trots. Zo werkte democratie dus echt: iedereen krijgt een stem, ook nieuwe Nederlanders zoals haar familie.",
+  "questions": [
+    {
+      "question": "Waar stond Amara toen ze naar de Nederlandse vlag keek?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "voor het gemeentehuis",
+        "voor het gemeentehuis in utrecht"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom vond Amara democratie kostbaar?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "somalia",
+            "ouders",
+            "opgegroeid"
+          ],
+          [
+            "vrije verkiezingen",
+            "verkiezingen",
+            "stemmen",
+            "stemming"
+          ],
+          [
+            "nederland",
+            "hier",
+            "iedereen",
+            "mening"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan het verschil tussen Somalia en Nederland."
+    },
+    {
+      "question": "Wat stelde Amara voor om het conflict op te lossen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "speeltuin",
+            "speelplaats"
+          ],
+          [
+            "beide groepen",
+            "beide",
+            "samen",
+            "iedereen"
+          ],
+          [
+            "blij",
+            "tevreden",
+            "gelukkig",
+            "compromis"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het vierde deel van het verhaal nog eens."
+    },
+    {
+      "question": "Hoe reageerde de gemeenteraad op Amara's idee?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "uitnodigen",
+            "uitnodigde",
+            "gevraagd",
+            "vragen"
+          ],
+          [
+            "vertegenwoordigers",
+            "bewoners",
+            "wijkbewoners",
+            "alle"
+          ],
+          [
+            "gesprek",
+            "praten",
+            "overleg",
+            "bespreken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de laatste alinea naar wat de leraar vertelde."
+    },
+    {
+      "question": "Wat is volgens dit verhaal de hoofdgedachte over democratie?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat democratie betekent dat verschillende groepen samen beslissingen nemen, met respect voor ieders mening en door compromissen te zoeken.",
+        "exampleAnswer": "Democratie betekent dat alle groepen, ook nieuwe Nederlanders, samen beslissingen nemen door naar elkaar te luisteren en compromissen te zoeken.",
+        "keyElements": [
+          "samen/verschillende groepen",
+          "beslissingen nemen/stemmen",
+          "compromissen/respect/luisteren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Amara leerde over hoe democratie werkt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stemming-van-amara/image-1.png",
+      "alt": "Amara staat voor het gemeentehuis en kijkt naar de Nederlandse vlag"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stemming-van-amara/image-2.png",
+      "alt": "Amara geeft een presentatie voor de klas over democratie"
+    }
+  ],
+  "imagePrompts": [
+    "A young Somali-Dutch girl named Amara standing in front of a Dutch city hall building, looking up at the Dutch flag, children's book illustration style, warm daylight",
+    "Amara giving a presentation to her diverse classroom about democracy, with a whiteboard showing drawings of different cultural groups working together, children's book illustration style"
+  ]
+}

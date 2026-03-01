@@ -1,0 +1,51 @@
+{
+  "id": "het-hongerige-vogeltje",
+  "title": "Het Hongerige Vogeltje",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "dieren",
+  "text": "Lisa ziet een klein vogeltje in de tuin. Het vogeltje ziet er heel zielig uit. Het heeft honger.\n\nLisa pakt brood uit de keuken. Ze gooit het brood op de grond. Het vogeltje komt niet. Het is bang voor Lisa.\n\nLisa gaat naar binnen. Ze kijkt door het raam. Nu komt het vogeltje wel. Het eet het brood op. Het vogeltje is blij.",
+  "questions": [
+    {
+      "question": "Hoe ziet het vogeltje eruit?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zielig",
+        "heel zielig"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Wat pakt Lisa uit de keuken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "brood"
+      ],
+      "hint": "Lisa wil het vogeltje helpen met eten."
+    },
+    {
+      "question": "Waarom komt het vogeltje eerst niet?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het is bang voor lisa",
+        "het is bang"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-hongerige-vogeltje/image-1.png",
+      "alt": "Een klein zielig vogeltje in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-hongerige-vogeltje/image-2.png",
+      "alt": "Het vogeltje eet brood terwijl Lisa door het raam kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A small sad-looking bird in a Dutch garden, children's book illustration style, simple and colorful",
+    "A little bird eating bread crumbs on the ground while a young girl watches happily through a window, children's book illustration style"
+  ]
+}

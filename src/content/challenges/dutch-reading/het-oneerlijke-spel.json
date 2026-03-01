@@ -1,0 +1,114 @@
+{
+  "id": "het-oneerlijke-spel",
+  "title": "Het Oneerlijke Spel",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "cultuur",
+  "text": "Amara komt uit Eritrea en woont nu twee jaar in Nederland. Ze speelt graag voetbal bij de plaatselijke club. Amara is een goede speelster. Ze scoort vaak doelpunten.\n\nVandaag is er een belangrijke wedstrijd. Amara's team staat voor. Dan gebeurt er iets vreemds. De scheidsrechter geeft Amara een gele kaart. Maar Amara deed niets verkeerd. Ze begrijpt het niet.\n\nLater in de wedstrijd gebeurt het weer. Amara wordt gestraft door de scheidsrechter. Dit keer krijgt ze een rode kaart. Ze moet van het veld af. Amara is verdrietig en boos.\n\nNa de wedstrijd praat Amara met haar teamgenoot Lisa. Lisa zegt: \"Dit gebeurt vaker met kinderen die er anders uitzien. De scheidsrechter is niet eerlijk tegen jullie.\" Amara begrijpt nu dat het probleem groter is.\n\nAmara's familie heeft ook problemen. Haar vader werkt hard maar krijgt minder geld dan Nederlandse collega's. Haar moeder spreekt goed Nederlands maar mensen zijn vaak onaardig tegen haar in de winkel. Amara ziet nu dat dit allemaal met elkaar te maken heeft.\n\nAmara besluit om te praten met de trainer van het team. Ze vertelt wat er gebeurde. De trainer luistert goed. Hij zegt dat dit niet oké is. Samen gaan ze naar de voetbalbond om een klacht in te dienen over de scheidsrechter.",
+  "questions": [
+    {
+      "question": "Uit welk land komt Amara?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "eritrea"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom is Amara verdrietig en boos na de wedstrijd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "oneerlijk",
+            "verkeerd",
+            "niet eerlijk",
+            "onterecht"
+          ],
+          [
+            "kaart",
+            "kaarten",
+            "gele kaart",
+            "rode kaart",
+            "gestraft"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat de scheidsrechter deed tijdens de wedstrijd."
+    },
+    {
+      "question": "Wat ontdekt Amara over de problemen van haar familie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "samen",
+            "verbonden",
+            "te maken",
+            "hetzelfde",
+            "ook"
+          ],
+          [
+            "problemen",
+            "moeilijkheden",
+            "oneerlijk",
+            "discriminatie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vijfde paragraaf over wat Amara begrijpt."
+    },
+    {
+      "question": "Wat doet Amara om het probleem op te lossen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "praten",
+            "vertellen",
+            "zeggen",
+            "praat",
+            "vertelt"
+          ],
+          [
+            "trainer",
+            "coach"
+          ],
+          [
+            "klacht",
+            "klagen",
+            "melden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de laatste paragraaf van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-oneerlijke-spel/image-1.png",
+      "alt": "Amara krijgt een rode kaart van de scheidsrechter"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-oneerlijke-spel/image-2.png",
+      "alt": "Amara praat met de trainer na de wedstrijd"
+    }
+  ],
+  "imagePrompts": [
+    "A young Eritrean girl in soccer uniform receiving a red card from a referee on a Dutch football field, children's book illustration style, other players looking confused in the background",
+    "A young Eritrean girl talking seriously with a Dutch soccer coach near the sidelines of a football field, children's book illustration style, both looking concerned but determined"
+  ]
+}

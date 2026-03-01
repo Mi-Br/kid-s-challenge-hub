@@ -1,0 +1,96 @@
+{
+  "id": "de-gebroken-arm",
+  "title": "De Gebroken Arm",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "\"Kijk, ik kan heel hoog springen!\" zegt Lisa tegen haar broer Tom. Ze springt op het bed. Tom kijkt bezorgd naar zijn zusje.\n\n\"Niet doen, Lisa!\" roept Tom. \"Dat is gevaarlijk!\" Maar Lisa luistert niet. Ze springt nog hoger omdat ze wil laten zien hoe stoer ze is.\n\nDan valt Lisa van het bed. Ze landt hard op de grond. Haar arm doet heel veel pijn. \"Au, au!\" huilt ze. \"Mijn arm! Het doet zo'n pijn!\" Tom schrikt heel erg. Hij ziet dat Lisa's arm raar staat.\n\n\"Mama! Papa!\" roept Tom hard. Hun ouders komen snel naar boven gerend. Mama kijkt naar Lisa's arm. \"We moeten naar het ziekenhuis,\" zegt papa bezorgd.\n\nIn het ziekenhuis maakt de dokter een foto van Lisa's arm. \"Je arm is gebroken,\" zegt de dokter vriendelijk. \"Maar het komt goed. Je krijgt gips om je arm.\"\n\nThuis denkt Tom na over wat er gebeurd is. Hij voelt zich schuldig omdat hij Lisa niet kon tegenhouden. \"Het spijt me, Lisa,\" zegt hij zacht. \"Ik had beter op je moeten passen.\"\n\n\"Het is niet jouw schuld,\" zegt Lisa met het witte gips om haar arm. \"Ik luisterde niet naar jou. Jij waarschuwde me wel.\" Tom glimlacht een beetje. Hij is blij dat zijn zusje het begrijpt.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft het gips van Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit",
+        "witte"
+      ],
+      "hint": "Kijk in de laatste alinea."
+    },
+    {
+      "question": "Waarom springt Lisa zo hoog op het bed?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "stoer",
+            "laten zien",
+            "tonen"
+          ],
+          [
+            "hoog",
+            "hoger",
+            "springen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea nog een keer."
+    },
+    {
+      "question": "Vind jij dat Tom een goede broer is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Tom en deze onderbouwen met voorbeelden uit de tekst, zoals dat hij Lisa waarschuwt of dat hij hulp haalt.",
+        "exampleAnswer": "Ja, Tom is een goede broer omdat hij Lisa waarschuwt dat het gevaarlijk is en omdat hij hulp haalt toen ze viel.",
+        "keyElements": [
+          "waarschuwen/waarschuwt",
+          "hulp halen/roepen",
+          "bezorgd/zorgzaam"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat Tom doet voor zijn zusje."
+    },
+    {
+      "question": "Wat betekent het woord 'bezorgd' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk aan hoe Tom en zijn ouders zich voelen.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "bang"
+          ],
+          [
+            "ongerust"
+          ],
+          [
+            "angstig"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-arm/image-1.png",
+      "alt": "Lisa springt hoog op het bed terwijl Tom bezorgd kijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-arm/image-2.png",
+      "alt": "Lisa zit met wit gips om haar arm en praat met Tom"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl jumping high on a bed while her worried brother watches, children's book illustration style, bright bedroom setting",
+    "A girl with a white cast on her arm sitting and talking with her brother, both looking relieved and happy, children's book illustration style"
+  ]
+}

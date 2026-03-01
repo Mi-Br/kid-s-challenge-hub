@@ -1,0 +1,69 @@
+{
+  "id": "lars-bakt-koekjes",
+  "title": "Lars bakt koekjes",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "eten",
+  "text": "Lars wil koekjes bakken. Hij doet meel in een kom. Hij doet ook eieren in de kom. Lars roert alles door elkaar.\n\nLars maakt kleine balletjes van het deeg. Hij legt de balletjes op een bakplaat. De oven is heet. Lars zet de bakplaat in de oven.\n\nDe koekjes zijn klaar. Ze ruiken lekker. Lars proeft een koekje. Het koekje smaakt zoet. Lars is blij met zijn koekjes.",
+  "questions": [
+    {
+      "question": "Wat doet Lars in een kom?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "meel"
+          ],
+          [
+            "eieren"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waar legt Lars de balletjes?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op een bakplaat",
+        "bakplaat"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Hoe smaken de koekjes?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de laatste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "zoet"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lars-bakt-koekjes/image-1.png",
+      "alt": "Lars roert meel en eieren in een kom"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lars-bakt-koekjes/image-2.png",
+      "alt": "Lars proeft een zoet koekje in de keuken"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy named Lars mixing flour and eggs in a bowl in a bright Dutch kitchen, children's book illustration style",
+    "Lars tasting a sweet cookie with a happy expression, golden baked cookies on a cooling rack nearby, children's book illustration style"
+  ]
+}

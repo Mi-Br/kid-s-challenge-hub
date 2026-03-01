@@ -1,0 +1,105 @@
+{
+  "id": "de-gooiwedstrijd",
+  "title": "De Gooiwedstrijd",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "Lisa en haar vrienden spelen blikken gooien in het park. Ze hebben tien lege blikjes op een tafel gezet. Iedereen mag drie keer gooien met een zachte bal.\n\nLisa wil heel graag winnen omdat ze de beste wil zijn. Ze gooit veel te hard en de bal vliegt over de tafel heen. \"Dat telt niet!\" roept ze boos. Ze probeert het nog een keer, maar weer gooit ze te wild.\n\nToen Jamal aan de beurt was, gooide hij rustig en voorzichtig. Hij raakte vier blikken. \"Goed gedaan!\" riep Lisa, maar ze voelde zich verdrietig omdat zij nog geen enkel blik had geraakt.\n\nOp dat moment begreep Lisa wat er fout ging. Ze was te ongeduldig geweest want ze wilde zo graag de beste zijn. Bij haar laatste beurt ademde ze diep in en gooide heel rustig. Ze raakte twee blikken en alle kinderen klapten voor haar.",
+  "questions": [
+    {
+      "question": "Hoeveel blikjes stonden er op de tafel?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "tien"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoeveel blikken raakte Jamal?",
+      "questionType": "begrijpen",
+      "hint": "Zoek in de derde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vier"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom gooide Lisa eerst te hard?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "winnen",
+            "beste",
+            "winst"
+          ],
+          [
+            "wilde",
+            "willen",
+            "wou",
+            "wil"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa heel graag wilde."
+    },
+    {
+      "question": "Vind jij dat Lisa goed deed door voor Jamal te klappen? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "aardig",
+            "lief"
+          ],
+          [
+            "vriendelijk",
+            "sportief",
+            "eerlijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa zich gedroeg toen Jamal goed gooide."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gooiwedstrijd/image-1.png",
+      "alt": "Kinderen die blikken gooien in het park met een tafel vol lege blikjes"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gooiwedstrijd/image-2.png",
+      "alt": "Lisa die rustig en voorzichtig gooit en twee blikken raakt"
+    }
+  ],
+  "imagePrompts": [
+    "Children playing tin can tossing game in a Dutch park, with empty cans stacked on a table and kids throwing soft balls, children's book illustration style",
+    "A young girl named Lisa throwing calmly and hitting two tin cans while other children clap and cheer, children's book illustration style"
+  ]
+}

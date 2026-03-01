@@ -1,0 +1,116 @@
+{
+  "id": "voetbal-vrienden",
+  "title": "Voetbal Vrienden",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "sport",
+  "text": "Lars en Jamal zijn al jaren beste vrienden. Elke zaterdag spelen ze samen voetbal bij VV De Kikkers. Lars speelt als verdediger en Jamal is een snelle aanvaller.\n\nVorige week kwam er een nieuwe trainer. Hij vertelde dat er maar één plek was in het eerste elftal. \"Jullie moeten tegen elkaar voetballen\", zei hij. \"De beste speler mag meedoen.\"\n\nDe jongens hebben hard getraind deze week. Lars oefende elke dag tackling en Jamal heeft veel geschoten op doel. Ze praatten niet meer met elkaar omdat ze allebei wilden winnen.\n\nVandaag is de wedstrijd. In de eerste helft heeft Lars de bal van Jamal afgepakt. Jamal werd boos en riep: \"Dat was geen eerlijk spel!\" Toen scoorde Lars een doelpunt, maar hij voelde zich niet blij.\n\nIn de rust zaten ze apart op de bank. Lars keek naar zijn beste vriend. \"Dit voelt helemaal verkeerd\", dacht hij. Jamal dacht hetzelfde. Vriendschap was belangrijker dan voetbal.\n\nIn de tweede helft speelden ze ineens weer als een team. Lars gaf een perfecte pass aan Jamal en Jamal scoorde. De trainer was zo onder de indruk dat hij zei: \"Jullie mogen allebei in het eerste elftal. Samen zijn jullie veel sterker!\"",
+  "questions": [
+    {
+      "question": "Bij welke voetbalclub spelen Lars en Jamal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "vv de kikkers",
+        "de kikkers"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom praatten Lars en Jamal niet meer met elkaar?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "wilden",
+            "wilde",
+            "wil",
+            "wou",
+            "wouden"
+          ],
+          [
+            "winnen",
+            "winnen",
+            "won",
+            "gewonnen"
+          ],
+          [
+            "allebei",
+            "beiden",
+            "alle twee"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde na het gesprek met de trainer."
+    },
+    {
+      "question": "Hoe voelde Lars zich nadat hij een doelpunt had gescoord?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "niet blij",
+            "ongelukkig",
+            "verdrietig",
+            "slecht"
+          ],
+          [
+            "verkeerd",
+            "fout",
+            "naar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea goed."
+    },
+    {
+      "question": "Vind je dat de trainer een goede beslissing nam aan het einde? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "prima",
+            "slim"
+          ],
+          [
+            "samen",
+            "team",
+            "vrienden",
+            "samenwerken",
+            "sterker"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat de trainer zei over samen spelen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/voetbal-vrienden/image-1.png",
+      "alt": "Lars en Jamal voetballen samen op het veld"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/voetbal-vrienden/image-2.png",
+      "alt": "De twee jongens zitten apart op de bank tijdens de rust"
+    }
+  ],
+  "imagePrompts": [
+    "Two young boys playing soccer together on a Dutch football field, one as defender and one as striker, children's book illustration style with green grass and goal posts",
+    "Two young boys sitting separately on a bench during halftime, looking sad and thoughtful, with soccer field in background, children's book illustration style"
+  ]
+}

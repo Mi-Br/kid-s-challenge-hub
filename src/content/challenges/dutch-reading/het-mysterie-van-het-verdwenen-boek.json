@@ -1,0 +1,98 @@
+{
+  "id": "het-mysterie-van-het-verdwenen-boek",
+  "title": "Het Mysterie van het Verdwenen Boek",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de bibliotheek",
+  "text": "Emma gaat elke week naar de bibliotheek. Vandaag wil ze haar lievelingsboek lenen. Het boek heet 'De Geheime Tuin'. Maar het boek staat niet op de plank.\n\nEmma kijkt goed. Ze zoekt tussen alle boeken. Het boek is echt weg. Emma is verdrietig omdat ze het boek niet kan vinden.\n\nEen mevrouw werkt in de bibliotheek. Emma vraagt haar om hulp. De mevrouw zegt dat iemand het boek heeft geleend. Het boek komt over een week terug.\n\nEmma schrijft haar naam op een briefje. Ze geeft het briefje aan de mevrouw. Nu kan Emma het boek lenen als het terugkomt. Emma is blij omdat ze weet dat ze het boek krijgt.",
+  "questions": [
+    {
+      "question": "Hoe heet Emma's lievelingsboek?",
+      "questionType": "begrijpen",
+      "hint": "Kijk in de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "geheime"
+          ],
+          [
+            "tuin"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom is Emma verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "boek",
+            "boeken"
+          ],
+          [
+            "vinden",
+            "vond",
+            "vindt",
+            "gevonden",
+            "zoeken",
+            "zoekt",
+            "zocht"
+          ],
+          [
+            "weg",
+            "niet",
+            "geen",
+            "verdwenen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er met het boek is gebeurd."
+    },
+    {
+      "question": "Wat doet Emma om het boek later te krijgen?",
+      "questionType": "begrijpen",
+      "hint": "Kijk in de laatste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "schrijft"
+          ],
+          [
+            "haar"
+          ],
+          [
+            "naam"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-het-verdwenen-boek/image-1.png",
+      "alt": "Emma zoekt tussen de boeken in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-het-verdwenen-boek/image-2.png",
+      "alt": "Emma geeft een briefje aan de bibliotheekmevrouw"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking through books on library shelves, searching for a specific book, children's book illustration style",
+    "A young Dutch girl handing a small piece of paper to a friendly librarian at the library counter, children's book illustration style"
+  ]
+}

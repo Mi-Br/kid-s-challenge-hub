@@ -1,0 +1,133 @@
+{
+  "id": "de-formule-van-omar",
+  "title": "De Formule van Omar",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wetenschap",
+  "text": "Omar staarde naar de wiskundeformule op het bord terwijl zijn gedachten afdwaalden naar het verhaal dat zijn opa hem gisteren had verteld. \"In Egypte, waar ik vandaan kom, waren we al duizenden jaren geleden wiskundigen,\" had opa gezegd. Maar waarom voelde Omar zich dan zo dom wanneer meester Van der Berg hem naar voren riep?\n\nTijdens de pauze hoorde hij klasgenoten fluisteren: \"Omar is gewoon niet zo slim als Nederlandse kinderen.\" De woorden brandden in zijn hoofd. Thuis sprak hij Arabisch, at hij couscous en luisterde naar muziek uit Marokko. Op school probeerde hij zich aan te passen, Nederlands te praten zonder accent, en interesse te tonen voor voetbal in plaats van zijn geliefde schaken.\n\nDie avond vertelde opa over Al-Khwarizmi, de Arabische wiskundige die algebra had uitgevonden. \"Wist je dat het woord 'algoritme' van zijn naam komt?\" vroeg opa met trots in zijn ogen. Omar voelde een vreemd gevoel in zijn buik - was het schaamte omdat hij zijn heritage had weggestopt, of trots omdat hij eindelijk begreep waar hij vandaan kwam?\n\nOmar begon te beseffen dat hij misschien niet tussen twee werelden hoefde te kiezen. Misschien kon hij zowel de Nederlandse wetenschappelijke methoden leren als de rijke wiskundige tradities van zijn voorouders eren. Toen hij de volgende dag zijn hand opstak om de vergelijking op te lossen, voelde hij voor het eerst beide delen van zichzelf samenkomen.\n\nMisschien was zijn verhaal niet zo betrouwbaar als hij dacht - tenslotte had die ruzie met zijn ouders over zijn cijfers hem de hele week dwars gezeten, en soms overdreef hij dingen als hij zich eenzaam voelde. Maar één ding wist hij zeker: wetenschap kende geen grenzen, net zoals zijn identiteit dat niet hoefde te doen.",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het integreren van meerdere culturele identiteiten in plaats van moeten kiezen tussen culturen. Het gaat om acceptatie van je volledige heritage.",
+        "exampleAnswer": "Het verhaal gaat over een jongen die leert dat hij niet hoeft te kiezen tussen zijn Nederlandse en Arabische identiteit, maar beide kan combineren.",
+        "keyElements": [
+          "culturele identiteit/heritage integreren",
+          "niet kiezen tussen culturen",
+          "beide delen accepteren/combineren"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan Omars reis van het wegduwen van zijn heritage naar het accepteren ervan."
+    },
+    {
+      "question": "Waarom voelde Omar zich dom ondanks dat zijn opa vertelde over Arabische wiskundigen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Omar innerlijk conflict heeft tussen zijn culturele achtergrond en de druk om zich aan te passen op school. Hij heeft zijn heritage weggestopt en voelt daardoor vervreemd van zijn eigen krachten.",
+        "exampleAnswer": "Omar voelde zich dom omdat hij probeerde zijn Arabische achtergrond te verbergen en zich aan te passen aan Nederlandse kinderen, waardoor hij zijn eigen sterke punten niet erkende.",
+        "keyElements": [
+          "aanpassen/verbergen van achtergrond",
+          "druk van klasgenoten/school",
+          "vervreemd van eigen krachten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar hoe Omar zich gedroeg op school en wat hij probeerde te verbergen."
+    },
+    {
+      "question": "Hoe probeerde Omar zich aan te passen op school?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "nederlands",
+            "praten",
+            "spreken"
+          ],
+          [
+            "accent",
+            "zonder accent"
+          ],
+          [
+            "voetbal",
+            "interesse",
+            "tonen"
+          ],
+          [
+            "schaken",
+            "plaats van schaken",
+            "geliefde schaken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea nog eens - wat deed Omar anders dan thuis?"
+    },
+    {
+      "question": "Wat suggereert de laatste alinea over de betrouwbaarheid van Omars verhaal?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat Omar zelf twijfelt aan zijn eigen verhaal en toegeeft dat hij dingen overdrijft wanneer hij zich eenzaam voelt. Dit suggereert dat hij een onbetrouwbare verteller is.",
+        "exampleAnswer": "Omar geeft toe dat hij misschien overdrijft als hij zich eenzaam voelt, dus zijn verhaal is misschien niet helemaal betrouwbaar.",
+        "keyElements": [
+          "overdrijven/niet betrouwbaar",
+          "eenzaam voelen",
+          "twijfelt aan eigen verhaal"
+        ],
+        "minWords": 5
+      },
+      "hint": "Let op wat Omar zelf zegt over hoe hij vertelt wanneer hij bepaalde gevoelens heeft."
+    },
+    {
+      "question": "Wat is het doel van de schrijver met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wil lezers laten zien dat kinderen met een multiculturele achtergrond niet hoeven te kiezen tussen identiteiten, maar beide kunnen omarmen. Het doel is het promoten van culturele acceptatie en zelfacceptatie.",
+        "exampleAnswer": "De schrijver wil laten zien dat kinderen met verschillende culturele achtergronden trots kunnen zijn op hun hele identiteit en niet hoeven te kiezen tussen culturen.",
+        "keyElements": [
+          "multiculturele acceptatie/trots",
+          "niet kiezen tussen identiteiten",
+          "zelfacceptatie promoten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver wil overbrengen over identiteit en heritage."
+    },
+    {
+      "question": "Welke wiskundige uitvinding wordt genoemd die door Al-Khwarizmi is gedaan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "algebra"
+      ],
+      "hint": "Zoek in de derde alinea naar wat opa vertelt over Al-Khwarizmi."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-formule-van-omar/image-1.png",
+      "alt": "Omar kijkt naar wiskundige formules op het schoolbord terwijl hij nadenkt over zijn identiteit"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-formule-van-omar/image-2.png",
+      "alt": "Omar steekt zijn hand op in de klas, zelfverzekerd en trots op beide delen van zijn identiteit"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy of Moroccan descent looking thoughtfully at mathematical formulas on a Dutch classroom blackboard, children's book illustration style, showing internal conflict and contemplation",
+    "The same teenage boy confidently raising his hand in class while other diverse students look on, showing integration of his cultural identity, children's book illustration style"
+  ]
+}

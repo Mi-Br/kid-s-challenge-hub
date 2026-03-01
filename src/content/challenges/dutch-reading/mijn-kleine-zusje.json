@@ -1,0 +1,54 @@
+{
+  "id": "mijn-kleine-zusje",
+  "title": "Mijn Kleine Zusje",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "familie",
+  "text": "Ik ben Leila. Ik ben acht jaar oud. Mama heeft een baby in haar buik.\n\n\"Wanneer komt de baby?\" vraag ik aan papa.\n\"Over twee weken,\" zegt papa. \"Dan krijg je een zusje.\"\nIk ben niet blij. Ik wil geen zusje.\n\n\"Ik wil alleen zijn,\" zeg ik tegen mama.\n\"Dat begrijp ik,\" zegt mama. \"Maar een zusje is leuk.\"\nIk schud mijn hoofd. Nee, dat is niet waar.\n\nDan gaat mama naar het ziekenhuis. Papa en ik wachten thuis. Oma komt ook.\n\"De baby is er!\" zegt papa. Hij laat een foto zien.\nIk zie een klein meisje. Ze heeft zwart haar. Ze is heel klein.\n\n\"Ze heet Noor,\" zegt papa. \"Wil je haar zien?\"\nIk denk na. Dan zeg ik: \"Ja, dat wil ik wel.\"\n\nIn het ziekenhuis zie ik mama. Ze houdt de baby vast. De baby slaapt.\n\"Hallo Noor,\" fluister ik. \"Ik ben je grote zus.\"\nDan lacht de baby. Ze doet haar oogjes open.\n\"Ze vindt je leuk,\" zegt mama.\nIk voel me blij. Een zusje is toch wel leuk.",
+  "questions": [
+    {
+      "question": "Hoe oud is Leila?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "acht jaar",
+        "acht",
+        "8 jaar",
+        "8"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Hoe heet de baby?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "noor"
+      ],
+      "hint": "Papa vertelt de naam van de baby."
+    },
+    {
+      "question": "Waar wordt de baby geboren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in het ziekenhuis",
+        "het ziekenhuis",
+        "ziekenhuis"
+      ],
+      "hint": "Mama gaat ergens naartoe als de baby komt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-kleine-zusje/image-1.png",
+      "alt": "Leila kijkt naar mama die de baby vasthoudt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-kleine-zusje/image-2.png",
+      "alt": "Leila fluistert tegen baby Noor in het ziekenhuis"
+    }
+  ],
+  "imagePrompts": [
+    "A young 8-year-old girl with brown skin and curly hair looking at her mother holding a newborn baby in a hospital room, children's book illustration style, warm and tender scene",
+    "The same young girl whispering hello to her baby sister while the baby opens her eyes and smiles, hospital setting, children's book illustration style, heartwarming moment"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "eerste-picknick-in-het-bos",
+  "title": "Eerste Picknick in het Bos",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "eten",
+  "text": "Liam keek naar de grote mand die mama inpakte. \"Wat gaan we doen?\" vroeg hij. \"We gaan picknicken in het bos,\" zei mama vrolijk. Liam had nog nooit gepicknikt. Hij dacht: wat als er enge beesten zijn? Wat als het eten valt?\n\nIn het bos vond papa een mooie plek onder de grote bomen. De grond was zacht van de bladeren. Mama spreidde een rood kleed uit. Liam keek angstig om zich heen omdat hij onbekende geluiden hoorde.\n\n\"Help je mee uitpakken?\" vroeg mama. Ze haalde broodjes, kaas, appels en koekjes uit de mand. Plotseling dacht Liam: dit ruikt heerlijk! Zijn angst verdween toen hij de lekkere dingen zag. Hij ging op het kleed zitten.\n\nToen ze gingen eten, kwam er een nieuwsgierige eekhoorn kijken. \"Mag hij ook wat?\" vroeg Liam. Papa brak een stukje brood af. De eekhoorn nam het voorzichtig aan en rende weg. Liam lachte hard want dat was zo grappig!\n\n\"Ik vind picknicken leuk!\" riep Liam blij. \"Mogen we dit vaker doen?\" Mama en papa lachten. \"Natuurlijk,\" zei mama. \"Volgende week gaan we naar het park.\" Liam was al heel blij omdat hij nu wist dat picknicken fantastisch was.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft het kleed?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood"
+      ],
+      "hint": "Kijk in de tweede alinea."
+    },
+    {
+      "question": "Waarom was Liam eerst bang in het bos?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "onbekende",
+            "vreemde",
+            "enge"
+          ],
+          [
+            "geluiden",
+            "geluid",
+            "beesten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat Liam hoorde in de tweede alinea."
+    },
+    {
+      "question": "Wat deed de eekhoorn met het brood?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nam",
+            "pakte",
+            "aannam"
+          ],
+          [
+            "rende",
+            "liep",
+            "ging"
+          ],
+          [
+            "weg",
+            "rennen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de vierde alinea wat er gebeurde."
+    },
+    {
+      "question": "Wat betekent het woord 'nieuwsgierig' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk na over wat de eekhoorn deed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "wil kijken"
+          ],
+          [
+            "wil zien"
+          ],
+          [
+            "komt kijken"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/eerste-picknick-in-het-bos/image-1.png",
+      "alt": "Een familie spreidt een rood kleed uit in het bos"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/eerste-picknick-in-het-bos/image-2.png",
+      "alt": "Een nieuwsgierige eekhoorn krijgt brood van de familie"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch family spreading a red picnic blanket under tall trees in a forest, with a picnic basket nearby, children's book illustration style",
+    "A curious squirrel carefully taking a piece of bread from a young boy's hand while the family watches and laughs during their forest picnic, children's book illustration style"
+  ]
+}

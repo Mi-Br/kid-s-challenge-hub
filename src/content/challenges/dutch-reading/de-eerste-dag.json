@@ -1,0 +1,112 @@
+{
+  "id": "de-eerste-dag",
+  "title": "De Eerste Dag",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Lisa staat voor de grote school. Haar mama moet naar werk, maar Lisa wil niet alleen naar binnen. De school ziet er zo groot en eng uit. Alle kinderen kennen elkaar al omdat Lisa pas vanuit Duitsland is gekomen.\n\nIn de klas wijst juf Marieke een plaats aan. Lisa gaat zitten, maar ze zegt niets tegen de andere kinderen. Tijdens de pauze blijft ze binnen omdat ze bang is voor de speelplaats. Ze mist haar oude school heel erg.\n\nNa de lunch komt er een meisje naar Lisa toe. \"Ik ben Sanne,\" zegt ze vriendelijk. \"Wil je met mij spelen?\" Lisa kijkt naar Sanne's lieve gezicht. Langzaam knikt ze ja.\n\nSamen bouwen ze een kasteel met blokken. Lisa vertelt over Duitsland en Sanne luistert goed. Want vriendschap begint altijd met praten en samen spelen. Als mama Lisa ophaalt, lacht Lisa weer.\n\nDe volgende dag rent Lisa naar school. Ze heeft geen angst meer omdat ze nu weet dat nieuwe vrienden overal kunnen zijn.",
+  "questions": [
+    {
+      "question": "Waarom wil Lisa niet alleen naar binnen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de school ziet er zo groot en eng uit",
+        "omdat de school er zo groot en eng uitziet"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom kent Lisa de andere kinderen nog niet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "pas",
+            "nieuw",
+            "net"
+          ],
+          [
+            "gekomen",
+            "kwam",
+            "verhuisd"
+          ],
+          [
+            "duitsland",
+            "ander land"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over waar Lisa vandaan komt."
+    },
+    {
+      "question": "Wat betekent het woord 'vriendelijk' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk hoe Sanne zich gedraagt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "lief"
+          ],
+          [
+            "aardig"
+          ],
+          [
+            "zacht"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat Lisa goed deed door met Sanne mee te spelen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "slim",
+            "verstandig"
+          ],
+          [
+            "vrienden",
+            "vriendin",
+            "vriendschap"
+          ],
+          [
+            "praten",
+            "spelen",
+            "samen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde nadat Lisa met Sanne speelde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-eerste-dag/image-1.png",
+      "alt": "Lisa staat nerveus voor de grote school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-eerste-dag/image-2.png",
+      "alt": "Lisa en Sanne bouwen samen een kasteel met blokken"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with blonde hair standing nervously in front of a large Dutch elementary school building, children's book illustration style, morning light",
+    "Two young girls sitting on the classroom floor building a castle with colorful blocks together, smiling and talking, children's book illustration style"
+  ]
+}

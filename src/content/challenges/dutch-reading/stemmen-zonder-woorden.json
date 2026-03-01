@@ -1,0 +1,127 @@
+{
+  "id": "stemmen-zonder-woorden",
+  "title": "Stemmen zonder Woorden",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "democratie",
+  "text": "Layla's vingers trilden terwijl ze het stembiljet vasthield. De letters leken te dansen voor haar ogen—een vertrouwde dans die ze kende sinds de woorden waren begonnen te zwemmen in groep drie. Dyslexie, had de schoolpsycholoog gezegd. Maar vandaag, op haar achttiende verjaardag, wilde ze niet denken aan labels.\n\nOm haar heen vulde het stembureau zich met de geluiden van democratie: het zachte geplof van stembiljetten die in de bus vielen, het gemompel van burgers die hun keuzes maakten, het geritsel van papier dat de stem van het volk zou worden. Voor Layla voelde het anders—intenser, alsof elk geluid een kleur had, elke beweging een betekenis droeg.\n\nHaar Marokkaanse oma had gevochten voor het recht om te stemmen in Nederland. \"Democratie is geen cadeau,\" had ze gezegd, haar ogen vol verhalen van landen waar stemmen werden weggenomen. \"Het is een verantwoordelijkheid die je koestert.\" Haar Nederlandse opa daarentegen sprak over tradities, over partijen die generaties lang hadden gediend. Tussen deze stemmen voelde Layla de spanning van keuzes maken.\n\nDe kandidaten op het biljet leken papieren figuren, hun beloftes verweven in taal die soms te snel ging, te complex werd. Maar Layla had geleerd om tussen de regels te lezen—niet met woorden, maar met gevoel. Ze dacht aan de moskee waar haar familie bad, aan de Nederlandse school waar ze had geleerd denken in nieuwe patronen, aan de wijken waar culturen samenvloeiden zoals rivieren die de zee bereiken.\n\nToen ze eindelijk haar potlood pakte, voelde het als het schrijven van poëzie. Elk kruisje was een vers, elke keuze een stanza in het gedicht van haar toekomst. Dit was niet alleen stemmen—dit was het claimen van haar plek in het Nederlandse verhaal, het laten horen van haar stem zonder woorden, maar met het gewicht van alle stemmen die in haar hart leefden.\n\nNa afloop stond Layla buiten het stembureau, de wind door haar hoofddoek spelend. Ze had gestemd—niet als de kleindochter van immigranten, niet als de dyslectische student, maar als Layla: burger, dromer, brug tussen werelden. In de democratie had ze geleerd dat je stem niet perfect hoeft te zijn om gehoord te worden.",
+  "questions": [
+    {
+      "question": "Welke betekenis geeft Layla's Marokkaanse oma aan democratie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de oma democratie ziet als een verantwoordelijkheid die gekoesterd moet worden, niet als iets vanzelfsprekends. Het verhaal toont dat ze ervaring heeft met situaties waar mensen geen stemrecht hadden.",
+        "exampleAnswer": "Layla's oma vindt dat democratie een verantwoordelijkheid is die je moet koesteren, geen cadeau dat vanzelfsprekend is.",
+        "keyElements": [
+          "verantwoordelijkheid/plicht",
+          "koesteren/beschermen",
+          "niet vanzelfsprekend/geen cadeau"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat de Marokkaanse oma zegt over democratie in de derde alinea."
+    },
+    {
+      "question": "Hoe ervaren Layla's zintuigen het stembureau anders dan andere mensen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Layla de geluiden intenser ervaart, alsof elk geluid een kleur heeft en elke beweging betekenis draagt. Dit toont haar neurodivergente manier van waarnemen.",
+        "exampleAnswer": "Voor Layla voelt alles intenser, geluiden hebben kleuren en bewegingen hebben betekenis.",
+        "keyElements": [
+          "intenser/sterker",
+          "kleuren/zintuiglijk",
+          "betekenis/gevoelig"
+        ],
+        "minWords": 5
+      },
+      "hint": "Let op de beschrijving van hoe Layla de geluiden en bewegingen in het stembureau ervaart."
+    },
+    {
+      "question": "Waarom vergelijkt de schrijver Layla's stemmen met het schrijven van poëzie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat deze vergelijking laat zien hoe betekenisvol en artistiek het stemproces voor Layla is. Het toont dat haar stem een persoonlijke uitdrukking is, net als poëzie.",
+        "exampleAnswer": "Omdat stemmen voor Layla een artistieke, betekenisvolle uitdrukking is van wie zij is, net zoals poëzie.",
+        "keyElements": [
+          "betekenisvol/belangrijk",
+          "artistiek/persoonlijk",
+          "uitdrukking/expressie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de vijfde alinea en wat het stemmen voor Layla betekent."
+    },
+    {
+      "question": "Beoordeel hoe effectief de schrijver beeldspraak gebruikt om Layla's culturele identiteit te beschrijven.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet de beeldspraak identificeren (zoals 'rivieren die de zee bereiken' voor culturen die samenvloeien) en beoordelen hoe goed dit Layla's positie tussen culturen weergeeft. Een goede evaluatie bevat zowel voorbeelden als een oordeel.",
+        "exampleAnswer": "De schrijver gebruikt effectieve beeldspraak zoals 'culturen samenvloeien zoals rivieren die de zee bereiken'. Dit laat mooi zien hoe Layla tussen verschillende culturen staat.",
+        "keyElements": [
+          "beeldspraak/metafoor",
+          "effectief/goed/sterk",
+          "culturen/identiteit"
+        ],
+        "minWords": 8
+      },
+      "hint": "Zoek naar vergelijkingen en beelden die de schrijver gebruikt om cultuur en identiteit te beschrijven."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte is dat democratische participatie een persoonlijke reis is waarbij je leert je eigen stem te vinden tussen verschillende identiteiten en uitdagingen. Het gaat over het claimen van je plek in de samenleving ondanks verschillen.",
+        "exampleAnswer": "Het verhaal gaat over het vinden van je eigen stem in de democratie, ondanks culturele en persoonlijke uitdagingen.",
+        "keyElements": [
+          "eigen stem vinden",
+          "democratie/participatie",
+          "identiteit/uitdagingen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat Layla's reis van begin tot eind laat zien over democratie en persoonlijke groei."
+    },
+    {
+      "question": "Wat is het doel van de schrijver met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wil laten zien dat democratie toegankelijk moet zijn voor iedereen, ongeacht culturele achtergrond of neurodivergentie. Het verhaal promoot inclusiviteit en toont dat verschillende perspectieven de democratie verrijken.",
+        "exampleAnswer": "De schrijver wil laten zien dat democratie voor iedereen toegankelijk moet zijn en dat verschillende achtergronden de democratie versterken.",
+        "keyElements": [
+          "inclusiviteit/toegankelijkheid",
+          "diversiteit/verschillende achtergronden",
+          "democratie versterken"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over welke boodschap de schrijver wil overbrengen over democratie en inclusie."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/stemmen-zonder-woorden/image-1.png",
+      "alt": "Een jong meisje met een hoofddoek die een stembiljet bekijkt in een stemhokje"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/stemmen-zonder-woorden/image-2.png",
+      "alt": "Layla die buiten het stembureau staat met de wind door haar hoofddoek"
+    }
+  ],
+  "imagePrompts": [
+    "A young woman wearing a colorful headscarf examining a voting ballot in a voting booth, children's book illustration style, warm lighting, focused and thoughtful expression",
+    "The same young woman standing outside a Dutch polling station with wind blowing through her headscarf, children's book illustration style, sense of accomplishment and belonging, Dutch architecture in background"
+  ]
+}

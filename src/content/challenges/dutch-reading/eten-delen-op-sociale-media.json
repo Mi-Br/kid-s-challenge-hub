@@ -1,0 +1,143 @@
+{
+  "id": "eten-delen-op-sociale-media",
+  "title": "Eten delen op sociale media",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "gezondheid",
+  "text": "Lisa opent Instagram en ziet een foto van haar vriendin Emma. Emma eet een grote hamburger met friet in een duur restaurant. \"Zo lekker!\" staat erbij. Lisa kijkt naar haar eigen bord. Ze eet thuis brood met kaas.\n\nLisa voelt zich niet goed als ze de foto ziet. Haar familie heeft niet veel geld. Ze gaan nooit naar dure restaurants. Lisa denkt: waarom post Emma dit? Weet ze niet dat niet iedereen zoveel geld heeft?\n\nLisa wil ook een foto posten. Ze maakt een foto van haar brood met kaas. Maar dan stopt ze. Ze denkt: misschien heeft Emma dit niet expres gedaan. Misschien weet ze gewoon niet hoe Lisa zich voelt.\n\nLisa besluit iets te doen. Ze gaat een groep starten op school. De groep gaat over gezond eten dat niet duur is. Ze wil laten zien dat je ook zonder veel geld goed kunt eten.\n\nEen week later post Lisa haar eerste foto. Het is een kleurrijke salade die ze thuis heeft gemaakt. \"Gezond en goedkoop!\" schrijft ze erbij. Veel klasgenoten vinden de foto leuk. Ze vragen om het recept.\n\nLisa voelt zich nu beter. Ze gebruikt sociale media nu om andere kinderen te helpen. Ze laat zien dat gezond eten voor iedereen mogelijk is.",
+  "questions": [
+    {
+      "question": "Wat eet Emma op de foto?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een grote hamburger met friet",
+        "hamburger met friet",
+        "een hamburger met friet"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelt Lisa zich niet goed als ze Emma's foto ziet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "familie",
+            "ouders",
+            "thuis"
+          ],
+          [
+            "geld",
+            "geld heeft",
+            "weinig geld",
+            "niet veel geld"
+          ],
+          [
+            "duur",
+            "dure",
+            "restaurant",
+            "restaurants"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Lisa's situatie thuis."
+    },
+    {
+      "question": "Hoe helpt Lisa andere kinderen aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "foto",
+            "foto's",
+            "post",
+            "posten",
+            "post"
+          ],
+          [
+            "gezond",
+            "gezonde",
+            "eten"
+          ],
+          [
+            "goedkoop",
+            "goedkope",
+            "niet duur",
+            "weinig geld"
+          ],
+          [
+            "helpen",
+            "helpt",
+            "laten zien",
+            "laat zien"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Lisa doet na een week."
+    },
+    {
+      "question": "Lisa stopt met het posten van haar brood met kaas. Vind jij dit een goede beslissing? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "goede",
+            "slecht",
+            "slechte",
+            "juist",
+            "onjuist"
+          ],
+          [
+            "omdat",
+            "want",
+            "dan",
+            "zo"
+          ],
+          [
+            "Emma",
+            "vriendin",
+            "anderen",
+            "mensen"
+          ],
+          [
+            "denken",
+            "denkt",
+            "voelen",
+            "voelt",
+            "begrijpen",
+            "begrijpt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over Lisa's gedachten over Emma."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/eten-delen-op-sociale-media/image-1.png",
+      "alt": "Lisa kijkt naar haar telefoon en ziet Emma's foto van een hamburger"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/eten-delen-op-sociale-media/image-2.png",
+      "alt": "Lisa maakt een foto van haar gezonde salade"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking at her phone with a disappointed expression, seeing a social media post of an expensive burger meal, children's book illustration style",
+    "The same girl happily taking a photo of a colorful, healthy homemade salad on her kitchen table, children's book illustration style"
+  ]
+}

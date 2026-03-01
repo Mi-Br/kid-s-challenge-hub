@@ -1,0 +1,112 @@
+{
+  "id": "de-lege-zaal",
+  "title": "De Lege Zaal",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "cultuur",
+  "text": "Lisa staat voor de spiegel in haar kamer. Ze ziet dat ze kleiner is dan de andere dansers. Haar armen zijn korter en haar benen dunner. Morgen is de grote dansvoorstelling in het cultureel centrum.\n\nOp Instagram ziet Lisa foto's van andere dansgroepen. Alle meisjes zijn lang en slank. In de comments staat: 'Wow, perfecte lichamen!' Lisa voelt zich klein en lelijk. Ze wil niet meer dansen.\n\nDie avond huilt Lisa in bed. 'Ik ben niet goed genoeg,' denkt ze. 'Iedereen zal naar me kijken en lachen.' Ze wil haar telefoon weggooien. Social media maakt alles erger.\n\nDe volgende dag gaat Lisa toch naar het cultureel centrum. De zaal is leeg. Ze begint langzaam te dansen. Haar lichaam voelt licht en sterk. De muziek geeft haar energie.\n\nOpeens komt haar danslerares binnen. 'Lisa, je danst prachtig,' zegt ze. 'Jouw passie maakt je bijzonder, niet je lichaam.' Lisa glimlacht. Ze realiseert dat dansen niet gaat om perfect zijn, maar om je gevoel uit te drukken.",
+  "questions": [
+    {
+      "question": "Waar is de dansvoorstelling?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in het cultureel centrum",
+        "het cultureel centrum"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelt Lisa zich slecht over haar lichaam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "kleiner",
+            "korter",
+            "dunner",
+            "klein"
+          ],
+          [
+            "andere",
+            "anderen",
+            "vergelijkt",
+            "vergelijking"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa ziet wanneer ze naar zichzelf kijkt."
+    },
+    {
+      "question": "Hoe beïnvloedt social media Lisa's gevoelens?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "erger",
+            "slechter",
+            "verergert",
+            "maakt"
+          ],
+          [
+            "vergelijkt",
+            "vergelijking",
+            "ziet",
+            "kijkt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede en derde alinea goed."
+    },
+    {
+      "question": "Wat leert Lisa van haar danslerares?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "passie",
+            "gevoel",
+            "gevoel uitdrukken"
+          ],
+          [
+            "belangrijk",
+            "bijzonder",
+            "maakt"
+          ],
+          [
+            "niet lichaam",
+            "niet perfect",
+            "niet uiterlijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat de lerares zegt in de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-lege-zaal/image-1.png",
+      "alt": "Een meisje dat alleen danst in een lege theaterzaal"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-lege-zaal/image-2.png",
+      "alt": "Een danslerares die een jonge danseres aanmoedigt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl dancing alone in an empty theater hall with wooden floors and mirrors, children's book illustration style, soft lighting creating a hopeful atmosphere",
+    "A caring dance teacher speaking encouragingly to a young dancer in a dance studio, both characters showing warmth and understanding, children's book illustration style"
+  ]
+}

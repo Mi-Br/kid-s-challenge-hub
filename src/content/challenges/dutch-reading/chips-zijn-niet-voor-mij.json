@@ -1,0 +1,53 @@
+{
+  "id": "chips-zijn-niet-voor-mij",
+  "title": "Chips zijn niet voor mij",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "eten",
+  "text": "Lisa gaat naar de winkel met mama. Ze ziet grote zakken chips. De chips zijn oranje en blauw. Lisa wil chips eten.\n\nMama zegt: \"Chips zijn niet gezond voor je. We kopen appels en bananen.\" Lisa kijkt naar de chips. Ze denkt: chips zijn lekker.\n\nThuis eet Lisa een appel. De appel is zoet en lekker. Lisa lacht naar mama. \"Appels zijn ook heel lekker!\" zegt Lisa.",
+  "questions": [
+    {
+      "question": "Welke kleuren hebben de chips?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oranje en blauw",
+        "blauw en oranje"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat zegt mama over chips?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "chips zijn niet gezond voor je",
+        "ze zijn niet gezond"
+      ],
+      "hint": "Lees wat mama zegt in de tweede alinea."
+    },
+    {
+      "question": "Wat vindt Lisa van de appel?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zoet en lekker",
+        "lekker en zoet",
+        "heel lekker"
+      ],
+      "hint": "Kijk naar de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/chips-zijn-niet-voor-mij/image-1.png",
+      "alt": "Lisa en mama in de supermarkt bij de chipszakken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/chips-zijn-niet-voor-mij/image-2.png",
+      "alt": "Lisa eet thuis een appel en lacht naar mama"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her mother in a Dutch supermarket aisle looking at colorful bags of chips on shelves, children's book illustration style",
+    "A happy young girl at home eating a red apple while smiling at her mother in a cozy Dutch kitchen, children's book illustration style"
+  ]
+}

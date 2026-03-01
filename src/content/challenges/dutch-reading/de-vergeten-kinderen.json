@@ -1,0 +1,127 @@
+{
+  "id": "de-vergeten-kinderen",
+  "title": "De Vergeten Kinderen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Fatima bladerde door het oude fotoalbum dat ze op zolder had gevonden. De zwart-wit foto's toonden kinderen in uniformen, maar deze zagen er anders uit dan de Nederlandse schoolfoto's die ze kende. \"Oma, wie zijn deze kinderen?\" vroeg ze aan haar Nederlandse oma, die naast haar was komen zitten.\n\nHaar oma keek verdrietig naar de foto's. \"Dat zijn kinderen uit Indonesië, lieverd. Tijdens de koloniale tijd werden veel van hen naar Nederland gehaald om 'beschaafd' te worden gemaakt. Ze moesten hun eigen taal vergeten en Nederlands leren. Hun ouders zagen ze vaak jarenlang niet terug.\"\n\nFatima voelde een koude rilling over haar rug lopen. Als kind van Marokkaanse ouders kende ze het gevoel anders te zijn, maar dit was veel erger. \"Waarom staat dit niet in mijn geschiedenisboek op school?\" vroeg ze. Haar oma zuchtte diep. \"Omdat Nederland lang heeft gedaan alsof het een goede daad was. Pas veel later erkenden we dat het verkeerd was om kinderen van hun families weg te halen.\"\n\nDie avond zocht Fatima meer informatie op internet. Ze ontdekte dat duizenden inheemse kinderen in Indonesië, maar ook in andere Nederlandse koloniën, waren weggehaald van hun families. Deze kinderen werden vaak mishandeld en kregen te horen dat hun eigen cultuur minderwaardig was. Veel van hen verloren volledig de connectie met hun roots.\n\nFatima begreef plotseling waarom sommige oudere Indonesische Nederlanders die ze kende zo stil werden wanneer er over het verleden werd gesproken. Het was geen individueel verdriet – het was een systematisch patroon waarbij de Nederlandse staat bewust families had vernietigd. De regering had deze praktijken jarenlang verdedigd als \"civilisatiemissie\".\n\nOp school besloot Fatima een presentatie te maken over dit onderwerp. Haar leraar keek ongemakkelijk toen ze haar plan uitlegde. \"Misschien kun je beter focussen op de positieve aspecten van de Nederlandse geschiedenis,\" stelde hij voor. Maar Fatima schudde haar hoofd. \"Juist door te zwijgen over deze donkere hoofdstukken zorgen we ervoor dat ze zich herhalen.\"\n\nTijdens haar presentatie zag Fatima hoe sommige klasgenoten ongemakkelijk op hun stoel schoven. Een paar leerlingen fluisterden dat ze overdreef en dat het verleden toch voorbij was. Maar Yasmin, een meisje met Indonesische roots, kwam na afloop naar haar toe met tranen in haar ogen. \"Mijn opa heeft me nooit verteld waarom hij geen Indonesisch spreekt. Nu begrijp ik het.\"\n\nFatima realiseerde zich dat geschiedenis niet alleen over het verleden gaat, maar ook over hoe we vandaag met onrecht omgaan. Door te erkennen wat er is gebeurd, kunnen we voorkomen dat nieuwe generaties hetzelfde meemaken. Ze besloot lid te worden van een organisatie die zich inzet voor erkenning van koloniaal onrecht.\n\n\"Geschiedenis wordt geschreven door de overwinnaars,\" had haar oma gezegd. \"Maar dat betekent niet dat de stemmen van de slachtoffers voor altijd zwijgen moeten blijven.\"",
+  "questions": [
+    {
+      "question": "Waarom werden er volgens de tekst kinderen uit Indonesië naar Nederland gehaald tijdens de koloniale tijd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat dit werd gerechtvaardigd als het 'beschaafd' maken van kinderen of als civilisatiemissie, maar dat dit eigenlijk een systematische vorm van onderdrukking was.",
+        "exampleAnswer": "Ze werden gehaald om 'beschaafd' te worden gemaakt, maar eigenlijk was dit een manier om hun cultuur weg te nemen.",
+        "keyElements": [
+          "beschaafd maken/civiliseren",
+          "cultuur wegnemen/onderdrukken",
+          "civilisatiemissie"
+        ],
+        "minWords": 5
+      },
+      "hint": "Kijk naar wat oma vertelt over de reden die werd gegeven."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van het erkennen van historisch onrecht en het doorbreken van stilte over donkere hoofdstukken uit de geschiedenis.",
+        "exampleAnswer": "Het verhaal gaat over het belang van het erkennen van historisch onrecht zodat het zich niet herhaalt.",
+        "keyElements": [
+          "erkennen/toegeven",
+          "historisch onrecht/koloniaal onrecht",
+          "niet herhalen/voorkomen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Fatima leert en besluit te doen."
+    },
+    {
+      "question": "Hoe reageert Fatima's leraar wanneer zij haar presentatieplan uitlegt, en wat zegt dit over de manier waarop met dit onderwerp wordt omgegaan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de leraar ongemakkelijk reageert en wil focussen op positieve aspecten, wat laat zien hoe moeilijke geschiedenis vaak wordt vermeden of weggemoffeld.",
+        "exampleAnswer": "De leraar voelt zich ongemakkelijk en wil dat ze over positieve dingen praat, wat laat zien dat moeilijke geschiedenis vaak wordt vermeden.",
+        "keyElements": [
+          "ongemakkelijk/oncomfortabel",
+          "positieve aspecten/vermijden",
+          "wegmoffelen/zwijgen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan de reactie van de leraar en wat dit betekent."
+    },
+    {
+      "question": "Beoordeel of Fatima's beslissing om een presentatie te maken over dit onderwerp verstandig was. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een onderbouwde mening geven over Fatima's keuze, met argumenten die kunnen pleiten voor (belangrijk om geschiedenis te kennen, doorbreken van stilte) of tegen (zou gevoelig kunnen liggen, andere aanpak mogelijk).",
+        "exampleAnswer": "Ik vind het verstandig omdat het belangrijk is dat alle geschiedenis wordt verteld, ook de moeilijke delen, zodat we ervan kunnen leren.",
+        "keyElements": [
+          "verstandig/goed/belangrijk of onverstandig/moeilijk",
+          "geschiedenis vertellen/leren",
+          "argumenten/omdat/want"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan de voor- en nadelen van haar keuze."
+    },
+    {
+      "question": "Wat was volgens de tekst het doel van de Nederlandse regering met het wegnemen van deze kinderen, en waarom wordt dit nu anders beoordeeld?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de regering dit verdedigde als civilisatiemissie of goede daad, maar dat we nu inzien dat het systematisch onrecht was en families vernietigde.",
+        "exampleAnswer": "De regering zei dat het een goede daad was om kinderen te beschaven, maar nu begrijpen we dat het eigenlijk families kapot maakte.",
+        "keyElements": [
+          "civilisatiemissie/goede daad/beschaven",
+          "families vernietigen/kapotmaken",
+          "systematisch onrecht"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat er wordt gezegd over hoe de regering deze praktijken rechtvaardigde."
+    },
+    {
+      "question": "Wat is volgens de tekst de schrijversdoel van dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien hoe belangrijk het is om over moeilijke geschiedenis te praten en historisch onrecht te erkennen, zodat het niet wordt herhaald.",
+        "exampleAnswer": "De schrijver wil ons laten zien dat we moeten praten over moeilijke geschiedenis en onrecht moeten erkennen.",
+        "keyElements": [
+          "bewustzijn creëren/laten zien",
+          "moeilijke geschiedenis/onrecht",
+          "praten/erkennen/niet vergeten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over waarom de schrijver dit verhaal heeft geschreven en wat hij ons wil leren."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-vergeten-kinderen/image-1.png",
+      "alt": "Fatima kijkt samen met haar oma naar oude zwart-wit foto's van kinderen in uniformen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-vergeten-kinderen/image-2.png",
+      "alt": "Fatima geeft een presentatie voor de klas over Nederlandse koloniale geschiedenis"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch-Moroccan girl looking at old black and white photographs with her elderly Dutch grandmother, sitting together on a couch in an attic room, children's book illustration style",
+    "A teenage girl giving a presentation in a Dutch classroom with historical images on a screen behind her, some students looking uncomfortable, children's book illustration style"
+  ]
+}

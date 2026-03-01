@@ -1,0 +1,122 @@
+{
+  "id": "de-geheime-sleutel-van-de-bibliotheek",
+  "title": "De Geheime Sleutel van de Bibliotheek",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de bibliotheek",
+  "text": "Lise heeft de mooiste baan van de wereld gekregen. Mevrouw Van der Berg, de bibliotheekvrouw, heeft haar gevraagd om elke woensdag na school te helpen. Lise mag boeken terugzetten en de nieuwe kinderboeken uitpakken. Maar het allerbelangrijkste is dat zij de enige is die de bronzen sleutel van de kluis mag gebruiken.\n\nIn die oude kluis liggen de kostbaarste boeken van de bibliotheek: verhalen die meer dan honderd jaar oud zijn en handgeschreven gedichten van beroemde Nederlandse schrijvers. \"Deze sleutel vertrouw ik alleen aan jou toe,\" had mevrouw Van der Berg gezegd. \"Want jij bent de meest betrouwbare leerling die ik ken.\"\n\nOp een regenachtige woensdag ziet Lise dat er een nieuw meisje in de bibliotheek rondkijkt. Het meisje heeft een sombere blik en lijkt verdrietig. \"Zoek je iets speciaals?\" vraagt Lise vriendelijk. Het meisje vertelt dat ze net uit Polen is gekomen en nog geen vrienden heeft gemaakt. Ze mist vooral de sprookjesboeken die haar oma altijd voorlas.\n\nLise weet dat er in de kluis prachtige oude sprookjesboeken liggen met gouden randjes en handgekleurde plaatjes. Die zouden het meisje vast opvrolijken. Omdat mevrouw Van der Berg even naar de kelder is, zou niemand het merken. Lise pakt de bronzen sleutel uit haar zak en aarzelt. Ze heeft beloofd de kluis alleen open te maken als mevrouw Van der Berg erbij is.\n\nUiteindelijk stopt Lise de sleutel weer weg. In plaats daarvan zoekt ze in de gewone kinderafdeling naar een mooi sprookjesboek en gaat naast het meisje zitten om samen te lezen. Het meisje glimlacht voor het eerst die middag, hoewel Lise weet dat de boeken uit de kluis mooier zouden zijn geweest. Soms voelt het goed om teleurgesteld te zijn, omdat je het juiste hebt gedaan.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de sleutel van de kluis?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bronzen"
+      ],
+      "hint": "Zoek naar de beschrijving van de sleutel in de tweede alinea."
+    },
+    {
+      "question": "Waarom vertrouwt mevrouw Van der Berg de sleutel aan Lise toe?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "betrouwbaar",
+            "betrouwbare",
+            "vertrouwen",
+            "vertrouwt"
+          ],
+          [
+            "leerling",
+            "meisje",
+            "kind"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat mevrouw Van der Berg over Lise zegt in de tweede alinea."
+    },
+    {
+      "question": "Hoe voelt het nieuwe meisje zich en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "somber",
+            "sombere",
+            "triest"
+          ],
+          [
+            "vrienden",
+            "vriend",
+            "alleen",
+            "eenzaam"
+          ],
+          [
+            "polen",
+            "nieuw",
+            "nieuwe",
+            "net gekomen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de derde alinea waar het nieuwe meisje wordt beschreven."
+    },
+    {
+      "question": "Vind je dat Lise de juiste keuze heeft gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over Lises keuze en dit onderbouwen met argumenten over vertrouwen, regels volgen, of hulp bieden. Beide standpunten (ja/nee) zijn acceptabel als ze goed onderbouwd zijn.",
+        "exampleAnswer": "Ja, ik vind dat Lise de juiste keuze heeft gemaakt omdat ze haar belofte heeft gehouden en mevrouw Van der Berg vertrouwt haar.",
+        "keyElements": [
+          "juiste/goede keuze/verkeerde keuze",
+          "belofte/vertrouwen/regels",
+          "helpen/aardig zijn"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat belangrijk is: regels volgen of anderen helpen?"
+    },
+    {
+      "question": "Wat is de hoofdboodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over verantwoordelijkheid nemen, vertrouwen respecteren, of dat het goed kan voelen om teleurgesteld te zijn als je het juiste doet.",
+        "exampleAnswer": "Het verhaal gaat erover dat je verantwoordelijkheid moet nemen en beloftes moet houden, ook als dat moeilijk is.",
+        "keyElements": [
+          "verantwoordelijkheid/vertrouwen/belofte",
+          "juiste doen/goede keuze",
+          "moeilijk/teleurgesteld"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat Lise heeft geleerd over verantwoordelijkheid en vertrouwen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-sleutel-van-de-bibliotheek/image-1.png",
+      "alt": "Lise staat bij de oude kluis in de bibliotheek met een bronzen sleutel in haar hand"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-sleutel-van-de-bibliotheek/image-2.png",
+      "alt": "Lise en het nieuwe meisje zitten samen een sprookjesboek te lezen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl holding an ornate bronze key, standing near an old wooden cabinet in a cozy Dutch library, children's book illustration style with warm lighting and shelves full of books",
+    "Two young girls sitting together reading a colorful storybook in a library corner, one girl looking happier while the other smiles kindly, children's book illustration style with soft colors"
+  ]
+}

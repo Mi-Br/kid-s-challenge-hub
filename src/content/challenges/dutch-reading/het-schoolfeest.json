@@ -1,0 +1,50 @@
+{
+  "id": "het-schoolfeest",
+  "title": "Het Schoolfeest",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "school",
+  "text": "Aisha is bang voor het schoolfeest. Ze wil niet meehelpen.\n\n\"Kom je helpen?\" vraagt Juf Emma.\n\"Ik ben bang,\" zegt Aisha.\n\"Waarom ben je bang?\" vraagt Juf Emma.\n\"Het is te moeilijk,\" zegt Aisha.\n\nTom komt naar Aisha. \"Ik help je,\" zegt Tom.\n\"Wil jij dat?\" vraagt Aisha.\n\"Ja, samen is het leuk,\" zegt Tom.\n\nAisha en Tom maken ballonnen vast. Het is niet moeilijk. Het is leuk!\n\"Dit is fijn,\" zegt Aisha.\nZe is niet meer bang.",
+  "questions": [
+    {
+      "question": "Wie is bang voor het schoolfeest?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "aisha"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat vraagt Juf Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "kom je helpen?",
+        "kom je helpen"
+      ],
+      "hint": "Zoek wat de juf zegt."
+    },
+    {
+      "question": "Wie helpt Aisha?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "tom"
+      ],
+      "hint": "Kijk naar het tweede stuk."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-schoolfeest/image-1.png",
+      "alt": "Aisha kijkt bang naar de klaslokaal met ballonnen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-schoolfeest/image-2.png",
+      "alt": "Aisha en Tom maken samen ballonnen vast"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with hijab looking worried at a classroom decorated with colorful balloons for a school party, children's book illustration style",
+    "Two children, a girl with hijab and a boy, happily hanging balloons together in a bright classroom, children's book illustration style"
+  ]
+}

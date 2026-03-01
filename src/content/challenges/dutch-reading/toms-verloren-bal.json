@@ -1,0 +1,53 @@
+{
+  "id": "toms-verloren-bal",
+  "title": "Toms Verloren Bal",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de buurt",
+  "text": "Tom woont op een boerderij. Hij heeft een blauwe bal. Tom speelt elke dag met zijn bal.\n\nVandaag speelt Tom in de tuin. Hij gooit de bal hoog in de lucht. De bal valt in het gras. Tom zoekt zijn bal. Hij kijkt onder de boom. Hij kijkt achter het hek.\n\nTom is verdrietig. Waar is zijn blauwe bal? Hij loopt naar de schuur. In de schuur zijn veel kippen. De kippen lopen rond.\n\nTom ziet iets blauw. Het is zijn bal! De bal ligt naast de kippen. Tom is blij. Hij pakt zijn bal en rent naar huis.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de bal van Tom?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw",
+        "blauwe"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar woont Tom?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op een boerderij",
+        "boerderij"
+      ],
+      "hint": "Lees de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waar vindt Tom zijn bal terug?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de schuur",
+        "naast de kippen",
+        "bij de kippen"
+      ],
+      "hint": "Lees de laatste alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/toms-verloren-bal/image-1.png",
+      "alt": "Tom speelt met zijn blauwe bal in de tuin van de boerderij"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/toms-verloren-bal/image-2.png",
+      "alt": "Tom vindt zijn bal terug in de schuur naast de kippen"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy named Tom playing with a blue ball in a farm garden with trees and a fence, children's book illustration style",
+    "Tom finding his blue ball in a barn next to chickens walking around, the boy looking happy and relieved, children's book illustration style"
+  ]
+}

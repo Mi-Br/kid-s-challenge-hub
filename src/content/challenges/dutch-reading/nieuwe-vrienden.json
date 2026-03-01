@@ -1,0 +1,65 @@
+{
+  "id": "nieuwe-vrienden",
+  "title": "Nieuwe Vrienden",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "vriendschap",
+  "text": "Lisa was nieuw op school. Ze kende nog niemand. In de pauze stond ze alleen op het schoolplein.\n\nToen kwam Mia naar haar toe. \"Hoi, ik ben Mia,\" zei ze vriendelijk. \"Wil je met ons voetballen?\" Lisa knikte blij. Ze renden samen naar de andere kinderen.\n\nNa school vroeg Mia: \"Kom je morgen naar mijn verjaardag?\" Lisa straalde. \"Ja, graag!\" zei ze. Nu had ze eindelijk een vriendin gevonden.\n\nDe volgende dag ging Lisa naar Mia's feestje. Ze had veel plezier. Alle kinderen waren aardig tegen haar. Lisa voelde zich niet meer alleen.",
+  "questions": [
+    {
+      "question": "Wie was nieuw op school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "lisa"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat vroeg Mia aan Lisa in de pauze?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wil je met ons voetballen"
+      ],
+      "hint": "Lees wat Mia zei toen ze naar Lisa toe kwam."
+    },
+    {
+      "question": "Waarom was Lisa blij toen Mia naar haar toe kwam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "alleen",
+            "eenzaam",
+            "niemand"
+          ],
+          [
+            "vriendin",
+            "vrienden",
+            "aardig",
+            "vriendelijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Lisa zich voelde voordat Mia kwam."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/nieuwe-vrienden/image-1.png",
+      "alt": "Lisa staat alleen op het schoolplein"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/nieuwe-vrienden/image-2.png",
+      "alt": "Mia en Lisa voetballen samen met andere kinderen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl standing alone in a Dutch school playground, looking a bit sad, with other children playing in the background, children's book illustration style",
+    "Two young girls happily playing soccer together with other children in a Dutch school playground, sunny day, children's book illustration style"
+  ]
+}

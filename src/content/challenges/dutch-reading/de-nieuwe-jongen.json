@@ -1,0 +1,78 @@
+{
+  "id": "de-nieuwe-jongen",
+  "title": "De Nieuwe Jongen",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Sanne zag de nieuwe jongen bij de ingang staan. Hij keek naar de grond omdat hij zenuwachtig was. Zijn mama gaf hem een knuffel en ging toen weg. De jongen bleef alleen achter.\n\nToen Sanne het zag, keek ze naar haar vriendinnen. \"Zullen we hem helpen?\" vroeg ze zacht. Emma knikte want ze vond het zielig. Als ze samen gingen, zou hij zich beter voelen.\n\nSanne liep naar de jongen toe. \"Hoi, ik ben Sanne. Hoe heet jij?\" De jongen keek op en glimlachte een beetje. \"Ik ben Noah,\" zei hij zacht. \"Dit is mijn eerste dag.\"\n\n\"Kom maar mee,\" zei Sanne vriendelijk. \"We gaan samen naar de klas. Juf Marieke is heel aardig.\" Noah liep mee omdat hij zich nu minder bang voelde. Op de speelplaats speelden ze samen voetbal.\n\n\"Dank je wel,\" zei Noah later. \"Nu heb ik nieuwe vrienden.\" Sanne was blij dat ze had geholpen. Het voelde goed om aardig te zijn.",
+  "questions": [
+    {
+      "question": "Waarom keek Noah naar de grond?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "omdat hij zenuwachtig was",
+        "hij was zenuwachtig"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Hoe voelde Noah zich toen Sanne hem help?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "minder bang",
+        "hij voelde zich minder bang"
+      ],
+      "hint": "Zoek in de vierde alinea."
+    },
+    {
+      "question": "Waarom besloot Sanne om Noah te helpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zielig",
+            "alleen",
+            "alleen achter",
+            "zenuwachtig"
+          ],
+          [
+            "helpen",
+            "aardig",
+            "vriendelijk",
+            "goed"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Noah eruitzag en wat Sanne voelde."
+    },
+    {
+      "question": "Wat betekent het woord 'zenuwachtig' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "acceptableAnswers": [
+        "bang",
+        "onzeker",
+        "gespannen"
+      ],
+      "hint": "Denk na over hoe Noah zich voelde op zijn eerste schooldag."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-jongen/image-1.png",
+      "alt": "Een nieuwe jongen staat alleen bij de schoolingang"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-jongen/image-2.png",
+      "alt": "Sanne en Noah spelen samen voetbal op de speelplaats"
+    }
+  ],
+  "imagePrompts": [
+    "A nervous young boy standing alone at a Dutch school entrance while his mother walks away, children's book illustration style",
+    "A girl named Sanne and a boy named Noah playing soccer together on a Dutch school playground with other children around, children's book illustration style"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "mijn-eigen-cadeau",
+  "title": "Mijn Eigen Cadeau",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Over twee weken wordt Emma acht jaar. Mama vraagt wat ze wil voor haar verjaardag. \"Ik wil een roze rugzak met sterren erop,\" zegt Emma. \"Die hebben we gezien in de winkel bij het park.\"\n\nMama schudt haar hoofd. \"Die rugzak kost vijftig euro. Dat is te duur voor een cadeau.\" Emma wordt verdrietig omdat ze die rugzak echt heel mooi vindt.\n\nEen week later krijgt Emma een idee. Als ze zelf geld spaart, kan ze misschien helpen betalen. Ze telt haar spaargeld. Ze heeft maar acht euro. Dat is niet genoeg want de rugzak kost veel meer.\n\nDan bedenkt Emma iets anders. Ze pakt haar oude blauwe rugzak en vraagt om stickers met sterren. Papa koopt gouden sterren in de winkel. Emma plakt alle sterren voorzichtig op haar rugzak. Nu heeft ze ook een mooie rugzak met sterren!\n\nOp haar verjaardag is Emma heel blij. \"Mijn rugzak is nog mooier dan die in de winkel,\" zegt ze trots. \"Want ik heb hem zelf gemaakt.\"",
+  "questions": [
+    {
+      "question": "Hoeveel euro kost de rugzak in de winkel?",
+      "questionType": "begrijpen",
+      "hint": "Mama vertelt de prijs in het tweede stukje.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijftig"
+          ],
+          [
+            "euro"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoeveel spaargeld heeft Emma?",
+      "questionType": "begrijpen",
+      "hint": "Emma telt haar geld in het derde stukje.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "acht"
+          ],
+          [
+            "euro"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom kan Emma de rugzak niet kopen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "duur",
+            "te duur",
+            "kost",
+            "vijftig",
+            "veel geld"
+          ],
+          [
+            "niet genoeg",
+            "weinig",
+            "maar acht",
+            "acht euro"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat mama zegt en hoeveel geld Emma heeft."
+    },
+    {
+      "question": "Wat betekent het woord 'voorzichtig' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Emma wil de stickers mooi plakken zonder fouten.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "langzaam"
+          ],
+          [
+            "niet snel"
+          ],
+          [
+            "rustig"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eigen-cadeau/image-1.png",
+      "alt": "Emma kijkt naar een roze rugzak met sterren in een winkel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eigen-cadeau/image-2.png",
+      "alt": "Emma plakt gouden sterren op haar blauwe rugzak"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking at a pink backpack with stars in a Dutch shop window, children's book illustration style",
+    "A girl carefully placing golden star stickers on her blue backpack at a table at home, children's book illustration style"
+  ]
+}

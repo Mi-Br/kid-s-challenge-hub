@@ -1,0 +1,123 @@
+{
+  "id": "een-wonderlijke-ontdekking",
+  "title": "Een Wonderlijke Ontdekking",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Lotte was bang voor spinnen. Altijd al, omdat ze vorig jaar een grote spin in haar bed had gevonden. Nu liep ze voorzichtig door het bos bij haar huis. Haar broer Tim zag kleine pootafdrukken in de modder.\n\n\"Kijk Lotte!\" riep Tim. \"Deze sporen zijn heel bijzonder. Ze lijken op sterretjes.\" Lotte kwam dichterbij want ze hield van mysteries. De sporen waren inderdaad wonderlijk. Ze gingen van boom tot boom.\n\nTim wees naar boven. \"Daar!\" fluisterde hij. Een kleine spin maakte een prachtig web tussen de takken. Het web glinsterde in de zon zoals diamanten. Lotte vergat haar angst omdat het zo mooi was.\n\n\"Wat slim,\" zei Lotte zachtjes. \"De spin gebruikt haar poten als kleine kunstenaars gebruiken hun penselen.\" Ze keek naar de modderige pootafdrukken en toen naar het glinsterende web. Nu begreep ze waarom Tim de sporen bijzonder had genoemd.\n\nVanaf die dag ging Lotte vaak naar het bos om spinnenwebben te zoeken. Ze ontdekte dat elke spin andere patronen maakt, omdat iedere spin een eigen stijl heeft.",
+  "questions": [
+    {
+      "question": "Waarom was Lotte bang voor spinnen?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "vorig"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom kwam Lotte dichterbij toen Tim de sporen zag?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hield",
+            "houdt",
+            "houden"
+          ],
+          [
+            "mysteries",
+            "mysterie",
+            "geheimen",
+            "geheim",
+            "bijzonder"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lotte leuk vindt volgens het verhaal."
+    },
+    {
+      "question": "Wat betekent het woord 'wonderlijk' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Tim gebruikt ook een ander woord met dezelfde betekenis.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "bijzonder"
+          ],
+          [
+            "speciaal"
+          ],
+          [
+            "vreemd"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat Lotte dapper was toen ze naar de spin keek? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "dapper",
+            "moedig",
+            "stoer"
+          ],
+          [
+            "bang",
+            "angst",
+            "angstig"
+          ],
+          [
+            "toch",
+            "maar",
+            "ondanks",
+            "hoewel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Lotte zich voelde aan het begin en wat ze toch deed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/een-wonderlijke-ontdekking/image-1.png",
+      "alt": "Lotte en Tim bekijken spinnensporen in de modder"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/een-wonderlijke-ontdekking/image-2.png",
+      "alt": "Een glinsterende spinnenweb in het zonlicht tussen de bomen"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch children, a girl and boy, crouching down examining small tracks in muddy forest ground, children's book illustration style, detailed nature setting with trees",
+    "A beautiful spider web glistening with dewdrops in sunlight between tree branches, with a small spider visible, children's book illustration style, magical forest atmosphere"
+  ]
+}

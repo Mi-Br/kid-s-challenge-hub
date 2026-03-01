@@ -1,0 +1,128 @@
+{
+  "id": "de-stem-van-morgen",
+  "title": "De Stem van Morgen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "democratie",
+  "text": "Lara's hart klopte sneller toen ze Daan's hand vasthield tijdens de demonstratie voor klimaatrechtvaardigheid. Ze waren nu drie maanden samen, maar vandaag voelde anders—alsof hun relatie een volwassener vorm kreeg door hun gedeelde passie voor verandering.\n\n\"Onze democratie is niet perfect,\" riep de spreekster door de megafoon. \"Maar dat betekent juist dat wij, jonge burgers, onze stem moeten laten horen!\" Lara knikte instemmend, maar Daan leek afgeleid. Hij staarde naar de politieagenten aan de rand van het plein, hun gezichten verborgen achter donkere brillen.\n\nToen de menigte begon te scanderen \"Transparantie nu!\", stapte Daan plotseling naar voren. \"Waarom arresteert de politie klimaatactivisten terwijl grote bedrijven gewoon doorgaan met vervuilen?\" schreeuwde hij door de menigte. Zijn stem klonk schor van emotie. Lara voelde een mengeling van trots en bezorgdheid—ze bewonderde zijn moed, maar vreesde de gevolgen.\n\nDe demonstratie escaleerde toen een groep tegendemonstranten verscheen met spandoeken waarop stond: \"Economie boven ecologie!\" De sfeer werd gespannen, en Lara zag hoe sommige demonstranten zich opstelden voor een confrontatie. Dit was niet wat democratische meningsuiting hoorde te zijn.\n\n\"Kom, we gaan,\" fluisterde Lara dringend in Daan's oor. Maar hij schudde zijn hoofd. \"Wegrennen lost niets op, Lara. Soms moet je ervoor kiezen om te blijven staan voor je overtuigingen, ook als het risicovol is.\"\n\nOp dat moment realiseerde Lara zich dat hun relatie een kantelpunt had bereikt. Niet alleen romantisch, maar ook politiek en moreel. Ze moest beslissen: zou ze Daan steunen in zijn principe, ook al betekende dat mogelijk problemen? Of zou ze haar eigen veiligheid voorop stellen?\n\n\"Dan blijven we samen,\" zei ze resoluut, terwijl ze zijn hand steviger vasthield. \"Maar we doen dit slim. Democratie betekent niet alleen protesteren—het betekent ook strategisch denken en anderen overtuigen door middel van dialoog.\"\n\nTerwijl de politie naderbij kwam, begonnen Lara en Daan vreedzaam te praten met de tegendemonstranten. In plaats van te schreeuwen, stelden ze vragen en luisterden ze naar andere meningen. Hoewel ze het niet eens werden, toonden beide groepen respect voor elkaars recht op vrije meningsuiting—de kern van elke functionerende democratie.",
+  "questions": [
+    {
+      "question": "Waarom voelde Daan zich gefrustreerd tijdens de demonstratie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "politie",
+            "agenten",
+            "arresteert",
+            "arresteren"
+          ],
+          [
+            "activisten",
+            "demonstranten",
+            "mensen"
+          ],
+          [
+            "bedrijven",
+            "vervuilen",
+            "vervuiling",
+            "economie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat Daan roept in de derde alinea."
+    },
+    {
+      "question": "Hoe toonden de demonstranten uiteindelijk respect voor democratische waarden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de demonstranten ophielden met schreeuwen en in plaats daarvan vreedzaam gingen praten, naar andere meningen luisterden en respect toonden voor vrije meningsuiting.",
+        "exampleAnswer": "Ze stopten met schreeuwen en gingen vreedzaam praten met tegenstanders, luisterden naar andere meningen en toonden respect voor vrije meningsuiting.",
+        "keyElements": [
+          "vreedzaam/rustig praten",
+          "luisteren/naar meningen luisteren",
+          "respect/respect tonen",
+          "vrije meningsuiting"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat er gebeurt in de laatste alinea."
+    },
+    {
+      "question": "Beoordeel of Lara's beslissing om bij Daan te blijven verstandig was. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (verstandig of niet verstandig) en deze onderbouwen met argumenten uit de tekst. Goede argumenten kunnen zijn: solidariteit, veiligheidsrisico, democratische principes, relatieontwikkeling.",
+        "exampleAnswer": "Ik vind het verstandig omdat ze hem steunt maar ook een slimmere aanpak voorstelt. Ze kiest voor dialoog in plaats van confrontatie.",
+        "keyElements": [
+          "verstandig/niet verstandig",
+          "steun/solidariteit",
+          "veiligheid/risico",
+          "dialoog/praten",
+          "slim/strategie"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de voor- en nadelen van Lara's keuze."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte gaat over hoe jongeren kunnen leren dat echte democratie betekent luisteren naar andere meningen en dialoog voeren, niet alleen protesteren of schreeuwen.",
+        "exampleAnswer": "Het verhaal gaat erover dat democratie niet alleen protesteren betekent, maar vooral luisteren naar anderen en dialoog voeren.",
+        "keyElements": [
+          "democratie/democratisch",
+          "dialoog/praten/luisteren",
+          "respect/andere meningen",
+          "niet alleen protesteren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat de personages leren over democratie."
+    },
+    {
+      "question": "Met welk doel schreef de auteur dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De auteur wil jongeren leren dat democratie meer is dan protesteren - het gaat om dialoog, respect voor andere meningen en het vinden van oplossingen door samen te praten.",
+        "exampleAnswer": "De auteur wil jongeren laten zien dat democratie betekent respectvol praten met mensen die andere meningen hebben.",
+        "keyElements": [
+          "leren/onderwijzen/laten zien",
+          "democratie/democratisch",
+          "dialoog/praten/samenwerken",
+          "respect/andere meningen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan welke les de auteur wil overbrengen aan jonge lezers."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-van-morgen/image-1.png",
+      "alt": "Lara en Daan houden elkaars hand vast tijdens een klimaatdemonstratie"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-van-morgen/image-2.png",
+      "alt": "Jongeren praten vreedzaam met tegendemonstranten terwijl politie toekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch teenagers holding hands at a climate change demonstration with protest signs and other young activists, children's book illustration style",
+    "Young people having peaceful dialogue with counter-protesters while police officers watch from a distance, democratic discussion scene, children's book illustration style"
+  ]
+}

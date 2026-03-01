@@ -1,0 +1,114 @@
+{
+  "id": "moed-op-de-markt",
+  "title": "Moed op de Markt",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de markt",
+  "text": "Amara voelt haar hart bonken wanneer ze het ziet gebeuren. De oude man met zijn krukken staat bij de groentekraam en vraagt om hulp. Maar de verkoper, een grote man met vuile handen, schreeuwt tegen hem: \"Ga weg, jij hoort hier niet!\" Andere mensen kijken weg of doen alsof ze niets horen.\n\nDat was gisteren op de zaterdagmarkt. Nu, een dag later, denkt Amara nog steeds aan de tranen in de ogen van de oude man. Haar mama heeft haar geleerd dat alle mensen respect verdienen, maar wat kun je doen als je nog maar tien bent?\n\n\"Ik ben te klein,\" fluistert ze tegen haar knuffelkonijn. Het konijn, dat ooit wit was maar nu grijs van alle knuffels, kijkt haar aan met zijn ene goede oog. Het andere oog is jaren geleden losgeraakt. \"Niemand luistert naar kinderen.\"\n\nVandaag gaat ze weer naar de markt met papa. Haar hart klopt snel omdat ze bang is dat het weer zal gebeuren. Ze houdt papa's hand stevig vast terwijl ze tussen de kramen door lopen. De geur van verse appels en warme stroopwafels vult de lucht.\n\nDan ziet ze hem weer: dezelfde oude man, dezelfde verkoper. \"Ik heb je toch gezegd dat je weg moet gaan!\" roept de verkoper boos. De oude man schudt zijn hoofd en wijst naar de appels. Hij wil gewoon fruit kopen, net als iedereen.\n\nAmara laat papa's hand los. Haar benen trillen, maar ze loopt naar de kraam. \"Meneer,\" zegt ze met een dunne stem tegen de verkoper, \"deze man wil alleen maar appels kopen. Dat mag toch?\" Haar stem wordt sterker: \"Mijn mama zegt dat alle mensen welkom zijn op onze markt.\"\n\nDe verkoper kijkt verbaasd naar het kleine meisje. Andere mensen stoppen en luisteren nu ook. Papa komt naast Amara staan en knikt trots. \"Mijn dochter heeft gelijk,\" zegt hij rustig maar duidelijk.\n\nDe oude man glimlacht naar Amara en koopt zijn appels. Later geeft hij haar een gouden munt - niet echt goud, maar het glinstert in het zonlicht. \"Voor een dapper meisje,\" zegt hij in gebroken Nederlands. Amara stopt de munt in haar zak en voelt zich groter dan ooit tevoren.",
+  "questions": [
+    {
+      "question": "Wat heeft de oude man bij zich als hij naar de groentekraam gaat?",
+      "questionType": "begrijpen",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "krukken",
+          "zijn krukken"
+        ]
+      },
+      "hint": "Kijk naar de eerste alinea waar beschreven wordt hoe de oude man eruitziet."
+    },
+    {
+      "question": "Waarom trilt Amara als ze naar de kraam loopt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig",
+            "nerveus"
+          ],
+          [
+            "praten",
+            "zeggen",
+            "spreken",
+            "ingrijpen",
+            "helpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Amara zich voelt voordat ze iets zegt."
+    },
+    {
+      "question": "Wat symboliseert het konijn met één oog voor Amara's situatie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het kapotte konijn Amara's onzekerheid of kwetsbaarheid symboliseert, maar ook dat iets beschadigd nog steeds waardevol kan zijn, net zoals Amara zich klein voelt maar toch moed kan tonen.",
+        "exampleAnswer": "Het konijn is oud en kapot maar nog steeds speciaal voor Amara, net zoals zij zich klein voelt maar toch belangrijk is.",
+        "keyElements": [
+          "beschadigd/kapot maar waardevol",
+          "klein/zwak maar sterk",
+          "onzekerheid/kwetsbaarheid"
+        ],
+        "minWords": 5
+      },
+      "hint": "Let op hoe het konijn wordt beschreven en waar Amara mee worstelt."
+    },
+    {
+      "question": "Vind je dat Amara het juiste deed door de verkoper aan te spreken? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Amara's handeling en deze onderbouwen met argumenten uit de tekst of eigen ervaring. Zowel positieve als negatieve meningen zijn acceptabel als ze goed onderbouwd zijn.",
+        "exampleAnswer": "Ja, want iedereen verdient respect en Amara stond op voor wat juist is, ook al was ze bang.",
+        "keyElements": [
+          "mening/oordeel",
+          "onderbouwing/argument",
+          "respect/rechtvaardigheid/moed"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de gevolgen van Amara's actie en wat jij zou hebben gedaan."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed tonen ondanks angst, opkomen voor anderen, of dat ook kleine mensen groot kunnen zijn in hun daden.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat moed vindt om op te komen voor iemand anders, ook al is ze bang.",
+        "keyElements": [
+          "moed/dapper zijn",
+          "opkomen voor anderen/helpen",
+          "klein maar sterk/groot in daden"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Amara leert en wat de schrijver ons wil vertellen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/moed-op-de-markt/image-1.png",
+      "alt": "Een jong meisje en haar vader lopen tussen kleurrijke marktkramen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/moed-op-de-markt/image-2.png",
+      "alt": "Het meisje praat moedig tegen de verkoper terwijl de oude man met krukken toekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with dark hair walking with her father through a busy Dutch market with colorful stalls selling fruits and vegetables, people shopping, stroopwafel stand in background, children's book illustration style",
+    "A brave young girl speaking up to a large market vendor while an elderly man with crutches stands nearby holding apples, other market customers watching, warm sunlight, children's book illustration style"
+  ]
+}

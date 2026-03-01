@@ -1,0 +1,76 @@
+{
+  "id": "ruzie-in-de-klas",
+  "title": "Ruzie in de Klas",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "school",
+  "text": "Emma en Tim zijn vrienden. Ze zitten naast elkaar in de klas.\n\nVandaag tekent Emma een mooie bloem. Tim kijkt naar haar tekening. \"Die bloem is lelijk,\" zegt Tim. Emma wordt verdrietig. Ze zegt niets meer tegen Tim.\n\nIn de pauze speelt Emma alleen. Tim ziet dat Emma verdrietig is. Hij voelt zich niet fijn. Tim loopt naar Emma toe. \"Sorry Emma,\" zegt hij. \"Je bloem is heel mooi.\" Emma lacht weer. Ze zijn weer vrienden.",
+  "questions": [
+    {
+      "question": "Wat tekent Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een bloem",
+        "een mooie bloem",
+        "bloem"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Wat zegt Tim over de bloem?",
+      "questionType": "begrijpen",
+      "hint": "Lees wat Tim zegt in de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "bloem"
+          ],
+          [
+            "lelijk"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom wordt Emma verdrietig?",
+      "questionType": "begrijpen",
+      "hint": "Denk na over wat Tim zegt over Emma's tekening.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "zegt"
+          ],
+          [
+            "haar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/ruzie-in-de-klas/image-1.png",
+      "alt": "Emma tekent een bloem terwijl Tim naast haar kijkt in de klas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/ruzie-in-de-klas/image-2.png",
+      "alt": "Tim zegt sorry tegen Emma in de speeltuin"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl drawing a colorful flower at her school desk while a boy sits next to her looking at the drawing, children's book illustration style, bright classroom setting",
+    "A young boy apologizing to a girl in a school playground, both children smiling and reconciling, children's book illustration style, sunny outdoor setting"
+  ]
+}

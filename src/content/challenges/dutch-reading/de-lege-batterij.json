@@ -1,0 +1,123 @@
+{
+  "id": "de-lege-batterij",
+  "title": "De Lege Batterij",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "technologie",
+  "text": "Emma kijkt naar haar telefoon. De batterij is bijna leeg. Ze heeft vandaag al veel foto's gemaakt voor Instagram. Nu kan ze niet meer online.\n\n\"Mijn telefoon is dood,\" zegt Emma tegen haar vriendin Lisa. \"Ik kan niet zien wie mij berichten heeft gestuurd.\" Lisa lacht. \"Kom, we gaan naar buiten. We kunnen ook gewoon praten.\"\n\nZe lopen naar het park. Emma mist haar telefoon. Ze wil een selfie maken bij de vijver. Maar ze kan niet. \"Dit is saai,\" zegt Emma.\n\nLisa wijst naar de eenden in het water. \"Kijk, die kleine eendjes zijn zo schattig!\" Emma kijkt goed. De eendjes zwemmen achter hun moeder aan. Het is een mooi gezicht.\n\n\"Je hebt gelijk,\" zegt Emma. \"Ik zie veel dingen niet als ik altijd naar mijn scherm kijk.\" Ze voelt zich rustiger zonder haar telefoon. \"Misschien moet ik minder tijd online doorbrengen.\"\n\nDie avond laadt Emma haar telefoon op. Maar ze besluit om elke dag een uur zonder telefoon door te brengen. Ze wil meer van de echte wereld zien.",
+  "questions": [
+    {
+      "question": "Waarom kan Emma niet meer online?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "batterij"
+          ],
+          [
+            "bijna"
+          ],
+          [
+            "leeg"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom vindt Emma het eerst saai in het park?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "telefoon",
+            "scherm",
+            "online"
+          ],
+          [
+            "mist",
+            "missen",
+            "kan niet",
+            "zonder"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma gewend is om te doen."
+    },
+    {
+      "question": "Hoe verandert Emma's gevoel tijdens de wandeling?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "rustiger",
+            "kalmer",
+            "beter"
+          ],
+          [
+            "ziet",
+            "kijkt",
+            "ontdekt",
+            "merkt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat Emma zegt over de eendjes en haar scherm."
+    },
+    {
+      "question": "Wat besluit Emma aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "uur",
+            "tijd",
+            "minder"
+          ],
+          [
+            "zonder",
+            "niet",
+            "geen"
+          ],
+          [
+            "telefoon",
+            "online",
+            "scherm"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-lege-batterij/image-1.png",
+      "alt": "Emma kijkt naar haar telefoon met lege batterij in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-lege-batterij/image-2.png",
+      "alt": "Emma en Lisa kijken naar eendjes in de vijver"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking disappointed at her dead phone while standing in a Dutch park, children's book illustration style",
+    "Two teenage girls watching cute baby ducks swimming behind their mother in a park pond, children's book illustration style"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "de-keuze-van-lars",
+  "title": "De Keuze van Lars",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "milieu",
+  "text": "Lars staarde naar de brief op zijn bureau. De milieuorganisation Green Future had hem uitgenodigd voor een stage in Costa Rica, waar hij wilde helpen bij het beschermen van regenwouden. Maar zijn ouders wilden dat hij de zomer zou doorbrengen bij zijn opa, die een boerderij had.\n\nHij herinnerde zich hoe zijn interesse voor de natuur was begonnen. Drie jaar geleden, tijdens een schoolexcursie naar het Nationaal Park Hoge Veluwe, had hij voor het eerst echt naar de bomen gekeken. De gids vertelde over klimaatverandering en hoe belangrijk bossen waren. Dat moment had zijn leven veranderd.\n\nVorig jaar had Lars zijn eerste milieuactie georganiseerd op school. Hij verzamelde plastic afval op het schoolplein en maakte er een kunstwerk van. Veel klasgenoten dachten dat hij overdreef, maar de directeur was onder de indruk geweest. \"Jongeren zoals jij kunnen het verschil maken,\" had ze gezegd.\n\nNu zat Lars met een moeilijke beslissing. De stage in Costa Rica zou geweldig zijn, maar ook eng. Hij had nog nooit alleen gevlogen, en hij sprak geen Spaans. Bovendien zou hij zijn vrienden de hele zomer missen. Aan de andere kant wist hij dat dit een unieke kans was om echt iets voor het milieu te doen.\n\nHij dacht aan de woorden van zijn biologieleraar: \"Soms moet je een sprong in het diepe nemen om te ontdekken wat je echt kunt.\" Lars haalde diep adem en pakte zijn pen. Hij ging de uitdaging aangaan, ook al wist hij niet precies wat hem te wachten stond. De planeet had jongeren nodig die durfden te handelen.",
+  "questions": [
+    {
+      "question": "Welke organisatie had Lars uitgenodigd voor een stage?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "green future"
+      ],
+      "hint": "Kijk naar de eerste zin van de eerste alinea."
+    },
+    {
+      "question": "Waarom was Lars geïnteresseerd geraakt in de natuur?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "schoolexcursie",
+            "excursie",
+            "schoolreis"
+          ],
+          [
+            "bomen",
+            "natuur",
+            "bos",
+            "park"
+          ],
+          [
+            "gids",
+            "uitleg",
+            "vertelde",
+            "informatie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er drie jaar geleden gebeurde tijdens een schoolactiviteit."
+    },
+    {
+      "question": "Wat maakte Lars bang voor de reis naar Costa Rica?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "alleen",
+            "zelf",
+            "zonder hulp"
+          ],
+          [
+            "vliegen",
+            "vliegtuig",
+            "reis"
+          ],
+          [
+            "spaans",
+            "taal",
+            "communicatie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "In de vierde alinea staat wat Lars zorgen baarde."
+    },
+    {
+      "question": "Vind je dat Lars de juiste keuze heeft gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lars' beslissing en deze onderbouwen met argumenten uit de tekst of eigen redenering. Zowel voor als tegen kan correct zijn, zolang de uitleg logisch is.",
+        "exampleAnswer": "Ja, ik vind het een goede keuze omdat hij zijn droom volgt om het milieu te helpen, ook al is het eng.",
+        "keyElements": [
+          "mening/keuze",
+          "onderbouwing/omdat/want",
+          "milieu/natuur/planeet"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Lars belangrijk vindt en wat de voor- en nadelen zijn."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed hebben om een moeilijke maar belangrijke keuze te maken voor je toekomst, ondanks onzekerheid en angst.",
+        "exampleAnswer": "Het verhaal gaat over een jongen die moed verzamelt om een moeilijke keuze te maken voor zijn toekomst, ook al is hij bang.",
+        "keyElements": [
+          "moeilijke keuze/beslissing",
+          "moed/durven",
+          "toekomst/dromen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat leert dit verhaal ons over het maken van belangrijke keuzes?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-lars/image-1.png",
+      "alt": "Lars zit aan zijn bureau en kijkt naar een brief"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-lars/image-2.png",
+      "alt": "Lars schrijft met een pen, vastberaden om zijn keuze te maken"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy sitting at a desk looking thoughtfully at a letter, with school books and environmental posters on the wall behind him, children's book illustration style",
+    "The same teenage boy writing with determination, a slight smile on his face as he makes his decision, warm lighting suggesting hope and courage, children's book illustration style"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "dapper-op-de-markt",
+  "title": "Dapper op de markt",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de markt",
+  "text": "Elke zaterdag gaat Mira met haar oma naar de grote markt in het centrum. Ze kopen verse groenten bij kraam 17, waar meneer Van Dijk al dertig jaar groenten verkoopt. Mira houdt van de drukte, de geuren en de vrolijke stemmen van de marktkooplui.\n\nVandaag gebeurt er iets vervelends. Een jonge man bij de kaaskraam wordt onvriendelijk behandeld door de verkoper. \"Jij spreekt de taal niet goed genoeg!\", roept de man achter de toonbank. \"Ga maar ergens anders kaas kopen!\" De jonge klant, die een beetje accent heeft, wordt rood en loopt beschaamd weg.\n\nMira voelt haar hart bonken. Dit is niet eerlijk! Ze zou iets moeten zeggen, maar durft niet. Wat indien de verkoper boos op haar wordt? Mocht ze zich ermee bemoeien? Haar oma heeft niet gemerkt wat er gebeurde omdat ze druk bezig was met het uitzoeken van tomaten.\n\nToen ze thuiskomen, kan Mira het voorval niet vergeten. Ze vertelt haar oma wat ze heeft gezien. \"Oh lieverd\", zegt oma, \"dat is inderdaad niet netjes. Weet je wat? Volgende week gaan we samen naar die kaaskraam. Als zoiets weer gebeurt, dan zeggen we er samen iets van.\"\n\nDe volgende zaterdag loopt Mira met meer moed naar de markt. Ze heeft haar oma's wijze woorden onthouden: \"Soms moet je opkomen voor wat juist is, ook al is het moeilijk.\" Bij de kaaskraam koopt oma gewoon een stuk oude kaas, maar Mira let goed op hoe de verkoper met andere klanten omgaat. Ze voelt zich sterker omdat ze weet dat ze niet alleen staat.",
+  "questions": [
+    {
+      "question": "Waar koopt Mira elke zaterdag groenten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "kraam 17",
+        "bij kraam 17",
+        "bij meneer van dijk"
+      ],
+      "hint": "Kijk in de eerste alinea waar precies wordt uitgelegd."
+    },
+    {
+      "question": "Waarom werd de jonge man weggestuurd bij de kaaskraam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "taal",
+            "spreken",
+            "accent",
+            "nederlands"
+          ],
+          [
+            "niet",
+            "slecht",
+            "verkeerd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "De verkoper zei iets over hoe de klant sprak."
+    },
+    {
+      "question": "Hoe voelde Mira zich toen ze het oneerlijke gedrag zag?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hart",
+            "bonken",
+            "bonkte"
+          ],
+          [
+            "niet",
+            "on",
+            "eerlijk",
+            "vervelend",
+            "rot"
+          ],
+          [
+            "bang",
+            "durven",
+            "durfde",
+            "moeilijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat er in de derde alinea over Mira's gevoel staat."
+    },
+    {
+      "question": "Vind je dat oma goed advies gaf? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over oma's advies en die onderbouwen. Zowel positieve als negatieve meningen zijn acceptabel als ze goed worden uitgelegd.",
+        "exampleAnswer": "Ja, oma gaf goed advies omdat ze Mira leerde opkomen voor wat juist is, maar wel op een veilige manier samen.",
+        "keyElements": [
+          "mening over advies",
+          "uitleg/onderbouwing",
+          "samen/niet alleen",
+          "opkomen voor juist"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat oma voorstelde en of dat verstandig was."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed vinden om op te komen voor wat eerlijk is, mogelijk met steun van anderen.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat leert moed te vinden om op te komen tegen oneerlijk gedrag.",
+        "keyElements": [
+          "moed/dapper/opkomen",
+          "eerlijk/oneerlijk/juist",
+          "leren/groeien"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Mira leert in dit verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/dapper-op-de-markt/image-1.png",
+      "alt": "Mira en haar oma lopen tussen de kleurrijke marktkramen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/dapper-op-de-markt/image-2.png",
+      "alt": "Een jonge man loopt beschaamd weg van de kaaskraam"
+    }
+  ],
+  "imagePrompts": [
+    "A grandmother and young girl walking through a busy Dutch market with colorful stalls, vegetables and cheese stands, children's book illustration style",
+    "A young man with a sad expression walking away from a cheese stall while the vendor looks stern, Dutch market setting, children's book illustration style"
+  ]
+}

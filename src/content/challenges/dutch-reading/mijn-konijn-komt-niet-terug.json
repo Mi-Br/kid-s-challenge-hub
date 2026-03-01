@@ -1,0 +1,125 @@
+{
+  "id": "mijn-konijn-komt-niet-terug",
+  "title": "Mijn konijn komt niet terug",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "huisdieren",
+  "text": "Papa heeft me beloofd dat ik voor Sneeuwbal mag zorgen als ik verantwoordelijk ben. Ons witte konijn is nog maar een baby en heeft extra zorg nodig. Elke ochtend geef ik hem vers water en hooi, en iedere avond controleer ik of zijn hok goed dichtgemaakt is.\n\nVandaag wilde ik naar de speeltuin omdat mijn vrienden daar waren. Mama vroeg of ik Sneeuwbal al had verzorgd, maar ik zei dat ik dat later wel zou doen. De hele middag speelde ik voetbal en klom ik in de klimrekken. Ik vergat helemaal mijn kleine konijn.\n\nToen ik thuiskwam, was het al donker. Ik rende naar de tuin omdat ik me plotseling herinnerde wat ik beloofd had. Het deurtje van het hok stond open en Sneeuwbal was verdwenen. Mijn hart bonkte in mijn keel. Waar zou hij naartoe zijn gegaan?\n\nIk zocht overal: onder de struiken, achter de schuur, zelfs in de kelder. Papa en mama hielpen mee, maar ze keken teleurgesteld. \"Een huisdier is geen speelgoed,\" zei papa zacht. \"Het hangt van jou af of Sneeuwbal veilig blijft.\" Die woorden deden meer pijn dan boosheid.\n\nDe volgende ochtend werd ik wakker van een zacht geritsel buiten mijn raam. Daar zat Sneeuwbal in de rozenstruik, nat van de dauw maar gelukkig ongedeerd. Voorzichtig pakte ik hem op en droeg hem terug naar zijn hok. Hij trilde nog van de koude nacht.\n\nSinds die dag heb ik nooit meer vergeten om voor Sneeuwbal te zorgen. Iedere keer als ik naar buiten wil, check ik eerst zijn water, zijn eten en zijn hok. Papa zegt dat ik nu écht verantwoordelijk ben geworden. Maar soms, als ik naar Sneeuwbal kijk, denk ik nog steeds aan die enge nacht toen hij weg was.",
+  "questions": [
+    {
+      "question": "Wat voor kleur heeft het konijn?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit",
+        "witte"
+      ],
+      "hint": "Kijk naar de eerste alinea waar het konijn wordt beschreven."
+    },
+    {
+      "question": "Waarom ging de hoofdpersoon niet meteen naar Sneeuwbal toen mama het vroeg?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "speeltuin",
+            "spelen",
+            "speelde"
+          ],
+          [
+            "vrienden",
+            "voetbal",
+            "klimmen",
+            "klom"
+          ],
+          [
+            "wilde",
+            "wou",
+            "graag"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea. Waar wilde de hoofdpersoon naartoe?"
+    },
+    {
+      "question": "Hoe voelde de hoofdpersoon zich toen papa zei dat een huisdier geen speelgoed is?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "pijn",
+            "zeer",
+            "verdrietig"
+          ],
+          [
+            "erg",
+            "erger",
+            "meer"
+          ],
+          [
+            "schuldig",
+            "slecht",
+            "naar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het einde van de vierde alinea. Wat deed papa's opmerking met de hoofdpersoon?"
+    },
+    {
+      "question": "Vind je dat de hoofdpersoon een goede eigenaar van Sneeuwbal is geworden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven en die onderbouwen met voorbeelden uit de tekst. Ze kunnen zowel ja als nee antwoorden, als ze maar uitleggen waarom op basis van het gedrag van de hoofdpersoon.",
+        "exampleAnswer": "Ja, want hij zorgt nu altijd eerst voor Sneeuwbal voordat hij gaat spelen en vergeet het nooit meer.",
+        "keyElements": [
+          "veranderd gedrag/nu wel zorgen",
+          "verantwoordelijkheid/geleerd",
+          "eerst checken/zorgen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan hoe de hoofdpersoon zich gedroeg in het begin en aan het eind van het verhaal."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over leren wat verantwoordelijkheid betekent door een fout te maken. De leerling moet begrijpen dat de hoofdpersoon door zijn fout heeft geleerd hoe belangrijk het is om goed voor een huisdier te zorgen.",
+        "exampleAnswer": "Het verhaal gaat erover dat je leert wat verantwoordelijkheid betekent als je een fout maakt.",
+        "keyElements": [
+          "verantwoordelijkheid/zorgen",
+          "leren/geleerd",
+          "fout maken/vergissen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat heeft de hoofdpersoon geleerd door wat er is gebeurd?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-konijn-komt-niet-terug/image-1.png",
+      "alt": "Een wit konijn in een houten hok in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-konijn-komt-niet-terug/image-2.png",
+      "alt": "Een jongen die een wit konijn vasthoudt naast een rozenstruik in de vroege ochtend"
+    }
+  ],
+  "imagePrompts": [
+    "A white baby rabbit named Sneeuwbal in a wooden hutch in a Dutch backyard garden, children's book illustration style, warm afternoon lighting",
+    "A young boy carefully holding a white rabbit near rose bushes covered in morning dew, with relief and responsibility on his face, children's book illustration style, soft morning light"
+  ]
+}

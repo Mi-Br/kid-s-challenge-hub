@@ -1,0 +1,155 @@
+{
+  "id": "het-geheim-van-opa-s-keuken",
+  "title": "Het Geheim van Opa's Keuken",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wereldkeuken",
+  "text": "Lisa vond het eten van haar opa altijd vies. Hij kwam uit Marokko en kookte elke dag met vreemde kruiden. De hele keuken rook naar kaneel en komijn. Lisa at liever Nederlandse eten zoals frikandellen en patat.\n\nVorige week werd opa ziek. Hij kon niet meer koken. Lisa's moeder vroeg of Lisa wilde helpen met het eten maken. Lisa zuchtte diep. Ze was bang dat ze de vreemde gerechten niet lekker zou vinden.\n\nOpa leerde Lisa hoe ze couscous moest maken. Hij vertelde verhalen over zijn jeugd in Marokko. Lisa rook aan de kruiden. Ze proefde voorzichtig van de tajine met kip en olijven. Het smaakte eigenlijk best lekker.\n\nNa een week koken met opa begreep Lisa iets nieuws. Het eten was niet vies. Het was gewoon anders dan wat zij gewend was. Nu vindt ze Marokkaans eten heel lekker. Ze vraagt opa vaak om nieuwe recepten.\n\nLisa voelt zich nu minder bang voor nieuwe dingen. Ze wil graag meer keukens uit de hele wereld proberen. Misschien gaat ze volgende week Italiaanse pasta maken met haar oma.",
+  "questions": [
+    {
+      "question": "Wat vond Lisa eerst van opa's eten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "vies"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom kon opa niet meer koken?",
+      "questionType": "begrijpen",
+      "hint": "Dit staat in de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "werd"
+          ],
+          [
+            "ziek"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was Lisa bang om te helpen met koken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "bezorgd",
+            "onzeker"
+          ],
+          [
+            "vreemde",
+            "andere",
+            "onbekende"
+          ],
+          [
+            "gerechten",
+            "eten",
+            "voedsel"
+          ],
+          [
+            "lekker",
+            "smaken",
+            "vinden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa dacht over opa's eten."
+    },
+    {
+      "question": "Hoe veranderde Lisa's mening over het Marokkaanse eten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "proefde",
+            "probeerde",
+            "at"
+          ],
+          [
+            "lekker",
+            "goed",
+            "smakelijk"
+          ],
+          [
+            "anders",
+            "nieuw",
+            "verschillend"
+          ],
+          [
+            "gewend",
+            "kende",
+            "bekend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde en vierde alinea goed."
+    },
+    {
+      "question": "Vind jij dat Lisa goed heeft gedaan door nieuwe gerechten te proberen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "slim",
+            "verstandig",
+            "mooi"
+          ],
+          [
+            "proberen",
+            "ontdekken",
+            "leren",
+            "ervaren"
+          ],
+          [
+            "nieuw",
+            "anders",
+            "onbekend"
+          ],
+          [
+            "bang",
+            "angst",
+            "durven",
+            "moed"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa heeft geleerd."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-opa-s-keuken/image-1.png",
+      "alt": "Lisa en haar opa koken samen in de keuken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-opa-s-keuken/image-2.png",
+      "alt": "Lisa proeft voorzichtig van de Marokkaanse tajine"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl and her elderly Moroccan grandfather cooking together in a cozy kitchen, colorful spices and ingredients on the counter, warm lighting, children's book illustration style",
+    "A young girl carefully tasting Moroccan tajine with chicken and olives from a wooden spoon, looking surprised and pleased, traditional Moroccan dishes in the background, children's book illustration style"
+  ]
+}

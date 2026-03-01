@@ -1,0 +1,123 @@
+{
+  "id": "de-keuze-van-jan",
+  "title": "De Keuze van Jan",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Jan woont in Amsterdam in 1943. Hij is dertien jaar oud. De oorlog duurt al drie jaar. Jan heeft een geheim. Hij helpt zijn vader met het verstoppen van Joodse families.\n\nVandaag komt zijn beste vriend Piet naar hem toe. Piet werkt voor de Duitsers. Hij krijgt elke week geld van hen. \"Jan, ik weet dat jouw familie iets verbergt,\" zegt Piet. \"Als je me vertelt wat het is, krijg je ook geld.\"\n\nJan voelt zijn hart kloppen. Hij kijkt naar zijn vriend. Piet heeft gelijk, zijn familie heeft geld nodig. Zijn moeder is ziek. Maar Jan denkt aan de Joodse familie in hun kelder. Ze hebben drie kleine kinderen.\n\n\"Ik weet niet waar je het over hebt,\" zegt Jan tegen Piet. Hij voelt zich verdrietig omdat hij liegt tegen zijn vriend. Maar hij weet dat hij de juiste keuze heeft gemaakt. Piet wordt boos en gaat weg.\n\nDie avond praat Jan met zijn vader. \"Papa, ik heb Piet niets verteld,\" zegt hij. Zijn vader is trots op hem. \"Je bent een moedige jongen,\" zegt zijn vader. \"Soms moeten we kiezen tussen vriendschap en het juiste ding doen.\"",
+  "questions": [
+    {
+      "question": "Waar woont Jan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "amsterdam",
+        "in amsterdam"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "amsterdam",
+          "in amsterdam"
+        ]
+      }
+    },
+    {
+      "question": "Waarom wil Piet dat Jan hem vertelt wat zijn familie verbergt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geld",
+            "betalen",
+            "betaald"
+          ],
+          [
+            "krijgen",
+            "krijgt",
+            "verdienen"
+          ],
+          [
+            "duitsers",
+            "duitse"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Piet van de Duitsers krijgt."
+    },
+    {
+      "question": "Wat voelt Jan als hij tegen Piet liegt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "droevig",
+            "naar"
+          ],
+          [
+            "slecht",
+            "rot",
+            "akelig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het vierde deel van het verhaal nog een keer."
+    },
+    {
+      "question": "Waarom is Jans vader trots op zijn zoon?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "niets",
+            "niks",
+            "niet",
+            "geheim"
+          ],
+          [
+            "verteld",
+            "verklikt",
+            "gezegd",
+            "verraadt"
+          ],
+          [
+            "moedig",
+            "dapper",
+            "goed",
+            "juiste"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat papa zegt in het laatste deel."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-jan/image-1.png",
+      "alt": "Jan en Piet praten in een kamer in 1943"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-jan/image-2.png",
+      "alt": "Jan praat met zijn vader die trots naar hem kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "Two teenage boys in 1940s clothing talking in a modest Dutch home during World War II, one boy looking conflicted, children's book illustration style",
+    "A father putting his hand on his teenage son's shoulder in a 1940s Dutch home, both looking serious but proud, warm lighting, children's book illustration style"
+  ]
+}

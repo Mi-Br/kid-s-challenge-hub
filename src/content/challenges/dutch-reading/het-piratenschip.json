@@ -1,0 +1,49 @@
+{
+  "id": "het-piratenschip",
+  "title": "Het Piratenschip",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "spelen",
+  "text": "Koen heeft een klein houten schip. Het schip is blauw en wit. Koen speelt elke dag met het schip in de tuin. Hij is de kapitein.\n\nVandaag zoekt Koen zijn schip. Het schip is weg! Koen kijkt onder zijn bed. Het schip is er niet. Koen kijkt in de kast. Het schip is er ook niet. Koen is verdrietig.\n\nMama helpt Koen zoeken. Ze kijken samen in de keuken. Het schip ligt op de keukentafel! Koen is blij. Nu kan hij weer spelen met zijn piratenschip.",
+  "questions": [
+    {
+      "question": "Welke kleuren heeft het schip van Koen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw en wit"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar speelt Koen elke dag met zijn schip?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de tuin"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar vinden Koen en mama het schip?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op de keukentafel"
+      ],
+      "hint": "Kijk naar de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-piratenschip/image-1.png",
+      "alt": "Een jongen speelt met een blauw en wit houten schip in de tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-piratenschip/image-2.png",
+      "alt": "Een jongen en zijn mama vinden het schip op de keukentafel"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy playing with a small blue and white wooden pirate ship in a Dutch garden, children's book illustration style",
+    "A boy and his mother finding the blue and white wooden ship on a kitchen table, both looking happy and relieved, children's book illustration style"
+  ]
+}

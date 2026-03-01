@@ -1,0 +1,123 @@
+{
+  "id": "de-perfecte-post",
+  "title": "De Perfecte Post",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "media",
+  "text": "Lara staarde naar haar telefoonscherm terwijl ze langzaam door de eeuwige stroom van perfecte plaatjes scrollde. Iedereen leek zo gelukkig, zo succesvol, zo... compleet. Haar vriendin Sophie poseerde op een Grieks strand, terwijl Lara zelf nog nooit buiten Europa was geweest. Haar klasgenoot Tim vierde alweer een overwinning bij zijn atletiekclub, zijn gouden medaille glanzend in het zonlicht.\n\nZe keek om zich heen in haar ruime kamer. Haar eigen leven leek plotseling saai en gewoonlijk vergeleken met wat ze online zag. Natuurlijk had ze ook mooie momenten – vorige week was ze nog zo trots geweest op haar rol in de schoolmusical. Maar die foto had slechts vijftien likes gekregen, terwijl Sophie's strandplaatje er al driehonderd had.\n\nHaar moeder riep van beneden dat het eten klaar was. \"Kom je, Lara? Papa heeft verse zalm meegebracht van de markt!\" Lara zuchtte. Weer zo'n gewone avond met haar gewone familie in hun gewone huis. Ze nam snel een foto van haar bord – misschien kon ze het interessanter laten lijken met een filter.\n\nTijdens het eten vertelde haar vader enthousiast over zijn nieuwe project op kantoor. \"We gaan een campagne ontwikkelen voor duurzame energie,\" zei hij, zijn ogen glanzend van trots. \"Het kan echt verschil maken.\" Lara knikte afwezig terwijl ze onder tafel haar telefoon checkte. Sophie had alweer een nieuwe post: cocktails bij zonsondergang.\n\nNa het eten ging Lara naar haar kamer en opende haar laptop. Ze begon een post te schrijven over haar 'geweldige dag', waarbij ze de waarheid een beetje oprektte. In plaats van thuis huiswerk maken, schreef ze dat ze een 'inspirerende dag vol creativiteit' had gehad. Ze voegde een foto toe van haar kunstproject – met een filter die de kleuren feller maakte dan ze in werkelijkheid waren.\n\nToen ze op 'delen' wilde klikken, stopte ze. Haar vinger bleef boven de knop hangen. Was dit wel eerlijk? Ze dacht aan een documentaire die ze vorige maand had gezien over sociale media en eerlijkheid. De filmmaker had jongeren geïnterviewd die vertelden hoe uitgeput ze waren van het creëren van een perfecte online persoonlijkheid.\n\nLara herinnerde zich plotseling een verhaal dat haar Nederlandse leraar had voorgelezen – over een keizer die dacht dat hij prachtige kleren droeg, terwijl hij eigenlijk naakt was. Iedereen deed alsof ze zijn 'kleren' bewonderden, tot een eerlijk kind de waarheid vertelde. Was zij nu ook aan het doen alsof?\n\nZe sloot haar laptop en keek nogmaals om zich heen. Haar kamer was misschien niet perfect georganiseerd zoals die van influencers, maar het was wél haar eigen ruimte. Haar boekenplank stond vol met verhalen die haar hadden geraakt. Haar bureau lag bezaaid met tekeningen die ze voor haar eigen plezier had gemaakt, niet voor online erkenning.\n\nDe volgende ochtend nam Lara een andere beslissing. In plaats van een geënsceneerde foto, deelde ze een eerlijk verhaal over haar twijfels. \"Gisteren voelde ik me niet goed genoeg vergeleken met wat ik online zag,\" schreef ze. \"Toen realiseerde ik me dat ik mijn eigen verhaal vergat te waarderen. Wat is jullie échte verhaal vandaag?\"\n\nTot haar verbazing stroomden de reacties binnen. Klasgenoten bekenden dat zij ook worstelden met online perfectie. Zelfs Sophie, die nu thuiskwam van haar vakantie, schreef: \"Dank je voor je eerlijkheid. Ik post alleen de mooie momenten, maar heb ook heimwee gehad.\" Tim voegde eraan toe dat hij achter elke medaille maanden van mislukte trainingen verborg.\n\nLara besefte dat echte verbinding ontstond door kwetsbaarheid te tonen, niet door perfectie te veinzen. Ze besloot een blog te beginnen waarin jongeren hun echte verhalen konden delen – met alle ups en downs erbij. Haar eerste artikel zou gaan over de moed om onvolmaakt te zijn in een wereld die perfectie eist.\n\nHaar post over eerlijkheid kreeg minder likes dan Sophie's strandfotos, maar de commentaren waren veel betekenisvoller. Lara glimlachte terwijl ze haar telefoon weglegde. Soms was minder meer, vooral als het meer betekende.",
+  "questions": [
+    {
+      "question": "Welke documentaire had Lara vorige maand gezien?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "over sociale media en eerlijkheid",
+        "over sociale media",
+        "een documentaire over sociale media en eerlijkheid"
+      ],
+      "hint": "Zoek in de alinea waar Lara twijfelt over het delen van haar post."
+    },
+    {
+      "question": "Waarom vergelijkt de schrijver Lara's situatie met het verhaal van de keizer zonder kleren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat beide verhalen gaan over mensen die doen alsof - de keizer doet alsof hij kleren draagt, Lara doet alsof haar leven perfecter is dan het is. Het gaat om de spanning tussen schijn en werkelijkheid.",
+        "exampleAnswer": "Beide verhalen gaan over doen alsof en niet eerlijk zijn. De keizer doet alsof hij mooie kleren heeft en Lara doet alsof haar leven perfecter is online.",
+        "keyElements": [
+          "doen alsof/schijn/niet eerlijk",
+          "perfectie/mooier maken",
+          "werkelijkheid verbergen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat de keizer en Lara beiden doen - hoe presenteren zij zichzelf?"
+    },
+    {
+      "question": "Hoe verandert Lara's kijk op sociale media door het verhaal heen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet de ontwikkeling van Lara beschrijven: van ontevreden zijn en willen doen alsof, naar inzien dat eerlijkheid belangrijker is dan perfectie, tot het besluit om echte verhalen te delen.",
+        "exampleAnswer": "Eerst wilde Lara ook een perfect leven laten zien online, maar toen besefte ze dat eerlijkheid belangrijker is en besloot ze echte verhalen te gaan delen.",
+        "keyElements": [
+          "eerst ontevreden/jaloers",
+          "toen besefte/inzag",
+          "eerlijkheid belangrijker",
+          "echte verhalen delen"
+        ],
+        "minWords": 10
+      },
+      "hint": "Vergelijk hoe Lara over sociale media denkt aan het begin en aan het eind van het verhaal."
+    },
+    {
+      "question": "Beoordeel of Lara's beslissing om een eerlijk verhaal te delen verstandig was. Onderbouw je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over Lara's beslissing en deze onderbouwen met argumenten uit de tekst of eigen ervaring. Zowel positieve als negatieve oordelen zijn acceptabel als ze goed onderbouwd zijn.",
+        "exampleAnswer": "Ik vind Lara's beslissing verstandig omdat zij echte reacties kreeg en anderen ook eerlijker durfden te zijn. Dat zorgt voor betere vriendschappen dan neppe perfecte plaatjes.",
+        "keyElements": [
+          "mening (verstandig/niet verstandig)",
+          "onderbouwing/omdat/want",
+          "effect op anderen/vriendschappen/eerlijkheid"
+        ],
+        "minWords": 12
+      },
+      "hint": "Kijk naar de reacties die Lara kreeg op haar eerlijke post en wat dat betekende voor haar vriendschappen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de hoofdgedachte gaat over het belang van eerlijkheid boven perfectie, of over de gevaren van sociale media perfectie, of over moed om jezelf te zijn.",
+        "exampleAnswer": "Het verhaal gaat over dat eerlijk zijn belangrijker is dan perfect lijken op sociale media.",
+        "keyElements": [
+          "eerlijkheid/eerlijk zijn",
+          "perfectie/perfect lijken",
+          "sociale media",
+          "jezelf zijn/authentiek"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat de schrijver ons wil leren over sociale media en eerlijkheid."
+    },
+    {
+      "question": "Waarom schrijft de auteur dit verhaal? Wat is het doel?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de auteur jongeren wil waarschuwen voor sociale media perfectie en wil aanmoedigen om eerlijk te zijn, of bewustzijn wil creëren over de druk van sociale media.",
+        "exampleAnswer": "De auteur wil jongeren laten zien dat sociale media perfectie niet belangrijk is en dat je beter eerlijk kunt zijn.",
+        "keyElements": [
+          "waarschuwen/bewust maken",
+          "jongeren/tieners",
+          "sociale media druk/perfectie",
+          "aanmoedigen tot eerlijkheid"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over welke boodschap de schrijver aan jongeren wil geven over sociale media."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-perfecte-post/image-1.png",
+      "alt": "Een meisje kijkt ontevreden naar haar telefoon terwijl ze door sociale media scrollt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-perfecte-post/image-2.png",
+      "alt": "Het meisje typt een eerlijk verhaal op haar laptop met een glimlach"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking dissatisfied while scrolling through social media on her phone in her bedroom, children's book illustration style, showing contrast between her real room and the perfect images on screen",
+    "The same teenage girl typing on her laptop with a genuine smile, writing an honest post about her real experiences, children's book illustration style, warm lighting suggesting authenticity and connection"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "mamas-geheime-recept",
+  "title": "Mama's Geheime Recept",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wereldkeuken",
+  "text": "Layla zat in de keuken en keek naar haar moeder. Mama had donkere kringen onder haar ogen en bewoog heel langzaam. Ze maakte Marokkaanse tajine, maar vandaag ging alles fout.\n\n\"Mama, je vergeet de kaneel,\" zei Layla. Haar moeder keek verward naar de pot. \"Ja, kaneel,\" fluisterde ze. Maar ze deed niets. De laatste weken was mama steeds zo moe. Ze vergat dingen en huilde soms zonder reden.\n\n\"Waarom ben je altijd zo verdrietig?\" vroeg Layla. Mama antwoordde niet en ging op een stoel zitten. \"Ik ben gewoon moe, habibti,\" zei ze zacht. Maar Layla wist dat dit meer was dan moeheid.\n\nDie avond googelde Layla over verdrietigheid en moeheid. Ze las over depressie. Het klonk precies zoals mama was: altijd moe, vergeetachtig, verdrietig zonder reden. Layla begreep eindelijk wat er aan de hand was.\n\nDe volgende dag sprak Layla met haar vader. \"Papa, ik denk dat mama hulp nodig heeft,\" zei ze. Ze liet hem de informatie zien die ze had gevonden. Papa knikte langzaam. \"Je hebt gelijk, habibi. We gaan samen met mama naar de dokter.\"\n\nEen week later zat het hele gezin aan tafel. Mama had eindelijk haar tajine afgemaakt. Ze glimlachte voorzichtig. \"De dokter zegt dat ik weer beter word,\" zei ze. \"Maar het duurt even.\" Layla pakte mama's hand. \"We helpen je, mama. En de tajine smaakt heerlijk.\"",
+  "questions": [
+    {
+      "question": "Welke Marokkaanse schotel maakte mama?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "tajine",
+        "marokkaanse tajine"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dacht Layla dat mama hulp nodig had?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "moe",
+            "moeheid",
+            "vermoeid"
+          ],
+          [
+            "verdrietig",
+            "depressie",
+            "huilen",
+            "huilde"
+          ],
+          [
+            "vergeten",
+            "vergat",
+            "vergeetachtig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan de dingen die Layla bij mama opviel."
+    },
+    {
+      "question": "Hoe probeerde Layla mama te begrijpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "googelen",
+            "googelde",
+            "zoeken",
+            "zocht"
+          ],
+          [
+            "internet",
+            "informatie",
+            "lezen",
+            "las"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat deed Layla die avond?"
+    },
+    {
+      "question": "Wat vind je van Layla's reactie op mama's problemen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "slim",
+            "verstandig",
+            "lief",
+            "aardig"
+          ],
+          [
+            "helpen",
+            "hielp",
+            "zorgen",
+            "zorgzaam",
+            "begrijpen",
+            "begreep"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Layla papa vertelde wat ze had ontdekt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mamas-geheime-recept/image-1.png",
+      "alt": "Een meisje kijkt bezorgd naar haar vermoeide moeder in de keuken met een tajine pot"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mamas-geheime-recept/image-2.png",
+      "alt": "Een gezin zit samen aan tafel met een dampende tajine, mama glimlacht voorzichtig"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl watching her tired mother in a kitchen with Moroccan spices and a tagine pot, mother looking exhausted and confused, children's book illustration style",
+    "A Moroccan family sitting together at dinner table with a steaming tagine dish, mother smiling cautiously while daughter holds her hand, warm kitchen setting, children's book illustration style"
+  ]
+}

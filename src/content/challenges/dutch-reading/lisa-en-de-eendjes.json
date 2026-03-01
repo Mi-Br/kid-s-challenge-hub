@@ -1,0 +1,66 @@
+{
+  "id": "lisa-en-de-eendjes",
+  "title": "Lisa en de Eendjes",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "natuur",
+  "text": "Lisa woont met haar papa en haar oma bij het park. Elke dag gaat ze naar het meer om de eendjes te voeren. Papa geeft haar altijd een zakje met broodkruimels.\n\nVandaag zegt papa: \"Lisa, je bent nu groot genoeg. Jij zorgt voor de eendjes als ik weg ben. Geef ze elke ochtend eten, want ze wachten op jou.\"\n\nLisa is heel trots. Ze zegt: \"Dat doe ik, papa. Ik zorg goed voor de eendjes.\"\n\nDe volgende dag is papa naar zijn werk. Lisa kijkt uit het raam. Het regent hard. Ze denkt: \"Misschien komen de eendjes vandaag niet. Ik blijf lekker binnen.\"\n\nMaar oma zegt: \"De eendjes hebben ook honger als het regent, Lisa. Ze vertrouwen op jou.\"\n\nLisa denkt na. Ze wil niet nat worden. Maar de eendjes wachten op haar. Ze pakt haar regenjas en de broodkruimels. Bij het meer ziet ze de eendjes onder een boom. Ze zwemmen snel naar haar toe.\n\n\"Jullie hebben honger!\", zegt Lisa. Ze gooit de broodkruimels in het water. De eendjes eten alles op.\n\nAls papa thuiskomt, vertelt Lisa over de regen en de eendjes. Papa geeft haar een knuffel. \"Je bent een echte dierenvriend\", zegt hij. \"De eendjes boffen met jou.\"",
+  "questions": [
+    {
+      "question": "Waar woont Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij het park",
+        "bij het park met haar papa en oma"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat geeft papa elke dag aan Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een zakje met broodkruimels",
+        "broodkruimels"
+      ],
+      "hint": "Lees de eerste alinea goed."
+    },
+    {
+      "question": "Waarom wil Lisa eerst niet naar buiten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "regent",
+            "regen",
+            "nat"
+          ],
+          [
+            "niet",
+            "wil niet",
+            "blijven"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan het weer die dag."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lisa-en-de-eendjes/image-1.png",
+      "alt": "Lisa voert eendjes bij een meer in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lisa-en-de-eendjes/image-2.png",
+      "alt": "Lisa in regenjas gooit broodkruimels naar de eendjes in de regen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl feeding ducks at a pond in a Dutch park, children's book illustration style, bright and cheerful scene with trees and a path",
+    "A girl in a yellow raincoat throwing breadcrumbs to ducks by a pond while it's raining, children's book illustration style, ducks swimming eagerly toward the food"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "de-erfenis-van-oma-li",
+  "title": "De Erfenis van Oma Li",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Mei staart naar de oude houten kist die op tafel staat. Haar oma Li is vorige week overleden en heeft deze kist aan haar nagelaten. \"Er zit een verhaal in dat je moet kennen,\" had oma gefluisterd voordat ze stierf.\n\nMei opent voorzichtig het deksel. Bovenop ligt een zwart-wit foto van een jonge vrouw in Chinese kleding. Op de achterkant staat geschreven: \"Li Chen, aangekomen Rotterdam, 15 maart 1965.\" Dat was oma, nog geen twintig jaar oud. Eronder ligt een Nederlands paspoort uit 1970 en een brief in het Chinees.\n\nHaar moeder vertaalt de brief. Oma schrijft over hoe moeilijk het was om Nederlands te leren, hoe ze werd uitgescholden op straat, maar ook hoe buurvrouw Hendrika haar hielp met boodschappen doen. \"Nederland werd mijn tweede thuis,\" staat er, \"maar China blijft altijd in mijn hart leven.\"\n\nOnderin de kist vindt Mei een rood Chinese gelukspoppetje en een kleine Nederlandse vlag. Twee voorwerpen die samen oma's hele leven vertellen. Mei begrijpt nu waarom oma altijd zowel Chinese dumplings als Nederlandse erwtensoep maakte op zondag.\n\nDe volgende dag neemt Mei de kist mee naar school voor haar presentatie over immigratie in Nederland. Ze vertelt haar klasgenoten over oma Li en de duizenden andere Chinese mensen die in de jaren zestig naar Nederland kwamen om te werken. \"Mijn oma was een pionier,\" zegt Mei trots. \"Ze bouwde bruggen tussen twee werelden.\"\n\nNa school plaatst Mei de Chinese pop en de Nederlandse vlag op haar bureau. Net als oma draagt zij nu beide culturen in zich. Ze is Nederlands én Chinees, en dat hoeft geen keuze te zijn.",
+  "questions": [
+    {
+      "question": "In welk jaar kwam oma Li aan in Nederland?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "1965"
+      ],
+      "hint": "Kijk naar wat er op de achterkant van de foto staat geschreven."
+    },
+    {
+      "question": "Waarom plaatst Mei de Chinese pop en Nederlandse vlag samen op haar bureau?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "beide",
+            "twee",
+            "allebei"
+          ],
+          [
+            "culturen",
+            "werelden",
+            "landen",
+            "cultuur"
+          ],
+          [
+            "samen",
+            "combineren",
+            "verenigen",
+            "verbinden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Mei leert van oma's verhaal over haar twee culturen."
+    },
+    {
+      "question": "Hoe heeft buurvrouw Hendrika oma Li geholpen toen ze naar Nederland kwam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "boodschappen",
+            "winkelen",
+            "inkopen"
+          ],
+          [
+            "helpen",
+            "hielp",
+            "geholpen",
+            "steun",
+            "steunen"
+          ],
+          [
+            "nederlands",
+            "taal",
+            "leren",
+            "spreken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat er in oma's brief staat over Hendrika."
+    },
+    {
+      "question": "Vind je het belangrijk dat immigranten hun eigen cultuur behouden naast de Nederlandse cultuur? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "belangrijk",
+            "waardevol",
+            "goed",
+            "positief"
+          ],
+          [
+            "cultuur",
+            "tradities",
+            "afkomst",
+            "identiteit"
+          ],
+          [
+            "behouden",
+            "bewaren",
+            "vasthouden",
+            "delen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat oma Li's verhaal laat zien over het combineren van culturen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het omarmen van een multiculturele identiteit. Mei leert dat ze niet hoeft te kiezen tussen haar Chinese en Nederlandse kant, maar beide kan combineren.",
+        "exampleAnswer": "Het verhaal gaat erover dat je meerdere culturen in je kunt dragen zonder te hoeven kiezen.",
+        "keyElements": [
+          "meerdere culturen/twee culturen",
+          "combineren/samen/beide",
+          "geen keuze/niet kiezen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat leert Mei over haar identiteit door oma's erfenis?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-erfenis-van-oma-li/image-1.png",
+      "alt": "Mei opent voorzichtig een oude houten kist op tafel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-erfenis-van-oma-li/image-2.png",
+      "alt": "Een Chinese gelukspop en kleine Nederlandse vlag staan samen op een bureau"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch-Chinese girl carefully opening an old wooden chest on a kitchen table, with a black and white photograph visible inside, children's book illustration style, warm lighting",
+    "A red Chinese lucky doll and a small Dutch flag placed together on a student's desk, symbolizing cultural heritage, children's book illustration style, bright classroom lighting"
+  ]
+}

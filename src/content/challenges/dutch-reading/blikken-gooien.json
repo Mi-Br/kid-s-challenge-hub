@@ -1,0 +1,109 @@
+{
+  "id": "blikken-gooien",
+  "title": "Blikken Gooien",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "Sam en Mila spelen blikken gooien in de tuin. Ze zetten vijf blikken op een tafel. Sam gooit de bal naar de blikken omdat hij wil winnen. De bal vliegt veel te wild door de lucht en raakt niets.\n\nMila lacht en zegt: \"Nu ben ik aan de beurt!\" Ze gooit voorzichtig, maar de bal rolt onder de tafel. \"Dit is moeilijk,\" zucht ze. Sam kijkt teleurgesteld naar de blikken die nog steeds rechtop staan.\n\n\"Laten we samen proberen,\" zegt Sam. Hij pakt een kleinere bal die zachter is. Mila gaat dichterbij staan en mikt goed. De bal raakt twee blikken en ze vallen om! Sam springt van blijdschap.\n\nAls de zon ondergaat, zijn er nog drie blikken over. Sam mist zijn nieuwe worp, maar hij glimlacht. Morgen gaan ze weer proberen.",
+  "questions": [
+    {
+      "question": "Hoeveel blikken zetten ze op de tafel?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijf"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoeveel blikken vallen er om bij Mila's goede worp?",
+      "questionType": "begrijpen",
+      "hint": "Lees de derde alinea goed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "twee"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom pakt Sam een kleinere bal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zachter",
+            "zacht",
+            "makkelijker"
+          ],
+          [
+            "beter",
+            "goed",
+            "helpen",
+            "werken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er mis ging met de eerste bal."
+    },
+    {
+      "question": "Vind je dat Sam en Mila goed samenwerken? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "samen",
+            "samenwerken",
+            "helpen",
+            "samen proberen"
+          ],
+          [
+            "ja",
+            "goed",
+            "wel",
+            "prima",
+            "nee",
+            "niet",
+            "slecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Sam zegt en doet in de derde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/blikken-gooien/image-1.png",
+      "alt": "Sam en Mila in de tuin met blikken op een tafel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/blikken-gooien/image-2.png",
+      "alt": "Mila gooit een bal en twee blikken vallen om"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a boy and girl playing tin can throwing game in a Dutch backyard garden, with five tin cans arranged on a wooden table",
+    "Children's book illustration of a girl throwing a small ball at tin cans on a table, with two cans falling over while the boy watches happily in the background"
+  ]
+}

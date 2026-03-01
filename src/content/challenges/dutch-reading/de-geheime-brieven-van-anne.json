@@ -1,0 +1,144 @@
+{
+  "id": "de-geheime-brieven-van-anne",
+  "title": "De Geheime Brieven van Anne",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Mijn naam is Sarah, en ik ben dertien jaar oud. Vorige week ontdekte ik iets ongelooflijks in het huis van mijn oma in Amsterdam. Terwijl ik haar hielp met opruimen, vond ik achter een losse plank in de kelder een stoffige doos met oude brieven.\n\nDe brieven waren geschreven door een meisje dat Anne heette, ongeveer even oud als ik. Ze schreef over haar dagelijks leven tijdens de Tweede Wereldoorlog, toen Joodse families zich moesten verstoppen voor de nazi's. \"Lieve dagboek,\" begon elke brief, \"vandaag hebben we weer hele dag binnen moeten blijven. Papa zegt dat het buiten te gevaarlijk is.\" Anne beschreef hoe moeilijk het was om stil te zijn overdag, omdat niemand mocht weten dat ze er waren.\n\nWat me het meest raakte, was hoe Anne probeerde positief te blijven ondanks de verschrikkelijke omstandigheden. \"Ondanks alles geloof ik nog steeds dat mensen van nature goed zijn,\" schreef ze in een van haar laatste brieven. Ze droomde ervan om later schrijfster te worden en de hele wereld te vertellen wat ze had meegemaakt.\n\nMijn oma vertelde me dat veel Joodse families zoals dat van Anne zich hadden verstopt in onderduikadressen door heel Nederland. Nederlandse burgers riskeerden hun eigen leven om deze families te beschermen. \"Het was een donkere tijd in onze geschiedenis,\" zei oma met tranen in haar ogen, \"maar er waren ook veel helden die het juiste deden.\"\n\nIk besloot de brieven te bewaren en er een verhaal over te schrijven voor school. Anne's woorden hebben me laten begrijpen hoe belangrijk het is om nooit op te geven, zelfs wanneer alles hopeloos lijkt. Haar moed en optimisme inspireren me nog steeds, meer dan tachtig jaar later.\n\nDeze ervaring heeft mijn kijk op de Nederlandse geschiedenis compleet veranderd. Het is niet alleen iets uit schoolboeken - het zijn echte verhalen van echte mensen die onvoorstelbare dingen hebben meegemaakt. Anne's verhaal herinnert ons eraan dat we altijd moeten vechten tegen onrechtvaardigheid en discriminatie, waar we die ook tegenkomen.",
+  "questions": [
+    {
+      "question": "Wat betekent het woord 'onderduikadressen' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk naar de zin waar wordt uitgelegd wat Nederlandse burgers deden.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "plaatsen waar joodse families zich verstopten"
+          ],
+          [
+            "huizen waar mensen zich verstopten"
+          ],
+          [
+            "verstopplaatsen voor joodse families"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom moest Anne de hele dag stil zijn?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verstoppen",
+            "verstopt",
+            "verbergen",
+            "verborgen"
+          ],
+          [
+            "ontdekken",
+            "ontdekt",
+            "gevonden",
+            "weten",
+            "horen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over waarom Joodse families zich moesten verstoppen."
+    },
+    {
+      "question": "Hoe toont de schrijver dat Anne ondanks alles hoopvol bleef?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Anne's positieve houding wordt getoond door haar geloof in de goedheid van mensen en haar dromen voor de toekomst, ondanks de gevaarlijke situatie.",
+        "exampleAnswer": "Anne schreef dat ze geloofde dat mensen van nature goed zijn en ze droomde ervan om schrijfster te worden.",
+        "keyElements": [
+          "geloof/geloofde",
+          "mensen goed/natuurlijk goed",
+          "dromen/schrijfster/toekomst"
+        ],
+        "minWords": 6
+      },
+      "hint": "Zoek naar wat Anne schreef over mensen en haar toekomstplannen."
+    },
+    {
+      "question": "Beoordeel of Sarah's beslissing om de brieven te bewaren en er een verhaal over te schrijven de juiste keuze was. Geef argumenten.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Sarah's beslissing en deze onderbouwen met argumenten uit de tekst of eigen redenering. Zowel positieve als negatieve beoordelingen zijn acceptabel als ze goed onderbouwd zijn.",
+        "exampleAnswer": "Ik vind het een goede beslissing omdat Anne's verhaal mensen kan inspireren en leren over de geschiedenis, zoals Sarah zelf ook werd geïnspireerd.",
+        "keyElements": [
+          "geschiedenis/leren",
+          "inspireren/inspiratie",
+          "verhaal/vertellen",
+          "belangrijk/waardevol"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de effecten van Sarah's beslissing op haarzelf en anderen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe persoonlijke verhalen uit de geschiedenis ons kunnen inspireren en leren over moed, hoop en het belang van het bestrijden van onrecht.",
+        "exampleAnswer": "Het verhaal gaat over hoe een meisje door het lezen van oude brieven leert over moed en hoop tijdens de oorlog en begrijpt waarom het belangrijk is om tegen onrecht te vechten.",
+        "keyElements": [
+          "geschiedenis/verleden",
+          "moed/inspiratie",
+          "leren/begrijpen",
+          "onrecht/discriminatie"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over wat Sarah leert en hoe dat haar verandert."
+    },
+    {
+      "question": "Waarom heeft de schrijver dit verhaal geschreven? Wat wil hij of zij de lezer laten begrijpen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien hoe belangrijk het is om de geschiedenis te kennen en ervan te leren, vooral over moed en het bestrijden van discriminatie.",
+        "exampleAnswer": "De schrijver wil laten zien dat we kunnen leren van mensen uit het verleden en dat hun verhalen ons inspireren om het juiste te doen.",
+        "keyElements": [
+          "leren/geschiedenis",
+          "inspireren/motiveren",
+          "onrecht/discriminatie",
+          "moed/helden"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat Sarah heeft geleerd en wat zij nu wil doen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-brieven-van-anne/image-1.png",
+      "alt": "Een meisje dat oude brieven leest in een stoffige kelder"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-brieven-van-anne/image-2.png",
+      "alt": "Close-up van handgeschreven brieven uit de oorlogstijd"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl discovering old letters in a dusty basement, children's book illustration style, warm lighting filtering through a small window",
+    "Close-up of handwritten wartime letters with old-fashioned pen and ink, children's book illustration style, sepia tones suggesting historical documents"
+  ]
+}

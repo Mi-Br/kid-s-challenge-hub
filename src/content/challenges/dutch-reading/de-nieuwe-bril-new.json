@@ -1,0 +1,145 @@
+{
+  "id": "de-nieuwe-bril",
+  "title": "De Nieuwe Bril",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "gezondheid",
+  "text": "Lisa keek naar het briefje van school en zuchtte diep. De schoolverpleegkundige had geschreven dat ze problemen had met haar ogen en een nieuwe bril nodig had. \"Dat kan niet waar zijn,\" mompelde ze. \"Ik zie alles prima.\" Ze verstopte het briefje snel in haar tas voordat haar moeder het kon zien.\n\nDe volgende dag op school probeerde Lisa te doen alsof er niets aan de hand was. Tijdens de wiskundeles kneep ze haar ogen samen om de cijfers op het bord te kunnen lezen. \"Die leraar schrijft gewoon te klein,\" dacht ze. Toen haar beste vriendin Mira vroeg waarom ze zo vreemd keek, antwoordde Lisa: \"Ach, ik ben gewoon een beetje moe vandaag.\" Maar eigenlijk voelde ze zich verward omdat ze de letters niet goed kon onderscheiden.\n\nIn de pauze zag Lisa hoe Mira moeiteloos een voetbalwedstrijd volgde die verderop werd gespeeld. Lisa kon alleen vage vormen zien bewegen. \"Voetbal is toch saai,\" zei ze tegen Mira, hoewel ze eigenlijk graag wilde weten wie er won. Ze was bang dat Mira zou denken dat ze zwak was als ze toegaf dat ze niet goed kon zien.\n\nThuis verstopte Lisa het briefje nog dieper in haar tas. Maar toen ze haar huiswerk wilde maken, werden de woorden wazig en kreeg ze hoofdpijn. Ze deed het licht aan, ging dichter bij haar boek zitten, maar niets hielp. Opeens begreep ze dat de schoolverpleegkundige misschien gelijk had gehad. Misschien was een bril geen teken van zwakte, maar juist een hulpmiddel om beter te kunnen leren en leven.",
+  "questions": [
+    {
+      "question": "Waar had de schoolverpleegkundige over geschreven?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dat ze problemen had met haar ogen",
+        "dat ze een nieuwe bril nodig had",
+        "over haar oogproblemen",
+        "over haar ogen en een bril"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom zei Lisa dat voetbal saai was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "zien",
+            "zag",
+            "kijken",
+            "keek"
+          ],
+          [
+            "slecht",
+            "niet goed",
+            "wazig",
+            "onduidelijk",
+            "vage vormen"
+          ],
+          [
+            "verbergen",
+            "verstoppen",
+            "verbergen",
+            "toegeven"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa eigenlijk zag tijdens de voetbalwedstrijd."
+    },
+    {
+      "question": "Hoe veranderde Lisa's mening over een bril aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "hulpmiddel",
+            "helpen",
+            "help",
+            "hulp"
+          ],
+          [
+            "zwakte",
+            "zwak",
+            "geen teken van"
+          ],
+          [
+            "beter",
+            "goed",
+            "verbeteren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal nog eens."
+    },
+    {
+      "question": "Vind je dat Lisa goed reageerde op het briefje van school? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "verstoppen",
+            "verbergen",
+            "verstopte",
+            "verborg"
+          ],
+          [
+            "problemen",
+            "moeilijkheden",
+            "gevolgen"
+          ],
+          [
+            "eerlijk",
+            "vertellen",
+            "zeggen",
+            "toegeven",
+            "praten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde omdat Lisa het briefje verstopte."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het accepteren van hulp en het overwinnen van vooroordelen over zwakte. Het gaat om groei en zelfinzicht.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat leert dat hulp zoeken geen zwakte is maar juist slim.",
+        "keyElements": [
+          "hulp accepteren/zoeken",
+          "vooroordelen/zwakte",
+          "groei/leren/inzicht"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Lisa geleerd heeft over haarzelf en over hulp vragen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-bril/image-1.png",
+      "alt": "Lisa kijkt naar een briefje van school in haar slaapkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-bril/image-2.png",
+      "alt": "Lisa knijpt haar ogen samen om het schoolbord te kunnen lezen"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl in her bedroom looking worried while reading a letter from school, children's book illustration style, soft lighting",
+    "A teenage girl in a Dutch classroom squinting at the blackboard trying to see the writing, other students sitting normally, children's book illustration style"
+  ]
+}

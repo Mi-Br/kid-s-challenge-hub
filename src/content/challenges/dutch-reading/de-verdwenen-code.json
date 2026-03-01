@@ -1,0 +1,110 @@
+{
+  "id": "de-verdwenen-code",
+  "title": "De Verdwenen Code",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "technologie",
+  "text": "De laptop die Lara van haar overleden opa had geërfd, viel plotseling uit tijdens het programmeren van haar eindproject. Het scherm werd zwart. Alle code die ze maandenlang had geschreven – verdwenen. Haar hart brak, niet alleen vanwege het verloren werk, maar omdat dit de laatste verbinding met opa was.\n\nDe volgende dagen staarde ze naar het kapotte apparaat. Haar vrienden stuurden berichten, docenten vroegen naar haar voortgang, maar ze kon alleen maar denken aan opa's verhalen over zijn tijd als computerprogrammeur in de jaren tachtig. Hij had haar geleerd dat technologie niet alleen over machines gaat, maar over de verhalen die we ermee vertellen.\n\nToen herinnerde Lara zich iets: opa had altijd gezegd dat echte programmeurs hun belangrijkste werk op meerdere plekken bewaren. Ze doorzocht zijn oude spullen en vond een stoffige externe harde schijf met een briefje erop: 'Voor noodgevallen – backup is leven.'\n\nMet trillende handen sloot ze de schijf aan op een andere computer. Daar, tussen opa's eigen programma's uit vervlogen tijden, stond een map met haar naam. Hij had stiekem kopieën gemaakt van al haar projecten, inclusief versies die ze zelf was vergeten. Maar het mooiste was het tekstbestand dat hij had toegevoegd: 'Lieve Lara, als je dit leest, betekent het dat je hebt geleerd wat iedere programmeur moet weten – dat vallen onderdeel is van opstaan. Ga verder, maar vergeet nooit: de beste code schrijf je met je hart.'\n\nLara glimlachte door haar tranen heen. Ze opende een nieuw project en begon opnieuw, nu met de wetenschap dat opa's wijsheid en liefde voor altijd in elke regel code zouden meeleven. Technologie was inderdaad meer dan machines – het was een brug tussen generaties.",
+  "questions": [
+    {
+      "question": "Op welke manier bleek dat opa zijn kleindochter had geholpen, zelfs na zijn overlijden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat opa stiekem backup-kopieën had gemaakt van Lara's projecten en een bemoedigende boodschap had achtergelaten, waarmee hij haar hielp zelfs nadat hij was overleden.",
+        "exampleAnswer": "Opa had stiekem kopieën gemaakt van al haar projecten en een lieve boodschap achtergelaten die haar moed gaf om door te gaan.",
+        "keyElements": [
+          "backup/kopieën gemaakt",
+          "boodschap/briefje achtergelaten",
+          "stiekem/heimelijk geholpen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat Lara vond op opa's externe harde schijf."
+    },
+    {
+      "question": "Waarom gebruikte de schrijver de experimentele vorm van korte, afgebroken zinnen in de tweede alinea?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de korte, afgebroken zinsstijl Lara's emotionele toestand weergeeft – haar verslagenheid, rouw en het gevoel overweldigd te zijn.",
+        "exampleAnswer": "De korte zinnen laten zien hoe verdrietig en in de war Lara was, alsof haar gedachten ook kapot waren.",
+        "keyElements": [
+          "emoties/gevoelens weergeven",
+          "verdriet/verslagenheid tonen",
+          "stijl/vorm past bij inhoud"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over hoe de schrijfstijl de gemoedstoestand van Lara weergeeft."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over veerkracht na verlies, hoe liefde en wijsheid van voorouders ons helpen moeilijke tijden door te komen, en dat technologie verbindingen tussen mensen mogelijk maakt.",
+        "exampleAnswer": "Het verhaal gaat over doorzetten na verlies en hoe de liefde van familie ons helpt moeilijke momenten te overwinnen.",
+        "keyElements": [
+          "veerkracht/doorzetten na verlies",
+          "liefde familie/voorouders helpt",
+          "technologie verbindt generaties"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over Lara's emotionele reis en wat opa's erfenis voor haar betekent."
+    },
+    {
+      "question": "Hoe evalueert u de effectiviteit van de metafoor 'technologie is een brug tussen generaties' aan het einde?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een onderbouwde mening geven over de metafoor, bijvoorbeeld dat deze krachtig is omdat het laat zien hoe technologie liefde en wijsheid kan overbrengen, of minder sterk omdat het te abstract is.",
+        "exampleAnswer": "De metafoor is sterk omdat het precies laat zien hoe opa via technologie nog steeds voor Lara kan zorgen, alsof er een brug is tussen leven en dood.",
+        "keyElements": [
+          "eigen mening/oordeel",
+          "onderbouwing/argumentatie",
+          "effect van metafoor besproken"
+        ],
+        "minWords": 8
+      },
+      "hint": "Geef je eigen mening over de metafoor en leg uit waarom je dat vindt."
+    },
+    {
+      "question": "Vat de emotionele ontwikkeling van Lara in dit verhaal samen.",
+      "questionType": "samenvatten",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet de emotionele reis van Lara samenvatten: van verdriet en wanhoop naar hoop en kracht, door de ontdekking van opa's liefde en steun.",
+        "exampleAnswer": "Lara gaat van groot verdriet en wanhoop toen alles verloren leek, naar hoop en nieuwe kracht toen ze ontdekte dat opa haar had geholpen en een lieve boodschap had achtergelaten.",
+        "keyElements": [
+          "verdriet/wanhoop aan het begin",
+          "ontdekking van opa's hulp",
+          "hoop/kracht aan het eind"
+        ],
+        "minWords": 8
+      },
+      "hint": "Beschrijf hoe Lara's gevoelens veranderen van begin tot eind van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-code/image-1.png",
+      "alt": "Een tienermeisje die verdrietig kijkt naar een kapotte laptop op een bureau"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-code/image-2.png",
+      "alt": "Dezelfde tienermeisje die glimlacht terwijl ze een externe harde schijf vasthoudt met een briefje erop"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking sadly at a broken laptop with a black screen on a desk, children's book illustration style, soft lighting, Dutch bedroom setting",
+    "The same teenage girl smiling while holding an old external hard drive with a note attached, children's book illustration style, warm lighting, hope and discovery in her expression"
+  ]
+}

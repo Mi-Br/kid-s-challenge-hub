@@ -1,0 +1,115 @@
+{
+  "id": "de-onzichtbare-last",
+  "title": "De Onzichtbare Last",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "gezondheid",
+  "text": "Daan zag het eerst niet. Zijn oudere zus Lotte was altijd al stil geweest, maar de laatste maanden leek ze te verdwijnen in haar eigen wereld. Ze at nauwelijks nog tijdens het avondeten, haar ogen staarden vaak in de verte, en haar vrolijke lach was vervangen door een geforceerde glimlach die haar ogen niet bereikte.\n\nOp een regenachtige donderdagmiddag vond Daan haar huilend op haar bed. Magische druppels leken van haar wangen te vallen – niet gewoon tranen, maar kleine kristallen die haar pijn zichtbaar maakten in het licht. \"Wat is er?\" fluisterde hij, maar Lotte schudde alleen haar hoofd. \"Je zou het niet begrijpen,\" zei ze met een stem die klonk alsof hij uit een diepe put kwam.\n\nDie avond zocht Daan het internet af. Hij las artikelen over depressie bij tieners, over hoe de hersenen soms een chemische onbalans kunnen hebben, net zoals je lichaam ziek kan worden van een virus. Hij begrefte dat mentale gezondheid net zo belangrijk is als fysieke gezondheid, maar dat het veel moeilijker te zien en te begrijpen valt voor buitenstaanders.\n\nHet duurde weken voordat Daan de moed verzamelde om met zijn ouders te praten. \"Ik denk dat Lotte hulp nodig heeft,\" zei hij tijdens het ontbijt. Zijn moeder verstijfde, maar zijn vader knikte langzaam. \"We hebben het ook gemerkt,\" gaf hij toe. \"Maar we wisten niet hoe we het moesten aanpakken.\"\n\nSamen maakten ze een afspraak met de huisarts, die Lotte doorverwees naar een psycholoog. Het was geen magische oplossing – de kristaldruppels verdwenen niet van de ene op de andere dag. Maar langzaam, door therapie en de liefde van haar familie, begon Lotte weer meer op zichzelf te lijken. Daan leerde dat mentale gezondheid een reis is, geen bestemming, en dat er geen schaamte hoort te zijn bij het vragen om hulp.\n\nMaanden later, toen Lotte weer kon lachen zonder dat het geforceerd klonk, vertelde ze Daan: \"Dankjewel dat je me zag toen ik mezelf niet eens kon zien.\" De onzichtbare last was eindelijk zichtbaar geworden, en daardoor ook draaglijk.",
+  "questions": [
+    {
+      "question": "Waarom dacht Daan eerst dat mentale gezondheid net zo belangrijk is als fysieke gezondheid?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Daan door zijn onderzoek leerde dat de hersenen een chemische onbalans kunnen hebben, net zoals het lichaam ziek kan worden. Het gaat om de vergelijking tussen mentale en fysieke ziekte.",
+        "exampleAnswer": "Hij las dat de hersenen een chemische onbalans kunnen hebben, net zoals je lichaam ziek kan worden van een virus.",
+        "keyElements": [
+          "hersenen/hoofd",
+          "chemische onbalans/onbalans",
+          "lichaam ziek/fysiek ziek/virus"
+        ],
+        "minWords": 6
+      },
+      "hint": "Zoek in de derde alinea naar wat Daan las over hersenen en lichaam."
+    },
+    {
+      "question": "Hoe toont de schrijver in dit verhaal dat Lottes verdriet magische eigenschappen had?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de tranen werden beschreven als kristallen druppels die haar pijn zichtbaar maakten in het licht, wat het magische element vormt.",
+        "exampleAnswer": "De tranen van Lotte waren kristallen druppels die haar pijn zichtbaar maakten in het licht.",
+        "keyElements": [
+          "kristallen/kristal",
+          "druppels/tranen",
+          "zichtbaar/zichtbaar maakten",
+          "licht"
+        ],
+        "minWords": 5
+      },
+      "hint": "Kijk naar de tweede alinea, naar wat er met Lottes tranen gebeurde."
+    },
+    {
+      "question": "Evalueer of Daans aanpak om met zijn ouders te praten de juiste keuze was. Onderbouw je mening met voorbeelden uit de tekst.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee) en dit onderbouwen met concrete voorbeelden uit de tekst, zoals dat de ouders het ook hadden gemerkt, dat ze samen actie ondernamen, of dat Lotte uiteindelijk beter werd.",
+        "exampleAnswer": "Ja, het was de juiste keuze omdat zijn ouders het ook al gemerkt hadden maar niet wisten hoe ze het moesten aanpakken. Door samen actie te ondernemen kwam Lotte uiteindelijk de juiste hulp.",
+        "keyElements": [
+          "ja/nee/wel/niet",
+          "ouders/familie",
+          "gemerkt/gezien",
+          "samen/samenwerking",
+          "hulp/psycholoog/behandeling"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat er gebeurde nadat Daan met zijn ouders sprak en of dit tot een goede uitkomst leidde."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herkennen van mentale gezondheidsproblemen, het belang van hulp zoeken, en dat familie een belangrijke rol speelt bij het ondersteunen van iemand met psychische problemen.",
+        "exampleAnswer": "Het verhaal gaat over het herkennen van mentale gezondheidsproblemen en het belang van familie om samen hulp te zoeken.",
+        "keyElements": [
+          "mentale gezondheid/psychische problemen/depressie",
+          "herkennen/zien/opmerken",
+          "hulp zoeken/hulp vragen",
+          "familie/samen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Daan leerde en deed, en wat de uiteindelijke boodschap van het verhaal is."
+    },
+    {
+      "question": "Met welk doel heeft de schrijver dit verhaal geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver bewustzijn wil creëren over mentale gezondheid, wil laten zien dat het belangrijk is om hulp te zoeken, en de schaamte rond psychische problemen wil wegnemen.",
+        "exampleAnswer": "De schrijver wil laten zien dat mentale gezondheid belangrijk is en dat er geen schaamte hoort te zijn bij het vragen om hulp.",
+        "keyElements": [
+          "bewustzijn/bewust maken",
+          "mentale gezondheid/psychische hulp",
+          "geen schaamte/normaal",
+          "hulp vragen/hulp zoeken"
+        ],
+        "minWords": 5
+      },
+      "hint": "Kijk naar de les die Daan leert en wat er in de laatste alinea wordt gezegd over schaamte."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-onzichtbare-last/image-1.png",
+      "alt": "Lotte zit huilend op haar bed terwijl Daan bezorgd in de deuropening staat"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-onzichtbare-last/image-2.png",
+      "alt": "Een familie zit samen aan de ontbijttafel en praat serieus met elkaar"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting on her bed crying with magical crystal-like teardrops falling from her face that shimmer in the light, while her younger brother stands concerned in the doorway, children's book illustration style, soft lighting, emotional scene",
+    "A Dutch family sitting together at a breakfast table having a serious conversation, parents and two teenagers, morning light streaming through window, children's book illustration style, warm but serious atmosphere"
+  ]
+}

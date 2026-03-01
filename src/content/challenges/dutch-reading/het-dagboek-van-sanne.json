@@ -1,0 +1,128 @@
+{
+  "id": "het-dagboek-van-sanne",
+  "title": "Het Dagboek van Sanne",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wetenschap",
+  "text": "15 maart\nLieve dagboek,\nMijn beste vriendin Lisa gedraagt zich heel vreemd de laatste weken. Ze is altijd moe, vergeet dingen en wil niet meer naar onze biologielessen. Gisteren zei ze dat wetenschap \"geen zin heeft\" en dat ze zich dom voelt. Ik snap er niets van want Lisa was altijd de beste van de klas!\n\n22 maart\nLieve dagboek,\nIk heb met meester Joris gespraat over Lisa. Hij vertelde me over iets wat \"depressie\" heet. Het is een ziekte in je hoofd die ervoor zorgt dat je jezelf heel slecht voelt, ook al ben je eigenlijk een slim persoon. Mensen met depressie voelen zich vaak moe en hebben geen interesse meer in dingen die ze eerst leuk vonden. Nu begrijp ik waarom Lisa niet meer wil experimenteren in het lab.\n\n28 maart\nLieve dagboek,\nIk heb Lisa een brief geschreven. Ik legde uit dat depressie echt bestaat en dat het niet haar schuld is. Veel beroemde wetenschappers hadden ook depressie, zoals Charles Darwin. Ik vroeg of ze misschien hulp wilde zoeken bij de schoolpsycholoog. Lisa was eerst boos, maar daarna begon ze te huilen. Ze zei dat ze zich al maanden heel eenzaam voelde.\n\n5 april\nLieve dagboek,\nLisa gaat nu elke week praten met mevrouw Van Dijk, de schoolpsycholoog. Ze voelt zich al wat beter en is weer geïnteresseerd in biologie. Gisteren hebben we samen een proefje gedaan over plantengroei. Onze vriendschap is wel anders geworden - dieper maar ook serieuzer. Ik ben blij dat ik heb geleerd wat depressie is. Nu kan ik Lisa beter helpen.",
+  "questions": [
+    {
+      "question": "Welke wetenschapper had volgens de tekst ook depressie?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "charles darwin",
+        "darwin"
+      ],
+      "hint": "Kijk in de brief van 28 maart."
+    },
+    {
+      "question": "Waarom wilde Lisa niet meer naar de biologielessen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "depressie",
+            "depressief",
+            "ziek",
+            "ziekte"
+          ],
+          [
+            "moe",
+            "geen zin",
+            "interesse",
+            "slecht voelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat meester Joris uitlegde over de ziekte."
+    },
+    {
+      "question": "Hoe veranderde de vriendschap tussen Sanne en Lisa?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "dieper",
+            "anders",
+            "veranderde",
+            "serieuzer"
+          ],
+          [
+            "beter",
+            "helpen",
+            "begrijpen",
+            "steun"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het dagboek."
+    },
+    {
+      "question": "Vind je dat Sanne goed heeft gereageerd op Lisa's problemen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "juist",
+            "verkeerd",
+            "slecht",
+            "prima"
+          ],
+          [
+            "hulp",
+            "praten",
+            "psycholoog",
+            "steun",
+            "begrip",
+            "uitleggen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over welke acties Sanne ondernam."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herkennen en helpen bij mentale gezondheidsproblemen, en hoe je kunt leren over depressie om een vriend te steunen.",
+        "exampleAnswer": "Het verhaal gaat over het leren begrijpen van depressie en hoe je een vriend kunt helpen die mentale problemen heeft.",
+        "keyElements": [
+          "depressie/mentale problemen/geestelijke gezondheid",
+          "vriendschap/helpen/steun"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat leert Sanne en wat doet ze daarmee?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-dagboek-van-sanne/image-1.png",
+      "alt": "Een meisje dat in haar dagboek schrijft in een Nederlandse slaapkamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-dagboek-van-sanne/image-2.png",
+      "alt": "Twee meisjes die samen een wetenschappelijk experiment doen in een schoollab"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl writing in her diary at a desk in her bedroom, children's book illustration style, warm lighting, thoughtful expression",
+    "Two teenage girls working together on a science experiment with plants in a bright school laboratory, children's book illustration style, showing friendship and collaboration"
+  ]
+}

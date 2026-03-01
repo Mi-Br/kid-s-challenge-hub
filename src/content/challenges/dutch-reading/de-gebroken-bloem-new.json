@@ -1,0 +1,103 @@
+{
+  "id": "de-gebroken-bloem",
+  "title": "De Gebroken Bloem",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de buurt",
+  "text": "Lisa fietste snel door de straat omdat ze laat was. De geur van verse bloemen kwam uit de tuin van buurvrouw Jansen. Lisa hoorde het zachte zoemen van bijen en voelde de warme zon op haar gezicht.\n\nOpeens ging haar fiets te hard. KRAK! Lisa reed door de mooie rode tulp van buurvrouw Jansen. De bloem brak doormidden. Lisa's hart bonsde hard want ze was bang.\n\nThuis rook Lisa nog steeds de kapotte bloem aan haar fiets. Ze voelde zich heel verdrietig. \"Ik moet sorry zeggen,\" fluisterde Lisa tegen zichzelf.\n\nDe volgende dag ging Lisa naar buurvrouw Jansen. Ze hoorde haar eigen voetstappen op het tuinpad. \"Het spijt me van uw bloem,\" zei Lisa zacht. \"Ik heb een nieuwe tulp voor u gekocht.\" Lisa rook weer de zoete geur van de tuin.\n\nBuurvrouw Jansen glimlachte vriendelijk. \"Dank je wel, Lisa. Dat is heel lief van je.\" Ze plantten samen de nieuwe tulp. Lisa voelde de zachte aarde tussen haar vingers en hoorde buurvrouw Jansen zachtjes neuriën.",
+  "questions": [
+    {
+      "question": "Welke kleur had de tulp die kapot ging?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom fietste Lisa zo snel?",
+      "questionType": "begrijpen",
+      "hint": "Dit staat in de eerste zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "laat"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat betekent de kapotte bloem in dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "fout",
+            "foutje",
+            "vergissing",
+            "ongeluk"
+          ],
+          [
+            "sorry",
+            "spijt",
+            "schuld",
+            "verdrietig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa voelde na het ongeluk."
+    },
+    {
+      "question": "Vind je dat Lisa goed heeft gehandeld? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed"
+          ],
+          [
+            "sorry",
+            "nieuwe",
+            "excuses",
+            "eerlijk",
+            "oplossen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa deed om het goed te maken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-bloem/image-1.png",
+      "alt": "Lisa fietst door een Nederlandse straat met bloementuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-bloem/image-2.png",
+      "alt": "Lisa en buurvrouw Jansen planten samen een nieuwe tulp"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl cycling fast through a Dutch neighborhood street with beautiful flower gardens, children's book illustration style, warm sunlight",
+    "A young girl and an elderly Dutch woman planting a red tulip together in a garden, both smiling, children's book illustration style"
+  ]
+}

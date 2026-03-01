@@ -1,0 +1,96 @@
+{
+  "id": "de-nieuwe-vriend-op-de-fiets",
+  "title": "De Nieuwe Vriend op de Fiets",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "verkeer",
+  "text": "Lucas fietst elke dag naar school. Hij kent alle verkeerslichten op zijn route. Bij het grote kruispunt stopt hij altijd voor het rode licht.\n\nVandaag ziet Lucas een nieuw kind bij de bushalte. Het kind heeft een speciale fiets met drie wielen. 'Wat een raar ding,' denkt Lucas. Het kind rijdt heel langzaam en stopt bij elke stoeprand.\n\n'Hallo, ik ben Mira,' zegt het kind vriendelijk. 'Ik ben nieuw in de buurt.' Lucas kijkt naar de drie wielen en de handremmen. 'Waarom heb je zo'n fiets?' vraagt Lucas voorzichtig.\n\n'Mijn benen zijn niet zo sterk,' legt Mira uit. 'Deze fiets is veiliger voor mij. Ik kan er goed mee rijden, maar wel rustig.' Lucas begrijpt het nu. Hij ruikt de frisse ochtendlucht en hoort de vogels fluiten.\n\n'Zullen we samen naar school fietsen?' stelt Lucas voor. 'Dan kan ik je de beste route laten zien.' Mira glimlacht breed. 'Dat zou ik heel leuk vinden,' zegt Mira blij. Samen rijden ze langzaam maar vrolijk naar school.",
+  "questions": [
+    {
+      "question": "Hoeveel wielen heeft de fiets van Mira?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "drie",
+        "drie wielen",
+        "3"
+      ],
+      "hint": "Kijk in de tweede alinea naar de beschrijving van de fiets."
+    },
+    {
+      "question": "Waarom heeft Mira deze bijzondere fiets?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "benen",
+            "been"
+          ],
+          [
+            "sterk",
+            "sterker",
+            "zwak",
+            "zwakker",
+            "niet sterk"
+          ],
+          [
+            "veilig",
+            "veiliger",
+            "veiligheid"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Mira legt zelf uit waarom ze deze fiets nodig heeft."
+    },
+    {
+      "question": "Hoe voelt Lucas zich aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "vrolijk",
+            "happy",
+            "fijn",
+            "goed"
+          ],
+          [
+            "aardig",
+            "vriendelijk",
+            "behulpzaam",
+            "lief"
+          ],
+          [
+            "samen",
+            "meehelpen",
+            "helpen",
+            "hielp"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lucas voorstelt en hoe ze samen wegrijden."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-vriend-op-de-fiets/image-1.png",
+      "alt": "Lucas op zijn gewone fiets en Mira op haar driewieler bij de bushalte"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-vriend-op-de-fiets/image-2.png",
+      "alt": "Lucas en Mira fietsen samen vrolijk naar school"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch boy named Lucas on a regular bicycle meeting a girl named Mira on a special three-wheeled bicycle at a bus stop, children's book illustration style, bright morning scene with Dutch street elements",
+    "Two children cycling together happily toward school, one on a regular bike and one on a three-wheeled adaptive bicycle, Dutch neighborhood background with trees and bike paths, children's book illustration style"
+  ]
+}

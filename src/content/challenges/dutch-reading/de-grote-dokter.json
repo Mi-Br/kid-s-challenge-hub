@@ -1,0 +1,93 @@
+{
+  "id": "de-grote-dokter",
+  "title": "De Grote Dokter",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Lisa was heel bang voor dokter Van Der Berg. Hij was zo groot en hij had altijd een witte jas aan. Mama zei: \"We gaan naar de dokter omdat je buik pijn doet.\" Lisa begon te huilen.\n\nIn de wachtruimte zag Lisa andere kinderen. Een jongetje kwam terug van dokter Van Der Berg. Hij lachte en had een sticker op zijn hand. \"De dokter is heel aardig,\" zei hij tegen Lisa. \"Hij heeft zachte handen.\"\n\nDokter Van Der Berg riep Lisa's naam. Lisa liep langzaam naar zijn kamer omdat ze nog steeds bang was. De dokter zat op een kleine stoel zodat hij niet zo groot leek. Hij glimlachte vriendelijk.\n\n\"Hallo Lisa,\" zei hij zacht. \"Ik ga even voelen waar je buik pijn doet. Dat doet geen pijn.\" Hij legde zijn warme hand op Lisa's buik. Lisa voelde dat zijn handen inderdaad heel zacht waren.\n\nNa het onderzoek gaf dokter Van Der Berg Lisa een mooie sticker met een regenboog erop. \"Je buik doet pijn omdat je te veel snoep hebt gegeten,\" zei hij. \"Drink veel water en eet vandaag alleen brood.\" Lisa was blij. De dokter was helemaal niet eng!",
+  "questions": [
+    {
+      "question": "Welke kleur jas heeft dokter Van Der Berg aan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit",
+        "witte",
+        "een witte"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat heeft het jongetje op zijn hand?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "sticker",
+        "een sticker"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom was Lisa eerst bang voor de dokter?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "groot",
+            "grote",
+            "hoog"
+          ],
+          [
+            "witte jas",
+            "jas",
+            "wit"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe de dokter er volgens Lisa uitzag."
+    },
+    {
+      "question": "Vind jij dat dokter Van Der Berg een goede dokter is? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "aardig",
+            "vriendelijk",
+            "lief",
+            "zacht"
+          ],
+          [
+            "sticker",
+            "glimlach",
+            "glimlachte",
+            "hulp",
+            "helpt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe de dokter zich gedroeg tijdens Lisa's bezoek."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-grote-dokter/image-1.png",
+      "alt": "Een klein meisje kijkt bang naar een grote dokter in een witte jas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-grote-dokter/image-2.png",
+      "alt": "Een vriendelijke dokter zit op een kleine stoel en onderzoekt een meisje"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking scared at a tall doctor wearing a white coat in a medical waiting room, children's book illustration style",
+    "A kind doctor sitting on a small chair examining a little girl's stomach while smiling, the girl looks more relaxed now, children's book illustration style"
+  ]
+}

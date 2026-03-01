@@ -1,0 +1,94 @@
+{
+  "id": "lotte-en-het-familie-etentje",
+  "title": "Lotte en het Familie-etentje",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Lotte was heel blij omdat oma en opa kwamen eten. Mama had de hele dag gekookt. Er stonden veel schaaltjes op tafel met lekker eten.\n\nToen oma en opa er waren, ging iedereen aan tafel zitten. Lotte wilde snel beginnen met eten omdat ze zo'n honger had. Ze pakte een grote lepel en schepte veel op haar bord.\n\n\"Wacht even, Lotte,\" zei papa. \"We gaan eerst samen bidden.\" Maar Lotte luisterde niet. Ze begon al te eten terwijl de anderen nog aan het bidden waren. Opa keek een beetje verdrietig.\n\nNa het eten zei oma: \"Dat was lekker, maar ik vond het jammer dat we niet samen konden beginnen.\" Toen begreep Lotte wat ze fout had gedaan. Ze had niet gewacht op de anderen.\n\n\"Sorry oma,\" zei Lotte. \"Volgende keer wacht ik tot iedereen klaar is.\" Oma gaf haar een knuffel. \"Dat is lief van je, Lotte. Familie-etentjes zijn het leukst als we alles samen doen.\"",
+  "questions": [
+    {
+      "question": "Wie kwamen er bij Lotte eten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oma en opa",
+        "opa en oma"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wie hadden er de hele dag gekookt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "mama"
+      ],
+      "hint": "Lees de tweede zin van het eerste stukje."
+    },
+    {
+      "question": "Waarom was opa verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lotte",
+            "zij"
+          ],
+          [
+            "begon",
+            "begonnen",
+            "at",
+            "eten",
+            "eet"
+          ],
+          [
+            "bidden",
+            "wachten",
+            "samen",
+            "anderen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lotte deed toen de familie aan het bidden was."
+    },
+    {
+      "question": "Wat betekent het woord 'schaaltjes' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Er stonden veel op tafel met lekker eten erin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "kleine schalen"
+          ],
+          [
+            "bakjes met eten"
+          ],
+          [
+            "kommetjes"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lotte-en-het-familie-etentje/image-1.png",
+      "alt": "Lotte zit aan tafel met haar familie en eet terwijl anderen bidden"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lotte-en-het-familie-etentje/image-2.png",
+      "alt": "Lotte krijgt een knuffel van oma na het gesprek"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl eating at a dinner table while her family (parents and grandparents) have their eyes closed in prayer, children's book illustration style, warm family dining room setting",
+    "A grandmother giving a warm hug to a young girl in a cozy Dutch home interior, both smiling, children's book illustration style, family reconciliation scene"
+  ]
+}

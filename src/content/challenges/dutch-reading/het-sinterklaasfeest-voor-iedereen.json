@@ -1,0 +1,126 @@
+{
+  "id": "het-sinterklaasfeest-voor-iedereen",
+  "title": "Het Sinterklaasfeest voor Iedereen",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Mila was heel enthousiast toen haar nieuwe school een groot Sinterklaasfeest zou organiseren. Ze had net geleerd dat dit een belangrijk Nederlands feest is dat elk jaar op 5 december wordt gevierd. Alle kinderen zouden hun mooiste kleren aantrekken en samen liedjes zingen.\n\nToen Mila echter op het schoolplein kwam, hoorde ze een groep oudere kinderen praten. \"Sinterklaas is alleen voor Nederlandse kinderen,\" zei een jongen uit groep acht tegen Amir, die pas twee maanden geleden uit Syrië was gekomen. \"Jij hoort hier niet bij.\" Mila voelde zich ongemakkelijk omdat ze wist dat dit niet eerlijk was. Zij kwam zelf ook uit een ander land, maar had al langer in Nederland gewoond.\n\nDe hele dag dacht Mila na over wat ze had gehoord. Ze was bang dat de andere kinderen haar ook zouden wegsturen indien ze iets zou zeggen. Misschien zouden ze boos op haar worden of haar geen vrienden meer willen zijn. Maar steeds als ze Amir alleen zag zitten, voelde ze zich verdrietig.\n\nTijdens de Sinterklaasviering stond juf Emma op het podium. \"Sinterklaas is een feest van delen en vriendelijkheid,\" zei ze. \"Het maakt niet uit waar je vandaan komt.\" Mila voelde plotseling moed in haar buik groeien. Ze stak haar hand op en zei luid: \"Ik vind ook dat iedereen mee mag doen. Amir hoort hier net zo goed bij als wij allemaal.\" Tot haar verrassing begonnen andere kinderen te klappen.\n\nAmir kwam na afloop naar Mila toe en bedankte haar. \"Door jouw woorden voelde ik me welkom,\" zei hij met een glimlach. Vanaf die dag zorgde Mila ervoor dat alle nieuwe kinderen zich thuis voelden op school. Ze had geleerd dat je soms moet spreken, ook al is het eng, om het juiste te doen.",
+  "questions": [
+    {
+      "question": "Op welke datum wordt Sinterklaas gevierd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "5 december"
+      ],
+      "hint": "Zoek naar de datum in de eerste alinea."
+    },
+    {
+      "question": "Waarom voelde Mila zich ongemakkelijk toen ze de oudere kinderen hoorde praten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "oneerlijk",
+            "niet eerlijk",
+            "fout",
+            "verkeerd"
+          ],
+          [
+            "amir",
+            "andere kinderen",
+            "nieuwe kinderen",
+            "buitenlandse kinderen"
+          ],
+          [
+            "uitsluiten",
+            "wegsturen",
+            "niet welkom",
+            "discriminatie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Mila zelf ook had meegemaakt als nieuw kind."
+    },
+    {
+      "question": "Wat zou er volgens Mila kunnen gebeuren als ze iets zou zeggen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "wegsturen",
+            "wegjagen",
+            "uitsluiten"
+          ],
+          [
+            "boos",
+            "kwaad",
+            "woedend"
+          ],
+          [
+            "geen vrienden",
+            "vrienden kwijt",
+            "alleen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de derde alinea waar Mila zich zorgen maakt."
+    },
+    {
+      "question": "Vind je dat Mila goed heeft gehandeld? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Mila's handelen en deze onderbouwen met argumenten uit de tekst of eigen ervaring. Zowel positieve als kritische meningen zijn geldig als ze goed beargumenteerd zijn.",
+        "exampleAnswer": "Ja, Mila heeft goed gehandeld omdat ze opkwam voor iemand die oneerlijk werd behandeld, ook al was ze bang.",
+        "keyElements": [
+          "mening/oordeel",
+          "onderbouwing/argumenten",
+          "moed/opkomen voor anderen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over de gevolgen van Mila's actie en of je hetzelfde zou doen."
+    },
+    {
+      "question": "Wat is de hoofdboodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van opkomen voor anderen, moed hebben om het juiste te doen, en zorgen dat iedereen zich welkom voelt.",
+        "exampleAnswer": "Het verhaal leert dat je soms moed moet hebben om op te komen voor anderen, ook al ben je bang.",
+        "keyElements": [
+          "moed/dapper zijn",
+          "opkomen voor anderen/helpen",
+          "het juiste doen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat heeft Mila geleerd en wat wil de schrijver jou leren?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-sinterklaasfeest-voor-iedereen/image-1.png",
+      "alt": "Kinderen in een Nederlandse school tijdens een Sinterklaasviering"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-sinterklaasfeest-voor-iedereen/image-2.png",
+      "alt": "Mila die haar hand opsteekt om iets te zeggen tijdens het Sinterklaasfeest"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a diverse group of children in a Dutch elementary school decorated for Sinterklaas celebration, with one lonely child sitting apart while others exclude him",
+    "Children's book illustration of a brave young girl raising her hand to speak up during a Sinterklaas assembly, with other children listening and a teacher on stage"
+  ]
+}

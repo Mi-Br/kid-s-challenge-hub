@@ -1,0 +1,103 @@
+{
+  "id": "de-kapotte-schommel",
+  "title": "De Kapotte Schommel",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "Lisa ging naar het park omdat ze wilde schommelen. De grote schommel was haar favoriet. Maar toen ze aankwam, zag ze dat de ketting kapot was.\n\nZe probeerde eerst de kleine schommel. Die was veel te laag voor haar. Als ze haar benen strekte, raakten haar voeten de grond. Dat was niet leuk schommelen.\n\nToen zag Lisa een dikke tak aan de boom. Ze had een idee! Ze ging naar huis en haalde een touw. Samen met papa maakte ze een nieuwe schommel aan de tak.\n\nNu had Lisa haar eigen schommel. Ze schommelde hoog de lucht in. Andere kinderen kwamen kijken omdat ze de mooiste schommel van het hele park had gemaakt.",
+  "questions": [
+    {
+      "question": "Waarom was de grote schommel kapot?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "ketting"
+          ],
+          [
+            "kapot"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat was er mis met de kleine schommel?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "die was veel te laag",
+        "te laag voor haar",
+        "veel te laag"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom kwam Lisa op het idee van de tak?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kleine",
+            "laag",
+            "niet leuk"
+          ],
+          [
+            "nieuwe",
+            "andere",
+            "eigen"
+          ],
+          [
+            "schommel",
+            "schommelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over het probleem met de kleine schommel."
+    },
+    {
+      "question": "Wat betekent 'favoriet' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Welke schommel vond Lisa het beste?",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "lievelings"
+          ],
+          [
+            "het liefst"
+          ],
+          [
+            "meest geliefd"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-schommel/image-1.png",
+      "alt": "Lisa kijkt naar de kapotte schommel in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-schommel/image-2.png",
+      "alt": "Lisa schommelt hoog aan haar nieuwe touwschommel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking disappointed at a broken swing with a snapped chain in a Dutch park, children's book illustration style",
+    "A happy girl swinging high on a rope swing attached to a tree branch while other children watch admiringly, children's book illustration style"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "de-verloren-vriendschap",
+  "title": "De Verloren Vriendschap",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "huisdieren",
+  "text": "Emma en Lotte waren al jaren beste vriendinnen. Elke dag na school gingen ze samen naar het park om hun honden uit te laten. Emma had een kleine witte teckel die Sneeuwbal heette, en Lotte had een grote gouden retriever genaamd Max. De twee honden speelden altijd vrolijk samen, net als hun baasjes.\n\nOp een regenachtige dinsdag gebeurde er iets vreemds. Toen Emma en Lotte bij de fontein in het park kwamen, begon Sneeuwbal plotseling te blaffen naar Max. Hij liet zijn tanden zien en gronde luid. Max verstopte zich angstig achter Lotte's benen. \"Wat is er met Sneeuwbal?\" vroeg Lotte bezorgd. Emma haalde haar schouders op omdat ze het niet begreep.\n\nDe volgende dag gebeurde hetzelfde bij dezelfde fontein. Sneeuwbal werd boos zodra hij Max zag en wilde hem wegdrijven. Lotte werd verdrietig en zei: \"Misschien moeten we apart gaan wandelen tot dit probleem is opgelost.\" Emma knikte stilletjes, maar vanbinnen voelde ze zich verschrikkelijk alleen.\n\nWeken gingen voorbij zonder dat de meisjes elkaar zagen. Emma miste Lotte heel erg, en Lotte dacht elke dag aan haar vriendin. Op een zonnige zaterdagochtend liep Emma alleen met Sneeuwbal door het park. Bij de fontein ontdekte ze iets bijzonders: een klein katje zat verstopt tussen de struiken naast het water. Het dier was dun en zag er hongerig uit.\n\nToen Sneeuwbal het katje zag, werd hij weer boos en begon te blaffen. Plotseling begreep Emma alles! Sneeuwbal probeerde het zwerfkatje te beschermen tegen andere dieren. Hij dacht dat Max het katje pijn zou doen, omdat Max zo groot was. Emma voelde zich opgelucht omdat ze eindelijk wist waarom haar hond zo vreemd deed.\n\nDie middag belde Emma naar Lotte en legde alles uit. \"Sneeuwbal wilde het katje helpen,\" zei ze. \"Hij was niet gemeen tegen Max, maar probeerde een kleiner dier te redden.\" Lotte was zo blij dat ze meteen naar het park kwam. Samen gingen ze naar de dierenwinkel om kattenvoer te kopen. Vanaf die dag zorgden beide vriendinnen voor het zwerfkatje, en hun honden werden weer de beste vrienden.",
+  "questions": [
+    {
+      "question": "Hoe heette de hond van Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "sneeuwbal"
+      ],
+      "hint": "Kijk naar de eerste alinea waar de honden worden voorgesteld."
+    },
+    {
+      "question": "Waarom verstopte Max zich achter Lotte's benen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "geschrokken",
+            "verstopt"
+          ],
+          [
+            "sneeuwbal",
+            "blafte",
+            "gronde",
+            "boos"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Sneeuwbal deed en hoe Max daarop reageerde."
+    },
+    {
+      "question": "Wat ontdekte Emma bij de fontein op zaterdagochtend?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "katje",
+            "kat",
+            "zwerfkatje"
+          ],
+          [
+            "verstopt",
+            "struiken",
+            "verborgen"
+          ],
+          [
+            "hongerig",
+            "dun",
+            "zwak"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea goed, daar staat wat Emma vond."
+    },
+    {
+      "question": "Vind je dat Emma en Lotte goede vriendinnen zijn? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de vriendschap en dit onderbouwen met voorbeelden uit de tekst, zoals dat ze samen voor het katje zorgden, dat ze elkaar misten, of dat ze het probleem samen oplosten.",
+        "exampleAnswer": "Ja, ze zijn goede vriendinnen omdat ze elkaar misten toen ze apart waren en samen het probleem oplosten door voor het katje te zorgen.",
+        "keyElements": [
+          "misten/zorgden/hielpen elkaar",
+          "samen/samenwerking",
+          "probleem oplossen/uitleggen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan hoe de meisjes met elkaar omgingen toen er problemen waren."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over vriendschap die sterker wordt na het oplossen van een misverstand, of over het helpen van dieren in nood.",
+        "exampleAnswer": "Het verhaal gaat over twee vriendinnen die hun vriendschap redden door een misverstand op te lossen en samen een zwerfkatje te helpen.",
+        "keyElements": [
+          "vriendschap/vriendinnen",
+          "misverstand/probleem oplossen",
+          "helpen/zorgen voor dieren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat is het belangrijkste dat er in dit verhaal gebeurt?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verloren-vriendschap/image-1.png",
+      "alt": "Emma en Lotte lopen samen met hun honden Sneeuwbal en Max door een Nederlands park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verloren-vriendschap/image-2.png",
+      "alt": "Een klein zwerfkatje verstopt tussen struiken bij een fontein in het park"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls walking their dogs in a Dutch park with a fountain, children's book illustration style, one girl with a small white dachshund and another with a golden retriever, sunny day with typical Dutch scenery",
+    "A small stray kitten hiding behind bushes near a park fountain, children's book illustration style, the kitten looks thin and hungry, with park benches and Dutch trees in the background"
+  ]
+}

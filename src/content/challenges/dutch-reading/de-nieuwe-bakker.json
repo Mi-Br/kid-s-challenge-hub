@@ -1,0 +1,74 @@
+{
+  "id": "de-nieuwe-bakker",
+  "title": "De Nieuwe Bakker",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "beroepen",
+  "text": "Lisa loopt elke dag langs de bakkerij naar school. De oude bakker Henk is er al jaren. Hij heeft grijze haren en een grote buik. Lisa koopt er altijd haar broodje.\n\nVandaag is er een nieuwe bakker. Het is een jonge vrouw met korte zwarte haren. Ze draagt een wit schort en heeft bloem op haar handen. Lisa kijkt naar binnen. De vrouw spreekt een andere taal met een klant.\n\nLisa denkt: \"Ze kan vast geen lekker brood bakken. Ze is niet van hier.\" Lisa loopt snel door naar school. Ze koopt haar broodje ergens anders.\n\nDe volgende dag ruikt Lisa iets heerlijks. Het ruikt naar warme croissants en vers brood. De geur komt uit de bakkerij. Lisa kijkt door het raam. Er staan veel mensen in de rij.\n\nLisa gaat naar binnen. \"Wat ruikt er zo lekker?\" vraagt ze. De nieuwe bakker lacht. \"Ik maak Franse croissants. Mijn oma leerde het me in Frankrijk.\" Ze geeft Lisa een stukje om te proeven. Het smaakt fantastisch!\n\nNu koopt Lisa elke dag een croissant bij de nieuwe bakker. Ze heet Marie en komt uit Frankrijk. Marie vertelt Lisa over Franse gebakjes. Lisa leert dat mensen uit andere landen ook heel goed kunnen bakken.",
+  "questions": [
+    {
+      "question": "Wie was er eerst in de bakkerij?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "henk",
+        "de oude bakker henk",
+        "bakker henk"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dacht Lisa dat Marie niet goed kon bakken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "geen"
+          ],
+          [
+            "hier",
+            "nederland",
+            "anders",
+            "andere"
+          ],
+          [
+            "taal",
+            "land",
+            "vreemd",
+            "buitenland"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa hoorde en dacht in de tweede en derde alinea."
+    },
+    {
+      "question": "Wat maakte Marie speciaal in de bakkerij?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "franse croissants",
+        "croissants",
+        "franse gebakjes"
+      ],
+      "hint": "Lees wat Marie zegt tegen Lisa."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-bakker/image-1.png",
+      "alt": "Een jonge vrouw met zwarte haren in een wit schort staat achter de toonbank van een bakkerij"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-bakker/image-2.png",
+      "alt": "Lisa en Marie delen een croissant in de warme bakkerij"
+    }
+  ],
+  "imagePrompts": [
+    "A young woman with short black hair wearing a white apron standing behind the counter of a Dutch bakery, flour on her hands, warm lighting, children's book illustration style",
+    "A young girl and a French baker sharing a croissant in a cozy bakery with fresh bread in the background, warm and welcoming atmosphere, children's book illustration style"
+  ]
+}

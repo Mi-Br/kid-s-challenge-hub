@@ -1,0 +1,130 @@
+{
+  "id": "de-stukken-van-thuis",
+  "title": "De Stukken van Thuis",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "cultuur",
+  "text": "Maya's vingers trilden toen ze de laatste foto van de muur haalde. Het huis waar ze geboren was, waar haar oma elke ochtend kaneelthee zette, waar de geur van jasmijn altijd door de kamers zweefde - het was nu leeg. Haar familie moest naar Nederland verhuizen omdat papa een nieuwe baan had gekregen.\n\n\"Waarom kunnen we niet gewoon hier blijven?\" had ze geschreeuwd toen mama het nieuws vertelde. De woorden echoden nog steeds in haar hoofd. Papa had uitgelegd dat ze geen keuze hadden, dat dit hun kans was op een betere toekomst. Maar Maya wilde helemaal geen betere toekomst als die betekende dat ze alles moest achterlaten wat haar leven betekenis gaf.\n\nDe eerste maanden in Amsterdam waren verschrikkelijk. Het eten smaakte nergens naar. De mensen spraken te snel, en Maya begreep vaak niet eens de helft van wat ze zeiden. Op school zat ze meestal alleen tijdens de pauze, starend naar de grijze lucht die zo anders was dan de stralende zon van haar geboorteland.\n\nOp een dag ontdekte Maya een kleine winkel in de Jordaan waar ze de kruiden verkochten die haar oma altijd gebruikte. De eigenaar, meneer Hassan, kwam oorspronkelijk uit hetzelfde land. \"Heimwee is als een open wond,\" zei hij tegen haar. \"Maar langzaam groeit er nieuw weefsel overheen.\" Hij leerde haar hoe ze de traditionele gerechten van thuis kon maken met ingrediënten die je in Nederland kon vinden.\n\nMaya begon te begrijpen dat cultuur niet alleen bestaat uit plekken en voorwerpen, maar vooral uit de verhalen die je in je hart draagt. Ze organiseerde een culturele avond op school, waar ze haar klasgenoten liet proeven van de hapjes die ze had leren maken. Ze vertelde over de betekenis achter de recepten, over haar oma's wijze spreuken, over de festivals die zij had gemist.\n\nLangzaam voelde Maya hoe de stukken van haar identiteit een nieuwe vorm kregen. Nederland werd niet haar nieuwe thuis omdat ze haar oude thuis vergat, maar omdat ze leerde beide werelden in zichzelf te verenigen. De pijn van het verlies zou altijd blijven, maar daarnaast groeide iets nieuws: de kracht om bruggen te bouwen tussen culturen.",
+  "questions": [
+    {
+      "question": "Hoe voelde Maya zich tijdens de eerste maanden in Amsterdam volgens de tekst?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verschrikkelijk",
+            "slecht",
+            "ellendig",
+            "eenzaam",
+            "verdrietig"
+          ],
+          [
+            "alleen",
+            "geïsoleerd",
+            "afgesneden",
+            "buitengesloten"
+          ],
+          [
+            "begrijpen",
+            "verstaan",
+            "niet snappen",
+            "taal",
+            "communicatie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de derde alinea waar wordt beschreven hoe Maya zich voelde."
+    },
+    {
+      "question": "Waarom vergelijkt meneer Hassan heimwee met een open wond?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de vergelijking betekent dat heimwee pijnlijk is maar dat er genezing mogelijk is, dat er langzaam iets nieuws groeit over de pijn heen.",
+        "exampleAnswer": "Omdat heimwee pijn doet zoals een wond, maar dat er langzaam genezing komt en er nieuw weefsel overheen groeit.",
+        "keyElements": [
+          "pijn/pijnlijk/zeer doen",
+          "genezing/herstellen/beter worden",
+          "langzaam/tijd",
+          "nieuw weefsel/groeien"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat er gebeurt met een wond die geneest en hoe dat lijkt op het verwerken van heimwee."
+    },
+    {
+      "question": "Evalueer Maya's beslissing om een culturele avond te organiseren. Wat voor effect had dit volgens jou op haar proces van wennen aan Nederland?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Maya's actie en deze onderbouwen met redenen uit de tekst of eigen ervaring. Het antwoord moet begrijpen dat delen van cultuur helpt bij integratie en zelfvertrouwen.",
+        "exampleAnswer": "Ik denk dat het een goede beslissing was omdat Maya zo haar cultuur kon delen en zich minder alleen voelde. Het hielp haar om trots te zijn op haar achtergrond.",
+        "keyElements": [
+          "delen/vertellen/laten zien",
+          "minder alleen/verbinding maken",
+          "trots/zelfvertrouwen",
+          "integratie/wennen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat er voor Maya veranderde nadat ze haar verhaal en eten deelde met klasgenoten."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het verwerken van verlies en het opbouwen van een nieuwe identiteit door oude en nieuwe cultuur te combineren. Resilience door culturele integratie.",
+        "exampleAnswer": "Het verhaal gaat over hoe je kunt leren omgaan met het verlies van je thuisland door je oude en nieuwe cultuur te combineren.",
+        "keyElements": [
+          "verlies verwerken/omgaan met heimwee",
+          "culturen combineren/verenigen",
+          "nieuwe identiteit/bruggen bouwen",
+          "resilience/doorzetten/groeien"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over Maya's hele reis: van verlies naar wat ze uiteindelijk heeft geleerd en bereikt."
+    },
+    {
+      "question": "Met welk doel heeft de schrijver dit verhaal geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver andere migrantenkinderen wil helpen of begrip wil kweken voor hun situatie. Het verhaal wil hoop geven dat integratie mogelijk is zonder je roots te verliezen.",
+        "exampleAnswer": "De schrijver wil andere kinderen die zijn verhuisd naar Nederland moed geven en laten zien dat je je eigen cultuur kunt behouden terwijl je ook deel wordt van je nieuwe land.",
+        "keyElements": [
+          "helpen/steun geven/moed geven",
+          "migrantenkinderen/expat kinderen",
+          "begrip kweken/bewustzijn",
+          "hoop/inspiratie"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over wie dit verhaal zou kunnen helpen en wat voor boodschap de schrijver wil overbrengen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stukken-van-thuis/image-1.png",
+      "alt": "Een meisje dat verdrietig naar foto's aan de muur kijkt in een leeg huis"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stukken-van-thuis/image-2.png",
+      "alt": "Maya die samen met andere kinderen traditioneel eten deelt tijdens een culturele avond op school"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sadly looking at family photos on the wall of an empty house with boxes packed around, children's book illustration style, warm nostalgic lighting",
+    "A diverse group of children at a school cultural evening, sharing traditional food and stories, with colorful decorations and happy expressions, children's book illustration style"
+  ]
+}

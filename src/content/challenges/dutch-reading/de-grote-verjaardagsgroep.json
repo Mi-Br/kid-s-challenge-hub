@@ -1,0 +1,82 @@
+{
+  "id": "de-grote-verjaardagsgroep",
+  "title": "De Grote Verjaardagsgroep",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Lisa was heel blij omdat ze eindelijk acht werd. Ze wilde een grote verjaardagsgroep geven in de speeltuin. Haar mama zei dat ze wel dertig kinderen mocht uitnodigen!\n\nOp haar verjaardag kwam iedereen tegelijk aan. De speeltuin werd erg rumoerig omdat alle kinderen door elkaar riepen en renden. Lisa voelde zich verdwaald tussen al die drukte. Ze zag haar beste vrienden Emma en Tim niet meer.\n\nLisa ging op een bankje zitten en begon te huilen. De rode ballon die ze vasthield, vloog weg in de wind. Ze keek hoe hij steeds kleiner werd aan de blauwe hemel. Toen kwam Emma naast haar zitten.\n\n\"Ik vond je niet meer,\" zei Emma zacht. \"Er zijn te veel kinderen hier.\" Lisa knikte omdat ze hetzelfde voelde. Tim kwam ook naar het bankje gelopen.\n\nVolgend jaar ga ik maar vijf vrienden uitnodigen, dacht Lisa. Dan kunnen we echt samen spelen en praten. De rode ballon was nu helemaal verdwenen, maar Lisa voelde zich niet meer verdrietig.",
+  "questions": [
+    {
+      "question": "Hoeveel kinderen mocht Lisa uitnodigen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dertig",
+        "wel dertig",
+        "30"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Hoeveel kinderen wil Lisa volgend jaar uitnodigen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "vijf",
+        "maar vijf",
+        "5"
+      ],
+      "hint": "Dit staat in de laatste alinea."
+    },
+    {
+      "question": "Waarom voelde Lisa zich verdwaald op haar feestje?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "veel",
+            "dertig",
+            "te veel"
+          ],
+          [
+            "kinderen",
+            "vrienden"
+          ],
+          [
+            "drukte",
+            "rumoerig",
+            "druk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde toen alle kinderen kwamen."
+    },
+    {
+      "question": "Wat betekent de rode ballon die wegvliegt in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "acceptableAnswers": [
+        "haar droevige gevoel",
+        "verdriet",
+        "dat ze verdrietig was"
+      ],
+      "hint": "Kijk naar wat Lisa voelt als de ballon wegvliegt en hoe ze zich daarna voelt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-grote-verjaardagsgroep/image-1.png",
+      "alt": "Lisa zit verdrietig op een bankje in de drukke speeltuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-grote-verjaardagsgroep/image-2.png",
+      "alt": "Een rode ballon vliegt weg in de blauwe hemel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sitting sadly on a bench in a busy playground filled with many children running around, children's book illustration style, Dutch playground setting",
+    "A red balloon floating away into a blue sky while a young girl watches from below, symbolizing letting go of sadness, children's book illustration style"
+  ]
+}

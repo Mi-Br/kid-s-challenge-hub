@@ -1,0 +1,125 @@
+{
+  "id": "het-geheim-van-de-oude-eik",
+  "title": "Het Geheim van de Oude Eik",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "natuur",
+  "text": "In het Vondelpark in Amsterdam stond een eeuwenoude eik die iedereen 'Wijze Willem' noemde. Lara en Finn, twee buurkinderen, hadden ruzie over deze bijzondere boom. Lara beweerde dat de eik magische krachten bezat omdat vogels er altijd nestelden en bloemen eromheen bloeiden. Finn lachte haar uit en zei dat dit gewoon natuur was, niets bijzonders.\n\nHun conflict werd steeds heftiger toen Finn dreigde de gemeente te vragen de boom om te zagen. \"Die oude eik neemt te veel ruimte in!\" riep hij boos. Lara werd woedend en schreeuwde terug: \"Jij begrijpt er niets van! Deze boom is heilig voor alle dieren hier!\"\n\nWeekenlang spraken ze niet meer met elkaar. Toen ontdekte Finn iets merkwaardigs: elke ochtend verzamelden zich tientallen vogels in de takken van Wijze Willem. Ze zongen een koor dat zo prachtig klonk dat voorbijgangers stilstonden om te luisteren. Ook zag hij hoe de wortels van de boom het regenwater opnamen, waardoor de grond rond andere planten vochtig bleef.\n\nFinn realiseerde zich dat Lara gelijk had gehad, maar op een andere manier dan zij dacht. De boom was inderdaad bijzonder, niet door magie, maar door zijn belangrijke rol in het ecosysteem. Hij zocht Lara op en bekende: \"Ik heb me vergist. Deze eik is echt waardevol voor het park.\"\n\nSamen bedachten ze een plan om de boom te beschermen. Ze maakten informatiebordjeschaartje met interessante feiten over oude bomen en hun bewoners. Nu leiden ze elke zaterdag rondleidingen door het park, waarbij ze bezoekers laten zien hoe wonderlijk de natuur in de stad kan zijn. Hun vriendschap werd sterker door hun gedeelde passie voor het behoud van groene ruimtes.",
+  "questions": [
+    {
+      "question": "Hoe noemden de mensen de eeuwenoude eik?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wijze willem"
+      ],
+      "hint": "Zoek naar de bijnaam van de boom in de eerste alinea."
+    },
+    {
+      "question": "Waarom werd het conflict tussen Lara en Finn steeds erger?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "dreigde",
+            "dreigen",
+            "wilde"
+          ],
+          [
+            "omzagen",
+            "wegzagen",
+            "weghalen",
+            "kappen"
+          ],
+          [
+            "gemeente",
+            "stad"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Finn wilde doen in de tweede alinea."
+    },
+    {
+      "question": "Wat ontdekte Finn over de vogels bij de boom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verzamelden",
+            "kwamen",
+            "vlogen"
+          ],
+          [
+            "zongen",
+            "koor",
+            "muziek",
+            "liedje",
+            "lied"
+          ],
+          [
+            "ochtend",
+            "elke ochtend",
+            "dagelijks"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over wat er elke ochtend gebeurde."
+    },
+    {
+      "question": "Vind je dat Lara en Finn een goede oplossing hebben gevonden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de oplossing van de kinderen en deze onderbouwen met argumenten uit de tekst of eigen redenering.",
+        "exampleAnswer": "Ja, het is een goede oplossing omdat ze nu andere mensen leren over de natuur en samen de boom beschermen.",
+        "keyElements": [
+          "mening geven",
+          "samenwerken/samen",
+          "anderen leren/voorlichting"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat ze samen gaan doen om de boom te beschermen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het oplossen van conflicten door naar elkaar te luisteren en samen te werken voor iets wat belangrijk is.",
+        "exampleAnswer": "Het verhaal gaat over twee kinderen die ruzie hebben maar uiteindelijk samen gaan werken om de natuur te beschermen.",
+        "keyElements": [
+          "conflict oplossen/ruzie bijleggen",
+          "samenwerken/samen",
+          "natuur beschermen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat er gebeurt met de vriendschap van Lara en Finn."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-oude-eik/image-1.png",
+      "alt": "Een grote oude eikenboom in een park met twee kinderen die ernaar kijken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-oude-eik/image-2.png",
+      "alt": "Vogels die zingen in de takken van een boom terwijl kinderen informatiebordjes ophangen"
+    }
+  ],
+  "imagePrompts": [
+    "A majestic old oak tree in Amsterdam's Vondelpark with two children looking up at it, birds nesting in branches, children's book illustration style, bright natural colors",
+    "Multiple birds singing in the branches of an old oak tree while two children work together putting up information signs around the tree, Dutch park setting, children's book illustration style"
+  ]
+}

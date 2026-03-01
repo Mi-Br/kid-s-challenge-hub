@@ -1,0 +1,104 @@
+{
+  "id": "de-pizzabakker",
+  "title": "De Pizzabakker",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "beroepen",
+  "text": "Mira werkte in het weekend bij pizzarestaurant Da Mario. Ze bracht de pizza's naar de klanten omdat ze goed was in Nederlands, Turks en Italiaans spreken. Eerst vond ze het leuk werk.\n\nOp zaterdagavond zag Mira dat de eigenaar, meneer Paolo, altijd boos werd tegen Ahmed. Ahmed was de pizzabakker en maakte de lekkerste pizza's van heel Amsterdam. \"Je bent te langzaam!\" riep Paolo. \"In Italië werken we sneller!\" Ahmed zei niets terug, maar Mira zag dat hij verdrietig keek.\n\nDaarna gebeurde het nog vaker. Paolo riep tegen Ahmed: \"Jouw pizza's zijn niet goed genoeg!\" Maar Mira wist dat dit niet waar was. De klanten zeiden altijd: \"Wat een heerlijke pizza! Wie heeft deze gemaakt?\" Mira wilde iets zeggen, maar ze was bang dat Paolo haar ook zou wegsturen.\n\nOp vrijdagavond was het restaurant vol met mensen. Ahmed maakte pizza na pizza, maar Paolo bleef schreeuwen. \"Je moet sneller werken!\" Een klant aan tafel zeven vroeg aan Mira: \"Waarom is die man zo gemeen tegen de pizzabakker?\" Toen begreep Mira dat andere mensen het ook zagen.\n\nMira ademde diep in en liep naar Paolo. \"Meneer Paolo,\" zei ze. \"Ahmed maakt de beste pizza's en werkt heel hard. De klanten zijn altijd blij met zijn werk. Waarom bent u boos op hem?\" Paolo keek verbaasd. Hij had niet verwacht dat Mira iets zou zeggen.\n\n\"Eh... ik wil alleen dat het restaurant goed loopt,\" mompelde Paolo. Ahmed keek naar Mira en glimlachte dankbaar. Vanaf die dag was Paolo vriendelijker tegen Ahmed, en het restaurant werd nog populairder omdat iedereen zich er welkom voelde.",
+  "questions": [
+    {
+      "question": "Welke talen spreekt Mira?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "nederlands, turks en italiaans"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom werd Paolo boos op Ahmed?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "langzaam",
+            "te langzaam",
+            "sneller"
+          ],
+          [
+            "werken",
+            "werk",
+            "werkte"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Paolo tegen Ahmed riep."
+    },
+    {
+      "question": "Waarom durfde Mira eerst niets te zeggen tegen Paolo?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "durfde niet"
+          ],
+          [
+            "wegsturen",
+            "weggestuurd",
+            "wegsturen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog een keer."
+    },
+    {
+      "question": "Vind je dat Mira het goede deed door tegen Paolo te praten? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "belangrijk"
+          ],
+          [
+            "helpen",
+            "geholpen",
+            "verdedigen",
+            "opkomen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde nadat Mira sprak."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-pizzabakker/image-1.png",
+      "alt": "Ahmed de pizzabakker maakt pizza's terwijl Paolo boos naar hem kijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-pizzabakker/image-2.png",
+      "alt": "Mira praat moedig tegen Paolo terwijl Ahmed dankbaar kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young Turkish man making pizzas in a busy restaurant kitchen while an angry Italian restaurant owner watches him, children's book illustration style with warm colors",
+    "A teenage girl with dark hair speaking confidently to the restaurant owner while the pizza baker looks on gratefully, children's book illustration style showing courage and friendship"
+  ]
+}

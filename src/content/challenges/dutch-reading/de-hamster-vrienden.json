@@ -1,0 +1,116 @@
+{
+  "id": "de-hamster-vrienden",
+  "title": "De Hamster Vrienden",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "huisdieren",
+  "text": "Lotte was dol op haar hamster Pluisje. Elke dag na school rende ze naar zijn kooi om hem te voeren en te knuffelen. Pluisje had zachte, grijze vacht en kleine kraaloogjes die altijd nieuwsgierig rondkeken. \"Hij is de allerliefste hamster van de wereld,\" vertelde Lotte vaak aan haar beste vriendin Emma.\n\nEmma was het daar niet mee eens. Zij had namelijk ook een hamster, genaamd Snuffel. \"Snuffel is veel slimmer dan Pluisje,\" beweerde Emma tijdens de pauze. \"Gisteren heeft hij zelfs zijn kooideur opengemaakt!\" Lotte fronste haar wenkbrauwen. \"Dat kan helemaal niet. Hamsters kunnen geen deuren openmaken.\"\n\nDe ruzie escaleerde toen Emma voorstelde om een wedstrijd te organiseren. \"We laten onze hamsters een parcours lopen,\" zei ze. \"Dan zien we wie de beste hamster heeft.\" Lotte aarzelde, maar stemde uiteindelijk toe omdat ze zeker wist dat Pluisje zou winnen.\n\nDe volgende dag bouwden de meisjes een ingewikkeld parcours in Emma's tuin. Er waren tunnels van karton, kleine obstakels en een finish bij de voerbak. Eerst mocht Snuffel. Hij rende enthousiast door de tunnels, maar raakte verdwaald bij het derde obstakel. Pluisje deed het ook niet perfect - hij stopte halverwege om zijn vacht schoon te likken.\n\n\"Dit werkt niet,\" mompelde Lotte teleurgesteld. Emma knikte bedachtzaam. \"Misschien zijn onze hamsters gewoon... anders,\" zei ze voorzichtig. Opeens besefte Lotte dat Emma gelijk had. \"Snuffel is inderdaad avontuurlijk,\" gaf ze toe. \"En Pluisje is heel rustig en lief.\"\n\nDie middag besloten de vriendinnen om hun hamsters samen te laten spelen in een grote, veilige speelruimte. Tot hun verbazing werden Snuffel en Pluisje meteen vrienden. Snuffel leidde Pluisje rond door het speelgebied, terwijl Pluisje Snuffel leerde hoe hij zijn vacht het beste kon poetsen. \"Kijk!\" riep Emma uit. \"Ze vullen elkaar aan, net als wij.\"\n\nVanaf dat moment organiseerden Lotte en Emma elke week speelafspraakjes voor hun hamsters. Ze leerden dat vriendschap niet gaat om wie de beste is, maar om elkaars verschillen waarderen. Hun hamsters hadden hen de mooiste les geleerd.",
+  "questions": [
+    {
+      "question": "Welke kleur vacht heeft Pluisje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "grijs",
+        "grijze"
+      ],
+      "hint": "Kijk naar de beschrijving van Pluisje in de eerste alinea."
+    },
+    {
+      "question": "Waarom wilde Emma een wedstrijd organiseren tussen de hamsters?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bewijzen",
+            "laten zien",
+            "tonen"
+          ],
+          [
+            "beste",
+            "slimmer",
+            "beter",
+            "winnaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma beweerde over haar hamster Snuffel."
+    },
+    {
+      "question": "Hoe veranderden de gevoelens van Lotte en Emma tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ruzie",
+            "ruziën",
+            "onenigheid",
+            "conflict"
+          ],
+          [
+            "vrienden",
+            "vriendschap",
+            "vriendelijk",
+            "samen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe ze zich aan het begin en aan het einde van het verhaal gedroegen."
+    },
+    {
+      "question": "Vind je dat de meisjes de juiste beslissing namen om te stoppen met de wedstrijd? Leg je mening uit.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee) en dit onderbouwen met argumenten uit de tekst of eigen ervaringen. Acceptabel: wedstrijd was niet eerlijk, hamsters zijn verschillend, vriendschap belangrijker dan winnen.",
+        "exampleAnswer": "Ja, want elke hamster is anders en het gaat niet om wie de beste is maar om vriendschap.",
+        "keyElements": [
+          "mening/ja/nee",
+          "vriendschap/samen/verschillend"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de meisjes leerden over vriendschap en verschillen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het waarderen van verschillen in vriendschap, dat vriendschap niet gaat om wie de beste is maar om elkaar accepteren zoals je bent.",
+        "exampleAnswer": "Het verhaal gaat over vriendschap en dat je elkaars verschillen moet waarderen in plaats van ruziemaken over wie de beste is.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "verschillen/anders",
+          "waarderen/accepteren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over de belangrijkste les die Lotte en Emma leerden."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-hamster-vrienden/image-1.png",
+      "alt": "Twee meisjes kijken naar hun hamsters die samen spelen in een speelruimte"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-hamster-vrienden/image-2.png",
+      "alt": "Een grijze hamster en een andere hamster lopen door een parcours met tunnels en obstakels"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch girls watching their hamsters playing together in a safe play area, children's book illustration style, bright and cheerful colors",
+    "Two cute hamsters running through an obstacle course made of cardboard tunnels and small obstacles in a garden, children's book illustration style"
+  ]
+}

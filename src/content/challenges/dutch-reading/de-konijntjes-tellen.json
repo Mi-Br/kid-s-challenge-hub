@@ -1,0 +1,72 @@
+{
+  "id": "de-konijntjes-tellen",
+  "title": "De Konijntjes Tellen",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "natuur",
+  "text": "Juf Anna vraagt Lotte om de konijntjes in het park te tellen. Er zijn veel konijntjes bij de vijver. Lotte krijgt een blaadje en een pen.\n\nLotte begint te tellen. Ze ziet zeven witte konijntjes. Ze ziet ook drie grijze konijntjes. De konijntjes eten gras onder de grote boom. Lotte schrijft alles op het blaadje.\n\nDan ziet Lotte haar vriendin Emma. Emma roept: \"Kom je spelen?\" Lotte kijkt naar de konijntjes. Ze kijkt naar Emma. Ze moet kiezen.\n\nLotte zegt tegen Emma: \"Ik moet eerst de konijntjes tellen. Juf Anna rekent op mij.\" Emma begrijpt het. Ze helpt Lotte met tellen. Samen tellen ze alle konijntjes. Er zijn tien konijntjes in totaal.\n\nJuf Anna is blij met Lotte. \"Je hebt je taak goed gedaan,\" zegt ze. Lotte voelt zich trots. Ze heeft haar verantwoordelijkheid genomen.",
+  "questions": [
+    {
+      "question": "Hoeveel witte konijntjes ziet Lotte?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zeven"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waar eten de konijntjes?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "onder de grote boom"
+      ],
+      "hint": "Zoek in de tweede alinea waar de konijntjes zijn."
+    },
+    {
+      "question": "Waarom wil Lotte niet meteen gaan spelen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "tellen",
+            "tel",
+            "geteld"
+          ],
+          [
+            "konijntjes",
+            "konijn",
+            "konijnen"
+          ],
+          [
+            "taak",
+            "werk",
+            "opdracht",
+            "klaar",
+            "eerst",
+            "verantwoordelijkheid"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lotte tegen Emma zegt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-konijntjes-tellen/image-1.png",
+      "alt": "Lotte telt konijntjes bij een vijver in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-konijntjes-tellen/image-2.png",
+      "alt": "Lotte en Emma tellen samen de konijntjes onder de boom"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl with a notebook counting white and grey rabbits near a pond in a park, children's book illustration style, sunny day with trees in background",
+    "Two young girls working together counting rabbits under a large tree, one pointing at rabbits while the other writes on paper, children's book illustration style, Dutch park setting"
+  ]
+}

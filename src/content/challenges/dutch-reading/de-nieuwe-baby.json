@@ -1,0 +1,96 @@
+{
+  "id": "de-nieuwe-baby",
+  "title": "De Nieuwe Baby",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Lena was heel blij toen mama zei dat er een baby kwam. Ze tekende plaatjes voor de babykamer en kocht een knuffel van haar spaargeld. Maar toen baby Tim er was, ging alles anders.\n\nTim huilde veel en mama was altijd moe. Papa had geen tijd om met Lena te spelen omdat hij mama hielp. Lena voelde zich verdrietig en vergeten. Ze werd boos op de baby.\n\nOp een dag huilde Tim heel hard. Mama probeerde hem te troosten maar niets werkte. Toen kreeg Lena een idee. Ze pakte haar oude muziekdoos en zette hem naast Tim aan. De zachte melodie maakte Tim rustig.\n\n'Wat slim van je, Lena!' zei mama trots. 'Tim houdt van jouw muziek.' Vanaf die dag zong Lena vaak liedjes voor Tim. Ze ontdekte dat een grote zus zijn eigenlijk heel leuk was.",
+  "questions": [
+    {
+      "question": "Wat kocht Lena van haar spaargeld?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een knuffel"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat deed Lena om Tim rustig te maken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze pakte haar oude muziekdoos",
+        "ze zette haar muziekdoos aan"
+      ],
+      "hint": "Lees wat Lena deed toen ze een idee kreeg."
+    },
+    {
+      "question": "Waarom voelde Lena zich verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vergeten",
+            "alleen",
+            "geen aandacht"
+          ],
+          [
+            "tijd",
+            "spelen",
+            "papa",
+            "mama",
+            "ouders"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er veranderde toen Tim er was."
+    },
+    {
+      "question": "Vind jij dat Lena een goede grote zus is? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "lief",
+            "aardig"
+          ],
+          [
+            "helpen",
+            "hielp",
+            "muziek",
+            "zingen",
+            "troost",
+            "troosten",
+            "rustig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat deed Lena om Tim te helpen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-baby/image-1.png",
+      "alt": "Lena tekent plaatjes voor de babykamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-baby/image-2.png",
+      "alt": "Lena zet haar muziekdoos aan voor baby Tim"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl drawing pictures at a table with crayons, preparing decorations for a baby room, children's book illustration style, warm lighting",
+    "A girl placing a small music box next to a crying baby in a crib, the baby becoming calm as musical notes float in the air, children's book illustration style, soft colors"
+  ]
+}

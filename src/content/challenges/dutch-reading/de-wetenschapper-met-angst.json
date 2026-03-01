@@ -1,0 +1,123 @@
+{
+  "id": "de-wetenschapper-met-angst",
+  "title": "De Wetenschapper met Angst",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "wetenschap",
+  "text": "Dr. Sarah van Dam was een bekende wetenschapper op de universiteit in Leiden. Ze had jarenlang onderzoek gedaan naar klimaatverandering en was gerespecteerd door haar collega's. Maar niemand wist dat Sarah elke ochtend met bonkend hart wakker werd.\n\nDe laatste maanden was het erger geworden. Voor belangrijke presentaties kreeg ze zweterige handen en begon ze te beven. \"Ik ben gewoon moe,\" zei ze tegen haar collega Prof. Jansen wanneer hij vroeg waarom ze zo stil was geworden. \"Het onderzoek is zwaar.\" Maar eigenlijk was Sarah bang dat iedereen zou ontdekken dat ze niet slim genoeg was.\n\nTijdens een belangrijk congres over klimaatonderzoek moest Sarah haar nieuwe ontdekking presenteren aan tweehonderd wetenschappers. De avond ervoor kon ze niet slapen. Haar gedachten tolden rond: \"Ze gaan mijn fouten vinden. Ik ben een bedrieger. Ik hoor hier niet.\" Ze overwoog om ziek te melden.\n\nDe volgende dag zag Prof. Jansen hoe Sarah bleek en trillerig was. \"Sarah,\" zei hij voorzichtig, \"je lijkt gestrest. Misschien is het nuttig om te praten met iemand die begrijpt hoe het is om in de wetenschap te werken.\" Sarah schudde eerst haar hoofd, maar toen realiseerde ze zich dat zelfs briljante wetenschappers hulp mochten vragen.\n\nNa het congres zocht Sarah hulp bij een psycholoog die gespecialiseerd was in werkdruk en faalangst. Ze leerde dat haar gevoelens normaal waren en dat veel succesvolle mensen hier last van hadden. Met behulp van ademhalingsoefeningen en gesprekken kreeg Sarah haar zelfvertrouwen terug en kon ze weer genieten van haar belangrijke wetenschappelijke werk.",
+  "questions": [
+    {
+      "question": "Waar deed Dr. Sarah van Dam onderzoek naar?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "klimaatverandering"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom zei Sarah tegen Prof. Jansen dat ze moe was, terwijl ze eigenlijk bang was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verbergen",
+            "verstoppen",
+            "geheim houden"
+          ],
+          [
+            "schamen",
+            "schaamte",
+            "genant"
+          ],
+          [
+            "zwak",
+            "zwakte",
+            "niet sterk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over waarom mensen soms niet eerlijk zijn over hun gevoelens."
+    },
+    {
+      "question": "Welke lichamelijke klachten kreeg Sarah door haar angst?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bonkend hart",
+            "hart",
+            "hartkloppingen"
+          ],
+          [
+            "zweterige handen",
+            "zweten",
+            "transpireren"
+          ],
+          [
+            "beven",
+            "trillen",
+            "trillerig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede en vierde alinea goed."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herkennen en aanpakken van mentale gezondheidsproblemen, en dat het normaal en verstandig is om hulp te zoeken.",
+        "exampleAnswer": "Het verhaal gaat erover dat zelfs succesvolle mensen mentale problemen kunnen hebben en dat het belangrijk is om hulp te zoeken.",
+        "keyElements": [
+          "hulp zoeken/vragen",
+          "mentale gezondheid/angst/stress",
+          "normaal/gewoon"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Sarah leert en wat de schrijver wil vertellen over mentale gezondheid."
+    },
+    {
+      "question": "Vind je dat Prof. Jansen goed heeft geholpen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Prof. Jansens handelen en dit onderbouwen met argumenten uit de tekst.",
+        "exampleAnswer": "Ja, hij heeft goed geholpen omdat hij Sarah niet heeft gedwongen maar voorzichtig een suggestie heeft gedaan.",
+        "keyElements": [
+          "goed/slecht geholpen",
+          "voorzichtig/respectvol",
+          "suggestie/advies"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over hoe Prof. Jansen Sarah benaderde en wat er daarna gebeurde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-wetenschapper-met-angst/image-1.png",
+      "alt": "Dr. Sarah van Dam staat nerveus voor een grote zaal vol wetenschappers"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-wetenschapper-met-angst/image-2.png",
+      "alt": "Sarah praat met een psycholoog in een rustige spreekkamer"
+    }
+  ],
+  "imagePrompts": [
+    "A nervous female scientist with blonde hair standing in front of a large auditorium filled with academics, she looks anxious and is holding research papers, children's book illustration style",
+    "A calm conversation between a female scientist and a professional therapist in a peaceful office setting with books and plants, children's book illustration style"
+  ]
+}

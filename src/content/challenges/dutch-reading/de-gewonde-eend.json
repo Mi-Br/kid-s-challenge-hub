@@ -1,0 +1,112 @@
+{
+  "id": "de-gewonde-eend",
+  "title": "De Gewonde Eend",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Lisa liep door het park toen ze een zachte piep hoorde. Onder de grote boom lag een eend met een beschadigde vleugel. Het dier keek bang naar haar.\n\n\"Ik durf niet,\" zei Lisa tegen zichzelf. \"Wat als hij me bijt?\" Maar de eend zag er zo zielig uit dat Lisa toch dichterbij ging. Voorzichtig stak ze haar hand uit.\n\nDe eend bewoog niet. Lisa pakte hem heel zacht op omdat zijn vleugel pijn deed. Ze droeg hem naar de dierenarts aan het eind van de straat.\n\n\"Dank je wel,\" zei de dierenarts. \"Over een week kan hij weer vliegen.\" Lisa was heel blij want ze had iets goeds gedaan. Ze was niet meer bang voor dieren.",
+  "questions": [
+    {
+      "question": "Waar lag de eend?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "onder de grote boom"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar lag de eend?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "onder de grote boom"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom was Lisa eerst bang?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig"
+          ],
+          [
+            "bijten",
+            "bijt",
+            "pijn doen",
+            "zeer doen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa zei tegen zichzelf."
+    },
+    {
+      "question": "Hoe voelde Lisa zich aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "gelukkig",
+            "tevreden",
+            "trots"
+          ],
+          [
+            "goed",
+            "fijn",
+            "geholpen",
+            "gered"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal."
+    },
+    {
+      "question": "Wat betekent 'beschadigde' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk aan wat er mis was met de vleugel.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "kapotte"
+          ],
+          [
+            "gewonde"
+          ],
+          [
+            "pijn deed"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gewonde-eend/image-1.png",
+      "alt": "Een meisje dat voorzichtig naar een gewonde eend kijkt onder een boom"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gewonde-eend/image-2.png",
+      "alt": "Het meisje draagt de eend naar de dierenarts"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl carefully approaching an injured duck lying under a large tree in a Dutch park, children's book illustration style with soft colors and gentle atmosphere",
+    "The same girl gently carrying the injured duck to a veterinarian's office, showing care and determination, children's book illustration style with warm lighting"
+  ]
+}

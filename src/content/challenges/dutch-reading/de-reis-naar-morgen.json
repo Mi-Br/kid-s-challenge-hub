@@ -1,0 +1,127 @@
+{
+  "id": "de-reis-naar-morgen",
+  "title": "De Reis naar Morgen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "reizen",
+  "text": "Lara staarde naar de brochures die over haar bureau verspreid lagen. Over drie maanden zou ze achttien worden, en haar ouders verwachtten dat ze dan een keuze zou maken: studeren aan de universiteit of een tussenjaar nemen om te reizen. \"Je hebt alle tijd van de wereld,\" had haar vader gezegd, maar tegelijkertijd tikte hij ongeduldig met zijn vingers op tafel tijdens hun gesprekken.\n\nHaar moeder had andere zorgen. \"Toen ik achttien was, durfde ik niet alleen op reis,\" vertelde ze vaak. \"Ik ben altijd blijven twijfelen of ik wel de juiste keuze had gemaakt.\" Deze woorden bleven in Lara's hoofd hangen. Was dit waarom mama altijd zo bezorgd keek wanneer Lara plannen maakte? De angst om de verkeerde beslissing te nemen leek als een schaduw van generatie op generatie over te gaan.\n\nElke avond lag Lara wakker en stelde zich voor hoe het zou zijn om alleen door Azië te backpacken, zoals haar nicht Emma had gedaan. Maar dan hoorde ze weer haar moeders stem: \"Stel je voor dat er iets gebeurt.\" De onzekerheid knaagde aan haar, alsof er een zwaar gewicht op haar borst drukte. Ze wilde avontuur, maar tegelijkertijd maakte het onbekende haar bang.\n\nOp een regenachtige donderdagavond nam Lara eindelijk een besluit. Ze zou gaan reizen, ondanks alle angsten en twijfels. \"Misschien,\" dacht ze, terwijl ze haar eerste vliegticket boekte, \"is het niet erg om bang te zijn. Misschien is moed niet het ontbreken van angst, maar juist het handelen ondanks die angst.\" Ze kon niet voorspellen wat er zou gebeuren, maar dat was nu juist het mooie van een reis naar het onbekende.",
+  "questions": [
+    {
+      "question": "Waarom voelt Lara zich onder druk gezet, terwijl haar vader zegt dat ze alle tijd heeft?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat er tegenstrijdigheid is tussen de woorden van de vader ('alle tijd') en zijn gedrag (ongeduldig tikken). Dit laat zien dat nonverbale signalen soms belangrijker zijn dan woorden.",
+        "exampleAnswer": "Haar vader zegt wel dat ze tijd heeft, maar zijn ongeduldig tikken laat zien dat hij eigenlijk wel haast heeft en druk op haar legt.",
+        "keyElements": [
+          "tegenstrijdigheid/tegenstelling",
+          "ongeduldig tikken/gedrag",
+          "druk/spanning"
+        ],
+        "minWords": 6
+      },
+      "hint": "Let op het verschil tussen wat vader zegt en hoe hij zich gedraagt."
+    },
+    {
+      "question": "Hoe wordt in dit verhaal duidelijk dat angst van ouders kan overgaan op hun kinderen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de moeder haar eigen angsten en spijt doorgeeft aan Lara, en dat Lara hierdoor ook angstig wordt voor dezelfde dingen.",
+        "exampleAnswer": "De moeder vertelt over haar eigen twijfels toen ze jong was, en die zorgen gaan nu over op Lara die ook bang wordt om de verkeerde keuze te maken.",
+        "keyElements": [
+          "moeder/mama vertelt",
+          "eigen angsten/twijfels",
+          "overgaan/doorgeven"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk aan wat mama vertelt over haar eigen verleden en hoe dit Lara beïnvloedt."
+    },
+    {
+      "question": "Wat bedoelt de schrijver met de zin 'De angst om de verkeerde beslissing te nemen leek als een schaduw van generatie op generatie over te gaan'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat dit beeldspraak is die laat zien hoe negatieve patronen (angst, twijfel) binnen families doorgegeven worden, zoals een schaduw die mensen volgt.",
+        "exampleAnswer": "Het betekent dat angst en twijfel worden doorgegeven van ouders op kinderen, zoals een schaduw die je altijd volgt.",
+        "keyElements": [
+          "doorgeven/overdragen",
+          "van ouders op kinderen/families",
+          "negatieve patronen/angst"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat een schaduw doet en hoe dit lijkt op wat er in families gebeurt."
+    },
+    {
+      "question": "Beoordeel Lara's uiteindelijke beslissing. Vind je dat ze de juiste keuze maakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening geven over Lara's beslissing en deze onderbouwen met argumenten uit de tekst. Zowel positieve als negatieve beoordelingen zijn acceptabel als ze goed beredeneerd zijn.",
+        "exampleAnswer": "Ik vind het goed dat ze toch gaat reizen omdat ze leert dat moed betekent dat je iets doet ondanks je angst, en zo doorbreekt ze het patroon van haar moeder.",
+        "keyElements": [
+          "eigen mening",
+          "onderbouwing/argumenten",
+          "moed/angst/patroon doorbreken"
+        ],
+        "minWords": 8
+      },
+      "hint": "Geef je eigen mening en gebruik voorbeelden uit de tekst om je antwoord te onderbouwen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het overwinnen van angst voor het onbekende, het doorbreken van negatieve familiepatronen, of het leren dat moed niet betekent dat je geen angst hebt.",
+        "exampleAnswer": "Het verhaal gaat erover dat je soms moet handelen ondanks je angsten om je eigen weg te vinden en niet vast te zitten in de angsten van je ouders.",
+        "keyElements": [
+          "overwinnen van angst/moed",
+          "eigen keuzes maken",
+          "doorbreken patronen/familieangsten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Lara leert aan het einde van het verhaal."
+    },
+    {
+      "question": "Waarom eindigt de schrijver met de woorden 'een reis naar het onbekende'? Wat wil hij daarmee bereiken?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver hiermee benadrukt dat het leven zelf een reis naar het onbekende is, en dat dit zowel eng als mooi kan zijn. Het sluit aan bij het thema van moed tonen ondanks onzekerheid.",
+        "exampleAnswer": "De schrijver wil laten zien dat het leven altijd onzeker is, maar dat dit juist mooi kan zijn als je de moed hebt om ervoor te kiezen.",
+        "keyElements": [
+          "leven is onzeker/onbekend",
+          "moed tonen",
+          "onzekerheid kan mooi zijn"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk aan hoe deze laatste woorden aansluiten bij het thema van het hele verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-reis-naar-morgen/image-1.png",
+      "alt": "Een meisje zit aan een bureau met reisbrochures en kijkt peinzend uit het raam"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-reis-naar-morgen/image-2.png",
+      "alt": "Een meisje boekt een vliegticket op haar laptop terwijl het regent buiten"
+    }
+  ],
+  "imagePrompts": [
+    "A thoughtful teenage girl sitting at a desk covered with travel brochures, looking out a window with a worried expression, children's book illustration style",
+    "A determined teenage girl booking a flight ticket on her laptop on a rainy evening, with travel brochures scattered around, children's book illustration style"
+  ]
+}

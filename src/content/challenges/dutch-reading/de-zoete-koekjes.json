@@ -1,0 +1,63 @@
+{
+  "id": "de-zoete-koekjes",
+  "title": "De Zoete Koekjes",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "eten",
+  "text": "Emma wil koekjes maken. Ze haalt meel en boter. Ze doet veel suiker in de kom. Veel te veel suiker!\n\nEmma maakt het deeg. Ze maakt ronde koekjes. Ze legt de koekjes in de oven. Na tien minuten zijn ze klaar.\n\nEmma proeft een koekje. Het is veel te zoet! Mama proeft ook. \"Te veel suiker,\" zegt mama. Emma is verdrietig.\n\nDe volgende dag maken Emma en mama nieuwe koekjes. Nu gebruikt Emma weinig suiker. De koekjes zijn perfect! Emma is blij.",
+  "questions": [
+    {
+      "question": "Wat haalt Emma eerst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "meel en boter"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Hoe lang staan de koekjes in de oven?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "tien minuten"
+      ],
+      "hint": "Zoek in de tweede alinea."
+    },
+    {
+      "question": "Waarom zijn de eerste koekjes niet lekker?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "veel",
+            "te veel"
+          ],
+          [
+            "suiker",
+            "zoet",
+            "te zoet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma verkeerd deed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-zoete-koekjes/image-1.png",
+      "alt": "Emma maakt koekjes in de keuken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-zoete-koekjes/image-2.png",
+      "alt": "Emma en mama maken samen nieuwe koekjes"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Emma in a bright kitchen making cookies, flour and butter on the counter, putting too much sugar in a mixing bowl, children's book illustration style",
+    "Emma and her mother happily baking cookies together the next day, using the right amount of ingredients, both smiling in a cozy Dutch kitchen, children's book illustration style"
+  ]
+}

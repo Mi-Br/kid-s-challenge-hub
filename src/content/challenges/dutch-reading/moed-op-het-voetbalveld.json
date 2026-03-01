@@ -1,0 +1,65 @@
+{
+  "id": "moed-op-het-voetbalveld",
+  "title": "Moed op het voetbalveld",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "sport",
+  "text": "Lisa speelde graag voetbal in het park. Ze was nog niet zo goed, maar ze vond het leuk. Elke zaterdag kwam ze naar de training.\n\nVandaag was er een wedstrijd. Lisa zag dat de grote jongens gemeen deden tegen kleine kinderen. Ze riepen lelijke woorden en duwden hard. Lisa vond dit niet leuk. Maar ze durfde niets te zeggen.\n\nDe trainer was er niet. Lisa keek naar de kleine kinderen. Ze zagen er verdrietig uit. Lisa dacht na. Dit was niet eerlijk.\n\nLisa liep naar de grote jongens. \"Stop daarmee,\" zei ze. \"Dat is niet leuk voor de kleintjes.\" De grote jongens keken verbaasd. Ze stopten met duwen.\n\nDe kleine kinderen begonnen weer te lachen. Ze bedankten Lisa. Lisa voelde zich trots. Ze had het goede gedaan.",
+  "questions": [
+    {
+      "question": "Waar speelde Lisa voetbal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in het park"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wanneer kwam Lisa naar de training?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "elke zaterdag"
+      ],
+      "hint": "Lees het einde van de eerste alinea."
+    },
+    {
+      "question": "Waarom durfde Lisa eerst niets te zeggen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "durfde niet",
+            "schrik"
+          ],
+          [
+            "grote",
+            "groter",
+            "groot"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Lisa zich voelde bij de grote jongens."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/moed-op-het-voetbalveld/image-1.png",
+      "alt": "Lisa die voetbal speelt in het park met andere kinderen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/moed-op-het-voetbalveld/image-2.png",
+      "alt": "Lisa die tegen de grote jongens praat terwijl kleine kinderen toekijken"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa playing football in a Dutch park with other children, children's book illustration style, bright and cheerful atmosphere",
+    "Lisa standing up to bigger boys who were being mean to smaller children on a football field, children's book illustration style, showing courage and determination"
+  ]
+}

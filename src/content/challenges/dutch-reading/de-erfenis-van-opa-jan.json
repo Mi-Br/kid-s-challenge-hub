@@ -1,0 +1,135 @@
+{
+  "id": "de-erfenis-van-opa-jan",
+  "title": "De Erfenis van Opa Jan",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Yasmin zat op de zolder van haar Nederlandse opa Jan. Tussen stoffige dozen vond ze een oud dagboek uit 1944. Op dezelfde dag ontdekte haar buurjongen Thijs op zijn eigen zolder brieven van zijn overgrootopa uit Indonesië.\n\nYasmin las hoe opa Jan als jongen hongerwinter had meegemaakt. Hij schreef over tulpenbollen die hij at omdat er geen eten was. Intussen las Thijs brieven waarin zijn overgrootapa vertelde over het leven in het toenmalige Nederlands-Indië. Beide jongens hadden heimwee naar Holland.\n\nDie avond spraken Yasmin en Thijs over hun ontdekkingen. Yasmin begreep waarom opa Jan altijd zei: 'Verspil nooit eten.' Thijs begreep waarom zijn familie zoveel Nederlandse tradities koesterde. Ze realiseerden zich dat hun families verschillende verhalen hadden, maar dezelfde liefde voor Nederland.\n\nSamen besloten ze een schoolproject te maken over hun familiegeschiedenis. Ze wilden laten zien hoe Nederlandse geschiedenis niet één verhaal is, maar vele verhalen die samen het land vormen. Hun leraar was enthousiast over het idee.\n\nTijdens hun presentatie vertelden ze hoe oorlog en vrede, honger en overvloed, vertrek en thuiskomst allemaal deel uitmaken van Nederlandse geschiedenis. Hun klasgenoten herkenden hun eigen familieverhalen in de presentatie. Yasmin en Thijs begrepen dat hun verschillende achtergronden hen niet scheidden, maar juist verbonden met de rijke geschiedenis van Nederland.",
+  "questions": [
+    {
+      "question": "Welk jaar stond er in het dagboek van opa Jan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "1944"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom zei opa Jan altijd 'Verspil nooit eten'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hongerwinter",
+            "honger",
+            "hongerde"
+          ],
+          [
+            "oorlog",
+            "oorlogstijd"
+          ],
+          [
+            "weinig",
+            "geen",
+            "nauwelijks"
+          ],
+          [
+            "eten",
+            "voedsel",
+            "voeding"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat opa Jan als jongen heeft meegemaakt."
+    },
+    {
+      "question": "Wat realiseerden Yasmin en Thijs zich over hun families?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verschillende",
+            "andere",
+            "andere",
+            "anders"
+          ],
+          [
+            "verhalen",
+            "verhaal",
+            "geschiedenis"
+          ],
+          [
+            "liefde",
+            "liefhebben",
+            "houden",
+            "koesterden"
+          ],
+          [
+            "nederland",
+            "nederlands",
+            "holland"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog eens goed."
+    },
+    {
+      "question": "Vind je het een goed idee dat Yasmin en Thijs samen een project maakten? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over het samenwerken en dit onderbouwen met argumenten uit de tekst of eigen ervaring. Positieve argumenten kunnen zijn: verschillende perspectieven, leren van elkaar, verbinding maken. Negatieve argumenten kunnen zijn: te ingewikkeld, verschillende verhalen. De mening moet onderbouwd zijn.",
+        "exampleAnswer": "Ja, het is een goed idee omdat ze van elkaar kunnen leren en samen een completer verhaal kunnen vertellen over Nederlandse geschiedenis.",
+        "keyElements": [
+          "mening/vind/denk",
+          "onderbouwing/omdat/want",
+          "samenwerken/samen/beiden"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over de voordelen of nadelen van hun samenwerking."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe verschillende familiegeschiedenissen samen de Nederlandse geschiedenis vormen, of hoe verschillende achtergronden mensen kunnen verbinden in plaats van scheiden.",
+        "exampleAnswer": "Het verhaal gaat erover dat Nederlandse geschiedenis uit vele verschillende verhalen bestaat die samen het land vormen.",
+        "keyElements": [
+          "verschillende/vele",
+          "verhalen/geschiedenis",
+          "samen/verbinden",
+          "nederland/nederlands"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat wilden Yasmin en Thijs laten zien met hun project?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-erfenis-van-opa-jan/image-1.png",
+      "alt": "Yasmin en Thijs zitten tussen oude dozen op zolder met dagboeken en brieven"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-erfenis-van-opa-jan/image-2.png",
+      "alt": "Yasmin en Thijs geven hun presentatie voor de klas over Nederlandse geschiedenis"
+    }
+  ],
+  "imagePrompts": [
+    "Two children sitting on a dusty attic floor surrounded by old boxes, reading vintage letters and diaries, warm sunlight streaming through a small window, children's book illustration style",
+    "Two diverse children presenting to their classroom, showing old photos and documents on a board, classmates listening attentively, school setting, children's book illustration style"
+  ]
+}

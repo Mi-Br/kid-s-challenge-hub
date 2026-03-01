@@ -1,0 +1,138 @@
+{
+  "id": "de-keuze-van-anna",
+  "title": "De Keuze van Anna",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "cultuur",
+  "text": "Anna staarde naar het aanmeldingsformulier op haar bureau. Over twee weken moest ze een keuze maken tussen het conservatorium en de normale middelbare school. Haar ouders hadden haar al jaren gesteund met vioolles, maar ze wisten ook hoe moeilijk het leven van een muzikant kon zijn.\n\n'Je hebt talent,' had haar lerares gezegd. 'Maar het conservatorium vraagt alles van je. Geen gewone schoolvrienden, geen tijd voor andere hobby's.' Anna's handen trilden een beetje terwijl ze het formulier vastield. Ze dacht aan haar vriendin Marta, die vorig jaar naar het conservatorium was gegaan. Marta had haar verteld dat ze soms huilde van vermoeidheid na uren oefenen.\n\nToch kon Anna zich geen leven zonder muziek voorstellen. Elke keer dat ze haar viool vastpakte, voelde ze zich compleet. De klanken die uit het instrument kwamen, leken haar gedachten en gevoelens uit te drukken op een manier die woorden nooit konden.\n\nDie avond had Anna een lang gesprek met haar ouders. 'We steunen je wat je ook kiest,' zei haar moeder. 'Maar je moet eerlijk tegen jezelf zijn over wat je wilt bereiken.' Haar vader knikte instemmend. 'Het wordt geen makkelijke weg, maar als muziek je passie is, dan moet je die kans pakken.'\n\nAnna keek nog een keer naar het formulier. Ze wist dat ze niet kon voorspellen wat de toekomst zou brengen. Misschien zou ze het zwaar krijgen, misschien zou ze spijt krijgen. Maar ze realiseerde zich ook dat ze altijd zou blijven afvragen 'wat als' wanneer ze deze kans voorbij liet gaan. Met een diepe ademteug pakte ze haar pen en vulde het aanmeldingsformulier in voor het conservatorium.",
+  "questions": [
+    {
+      "question": "Hoeveel tijd heeft Anna om een keuze te maken?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "twee"
+          ],
+          [
+            "weken"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom voelt Anna zich compleet wanneer ze viool speelt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "klanken",
+            "muziek",
+            "geluid"
+          ],
+          [
+            "gedachten",
+            "gevoelens",
+            "emoties"
+          ],
+          [
+            "uitdrukken",
+            "uiten",
+            "laten horen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees in de derde alinea wat er gebeurt als Anna viool speelt."
+    },
+    {
+      "question": "Wat bedoelt Anna's vader met 'het wordt geen makkelijke weg'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "moeilijk",
+            "zwaar",
+            "lastig",
+            "hard"
+          ],
+          [
+            "conservatorium",
+            "muziek",
+            "opleiding"
+          ],
+          [
+            "studie",
+            "studeren",
+            "leren",
+            "oefenen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er eerder in het verhaal werd gezegd over het conservatorium."
+    },
+    {
+      "question": "Vind je dat Anna de juiste beslissing heeft genomen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Anna's keuze en deze onderbouwen met argumenten uit de tekst of eigen redenering. Zowel een positief als negatief oordeel kan correct zijn als het goed wordt uitgelegd.",
+        "exampleAnswer": "Ja, Anna heeft de juiste keuze gemaakt omdat muziek haar passie is en ze anders altijd zou afvragen wat er had kunnen gebeuren.",
+        "keyElements": [
+          "mening/oordeel",
+          "onderbouwing/uitleg",
+          "passie/talent/gevoel",
+          "kans/mogelijkheid"
+        ],
+        "minWords": 6
+      },
+      "hint": "Geef je eigen mening en gebruik voorbeelden uit het verhaal om je antwoord te onderbouwen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het maken van moeilijke keuzes over je toekomst, ook al weet je niet zeker wat er gaat gebeuren. Het gaat om moed hebben om je dromen na te jagen ondanks onzekerheid.",
+        "exampleAnswer": "Het verhaal gaat over het maken van belangrijke keuzes voor je toekomst, ook al ben je bang en weet je niet zeker wat er gebeurt.",
+        "keyElements": [
+          "keuzes maken/beslissing nemen",
+          "toekomst/dromen",
+          "onzekerheid/niet weten",
+          "moed/durven"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Anna moet leren en wat de schrijver ons wil vertellen over het maken van moeilijke keuzes."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-anna/image-1.png",
+      "alt": "Anna zit aan haar bureau en kijkt naar een aanmeldingsformulier, met een viool op de achtergrond"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-keuze-van-anna/image-2.png",
+      "alt": "Anna vult het formulier in met een pen terwijl haar ouders naast haar staan"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting at a desk looking thoughtfully at application forms, with a violin visible in the background, children's book illustration style, warm lighting in a Dutch home interior",
+    "The same teenage girl confidently filling out an application form with a pen while her supportive parents stand nearby, children's book illustration style, evening scene in a cozy Dutch living room"
+  ]
+}

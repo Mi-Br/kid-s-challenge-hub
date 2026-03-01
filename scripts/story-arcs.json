@@ -1,0 +1,320 @@
+{
+  "groep4-5": [
+    {
+      "id": "lost_and_found",
+      "name": "Lost & Found",
+      "structure": [
+        "Character has or uses something important",
+        "Item goes missing and character becomes upset",
+        "Character searches in multiple places",
+        "Item is found or character learns it's not important"
+      ],
+      "emotional_arc": "content → distress → hope → relief/growth",
+      "description": "A child loses something meaningful and goes on a quest to find it, learning about persistence and accepting loss."
+    },
+    {
+      "id": "new_experience",
+      "name": "New Experience",
+      "structure": [
+        "Character encounters something completely new",
+        "Initial fear or confusion about the new thing",
+        "Character tries it and discovers unexpected joy",
+        "Character embraces the new experience"
+      ],
+      "emotional_arc": "fear → curiosity → delight → confidence",
+      "description": "A child tries something for the first time and discovers they enjoy it more than expected."
+    },
+    {
+      "id": "problem_solving",
+      "name": "Problem Solving",
+      "structure": [
+        "Character faces a practical problem",
+        "First attempt to solve it fails",
+        "Character tries a different approach",
+        "Problem is solved through persistence"
+      ],
+      "emotional_arc": "frustration → determination → success → pride",
+      "description": "A child encounters an obstacle and must think creatively to overcome it."
+    },
+    {
+      "id": "helping_others",
+      "name": "Helping Others",
+      "structure": [
+        "Character notices someone in need",
+        "Character decides to help despite difficulty",
+        "Character takes action to assist",
+        "Character sees positive impact of their help"
+      ],
+      "emotional_arc": "empathy → courage → action → joy",
+      "description": "A child helps someone and learns the satisfaction of making a difference."
+    },
+    {
+      "id": "learning_lesson",
+      "name": "Learning a Lesson",
+      "structure": [
+        "Character makes a mistake or poor choice",
+        "Character faces consequences of their action",
+        "Character reflects on what went wrong",
+        "Character makes better choices in future"
+      ],
+      "emotional_arc": "confidence → regret → reflection → wisdom",
+      "description": "A child learns from their mistakes through natural consequences."
+    },
+    {
+      "id": "overcoming_fear",
+      "name": "Overcoming Fear",
+      "structure": [
+        "Character is afraid of something specific",
+        "Character is encouraged to face the fear",
+        "Character confronts what frightens them",
+        "Character discovers fear was less scary than imagined"
+      ],
+      "emotional_arc": "fear → reluctance → courage → triumph",
+      "description": "A child conquers a personal fear and gains new confidence."
+    },
+    {
+      "id": "making_amends",
+      "name": "Making Amends",
+      "structure": [
+        "Character hurts or upsets someone",
+        "Character feels guilty about their action",
+        "Character apologizes and tries to make things right",
+        "Character and other person reconcile"
+      ],
+      "emotional_arc": "guilt → remorse → courage → relief",
+      "description": "A child learns to take responsibility and repair relationships."
+    }
+  ],
+  "groep5-6": [
+    {
+      "id": "conflict_resolution",
+      "name": "Conflict Resolution",
+      "structure": [
+        "Two characters have opposing needs or views",
+        "Conflict escalates due to miscommunication",
+        "Characters take time to understand each other",
+        "Characters find compromise or mutual understanding"
+      ],
+      "emotional_arc": "anger → frustration → understanding → cooperation",
+      "description": "Children learn to resolve disagreements through communication and empathy."
+    },
+    {
+      "id": "mystery_solving",
+      "name": "Mystery Solving",
+      "structure": [
+        "Something puzzling or mysterious occurs",
+        "Character gathers clues and investigates",
+        "False leads distract from the solution",
+        "Mystery is solved through careful observation"
+      ],
+      "emotional_arc": "curiosity → confusion → determination → satisfaction",
+      "description": "A child becomes a detective and uses logic to solve a puzzle."
+    },
+    {
+      "id": "responsibility_test",
+      "name": "Responsibility Test",
+      "structure": [
+        "Character is given responsibility for something important",
+        "Character is tempted to neglect the responsibility",
+        "Character must choose between easy and right path",
+        "Character proves their trustworthiness"
+      ],
+      "emotional_arc": "pride → temptation → conscience → maturity",
+      "description": "A child demonstrates they can be trusted with something important."
+    },
+    {
+      "id": "friendship_challenge",
+      "name": "Friendship Challenge",
+      "structure": [
+        "Friendship is tested by external pressure or misunderstanding",
+        "Friends drift apart or argue",
+        "Both friends realize what they're losing",
+        "Friends work to strengthen their bond"
+      ],
+      "emotional_arc": "security → uncertainty → loss → renewal",
+      "description": "A child learns that good friendships require effort and communication."
+    },
+    {
+      "id": "discovering_talent",
+      "name": "Discovering Talent",
+      "structure": [
+        "Character tries something new or is encouraged to try",
+        "Character discovers unexpected ability",
+        "Character develops skill through practice",
+        "Character finds pride in their new talent"
+      ],
+      "emotional_arc": "uncertainty → discovery → determination → pride",
+      "description": "A child finds a hidden talent and pursues their passion."
+    },
+    {
+      "id": "accepting_difference",
+      "name": "Accepting Difference",
+      "structure": [
+        "Character meets someone very different from them",
+        "Character initially judges or misunderstands",
+        "Character looks beyond surface differences",
+        "Character appreciates what makes others unique"
+      ],
+      "emotional_arc": "bias → curiosity → understanding → appreciation",
+      "description": "A child learns to value people who are different from them."
+    },
+    {
+      "id": "standing_up",
+      "name": "Standing Up",
+      "structure": [
+        "Character witnesses something unjust",
+        "Character is afraid to speak up",
+        "Character finds courage to say something",
+        "Character's action helps create change"
+      ],
+      "emotional_arc": "discomfort → fear → courage → empowerment",
+      "description": "A child learns to stand up for what they believe is right."
+    }
+  ],
+  "groep7-8": [
+    {
+      "id": "moral_dilemma",
+      "name": "Moral Dilemma",
+      "structure": [
+        "Character faces choice between two values they hold",
+        "Both options have real consequences",
+        "Character must examine their beliefs carefully",
+        "Character makes decision and accepts consequences"
+      ],
+      "emotional_arc": "confusion → introspection → conviction → acceptance",
+      "description": "A teenager grapples with a complex ethical question without a clear right answer."
+    },
+    {
+      "id": "perspective_shift",
+      "name": "Perspective Shift",
+      "structure": [
+        "Character holds a strong belief about something",
+        "Character encounters evidence that challenges belief",
+        "Character resists the new information",
+        "Character comes to see issue from new angle"
+      ],
+      "emotional_arc": "certainty → doubt → resistance → growth",
+      "description": "A teenager's worldview expands as they encounter different perspectives."
+    },
+    {
+      "id": "environmental_impact",
+      "name": "Environmental Impact",
+      "structure": [
+        "Character witnesses environmental damage or depletion",
+        "Character learns about wider consequences",
+        "Character feels helplessness or anger",
+        "Character discovers ways to make positive impact"
+      ],
+      "emotional_arc": "naiveté → shock → despair → activation",
+      "description": "A teenager learns about environmental issues and finds ways to contribute."
+    },
+    {
+      "id": "media_literacy",
+      "name": "Media Literacy",
+      "structure": [
+        "Character encounters compelling media message",
+        "Character initially accepts information at face value",
+        "Character analyzes source and bias of information",
+        "Character learns to think critically about media"
+      ],
+      "emotional_arc": "trust → doubt → analysis → wisdom",
+      "description": "A teenager learns to question media and think critically about information."
+    },
+    {
+      "id": "identity_belonging",
+      "name": "Identity & Belonging",
+      "structure": [
+        "Character questions where they fit in and who they are",
+        "Character experiments with different identities",
+        "Character navigates conflict between different groups",
+        "Character develops authentic sense of self"
+      ],
+      "emotional_arc": "confusion → exploration → conflict → integration",
+      "description": "A teenager explores their identity and finds where they belong."
+    },
+    {
+      "id": "systemic_injustice",
+      "name": "Systemic Injustice",
+      "structure": [
+        "Character experiences or witnesses systemic unfairness",
+        "Character initially feels it's personal or isolated",
+        "Character recognizes larger pattern of injustice",
+        "Character considers their role in system and response"
+      ],
+      "emotional_arc": "shock → realization → anger → agency",
+      "description": "A teenager recognizes systemic problems beyond individual actions."
+    },
+    {
+      "id": "future_uncertainty",
+      "name": "Future Uncertainty",
+      "structure": [
+        "Character faces pressure to decide future path",
+        "Character experiences anxiety about unknown outcome",
+        "Character acknowledges fear while planning",
+        "Character commits to path with acceptance of uncertainty"
+      ],
+      "emotional_arc": "pressure → anxiety → reflection → acceptance",
+      "description": "A teenager navigates choices about their future with both hope and realism."
+    },
+    {
+      "id": "relationship_maturity",
+      "name": "Relationship Maturity",
+      "structure": [
+        "Character is in or beginning romantic relationship",
+        "Character navigates communication and boundaries",
+        "Character faces challenge requiring maturity",
+        "Character grows in understanding of healthy relationships"
+      ],
+      "emotional_arc": "excitement → complexity → challenge → growth",
+      "description": "A teenager learns what healthy relationships require beyond attraction."
+    },
+    {
+      "id": "mental_health_awareness",
+      "name": "Mental Health Awareness",
+      "structure": [
+        "Character or someone close experiences mental health challenge",
+        "Character initially doesn't recognize or understand it",
+        "Character learns about mental health realities",
+        "Character develops compassion and seeks help appropriately"
+      ],
+      "emotional_arc": "ignorance → awareness → compassion → action",
+      "description": "A teenager learns to recognize and support mental health needs."
+    },
+    {
+      "id": "privilege_awareness",
+      "name": "Privilege Awareness",
+      "structure": [
+        "Character realizes advantages they take for granted",
+        "Character feels guilt or defensiveness",
+        "Character resists becoming paralyzed by guilt",
+        "Character channels awareness into positive action"
+      ],
+      "emotional_arc": "blindness → shock → guilt → empowerment",
+      "description": "A teenager recognizes their privilege and decides how to use it responsibly."
+    },
+    {
+      "id": "cultural_identity",
+      "name": "Cultural Identity",
+      "structure": [
+        "Character navigates multiple cultural identities",
+        "Character feels pressure to choose or conform",
+        "Character explores what each culture means to them",
+        "Character integrates multiple parts of heritage"
+      ],
+      "emotional_arc": "pressure → conflict → reflection → integration",
+      "description": "A teenager honors multiple parts of their cultural heritage."
+    },
+    {
+      "id": "resilience_adversity",
+      "name": "Resilience & Adversity",
+      "structure": [
+        "Character faces significant hardship or loss",
+        "Character experiences grief, despair, or anger",
+        "Character finds small reasons to continue",
+        "Character discovers inner strength and support systems"
+      ],
+      "emotional_arc": "devastation → despair → hope → resilience",
+      "description": "A teenager discovers their capacity to endure and eventually transcend difficulty."
+    }
+  ]
+}

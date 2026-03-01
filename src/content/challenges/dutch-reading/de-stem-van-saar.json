@@ -1,0 +1,134 @@
+{
+  "id": "de-stem-van-saar",
+  "title": "De Stem van Saar",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "beroepen",
+  "text": "Het was al donker toen Saar thuiskwam van de tandartspraktijk waar haar moeder werkt. Ze had daar haar huiswerk gemaakt omdat mama weer extra lang moest werken. Saar vond het niet erg, want ze mocht altijd op de grote stoel zitten en de tandheelkundige instrumenten bekijken.\n\nVandaag was er echter iets vreemds gebeurd. Meneer Van Dijk, de hoofdtandarts, was boos geworden tegen mama. Hij had geschreeuwd dat ze te langzaam werkte, hoewel Saar wist dat mama juist heel zorgvuldig was. Ze controleerde altijd alles twee keer omdat ze wilde dat de patiënten de beste zorg kregen.\n\n\"Mama,\" zei Saar later tijdens het avondeten, \"waarom liet je meneer Van Dijk zo tegen je praten?\" Haar moeder zuchtte diep. \"Volwassenen hebben soms ingewikkelde problemen, lieverd. Mijn baas heeft veel stress omdat de praktijk niet genoeg geld verdient.\"\n\nMaar Saar begreep niet waarom dat betekende dat mama oneerlijk behandeld mocht worden. Ze had mama zien huilen toen ze dacht dat niemand keek. De volgende dag, toen meneer Van Dijk weer begon te mopperen, voelde Saar haar hart bonken. Wat als hij mama zou ontslaan? Wat als hij nog bozer werd?\n\nToch deed ze iets wat ze nooit eerder had gedaan. Ze liep naar meneer Van Dijk toe en zei met trillende stem: \"Mijn mama werkt heel hard en ze zorgt goed voor alle patiënten. U hoeft niet zo onaardig tegen haar te zijn.\" Eerst werd het doodstil in de praktijk. Toen glimlachte meneer Van Dijk - voor het eerst in weken - en knikte langzaam.\n\nDie avond vertelde mama dat haar baas had gezegd dat hij trots was op zo'n dappere dochter. \"Soms hebben volwassenen kinderen nodig om hen te herinneren aan wat belangrijk is,\" zei ze, terwijl ze Saar stevig knuffelde.",
+  "questions": [
+    {
+      "question": "Waar werkt Saars moeder?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in een tandartspraktijk",
+        "bij de tandartspraktijk",
+        "tandartspraktijk"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom was Saars hart aan het bonken toen meneer Van Dijk begon te mopperen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig",
+            "nerveus"
+          ],
+          [
+            "ontslaan",
+            "ontslag",
+            "wegsturen",
+            "kwijtraken",
+            "verliezen"
+          ],
+          [
+            "bozer",
+            "boos",
+            "nog bozer",
+            "woedend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Saar bang voor was."
+    },
+    {
+      "question": "Hoe veranderde de situatie nadat Saar tegen meneer Van Dijk sprak?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "glimlachte",
+            "glimlach",
+            "vriendelijk",
+            "aardig",
+            "beter"
+          ],
+          [
+            "trots",
+            "waardering",
+            "respect",
+            "bewondering"
+          ],
+          [
+            "verandering",
+            "anders",
+            "beter",
+            "positief"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat er gebeurde in de praktijk en wat mama's baas later zei."
+    },
+    {
+      "question": "Vind je dat Saar goed handelde door tegen meneer Van Dijk te spreken? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee) en deze onderbouwen met argumenten uit het verhaal, zoals dat Saar opkwam voor haar moeder, moed toonde, of dat kinderen soms volwassenen kunnen helpen.",
+        "exampleAnswer": "Ja, ik vind dat Saar goed handelde omdat ze opkwam voor haar moeder toen die oneerlijk behandeld werd. Ze was dapper ook al was ze bang.",
+        "keyElements": [
+          "mening ja/nee",
+          "opkomen/beschermen/verdedigen",
+          "moedig/dapper/eerlijk"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Saar deed en wat het resultaat was."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed tonen om op te komen voor wat juist is, ook al ben je nog maar een kind. Het gaat over dat kinderen soms volwassenen kunnen helpen door eerlijk te zijn.",
+        "exampleAnswer": "Het verhaal gaat erover dat je moed moet hebben om op te komen voor wat juist is, ook al ben je nog klein.",
+        "keyElements": [
+          "moed/dapper zijn",
+          "opkomen voor/verdedigen",
+          "juist/eerlijk",
+          "kinderen kunnen helpen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de belangrijkste boodschap die de schrijver wil overbrengen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-van-saar/image-1.png",
+      "alt": "Saar zit op een grote tandartsstoel en kijkt naar tandheelkundige instrumenten terwijl haar moeder werkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-van-saar/image-2.png",
+      "alt": "Saar staat dapper voor meneer Van Dijk en spreekt hem aan terwijl haar moeder op de achtergrond staat"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sitting in a large dental chair looking at dental instruments while her mother works in the background, children's book illustration style, warm lighting in a dental practice",
+    "A brave young girl standing up to speak to an adult man in a white dental coat while her mother watches from behind, children's book illustration style, dental office setting"
+  ]
+}

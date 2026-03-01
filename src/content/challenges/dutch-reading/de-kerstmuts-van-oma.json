@@ -1,0 +1,131 @@
+{
+  "id": "de-kerstmuts-van-oma",
+  "title": "De Kerstmuts van Oma",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Emma en Lisa waren al tien jaar beste vriendinnen. Elke Sinterklaas maakten ze samen surprises voor hun families, omdat ze allebei heel creatief waren. Dit jaar had Emma echter een probleem ontdekt: Lisa's oma woonde helemaal alleen en kreeg nooit een cadeautje met Sinterklaas.\n\n\"We moeten iets doen,\" zei Emma vastberaden. \"Het is niet eerlijk dat jouw oma altijd wordt vergeten tijdens de feestdagen.\" Lisa voelde zich ongemakkelijk. \"Mijn ouders zeggen dat we niet genoeg geld hebben voor extra cadeaus,\" mompelde ze. Emma begreep niet waarom Lisa zo afstandelijk deed over dit onderwerp.\n\nDe weken voor Sinterklaas werden de meisjes steeds stiller tegen elkaar. Emma dacht dat Lisa egoïstisch was omdat ze haar oma negeerde. Lisa schaamde zich voor haar arme familie en wilde niet dat Emma medelijden met haar had. Ze spraken elkaar nauwelijks meer, terwijl de Sinterklaasavond dichterbij kwam.\n\nOp 5 december ontdekte Emma dat Lisa stiekem elke dag na school naar haar oma ging om voor te lezen en thee te zetten. \"Ik geef haar mijn tijd in plaats van cadeaus,\" legde Lisa uit met tranen in haar ogen. \"Dat is veel waardevoller dan alle surprises van de wereld.\" Emma besefte dat echte vriendschap betekent dat je elkaar begrijpt, ook al zijn jullie omstandigheden verschillend.\n\nToen Emma Lisa's oma ontmoette, zag ze hoe gelukkig de oude vrouw was met de bezoekjes van haar kleindochter. \"Jullie vriendschap is het mooiste cadeau dat ik kan krijgen,\" zei oma met een glimlach. Emma en Lisa besloten dat ze voortaan samen voor oma zouden zorgen, niet met dure geschenken, maar met hun aandacht en liefde.",
+  "questions": [
+    {
+      "question": "Hoeveel jaar zijn Emma en Lisa al beste vriendinnen?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "tien"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom werden de meisjes steeds stiller tegen elkaar voor Sinterklaas?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "misverstand",
+            "begrepen",
+            "begreep",
+            "verkeerd"
+          ],
+          [
+            "schaamde",
+            "schamen",
+            "verlegen",
+            "ongemakkelijk"
+          ],
+          [
+            "geld",
+            "arm",
+            "arme",
+            "rijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma en Lisa elk over de situatie dachten."
+    },
+    {
+      "question": "Vind je dat Lisa een goede kleindochter is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lisa en dit onderbouwen met voorbeelden uit de tekst, zoals dat Lisa tijd met oma doorbrengt, voorleest, of thee zet.",
+        "exampleAnswer": "Ja, Lisa is een goede kleindochter omdat ze elke dag naar oma gaat om voor te lezen en thee te zetten.",
+        "keyElements": [
+          "tijd/bezoek/bezoeken",
+          "vorlezen/thee/zorg/zorgen",
+          "goede/lieve/aardige"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat doet Lisa elke dag na school voor haar oma?"
+    },
+    {
+      "question": "Wat betekent het woord 'omstandigheden' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Het gaat over het verschil tussen de families van Emma en Lisa.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "situatie"
+          ],
+          [
+            "situaties"
+          ],
+          [
+            "hoe je leeft"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over echte vriendschap en dat tijd en aandacht waardevoller kunnen zijn dan dure cadeaus.",
+        "exampleAnswer": "Het verhaal gaat over dat echte vriendschap en tijd doorbrengen met mensen belangrijker is dan dure cadeaus.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "tijd/aandacht/liefde",
+          "belangrijker/waardevoller"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Emma en oma zeggen aan het einde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kerstmuts-van-oma/image-1.png",
+      "alt": "Twee meisjes maken samen surprises voor Sinterklaas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kerstmuts-van-oma/image-2.png",
+      "alt": "Een meisje leest voor aan haar oma bij de thee"
+    }
+  ],
+  "imagePrompts": [
+    "Two young girls crafting Sinterklaas surprises together at a table, children's book illustration style, warm Dutch home interior with December decorations",
+    "A young girl reading to her elderly grandmother while having tea, cozy living room setting, children's book illustration style, warm and loving atmosphere"
+  ]
+}

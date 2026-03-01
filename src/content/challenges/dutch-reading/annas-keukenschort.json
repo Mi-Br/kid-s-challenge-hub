@@ -1,0 +1,66 @@
+{
+  "id": "annas-keukenschort",
+  "title": "Anna's Keukenschort",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "familie",
+  "text": "Anna had een mooi rood keukenschort. Ze droeg het schort altijd als ze mama help in de keuken. Samen maakten ze pannenkoeken en soep.\n\nOp zaterdag wilde Anna weer helpen. Ze zocht haar schort, maar kon het niet vinden. Anna keek in haar kamer. Het schort was er niet. Ze keek in de badkamer. Ook daar was het schort niet. Anna werd verdrietig want ze wilde zo graag helpen.\n\nMama zag dat Anna verdrietig was. \"Wat is er?\" vroeg mama. Anna vertelde over haar schort. Toen gingen ze samen zoeken. Ze keken in de keuken en in de woonkamer.\n\nVader kwam thuis van het winkelen. \"Wat zoeken jullie?\" vroeg hij. Anna vertelde het verhaal weer. Vader lachte. \"Ik heb je schort gewassen,\" zei hij. \"Het hangt buiten aan de waslijn!\"\n\nAnna rende naar de tuin. Daar hing haar rode schort te drogen in de zon. Ze was zo blij! Nu kon ze eindelijk mama helpen met koken.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Anna's schort?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Welk eten maken Anna en mama samen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "pannenkoeken en soep"
+      ],
+      "hint": "Dit staat in de eerste paragraaf."
+    },
+    {
+      "question": "Waarom werd Anna verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schort",
+            "keukenschort"
+          ],
+          [
+            "vinden",
+            "vond",
+            "zoeken",
+            "zocht",
+            "weg",
+            "kwijt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Anna zocht in de tweede paragraaf."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/annas-keukenschort/image-1.png",
+      "alt": "Anna en mama koken samen in de keuken met pannenkoeken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/annas-keukenschort/image-2.png",
+      "alt": "Een rood keukenschort hangt aan de waslijn in de tuin"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl and her mother cooking pancakes together in a bright kitchen, children's book illustration style",
+    "A red kitchen apron hanging on a clothesline in a sunny Dutch garden with the girl running towards it happily, children's book illustration style"
+  ]
+}

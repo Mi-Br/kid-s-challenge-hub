@@ -1,0 +1,84 @@
+{
+  "id": "nieuwe-vrienden-op-school",
+  "title": "Nieuwe Vrienden op School",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "vriendschap",
+  "text": "Lisa zit in groep 6. Ze heeft altijd met dezelfde vriendinnen gespeeld. Vandaag komt er een nieuwe jongen in de klas. Hij heet Ahmed en komt uit Egypte.\n\nIn de pauze ziet Lisa dat Ahmed alleen op het plein staat. De andere kinderen spelen voetbal en touwtjespringen. Ahmed kijkt naar de grond. Lisa denkt: hij is anders dan wij. Hij spreekt ook een beetje vreemd.\n\nDe volgende dag heeft Ahmed zijn lunch vergeten. Lisa heeft twee boterhammen meegenomen. Ze loopt naar Ahmed toe en geeft hem een boterham. 'Dank je wel,' zegt Ahmed blij. Ze gaan samen eten.\n\nAhmed vertelt over zijn oude school in Egypte. Hij laat foto's zien op zijn telefoon. Lisa vindt het interessant. Ahmed is heel aardig en grappig. Hij kan ook goed tekenen.\n\nNu zijn Lisa en Ahmed goede vrienden. Ze spelen samen in de pauze. Lisa heeft geleerd dat anders zijn helemaal niet erg is. Soms is anders zijn juist leuk.",
+  "questions": [
+    {
+      "question": "Uit welk land komt Ahmed?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "egypte"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom gaf Lisa een boterham aan Ahmed?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vergeten",
+            "vergat"
+          ],
+          [
+            "lunch",
+            "eten",
+            "boterham"
+          ],
+          [
+            "aardig",
+            "lief",
+            "helpen",
+            "help"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met Ahmeds lunch was gebeurd."
+    },
+    {
+      "question": "Hoe voelde Ahmed zich toen Lisa hem de boterham gaf?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "gelukkig",
+            "vrolijk"
+          ],
+          [
+            "dankbaar",
+            "fijn",
+            "goed"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Ahmed zei toen Lisa hem de boterham gaf."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/nieuwe-vrienden-op-school/image-1.png",
+      "alt": "Ahmed staat alleen op het schoolplein terwijl andere kinderen spelen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/nieuwe-vrienden-op-school/image-2.png",
+      "alt": "Lisa en Ahmed eten samen hun lunch en Ahmed laat foto's zien"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy from Egypt standing alone in a Dutch school playground while other children play football and jump rope, children's book illustration style",
+    "A Dutch girl and a boy from Egypt sitting together eating lunch and looking at photos on a phone, friendly school cafeteria setting, children's book illustration style"
+  ]
+}

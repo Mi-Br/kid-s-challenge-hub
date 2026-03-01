@@ -1,0 +1,64 @@
+{
+  "id": "pizzaavond-voor-oma",
+  "title": "Pizzaavond voor Oma",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "eten",
+  "text": "Lisa zit aan de keukentafel. Mama maakt pizza voor het avondeten. De pizza ruikt heel lekker.\n\nLisa denkt aan oma. Oma woont alleen. Oma eet altijd brood met kaas. Lisa vindt dat zielig.\n\nLisa vraagt: \"Mama, mag ik een pizza brengen naar oma?\" Mama knikt. \"Dat is lief van je, Lisa.\"\n\nLisa loopt naar het huis van oma. Ze draagt een warme pizza in een doos. Oma doet de deur open. Ze is heel blij met de pizza. Lisa en oma eten samen. Het smaakt heel goed.",
+  "questions": [
+    {
+      "question": "Wat maakt mama voor het avondeten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "pizza"
+      ],
+      "hint": "Kijk naar de tweede zin."
+    },
+    {
+      "question": "Wat eet oma altijd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "brood met kaas"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waarom brengt Lisa pizza naar oma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zielig",
+            "alleen",
+            "lief"
+          ],
+          [
+            "helpen",
+            "zorgen",
+            "aardig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa zich voelt als ze aan oma denkt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/pizzaavond-voor-oma/image-1.png",
+      "alt": "Lisa zit aan de keukentafel terwijl mama pizza maakt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/pizzaavond-voor-oma/image-2.png",
+      "alt": "Lisa en oma eten samen pizza aan de tafel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa sitting at a kitchen table while her mother prepares pizza in a cozy Dutch home, children's book illustration style",
+    "Lisa and her grandmother sitting together at a table eating pizza, both smiling happily in a warm living room, children's book illustration style"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "ruzie-in-de-bibliotheek",
+  "title": "Ruzie in de Bibliotheek",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de bibliotheek",
+  "text": "Liam woont bij zijn papa en oma. Op dinsdag gaan ze samen naar de bibliotheek. Liam vindt een mooi boek over dinosaurussen. Hij wil het meenemen naar huis.\n\nSara zit aan de tafel. Zij leest het laatste boek over dinosaurussen. Liam wordt boos. \"Ik was eerste!\" zegt hij hard. Sara kijkt verdrietig. \"Ik lees al een uur,\" fluistert ze.\n\nDe bibliotheekjuffrouw komt naar hen toe. \"Wat is er aan de hand?\" vraagt ze vriendelijk. Liam en Sara vertellen allebei hun verhaal.\n\n\"Ik heb een idee,\" zegt de juffrouw. \"Jullie kunnen samen kijken. Sara kan voorlezen en Liam kan de plaatjes bekijken.\" Ze gaan samen aan de grote tafel zitten.\n\nSara leest over de T-rex. Liam wijst naar de kleurrijke plaatjes. \"Kijk, zijn tanden zijn zo groot!\" zegt Liam. Sara lacht. \"Ja, en hij was tien meter hoog.\"\n\nNa een half uur worden ze vrienden. Papa en oma zijn trots op Liam. Hij heeft geleerd om te delen en samen te werken.",
+  "questions": [
+    {
+      "question": "Bij wie woont Liam?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij zijn papa en oma",
+        "papa en oma"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Waarom werd Liam boos op Sara?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "boek",
+            "boeken",
+            "dinosaurussen",
+            "dinosaurus"
+          ],
+          [
+            "wilde",
+            "wil",
+            "wou",
+            "hebben",
+            "meenemen",
+            "pakken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Liam wilde doen met het boek."
+    },
+    {
+      "question": "Wat was het slimme idee van de bibliotheekjuffrouw?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "samen",
+            "allebei",
+            "tweeen",
+            "met elkaar"
+          ],
+          [
+            "kijken",
+            "bekijken",
+            "lezen",
+            "voorlezen",
+            "delen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat de juffrouw voorstelde in de vierde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/ruzie-in-de-bibliotheek/image-1.png",
+      "alt": "Liam en Sara ruziën over een dinosaurusboek in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/ruzie-in-de-bibliotheek/image-2.png",
+      "alt": "Liam en Sara lezen samen het dinosaurusboek aan de grote tafel"
+    }
+  ],
+  "imagePrompts": [
+    "Two children arguing over a dinosaur book in a Dutch library, one boy pointing angrily while a girl holds the book sadly, children's book illustration style",
+    "Two children sitting together at a library table sharing a colorful dinosaur book, smiling and pointing at pictures, surrounded by bookshelves, children's book illustration style"
+  ]
+}

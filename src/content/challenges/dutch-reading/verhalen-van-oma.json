@@ -1,0 +1,135 @@
+{
+  "id": "verhalen-van-oma",
+  "title": "Verhalen van Oma",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Aisha zat aan de keukentafel en luisterde naar haar Nederlandse oma, die vertelde over de oorlogsjaren. \"Tijdens de Tweede Wereldoorlog verstopten wij Joodse families in onze kelder,\" fluisterde oma met trillende stem. \"Het was gevaarlijk, maar we konden niet anders. Mijn vader zei altijd: 'Wie zijn medemens niet helpt in noodsituaties, verliest zijn menselijkheid.'\"\n\nAisha voelde zich ongemakkelijk. Thuis hoorde zij heel andere verhalen. Haar Marokkaanse opa had haar verteld hoe Nederlandse kolonisten zijn land hadden onderdrukt. \"De Nederlanders namen onze rijkdommen weg en behandelden ons als tweederangs burgers,\" had hij bitter gezegd. \"Waarom zouden wij hun cultuur respecteren?\"\n\nDe tegenstrijdige verhalen maakten Aisha verward. Wie had er gelijk? Was Nederland een land van helden of onderdrukkers? Op school leerde zij over de Gouden Eeuw als een tijd van vooruitgang, maar haar leraar had ook verteld over de slavernij in de koloniën. \"Geschiedenis heeft altijd meerdere gezichten,\" had hij uitgelegd. \"Wat voor de een een overwinning was, betekende voor de ander verlies en pijn.\"\n\nTijdens het avondeten dacht Aisha na over de woorden van beide grootouders. Plotseling begreep zij dat beide verhalen waar konden zijn. Haar Nederlandse oma's familie had moed getoond tijdens de oorlog, maar dat betekende niet dat Nederland nooit fouten had gemaakt. Haar Marokkaanse opa had echte onderdrukking meegemaakt, maar dat maakte niet alle Nederlanders slecht.\n\n\"Oma,\" zei Aisha voorzichtig, \"ik denk dat mensen complex zijn. Landen ook. Nederland heeft zowel mooie als lelijke dingen gedaan in het verleden.\" Haar oma knikte langzaam. \"Je hebt gelijk, lieverd. Wijsheid betekent dat je beide kanten van het verhaal kunt zien, zonder te oordelen over wie je bent.\"\n\nDie avond besefte Aisha dat zij niet hoefde te kiezen tussen haar twee culturen. Zij kon trots zijn op de moed van haar Nederlandse voorouders én het leed van haar Marokkaanse familie erkennen. Beide verhalen waren onderdeel van wie zij was. De pijn uit het verleden hoefde niet door te gaan naar de volgende generatie, als mensen bereid waren om te luisteren en te leren.",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het accepteren van meerdere perspectieven op geschiedenis en het integreren van verschillende culturele identiteiten zonder te hoeven kiezen.",
+        "exampleAnswer": "Het verhaal gaat erover dat je verschillende kanten van de geschiedenis kunt accepteren en dat je niet hoeft te kiezen tussen verschillende culturen.",
+        "keyElements": [
+          "meerdere perspectieven/verschillende kanten",
+          "culturele identiteit/culturen combineren",
+          "geschiedenis/verleden begrijpen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Aisha uiteindelijk begrijpt over haar Nederlandse en Marokkaanse familie."
+    },
+    {
+      "question": "Waarom voelde Aisha zich verward door de verhalen van haar grootouders?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "tegenstrijdig",
+            "verschillend",
+            "tegengesteld",
+            "anders"
+          ],
+          [
+            "verhalen",
+            "versies",
+            "perspectieven",
+            "kanten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het tweede en derde stuk van het verhaal."
+    },
+    {
+      "question": "Hoe verandert Aisha's begrip van geschiedenis gedurende het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet uitleggen dat Aisha eerst verward was door tegenstrijdige verhalen, maar later begrijpt dat beide verhalen waar kunnen zijn en dat geschiedenis complex is.",
+        "exampleAnswer": "Eerst was Aisha verward omdat de verhalen tegenstrijdig waren, maar later begrijpt ze dat beide verhalen waar kunnen zijn.",
+        "keyElements": [
+          "verward/twijfel naar begrip/acceptatie",
+          "beide verhalen waar/complex",
+          "ontwikkeling/verandering"
+        ],
+        "minWords": 6
+      },
+      "hint": "Vergelijk hoe Aisha zich voelt aan het begin en aan het eind van het verhaal."
+    },
+    {
+      "question": "Wat bedoelt de leraar met 'Geschiedenis heeft altijd meerdere gezichten'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat dezelfde gebeurtenis verschillende betekenissen kan hebben voor verschillende groepen mensen, zoals de uitleg in de tekst laat zien.",
+        "exampleAnswer": "Hij bedoelt dat dezelfde gebeurtenis voor verschillende mensen andere betekenissen heeft, wat voor de een goed is kan voor de ander slecht zijn.",
+        "keyElements": [
+          "verschillende perspectieven/betekenissen",
+          "één gebeurtenis/meerdere kanten",
+          "overwinning voor een/verlies voor ander"
+        ],
+        "minWords": 6
+      },
+      "hint": "Lees de uitleg die de leraar geeft na deze zin."
+    },
+    {
+      "question": "Evalueer Aisha's oplossing voor haar dilemma. Is dit een realistische manier om met verschillende culturele achtergronden om te gaan?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over of Aisha's oplossing realistisch is en deze onderbouwen met argumenten. Beide ja en nee kunnen correct zijn als ze goed onderbouwd worden.",
+        "exampleAnswer": "Ik denk dat het realistisch is omdat je niet hoeft te kiezen tussen delen van jezelf, maar het kan wel moeilijk zijn in de praktijk omdat andere mensen soms wel willen dat je kiest.",
+        "keyElements": [
+          "mening/evaluatie",
+          "onderbouwing/argumenten",
+          "realisme/praktijk"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de voor- en nadelen van Aisha's beslissing en geef je eigen mening."
+    },
+    {
+      "question": "Wat is het doel van de schrijver van dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien dat je verschillende culturele identiteiten kunt combineren en dat geschiedenis complex is met meerdere perspectieven.",
+        "exampleAnswer": "De schrijver wil laten zien dat mensen met verschillende culturele achtergronden niet hoeven te kiezen tussen culturen en dat geschiedenis ingewikkeld is.",
+        "keyElements": [
+          "culturele identiteit/integratie",
+          "meerdere perspectieven/complexiteit geschiedenis",
+          "lessen/boodschap"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver wil overbrengen door Aisha's verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/verhalen-van-oma/image-1.png",
+      "alt": "Aisha luistert aan de keukentafel naar haar Nederlandse oma die verhalen vertelt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/verhalen-van-oma/image-2.png",
+      "alt": "Aisha denkt na tijdens het avondeten, met een bedachtzame uitdrukking"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl with Moroccan-Dutch features sitting at a kitchen table listening intently to her elderly Dutch grandmother who is gesturing while telling stories, warm kitchen setting, children's book illustration style",
+    "The same teenage girl sitting thoughtfully at a dinner table, looking contemplative with her hand on her chin, evening lighting through window, children's book illustration style"
+  ]
+}

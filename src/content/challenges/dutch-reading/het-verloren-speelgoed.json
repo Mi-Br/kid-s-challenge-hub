@@ -1,0 +1,66 @@
+{
+  "id": "het-verloren-speelgoed",
+  "title": "Het Verloren Speelgoed",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de buurt",
+  "text": "Saar speelt met haar nieuwe bal in de tuin. De bal is geel en heel mooi. Ze gooit de bal hoog in de lucht.\n\nDe bal vliegt over de heg naar de buren. Saar kijkt door de heg maar ze kan de bal niet zien. Ze roept de buren maar niemand is thuis.\n\nSaar vraagt aan haar moeder om hulp. Haar moeder heeft een goed idee. Ze schrijven samen een briefje voor de buren.\n\nDe volgende dag komt buurman Piet naar de deur. Hij heeft de gele bal gevonden in zijn tuin. Saar is heel blij en bedankt hem.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de bal van Saar?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar vliegt de bal naartoe?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "over de heg naar de buren",
+        "naar de buren"
+      ],
+      "hint": "Lees de tweede alinea."
+    },
+    {
+      "question": "Waarom kan Saar haar bal niet meteen terughalen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "niemand",
+            "niet thuis",
+            "buren weg"
+          ],
+          [
+            "thuis",
+            "huis",
+            "weg",
+            "niet aanwezig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurt als Saar de buren roept."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verloren-speelgoed/image-1.png",
+      "alt": "Een meisje dat een gele bal hoog in de lucht gooit in haar tuin"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verloren-speelgoed/image-2.png",
+      "alt": "Een vriendelijke buurman die een gele bal vasthoudt voor de voordeur"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl throwing a bright yellow ball high in the air in a Dutch backyard garden with a hedge, children's book illustration style",
+    "A friendly elderly Dutch neighbor man holding a yellow ball at the front door of a typical Dutch house, children's book illustration style"
+  ]
+}

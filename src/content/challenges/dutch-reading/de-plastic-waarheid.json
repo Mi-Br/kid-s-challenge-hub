@@ -1,0 +1,130 @@
+{
+  "id": "de-plastic-waarheid",
+  "title": "De Plastic Waarheid",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "milieu",
+  "text": "Lisa zag een video op social media. In de video stond dat plastic flessen helemaal niet slecht zijn voor het milieu. De maker van de video zei dat het recyclen van plastic veel energie kost. Hij beweerde dat gewone flessen beter zijn dan herbruikbare flessen.\n\nLisa geloofde de video meteen. Ze wilde geen herbruikbare fles meer gebruiken. Haar moeder vroeg waarom ze plotseling was veranderd van mening. Lisa liet de video zien aan haar moeder.\n\nHaar moeder keek naar de video. Ze zag dat de maker van de video werkte voor een bedrijf dat plastic flessen maakt. Het bedrijf wilde meer plastic flessen verkopen. Daarom maakte het bedrijf deze video.\n\nLisa begreep het nu. De video was niet eerlijk. Het bedrijf wilde alleen maar geld verdienen. Lisa besloot om altijd te kijken wie een video heeft gemaakt. Ze wilde weten waarom iemand informatie deelt voordat ze het geloofde.\n\nNu gebruikt Lisa weer haar herbruikbare fles. Ze controleert altijd de bron van informatie die ze online ziet. Lisa heeft geleerd om kritisch te denken over wat ze leest en ziet op internet.",
+  "questions": [
+    {
+      "question": "Wat beweerde de maker van de video over plastic flessen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "dat plastic flessen helemaal niet slecht zijn voor het milieu",
+        "dat gewone flessen beter zijn dan herbruikbare flessen",
+        "plastic flessen zijn niet slecht voor het milieu"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom was de video niet eerlijk?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bedrijf",
+            "maker",
+            "persoon"
+          ],
+          [
+            "werkte",
+            "werken",
+            "maakte"
+          ],
+          [
+            "plastic",
+            "flessen"
+          ],
+          [
+            "verkopen",
+            "geld",
+            "verdienen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wie de video heeft gemaakt en waarom."
+    },
+    {
+      "question": "Hoe veranderde Lisa's gedrag na het gesprek met haar moeder?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "controleert",
+            "controleren",
+            "kijkt",
+            "kijken",
+            "checkt"
+          ],
+          [
+            "bron",
+            "informatie",
+            "video's"
+          ],
+          [
+            "herbruikbare",
+            "fles",
+            "gebruikt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea goed."
+    },
+    {
+      "question": "Wat leerde Lisa over informatie op internet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "kritisch",
+            "voorzichtig",
+            "nadenken"
+          ],
+          [
+            "controleren",
+            "checken",
+            "kijken"
+          ],
+          [
+            "bron",
+            "maker",
+            "wie"
+          ],
+          [
+            "geloven",
+            "vertrouwen",
+            "accepteren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa nu anders doet dan eerst."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-plastic-waarheid/image-1.png",
+      "alt": "Lisa kijkt naar een video op haar telefoon terwijl haar moeder naast haar zit"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-plastic-waarheid/image-2.png",
+      "alt": "Lisa gebruikt haar herbruikbare waterfles op school"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl showing a video on her smartphone to her concerned mother in their living room, children's book illustration style",
+    "A teenage girl drinking from a reusable water bottle at school, looking thoughtful and confident, children's book illustration style"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "de-smaak-van-eerlijkheid",
+  "title": "De Smaak van Eerlijkheid",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wereldkeuken",
+  "text": "Luca zat aan de keukentafel en keek naar zijn moeder die het avondeten bereidde. Zoals altijd stonk de keuken naar knoflook en oregano, omdat ze weer Italiaanse pasta maakte. \"Waarom eten we nooit eens iets anders?\" mompelde hij terwijl hij zijn huiswerk probeerde te maken.\n\nZijn moeder, die zijn opmerking had gehoord, draaide zich om. \"Wat bedoel je, Luca? We eten toch gevarieerd?\"\n\n\"Mama, we eten elke dag Italiaans. Carbonara, lasagne, risotto... altijd hetzelfde. Op school vertellen mijn vrienden over sushi, curry, tacos. Waarom kunnen wij niet eens iets nieuws proberen?\"\n\nZijn moeder zuchtte diep. \"Luca, dit is ons eten. Dit is wat onze familie al generaties lang kookt. Mijn grootmoeder heeft me deze recepten geleerd, net zoals haar grootmoeder dat bij haar deed.\"\n\n\"Maar mama,\" protesteerde Luca, \"we wonen nu in Nederland. Andere families eten van alles. Ahmed zegt dat zijn moeder de lekkerste Marokkaanse tajine maakt, en Sarah brengt altijd Surinaamse roti mee naar school. Dat ruikt zo heerlijk!\"\n\nToen zijn vader thuiskwam van zijn werk als accountant, viel Luca meteen met de deur in huis. \"Papa, kun jij mama niet overtuigen dat we eens iets anders gaan eten? Iets internationaals?\"\n\nZijn vader ging zitten en streelde zijn baard bedachtzaam. \"Weet je, Luca, toen ik zo oud was als jij, dacht ik precies hetzelfde. Ik schaamde me voor ons eten, voor de geur van knoflook in mijn kleren. Ik wilde hamburgers en friet, net zoals mijn Nederlandse klasgenoten.\"\n\n\"En wat gebeurde er toen?\" vroeg Luca nieuwsgierig.\n\n\"Ik ging op kamers studeren en at maandenlang alleen maar brood met kaas en magnetronmaaltijden. Na een tijdje merkte ik dat ik de smaken van thuis verschrikkelijk miste. Het eten van mama was niet alleen voedsel - het was liefde, traditie, verbinding met onze familie.\"\n\nLuca fronste zijn wenkbrauwen. \"Maar papa, dat betekent toch niet dat we nooit iets nieuws kunnen proberen?\"\n\nZijn ouders keken elkaar aan. Na een lange stilte sprak zijn moeder: \"Misschien heb je gelijk, Luca. Misschien zijn we te star geweest in onze gewoontes.\"\n\nDe volgende zaterdag stelde Luca een experiment voor. \"Laten we elke week een ander land ontdekken. Deze week Thailand, volgende week Mexico, daarna Marokko. We kunnen de recepten opzoeken en samen koken.\"\n\nHet gezin begon aan hun culinaire wereldreis. Ze maakten pad thai met kokosmelk en citroengras, enchiladas met pikante salsa, en Marokkaanse couscous met gedroogde vruchten. Elke maaltijd was een avontuur waarbij ze nieuwe smaken, kruiden en bereidingswijzen ontdekten.\n\nTijdens het koken vertelden Lucas ouders verhalen over de landen die ze bezochten. Ze leerden over verschillende culturen, tradities en de geschiedenis achter elk gerecht. Luca realiseerde zich dat eten meer was dan alleen voeding - het was een venster naar andere werelden.\n\nNa enkele weken van experimenteren zat het gezin weer aan tafel, dit keer met een zelfgemaakte Indiase curry. \"Weet je wat het mooiste is?\" zei Lucas moeder terwijl ze genoot van de complexe smaken. \"Door andere keukens te ontdekken, waardeer ik onze eigen tradities nog meer. Elke cultuur heeft iets unieks te bieden.\"\n\nLuca knikte instemmend. Hij had geleerd dat diversiteit in eten - en in het leven - niet betekende dat je je eigen roots moest opgeven. Integendeel, door open te staan voor nieuwe ervaringen kon je je eigen identiteit verrijken en verdiepen.\n\n\"Volgende week maken we weer carbonara,\" stelde zijn vader voor, \"maar dan met een twist - misschien wat Japanse shiitake paddestoelen erbij?\"\n\nLuca glimlachte. Hij had ontdekt dat de echte smaak van eerlijkheid lag in het erkennen dat er ruimte was voor zowel traditie als vernieuwing, voor zowel trots op je eigen cultuur als nieuwsgierigheid naar die van anderen.",
+  "questions": [
+    {
+      "question": "Waarom wilde Luca aanvankelijk geen Italiaans eten meer?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "vrienden",
+            "klasgenoten",
+            "school",
+            "anderen"
+          ],
+          [
+            "anders",
+            "nieuw",
+            "gevarieerd",
+            "variatie",
+            "verandering"
+          ],
+          [
+            "sushi",
+            "curry",
+            "tacos",
+            "internationaal",
+            "verschillende"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Luca zei over zijn vrienden op school."
+    },
+    {
+      "question": "Hoe veranderde de mening van Lucas vader over eten tijdens zijn studententijd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Lucas vader eerst zijn eigen cultuur wilde verlaten maar later de waarde ervan ging inzien toen hij het miste.",
+        "exampleAnswer": "Hij schaamde zich eerst voor zijn Italiaanse eten, maar toen hij ging studeren en alleen saai eten at, miste hij de smaken van thuis en besefte hij dat het eten van zijn moeder liefde en traditie betekende.",
+        "keyElements": [
+          "schaamde/schamen",
+          "miste/missen/heimwee",
+          "traditie/cultuur/familie",
+          "liefde/verbinding"
+        ],
+        "minWords": 6
+      },
+      "hint": "Lees het gesprek tussen Luca en zijn vader over de studententijd."
+    },
+    {
+      "question": "Wat is volgens de schrijver de hoofdboodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het vinden van balans tussen het behouden van je eigen cultuur en het openstaan voor nieuwe ervaringen.",
+        "exampleAnswer": "Het verhaal wil laten zien dat je trots kunt zijn op je eigen cultuur en tegelijkertijd nieuwsgierig naar andere culturen, en dat dit elkaar kan versterken.",
+        "keyElements": [
+          "balans/evenwicht",
+          "eigen cultuur/traditie",
+          "openheid/nieuwsgierigheid",
+          "verrijken/versterken"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Luca aan het einde heeft geleerd."
+    },
+    {
+      "question": "Waarom gebruikt de schrijver het voorbeeld van eten om over cultuur te praten?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat eten een herkenbaar en concreet middel is om abstracte concepten als cultuur, identiteit en integratie uit te leggen.",
+        "exampleAnswer": "Eten is iets wat iedereen kent en dagelijks meemaakt, waardoor je gemakkelijk kunt laten zien hoe culturen verschillen en hoe je respect voor andere culturen kunt hebben.",
+        "keyElements": [
+          "herkenbaar/dagelijks/concreet",
+          "cultuur/identiteit",
+          "verschillen/diversiteit",
+          "respect/begrip"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over waarom eten een goed voorbeeld is voor culturele verschillen."
+    },
+    {
+      "question": "Beoordeel of de oplossing die het gezin bedacht een goede manier is om om te gaan met culturele verschillen. Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een beredeneerde mening geven over de oplossing, met argumenten die laten zien dat ze de situatie begrijpen. Zowel positieve als negatieve beoordelingen zijn acceptabel als ze goed onderbouwd zijn.",
+        "exampleAnswer": "Ik vind het een goede oplossing omdat ze hun eigen traditie behouden maar ook respectvol andere culturen leren kennen. Ze dwingen niemand om iets op te geven maar worden wel rijker door nieuwe ervaringen.",
+        "keyElements": [
+          "respectvol/respect",
+          "behouden/bewaren",
+          "leren/ontdekken",
+          "balans/evenwicht",
+          "positief/negatief",
+          "omdat/want"
+        ],
+        "minWords": 8
+      },
+      "hint": "Geef je eigen mening en leg uit met argumenten uit het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-smaak-van-eerlijkheid/image-1.png",
+      "alt": "Luca zit aan de keukentafel terwijl zijn moeder Italiaanse pasta bereidt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-smaak-van-eerlijkheid/image-2.png",
+      "alt": "Het gezin kookt samen gerechten uit verschillende landen in hun keuken"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch kitchen scene showing a teenage boy sitting at a table doing homework while his Italian mother cooks pasta, with garlic and oregano visible, children's book illustration style, warm family atmosphere",
+    "A diverse family cooking together in their kitchen with ingredients and dishes from different countries - Thai, Mexican, and Moroccan foods spread on the counter, children's book illustration style, multicultural cooking scene"
+  ]
+}

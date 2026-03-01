@@ -1,0 +1,112 @@
+{
+  "id": "tim-ontdekt-de-bakkerij",
+  "title": "Tim Ontdekt de Bakkerij",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "beroepen",
+  "text": "Tim liep door de koude ochtendlucht naar school. De wind blies hard en er vielen kleine regendruppels op zijn jas. Plotseling rook hij iets lekkers. Het kwam uit de nieuwe bakkerij aan de Hoofdstraat.\n\nDe bakker, meneer Van Dam, stond voor zijn winkel. Hij had witte kleding aan en zijn handen zaten onder het meel. \"Hallo Tim,\" zei hij vriendelijk. \"Wil je helpen? Ik moet veel brood maken voor vandaag.\" Tim keek nieuwsgierig naar binnen. De bakkerij was warm en rook naar verse broodjes.\n\nTim begon met het kneden van deeg. Eerst ging het moeilijk, maar na een tijdje kreeg hij het onder controle. Zijn handen werden sterk en hij vond het leuk werk. Meneer Van Dam leerde hem hoe hij broodjes moest vormen. \"Je hebt natuurlijk talent,\" zei de bakker.\n\nNa twee uur had Tim zes mooie broodjes gemaakt. Ze waren goudbruin en perfect van vorm. De andere klanten in de winkel zeiden dat ze er heerlijk uitzagen. Tim voelde zich trots. \"Kan ik morgen weer komen helpen?\" vroeg hij. Meneer Van Dam glimlachte en knikte. \"Graag, Tim. Je bent een echte bakker!\"\n\nToen Tim naar huis liep, vertelde hij zijn moeder alles. Zij was ook trots op hem. \"Misschien wordt bakker wel jouw beroep,\" zei ze. Tim dacht na. Het werk in de warme bakkerij was veel leuker dan de koude regen buiten.",
+  "questions": [
+    {
+      "question": "Welke kleur kleding droeg meneer Van Dam?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit",
+        "witte"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom vond Tim het werk in de bakkerij prettig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "warm",
+            "warme",
+            "warmte"
+          ],
+          [
+            "leuker",
+            "leuk",
+            "prettig",
+            "fijn",
+            "plezier"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan het verschil tussen binnen en buiten."
+    },
+    {
+      "question": "Hoe veranderde Tim tijdens het kneden van het deeg?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "moeilijk",
+            "eerst",
+            "begin",
+            "begon"
+          ],
+          [
+            "beter",
+            "makkelijker",
+            "controle",
+            "onder controle",
+            "lukte"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over hoe het kneden ging."
+    },
+    {
+      "question": "Wat vind jij van meneer Van Dam als werkgever?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "aardig",
+            "vriendelijk",
+            "lief",
+            "goed",
+            "prettig"
+          ],
+          [
+            "leert",
+            "helpt",
+            "geduldig",
+            "onderwijst",
+            "uitlegt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe meneer Van Dam met Tim omgaat."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/tim-ontdekt-de-bakkerij/image-1.png",
+      "alt": "Tim helpt meneer Van Dam in de warme bakkerij"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/tim-ontdekt-de-bakkerij/image-2.png",
+      "alt": "Tim toont trots zijn zelfgemaakte goudbruine broodjes"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy learning to knead dough in a warm traditional bakery with a friendly baker in white clothes, children's book illustration style",
+    "A proud young boy showing off six golden-brown bread rolls he made himself while customers admire his work in a cozy Dutch bakery, children's book illustration style"
+  ]
+}

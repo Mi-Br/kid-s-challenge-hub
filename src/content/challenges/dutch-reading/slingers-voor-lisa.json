@@ -1,0 +1,77 @@
+{
+  "id": "slingers-voor-lisa",
+  "title": "Slingers voor Lisa",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verjaardagen",
+  "text": "Morgen is Lisa jarig. Ze wordt acht jaar. Mama en Lisa willen de kamer versieren.\n\nLisa haalt gekleurde slingers uit de kast. De slingers zijn oud en lelijk. \"Deze slingers zijn saai,\" zegt Lisa. \"Ik wil mooie decoratie.\"\n\n\"We kunnen zelf slingers maken,\" zegt mama. Ze pakken gekleurd papier. Lisa knipt cirkels uit rood papier. Mama knipt sterren uit geel papier. Ze plakken alles aan een lange draad.\n\nDan komt Lisa's broer Tom binnen. \"Wat doen jullie?\" vraagt hij. \"We maken verjaardagsslingers,\" zegt Lisa trots. Tom helpt ook. Hij knipt hartjes uit blauw papier.\n\nSamen hangen ze de nieuwe slingers op. De kamer ziet er vrolijk uit. \"Perfect voor mijn feest!\" roept Lisa blij.",
+  "questions": [
+    {
+      "question": "Hoe oud wordt Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "acht jaar",
+        "acht",
+        "8 jaar",
+        "8"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom wil Lisa geen oude slingers gebruiken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze zijn oud en lelijk",
+        "ze zijn saai",
+        "ze zijn lelijk",
+        "oud en lelijk"
+      ],
+      "hint": "Lisa zegt iets over de oude slingers."
+    },
+    {
+      "question": "Waarom is Lisa blij aan het eind?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nieuwe",
+            "mooie",
+            "eigen",
+            "zelf gemaakte"
+          ],
+          [
+            "slingers",
+            "decoratie",
+            "versiering"
+          ],
+          [
+            "klaar",
+            "opgehangen",
+            "af",
+            "gemaakt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat ze samen hebben gemaakt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/slingers-voor-lisa/image-1.png",
+      "alt": "Lisa en mama maken kleurrijke slingers van papier"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/slingers-voor-lisa/image-2.png",
+      "alt": "De familie hangt vrolijke slingers op in de kamer"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl and her mother sitting at a table making colorful paper decorations with scissors and glue, children's book illustration style",
+    "A happy family hanging up bright homemade paper streamers and decorations in a living room for a birthday party, children's book illustration style"
+  ]
+}

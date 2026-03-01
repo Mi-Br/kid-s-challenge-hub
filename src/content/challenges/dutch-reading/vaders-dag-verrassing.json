@@ -1,0 +1,93 @@
+{
+  "id": "vaders-dag-verrassing",
+  "title": "Vaders Dag Verrassing",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "familie",
+  "text": "Lisa wilde iets heel bijzonders maken voor Vaderdag. Ze ging naar haar kamer en haalde haar mooiste kleurpotloden tevoorschijn. Met veel liefde tekende ze een prachtige kaart met bloemen en hartjes.\n\nToen Lisa klaar was, schreef ze in haar beste handschrift: \"Lieve papa, je bent de liefste vader van de wereld!\" Ze stopte de kaart voorzichtig in een envelop en verstopte hem onder haar bed.\n\nDe volgende ochtend wilde Lisa de kaart aan papa geven. Maar toen ze onder haar bed keek, was de envelop verdwenen! Lisa keek overal: in haar kast, op haar bureau, zelfs in de wasmand. Nergens te vinden.\n\n\"Mama, heb jij mijn kaart gezien?\" vroeg Lisa met tranen in haar ogen. Mama schudde haar hoofd. Papa kwam de kamer binnen en zag dat Lisa verdrietig was. \"Wat is er, lieverd?\" vroeg hij zacht.\n\nLisa vertelde over de verdwenen kaart. Papa luisterde goed en glimlachte toen. \"Weet je wat?\" zei hij. \"De mooiste cadeaus zijn niet van papier. Geef me maar een dikke knuffel.\" Maar Lisa wist nog steeds niet wat er met haar kaart was gebeurd.",
+  "questions": [
+    {
+      "question": "Wat schreef Lisa op de kaart?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "lieve papa, je bent de liefste vader van de wereld!",
+        "je bent de liefste vader van de wereld!"
+      ],
+      "hint": "Kijk naar wat Lisa in de tweede alinea schreef."
+    },
+    {
+      "question": "Waar verstopte Lisa de kaart eerst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "onder haar bed",
+        "onder het bed"
+      ],
+      "hint": "Zoek in de tweede alinea waar Lisa de envelop deed."
+    },
+    {
+      "question": "Waarom had Lisa tranen in haar ogen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kaart",
+            "envelop",
+            "cadeau"
+          ],
+          [
+            "weg",
+            "verdwenen",
+            "kwijt",
+            "zoek",
+            "vinden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa niet meer kon vinden."
+    },
+    {
+      "question": "Wat bedoelde papa met \"de mooiste cadeaus zijn niet van papier\"?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "liefde",
+            "knuffel",
+            "aandacht",
+            "samen"
+          ],
+          [
+            "belangrijker",
+            "mooier",
+            "beter",
+            "niet nodig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Papa wilde Lisa troosten. Wat vind hij belangrijker dan een kaart?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/vaders-dag-verrassing/image-1.png",
+      "alt": "Lisa tekent een kleurrijke kaart voor Vaderdag"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/vaders-dag-verrassing/image-2.png",
+      "alt": "Lisa zoekt verdrietig onder haar bed naar de verdwenen kaart"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sitting at a desk drawing a colorful Father's Day card with flowers and hearts, children's book illustration style, warm lighting",
+    "A sad young girl looking under her bed searching for something, with toys scattered around, children's book illustration style, soft morning light"
+  ]
+}

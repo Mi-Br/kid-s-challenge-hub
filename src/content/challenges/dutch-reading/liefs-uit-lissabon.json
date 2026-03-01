@@ -1,0 +1,112 @@
+{
+  "id": "liefs-uit-lissabon",
+  "title": "Liefs uit Lissabon",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "reizen",
+  "text": "Terwijl het vliegtuig over de Atlantische Oceaan vloog, staarde Mira door het raampje naar de oneindige blauwe zee onder haar. Haar hart bonsde van opwinding en tegelijkertijd van nervositeit. Over drie uur zou ze haar vriend Lucas eindelijk weer zien, na twee maanden gescheiden te zijn door de oceaan die nu onder haar voorbij gleed.\n\nMira had altijd moeite gehad met veranderingen. Haar autisme zorgde ervoor dat ze structuur en voorspelbaarheid nodig had. Toen Lucas vorige maand had aangekondigd dat zijn familie naar Portugal zou verhuizen vanwege zijn vaders werk, had ze zich overweldigd gevoeld. Hoe kon hun relatie dit overleven?\n\n'Ik schrijf je elke dag,' had Lucas beloofd, terwijl hij haar hand vasthield op Schiphol. 'En jij komt me opzoeken tijdens de kerstvakantie. Het wordt geweldig.' Maar Mira had haar twijfels gehad. Lange afstandsrelaties waren al moeilijk genoeg, laat staan voor iemand die zoals zij duidelijke routines en regelmatige contact nodig had.\n\nDe eerste weken waren zwaarder geweest dan verwacht. Hoewel Lucas inderdaad elke dag schreef, voelde elk bericht tegelijkertijd als een geschenk en als een pijnlijke herinnering aan de afstand tussen hen. Mira merkte dat ze obsessief zijn berichten herlas, op zoek naar verborgen betekenissen of tekenen dat hij haar minder miste dan zij hem.\n\nOp een avond, terwijl ze voor de zoveelste keer zijn laatste bericht analyseerde, realiseerde Mira zich iets belangrijks. Ze had zo gefocust op het behouden van hun oude manier van communiceren dat ze vergeten was om open te staan voor nieuwe mogelijkheden. Die nacht schreef ze Lucas een eerlijke brief waarin ze uitlegde hoe moeilijk de situatie voor haar was, maar ook hoeveel hij voor haar betekende.\n\nZijn antwoord verraste haar. 'Ik dacht dat je misschien al genoeg van me had,' schreef hij. 'Ik was bang om te veel te schrijven, voor het geval ik te opdringerig zou overkomen. Maar als jij meer contact wilt, dan wil ik dat ook.' Vanaf dat moment begonnen ze dagelijks te videobellen, waarbij Lucas haar meenaM op virtuele wandelingen door Lissabon en zij hem liet zien hoe Amsterdam er zonder hem uitzag.\n\nNu, terwijl het vliegtuig begon te dalen boven Portugal, voelde Mira een vreemde mix van spanning en trots. Ze had geleerd dat liefde niet alleen betekende dat je iemand miste, maar ook dat je de moed had om kwetsbaar te zijn en duidelijk te communiceren over je behoeften. Hun relatie was niet zwakker geworden door de afstand, maar juist sterker door de manier waarop ze er samen mee waren omgegaan.\n\nOp de luchthaven van Lissabon stond Lucas haar op te wachten met een brede glimlach en een bos zonnebloemen – haar favoriete bloemen. Toen ze elkaar omhelsden, fluisterde hij in haar oor: 'Welkom in mijn nieuwe wereld. Ik kan niet wachten om hem met jou te delen.' En voor het eerst in maanden voelde Mira zich volkomen op haar plaats, wetende dat thuis niet een plek was, maar de persoon bij wie je je veilig voelde om jezelf te zijn.",
+  "questions": [
+    {
+      "question": "Wat zijn Mira's grootste uitdagingen in relatie tot haar autisme toen Lucas verhuisde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Mira's autisme haar behoefte aan structuur en voorspelbaarheid beïnvloedt, en dat de verandering en onzekerheid over de relatie haar extra moeilijk vielen.",
+        "exampleAnswer": "Mira had moeite met de verandering omdat ze door haar autisme structuur en voorspelbaarheid nodig heeft, en de lange afstandsrelatie zorgde voor onzekerheid.",
+        "keyElements": [
+          "autisme/neurodivergentie",
+          "structuur/voorspelbaarheid/routine",
+          "verandering/onzekerheid"
+        ],
+        "minWords": 8
+      },
+      "hint": "Let op wat er in de tweede alinea wordt verteld over Mira's behoeften."
+    },
+    {
+      "question": "Welke belangrijke inzicht krijgt Mira over communicatie in relaties?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Mira leert dat eerlijke, open communicatie over behoeften essentieel is in een relatie, en dat kwetsbaar zijn sterkte toont.",
+        "exampleAnswer": "Mira leert dat je eerlijk moet zijn over je behoeften en gevoelens, en dat open communicatie een relatie sterker maakt.",
+        "keyElements": [
+          "eerlijk/open communiceren",
+          "behoeften uitspreken",
+          "kwetsbaar zijn"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Mira realiseert en doet nadat ze zijn berichten obsessief analyseert."
+    },
+    {
+      "question": "Evalueer hoe de auteur het thema van groei in relaties ontwikkelt. Gebruik voorbeelden uit de tekst.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet analyseren hoe de auteur Mira's emotionele ontwikkeling toont door concrete voorbeelden van gedrag en inzichten, en hoe dit het thema van relationele groei illustreert.",
+        "exampleAnswer": "De auteur toont groei door Mira van obsessief analyseren van berichten naar eerlijke communicatie te laten gaan, en door te laten zien dat hun relatie sterker wordt door uitdagingen.",
+        "keyElements": [
+          "groei/ontwikkeling",
+          "van obsessief naar eerlijk",
+          "relatie wordt sterker",
+          "voorbeelden uit tekst"
+        ],
+        "minWords": 10
+      },
+      "hint": "Vergelijk Mira's gedrag aan het begin met haar gedrag en inzichten aan het eind."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe uitdagingen in relaties kunnen leiden tot groei en versterking wanneer partners eerlijk communiceren en kwetsbaar durven te zijn.",
+        "exampleAnswer": "Het verhaal gaat over hoe een lange afstandsrelatie moeilijk kan zijn, maar dat eerlijke communicatie en het durven zijn van jezelf een relatie sterker kan maken.",
+        "keyElements": [
+          "uitdagingen/afstand",
+          "eerlijke communicatie",
+          "relatie wordt sterker/groei"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat Mira leert over liefde en relaties door deze ervaring."
+    },
+    {
+      "question": "Wat wil de schrijver lezers leren over het omgaan met verandering?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil tonen dat verandering en uitdagingen kansen voor groei kunnen zijn, vooral wanneer je open communiceert en bereid bent om nieuwe mogelijkheden te ontdekken.",
+        "exampleAnswer": "De schrijver wil laten zien dat veranderingen eng kunnen zijn, maar dat je er sterker uit kunt komen als je open communiceert en bereid bent om te groeien.",
+        "keyElements": [
+          "verandering/uitdagingen",
+          "groei/leren",
+          "open communicatie",
+          "nieuwe mogelijkheden"
+        ],
+        "minWords": 6
+      },
+      "hint": "Let op hoe Mira's houding ten opzichte van verandering verschuift gedurende het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/liefs-uit-lissabon/image-1.png",
+      "alt": "Een meisje die door het vliegtuigraam kijkt naar de oceaan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/liefs-uit-lissabon/image-2.png",
+      "alt": "Een jongen en meisje die elkaar omhelzen op een luchthaven"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking thoughtfully through an airplane window at the blue ocean below, children's book illustration style, warm lighting, expressing both excitement and nervousness",
+    "A teenage boy and girl embracing at an airport arrival area with yellow sunflowers between them, children's book illustration style, warm and emotional reunion scene, Portuguese airport setting"
+  ]
+}

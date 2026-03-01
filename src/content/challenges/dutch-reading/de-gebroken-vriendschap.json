@@ -1,0 +1,125 @@
+{
+  "id": "de-gebroken-vriendschap",
+  "title": "De Gebroken Vriendschap",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "vriendschap",
+  "text": "Lara en Finn zijn al sinds groep 3 beste vrienden. Ze doen altijd alles samen: voetballen in de pauze, samen naar de bibliotheek, en elke vrijdag gaan ze naar het zwembad. Maar deze week is alles anders.\n\nHet begon maandag toen Lara de nieuwe jongen uit Duitsland zag. Hij heet Max en spreekt nog niet zo goed Nederlands. Tijdens de lunch ging Lara naast hem zitten om hem te helpen. \"Kom je ook?\" riep ze naar Finn, maar die schudde zijn hoofd en at alleen aan de andere kant van de kantine.\n\nDinsdag speelde Lara weer met Max in plaats van met Finn. Ze legde Max uit hoe je moet voetballen volgens de Nederlandse regels. Finn keek vanaf de zijlijn toe, met zijn armen over elkaar. \"Waarom doe je zo raar?\" vroeg Lara toen ze hem zag staan. \"Ik doe helemaal niet raar,\" antwoordde Finn kortaf, en hij liep weg.\n\nWoensdag probeerde Finn het nog een keer. Hij kwam naar Lara en Max toe. \"Zullen we met z'n drieën voetballen?\" stelde hij voor. Maar Lara zuchtte geërgerd. \"Max begrijpt de spelregels nog niet goed. We moeten eerst oefenen,\" zei ze. Finn voelde zich buitengesloten en besloot om met andere kinderen te gaan spelen.\n\nDonderdag spraken ze bijna geen woord tegen elkaar. Lara dacht dat Finn gewoon jaloers was en niet wilde delen. Finn dacht dat hun vriendschap Lara niet meer interesseerde. Allebei voelden ze zich verdrietig, maar geen van beiden wilde toegeven dat ze de ander misten.\n\nVrijdag stond Finn alleen bij de schoolpoort te wachten op zijn moeder. Normaal zouden hij en Lara samen naar het zwembad gaan, maar dat was nu wel duidelijk niet meer zo. Hij zag Lara en Max samen lachen bij de fietsenrekken. Op dat moment besefte hij hoeveel pijn het deed om zijn beste vriendin kwijt te raken. En Lara, die hem daar alleen zag staan, voelde plotseling hetzelfde.",
+  "questions": [
+    {
+      "question": "Sinds wanneer zijn Lara en Finn beste vrienden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "sinds groep 3",
+        "groep 3"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom ging Lara naast Max zitten tijdens de lunch?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "helpen",
+            "hulp",
+            "geholpen"
+          ],
+          [
+            "nederlands",
+            "taal",
+            "spreken",
+            "spreekt"
+          ],
+          [
+            "nieuw",
+            "nieuwe",
+            "nieuweling"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea nog eens goed."
+    },
+    {
+      "question": "Hoe voelde Finn zich toen Lara zei dat Max eerst moest oefenen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "buitengesloten",
+            "uitgesloten",
+            "alleen gelaten"
+          ],
+          [
+            "verdrietig",
+            "teleurgesteld",
+            "pijn"
+          ],
+          [
+            "jaloers",
+            "afgewezen",
+            "niet welkom"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de vierde alinea hoe Finn reageerde."
+    },
+    {
+      "question": "Vind je dat Lara en Finn allebei fouten hebben gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over beide karakters en dit onderbouwen met voorbeelden uit de tekst. Beide standpunten (ja of nee) zijn acceptabel als ze goed onderbouwd worden.",
+        "exampleAnswer": "Ja, Lara had Finn beter kunnen uitleggen waarom ze Max wilde helpen, en Finn had kunnen zeggen dat hij zich buitengesloten voelde in plaats van boos weg te lopen.",
+        "keyElements": [
+          "communicatie/praten/uitleggen",
+          "beide/allebei",
+          "fouten/verkeerd"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat beide kinderen anders hadden kunnen doen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over miscommunicatie in vriendschappen en hoe misverstanden kunnen ontstaan als vrienden niet met elkaar praten over hun gevoelens.",
+        "exampleAnswer": "Het verhaal gaat over hoe vrienden ruzie kunnen krijgen door misverstanden en slechte communicatie.",
+        "keyElements": [
+          "vriendschap/vrienden",
+          "miscommunicatie/misverstanden/niet praten",
+          "problemen/ruzie/conflicten"
+        ],
+        "minWords": 5
+      },
+      "hint": "Waar gaat het hele verhaal eigenlijk over? Wat is het belangrijkste thema?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-vriendschap/image-1.png",
+      "alt": "Lara en Max voetballen samen terwijl Finn alleen aan de zijkant staat te kijken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-vriendschap/image-2.png",
+      "alt": "Finn staat alleen bij de schoolpoort terwijl Lara en Max samen lachen bij de fietsenrekken"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch schoolyard scene showing a girl and a new boy playing soccer together while another boy stands alone on the sideline looking sad, children's book illustration style",
+    "A Dutch school entrance with a lonely boy waiting by the gate while in the background a girl and another boy are laughing together near the bicycle racks, children's book illustration style"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "de-gebroken-stem",
+  "title": "De Gebroken Stem",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "gezondheid",
+  "text": "**Voor het ongeluk**\nSara zong elke dag. Op school, thuis, tijdens het fietsen naar haar vriendin. Haar stem was haar leven, haar toekomst. De auditie voor het Koninklijk Conservatorium lag nog maar drie weken voor haar.\n\n**Na**\nDe dokter sprak woorden die ze niet wilde horen: \"Permanente stembandschade. Door de operatie aan je keel zal je stem nooit meer hetzelfde zijn.\" Sara staarde naar het plafond. Buiten zongen de vogels alsof er niets was gebeurd.\n\n**Stilte**\nWeken van zwijgen. Mama probeerde haar over te halen om naar beneden te komen voor het eten. Papa zette iedere avond haar favoriete muziek aan, maar Sara deed haar koptelefoon op. Muziek deed pijn. Zingen bestond niet meer.\n\n**Fragmenten van hoop**\nOp een ochtend hoorde ze haar kleine broer Tom beneden tegen de hond praten: \"Waf je maar niet verdrietig, Bello. Sara komt wel weer terug.\" Zijn onschuldige vertrouwen raakte iets in haar hart. Die middag vond ze op haar bureau een briefje van haar beste vriendin: \"Je bent meer dan alleen je stem. Ik mis JOU.\"\n\n**Kleine stappen**\nSara begon voorzichtig te fluisteren - eerst tegen de spiegel, toen tegen Bello, uiteindelijk tegen Tom. Haar nieuwe stem klonk schor en onzeker, maar het was HÁÁr stem. Ze schreef haar eerste liedteksten in maanden, hoewel ze ze nog niet kon zingen.\n\n**Hergeboorte**\nBij de schooltalentenshow stond Sara achter de microfoon. Niet om te zingen, maar om haar gedicht voor te dragen over moed vinden in donkere tijden. Haar schorre fluisterstem vulde de zaal met een kracht die ze nooit eerder had gehad. In het publiek veegde mama een traan weg. Dit was een ander soort mooi.",
+  "questions": [
+    {
+      "question": "Beschrijf hoe Sara's relatie met muziek verandert gedurende het verhaal. Gebruik voorbeelden uit de tekst.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet de transformatie beschrijven van muziek als passie/leven naar muziek als pijn, en uiteindelijk naar een nieuwe vorm van artistieke expressie. Voorbeelden moeten uit de tekst komen.",
+        "exampleAnswer": "Eerst was muziek alles voor Sara - ze zong overal en wilde naar het conservatorium. Na het ongeluk deed muziek pijn en zette ze koptelefoons op. Aan het eind vindt ze een nieuwe manier om zich uit te drukken door gedichten voor te dragen in plaats van zingen.",
+        "keyElements": [
+          "passie naar pijn/vermijden",
+          "nieuwe vorm van expressie/gedicht",
+          "voorbeelden uit tekst"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat muziek voor Sara betekende voor en na het ongeluk, en hoe ze uiteindelijk een nieuwe weg vindt."
+    },
+    {
+      "question": "Welke rol spelen andere mensen in Sara's herstelproces? Geef concrete voorbeelden.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat familie en vrienden Sara helpen door hun onvoorwaardelijke liefde en vertrouwen, ook al trekt Sara zich terug. Concrete voorbeelden moeten worden genoemd.",
+        "exampleAnswer": "Tom helpt door zijn vertrouwen te tonen tegen de hond. Haar vriendin schrijft dat Sara meer is dan haar stem. Mama en papa blijven proberen contact te maken. Bij de talentenjacht veegt mama een traan weg van trots.",
+        "keyElements": [
+          "familie/vrienden helpen",
+          "concrete voorbeelden/citaten",
+          "onvoorwaardelijke steun/liefde"
+        ],
+        "minWords": 7
+      },
+      "hint": "Kijk naar wat Tom, haar vriendin, en haar ouders doen om Sara te steunen."
+    },
+    {
+      "question": "Beoordeel of de schrijver erin slaagt om hoop over te brengen ondanks het tragische onderwerp. Onderbouw je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening geven over de balans tussen tragiek en hoop in het verhaal, en deze onderbouwen met tekstbewijzen of eigen redeneringen.",
+        "exampleAnswer": "Ja, de schrijver brengt hoop over door te laten zien dat Sara een nieuwe vorm van kracht vindt. Het einde met het gedicht en mama's traan laat zien dat Sara nog steeds kunstenaar kan zijn, alleen anders. De titel van haar gedicht over 'moed vinden in donkere tijden' vat de boodschap samen.",
+        "keyElements": [
+          "eigen mening/ja of nee",
+          "onderbouwing met tekstbewijzen",
+          "hoop/transformatie/nieuwe kracht"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan het einde van het verhaal en hoe Sara uiteindelijk toch weer op een podium staat."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het vinden van nieuwe kracht en identiteit na een groot verlies, of over herstel en transformatie na een traumatische ervaring.",
+        "exampleAnswer": "Het verhaal gaat erover dat je na een groot verlies een nieuwe vorm van jezelf kunt ontdekken, en dat kracht soms op onverwachte manieren kan ontstaan.",
+        "keyElements": [
+          "herstel/transformatie na verlies",
+          "nieuwe identiteit/kracht vinden",
+          "hoop na tragiek"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Sara leert over zichzelf en wat de schrijver ons wil leren over omgaan met verlies."
+    },
+    {
+      "question": "Waarom kiest de schrijver ervoor om het verhaal in fragmenten en verschillende tijdsperiodes te vertellen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de gefragmenteerde vorm de gebrokenheid en het herstelproces weergeeft, of dat de verschillende tijdsperiodes de emotionele reis van Sara benadrukken.",
+        "exampleAnswer": "De fragmenten laten zien hoe Sara's leven kapot is gegaan en langzaam weer opgebouwd wordt. De korte stukjes passen bij hoe iemand denkt na een trauma - niet in hele verhalen maar in flarden en herinneringen.",
+        "keyElements": [
+          "fragmentatie toont gebrokenheid/herstel",
+          "structuur past bij emotionele toestand",
+          "vorm ondersteunt inhoud"
+        ],
+        "minWords": 6
+      },
+      "hint": "Let op hoe de korte stukjes en kopjes zoals '**Na**' en '**Stilte**' het verhaal vertellen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-stem/image-1.png",
+      "alt": "Sara zittend in haar kamer, starend uit het raam, met muziekbladen verspreid op haar bureau"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-stem/image-2.png",
+      "alt": "Sara staand achter een microfoon op een podium, sprekend in plaats van zingend, met een zaal vol mensen"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl sitting alone in her bedroom looking out the window, with sheet music scattered on her desk, melancholic atmosphere, children's book illustration style, showing isolation and loss",
+    "A teenage girl standing confidently at a microphone on a school stage, speaking to an audience, warm stage lights, showing transformation and new courage, children's book illustration style"
+  ]
+}

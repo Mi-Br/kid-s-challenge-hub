@@ -1,0 +1,80 @@
+{
+  "id": "het-geheim-van-het-bos",
+  "title": "Het Geheim van het Bos",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "natuur",
+  "text": "Lisa en Tom zijn beste vrienden. Ze spelen elke dag samen in het bos achter hun huis. Het bos heeft veel oude bomen en kleurrijke bloemen.\n\nOp maandag vindt Lisa een klein vogelnest in een boom. In het nest zitten drie blauwe eitjes. \"Wat mooi!\" zegt Lisa. \"We moeten dit geheim houden.\"\n\nTom vertelt het geheim aan zijn grote broer. Zijn broer komt met vrienden naar het bos. Ze maken veel lawaai bij de boom. Lisa wordt boos op Tom.\n\n\"Je hebt ons geheim verteld!\" roept Lisa. \"Nu zijn de vogels bang.\" Lisa wil niet meer met Tom spelen. Ze gaat alleen naar het bos.\n\nTom voelt zich verdrietig. Hij mist zijn beste vriendin. Tom bedenkt een plan. Hij maakt een mooi bordje: \"Stil, vogels aan het werk.\" Hij zet het bordje bij de boom.\n\nLisa ziet het bordje en glimlacht. \"Sorry dat ik boos was,\" zegt ze tegen Tom. \"Jij wilt ook de vogels helpen.\" Nu zijn ze weer vrienden. Ze zorgen samen voor het vogelnest.",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de eitjes?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw",
+        "blauwe"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom werd Lisa boos op Tom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geheim",
+            "geheime"
+          ],
+          [
+            "verteld",
+            "vertelde",
+            "vertel",
+            "vertellen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Tom deed met hun geheim."
+    },
+    {
+      "question": "Wat doet Tom om Lisa te helpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bordje",
+            "bord"
+          ],
+          [
+            "maakt",
+            "maken",
+            "maakte",
+            "gemaakt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de voorlaatste alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-het-bos/image-1.png",
+      "alt": "Lisa en Tom kijken naar een vogelnest met blauwe eitjes in een boom"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-het-bos/image-2.png",
+      "alt": "Tom zet een bordje bij de boom terwijl Lisa toekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, Lisa and Tom, looking up at a bird's nest with blue eggs in an old tree in a Dutch forest, children's book illustration style",
+    "A boy placing a handmade sign that says 'Stil, vogels aan het werk' next to a tree while a girl watches with a smile, children's book illustration style"
+  ]
+}

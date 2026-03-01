@@ -1,0 +1,131 @@
+{
+  "id": "smaak-van-thuis",
+  "title": "Smaak van Thuis",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wereldkeuken",
+  "text": "Aisha kijkt naar de lunch van haar klasgenoot Emma. Emma heeft witte boterhammen met kaas. Aisha heeft een bakje met rijst, groenten en kruiden van thuis.\n\n\"Wat ruikt dat raar,\" zegt Emma. Aisha voelt haar wangen rood worden. Ze klapt het bakje snel dicht. Thuis eet haar familie elke dag Somalisch eten. Haar moeder kookt altijd met verse kruiden.\n\nDie avond vraagt mama: \"Hoe was je lunch?\" Aisha zegt niets. Ze wil morgen ook gewone boterhammen. Maar papa zegt: \"Ons eten is gezond en lekker. Wij zijn trots op onze cultuur.\"\n\nDe volgende dag neemt Aisha weer Somalisch eten mee. Deze keer ruikt Liam het. \"Mmm, dat ruikt goed,\" zegt hij. \"Mag ik proeven?\" Aisha geeft hem een hapje. Liam vindt het heerlijk.\n\nNa school plaatst Aisha een foto van haar lunch op Instagram. Ze schrijft: \"Mijn mama maakt het beste eten!\" Veel klasgenoten geven een hartje. Emma schrijft: \"Sorry van gisteren. Ziet er lekker uit!\"\n\nAisha glimlacht. Ze is blij dat ze trots kan zijn op het eten van thuis.",
+  "questions": [
+    {
+      "question": "Welk soort brood heeft Emma bij de lunch?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "witte boterhammen",
+        "boterhammen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom wordt Aisha verlegen als Emma iets over haar eten zegt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schaamt/schaamt",
+            "verlegen",
+            "geneert",
+            "ongemakkelijk"
+          ],
+          [
+            "anders",
+            "verschil",
+            "afwijkend",
+            "vreemd"
+          ],
+          [
+            "commentaar",
+            "opmerking",
+            "zegt",
+            "vindt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Aisha zich voelt door Emma's reactie."
+    },
+    {
+      "question": "Wat doet Aisha om haar trots te laten zien?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "foto",
+            "plaatst",
+            "post",
+            "zet"
+          ],
+          [
+            "instagram",
+            "social media",
+            "online"
+          ],
+          [
+            "lunch",
+            "eten",
+            "maaltijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Aisha doet na school."
+    },
+    {
+      "question": "Hoe verandert Emma's houding in het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "eerst",
+            "begin",
+            "aanvankelijk",
+            "oorspronkelijk"
+          ],
+          [
+            "negatief",
+            "vervelend",
+            "naar",
+            "rot"
+          ],
+          [
+            "later",
+            "daarna",
+            "uiteindelijk",
+            "ten slotte"
+          ],
+          [
+            "sorry",
+            "excuses",
+            "spijt",
+            "verontschuldigt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Emma reageert in de eerste en laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/smaak-van-thuis/image-1.png",
+      "alt": "Aisha zit aan een schooltafel met een bakje Somalisch eten"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/smaak-van-thuis/image-2.png",
+      "alt": "Aisha maakt een foto van haar lunch voor Instagram"
+    }
+  ],
+  "imagePrompts": [
+    "A young Somali girl sitting at a school cafeteria table with a container of colorful rice and vegetables, looking shy as other children eat sandwiches, children's book illustration style",
+    "The same girl smiling while taking a photo of her traditional lunch with her phone to post on social media, warm lighting, children's book illustration style"
+  ]
+}

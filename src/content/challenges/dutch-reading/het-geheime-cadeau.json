@@ -1,0 +1,73 @@
+{
+  "id": "het-geheime-cadeau",
+  "title": "Het Geheime Cadeau",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "familie",
+  "text": "Volgende week is mama's verjaardag. Lisa wil een mooi cadeau kopen. Ze heeft tien euro gespaard.\n\nLisa gaat met papa naar de winkel. Ze kijkt naar bloemen en snoep. Maar alles is te duur. 'Ik heb niet genoeg geld,' zegt Lisa verdrietig.\n\n'Misschien kun je iets maken,' zegt papa. 'Dat is ook heel mooi.' Lisa denkt na. Het regent buiten. Ze heeft een idee.\n\nThuis maakt Lisa een tekening. Ze tekent mama, papa en zichzelf in de tuin. Ze schrijft er 'Lieve mama' onder. Dan stopt ze de tekening in een mooie envelop.\n\nOp mama's verjaardag geeft Lisa het cadeau. Mama wordt heel blij. 'Dit is het mooiste cadeau ooit!' zegt mama. Ze knuffelt Lisa stevig.",
+  "questions": [
+    {
+      "question": "Hoeveel euro heeft Lisa gespaard?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "tien"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom kan Lisa geen cadeau kopen in de winkel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "duur",
+            "te duur",
+            "dure"
+          ],
+          [
+            "geld",
+            "euro",
+            "genoeg"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa in de tweede alinea zegt."
+    },
+    {
+      "question": "Wat maakt Lisa als cadeau voor mama?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een tekening",
+        "tekening"
+      ],
+      "hint": "Lees de vierde alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheime-cadeau/image-1.png",
+      "alt": "Lisa en papa kijken naar cadeaus in een winkel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheime-cadeau/image-2.png",
+      "alt": "Lisa maakt thuis een tekening voor mama's verjaardag"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl and her father looking at expensive flowers and candy in a shop window, the girl looking disappointed, children's book illustration style, realistic Dutch storefront",
+    "A young girl sitting at a kitchen table making a colorful drawing of her family in a garden, rain visible through the window, warm indoor lighting, children's book illustration style"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "de-geheime-reis-van-oma",
+  "title": "De Geheime Reis van Oma",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "reizen",
+  "text": "Yasmin had altijd gedacht dat haar oma gewoon een eenvoudige Nederlandse vrouw was die haar hele leven in Amsterdam had gewoond. Totdat ze die mysterieuze koffer op zolder vond.\n\nToen oma Fatima hoorde dat Yasmin de oude koffer had ontdekt, werden haar ogen vochtig. \"Kom maar bij me zitten, lieverd,\" zei ze zacht. \"Het wordt tijd dat ik je de waarheid vertel over mijn reis naar Nederland.\" Yasmin merkte dat oma's handen trilden terwijl ze de koffer opende.\n\nBinnenin lagen foto's, brieven en een dagboek. \"Ik ben niet geboren in Nederland,\" begon oma. \"Ik kwam hier als jonge vrouw uit Marokko, helemaal alleen en zonder familie. De reis was zwaar - niet alleen fysiek, maar ook emotioneel. Ik liet alles achter wat ik kende.\" Yasmin staarde naar de zwart-wit foto's van een jonge vrouw die sprekend leek op haarzelf.\n\n\"Waarom heb je dit nooit verteld?\" vroeg Yasmin verbaasd. Oma zuchtte diep. \"In die tijd was het niet makkelijk om anders te zijn. Mensen keken soms vreemd naar immigranten. Ik wilde dat jij en je moeder je gewoon Nederlandse kinderen zouden voelen, zonder de last van vooroordelen.\" Ze pakte Yasmin's hand vast. \"Maar nu besef ik dat ik jullie ook mijn rijke cultuur heb ontnomen.\"\n\nYasmin voelde zich tegelijkertijd verdrietig en boos. Verdrietig omdat oma zich had moeten verstoppen, en boos op de samenleving die haar daartoe had gedwongen. \"Oma, jouw verhaal maakt me juist trots,\" zei ze. \"Je was zo moedig om die reis te maken en hier een nieuw leven op te bouwen.\"\n\nDie avond schreef Yasmin in haar eigen dagboek: \"Vandaag heb ik geleerd dat reizen niet alleen gaat over nieuwe plekken bezoeken. Soms betekent het je verleden onder ogen zien en accepteren wie je werkelijk bent. Oma's grootste reis was misschien wel de weg terug naar haar eigen identiteit.\"\n\nDe volgende week besloten Yasmin en oma samen naar Marokko te reizen. Voor oma was het een emotionele terugkeer naar haar roots, voor Yasmin een ontdekkingstocht naar haar familiegeschiedenis. Tijdens die reis realiseerde Yasmin zich dat echte vrijheid betekent dat je trots kunt zijn op je volledige identiteit, zonder je te hoeven verstoppen voor anderen.",
+  "questions": [
+    {
+      "question": "Waarom besluit oma Fatima om Yasmin eindelijk de waarheid te vertellen over haar verleden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat oma beseft dat het verstoppen van haar identiteit ook negatieve gevolgen had - ze heeft haar familie hun culturele erfgoed ontnomen. Het vinden van de koffer is de aanleiding.",
+        "exampleAnswer": "Omdat Yasmin de koffer heeft gevonden en oma beseft dat ze haar familie hun cultuur heeft ontnomen door zich te verstoppen.",
+        "keyElements": [
+          "koffer/ontdekking",
+          "cultuur/erfgoed ontnomen/weggenomen",
+          "tijd/moment was gekomen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat oma zegt in de vierde alinea over wat ze heeft weggenomen."
+    },
+    {
+      "question": "Hoe voelde Yasmin zich toen ze het verhaal van haar oma hoorde en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet beide emoties benoemen (verdrietig EN boos) en de redenen aangeven: verdrietig omdat oma zich moest verstoppen, boos op de samenleving die dit veroorzaakte.",
+        "exampleAnswer": "Ze voelde zich verdrietig omdat oma zich had moeten verstoppen, en boos op de samenleving die haar daartoe had gedwongen door vooroordelen.",
+        "keyElements": [
+          "verdrietig/teleurgesteld",
+          "boos/kwaad",
+          "verstoppen/verbergen",
+          "vooroordelen/samenleving"
+        ],
+        "minWords": 7
+      },
+      "hint": "Zoek in de vijfde alinea naar Yasmins gevoelens en de redenen daarvoor."
+    },
+    {
+      "question": "Wat is volgens Yasmin de hoofdgedachte van dit verhaal over reizen?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over innerlijke reizen en identiteit accepteren, niet alleen fysieke reizen. De kern is dat reizen ook betekent je verleden onder ogen zien en jezelf accepteren.",
+        "exampleAnswer": "Reizen gaat niet alleen over nieuwe plekken bezoeken, maar ook over je verleden accepteren en ontdekken wie je werkelijk bent.",
+        "keyElements": [
+          "innerlijk/emotioneel reizen",
+          "verleden/identiteit accepteren",
+          "jezelf/wie je bent ontdekken"
+        ],
+        "minWords": 8
+      },
+      "hint": "Lees Yasmins dagboeknotitie in de zesde alinea nog eens goed."
+    },
+    {
+      "question": "Evalueer oma's beslissing om haar Marokkaanse achtergrond jarenlang geheim te houden. Was dit begrijpelijk?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een genuanceerd oordeel geven dat rekening houdt met de historische context (vooroordelen in die tijd) maar ook de negatieve gevolgen erkent (cultureel erfgoed ontnemen). Beide kanten van het argument moeten worden belicht.",
+        "exampleAnswer": "Het was begrijpelijk omdat er toen veel vooroordelen waren en ze haar familie wilde beschermen, maar het had ook negatieve gevolgen omdat ze hun cultuur hebben gemist.",
+        "keyElements": [
+          "begrijpelijk/logisch",
+          "vooroordelen/discriminatie",
+          "beschermen/veiligheid",
+          "negatieve gevolgen/gemiste cultuur"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk aan zowel oma's redenen als de gevolgen van haar keuze."
+    },
+    {
+      "question": "Wat wilde de schrijver van dit verhaal de lezer laten begrijpen over identiteit en acceptatie?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien dat echte vrijheid betekent dat je trots kunt zijn op je volledige identiteit zonder je te hoeven verstoppen, en dat vooroordelen mensen dwingen hun identiteit te verbergen wat schadelijk is.",
+        "exampleAnswer": "De schrijver wil laten zien dat je trots moet kunnen zijn op je hele identiteit en dat vooroordelen mensen dwingen zich te verstoppen, wat slecht is voor iedereen.",
+        "keyElements": [
+          "trots/acceptatie van identiteit",
+          "vooroordelen/discriminatie problematiseren",
+          "vrijheid/authenticiteit",
+          "schade van verstoppen"
+        ],
+        "minWords": 10
+      },
+      "hint": "Kijk naar de laatste zin van het verhaal en wat Yasmin daar realiseert."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-reis-van-oma/image-1.png",
+      "alt": "Yasmin en haar oma Fatima bekijken samen oude foto's en brieven uit een mysterieuze koffer op zolder"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-reis-van-oma/image-2.png",
+      "alt": "Een jonge Marokkaanse vrouw die op een boot naar Nederland reist, met haar bezittingen in een koffer"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage Dutch-Moroccan girl and her elderly grandmother sitting together looking at old photographs and letters from an opened vintage suitcase, warm lighting in an attic setting, children's book illustration style",
+    "A young Moroccan woman in 1960s clothing standing on a boat approaching the Dutch coast, holding a small suitcase, emotional expression, sepia-toned children's book illustration style"
+  ]
+}

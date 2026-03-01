@@ -1,0 +1,128 @@
+{
+  "id": "het-voetbalteam",
+  "title": "Het Voetbalteam",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "sport",
+  "text": "Samir en Lisa spelen allebei graag voetbal. Hun school heeft een nieuw voetbalteam gemaakt. Maar er is een probleem: er is maar plaats voor één keeper.\n\n\"Ik ben de beste keeper!\" zegt Samir tegen de trainer. \"Ik heb vorig jaar bij FC Utrecht getraind.\"\n\nLisa wordt boos. \"Dat is niet waar! Ik kan veel beter keepen dan jij. Kijk maar!\" Ze rent naar het doel en laat zien hoe goed ze de bal kan vangen.\n\nDe trainer kijkt bezorgd. \"Jullie zijn allebei goede keepers, maar ik kan niet kiezen. Kunnen jullie het samen oplossen?\"\n\nSamir en Lisa denken na. Dan krijgt Lisa een idee. \"We kunnen om de beurt keeper zijn. Jij de eerste helft, ik de tweede helft.\"\n\nSamir vindt het eerst geen goed plan. Hij wil de hele wedstrijd keepen. Maar dan bedenkt hij dat Lisa ook graag wil spelen.\n\n\"Oké,\" zegt Samir. \"Maar dan moet jij mij helpen met trainen. Je bent goed in duiken.\"\n\nLisa lacht. \"En jij kunt mij leren hoe ik de bal verder moet gooien. Deal!\"\n\nDe trainer is blij. \"Perfect! Nu hebben we twee goede keepers. Ons team wordt heel sterk dit jaar.\"",
+  "questions": [
+    {
+      "question": "Waar heeft Samir vorig jaar getraind?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij fc utrecht",
+        "fc utrecht"
+      ],
+      "hint": "Kijk naar wat Samir tegen de trainer zegt."
+    },
+    {
+      "question": "Waarom werden Samir en Lisa boos op elkaar?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "keeper",
+            "keepen",
+            "doel"
+          ],
+          [
+            "beide",
+            "allebei",
+            "samen"
+          ],
+          [
+            "plaats",
+            "plek",
+            "positie",
+            "kiezen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over het probleem met het voetbalteam."
+    },
+    {
+      "question": "Hoe lossen Samir en Lisa hun probleem op?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "om de beurt",
+            "beurt",
+            "beurten",
+            "wisselen"
+          ],
+          [
+            "helft",
+            "eerste helft",
+            "tweede helft",
+            "deel",
+            "delen"
+          ],
+          [
+            "samen",
+            "samenwerken",
+            "helpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het idee van Lisa en wat Samir daarna zegt."
+    },
+    {
+      "question": "Vind je dat Samir en Lisa een goede oplossing hebben gevonden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "slim",
+            "prima",
+            "nee",
+            "slecht"
+          ],
+          [
+            "beide",
+            "allebei",
+            "samen",
+            "eerlijk",
+            "rechtvaardig"
+          ],
+          [
+            "spelen",
+            "keepen",
+            "trainen",
+            "leren"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de gevolgen van hun beslissing voor het team."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-voetbalteam/image-1.png",
+      "alt": "Samir en Lisa staan bij het voetbaldoel op school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-voetbalteam/image-2.png",
+      "alt": "De twee kinderen schudden handen terwijl de trainer kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "Two diverse children in soccer uniforms standing by a goal post on a Dutch school playground, one catching a soccer ball, children's book illustration style",
+    "Two young soccer players shaking hands in front of their coach on a sunny Dutch soccer field, both smiling, children's book illustration style"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "oma-s-jurk",
+  "title": "Oma's Jurk",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "kleding",
+  "text": "Lila draagt altijd haar mooie blauwe jurk naar school. De jurk was van haar oma toen oma nog klein was. \"Deze jurk is heel bijzonder\", zegt mama altijd.\n\nVanmorgen kan Lila haar jurk niet vinden. Ze kijkt in haar kast, maar hij hangt er niet. Ze zoekt onder haar bed en in de wasmand. Lila wordt verdrietig omdat ze de jurk kwijt is.\n\n\"Mama, waar is mijn blauwe jurk?\" vraagt Lila met tranen in haar ogen. Mama helpt zoeken. Ze kijken samen in alle kamers van het huis.\n\nToen ging papa naar de tuin. \"Kijk eens hier!\", roept hij. De jurk hangt aan de waslijn! Mama had hem gisteren gewassen want hij was vies geworden.\n\n\"Nu is de jurk weer schoon en fris\", zegt mama. Lila trekt de jurk snel aan. Ze voelt zich weer blij omdat oma's bijzondere jurk terug is.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Lila's jurk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw",
+        "blauwe"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Welke kleur heeft Lila's jurk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw",
+        "blauwe"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom werd Lila verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "jurk",
+            "kleding"
+          ],
+          [
+            "kwijt",
+            "weg",
+            "niet vinden",
+            "vinden",
+            "zoeken",
+            "verdwenen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lila in de tweede alinea niet kon vinden."
+    },
+    {
+      "question": "Vind jij dat mama goed heeft geholpen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed"
+          ],
+          [
+            "helpen",
+            "hielp",
+            "zoeken",
+            "zocht",
+            "samen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat mama deed toen Lila verdrietig was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/oma-s-jurk/image-1.png",
+      "alt": "Lila in een mooie blauwe jurk"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/oma-s-jurk/image-2.png",
+      "alt": "De blauwe jurk hangt aan de waslijn in de tuin"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl wearing a beautiful blue dress, standing happily in a bedroom, children's book illustration style",
+    "A blue dress hanging on a clothesline in a Dutch garden with the family looking relieved, children's book illustration style"
+  ]
+}

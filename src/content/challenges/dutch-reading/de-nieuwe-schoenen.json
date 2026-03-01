@@ -1,0 +1,50 @@
+{
+  "id": "de-nieuwe-schoenen",
+  "title": "De Nieuwe Schoenen",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "kleding",
+  "text": "Lisa heeft nieuwe schoenen. Ze zijn rood en wit. Lisa vindt de schoenen mooi maar eng.\n\n\"Mama, ik ben bang,\" zegt Lisa. \"De schoenen zijn zo mooi. Wat als ze vies worden?\"\n\n\"Schoenen zijn er om te dragen,\" zegt mama. \"Ga maar spelen.\"\n\n\"Maar mama,\" zegt Lisa. \"Ik wil ze niet kapot maken.\"\n\nMama lacht. \"Kom, we gaan naar buiten. Dan zie je dat het goed gaat.\"\n\nLisa loopt voorzichtig naar buiten. Ze kijkt naar haar schoenen. Ze zijn nog steeds mooi.\n\n\"Kijk!\" zegt mama. \"Je schoenen zijn nog heel. Je kunt gewoon spelen.\"\n\nLisa rent nu vrolijk rond. \"De schoenen zijn niet kapot!\" roept ze blij.",
+  "questions": [
+    {
+      "question": "Welke kleuren hebben Lisa's schoenen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood en wit"
+      ],
+      "hint": "Kijk naar de tweede zin."
+    },
+    {
+      "question": "Wat zegt mama over schoenen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "schoenen zijn er om te dragen"
+      ],
+      "hint": "Kijk naar wat mama zegt in het tweede stukje."
+    },
+    {
+      "question": "Hoe voelt Lisa zich aan het eind?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blij",
+        "vrolijk"
+      ],
+      "hint": "Kijk naar de laatste zin."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-schoenen/image-1.png",
+      "alt": "Lisa met rode en witte schoenen die bang kijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-schoenen/image-2.png",
+      "alt": "Lisa die vrolijk rent met haar schoenen aan"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Lisa looking worried while wearing beautiful red and white shoes, standing indoors with her mother nearby, children's book illustration style",
+    "The same girl Lisa now running happily outside in her red and white shoes, with a big smile on her face, children's book illustration style"
+  ]
+}

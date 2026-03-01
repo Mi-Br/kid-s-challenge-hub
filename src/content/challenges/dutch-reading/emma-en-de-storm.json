@@ -1,0 +1,90 @@
+{
+  "id": "emma-en-de-storm",
+  "title": "Emma en de Storm",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "\"Emma, kom je buiten spelen?\" roept Liam door het raam.\n\n\"Nee!\" zegt Emma. \"Het is veel te donker buiten. Er komen dikke wolken aan!\"\n\nMama kijkt naar buiten. De wind waait hard door de bomen. \"Het gaat regenen,\" zegt mama. \"Maar eerst is er onweer.\"\n\n\"Ik ben bang voor onweer,\" fluistert Emma. \"Die harde dondergeluiden zijn eng.\"\n\nToen begint het. BOEM! De eerste donderslag. Emma rent naar haar kamer omdat ze zo bang is. Ze verstopt zich onder haar dekbed.\n\n\"Emma, kom eens hier,\" roept papa vanuit de keuken. \"Kijk eens wat ik zie!\"\n\nEmma loopt langzaam naar de keuken. Door het raam ziet ze iets moois. \"Wow! Een regenboog!\" roept ze blij.\n\n\"Ja,\" lacht papa. \"Na elke storm komt er iets moois. De regenboog komt altijd na de regen.\"\n\nEmma gaat bij het raam staan. \"De storm is voorbij,\" zegt ze zacht. \"En ik was helemaal niet zo bang meer!\"\n\nLiam klopt op de deur. \"Emma, nu kun je wel buiten komen. De zon schijnt weer!\"\n\n\"Ja!\" roept Emma. \"Nu ga ik buiten spelen. Want ik ben niet meer bang voor het weer!\"",
+  "questions": [
+    {
+      "question": "Wat zegt mama over het weer?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het gaat regenen",
+        "maar eerst is er onweer"
+      ],
+      "hint": "Kijk naar wat mama zegt in de tweede alinea."
+    },
+    {
+      "question": "Waar verstopt Emma zich toen ze de donder hoorde?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "onder haar dekbed"
+      ],
+      "hint": "Lees wat Emma doet nadat ze naar haar kamer rent."
+    },
+    {
+      "question": "Waarom was Emma eerst bang om buiten te spelen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "bevreesd"
+          ],
+          [
+            "onweer",
+            "storm",
+            "donder",
+            "donderslag",
+            "donker",
+            "wolken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma zegt over het donkere weer en harde geluiden."
+    },
+    {
+      "question": "Wat betekent het woord 'donderslag' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Emma zegt dat deze geluiden eng zijn en er staat BOEM in het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "hard geluid van onweer"
+          ],
+          [
+            "geluid van de donder"
+          ],
+          [
+            "harde dondergeluid"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/emma-en-de-storm/image-1.png",
+      "alt": "Emma verstopt zich bang onder haar dekbed tijdens onweer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/emma-en-de-storm/image-2.png",
+      "alt": "Emma en papa kijken samen naar een mooie regenboog door het keukenraam"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl hiding scared under her blanket in her bedroom during a thunderstorm, dark clouds visible through the window, children's book illustration style",
+    "A happy Dutch girl and her father looking out a kitchen window at a beautiful rainbow after the storm, sunshine breaking through clouds, children's book illustration style"
+  ]
+}

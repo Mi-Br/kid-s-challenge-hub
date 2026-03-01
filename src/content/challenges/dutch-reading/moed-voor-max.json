@@ -1,0 +1,114 @@
+{
+  "id": "moed-voor-max",
+  "title": "Moed voor Max",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "huisdieren",
+  "text": "Lisa liep elke dag langs het huis van meneer Jansen op weg naar school. Achter het hek zat Max, een kleine bruine hond met droevige ogen. De hond kreeg nooit vers water en zijn voerbak was altijd leeg. Lisa zag dat Max probeerde te spelen met een kapotte bal, maar hij had geen energie meer.\n\nOp een regenachtige dinsdag hoorde Lisa Max zachtjes janken omdat hij geen schuilplek had. Zijn hondenhok was veel te klein en lek. Lisa wilde iets zeggen tegen meneer Jansen, maar ze durfde niet. Hij was een grote, boze man die altijd tegen kinderen schreeuwde. Wat als hij boos op haar werd?\n\nDie avond vertelde Lisa alles aan haar ouders. \"Soms moet je moedig zijn, ook als je bang bent,\" zei papa. \"Max kan zichzelf niet helpen.\" Mama knikte: \"Er zijn mensen die dieren kunnen beschermen. Wij kunnen hen bellen.\"\n\nDe volgende dag belde mama de dierenbescherming. Een vriendelijke vrouw kwam Max ophalen en bracht hem naar een veilig tehuis. Twee weken later zag Lisa Max weer – hij woonde nu bij de buren en rende vrolijk in hun grote tuin. Lisa voelde zich trots omdat ze had geholpen.",
+  "questions": [
+    {
+      "question": "Welke kleur was Max?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bruin",
+        "bruine"
+      ],
+      "hint": "Kijk naar de eerste alinea waar Max wordt beschreven."
+    },
+    {
+      "question": "Waarom durfde Lisa eerst niet tegen meneer Jansen te praten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "durfde niet"
+          ],
+          [
+            "boos",
+            "schreeuwde",
+            "schreeuwen",
+            "grote man"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe meneer Jansen werd beschreven in de tweede alinea."
+    },
+    {
+      "question": "Wat betekent 'dierenbescherming' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk wat de dierenbescherming deed nadat mama hen belde.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "mensen die dieren helpen"
+          ],
+          [
+            "organisatie die dieren helpt"
+          ],
+          [
+            "mensen die zorgen voor dieren"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind je dat Lisa de juiste keuze heeft gemaakt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lisa's handeling en deze onderbouwen met argumenten uit het verhaal of eigen ervaring. Een positieve of negatieve mening is acceptabel zolang deze wordt uitgelegd.",
+        "exampleAnswer": "Ja, Lisa deed het goede omdat Max nu gelukkig is en zij hulp heeft gevraagd toen ze het alleen niet kon.",
+        "keyElements": [
+          "mening/vind/denk",
+          "omdat/want/uitleg",
+          "Max/hond/dier"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat er met Max is gebeurd door Lisa's keuze."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed tonen om anderen te helpen, ook als je bang bent. Het kan ook gaan over het vragen van hulp aan volwassenen.",
+        "exampleAnswer": "Het verhaal gaat erover dat je soms moedig moet zijn om anderen te helpen, ook als je bang bent.",
+        "keyElements": [
+          "moed/moedig/durfde",
+          "helpen/beschermen",
+          "bang/durfde niet"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat papa zei en hoe Lisa zich aan het eind voelde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/moed-voor-max/image-1.png",
+      "alt": "Max, een kleine bruine hond, zit verdrietig achter een hek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/moed-voor-max/image-2.png",
+      "alt": "Max rent vrolijk in een grote tuin bij zijn nieuwe familie"
+    }
+  ],
+  "imagePrompts": [
+    "A small brown dog named Max sitting sadly behind a fence, looking neglected with empty food bowl and broken toy, children's book illustration style, Dutch suburban setting",
+    "The same brown dog Max now running happily in a large garden with new caring neighbors, bright and cheerful scene, children's book illustration style"
+  ]
+}

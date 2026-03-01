@@ -1,0 +1,85 @@
+{
+  "id": "emmas-verjaardagsspel",
+  "title": "Emma's Verjaardagsspel",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verjaardagen",
+  "text": "Emma wordt vandaag acht jaar. Ze heeft een groot verjaardagsfeest in de tuin. Haar vrienden komen allemaal. Er zijn ballonnen en slingers.\n\nMama zegt: 'We gaan een leuk spelletje doen!' Alle kinderen staan in een kring. Het spelletje heet 'muziekstoel'. Er zijn zeven stoelen maar acht kinderen. De muziek speelt en iedereen danst rond de stoelen.\n\nDe muziek stopt! Alle kinderen rennen naar een stoel. Tom heeft geen stoel. Hij is verdrietig omdat hij eruit moet. Emma ziet dat Tom huilt.\n\nEmma heeft een goed idee. Ze zegt: 'We gaan een ander spelletje doen!' Ze pakt een bal. 'We gaan bal gooien in de kring. Iedereen mag meedoen!' Alle kinderen lachen weer. Tom is blij omdat hij ook mag spelen. Het wordt het leukste verjaardagsfeest ooit!",
+  "questions": [
+    {
+      "question": "Hoe oud wordt Emma?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "acht"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoeveel stoelen zijn er bij het muziekstoel spelletje?",
+      "questionType": "begrijpen",
+      "hint": "Lees de tweede alinea goed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "zeven"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was Tom verdrietig?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geen stoel",
+            "stoel",
+            "stoelen"
+          ],
+          [
+            "eruit",
+            "weg",
+            "af",
+            "verloren",
+            "niet meedoen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na wat er gebeurde toen de muziek stopte."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/emmas-verjaardagsspel/image-1.png",
+      "alt": "Emma en haar vrienden spelen muziekstoel in de tuin met ballonnen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/emmas-verjaardagsspel/image-2.png",
+      "alt": "Emma en alle kinderen spelen bal gooien in een kring, iedereen lacht"
+    }
+  ],
+  "imagePrompts": [
+    "Children playing musical chairs at a birthday party in a Dutch garden with balloons and decorations, children's book illustration style",
+    "A group of children playing ball in a circle at a birthday party, everyone smiling and having fun, children's book illustration style"
+  ]
+}

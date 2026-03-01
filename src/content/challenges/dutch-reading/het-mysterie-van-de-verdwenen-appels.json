@@ -1,0 +1,112 @@
+{
+  "id": "het-mysterie-van-de-verdwenen-appels",
+  "title": "Het Mysterie van de Verdwenen Appels",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de markt",
+  "text": "Elke zaterdag gaat Lisa met haar oma naar de grote markt in het centrum. Ze lopen altijd eerst naar de kraam van meneer Bakker. Hij verkoopt de lekkerste appels van de hele markt.\n\nVandaag is er iets vreemds aan de hand. Meneer Bakker kijkt bezorgd naar zijn lege kraampje. \"Alle rode appels zijn vannacht verdwenen!\" roept hij uit. \"Ik had gisteravond nog drie volle kisten, maar nu zijn ze allemaal weg.\"\n\nLisa en oma besluiten om te helpen. Ze lopen rond en stellen vragen aan andere marktkooplui. De visverkoper zegt dat hij niets heeft gezien, want hij kwam pas om zes uur vanmorgen. De bloemenvrou heeft wel iets gehoord: \"Ik hoorde om vier uur 's nachts vreemde geluiden van de appelkraam.\"\n\nToen Lisa goed naar de grond keek, ontdekte ze kleine rode stukjes appel die een spoor vormden. Het spoor leidde naar de grote vuilcontainer achter de markt. Daar vonden ze een familie eekhoorns die druk bezig was met het eten van de gestolen appels!\n\n\"Kijk eens aan,\" lachte meneer Bakker toen hij het hoorde. \"Mijn appels zijn zo lekker dat zelfs de eekhoorns ze niet kunnen weerstaan. Volgende week hang ik een net over mijn kraam.\"",
+  "questions": [
+    {
+      "question": "Naar welke kraam lopen Lisa en oma altijd eerst?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de kraam van meneer bakker",
+        "meneer bakker",
+        "de appelkraam"
+      ],
+      "hint": "Lees de eerste alinea nog eens goed."
+    },
+    {
+      "question": "Waarom is meneer Bakker bezorgd?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "appels",
+            "appel"
+          ],
+          [
+            "verdwenen",
+            "weg",
+            "gestolen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat er met zijn appels is gebeurd."
+    },
+    {
+      "question": "Hoe vond Lisa de daders van de appeldiefstal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "spoor",
+            "stukjes",
+            "stukje"
+          ],
+          [
+            "volgde",
+            "volgden",
+            "gevolgd",
+            "leidde",
+            "lopen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa op de grond ontdekte."
+    },
+    {
+      "question": "Vind je dat meneer Bakker goed reageert op de appeldiefstal? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet",
+            "goed",
+            "slecht"
+          ],
+          [
+            "lacht",
+            "lachte",
+            "grappig",
+            "leuk",
+            "vrolijk",
+            "boos",
+            "verdrietig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op hoe meneer Bakker reageert in de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-appels/image-1.png",
+      "alt": "Lisa en oma bij de lege appelkraam van meneer Bakker op de markt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-appels/image-2.png",
+      "alt": "Een familie eekhoorns die appels eet bij de vuilcontainer"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her grandmother looking at an empty market stall with worried vendor, Dutch market scene, children's book illustration style",
+    "A family of squirrels eating red apples near a garbage container behind a Dutch market, children's book illustration style"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "het-geheim-van-de-herfstbladeren",
+  "title": "Het Geheim van de Herfstbladeren",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "seizoenen",
+  "text": "Emma loopt door het Vondelpark in Amsterdam. Het is oktober en de bladeren zijn geel en oranje. Ze ziet veel bladeren op de grond liggen.\n\nEen oude man zit op een bankje. Hij kijkt naar de bomen en glimlacht. Emma is nieuwsgierig. Waarom is hij zo blij?\n\n\"De bladeren vertellen een verhaal,\" zegt de man. \"Elke kleur betekent iets anders. Gele bladeren betekenen dat de winter komt. Oranje bladeren betekenen dat de boom gezond is.\"\n\nEmma kijkt goed naar de bladeren. Nu begrijpt ze het geheim. De natuur praat met ons door kleuren. Het is een mooie boodschap van de herfst.",
+  "questions": [
+    {
+      "question": "In welke maand speelt het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "oktober"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke twee kleuren bladeren ziet Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel en oranje",
+        "oranje en geel"
+      ],
+      "hint": "De kleuren staan in de eerste alinea."
+    },
+    {
+      "question": "Waarom is de oude man blij?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bladeren",
+            "verhaal",
+            "natuur",
+            "kleuren"
+          ],
+          [
+            "vertellen",
+            "praten",
+            "betekenen",
+            "betekent"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat de man tegen Emma zegt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-herfstbladeren/image-1.png",
+      "alt": "Emma loopt door het Vondelpark met gele en oranje herfstbladeren"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-herfstbladeren/image-2.png",
+      "alt": "Een oude man op een bankje praat met Emma over de bladeren"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl walking through Vondelpark in Amsterdam in autumn, with yellow and orange leaves on trees and ground, children's book illustration style",
+    "An elderly man sitting on a park bench talking to a curious young girl, surrounded by autumn leaves, warm afternoon light, children's book illustration style"
+  ]
+}

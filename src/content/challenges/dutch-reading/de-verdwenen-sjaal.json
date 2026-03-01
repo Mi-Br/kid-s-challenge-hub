@@ -1,0 +1,75 @@
+{
+  "id": "de-verdwenen-sjaal",
+  "title": "De Verdwenen Sjaal",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "kleding",
+  "text": "Emma kreeg een mooie rode sjaal van haar oma. De sjaal was heel bijzonder omdat oma hem zelf had gebreid. Emma droeg de sjaal elke dag naar school.\n\nOp woensdag kwam Emma thuis van school. Ze wilde haar sjaal ophangen, maar hij was weg! Emma keek overal in haar tas. De sjaal was er niet. Haar moeder vroeg: \"Waar is je sjaal?\" Emma werd verdrietig omdat ze de sjaal kwijt was.\n\nEmma ging naar school om te zoeken. Juf Marieke hielp haar kijken in de klas. Ze zochten onder alle tafels en stoelen. Toen ging Emma naar de speelplaats. Daar lag de rode sjaal onder de glijbaan!\n\nEmma was zo blij dat ze de sjaal terugvond. Ze begreep nu waarom de sjaal weg was. Tijdens de pauze had ze onder de glijbaan gespeeld. De sjaal was toen van haar nek gevallen.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de sjaal van Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk naar de eerste en derde alinea."
+    },
+    {
+      "question": "Waar vond Emma haar sjaal terug?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "onder de glijbaan"
+      ],
+      "hint": "Lees de derde alinea goed."
+    },
+    {
+      "question": "Waarom was de sjaal zo belangrijk voor Emma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "oma",
+            "oma's"
+          ],
+          [
+            "gebreid",
+            "gemaakt",
+            "gekregen",
+            "kreeg"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wie de sjaal heeft gemaakt."
+    },
+    {
+      "question": "Wat betekent het woord 'kwijt' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "acceptableAnswers": [
+        "verloren",
+        "weg",
+        "niet meer hebben"
+      ],
+      "hint": "Emma kan haar sjaal niet meer vinden."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-sjaal/image-1.png",
+      "alt": "Emma draagt een rode sjaal op weg naar school"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-sjaal/image-2.png",
+      "alt": "Emma vindt haar rode sjaal onder de glijbaan op de speelplaats"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with a beautiful red knitted scarf walking to a Dutch elementary school, children's book illustration style",
+    "A young girl finding her red scarf under a playground slide at a Dutch school playground, looking very happy and relieved, children's book illustration style"
+  ]
+}

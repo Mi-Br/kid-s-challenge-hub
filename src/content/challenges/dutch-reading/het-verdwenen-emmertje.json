@@ -1,0 +1,121 @@
+{
+  "id": "het-verdwenen-emmertje",
+  "title": "Het Verdwenen Emmertje",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "Lisa ging naar de zandbak met haar rode emmertje. Het was haar lievelingsemmertje omdat het van oma kwam. Ze maakte een groot zandkasteel met torens en muren.\n\nToen Lisa naar huis ging voor de lunch, zette ze het emmertje naast de zandbak. \"Ik kom zo terug,\" zei ze tegen zichzelf. Na het eten rende ze snel naar buiten omdat ze wilde verder spelen.\n\nMaar het emmertje was weg! Lisa keek overal: onder de glijbaan, bij de schommels, achter de struiken. Haar ogen werden nat want ze was verdrietig. Het emmertje was zo bijzonder voor haar.\n\nToen zag ze Tom met een rood emmertje spelen. \"Dat is mijn emmertje!\" riep Lisa boos. Tom keek verbaasd. \"Nee, dit is van mij,\" zei hij zacht. \"Ik heb het van thuis meegenomen.\"\n\nLisa begreep dat ze zich vergiste. Ze voelde zich een beetje dom omdat ze zo boos was geworden. Samen gingen ze zoeken en vonden haar emmertje eindelijk achter een boom. De wind had het daar geblazen.",
+  "questions": [
+    {
+      "question": "Waarom was het rode emmertje zo bijzonder voor Lisa?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "kwam"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen ze het emmertje niet kon vinden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "droevig",
+            "triest",
+            "bedroefd"
+          ],
+          [
+            "huilen",
+            "nat",
+            "tranen",
+            "janken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met haar ogen gebeurde."
+    },
+    {
+      "question": "Wat betekent het woord 'vergiste' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa dacht dat Tom haar emmertje had, maar dat was niet zo.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "een fout maakte"
+          ],
+          [
+            "fout had"
+          ],
+          [
+            "verkeerd dacht"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat Lisa goed reageerde toen ze Tom zag met een rood emmertje? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "niet",
+            "nee",
+            "slecht",
+            "fout"
+          ],
+          [
+            "boos",
+            "riep",
+            "schreeuwde"
+          ],
+          [
+            "eerst",
+            "vragen",
+            "denken",
+            "kijken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa reageerde zonder eerst te vragen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-emmertje/image-1.png",
+      "alt": "Lisa speelt in de zandbak met haar rode emmertje"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-emmertje/image-2.png",
+      "alt": "Lisa en Tom zoeken samen naar het verdwenen emmertje"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl playing happily in a sandbox with a red bucket, building a sandcastle with towers, children's book illustration style, bright sunny day in a Dutch playground",
+    "Two children searching together behind trees and bushes for a lost red bucket, the girl looking worried but hopeful, children's book illustration style, Dutch neighborhood playground setting"
+  ]
+}

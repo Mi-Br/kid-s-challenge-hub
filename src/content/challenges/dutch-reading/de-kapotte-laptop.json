@@ -1,0 +1,100 @@
+{
+  "id": "de-kapotte-laptop",
+  "title": "De Kapotte Laptop",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "technologie",
+  "text": "Saar zit aan haar bureau. Haar laptop doet het niet meer. Het scherm is zwart. Ze drukt op alle knoppen maar er gebeurt niets. Morgen moet ze haar werkstuk inleveren.\n\nSaar belt haar vader. \"Papa, mijn laptop is kapot!\" zegt ze. \"Wat moet ik nu doen?\" Haar vader zegt: \"Kom maar naar beneden. We kijken samen.\"\n\nPapa kijkt naar de laptop. Hij ziet dat de oplader er niet in zit. \"Saar, de batterij is leeg,\" zegt hij. \"Hier is de oplader.\" Hij stopt de oplader in de laptop.\n\nNa een paar minuten gaat de laptop aan. Het scherm wordt wit. Saar is heel blij. \"Bedankt papa!\" zegt ze. \"Nu kan ik mijn werkstuk afmaken.\" Ze begint meteen te typen.\n\nSaar maakt haar werkstuk af. Ze verstuurt het naar haar docent via de mail. Daarna sluit ze de laptop af. Ze zet de oplader meteen in de laptop. Zo wordt de batterij weer vol.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft het scherm als de laptop kapot lijkt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zwart"
+      ],
+      "hint": "Kijk naar de tweede zin van het verhaal."
+    },
+    {
+      "question": "Waarom doet de laptop het niet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "batterij",
+            "accu",
+            "stroom"
+          ],
+          [
+            "leeg",
+            "op",
+            "geen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Papa ontdekt wat er mis is in het derde stukje."
+    },
+    {
+      "question": "Hoe voelt Saar zich als de laptop weer werkt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "gelukkig",
+            "opgelucht",
+            "tevreden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het vierde stukje goed."
+    },
+    {
+      "question": "Wat doet Saar om hetzelfde probleem te voorkomen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "oplader",
+            "lader",
+            "stekker"
+          ],
+          [
+            "erin",
+            "in",
+            "aansluiten",
+            "zetten",
+            "stoppen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-laptop/image-1.png",
+      "alt": "Een meisje zit aan haar bureau en kijkt bezorgd naar een laptop met zwart scherm"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kapotte-laptop/image-2.png",
+      "alt": "Een vader en dochter kijken samen naar de laptop, de vader houdt de oplader vast"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch girl sitting at her desk looking worried at a laptop with black screen, children's book illustration style, modern bedroom setting",
+    "A Dutch father and daughter looking at laptop together, father holding power adapter, both smiling as they solve the problem, children's book illustration style"
+  ]
+}

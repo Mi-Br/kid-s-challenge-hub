@@ -1,0 +1,118 @@
+{
+  "id": "mijn-eerste-verkiezingen",
+  "title": "Mijn Eerste Verkiezingen",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "democratie",
+  "text": "Lisa is zestien jaar oud. Volgende maand zijn er verkiezingen in Nederland. Het is haar eerste keer stemmen. Ze is zenuwachtig.\n\n\"Ik weet niet op welke partij ik moet stemmen,\" zegt Lisa tegen haar moeder. \"Er zijn zo veel partijen. Wat als ik de verkeerde kies?\" Haar moeder glimlacht. \"Het is normaal om zenuwachtig te zijn. Ik was ook bang bij mijn eerste verkiezingen.\"\n\nLisa leest over alle partijen op internet. Ze praat met vrienden op school. Iedereen heeft een andere mening. Sommige vrienden vinden het milieu het belangrijkst. Andere vrienden denken meer aan werk en geld. Lisa voelt zich nog meer verward.\n\nThuis denkt Lisa na over wat zij belangrijk vindt. Ze schrijft haar gedachten op papier. Ze realiseert zich dat ze zich zorgen maakt over het klimaat. Ook vindt ze dat iedereen gelijk behandeld moet worden. Deze dingen zijn het belangrijkst voor haar.\n\nOp de dag van de verkiezingen gaat Lisa naar het stembureau. Haar hart klopt snel. Ze is nog steeds een beetje bang. Maar ze weet nu wat ze belangrijk vindt. Ze stemt op de partij die het beste bij haar ideeën past. \"Niemand kan perfect stemmen,\" denkt Lisa. \"Maar ik heb mijn best gedaan.\"\n\nNa het stemmen voelt Lisa zich trots. Ze heeft meegedaan aan de democratie. Het was eng, maar ze heeft het gedaan. Ze kijkt uit naar de volgende verkiezingen.",
+  "questions": [
+    {
+      "question": "Hoe oud is Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zestien",
+        "zestien jaar",
+        "zestien jaar oud"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom voelt Lisa zich verward over de verkiezingen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "veel",
+            "vele",
+            "zo veel"
+          ],
+          [
+            "partijen",
+            "partij",
+            "keuzes",
+            "keuze"
+          ],
+          [
+            "verschillende",
+            "andere",
+            "anders",
+            "meningen",
+            "mening"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa zegt tegen haar moeder en wat ze ervaart met haar vrienden."
+    },
+    {
+      "question": "Welke twee dingen vindt Lisa het belangrijkst?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "klimaat",
+            "milieu",
+            "natuur"
+          ],
+          [
+            "gelijk",
+            "eerlijk",
+            "rechtvaardig",
+            "behandeld",
+            "behandeling"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lisa denkt thuis na en schrijft haar gedachten op papier."
+    },
+    {
+      "question": "Hoe voelt Lisa zich na het stemmen en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "trots",
+            "goed",
+            "tevreden",
+            "blij"
+          ],
+          [
+            "meegedaan",
+            "deelgenomen",
+            "gedaan",
+            "democratie",
+            "gestemd",
+            "stemmen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea over hoe Lisa zich voelt na de verkiezingen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-verkiezingen/image-1.png",
+      "alt": "Lisa leest informatie over politieke partijen op haar laptop thuis"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/mijn-eerste-verkiezingen/image-2.png",
+      "alt": "Lisa stemt in een stemhokje bij het stembureau"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl reading about political parties on her laptop at home, looking thoughtful and slightly worried, children's book illustration style, Dutch home interior",
+    "A young woman casting her vote in a voting booth at a Dutch polling station, looking nervous but determined, children's book illustration style"
+  ]
+}

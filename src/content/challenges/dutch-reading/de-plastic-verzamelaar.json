@@ -1,0 +1,118 @@
+{
+  "id": "de-plastic-verzamelaar",
+  "title": "De Plastic Verzamelaar",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "milieu",
+  "text": "Daan had altijd een bijzondere manier gehad om de wereld te bekijken. Waar anderen chaos zagen, ontdekte hij patronen. Waar anderen rommel zagen, vond hij schatten. Dit kwam hem goed van pas toen hij Lisa ontmoette, een meisje uit zijn klas dat net zo gepassioneerd was over het milieu als hij over het verzamelen van plastic voorwerpen.\n\nHun eerste afspraakje was onconventioneel: samen plastic afval opruimen langs de Amsterdamse grachten. Terwijl Lisa de verzamelde flessen en zakken naar de recyclingcontainer bracht, sorteerde Daan alles minutieus op kleur, vorm en materiaalsoort. 'Je bent wel heel anders dan andere jongens,' merkte Lisa op, maar haar glimlach verried dat ze dit juist charmant vond.\n\nNaarmate hun relatie groeide, begon Daan te begrijpen dat liefde net zo complex was als zijn verzamelsystemen. Lisa had duidelijke grenzen nodig - ze wilde bijvoorbeeld niet dat hij tijdens hun gesprekken voortdurend plastic voorwerpen bestudeerde. In het begin voelde dit beperkend aan voor Daan, die gewend was om zijn omgeving constant te analyseren als een manier om zich veilig te voelen.\n\nDe echte uitdaging kwam toen Lisa voorstelde om samen een grote milieuactie te organiseren op school. 'We kunnen een plastic-vrije week houden,' stelde ze enthousiast voor. 'Jij kent alle soorten plastic beter dan wie dan ook!' Daan voelde zijn maag omdraaien. Het idee om voor een grote groep te moeten spreken, terwijl iedereen naar hem keek, was overweldigend. Bovendien betekende een plastic-vrije week dat hij zijn dagelijkse routine van plastic bestuderen zou moeten onderbreken.\n\nDie avond belde Daan zijn moeder, die hem herinnerde aan iets belangrijks: 'Toen je klein was, durfde je geen nieuwe speeltuinen te bezoeken omdat alles anders was. Maar uiteindelijk vond je altijd een manier om je eigen plekje te creëren.' Haar woorden deden hem beseffen dat zijn angst voor verandering voortkwam uit oude ervaringen waarbij hij zich niet begrepen had gevoeld.\n\nTijdens een eerlijk gesprek met Lisa legde Daan uit hoe moeilijk sociale situaties voor hem konden zijn, en hoe zijn plastic-obsessie hem hielp om structuur te vinden in een chaotische wereld. Lisa luisterde aandachtig en stelde voor: 'Wat als we de actie aanpassen? Jij kunt workshops geven over plastic herkenning - kleine groepjes, met je verzameling als hulpmiddel. Dan gebruik je je specialiteit zonder dat je je oncomfortabel voelt.'\n\nDe milieuweek werd een groot succes. Daan's workshops over 'Plastic Detective worden' trokken veel belangstelling, en hij merkte dat zijn grondige kennis anderen echt hielp bewustere keuzes te maken. Het belangrijkste was echter dat hij had geleerd om zijn behoeften te communiceren zonder zich ervoor te schamen, en dat Lisa had leren begrijpen hoe zij hem kon ondersteunen zonder zichzelf tekort te doen.",
+  "questions": [
+    {
+      "question": "Wat stelt Lisa voor om samen op school te organiseren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een plastic-vrije week",
+        "een milieuactie",
+        "een grote milieuactie"
+      ],
+      "hint": "Zoek in de vierde paragraaf naar Lisa's voorstel."
+    },
+    {
+      "question": "Waarom voelt Daan zich overweldigd door Lisa's voorstel voor de milieuactie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "grote groep",
+            "groep",
+            "iedereen",
+            "publiek",
+            "mensen"
+          ],
+          [
+            "spreken",
+            "praten",
+            "presenteren"
+          ],
+          [
+            "kijken",
+            "keek",
+            "aandacht",
+            "bekeken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Daan overweldigend vindt in de vierde paragraaf."
+    },
+    {
+      "question": "Hoe helpt Daan's moeder hem om zijn angst te begrijpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de moeder een parallel trekt tussen Daan's huidige angst en zijn jeugd, waarbij hij bang was voor nieuwe situaties maar uiteindelijk zijn eigen manier vond om ermee om te gaan.",
+        "exampleAnswer": "Ze herinnert hem aan toen hij klein was en bang was voor nieuwe speeltuinen, maar uiteindelijk altijd zijn eigen plekje kon maken.",
+        "keyElements": [
+          "jeugd/klein/vroeger",
+          "nieuwe situaties/verandering/anders",
+          "eigen manier/plekje maken"
+        ],
+        "minWords": 6
+      },
+      "hint": "Lees de vijfde paragraaf over het gesprek met zijn moeder."
+    },
+    {
+      "question": "Beoordeel of Lisa's aangepaste voorstel voor de workshops een goede oplossing is. Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening geven over de oplossing en deze onderbouwen met argumenten uit de tekst, zoals dat het Daan's sterke punten gebruikt, kleine groepen minder overweldigend zijn, en het beide partners helpt hun doelen te bereiken.",
+        "exampleAnswer": "Ja, het is een goede oplossing omdat Lisa rekening houdt met Daan's moeilijkheden met grote groepen, maar wel zijn expertise gebruikt. Zo kunnen ze allebei hun doelen bereiken.",
+        "keyElements": [
+          "rekening houden/begrijpen/ondersteunen",
+          "kleine groepen/minder eng",
+          "expertise/kennis gebruiken"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over hoe de aangepaste oplossing rekening houdt met beide karakters."
+    },
+    {
+      "question": "Wat is de hoofdboodschap die de schrijver wil overbrengen met dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het leren communiceren over je behoeften in een relatie, jezelf accepteren zoals je bent, en samen creatieve oplossingen vinden die voor beide partners werken.",
+        "exampleAnswer": "Het verhaal laat zien dat in een goede relatie beide partners hun behoeften kunnen uitspreken en samen oplossingen vinden die bij hen passen.",
+        "keyElements": [
+          "communicatie/praten/uitleggen",
+          "behoeften/grenzen",
+          "samen/samenwerken",
+          "oplossingen vinden"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat Daan en Lisa beiden leren over relaties en zichzelf."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-plastic-verzamelaar/image-1.png",
+      "alt": "Daan en Lisa ruimen samen plastic afval op langs een Amsterdamse gracht"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-plastic-verzamelaar/image-2.png",
+      "alt": "Daan geeft een workshop over plastic herkenning aan een kleine groep leerlingen"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy with focused expression carefully sorting colorful plastic bottles by an Amsterdam canal while a girl with a warm smile watches him, children's book illustration style, Dutch urban setting with historic buildings",
+    "A teenage boy confidently presenting plastic items to a small group of interested students in a classroom, children's book illustration style, educational workshop setting with recycling posters on the walls"
+  ]
+}

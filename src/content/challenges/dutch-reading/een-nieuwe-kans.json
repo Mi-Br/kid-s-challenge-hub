@@ -1,0 +1,122 @@
+{
+  "id": "een-nieuwe-kans",
+  "title": "Een Nieuwe Kans",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "cultuur",
+  "text": "Lisa was verdrietig. Ze had op Instagram gezien dat al haar vrienden naar het Concertgebouw gingen. Zij mocht niet mee van haar ouders. \"We hebben geen geld voor kaartjes,\" zei haar moeder. Lisa voelde zich buitengesloten.\n\nOp school hoorde Lisa dat er een gratis concert was in de bibliotheek. \"Jonge muzikanten spelen klassieke muziek,\" vertelde meester Jan. \"Iedereen kan komen.\" Lisa twijfelde. Was dit wel echt cultuur?\n\nZaterdag ging Lisa naar de bibliotheek. De muziek was prachtig. Een jongen van haar leeftijd speelde viool. Lisa vergat haar verdriet. Na het concert praatte ze met de violist. \"Ik geef ook les,\" zei hij. \"Wil je het leren?\"\n\nLisa glimLachte voor het eerst in dagen. Ze hoefde niet naar dure concerten voor mooie muziek. Cultuur was overal, ook gratis. Ze stuurde een foto van de violist naar haar Instagram. \"Nieuwe hobby gevonden!\" schreef ze erbij.",
+  "questions": [
+    {
+      "question": "Waarom mocht Lisa niet mee naar het Concertgebouw?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze hadden geen geld voor kaartjes",
+        "haar ouders hadden geen geld voor kaartjes",
+        "geen geld voor kaartjes"
+      ],
+      "hint": "Kijk naar wat Lisa's moeder zei in de eerste alinea."
+    },
+    {
+      "question": "Hoe veranderde Lisa's gevoel over cultuur?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "duur",
+            "geld",
+            "gratis",
+            "betalen"
+          ],
+          [
+            "overal",
+            "ook",
+            "niet alleen",
+            "verschillende"
+          ],
+          [
+            "ontdekte",
+            "leerde",
+            "begreep",
+            "snapte"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa dacht voor en na het concert."
+    },
+    {
+      "question": "Wat deed Lisa op sociale media na het concert?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "foto",
+            "plaatje",
+            "beeld"
+          ],
+          [
+            "stuurde",
+            "zette",
+            "postte",
+            "deelde"
+          ],
+          [
+            "instagram",
+            "sociale media"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal."
+    },
+    {
+      "question": "Welk gevoel had Lisa toen ze haar vrienden op Instagram zag?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "buitengesloten",
+            "uitgesloten",
+            "alleen"
+          ],
+          [
+            "verdrietig",
+            "triest",
+            "ellendig"
+          ],
+          [
+            "jaloers",
+            "afgunst",
+            "envious"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de eerste alinea waar staat hoe Lisa zich voelde."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/een-nieuwe-kans/image-1.png",
+      "alt": "Lisa kijkt verdrietig naar haar telefoon terwijl ze Instagram bekijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/een-nieuwe-kans/image-2.png",
+      "alt": "Lisa luistert naar een jongen die viool speelt in de bibliotheek"
+    }
+  ],
+  "imagePrompts": [
+    "A sad teenage girl looking at her phone showing Instagram posts, sitting alone in her bedroom, children's book illustration style",
+    "A young boy playing violin in a library setting with other people listening, including a teenage girl who looks interested and happy, children's book illustration style"
+  ]
+}

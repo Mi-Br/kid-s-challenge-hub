@@ -1,0 +1,116 @@
+{
+  "id": "brave-bij-de-tandarts",
+  "title": "Brave bij de Tandarts",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Emma zat in de wachtkamer en keek naar haar handen. Ze had buikpijn omdat ze bang was voor de tandarts. Haar tand deed al drie dagen pijn, maar ze wilde niet naar de dokter.\n\nIn de kamer naast haar hoorde Emma een jongen lachen. Hij kwam uit de behandelkamer en zei tegen zijn moeder: \"Het deed helemaal geen pijn!\" Emma keek verbaasd. Hoe kon dat?\n\nToen riep de tandarts: \"Emma, kom maar!\" Emma's hart ging heel snel kloppen. Ze liep langzaam naar de grote stoel. De tandarts was vriendelijk en legde uit wat hij ging doen.\n\n\"Ik ga alleen maar kijken naar je tand,\" zei hij. \"Daarna maak ik hem schoon.\" Emma deed voorzichtig haar mond open. Het was veel minder eng dan ze had gedacht.\n\nNa afloop gaf de tandarts Emma een sticker. \"Je tand is nu helemaal gezond,\" zei hij. Emma liep naar buiten, maar toen zag ze dat er nog meer kinderen in de wachtkamer zaten. Ze keken allemaal bang, net zoals zij had gedaan.",
+  "questions": [
+    {
+      "question": "Waarom had Emma buikpijn?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "bang"
+          ],
+          [
+            "voor"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoe lang deed Emma's tand al pijn?",
+      "questionType": "begrijpen",
+      "hint": "Dit staat in de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "drie"
+          ],
+          [
+            "dagen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was Emma verbaasd toen ze de jongen hoorde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geen pijn",
+            "niet pijn",
+            "pijnloos"
+          ],
+          [
+            "lachen",
+            "lachte",
+            "vrolijk"
+          ],
+          [
+            "verbaasd",
+            "verrast",
+            "vreemd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma verwachtte en wat ze hoorde."
+    },
+    {
+      "question": "Wat betekent \"voorzichtig\" in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk naar hoe Emma haar mond opendeed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "langzaam"
+          ],
+          [
+            "rustig"
+          ],
+          [
+            "zachtjes"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/brave-bij-de-tandarts/image-1.png",
+      "alt": "Emma zit nerveus in de wachtkamer van de tandarts"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/brave-bij-de-tandarts/image-2.png",
+      "alt": "Emma zit in de tandartsstoel terwijl de vriendelijke tandarts haar tand bekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sitting nervously in a dental waiting room, holding her stomach and looking worried, children's book illustration style",
+    "A friendly dentist examining a young girl's teeth in a dental chair, the girl looking more relaxed now, bright dental office setting, children's book illustration style"
+  ]
+}

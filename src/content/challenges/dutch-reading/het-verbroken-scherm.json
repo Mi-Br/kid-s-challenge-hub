@@ -1,0 +1,124 @@
+{
+  "id": "het-verbroken-scherm",
+  "title": "Het Verbroken Scherm",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "media",
+  "text": "Lisa staart naar haar kapotte tablet. Het scherm is gebarsten en werkt niet meer. Ze voelt zich dik en lelijk zonder haar filters en foto-apps. Haar ouders zijn gescheiden en ze woont nu bij papa. Hij heeft geen geld voor een nieuwe tablet.\n\nPapa werkt veel en is vaak moe. Hij snapt niet waarom Lisa zo verdrietig is om een kapot scherm. \"Je kunt toch nog steeds naar school en met vrienden spelen?\" zegt hij. Maar Lisa voelt zich anders zonder haar social media. Ze kan geen foto's meer maken of berichten sturen.\n\nOp school merkt Lisa dat andere kinderen ook problemen hebben. Sem vertelt dat zijn telefoon is afgepakt omdat zijn cijfers slecht waren. Maya zegt dat haar moeder alle apps heeft weggehaald. Ze gaan samen naar de bibliotheek om huiswerk te maken.\n\nNa een week zonder tablet voelt Lisa zich rustiger. Ze slaapt beter en heeft meer tijd om te tekenen. Papa vindt haar tekeningen mooi en hangt ze op in de keuken. Lisa ontdekt dat ze creatief is zonder scherm. Ze besluit om pas later een nieuwe tablet te vragen.\n\nLisa leert dat echte vrienden haar leuk vinden zonder filters. Ze hoeft niet perfect te zijn op foto's. Haar vader begrijpt nu beter hoe belangrijk echte gesprekken zijn. Ze koken samen en praten over school en gevoelens.",
+  "questions": [
+    {
+      "question": "Waarom is Lisa's tablet kapot?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het scherm is gebarsten"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom heeft papa geen geld voor een nieuwe tablet?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "gescheiden",
+            "scheiding"
+          ],
+          [
+            "alleen",
+            "alleenstaand",
+            "alleen wonen"
+          ],
+          [
+            "geld",
+            "arm",
+            "weinig geld"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de informatie over Lisa's ouders in de eerste alinea."
+    },
+    {
+      "question": "Hoe voelt Lisa zich na een week zonder tablet en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "rustiger",
+            "rustig",
+            "beter"
+          ],
+          [
+            "slaapt",
+            "slapen",
+            "slaap"
+          ],
+          [
+            "tekenen",
+            "tekent",
+            "creatief"
+          ],
+          [
+            "tijd",
+            "meer tijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea over wat er na een week gebeurt."
+    },
+    {
+      "question": "Wat leert Lisa over vriendschap aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "echte",
+            "echt",
+            "waarlijk"
+          ],
+          [
+            "vrienden",
+            "vriendschap"
+          ],
+          [
+            "filters",
+            "zonder filters",
+            "geen filters"
+          ],
+          [
+            "perfect",
+            "perfectie",
+            "leuk vinden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea over wat Lisa ontdekt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verbroken-scherm/image-1.png",
+      "alt": "Lisa kijkt verdrietig naar haar kapotte tablet met gebarsten scherm"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verbroken-scherm/image-2.png",
+      "alt": "Lisa tekent gelukkig aan tafel terwijl papa haar tekening bekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking sadly at a broken tablet with a cracked screen, sitting in a simple living room, children's book illustration style",
+    "A teenage girl drawing happily at a kitchen table while her father looks at her artwork approvingly, warm kitchen setting, children's book illustration style"
+  ]
+}

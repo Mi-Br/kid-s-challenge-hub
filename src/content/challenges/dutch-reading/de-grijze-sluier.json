@@ -1,0 +1,121 @@
+{
+  "id": "de-grijze-sluier",
+  "title": "De Grijze Sluier",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "milieu",
+  "text": "Lisa staarde uit het raam. De wereld leek bedekt met een grijze sluier. Niet alleen door de smog die boven Amsterdam hing, maar ook door iets wat ze niet kon benoemen.\n\n\"Waarom interesseert het je niet meer?\" vroeg haar beste vriend Max, terwijl hij haar activist-posters bekeek die nu vergeten in een hoek lagen. Vroeger organiseerde Lisa klimaatacties, schreef brandende artikelen voor de schoolkrant. Nu leek alles zinloos.\n\n\"Het heeft geen zin,\" mompelde Lisa. \"Niemand luistert toch.\" Max fronste zijn wenkbrauwen. Dit was niet de Lisa die hij kende - de Lisa die altijd vol vuur was voor het milieu.\n\nThuis merkte Lisa's moeder de verandering ook op. Slecht slapen, geen eetlust, constant moe. \"Misschien moet je eens met iemand praten,\" stelde ze voorzichtig voor. Lisa schudde haar hoofd. Zwakte tonen was geen optie.\n\nWeeks later stortte Lisa in tijdens een les over klimaatverandering. De leraar sprak over droogte, overstromingen, uitsterven van dieren. Lisa's wereld begon te draaien. \"Ik kan het niet meer,\" fluisterde ze tegen Max.\n\n\"Lisa, dit is meer dan verdriet om het milieu,\" zei Max zacht. \"Mijn tante had dit ook. Ze noemde het eco-angst, gecombineerd met een depressie. Er is hulp voor.\"\n\nLangzaam begreep Lisa het. Haar liefde voor de natuur had haar overweldigd. De constante zorgen over de toekomst van de planeet hadden haar geest gevangen genomen. Het was niet zwak om hulp te zoeken - het was moedig.\n\nMet steun van een therapeute leerde Lisa dat milieu-activisme en mentale gezondheid samen kunnen gaan. Ze hoefde de wereld niet alleen te redden. Kleine stappen, zelfzorg, en samenwerking waren de sleutel. De grijze sluier begon op te lichten.",
+  "questions": [
+    {
+      "question": "Wat merkte Max op over Lisa's gedrag in het begin van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "interesseert",
+            "interesse",
+            "interesseerde"
+          ],
+          [
+            "niet",
+            "geen",
+            "verloren"
+          ],
+          [
+            "meer",
+            "nog",
+            "zin"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Max zegt over Lisa's houding tegenover activisme."
+    },
+    {
+      "question": "Hoe toont de schrijver dat Lisa's problemen dieper gingen dan alleen zorgen om het milieu?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver fysieke en emotionele symptomen beschrijft die wijzen op mentale gezondheidsproblemen, zoals slecht slapen, geen eetlust, constant moe zijn, en uiteindelijk instorten tijdens de les.",
+        "exampleAnswer": "De schrijver laat zien dat Lisa fysieke symptomen had zoals slecht slapen en geen eetlust, en dat ze instortte tijdens een les.",
+        "keyElements": [
+          "fysieke symptomen/slecht slapen/geen eetlust",
+          "instorten/ineenstortte",
+          "meer dan verdriet"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de fysieke symptomen die beschreven worden en Lisa's reactie in de klas."
+    },
+    {
+      "question": "Evalueer of Max een goede vriend was voor Lisa. Geef twee argumenten.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet beoordelen of Max een goede vriend was door concrete voorbeelden uit de tekst te geven, zoals dat hij Lisa's gedragsverandering opmerkte, haar vroeg wat er aan de hand was, en haar hielp begrijpen wat er gebeurde door zijn eigen ervaring te delen.",
+        "exampleAnswer": "Max was een goede vriend omdat hij Lisa's verandering opmerkte en zich zorgen maakte. Hij hielp haar ook door zijn ervaring met zijn tante te delen en uit te leggen wat eco-angst is.",
+        "keyElements": [
+          "opmerkte/zag verandering",
+          "hielp/steunde",
+          "vroeg/toonde interesse"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat Max deed om Lisa te helpen en hoe hij reageerde op haar verandering."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herkennen van mentale gezondheidsproblemen gerelateerd aan milieuzorgen en het belang van hulp zoeken. Het verbindt milieu-activisme met mentale gezondheid en toont dat hulp zoeken kracht is, geen zwakte.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat mentale gezondheidsproblemen krijgt door zorgen over het milieu en leert dat hulp zoeken belangrijk en moedig is.",
+        "keyElements": [
+          "mentale gezondheid/depressie/eco-angst",
+          "hulp zoeken/niet zwak",
+          "milieu zorgen"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over wat Lisa leert over zichzelf en haar problemen."
+    },
+    {
+      "question": "Waarom gebruikt de schrijver de metafoor 'grijze sluier' in dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de 'grijze sluier' een dubbele betekenis heeft: letterlijk de smog/luchtvervuiling en figuurlijk Lisa's depressieve gevoelens die haar kijk op de wereld vertroebelen. Het symboliseert hoe alles grijs en hopeloos lijkt.",
+        "exampleAnswer": "De grijze sluier staat voor zowel de vervuilde lucht als Lisa's depressieve gevoelens die alles donker en hopeloos maken.",
+        "keyElements": [
+          "vervuiling/smog",
+          "depressie/donkere gevoelens",
+          "alles grijs/hopeloos"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de dubbele betekenis: wat Lisa ziet én hoe Lisa zich voelt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-grijze-sluier/image-1.png",
+      "alt": "Lisa kijkt verdrietig uit het raam naar een grijze, mistige stad"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-grijze-sluier/image-2.png",
+      "alt": "Lisa stort in tijdens een les terwijl Max bezorgd naar haar kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl with long dark hair looking sadly out a window at a grey, smoggy Dutch city with tall buildings, children's book illustration style, melancholic atmosphere",
+    "A teenage girl breaking down emotionally in a classroom while her concerned male friend reaches out to help her, other students and teacher in background, children's book illustration style"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "de-gebroken-bloem",
+  "title": "De Gebroken Bloem",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de buurt",
+  "text": "Lisa liep door de straat naar school. Het was een mooie lenteochtend. De zon scheen helder en de vogels zongen hun vrolijke lied. Voor het huis van mevrouw De Wit stonden prachtige rode tulpen in de tuin.\n\nLisa wilde de tulpen ruiken. Ze bukte zich naar de bloemen, maar toen viel ze. Een mooie tulp brak af. Lisa was erg verdrietig en bang. Ze pakte de gebroken bloem op en rende snel weg.\n\nThuis kon Lisa niet meer blij zijn. Ze dacht de hele dag aan de kapotte tulp. Haar mama vroeg waarom ze zo stil was, maar Lisa zei niets.\n\nDe volgende dag ging Lisa terug naar mevrouw De Wit. Ze had de gebroken tulp in haar hand. \"Het spijt me,\" zei Lisa. \"Ik heb uw bloem per ongeluk gebroken.\" Mevrouw De Wit glimlachte vriendelijk. \"Dank je wel dat je het vertelt,\" zei ze. \"Samen planten we een nieuwe tulp in de grond.\"\n\nLisa en mevrouw De Wit plantten samen een kleine tulp. Nu was Lisa weer blij en kon ze vrolijk naar school gaan.",
+  "questions": [
+    {
+      "question": "Welke kleur hadden de tulpen van mevrouw De Wit?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk in de eerste alinea naar hoe de tulpen worden beschreven."
+    },
+    {
+      "question": "Waarom was Lisa bang en verdrietig nadat ze viel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bloem",
+            "tulp",
+            "tulpen"
+          ],
+          [
+            "brak",
+            "gebroken",
+            "kapot",
+            "kapotte",
+            "stuk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurde toen Lisa bij de tulpen viel."
+    },
+    {
+      "question": "Wat vind je van Lisa's keuze om terug te gaan naar mevrouw De Wit?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "moedig",
+            "dapper",
+            "eerlijk",
+            "fijn",
+            "slim"
+          ],
+          [
+            "vertellen",
+            "zeggen",
+            "eerlijk zijn",
+            "de waarheid"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa deed en of dat de goede keuze was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-bloem/image-1.png",
+      "alt": "Lisa ruikt aan rode tulpen in de tuin van mevrouw De Wit"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-gebroken-bloem/image-2.png",
+      "alt": "Lisa en mevrouw De Wit planten samen een nieuwe tulp"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl bending down to smell red tulips in a neat Dutch garden on a sunny spring morning, children's book illustration style",
+    "A kind elderly Dutch woman and a young girl planting a small tulip bulb together in a garden, both smiling, children's book illustration style"
+  ]
+}

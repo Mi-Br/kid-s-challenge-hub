@@ -1,0 +1,53 @@
+{
+  "id": "annas-nieuwe-jas",
+  "title": "Anna's Nieuwe Jas",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "kleding",
+  "text": "Anna heeft een nieuwe jas. De jas is rood en warm. Anna wil de jas naar school dragen.\n\nMama zegt dat de jas te groot is. De mouwen zijn te lang. Anna is verdrietig. Ze wil haar mooie jas dragen.\n\nMama heeft een idee. Ze maakt de mouwen korter. Nu past de jas goed. Anna is heel blij. Ze draagt de jas naar school.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Anna's jas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom past de jas niet goed?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de mouwen zijn te lang",
+        "de jas is te groot",
+        "te groot"
+      ],
+      "hint": "Lees wat mama zegt over de jas."
+    },
+    {
+      "question": "Hoe voelt Anna aan het eind?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blij",
+        "heel blij"
+      ],
+      "hint": "Lees de laatste zin van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/annas-nieuwe-jas/image-1.png",
+      "alt": "Anna met haar nieuwe rode jas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/annas-nieuwe-jas/image-2.png",
+      "alt": "Mama maakt de mouwen korter"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl named Anna wearing a bright red winter coat that is too big for her, standing in a cozy home interior, children's book illustration style",
+    "A mother carefully shortening the sleeves of a red coat with scissors while Anna watches hopefully, warm home setting, children's book illustration style"
+  ],
+  "level": 1
+}

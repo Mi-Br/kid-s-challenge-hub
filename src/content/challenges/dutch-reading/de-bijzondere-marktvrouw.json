@@ -1,0 +1,127 @@
+{
+  "id": "de-bijzondere-marktvrouw",
+  "title": "De Bijzondere Marktvrouw",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de markt",
+  "text": "Elke zaterdag gaat Mira met haar moeder naar de markt in het centrum. Ze koopt altijd appels bij dezelfde kraam, omdat de verkoper vriendelijk is en goede prijzen heeft. Vandaag staat er echter een nieuwe vrouw achter de fruitkraam.\n\nDe vrouw ziet er anders uit dan de mensen die Mira gewend is. Ze draagt een kleurrijke hoofddoek en heeft prachtige armbanden om haar polsen. Wanneer Mira's moeder vraagt naar de prijs van de peren, antwoordt de vrouw met een zwaar accent. \"Twee euro per kilo, mevrouw. Vers uit eigen tuin.\"\n\nMira fluistert tegen haar moeder: \"Zij spreekt Nederlands niet goed. Misschien zijn haar spullen ook niet zo lekker.\" Haar moeder fronst haar wenkbrauwen omdat ze vindt dat Mira te snel oordeelt.\n\nTerwijl haar moeder andere groenten bekijkt, hoort Mira de marktvrouw zacht zingen in een vreemde taal. Het klinkt mooi, als een wiegeliedje dat haar oma vroeger voor haar zong. Een ander kind vraagt nieuwsgierig naar de muziek. De vrouw lacht warm en vertelt dat het een liedje uit haar geboorteland is, over dankbaar zijn voor de oogst.\n\nOpeens realiseert Mira zich iets belangrijks. Deze vrouw kent twee talen, heeft haar eigen tuin, en zingt prachtige liedjes. Dat is eigenlijk heel bijzonder. Ze loopt terug naar de kraam en vraagt voorzichtig: \"Mevrouw, mag ik een appel proeven?\" De vrouw knikt vriendelijk en geeft haar de zoetste, sappigste appel die ze ooit heeft geproefd.\n\nAls ze naar huis lopen, denkt Mira na over wat er is gebeurd. Misschien moet ze vaker de moeite nemen om mensen echt te leren kennen, voordat ze besluit wat ze van hen vindt.",
+  "questions": [
+    {
+      "question": "Waar koopt Mira normaal gesproken haar appels?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij dezelfde kraam",
+        "bij de fruitkraam"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom dacht Mira eerst dat de spullen van de nieuwe vrouw misschien niet lekker zouden zijn?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "accent",
+            "nederlands",
+            "taal",
+            "spreken",
+            "spreekt"
+          ],
+          [
+            "anders",
+            "verschillend",
+            "vreemd",
+            "ongewend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Mira zei toen ze de vrouw hoorde praten."
+    },
+    {
+      "question": "Wat ontdekte Mira over de marktvrouw toen ze beter luisterde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "twee",
+            "talen",
+            "taal",
+            "spreekt",
+            "kent"
+          ],
+          [
+            "tuin",
+            "eigen",
+            "groenten",
+            "fruit"
+          ],
+          [
+            "zingen",
+            "zingt",
+            "muziek",
+            "liedje",
+            "liedjes"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het vierde stukje nog eens goed."
+    },
+    {
+      "question": "Vind je dat Mira gelijk had om eerst te oordelen over de marktvrouw? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Mira's gedrag en dit onderbouwen. Een goed antwoord erkent dat vooroordelen niet eerlijk zijn en dat je mensen eerst moet leren kennen.",
+        "exampleAnswer": "Nee, Mira had geen gelijk. Ze oordeelde te snel over de vrouw alleen omdat ze anders sprak. Dat is niet eerlijk.",
+        "keyElements": [
+          "oordelen/vooroordeel",
+          "niet gelijk/fout",
+          "eerst leren kennen/kans geven"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over hoe het verhaal eindigt en wat Mira heeft geleerd."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het niet te snel oordelen over mensen die anders zijn, en dat verschillen juist bijzonder kunnen zijn.",
+        "exampleAnswer": "Het verhaal gaat erover dat je mensen niet moet beoordelen op hoe ze eruitzien of spreken, maar ze een kans moet geven.",
+        "keyElements": [
+          "niet oordelen/vooroordelen",
+          "mensen leren kennen/kans geven",
+          "verschillen/bijzonder zijn"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat heeft Mira geleerd over mensen die anders zijn dan zij?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-bijzondere-marktvrouw/image-1.png",
+      "alt": "Een kleurrijke marktvrouw met hoofddoek achter een fruitkraam"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-bijzondere-marktvrouw/image-2.png",
+      "alt": "Mira die een appel proeft van de vriendelijke marktvrouw"
+    }
+  ],
+  "imagePrompts": [
+    "A colorful Dutch market scene with a woman wearing a bright headscarf and beautiful bracelets behind a fruit stand, children's book illustration style, warm and inviting atmosphere",
+    "A young girl tasting a red apple given by a kind market woman while her mother watches approvingly, Dutch market setting, children's book illustration style"
+  ]
+}

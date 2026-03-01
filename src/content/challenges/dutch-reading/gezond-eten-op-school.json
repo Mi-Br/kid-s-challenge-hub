@@ -1,0 +1,102 @@
+{
+  "id": "gezond-eten-op-school",
+  "title": "Gezond Eten op School",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "gezondheid",
+  "text": "Lisa zat in groep 8 op de basisschool in Amsterdam. Elke dag bracht ze een lunchpakket mee naar school. Haar moeder stopte er altijd gezonde dingen in: een appel, bruine boterhammen en een bakje yoghurt.\n\nOp een maandag zag Lisa dat haar klasgenoten heel andere dingen aten. Emma had een zak chips. Tom at een reep chocola. Saar dronk een blikje cola. Ze keken naar Lisa's appel en lachten. \"Wat saai!\" zei Emma. \"Waarom eet je niet iets lekkers?\"\n\nLisa voelde zich rot. Ze wilde erbij horen. De volgende dag vroeg ze aan haar moeder of ze ook chips mocht. Haar moeder schudde haar hoofd. \"Chips zijn niet gezond voor je,\" zei ze. \"Je hebt energie nodig om goed te leren.\"\n\nOp school zag Lisa dat Tom hoofdpijn had. Hij had te veel suiker gegeten. Emma was ook moe na het eten van veel snoep. Lisa begreep toen dat haar moeder gelijk had. Gezond eten gaf haar meer energie voor de dag.\n\nLisa besloot om trots te zijn op haar gezonde lunch. Ze legde aan haar vrienden uit waarom gezond eten belangrijk is. Langzaam begonnen een paar kinderen ook gezondere dingen mee te nemen naar school.",
+  "questions": [
+    {
+      "question": "Wat stopte Lisa's moeder elke dag in het lunchpakket?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een appel, bruine boterhammen en een bakje yoghurt",
+        "appel, bruine boterhammen en yoghurt",
+        "gezonde dingen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom voelde Lisa zich rot toen haar klasgenoten naar haar appel keken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "lachten",
+            "lachen",
+            "gelachen"
+          ],
+          [
+            "saai",
+            "niet lekker",
+            "anders"
+          ],
+          [
+            "erbij horen",
+            "bij de groep horen",
+            "niet alleen zijn"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe de andere kinderen reageerden op haar eten."
+    },
+    {
+      "question": "Wat gebeurde er met Tom nadat hij te veel suiker had gegeten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "hij had hoofdpijn",
+        "hoofdpijn",
+        "tom had hoofdpijn"
+      ],
+      "hint": "Kijk naar de vierde alinea."
+    },
+    {
+      "question": "Waarom is gezond eten belangrijk volgens Lisa's moeder?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "energie",
+            "kracht",
+            "power"
+          ],
+          [
+            "leren",
+            "school",
+            "studeren",
+            "onderwijs"
+          ],
+          [
+            "gezond",
+            "goed",
+            "beter"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat zei mama tegen Lisa over waarom ze energie nodig heeft?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/gezond-eten-op-school/image-1.png",
+      "alt": "Lisa zit aan een tafel met haar gezonde lunch terwijl klasgenoten chips en snoep eten"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/gezond-eten-op-school/image-2.png",
+      "alt": "Lisa legt uit aan haar vrienden waarom gezond eten belangrijk is"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a girl with a healthy lunch (apple, brown bread, yogurt) sitting at a school table while other kids eat chips and candy, Dutch school cafeteria setting",
+    "Children's book illustration of a confident girl explaining something to a group of classmates who are listening with interest, school setting with healthy food on the table"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "lars-de-hulp-bakker",
+  "title": "Lars, de hulp-bakker",
+  "groepLevel": "groep5-6",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "beroepen",
+  "text": "Lars mocht deze week helpen in de bakkerij van zijn oom. Hij was heel trots. Zijn oom bakte de lekkerste broodjes van de hele buurt.\n\nElke ochtend om zes uur begon Lars met zijn werk. Hij deed bloem in de grote kom. Hij telde de eieren. De bakkerij rook naar verse broodjes en warme croissants.\n\nOp woensdag was zijn oom ziek. Lars moest alleen de broodjes bakken voor de klanten. Het was moeilijk werk. Zijn vrienden speelden buiten in het park. Lars wilde ook gaan spelen.\n\nMaar Lars bleef in de bakkerij. Hij bakte twintig broodjes. Hij bakte vijftien croissants. Alle klanten waren blij met het verse brood. Lars voelde zich een echte bakker.\n\nZijn oom kwam de volgende dag terug. 'Je bent een goede hulp-bakker,' zei hij tegen Lars. 'Je bent heel betrouwbaar.' Lars glimlachte breed.",
+  "questions": [
+    {
+      "question": "Hoeveel croissants bakte Lars op woensdag?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de vierde alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vijftien"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was woensdag een moeilijke dag voor Lars?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "oom",
+            "ziek",
+            "alleen"
+          ],
+          [
+            "moest",
+            "moet",
+            "moeilijk",
+            "zwaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er met Lars' oom gebeurde."
+    },
+    {
+      "question": "Hoe voelde Lars zich aan het einde van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "trots",
+            "blij",
+            "goed",
+            "tevreden"
+          ],
+          [
+            "echte",
+            "goede",
+            "betrouwbare",
+            "betrouwbaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste twee alinea's nog eens."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lars-de-hulp-bakker/image-1.png",
+      "alt": "Lars helpt zijn oom in de warme bakkerij"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lars-de-hulp-bakker/image-2.png",
+      "alt": "Lars bakt alleen broodjes en croissants"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy helping his uncle in a warm Dutch bakery, mixing flour in a large bowl, children's book illustration style with the smell of fresh bread visible as steam",
+    "The same boy working alone in the bakery, carefully placing croissants on baking trays while looking determined, children's book illustration style"
+  ]
+}

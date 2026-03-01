@@ -1,0 +1,112 @@
+{
+  "id": "verhalen-tussen-twee-werelden",
+  "title": "Verhalen Tussen Twee Werelden",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "media",
+  "text": "De cursor knippert op het lege scherm terwijl Layla naar de opdracht staart: 'Schrijf over jouw culturele achtergrond.' Haar vingers zweven boven het toetsenbord, maar de woorden weigeren te komen. Hoe kan ze uitleggen dat ze zich als een verhaal voelt dat in twee verschillende talen wordt verteld?\n\nThuis spreekt ze Arabisch met haar grootmoeder, die verhalen vertelt over jasmijnbloemen en warme zomeravonden in Damascus. Op school praat ze Nederlands met haar klasgenoten, die Instagram-stories delen over weekenduitjes naar Zandvoort. Beide werelden bestaan in haar hart, maar soms voelen ze als olie en water – nooit helemaal mengend.\n\n'Je moet kiezen,' fluistert een stemmetje in haar hoofd. Het is dezelfde stem die haar vertelt dat ze te Arabisch is voor haar Nederlandse vrienden en te Nederlands voor haar Syrische neven. De stem die haar doet aarzelen wanneer ze moet beslissen welke foto ze op social media plaatst: die van het Suikerfeest met haar familie, of die van Koningsdag met haar klas?\n\nMaar terwijl ze naar het knipperende cursor kijkt, realiseert Layla zich iets belangrijks. Haar grootmoeders verhalen over moed en doorzettingsvermogen – zijn die niet dezelfde verhalen die Nederlandse kinderen horen over hun oorlogsgrootouders? De littekens van geschiedenis, de hoop op een betere toekomst, de kracht van familie – deze thema's kennen geen grenzen.\n\nLangzaam begint ze te typen. Haar verhaal stroomt over het scherm als een rivier die twee landen verbindt. Ze schrijft over de geur van za'atar die zich vermengt met de Nederlandse regen, over Arabische liedjes die klinken in Nederlandse keukens, over dromen die geen paspoort nodig hebben.\n\nWanneer ze klaar is, leest ze haar verhaal hardop. De woorden klinken als een lied waarin twee melodieën samensmelten tot iets nieuws, iets dat helemaal van haar is. Ze hoeft niet te kiezen tussen haar identiteiten – ze kan ze beiden omarmen, omdat verhalen die vanuit het hart komen altijd waar zijn, in elke taal.",
+  "questions": [
+    {
+      "question": "Waarom vergelijkt de schrijver Layla's gevoel met 'een verhaal dat in twee verschillende talen wordt verteld'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de beeldspraak verwijst naar Layla's dubbele culturele identiteit, waarbij ze zich verbonden voelt met zowel haar Arabische als Nederlandse cultuur, maar moeite heeft om deze te integreren.",
+        "exampleAnswer": "Omdat Layla zich verbonden voelt met twee verschillende culturen maar moeite heeft om deze samen te brengen.",
+        "keyElements": [
+          "twee culturen/identiteiten",
+          "moeilijk samen te brengen/integreren",
+          "Arabisch en Nederlands"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Layla's probleem is met haar culturele achtergrond."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het accepteren en omarmen van een dubbele culturele identiteit, in plaats van moeten kiezen tussen verschillende delen van jezelf.",
+        "exampleAnswer": "Je hoeft niet te kiezen tussen verschillende delen van je identiteit, je kunt ze allemaal omarmen.",
+        "keyElements": [
+          "niet kiezen tussen identiteiten",
+          "beide/alle delen omarmen/accepteren",
+          "culturele identiteit"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat leert Layla aan het eind van het verhaal over haarzelf?"
+    },
+    {
+      "question": "Hoe gebruikt de schrijver social media als symbool in dit verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat social media gebruikt wordt om de druk te symboliseren om te kiezen tussen culturele identiteiten, waarbij posts een publieke keuze representeren over welk deel van jezelf je toont.",
+        "exampleAnswer": "Social media laat zien hoe moeilijk het is om te kiezen welk deel van je identiteit je aan anderen toont.",
+        "keyElements": [
+          "keuze maken/moeten kiezen",
+          "welk deel tonen/laten zien",
+          "publiek/anderen",
+          "identiteit"
+        ],
+        "minWords": 5
+      },
+      "hint": "Waarom twijfelt Layla over welke foto ze moet plaatsen?"
+    },
+    {
+      "question": "Beoordeel of de schrijver erin slaagt om Layla's innerlijke conflict overtuigend weer te geven. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een onderbouwde mening geven over de overtuigingskracht van de karakterisering, met concrete voorbeelden uit de tekst om het oordeel te ondersteunen.",
+        "exampleAnswer": "Ja, de schrijver slaagt er goed in omdat hij concrete voorbeelden geeft zoals de twijfel over foto's en de beeldspraak van olie en water.",
+        "keyElements": [
+          "ja/nee met onderbouwing",
+          "concrete voorbeelden/bewijzen",
+          "overtuigend/niet overtuigend"
+        ],
+        "minWords": 8
+      },
+      "hint": "Geef je mening en ondersteun deze met voorbeelden uit de tekst."
+    },
+    {
+      "question": "Wat is het doel van de schrijver met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver jongeren wil helpen die worstelen met een dubbele culturele identiteit, door te laten zien dat je niet hoeft te kiezen maar beide delen van jezelf kunt omarmen.",
+        "exampleAnswer": "De schrijver wil jongeren met een dubbele culturele achtergrond helpen door te laten zien dat ze beide delen van hun identiteit kunnen omarmen.",
+        "keyElements": [
+          "helpen/steun bieden",
+          "jongeren/kinderen",
+          "dubbele identiteit/cultuur",
+          "beide delen omarmen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Voor welke doelgroep is dit verhaal vooral bedoeld en wat wil de schrijver hen leren?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/verhalen-tussen-twee-werelden/image-1.png",
+      "alt": "Een meisje dat naar een computerscherm kijkt met een knipperende cursor"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/verhalen-tussen-twee-werelden/image-2.png",
+      "alt": "Verschillende culturele symbolen die samensmelten in een harmonieus beeld"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl of Middle Eastern descent sitting at a computer in a modern Dutch bedroom, staring thoughtfully at a blank screen with a blinking cursor, children's book illustration style with warm lighting",
+    "An artistic representation showing Arabic calligraphy and Dutch windmills blending together in a harmonious swirl of colors, representing cultural integration, children's book illustration style"
+  ]
+}

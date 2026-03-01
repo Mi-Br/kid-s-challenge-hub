@@ -1,0 +1,103 @@
+{
+  "id": "het-schoolfeest-versiering",
+  "title": "Het Schoolfeest Versiering",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Morgen is het grote schoolfeest. Emma kijkt naar de lege gymzaal. De muren zijn wit en kaal. \"Dit ziet er niet feestelijk uit,\" denkt ze. De andere kinderen zijn naar huis gegaan.\n\nJuf Linda komt binnen. \"Emma, waarom ben je er nog?\" vraagt ze. Emma wijst naar de muren. \"De versiering is niet mooi. Als ik nu help, wordt het feest veel leuker.\" Juf Linda glimlacht. \"Dat is lief van je.\"\n\nEmma pakt gekleurde slingers uit de doos. Ze hangt ze voorzichtig op. Dan maakt ze ballonnen vast aan de stoelen. Na een uur ziet de zaal er vrolijk uit. De muren zijn nu vol kleur.\n\nDe volgende dag komen alle kinderen binnen. \"Wauw!\" roept Tom. \"Wie heeft dit gedaan?\" Emma bloost. Ze voelt zich blij omdat ze heeft geholpen. Het feest kan nu echt beginnen.",
+  "questions": [
+    {
+      "question": "Welke kleur hebben de muren in het begin?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "wit",
+        "wit en kaal"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom blijft Emma langer op school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de versiering is niet mooi",
+        "om te helpen",
+        "om het feest leuker te maken"
+      ],
+      "hint": "Lees wat Emma tegen juf Linda zegt."
+    },
+    {
+      "question": "Hoe voelt Emma zich aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "blij",
+            "gelukkig",
+            "vrolijk",
+            "goed"
+          ],
+          [
+            "geholpen",
+            "helpen",
+            "gedaan",
+            "gemaakt"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan Emma's gevoel als ze ziet hoe de andere kinderen reageren."
+    },
+    {
+      "question": "Vind jij dat Emma iets goeds heeft gedaan? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "mooi"
+          ],
+          [
+            "geholpen",
+            "helpen",
+            "werk",
+            "gedaan",
+            "gemaakt",
+            "versiert"
+          ],
+          [
+            "anderen",
+            "kinderen",
+            "school",
+            "feest",
+            "iedereen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma deed en wat het resultaat was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-schoolfeest-versiering/image-1.png",
+      "alt": "Emma kijkt naar de lege witte gymzaal"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-schoolfeest-versiering/image-2.png",
+      "alt": "Emma hangt kleurrijke slingers op in de gymzaal"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl named Emma looking at an empty white gymnasium with bare walls, children's book illustration style, Dutch school setting",
+    "Emma decorating the gymnasium with colorful streamers and balloons, making it festive and bright, children's book illustration style"
+  ]
+}

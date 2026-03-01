@@ -1,0 +1,129 @@
+{
+  "id": "de-last-van-het-verleden",
+  "title": "De Last van het Verleden",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "milieu",
+  "text": "Lotte staarde naar de oude foto's in opa's vergeelde album. Zwart-wit beelden van bossen die nu verdwenen waren, van rivieren die toen nog kristalhelder stroomden.\n\n\"Waarom heb je nooit verteld over het bedrijf, opa?\" vroeg ze voorzichtig. Zijn handen trilden terwijl hij zijn thee vasthield. \"Sommige herinneringen zijn te zwaar om te dragen,\" fluisterde hij.\n\nIn flitsen kwam zijn verhaal naar boven. Het familiebedrijf dat chemische afval loosde in de Waal. Zijn vader die zei dat het moest voor de banen. De nachtmerries over vergiftigde vissen. De schuldgevoelens die hij doorgegeven had aan zijn eigen kinderen.\n\n\"Ik heb jullie vader geleerd om nooit over milieu te praten,\" bekende opa. \"Hij gaf dat weer door aan jouw moeder. Alsof stilzwijgen ons zou beschermen tegen wat we hadden aangericht.\"\n\nLotte begreep nu waarom thuis nooit over klimaatverandering gesproken werd, waarom mama nerveus werd bij documentaires over vervuiling. \"Maar opa,\" zei ze zacht, \"door te zwijgen maken we het alleen maar erger.\"\n\nDie avond opende opa voor het eerst in vijftig jaar zijn hart. Hij vertelde over de vergiftigde grond, over de kankergevallen in het dorp, over de angst die als een schaduw over hun familie hing. \"Ik dacht dat ik jullie beschermde door te zwijgen,\" huilde hij.\n\nLotte omhelsde hem. \"We kunnen het verleden niet veranderen, maar we kunnen wel eerlijk zijn. Trauma geneest alleen door erover te praten.\" Samen besloten ze een brief te schrijven naar de gemeente over de vervuilde locatie die nog steeds niet gesaneerd was.\n\nWeekenlang werkten ze samen aan hun verhaal. Opa's herinneringen, Lotte's onderzoek naar moderne oplossingen. Van angst naar moed, van stilte naar actie. Het was tijd dat hun familie stopte met wegkijken.",
+  "questions": [
+    {
+      "question": "Waarom wilde opa eerst niet vertellen over het familiebedrijf?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat opa zich schuldig voelde over de milieuvervuiling die het bedrijf had veroorzaakt en dat hij anderen wilde beschermen tegen die pijn.",
+        "exampleAnswer": "Opa voelde zich schuldig over de vervuiling die hun bedrijf had veroorzaakt en wilde anderen beschermen tegen die pijn.",
+        "keyElements": [
+          "schuld/schuldgevoel/schuldig",
+          "beschermen/bescherming",
+          "pijn/pijnlijk/zwaar"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat opa zegt over herinneringen en bescherming."
+    },
+    {
+      "question": "Hoe werd het trauma van het milieuschandaal doorgegeven in de familie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "stilzwijgen",
+            "zwijgen",
+            "stilte",
+            "niet praten"
+          ],
+          [
+            "doorgeven",
+            "doorgegeven",
+            "overdragen",
+            "overgedragen"
+          ],
+          [
+            "vader",
+            "papa",
+            "ouders",
+            "familie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het vierde en vijfde paragraph over wat opa leerde aan zijn kinderen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe stilzwijgen over traumatische ervaringen het probleem verergert en dat genezing komt door eerlijkheid en openheid.",
+        "exampleAnswer": "Het verhaal gaat over hoe trauma door generaties wordt doorgegeven door stilzwijgen, maar dat genezing mogelijk is door eerlijk te zijn en actie te ondernemen.",
+        "keyElements": [
+          "trauma/pijn",
+          "generaties/familie/doorgeven",
+          "stilzwijgen/zwijgen",
+          "eerlijkheid/praten/openheid",
+          "genezing/herstel"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat er verandert van het begin naar het einde van het verhaal."
+    },
+    {
+      "question": "Wat was volgens jou de beste eigenschap van Lotte in dit verhaal en waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigenschap van Lotte benoemen (zoals moed, empathie, doorzettingsvermogen) en dit onderbouwen met voorbeelden uit de tekst.",
+        "exampleAnswer": "Ik denk dat Lotte's empathie haar beste eigenschap was, omdat ze opa niet veroordeelde maar juist begreep en hem hielp om te genezen.",
+        "keyElements": [
+          "moed/dapper",
+          "empathie/begrip/begripvol",
+          "doorzetting/volhouden",
+          "eerlijkheid/eerlijk"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan hoe Lotte reageerde op opa's verhaal en wat ze deed om te helpen."
+    },
+    {
+      "question": "Welk doel wilde de schrijver bereiken met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wilde laten zien hoe belangrijk het is om open te communiceren over moeilijke onderwerpen zoals milieuproblemen en trauma.",
+        "exampleAnswer": "De schrijver wilde laten zien dat we niet moeten zwijgen over moeilijke onderwerpen zoals milieuproblemen, omdat eerlijkheid en openheid helpen bij genezing.",
+        "keyElements": [
+          "bewustzijn/bewust maken",
+          "communicatie/praten/openheid",
+          "milieu/milieuproblemen",
+          "trauma/pijn",
+          "genezing/herstel"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de boodschap die de schrijver wil overbrengen over zwijgen versus praten."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-last-van-het-verleden/image-1.png",
+      "alt": "Een oude man en een jong meisje kijken samen naar vergeelde foto's van vroeger"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-last-van-het-verleden/image-2.png",
+      "alt": "Opa en Lotte schrijven samen een brief aan de gemeente over milieuvervuiling"
+    }
+  ],
+  "imagePrompts": [
+    "An elderly Dutch grandfather and teenage granddaughter looking at old yellowed photo albums showing pristine nature from the past, children's book illustration style, warm interior lighting, emotional atmosphere",
+    "A grandfather and granddaughter working together at a kitchen table writing a letter, with environmental documents spread around, children's book illustration style, showing healing and cooperation"
+  ]
+}

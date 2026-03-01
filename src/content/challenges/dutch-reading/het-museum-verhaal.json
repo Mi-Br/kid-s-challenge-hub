@@ -1,0 +1,123 @@
+{
+  "id": "het-museum-verhaal",
+  "title": "Het Museum Verhaal",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "cultuur",
+  "text": "Lisa woonde samen met haar vader in Amsterdam. Haar moeder was vorig jaar weggegaan naar een ander land voor haar werk. Dat was moeilijk voor Lisa. Ze miste haar mama elke dag.\n\nOp zaterdag gingen Lisa en haar vader naar het Rijksmuseum. Lisa vond musea saai, maar haar vader wilde per se gaan. \"Cultuur is belangrijk,\" zei hij altijd. In het museum zag Lisa oude schilderijen aan de muur. Veel mensen keken ernaar met grote ogen.\n\nIn een hoek van de zaal stond een oude vrouw. Ze huilde zachjes voor een schilderij van een moeder met haar kind. Lisa begreep haar verdriet. Ook zij miste haar moeder zo erg. Het schilderij liet zien hoe mooi de liefde tussen een moeder en kind is.\n\n\"Papa,\" fluisterde Lisa, \"waarom maken mensen kunst?\" Haar vader glimlachte. \"Kunst helpt ons onze gevoelens te begrijpen. Het laat zien dat alle mensen dezelfde emoties hebben. Dat verbindt ons.\" Lisa knikte. Nu snapte ze waarom dit museum zo vol was.\n\nDie avond belde Lisa haar moeder via de computer. \"Mama, vandaag was ik in een museum. Ik zag een schilderij van jou en mij.\" Haar moeder lachte. \"Hoe kan dat nou, lieverd?\" \"Het ging over liefde tussen een mama en haar kind. Net zoals wij.\" Lisa voelde zich wat minder eenzaam. Kunst had haar geholpen haar gevoelens te uiten.",
+  "questions": [
+    {
+      "question": "Waar woont Lisa?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "amsterdam",
+        "in amsterdam"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom huilde de oude vrouw in het museum?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdriet",
+            "triest",
+            "emotie",
+            "gevoel"
+          ],
+          [
+            "moeder",
+            "mama",
+            "kind",
+            "schilderij"
+          ],
+          [
+            "miste",
+            "gemist",
+            "missen",
+            "liefde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa begrijpt over de vrouw."
+    },
+    {
+      "question": "Hoe voelt Lisa zich aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "minder",
+            "wat minder",
+            "iets minder"
+          ],
+          [
+            "eenzaam",
+            "alleen",
+            "verdrietig"
+          ],
+          [
+            "beter",
+            "goed",
+            "blij",
+            "gelukkig"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal."
+    },
+    {
+      "question": "Wat legt papa uit over kunst?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "gevoelens",
+            "emoties",
+            "gevoel"
+          ],
+          [
+            "begrijpen",
+            "verstaan",
+            "snappen"
+          ],
+          [
+            "verbindt",
+            "verbinden",
+            "samen",
+            "mensen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek wat papa zegt in de vierde alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-museum-verhaal/image-1.png",
+      "alt": "Lisa en haar vader bekijken schilderijen in het Rijksmuseum"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-museum-verhaal/image-2.png",
+      "alt": "Lisa belt haar moeder via de computer thuis"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her father looking at classical paintings in the Rijksmuseum Amsterdam, with other visitors in the background, children's book illustration style",
+    "A young girl talking to her mother through a computer screen video call at home in the evening, warm lighting, children's book illustration style"
+  ]
+}

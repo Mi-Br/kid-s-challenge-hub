@@ -1,0 +1,123 @@
+{
+  "id": "sofies-verdwenen-pop",
+  "title": "Sofies Verdwenen Pop",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "spelen",
+  "text": "Sofie speelt elke dag met haar lievelingspop Emma. Emma heeft lang bruin haar en een rode jurk. Ze zitten samen in de poppenhoek van Sofies kamer.\n\nVandaag wil Sofie een groot poppentheater maken omdat ze morgen een voorstelling geeft voor mama. Ze bouwt een mooi toneel van dozen en lakens. Emma mag de hoofdrol spelen in het verhaal over een prinses.\n\nNa het eten gaat Sofie verder bouwen. Maar waar is Emma? Ze zoekt onder het bed, in de speelgoedkist en achter de gordijnen. Emma is nergens te vinden! Sofie wordt heel verdrietig want zonder Emma kan ze geen toneel spelen.\n\nPapa helpt zoeken in de hele kamer. Dan hoort Sofie een zacht geluid uit de wasmand. Ze kijkt erin en daar ligt Emma tussen de schone lakens! De pop was per ongeluk mee gewassen omdat mama de lakens van het toneel had opgeruimd.\n\nSofie lacht hard want Emma ruikt nu naar bloemen. \"Nu ben je nog mooier voor de voorstelling!\" zegt ze tegen de schone pop.",
+  "questions": [
+    {
+      "question": "Welke kleur jurk draagt Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "een rode jurk",
+        "rode"
+      ],
+      "hint": "Kijk naar de eerste alinea waar Emma wordt beschreven."
+    },
+    {
+      "question": "Welke kleur jurk draagt Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "een rode jurk",
+        "rode"
+      ],
+      "hint": "Kijk naar de eerste alinea waar Emma wordt beschreven."
+    },
+    {
+      "question": "Waarom wordt Sofie verdrietig als Emma weg is?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "toneel",
+            "spelen",
+            "voorstelling",
+            "theater"
+          ],
+          [
+            "niet",
+            "geen",
+            "kan niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Sofie wilde doen met Emma."
+    },
+    {
+      "question": "Wat betekent 'per ongeluk' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Mama wilde Emma niet wassen, het gebeurde zonder dat ze het wist.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "niet expres"
+          ],
+          [
+            "zonder het te willen"
+          ],
+          [
+            "toevallig"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat Sofie goed reageerde toen ze Emma terugvond? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "fijn"
+          ],
+          [
+            "lacht",
+            "lachen",
+            "blij",
+            "vrolijk",
+            "gelukkig"
+          ],
+          [
+            "positief",
+            "mooi",
+            "beter",
+            "schoon"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees hoe Sofie reageerde in de laatste alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sofies-verdwenen-pop/image-1.png",
+      "alt": "Sofie speelt met haar pop Emma in de poppenhoek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sofies-verdwenen-pop/image-2.png",
+      "alt": "Sofie vindt Emma in de wasmand tussen de lakens"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl playing with her brown-haired doll in a red dress in a cozy dollhouse corner, children's book illustration style",
+    "A surprised girl looking into a laundry basket finding her doll among clean white sheets, warm lighting, children's book illustration style"
+  ]
+}

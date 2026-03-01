@@ -1,0 +1,127 @@
+{
+  "id": "de-schaduw-van-oma",
+  "title": "De Schaduw van Oma",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "gezondheid",
+  "text": "Het geheugen is als een oude fotoboek dat steeds meer bladzijden verliest. Zo dacht Lotte terwijl ze naar oma keek, die weer eens vergeten was waar ze de sleutels had gelaten. \"Oma wordt gewoon een beetje vergeetachtig,\" mompelde mama tegen papa. Maar Lotte zag meer dan vergeetachtigheid in oma's verwarde blik.\n\nEerst waren het kleine dingen. Oma die haar eigen telefonnummer niet meer wist. Oma die Lotte soms Emma noemde - de naam van Lotte's overleden tante. Dan klaarde haar gezicht plotseling op en was ze weer de oude oma die verhalen vertelde over haar jeugd tijdens de oorlog.\n\nOp een middag zat oma voor het raam en staarde naar buiten. \"Wanneer komt papa thuis van zijn werk?\" vroeg ze aan Lotte. Opa was al tien jaar dood. Lotte voelde een koude rilling over haar rug gaan. Dit leek op het verhaal dat ze hadden gelezen over een oude man die langzaam verdwaalde in zijn eigen leven.\n\nDie avond zocht Lotte op internet naar 'vergeetachtigheid bij ouderen'. Woorden als 'dementie' en 'Alzheimer' vulden haar scherm. Ze las over hersencellen die afsterven, over herinneringen die als zandkorrels door je vingers glijden. Oma's gedrag kreeg ineens een naam, een verklaring.\n\nDe volgende dag vertelde Lotte voorzichtig aan mama wat ze had ontdekt. \"Misschien moeten we met oma naar de dokter,\" stelde ze voor. Mama knikte langzaam. \"Je hebt gelijk, lieverd. Ik was bang om het onder ogen te zien.\"\n\nToen de diagnose werd gesteld - vroege vorm van dementie - huilde mama. Maar Lotte voelde ook opluchting. Nu konden ze oma helpen. Nu begrepen ze waarom ze soms zo angstig keek, waarom bekende gezichten ineens vreemd leken. Samen met de huisarts maakten ze een plan: meer structuur, geduld, en vooral veel liefde.\n\nOma zou nooit meer de oude worden. Maar met begrip en zorg konden ze haar reis door de ziekte draaglijker maken.",
+  "questions": [
+    {
+      "question": "Wat merkt Lotte als eerste op aan oma's gedrag dat meer is dan gewone vergeetachtigheid?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "verwarde",
+            "verward",
+            "verwart"
+          ],
+          [
+            "blik",
+            "kijken",
+            "ogen",
+            "keek"
+          ],
+          [
+            "meer",
+            "anders",
+            "vreemd",
+            "bijzonder"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Lotte ziet in oma's ogen in de eerste alinea."
+    },
+    {
+      "question": "Waarom vergelijkt de schrijver Lotte's situatie met een verhaal dat ze had gelezen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de literaire verwijzing helpt om Lotte's herkenning van de situatie te tonen - ze herkent patronen uit fictie in het echte leven.",
+        "exampleAnswer": "Lotte herkent de situatie van oma in het verhaal over de oude man, waardoor ze beseft dat dit meer is dan normale vergeetachtigheid.",
+        "keyElements": [
+          "herkenning/herkennen",
+          "patroon/overeenkomst",
+          "fictie/verhaal",
+          "werkelijkheid/echt leven"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan hoe verhalen ons kunnen helpen om de werkelijkheid te begrijpen."
+    },
+    {
+      "question": "Hoe verandert Lotte's begrip van de situatie nadat ze onderzoek heeft gedaan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Lotte door onderzoek van angst en onbegrip naar kennis en begrip gaat, waardoor ze actie kan ondernemen.",
+        "exampleAnswer": "Lotte begrijpt nu wat er met oma gebeurt en kan haar familie helpen om hulp te zoeken in plaats van de problemen te ontkennen.",
+        "keyElements": [
+          "begrip/begrijpen/verstaan",
+          "kennis/weten",
+          "naam/verklaring",
+          "actie/handelen/helpen"
+        ],
+        "minWords": 7
+      },
+      "hint": "Vergelijk hoe Lotte zich voelt voor en na haar internetonderzoek."
+    },
+    {
+      "question": "Evalueer of de familie de juiste keuze maakt door professionele hulp te zoeken. Onderbouw je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee) en deze onderbouwen met argumenten uit de tekst of logische redenen over mentale zorgverlening.",
+        "exampleAnswer": "Ja, het is goed dat ze hulp zoeken omdat dementie een medische conditie is die specialistische zorg nodig heeft. Ze kunnen oma nu beter helpen met de juiste kennis.",
+        "keyElements": [
+          "mening/vind/denk",
+          "professioneel/dokter/hulp",
+          "onderbouwing/omdat/reden",
+          "dementie/ziekte"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de gevolgen van wel of niet professionele hulp zoeken bij mentale gezondheidsuitdagingen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van mentale gezondheid serieus nemen, begrip ontwikkelen en hulp zoeken in plaats van problemen ontkennen.",
+        "exampleAnswer": "Het verhaal laat zien hoe belangrijk het is om mentale gezondheidsproblemen te herkennen en er iets aan te doen in plaats van ze te negeren.",
+        "keyElements": [
+          "mentale gezondheid/geestelijk/dementie",
+          "herkennen/begrijpen",
+          "hulp zoeken/actie",
+          "niet negeren/ontkennen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de reis die Lotte en haar familie maken van ontkenning naar begrip en actie."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-schaduw-van-oma/image-1.png",
+      "alt": "Een meisje dat bezorgd kijkt naar haar oma die verward uit het raam staart"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-schaduw-van-oma/image-2.png",
+      "alt": "Een familie die samen met een dokter praat over zorg voor oma"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl looking concerned at her elderly grandmother who appears confused while staring out a window, children's book illustration style, warm interior lighting",
+    "A Dutch family having a caring conversation with a doctor about elderly care and mental health support, children's book illustration style, medical office setting"
+  ]
+}

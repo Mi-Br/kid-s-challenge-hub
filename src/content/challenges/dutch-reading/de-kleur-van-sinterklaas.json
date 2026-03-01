@@ -1,0 +1,124 @@
+{
+  "id": "de-kleur-van-sinterklaas",
+  "title": "De Kleur van Sinterklaas",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Amara was pas drie maanden in Nederland toen december begon. Op school vertelden haar klasgenoten enthousiast over Sinterklaas, maar zij begreep er weinig van. \"Sinterklaas is een oude man met een lange witte baard,\" legde Emma uit. \"Hij draagt een rode mantel en rijdt op een wit paard over de daken.\"\n\nToen Amara thuis kwam, keek ze verward. \"Mama,\" zei ze, \"waarom vieren Nederlandse kinderen een feest voor een blanke man? In Ethiopië zijn onze heiligen donker, net als wij.\" Haar moeder glimlachte begripvol. \"Misschien kun je meer over dit feest leren voordat je oordeel velt.\"\n\nDe volgende dag organiseerde juf Marieke een speciale les over Sinterklaas. Ze vertelde dat Sinterklaas gebaseerd is op een echte persoon: Sint-Nicolaas, die lang geleden in Turkije woonde. \"Hij hielp arme gezinnen door 's nachts geld door hun ramen te gooien,\" vertelde de juf. \"Daarom brengt hij nog steeds cadeautjes.\"\n\nAmara stak haar vinger op. \"Maar waarom is hij wit op alle plaatjes?\" De juf dacht even na. \"Dat is een goede vraag. Kunstenaars hebben hem door de eeuwen heen op verschillende manieren getekend. Het belangrijkste is niet hoe hij eruitziet, maar wat hij vertegenwoordigt: vriendelijkheid en geven aan anderen.\"\n\nDie avond knutselde Amara een tekening van Sinterklaas met een donkere huid, omdat ze zich voorstelde dat hij op haar opa leek - wijs en lief. Toen Emma de tekening zag, vond ze hem prachtig. \"Zo heb ik Sinterklaas nog nooit gezien,\" zei ze bewonderend. \"Maar hij ziet er net zo aardig uit.\"\n\nOp Pakjesavond ontving Amara haar eerste Nederlandse cadeautje: een boek over verhalen uit verschillende landen. Ze besefte dat Sinterklaas - ongeacht zijn uiterlijk - een symbool was geworden voor iets moois: het delen van vreugde met elkaar, ongeacht waar je vandaan komt.",
+  "questions": [
+    {
+      "question": "Waar woonde Sint-Nicolaas lang geleden?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "turkije",
+        "in turkije"
+      ],
+      "hint": "Kijk naar de derde alinea waar juf Marieke vertelt over de echte persoon."
+    },
+    {
+      "question": "Waarom was Amara in het begin verward over Sinterklaas?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "blanke",
+            "wit",
+            "witte",
+            "kleur"
+          ],
+          [
+            "ethiopië",
+            "heiligen",
+            "donker",
+            "anders",
+            "verschillend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Amara tegen haar moeder zei in de tweede alinea."
+    },
+    {
+      "question": "Hoe veranderde Amara's kijk op Sinterklaas tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "leerde",
+            "begreep",
+            "snapte",
+            "ontdekte"
+          ],
+          [
+            "belangrijk",
+            "betekenis",
+            "symbool",
+            "vertegenwoordigt"
+          ],
+          [
+            "uiterlijk",
+            "eruitziet",
+            "kleur",
+            "huid"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Amara dacht aan het begin met hoe ze dacht aan het eind."
+    },
+    {
+      "question": "Vind je dat juf Marieke goed reageerde op Amara's vraag? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over juf Marieke's reactie en deze onderbouwen. Goede antwoorden benoemen dat ze eerlijk was, Amara serieus nam, of uitlegde wat echt belangrijk is.",
+        "exampleAnswer": "Ja, want ze nam Amara's vraag serieus en legde uit dat het belangrijkste niet het uiterlijk is maar wat Sinterklaas betekent.",
+        "keyElements": [
+          "serieus/eerlijk/respectvol",
+          "uitleg/betekenis/symbool"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over hoe juf Marieke omging met Amara's moeilijke vraag."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over het accepteren van verschillen en begrijpen dat tradities verschillende betekenissen kunnen hebben voor verschillende mensen. De exacte woorden zijn niet belangrijk.",
+        "exampleAnswer": "Het verhaal gaat erover dat het belangrijk is om verder te kijken dan uiterlijkheden en te begrijpen wat tradities echt betekenen.",
+        "keyElements": [
+          "verschillen/diversiteit/accepteren",
+          "tradities/betekenis/symbool",
+          "uiterlijk/verder kijken"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat de schrijver je wil leren over omgaan met verschillen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kleur-van-sinterklaas/image-1.png",
+      "alt": "Amara en Emma praten over Sinterklaas in de klas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kleur-van-sinterklaas/image-2.png",
+      "alt": "Amara toont haar tekening van Sinterklaas aan Emma"
+    }
+  ],
+  "imagePrompts": [
+    "A diverse classroom scene with a young Ethiopian girl (Amara) listening thoughtfully as her Dutch classmate Emma excitedly explains about Sinterklaas, children's book illustration style",
+    "Two young girls looking at a drawing together - one Ethiopian girl (Amara) showing her artwork of a dark-skinned Sinterklaas to her blonde Dutch friend (Emma) who looks impressed, warm classroom setting, children's book illustration style"
+  ]
+}

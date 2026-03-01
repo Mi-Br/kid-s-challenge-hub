@@ -1,0 +1,110 @@
+{
+  "id": "het-geheim-van-de-sterren",
+  "title": "Het Geheim van de Sterren",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wetenschap",
+  "text": "Maya staarde door de telescoop naar de oneindige sterrenhemel, terwijl de koude nachtlucht haar adem deed dampen. Over drie maanden zou ze moeten kiezen: doorstromen naar het gymnasium om astrofysica te studeren, of naar de havo omdat haar ouders vonden dat wetenschap 'te moeilijk' voor haar was. De sterren flikkerden alsof ze haar wilden troosten, maar Maya voelde alleen maar de zware last van verwachtingen.\n\nHaar mentor had gezegd dat haar wiskunderesultaten 'borderline' waren – net voldoende voor het gymnasium, maar geen garantie voor succes. 'Je moet realistisch zijn,' had hij geadviseerd. 'Astrofysica is een van de zwaarste studies.' Die woorden echoden in haar hoofd terwijl ze de Jupiter observeerde, met zijn vier grootste manen die als kleine lichtpuntjes om de gasreus cirkelden. Galileo had deze manen vierhonderd jaar geleden ontdekt met een veel primitievere telescoop. Had hij ook getwijfeld aan zichzelf?\n\nThuis lag op haar bureau een stapel folders: 'Ruimteonderzoek aan de Universiteit Leiden', 'Sterrenkunde voor Beginners', 'Carrièregids Exacte Wetenschappen'. Elke folder voelde tegelijkertijd als een belofte en een bedreiging. Maya wist dat ze misschien zou falen, dat de wiskunde haar boven het hoofd zou groeien, dat ze tussen geniale studenten zou zitten die alles veel sneller begrepen. Maar ze wist ook dat ze zonder deze kans nooit zou ontdekken waartoe ze in staat was.\n\nDe Poolster stond onwankelbaar aan de noordelijke hemel, zoals hij al duizenden jaren deed. Maya richtte haar telescoop op die ene constante ster en nam een besluit dat haar hele leven zou veranderen. Ze zou zich aanmelden voor het gymnasium, ook al betekende dat maandenlang zweten over integralen en natuurkundige formules. Want soms moet je springen, zelfs als je niet weet waar je zult landen.\n\n'De sterren zijn er altijd,' fluisterde ze tegen de nacht. 'En ik ook.' Ze pakte haar telefoon en begon een bericht aan haar mentor te typen, waarin ze om een gesprek vroeg over haar keuze. Haar vingers trilden lichtjes, maar haar besluit stond vast.",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed hebben om een moeilijke keuze te maken ondanks onzekerheid over de uitkomst. Het gaat over het durven volgen van je dromen ook al is succes niet gegarandeerd.",
+        "exampleAnswer": "Het verhaal gaat over het hebben van moed om je dromen te volgen, ook al ben je bang om te falen.",
+        "keyElements": [
+          "moed/durven/doorzetten",
+          "dromen/passie/ambities volgen",
+          "onzekerheid/twijfel overwinnen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over Maya's worsteling en wat ze uiteindelijk besluit te doen."
+    },
+    {
+      "question": "Waarom vergelijkt Maya zichzelf met Galileo?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Maya zich afvraagt of Galileo ook twijfelde, net zoals zij nu twijfelt aan haar capaciteiten. Ze zoekt troost in het idee dat zelfs grote wetenschappers onzeker kunnen zijn geweest.",
+        "exampleAnswer": "Maya vraagt zich af of Galileo ook twijfelde aan zichzelf, net zoals zij nu doet.",
+        "keyElements": [
+          "twijfelen/onzekerheid",
+          "vergelijking/herkenning",
+          "wetenschapper"
+        ],
+        "minWords": 5
+      },
+      "hint": "Lees de tweede alinea en let op de vraag die Maya zichzelf stelt."
+    },
+    {
+      "question": "Hoe verandert Maya's houding gedurende het verhaal van begin tot eind?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet het contrast zien tussen Maya's angstige onzekerheid aan het begin en haar vastberaden besluit aan het eind. Ze gaat van passieve twijfel naar actieve moed.",
+        "exampleAnswer": "Maya begint angstig en onzeker over haar keuze, maar eindigt vastberaden en moedig.",
+        "keyElements": [
+          "angstig/onzeker/twijfelend naar vastberaden/moedig",
+          "verandering/ontwikkeling",
+          "besluit nemen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Vergelijk hoe Maya zich voelt in de eerste en laatste alinea."
+    },
+    {
+      "question": "Wat is volgens jou de betekenis van Maya's laatste woorden: 'De sterren zijn er altijd, en ik ook'?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Maya zichzelf vergelijkt met de constante aanwezigheid van sterren – ze belooft zichzelf dat ze standvastig zal zijn in haar keuze, net zoals sterren er altijd zijn.",
+        "exampleAnswer": "Maya belooft dat ze net zo standvastig zal zijn als de sterren, dat ze niet zal opgeven.",
+        "keyElements": [
+          "standvastig/constant/volharden",
+          "belofte aan zichzelf",
+          "vergelijking met sterren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat sterren symboliseren in dit verhaal."
+    },
+    {
+      "question": "Wat wil de schrijver de lezer leren met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil leren dat je je dromen moet volgen ondanks angst voor falen, en dat moed betekent handelen ondanks onzekerheid.",
+        "exampleAnswer": "De schrijver wil leren dat je moedig je dromen moet volgen, ook al ben je bang om te falen.",
+        "keyElements": [
+          "dromen/ambities volgen",
+          "moed/dapper zijn",
+          "ondanks angst/onzekerheid"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat voor les kunnen lezers leren van Maya's keuze?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-sterren/image-1.png",
+      "alt": "Maya kijkt door een telescoop naar de sterrenhemel op een koude nachtelijke avond"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-sterren/image-2.png",
+      "alt": "Maya zit aan haar bureau met studiemateriaal en pakt vastberaden haar telefoon"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking through a telescope at a starry night sky, her breath visible in the cold air, with Jupiter and its moons visible in the telescope view, children's book illustration style",
+    "A teenage girl sitting at her desk with university brochures and study materials spread out, holding her phone with determination, children's book illustration style"
+  ]
+}

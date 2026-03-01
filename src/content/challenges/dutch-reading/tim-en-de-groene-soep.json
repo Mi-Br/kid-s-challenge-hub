@@ -1,0 +1,65 @@
+{
+  "id": "tim-en-de-groene-soep",
+  "title": "Tim en de Groene Soep",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "eten",
+  "text": "Tim zat aan de keukentafel. Mama zette een kom voor hem neer. De soep was groen en stonk naar spinazie.\n\n'Ik lust dit niet,' zei Tim. Hij schoof zijn kom weg. 'Groene soep is vies!'\n\nMama keek streng. 'Je moet eerst proeven, Tim. Groenten zijn gezond voor je.'\n\nTim deed zijn ogen dicht. Hij nam voorzichtig een kleine hap. Opeens smaakte het helemaal niet vies! Het was juist zoet en lekker.\n\n'Dit is best lekker!' zei Tim verrast. Hij at zijn hele kom leeg. Mama glimlachte breed.",
+  "questions": [
+    {
+      "question": "Welke kleur had de soep?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "groen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Welke groente zat er in de soep?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "spinazie"
+      ],
+      "hint": "Zoek in de eerste alinea naar het woord 'stonk'."
+    },
+    {
+      "question": "Waarom wilde Tim de soep niet eten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vies",
+            "lekker",
+            "lustte",
+            "lust"
+          ],
+          [
+            "groen",
+            "groene",
+            "groenten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Tim tegen mama zei."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/tim-en-de-groene-soep/image-1.png",
+      "alt": "Tim zit aan de keukentafel met een kom groene soep"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/tim-en-de-groene-soep/image-2.png",
+      "alt": "Tim proeft de soep en kijkt verrast"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy sitting at a kitchen table looking unhappy at a bowl of green spinach soup, children's book illustration style",
+    "The same boy taking a careful taste of the green soup and looking surprised and pleased, children's book illustration style"
+  ]
+}

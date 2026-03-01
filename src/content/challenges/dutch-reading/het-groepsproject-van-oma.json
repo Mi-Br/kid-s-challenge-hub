@@ -1,0 +1,104 @@
+{
+  "id": "het-groepsproject-van-oma",
+  "title": "Het Groepsproject van Oma",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "school",
+  "text": "Emma zat aan de keukentafel met haar boeken. Ze had een groot probleem. Morgen moest ze samen met Lisa en Tom een verhaal vertellen over vroeger. Maar Emma had ruzie gemaakt met Lisa omdat ze haar idee dom vond.\n\nOma kwam binnen met thee. \"Waarom kijk je zo verdrietig?\" vroeg oma vriendelijk. Emma vertelde over het groepsproject en de ruzie. \"Ik was gemeen tegen Lisa,\" zuchtte Emma. \"Nu wil ze niet meer met me werken.\"\n\nOma ging naast Emma zitten. \"Weet je, toen ik klein was, maakte ik ook eens ruzie met mijn beste vriendin during een schoolproject. We moesten samen een tekening maken van onze straat. Maar ik zei dat haar huizen lelijk waren.\" Oma's ogen werden zacht van de herinnering.\n\n\"Wat deed u toen?\" vroeg Emma nieuwsgierig. \"Ik ging naar haar toe en zei sorry. Toen hebben we samen de mooiste tekening gemaakt van heel de klas,\" antwoordde oma met een glimlach. \"Soms moeten we onze trots wegstoppen om vrienden te blijven.\"\n\nDe volgende ochtend ging Emma naar Lisa toe. \"Het spijt me dat ik je idee dom noemde,\" zei ze zacht. \"Wil je alsnog samen het project doen?\" Lisa keek eerst boos, maar toen glimlachte ze. \"Oké, maar dan doen we het samen, niet alleen jouw plan.\"\n\nHun verhaal over vroeger werd het beste van de klas. Emma dacht aan oma's wijze woorden en was blij dat ze haar trots had weggestopt.",
+  "questions": [
+    {
+      "question": "Waar zat Emma toen oma binnenkwam?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "aan de keukentafel",
+        "keukentafel",
+        "tafel"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Hoe voelde Emma zich toen ze ruzie had met Lisa?",
+      "questionType": "begrijpen",
+      "hint": "Oma vroeg waarom Emma zo keek.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "verdrietig"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom was Emma boos op Lisa?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "idee",
+            "plan",
+            "voorstel"
+          ],
+          [
+            "dom",
+            "stom",
+            "slecht",
+            "lelijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma tegen Lisa zei over haar idee."
+    },
+    {
+      "question": "Vind je dat Emma goed deed door sorry te zeggen? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed"
+          ],
+          [
+            "sorry",
+            "excuses",
+            "spijt"
+          ],
+          [
+            "vrienden",
+            "vriendinnen",
+            "samen",
+            "samenwerken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde nadat Emma sorry zei."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-groepsproject-van-oma/image-1.png",
+      "alt": "Emma zit verdrietig aan de keukentafel terwijl oma thee brengt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-groepsproject-van-oma/image-2.png",
+      "alt": "Emma zegt sorry tegen Lisa op het schoolplein"
+    }
+  ],
+  "imagePrompts": [
+    "A sad young girl sitting at a kitchen table with school books while her grandmother brings tea, warm cozy kitchen atmosphere, children's book illustration style",
+    "A young girl apologizing to her classmate on a school playground, other children in background, reconciliation moment, children's book illustration style"
+  ]
+}

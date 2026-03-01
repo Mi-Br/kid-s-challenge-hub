@@ -1,0 +1,153 @@
+{
+  "id": "groene-keuzes",
+  "title": "Groene Keuzes",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "milieu",
+  "text": "Yasmin staarde naar het formulier op haar bureau. Ze moest kiezen welke middelbare school ze wilde. Haar ouders wilden dat ze naar het VWO ging, maar Yasmin droomde van iets anders. Ze wilde naar een groene school die zich richtte op het milieu.\n\nTijdens de open dag had ze gezien hoe leerlingen hun eigen groenten verbouwden. Ze leerden over duurzame energie en klimaatverandering. Yasmin voelde zich thuis tussen de zonnepanelen en de composthoop. Maar zou ze daar wel slim genoeg voor zijn?\n\nThuis aan tafel werd het een moeilijk gesprek. \"Yasmin, je hebt goede cijfers,\" zei haar vader. \"Waarom zou je naar zo'n bijzondere school gaan? Wij begrijpen dat niet.\" Haar moeder knikte bezorgd. Ze waren uit Turkije gekomen voor een betere toekomst voor hun kinderen.\n\nYasmin begreef hun zorgen, maar voelde ook haar eigen passie. \"Ik wil echt iets doen voor de aarde,\" legde ze uit. \"Het klimaat verandert zo snel. Misschien kan ik later nieuwe oplossingen vinden.\" Ze was bang dat haar keuze verkeerd was, maar ze wist ook dat ze gelukkig wilde worden.\n\nNa dagen van twijfel vulde Yasmin eindelijk het formulier in. Ze koos voor de groene school. Het was spannend en eng tegelijk, omdat niemand kon voorspellen hoe haar toekomst eruit zou zien. Maar Yasmin accepteerde die onzekerheid. Ze ging haar eigen pad volgen.",
+  "questions": [
+    {
+      "question": "Waar droomde Yasmin van?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een groene school die zich richtte op het milieu",
+        "naar een groene school gaan"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom waren Yasmins ouders bezorgd over haar schoolkeuze?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "begrijpen",
+            "begrepen",
+            "snap",
+            "snapten",
+            "verstaan",
+            "verstonden"
+          ],
+          [
+            "bijzondere",
+            "anders",
+            "ongewoon",
+            "speciaal"
+          ],
+          [
+            "school",
+            "keuze",
+            "toekomst"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat haar vader zei in de derde alinea."
+    },
+    {
+      "question": "Wat leerde Yasmin over haar eigen gevoelens tijdens dit proces?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "passie",
+            "gevoel",
+            "emotie",
+            "hart"
+          ],
+          [
+            "bang",
+            "angstig",
+            "onzeker",
+            "zenuwachtig",
+            "spannend"
+          ],
+          [
+            "gelukkig",
+            "blij",
+            "tevreden",
+            "geluk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de vierde alinea waar Yasmin haar gevoelens uitlegt."
+    },
+    {
+      "question": "Vind je dat Yasmin de juiste beslissing heeft genomen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet",
+            "goed",
+            "fout",
+            "juist",
+            "verkeerd"
+          ],
+          [
+            "passie",
+            "dromen",
+            "gevoel",
+            "gelukkig",
+            "hart",
+            "belangrijk"
+          ],
+          [
+            "ouders",
+            "familie",
+            "toekomst",
+            "kansen",
+            "zekerheid"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de voor- en nadelen van Yasmins keuze."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het maken van moeilijke keuzes tussen verwachtingen van anderen en je eigen dromen, en het accepteren van onzekerheid over de toekomst.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat moet kiezen tussen wat haar ouders willen en haar eigen dromen, en dat ze leert om onzekerheid te accepteren.",
+        "keyElements": [
+          "keuzes maken/beslissingen nemen",
+          "eigen pad/dromen volgen",
+          "onzekerheid accepteren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over Yasmins hele reis van het begin tot het einde van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/groene-keuzes/image-1.png",
+      "alt": "Yasmin zit aan haar bureau en kijkt naar een schoolkeuze formulier"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/groene-keuzes/image-2.png",
+      "alt": "Yasmin vult het formulier in en kiest voor de groene school"
+    }
+  ],
+  "imagePrompts": [
+    "A Turkish-Dutch teenage girl sitting at her desk looking thoughtfully at a school choice form, children's book illustration style, warm home setting",
+    "The same girl confidently filling out the form while looking determined, with small images of solar panels and gardens in thought bubbles, children's book illustration style"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "het-verdwenen-verkeersbord",
+  "title": "Het Verdwenen Verkeersbord",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verkeer",
+  "text": "Elke ochtend fietst Lisa door de Dorpsstraat naar school. Ze kent de route perfect omdat ze hier al drie jaar woont. Bij de kruising met de Molenweg staat altijd een rood driehoekig bord dat betekent dat je voorrang moet verlenen. Maar vandaag is dat bord er niet meer.\n\nLisa stopt geschrokken bij de lege paal. Zonder het verkeersbord weten fietsers en automobilisten niet wie er eerst mag rijden. Dit kan gevaarlijke situaties veroorzaken! Ze besluit het mysterie op te lossen omdat haar vader bij de gemeente werkt en altijd zegt dat verkeersveiligheid heel belangrijk is.\n\nTijdens de pauze vertelt Lisa aan haar beste vriend Thijs over het verdwenen bord. \"Misschien hebben vandalen het gestolen,\" suggereert hij. \"Of misschien is het door de storm gevallen.\" Lisa schrijft beide mogelijkheden in haar notitieboekje. Na school gaan ze samen terug naar de kruising om sporen te zoeken.\n\nBij de lege paal ontdekken ze iets vreemds. De bouten die het bord vasthielden zijn er nog, maar ze zijn heel netjes losgedraaid. \"Vandalen zouden de bouten niet zo keurig bewaren,\" denkt Lisa hardop. \"En de storm zou het bord kapot hebben gemaakt.\" Thijs knikt instemmend terwijl hij de glanzende bouten bekijkt.\n\nDan ziet Lisa mevrouw De Wit, de buurvrouw die altijd in haar tuin werkt. \"Mevrouw De Wit! Heeft u gisteren iets bijzonders gezien bij de kruising?\" roept ze. De vriendelijke oude dame komt naar het hek gelopen. \"Ja, kinderen! Vanmorgen vroeg kwam er een vrachtwagen van de gemeente. Twee mannen in oranje hesjes hebben het oude bord weggehaald omdat het verbleekt was.\"\n\n\"Dus het is niet gestolen!\" juicht Thijs. Mevrouw De Wit glimlacht. \"Ze komen vanmiddag terug met een nieuw bord. Het oude was zo verbleekt dat je het bijna niet meer kon lezen. De gemeente vervangt alle oude verkeersborden in onze wijk om de veiligheid te verbeteren.\"\n\nLisa voelt zich opgelucht en trots. Door goed te observeren en vragen te stellen heeft ze het mysterie opgelost. Verkeersborden verdwijnen niet zomaar - er is altijd een logische verklaring. Ze besluit om voortaan nog beter op te letten bij het fietsen.",
+  "questions": [
+    {
+      "question": "Welke vorm heeft het verkeersbord dat verdwenen is?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "driehoekig",
+        "driehoek"
+      ],
+      "hint": "Kijk in de eerste alinea naar de beschrijving van het bord."
+    },
+    {
+      "question": "Waarom denkt Lisa dat vandalen het bord niet hebben gestolen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bouten",
+            "bout"
+          ],
+          [
+            "netjes",
+            "keurig",
+            "zorgvuldig",
+            "voorzichtig"
+          ],
+          [
+            "bewaren",
+            "bewaard",
+            "laten",
+            "gelaten",
+            "zitten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa en Thijs vinden bij de lege paal."
+    },
+    {
+      "question": "Wat is de echte reden waarom het verkeersbord is weggehaald?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verbleekt",
+            "verbleekt was",
+            "oud",
+            "oude"
+          ],
+          [
+            "vervangen",
+            "vervangt",
+            "nieuw",
+            "nieuwe"
+          ],
+          [
+            "gemeente",
+            "gemeentewerkers",
+            "mannen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Mevrouw De Wit legt uit wat er echt gebeurd is."
+    },
+    {
+      "question": "Vind je dat Lisa een goede detective is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Lisa's detective-vaardigheden en dit onderbouwen met voorbeelden uit de tekst, zoals haar observaties, vragen stellen, of logisch redeneren.",
+        "exampleAnswer": "Ja, Lisa is een goede detective omdat ze goed observeert en vragen stelt aan mevrouw De Wit.",
+        "keyElements": [
+          "mening/oordeel",
+          "onderbouwing/voorbeelden/bewijs",
+          "observeren/vragen/redeneren/sporen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Lisa doet om het mysterie op te lossen."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het oplossen van een mysterie door goed te observeren en vragen te stellen, of over het belang van logisch nadenken bij problemen.",
+        "exampleAnswer": "Het verhaal gaat erover dat je mysteries kunt oplossen door goed te kijken en vragen te stellen.",
+        "keyElements": [
+          "mysterie oplossen/onderzoeken",
+          "observeren/kijken/vragen stellen",
+          "logisch denken/redeneren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Wat leert Lisa door deze ervaring?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-verkeersbord/image-1.png",
+      "alt": "Lisa staat geschrokken bij een lege paal waar normaal een verkeersbord hoort te staan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-verkeersbord/image-2.png",
+      "alt": "Lisa en Thijs praten met mevrouw De Wit bij het tuinhek"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl on a bicycle looking puzzled at an empty pole where a traffic sign should be, at a Dutch street intersection with typical Dutch houses in the background, children's book illustration style",
+    "Two children talking to a friendly elderly woman in her garden near a fence, with the woman wearing gardening clothes and pointing toward the street, Dutch neighborhood setting, children's book illustration style"
+  ]
+}

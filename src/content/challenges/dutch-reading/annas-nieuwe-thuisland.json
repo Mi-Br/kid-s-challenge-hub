@@ -1,0 +1,151 @@
+{
+  "id": "annas-nieuwe-thuisland",
+  "title": "Anna's Nieuwe Thuisland",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "reizen",
+  "text": "Anna had altijd gedacht dat Nederland haar thuis niet kon worden. Haar familie was drie jaar geleden vanuit Polen naar Amsterdam gekomen, maar Anna miste Krakau elke dag. De Nederlandse kinderen op school waren aardig, maar ze begrepen haar niet echt. Anna voelde zich anders dan de rest.\n\nVorige week kreeg Anna's klas een opdracht over de Tweede Wereldoorlog. Ze moesten onderzoek doen naar verhalen uit hun eigen familie. Anna wilde deze opdracht niet maken omdat ze dacht dat Nederlandse kinderen geen interesse hadden in Poolse geschiedenis. Maar toen vertelde haar oma een bijzonder verhaal over Nederlandse verzetsstrijders die Poolse vluchtelingen hadden geholpen.\n\nHet verhaal van oma maakte diepe indruk op Anna. Ze ontdekte dat Nederlandse families risico's hadden genomen om mensen zoals haar familie te beschermen. Anna begon te begrijpen dat de geschiedenis van Nederland en Polen meer verbonden was dan ze had gedacht. Langzaam veranderde haar kijk op haar nieuwe land.\n\nTijdens de presentatie in de klas vertelde Anna trots het verhaal van haar oma. Haar klasgenoten luisterden aandachtig en stelden veel vragen. Een meisje genaamd Lisa zei: \"Wat moedig van die Nederlandse families destijds. En wat bijzonder dat jij dit verhaal kent!\" Anna voelde voor het eerst dat ze echt hoorde bij de klas.\n\nDie middag liep Anna door Amsterdam en keek ze anders naar de straten en grachten. Ze realiseerde zich dat dit niet alleen de stad van andere mensen was, maar ook haar stad. Nederland was niet meer alleen het land waar ze woonde, maar langzaam aan het worden tot haar nieuwe thuisland. Anna begreep nu dat je van twee landen tegelijk kunt houden.",
+  "questions": [
+    {
+      "question": "Uit welk land kwam Anna's familie oorspronkelijk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "polen"
+      ],
+      "hint": "Kijk naar de eerste alinea waar wordt verteld waar Anna vandaan komt."
+    },
+    {
+      "question": "Waarom wilde Anna eerst geen opdracht over de Tweede Wereldoorlog maken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "dacht",
+            "voelde",
+            "geloofde"
+          ],
+          [
+            "nederlandse",
+            "kinderen",
+            "klasgenoten"
+          ],
+          [
+            "interesse",
+            "belangstelling",
+            "geïnteresseerd"
+          ],
+          [
+            "poolse",
+            "geschiedenis",
+            "verhalen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Anna dacht over de Nederlandse kinderen en haar eigen achtergrond."
+    },
+    {
+      "question": "Hoe veranderde Anna's kijk op Nederland nadat ze oma's verhaal hoorde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "verbonden",
+            "verbinding",
+            "samen"
+          ],
+          [
+            "geschiedenis",
+            "verleden"
+          ],
+          [
+            "nederland",
+            "nederlands",
+            "nederlanders"
+          ],
+          [
+            "polen",
+            "pools",
+            "poolse"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over wat Anna ontdekte over de geschiedenis."
+    },
+    {
+      "question": "Vind je het belangrijk dat Anna haar verhaal deelde met de klas? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "belangrijk",
+            "goed",
+            "nuttig",
+            "waardevol"
+          ],
+          [
+            "klasgenoten",
+            "kinderen",
+            "anderen"
+          ],
+          [
+            "begrijpen",
+            "leren",
+            "weten"
+          ],
+          [
+            "cultuur",
+            "geschiedenis",
+            "achtergrond",
+            "verhalen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde toen Anna haar verhaal vertelde en waarom dat goed of minder goed zou kunnen zijn."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe iemand langzaam een gevoel van thuishoren kan ontwikkelen in een nieuw land door verbindingen te ontdekken tussen culturen.",
+        "exampleAnswer": "Het verhaal gaat erover hoe je je thuis kunt gaan voelen in een nieuw land door te ontdekken dat culturen met elkaar verbonden zijn.",
+        "keyElements": [
+          "thuis voelen/thuishoren",
+          "nieuw land/nederland",
+          "verbinding/verbonden/samen",
+          "culturen/geschiedenis"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over Anna's reis van het begin tot het einde van het verhaal. Wat leert ze over thuishoren?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/annas-nieuwe-thuisland/image-1.png",
+      "alt": "Anna luistert aandachtig naar haar oma die een verhaal vertelt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/annas-nieuwe-thuisland/image-2.png",
+      "alt": "Anna loopt door de Amsterdamse straten en kijkt anders naar haar omgeving"
+    }
+  ],
+  "imagePrompts": [
+    "A young Polish girl listening intently to her grandmother who is telling a story, warm living room setting, children's book illustration style, emotional connection between generations",
+    "A teenage girl walking through Amsterdam canal streets looking thoughtful and content, Dutch architecture in background, golden afternoon light, children's book illustration style, sense of belonging"
+  ]
+}

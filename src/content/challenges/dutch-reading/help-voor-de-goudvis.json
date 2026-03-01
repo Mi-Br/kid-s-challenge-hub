@@ -1,0 +1,58 @@
+{
+  "id": "help-voor-de-goudvis",
+  "title": "Help voor de Goudvis",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "dieren",
+  "text": "Amara kijkt naar het aquarium. De goudvis zwemt niet. De goudvis ligt op de bodem. Het water is heel vuil.\n\nAmara roept haar papa. Papa kijkt ook naar de goudvis. Papa zegt dat de goudvis ziek is. Het water moet schoon worden.\n\nAmara en papa maken het aquarium schoon. Ze doen nieuw water erin. De goudvis zwemt weer. De goudvis is blij. Amara is ook blij.",
+  "questions": [
+    {
+      "question": "Waar ligt de goudvis?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op de bodem"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Hoe is het water in het aquarium?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vuil"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wie helpt Amara met het aquarium?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "papa",
+        "haar papa"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/help-voor-de-goudvis/image-1.png",
+      "alt": "Een meisje kijkt naar een vuil aquarium met een goudvis op de bodem"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/help-voor-de-goudvis/image-2.png",
+      "alt": "Een meisje en haar papa maken samen het aquarium schoon"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking sadly at a dirty fish tank with a goldfish lying at the bottom, children's book illustration style",
+    "A girl and her father cleaning a fish tank together, the goldfish swimming happily in clean water, children's book illustration style"
+  ]
+}

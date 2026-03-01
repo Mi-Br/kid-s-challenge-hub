@@ -1,0 +1,113 @@
+{
+  "id": "lisa-maakt-het-goed",
+  "title": "Lisa maakt het goed",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Lisa kijkt naar haar beste vriendin Emma. Emma heeft een groot feest voor haar verjaardag. Er zijn ballonnen, taart en veel cadeaus. Lisa voelt zich verdrietig omdat haar eigen feest heel klein was.\n\n\"Jouw feest was saai,\" zegt Lisa tegen Emma. \"Mijn mama kon geen grote taart kopen want we hebben weinig geld.\" Emma wordt stil en kijkt naar de grond.\n\nThuis denkt Lisa na. Ze voelt zich rot omdat ze gemeen was tegen Emma. Emma kon er niks aan doen dat Lisa's feest klein was. Lisa wil het goedmaken.\n\nDe volgende dag gaat Lisa naar Emma. \"Sorry dat ik gemeen was,\" zegt Lisa. \"Ik was jaloers omdat jouw feest zo mooi was. Dat was niet eerlijk van mij.\"\n\nEmma glimlacht. \"Het geeft niet, Lisa. Jouw feest was niet saai. We hebben samen gelachen en spelletjes gedaan. Dat was het leukste van allemaal.\" De twee vriendinnen knuffelen elkaar.",
+  "questions": [
+    {
+      "question": "Waarom voelt Lisa zich verdrietig op Emma's feest?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "haar"
+          ],
+          [
+            "eigen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom zegt Lisa gemene dingen tegen Emma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "jaloers",
+            "jaloezie",
+            "jaloers was"
+          ],
+          [
+            "verdrietig",
+            "rot",
+            "naar",
+            "slecht"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Lisa zich voelt."
+    },
+    {
+      "question": "Wat doet Lisa om het goed te maken met Emma?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "sorry",
+            "excuus",
+            "verontschuldigen"
+          ],
+          [
+            "zegt",
+            "gaat",
+            "praat"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de voorlaatste alinea goed."
+    },
+    {
+      "question": "Wat betekent het woord 'jaloers' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa wilde ook zo'n mooi feest als Emma.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "dat je wilt wat een ander heeft"
+          ],
+          [
+            "boos omdat iemand anders iets mooiers heeft"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lisa-maakt-het-goed/image-1.png",
+      "alt": "Lisa kijkt verdrietig naar Emma's grote verjaardagfeest"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lisa-maakt-het-goed/image-2.png",
+      "alt": "Lisa en Emma knuffelen elkaar na de verontschuldiging"
+    }
+  ],
+  "imagePrompts": [
+    "A sad young girl looking at her friend's big birthday party with balloons, cake and presents, children's book illustration style",
+    "Two young girls hugging and smiling after making up, in a Dutch neighborhood setting, children's book illustration style"
+  ]
+}

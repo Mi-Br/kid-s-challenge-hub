@@ -1,0 +1,99 @@
+{
+  "id": "het-mysterie-van-de-regen",
+  "title": "Het Mysterie van de Regen",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het weer",
+  "text": "Emma keek uit het raam. Het regende al drie dagen. Haar nieuwe schoenen stonden klaar bij de deur, maar ze kon ze niet dragen omdat de straten nat waren.\n\n\"Waarom regent het zoveel?\" vroeg ze aan haar moeder. Mama legde uit dat wolken water vasthouden. Als ze vol zijn, valt het water naar beneden als regen.\n\nEmma dacht na. Ze ging naar buiten en zette een emmer in de tuin. Na één uur was de emmer half vol water. \"Nu begrijp ik het,\" zei ze. \"De regen vult onze emmer, maar ook de rivieren en vijvers.\"\n\nDe volgende dag scheen de zon weer. Emma trok haar nieuwe schoenen aan en ging naar school. Ze vertelde haar juf over haar ontdekking met de emmer. De juf was trots op Emma omdat ze zelf had onderzocht hoe regen werkt.",
+  "questions": [
+    {
+      "question": "Hoeveel dagen regende het al?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "drie"
+          ],
+          [
+            "dagen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Hoeveel uur duurde het voordat de emmer half vol was?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "één uur",
+        "een uur",
+        "1 uur"
+      ],
+      "hint": "Zoek in de derde alinea naar de tijd."
+    },
+    {
+      "question": "Waarom kon Emma haar nieuwe schoenen niet dragen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "nat",
+            "natte",
+            "water"
+          ],
+          [
+            "straten",
+            "straat",
+            "buiten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurt met straten als het regent."
+    },
+    {
+      "question": "Wat betekent 'ontdekking' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Emma deed iets met de emmer om iets te leren.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "iets nieuws leren"
+          ],
+          [
+            "uitzoeken"
+          ],
+          [
+            "onderzoeken"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-regen/image-1.png",
+      "alt": "Emma kijkt uit het raam naar de regen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-regen/image-2.png",
+      "alt": "Emma zet een emmer in de regen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking out of a window at the rain falling, with new shoes visible by the door, children's book illustration style",
+    "A young girl placing a bucket outside in the rain in a Dutch garden, with raindrops falling into the bucket, children's book illustration style"
+  ]
+}

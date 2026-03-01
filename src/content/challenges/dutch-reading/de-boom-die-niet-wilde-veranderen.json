@@ -1,0 +1,124 @@
+{
+  "id": "de-boom-die-niet-wilde-veranderen",
+  "title": "De Boom Die Niet Wilde Veranderen",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "seizoenen",
+  "text": "In het Vondelpark in Amsterdam stond een oude eikenboom die Evert heette. Toen de herfst kwam, begonnen alle andere bomen hun bladeren te laten vallen. Hun gouden en rode bladeren dwarrelden naar beneden als confetti. Maar Evert hield zijn groene bladeren stevig vast.\n\n\"Waarom laat je je bladeren niet vallen?\" vroeg de kastanjeboom die naast hem stond. \"Het is tijd om te rusten voor de winter die eraan komt.\" Evert schudde zijn takken boos. \"Ik ben niet van plan om kaal te worden! Groene bladeren zijn mooi. Ik ga ze nooit loslaten.\"\n\nDe dagen werden korter en kouder. Everts bladeren werden bruin aan de randjes omdat hij ze niet wilde loslaten. De wind rukte aan zijn takken, maar nog steeds weigerde hij zijn bladeren te laten gaan. De andere bomen in het park waren nu helemaal kaal en bereidden zich voor op de winterslaap.\n\nOp een koude novemberdag kwam er een klein meisje naar het park. Ze had verdriet omdat haar oma was overleden. Het meisje ging onder Evert zitten en begon te huilen. \"Alles verandert,\" fluisterde ze. \"Waarom moet alles altijd veranderen?\" Evert hoorde haar woorden en begreep plotseling iets belangrijks.\n\nDie nacht liet Evert eindelijk zijn bladeren los. Ze vielen zachtjes naar beneden en bedekten de grond als een warme deken. Het meisje dat de volgende dag terugkwam, glimlachte toen ze de prachtige herfstbladeren zag. \"Verandering kan ook mooi zijn,\" zei ze zacht. Evert voelde zich nu vredig en klaar voor de winter, wetende dat in de lente nieuwe bladeren zouden komen.",
+  "questions": [
+    {
+      "question": "Welke kleur hadden Everts bladeren aan het begin van het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "groen",
+        "groene"
+      ],
+      "hint": "Kijk naar de eerste alinea waar wordt beschreven hoe Evert anders was dan de andere bomen."
+    },
+    {
+      "question": "Waarom wilde Evert zijn bladeren niet laten vallen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "mooi",
+            "prachtig",
+            "fraai"
+          ],
+          [
+            "niet",
+            "geen",
+            "weigerde"
+          ],
+          [
+            "kaal",
+            "zonder bladeren",
+            "zonder"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat Evert tegen de kastanjeboom zegt over groene bladeren."
+    },
+    {
+      "question": "Wat gebeurde er met Everts bladeren toen hij ze niet wilde loslaten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bruin",
+            "bruine",
+            "verkleurd"
+          ],
+          [
+            "randjes",
+            "randen",
+            "kanten"
+          ],
+          [
+            "werd",
+            "werden",
+            "raakte"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea over wat er gebeurde toen de dagen kouder werden."
+    },
+    {
+      "question": "Vind je dat Evert gelijk had dat hij zijn bladeren wilde houden? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijk standpunt innemen (ja/nee) en dit onderbouwen met argumenten uit de tekst of logische redenering over seizoenen en verandering.",
+        "exampleAnswer": "Nee, omdat bomen hun bladeren moeten laten vallen om zich voor te bereiden op de winter. Als hij ze vasthoudt worden ze lelijk en bruin.",
+        "keyElements": [
+          "ja/nee/wel/niet",
+          "seizoenen/winter/natuur",
+          "verandering/loslaten/vasthouden"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat er gebeurde toen Evert zijn bladeren vasthield en wat de andere bomen deden."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het accepteren van verandering als natuurlijk onderdeel van het leven. Het gaat om loslaten en vertrouwen hebben in nieuwe fasen.",
+        "exampleAnswer": "Het verhaal gaat erover dat verandering bij het leven hoort en dat je soms moet loslaten om vooruit te kunnen.",
+        "keyElements": [
+          "verandering/veranderen",
+          "loslaten/accepteren",
+          "natuurlijk/hoort erbij/leven"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat zowel Evert als het meisje hebben geleerd over verandering."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-boom-die-niet-wilde-veranderen/image-1.png",
+      "alt": "Een oude eikenboom met groene bladeren terwijl alle andere bomen in het park kale takken hebben in de herfst"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-boom-die-niet-wilde-veranderen/image-2.png",
+      "alt": "Een meisje dat onder een boom zit terwijl gouden herfstbladeren zachtjes naar beneden vallen"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of an old oak tree with green leaves standing out among other bare trees in a Dutch park during autumn, with fallen golden and red leaves on the ground",
+    "Children's book illustration of a young girl sitting peacefully under a large tree as beautiful autumn leaves gently fall around her like a golden blanket in a park setting"
+  ]
+}

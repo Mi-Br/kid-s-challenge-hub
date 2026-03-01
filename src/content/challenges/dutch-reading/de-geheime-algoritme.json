@@ -1,0 +1,133 @@
+{
+  "id": "de-geheime-algoritme",
+  "title": "De Geheime Algoritme",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "technologie",
+  "text": "Lina scrollde door haar sociale media feed toen een advertentie haar aandacht trok. Een glimmende nieuwe smartphone werd aangeprezen als 'de perfecte telefoon voor jongeren zoals jij!' De advertentie beweerde dat het toestel haar populairder zou maken en dat alle coole kinderen er al een hadden. Zonder na te denken klikte ze op de link en begon ze haar ouders te smeken om het dure toestel.\n\nToen haar beste vriend Sam hoorde over Lina's wens, fronste hij zijn wenkbrauwen. 'Weet je eigenlijk wel wie deze advertentie heeft gemaakt en waarom je hem precies nu ziet?' vroeg hij. Lina schudde haar hoofd, geïrriteerd door zijn vraag. Sam legde uit dat algoritmes haar online gedrag analyseerden en advertenties selecteerden die haar zouden verleiden tot kopen. De advertentie was geen toeval - het was een doelgerichte poging om haar geld uit te geven.\n\nIntrigerend door Sams uitleg, besloot Lina onderzoek te doen. Ze ontdekte dat het bedrijf achter de smartphone gebruik maakte van controversiële arbeidspraktijken en dat hun producten vaak na twee jaar kapot gingen. Bovendien realiseerde ze zich dat de beweringen over populariteit nergens op gebaseerd waren - het waren simpelweg manipulatieve marketingtactieken.\n\nDie avond besprak Lina haar bevindingen met haar familie tijdens het eten. Ze vertelde hoe algoritmes persoonlijke data gebruiken om gerichte reclame te maken, vaak zonder dat mensen zich daarvan bewust zijn. 'Het is belangrijk om altijd kritisch na te denken voordat je iets gelooft wat je online ziet,' concludeerde ze. 'Technologie kan geweldig zijn, maar we moeten leren hoe we er slim mee om kunnen gaan.'\n\nSam glimlachte trots toen Lina hem de volgende dag vertelde dat ze had besloten haar oude telefoon nog een jaar langer te gebruiken. 'Je hebt geleerd om door de marketing-illusie heen te kijken,' zei hij bewonderend. Lina knikte en voegde toe: 'En ik ga andere jongeren ook helpen om bewuster om te gaan met online advertenties.'\n\nVanaf dat moment controleerde Lina altijd de bron van online informatie en vroeg ze zich af wie er voordeel had bij bepaalde berichten. Ze had ontdekt dat de beste technologie van allemaal haar eigen kritische denkvermogen was.",
+  "questions": [
+    {
+      "question": "Wat leerde Lina over algoritmes en advertenties?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat algoritmes online gedrag analyseren om gerichte advertenties te maken die mensen verleiden tot kopen.",
+        "exampleAnswer": "Algoritmes analyseren haar gedrag online en maken gerichte advertenties om haar te verleiden dingen te kopen.",
+        "keyElements": [
+          "algoritmes analyseren gedrag",
+          "gerichte/doelgerichte advertenties",
+          "verleiden/manipuleren tot kopen"
+        ],
+        "minWords": 5
+      },
+      "hint": "Kijk naar wat Sam uitlegt in de tweede paragraaf."
+    },
+    {
+      "question": "Waarom besloot Lina uiteindelijk om de smartphone niet te kopen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "onderzoek",
+            "ontdekte",
+            "bevindingen"
+          ],
+          [
+            "controversiële",
+            "slechte",
+            "problematische"
+          ],
+          [
+            "arbeidspraktijken",
+            "werkpraktijken",
+            "arbeidsomstandigheden"
+          ],
+          [
+            "kapot",
+            "stuk",
+            "defect"
+          ],
+          [
+            "manipulatief",
+            "misleidend",
+            "oneerlijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde paragraaf over wat Lina ontdekte tijdens haar onderzoek."
+    },
+    {
+      "question": "Beoordeel of Lina's aanpak om online informatie te controleren verstandig is. Geef je mening met argumenten.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een onderbouwde mening geven over Lina's kritische houding tegenover online informatie, met argumenten die aantonen waarom dit wel of niet verstandig is.",
+        "exampleAnswer": "Ja, dit is verstandig omdat bedrijven vaak proberen ons te misleiden met advertenties. Door kritisch te zijn bescherm je jezelf tegen manipulatie.",
+        "keyElements": [
+          "verstandig/slim/goed",
+          "bescherming tegen misleiding/manipulatie",
+          "eigen mening met argumenten"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de voordelen van kritisch denken bij online informatie."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van kritisch denken bij technologie en online informatie, en niet zomaar alles geloven wat je ziet.",
+        "exampleAnswer": "Het verhaal gaat erover dat je kritisch moet nadenken over wat je online ziet en niet alles moet geloven.",
+        "keyElements": [
+          "kritisch denken/nadenken",
+          "niet alles geloven",
+          "online informatie/technologie",
+          "bewust omgaan met media"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Lina heeft geleerd over het omgaan met online informatie."
+    },
+    {
+      "question": "Waarom wilde de schrijver dit verhaal vertellen? Wat is het doel?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver jongeren wil waarschuwen voor manipulatieve online advertenties en hen wil leren kritisch te zijn over technologie en media.",
+        "exampleAnswer": "De schrijver wil jongeren leren om kritisch te zijn over advertenties en niet alles te geloven wat ze online zien.",
+        "keyElements": [
+          "waarschuwen/leren/onderwijzen",
+          "jongeren/kinderen",
+          "kritisch zijn",
+          "advertenties/online media"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan welke les de schrijver jongeren wil meegeven."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-algoritme/image-1.png",
+      "alt": "Lina die op haar telefoon kijkt naar een glimmende smartphone advertentie"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geheime-algoritme/image-2.png",
+      "alt": "Lina en Sam die samen onderzoek doen op een computer"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking at her phone screen showing a shiny smartphone advertisement, children's book illustration style, bright modern colors",
+    "Two teenagers sitting together at a computer doing research, one pointing at the screen with a concerned expression, children's book illustration style"
+  ]
+}

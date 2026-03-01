@@ -1,0 +1,126 @@
+{
+  "id": "het-mysterie-van-het-stoplicht",
+  "title": "Het Mysterie van het Stoplicht",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "verkeer",
+  "text": "Daan en Lisa zijn beste vrienden. Elke dag fietsen ze samen naar school. Ze hebben een speciale route door de stad.\n\nOp dinsdag gebeurt er iets vreemds bij het stoplicht op de hoek. Het licht springt steeds op groen als ze eraan komen. Andere kinderen moeten wachten, maar zij niet. \"Wat raar,\" zegt Lisa. \"Het is alsof het stoplicht ons kent.\"\n\nWoensdag gebeurt het weer. Daan vindt het leuk, maar Lisa maakt zich zorgen. \"Misschien is het stoplicht kapot,\" zegt ze. \"We moeten het aan de politie vertellen.\" Daan wil dat niet. Hij heeft haast omdat hij te laat is geweest. Ze krijgen ruzie.\n\nDonderdag gaat Lisa alleen naar school. Ze neemt een andere weg omdat ze boos is op Daan. Het stoplicht doet gewoon normaal bij andere kinderen. Lisa heeft spijt van de ruzie.\n\nVrijdag wacht Lisa bij Daans huis. \"Sorry,\" zegt ze. \"Ik heb het mysterie opgelost. Meneer Bakker van de fietsenwinkel heeft een afstandsbediening. Hij helpt kinderen die hij kent.\" Daan lacht. \"Wat slim van hem! En wat dom van mij. Sorry dat ik boos werd.\" Ze fietsen samen naar school en zwaaien naar meneer Bakker.",
+  "questions": [
+    {
+      "question": "Hoe gaan Daan en Lisa naar school?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "ze fietsen",
+        "fietsen",
+        "met de fiets"
+      ],
+      "hint": "Kijk in de eerste alinea."
+    },
+    {
+      "question": "Waarom maken Daan en Lisa ruzie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "stoplicht",
+            "licht"
+          ],
+          [
+            "politie",
+            "vertellen",
+            "melden"
+          ],
+          [
+            "daan",
+            "hij",
+            "wil niet",
+            "wilt niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa wil doen en wat Daan daarvan vindt."
+    },
+    {
+      "question": "Wie lost het mysterie op en hoe?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "lisa"
+          ],
+          [
+            "meneer bakker",
+            "bakker",
+            "fietsenwinkel"
+          ],
+          [
+            "afstandsbediening",
+            "bediening",
+            "helpt",
+            "helpen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees goed wat Lisa op vrijdag vertelt."
+    },
+    {
+      "question": "Vind je dat meneer Bakker goed bezig is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet",
+            "goed",
+            "fout",
+            "verkeerd"
+          ],
+          [
+            "helpt",
+            "helpen",
+            "aardig",
+            "lief",
+            "gevaarlijk",
+            "veilig"
+          ],
+          [
+            "kinderen",
+            "kids",
+            "anderen",
+            "andere"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over de goede en slechte kanten van wat meneer Bakker doet."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-het-stoplicht/image-1.png",
+      "alt": "Daan en Lisa fietsen samen naar school bij een stoplicht"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-het-stoplicht/image-2.png",
+      "alt": "Meneer Bakker bij zijn fietsenwinkel met een afstandsbediening"
+    }
+  ],
+  "imagePrompts": [
+    "Two Dutch children on bicycles approaching a traffic light in a Dutch street, children's book illustration style, the traffic light is green and they look curious",
+    "Friendly elderly Dutch bicycle shop owner standing outside his bike shop holding a small remote control, smiling and waving, typical Dutch street scene, children's book illustration style"
+  ]
+}

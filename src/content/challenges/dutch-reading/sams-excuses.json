@@ -1,0 +1,67 @@
+{
+  "id": "sams-excuses",
+  "title": "Sams Excuses",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "dieren",
+  "text": "Sam wil graag een huisdier. Hij gaat met mama naar de dierenwinkel. Daar zijn veel dieren: honden, katten en hamsters.\n\nSam ziet een mooie gele kanarie. Het vogeltje zingt heel hard. \"Die wil ik!\" roept Sam. Maar de kanarie schrikt van zijn luide stem. Het vogeltje vliegt wild rond in de kooi.\n\nEen meisje met rood haar staat naast hem. \"Ssst,\" zegt zij zacht. \"Je maakt hem bang.\" Sam wordt boos omdat het meisje hem vertelt wat hij moet doen. \"Dat is niet waar!\" zegt hij hard.\n\nHet meisje wordt verdrietig en loopt weg. De kanarie is nog steeds bang en zingt niet meer. Sam voelt zich niet goed. Hij was niet aardig tegen het meisje.\n\nSam zoekt het meisje en vindt haar bij de konijnen. \"Het spijt me,\" zegt hij zacht. \"Je had gelijk. Ik was te hard.\" Het meisje glimlacht. \"Geeft niet. Kijk, dit konijn is heel vriendelijk.\"\n\nSamen kijken ze naar de zachte grijze konijn. Sam spreekt nu zacht. Vriendschap is belangrijk, denkt hij. Hij heeft iets geleerd in de dierenwinkel.",
+  "questions": [
+    {
+      "question": "Welke kleur haar heeft het meisje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood"
+      ],
+      "hint": "Kijk naar de derde alinea."
+    },
+    {
+      "question": "Waar vindt Sam het meisje terug?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij de konijnen"
+      ],
+      "hint": "Lees de vijfde alinea goed."
+    },
+    {
+      "question": "Waarom werd de kanarie bang?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hard",
+            "luide",
+            "luid",
+            "groot"
+          ],
+          [
+            "stem",
+            "roepen",
+            "riep",
+            "roept",
+            "zeggen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Sam sprak toen hij de kanarie zag."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sams-excuses/image-1.png",
+      "alt": "Een jongen kijkt naar een gele kanarie in de dierenwinkel"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sams-excuses/image-2.png",
+      "alt": "Twee kinderen kijken samen naar een grijs konijn"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy looking excitedly at a yellow canary in a pet shop cage, children's book illustration style, with various pet cages visible in the background",
+    "Two children, a boy and a girl with red hair, looking together at a friendly gray rabbit in a pet shop, children's book illustration style, both smiling peacefully"
+  ]
+}

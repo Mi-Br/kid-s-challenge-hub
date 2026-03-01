@@ -1,0 +1,128 @@
+{
+  "id": "de-eekhoorn-en-de-noten",
+  "title": "De Eekhoorn en de Noten",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "natuur",
+  "text": "Liam had van zijn opa de taak gekregen om de eekhoorn in hun tuin te voeren. Elke ochtend zou hij hazelnoten in het houten voederhuisje leggen dat opa had gemaakt. \"Deze eekhoorn vertrouwt op jou,\" had opa gezegd voordat hij naar het ziekenhuis ging.\n\nDe eerste week deed Liam zijn werk perfect. Hij genoot ervan hoe de kleine eekhoorn voorzichtig naar beneden klom en de noten verzamelde. Maar toen begonnen zijn vrienden hem uit te nodigen om 's ochtends vroeg te voetballen.\n\n\"Kom je mee naar het park?\" vroeg Sem op vrijdagochtend. \"We gaan een toernooi spelen!\" Liam keek naar het lege voederhuisje. Mocht hij één keer vergeten te voeren, dan zou de eekhoorn het vast wel overleven, dacht hij. Hij rende naar buiten zonder de noten neer te zetten.\n\nToen hij die middag thuiskwam, zag hij iets dat zijn hart deed bonzen. De eekhoorn zat bij het lege huisje en keek hulpeloos rond. Zijn kleine pootjes trilden van de honger, en zijn staart hing slap naar beneden. Op dat moment begrefte Liam wat verantwoordelijkheid echt betekende.\n\nDe volgende ochtend stond Liam extra vroeg op. Hij vulde het voederhuisje met de beste noten die hij kon vinden. Indien zijn vrienden zouden vragen waarom hij later kwam, zou hij eerlijk vertellen over zijn belangrijke taak. Want sommige dingen zijn belangrijker dan voetbal.",
+  "questions": [
+    {
+      "question": "Wat had opa tegen Liam gezegd over de eekhoorn?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "deze eekhoorn vertrouwt op jou"
+      ],
+      "hint": "Kijk naar wat opa zei in de eerste alinea."
+    },
+    {
+      "question": "Waarom vergat Liam op vrijdag de eekhoorn te voeren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "vrienden",
+            "sem",
+            "vriend"
+          ],
+          [
+            "voetbal",
+            "voetballen",
+            "spelen",
+            "park",
+            "toernooi"
+          ],
+          [
+            "uitnodigen",
+            "uitgenodigd",
+            "vroegen",
+            "mee"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er die ochtend gebeurde met Sem."
+    },
+    {
+      "question": "Hoe voelde de eekhoorn zich toen Liam thuiskwam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "honger",
+            "hongerig",
+            "uitgehongerd"
+          ],
+          [
+            "hulpeloos",
+            "verdrietig",
+            "zielig",
+            "triest"
+          ],
+          [
+            "trillen",
+            "trilde",
+            "trilden",
+            "slap"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea over hoe de eekhoorn erbij zat."
+    },
+    {
+      "question": "Vind je dat Liam een goede keuze maakte door eerlijk te zijn tegen zijn vrienden? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee) en deze onderbouwen met argumenten over eerlijkheid, verantwoordelijkheid, of vriendschap.",
+        "exampleAnswer": "Ja, omdat eerlijk zijn belangrijk is en goede vrienden zullen het begrijpen als je verantwoordelijkheden hebt.",
+        "keyElements": [
+          "eerlijk/eerlijkheid",
+          "verantwoordelijk/verantwoordelijkheid",
+          "vrienden/vriendschap"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat belangrijk is in vriendschap en verantwoordelijkheid."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over verantwoordelijkheid nemen en dat sommige taken belangrijker zijn dan plezier.",
+        "exampleAnswer": "Het verhaal gaat over verantwoordelijkheid nemen en dat je beloftes moet nakomen, ook als het moeilijk is.",
+        "keyElements": [
+          "verantwoordelijkheid/verantwoordelijk",
+          "beloftes/belofte/vertrouwen",
+          "belangrijker/belangrijk"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan de les die Liam heeft geleerd."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-eekhoorn-en-de-noten/image-1.png",
+      "alt": "Een jongen die noten in een houten voederhuisje legt terwijl een eekhoorn toekijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-eekhoorn-en-de-noten/image-2.png",
+      "alt": "Een hongerige eekhoorn die hulpeloos bij een leeg voederhuisje zit"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy putting hazelnuts into a wooden bird feeder house while a curious red squirrel watches from a nearby tree branch, children's book illustration style, warm morning light in a Dutch backyard garden",
+    "A sad hungry red squirrel sitting helplessly next to an empty wooden feeder house, its tail drooping and tiny paws trembling, children's book illustration style, afternoon light creating a melancholic mood in a Dutch garden"
+  ]
+}

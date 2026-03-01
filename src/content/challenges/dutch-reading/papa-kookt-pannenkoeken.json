@@ -1,0 +1,84 @@
+{
+  "id": "papa-kookt-pannenkoeken",
+  "title": "Papa kookt pannenkoeken",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "eten",
+  "text": "Lisa en haar papa gaan samen pannenkoeken maken. Papa heeft alle spullen klaar.\n\n'Ik kan het zelf!' zegt Lisa. Ze pakt de pan en doet er veel boter in. Papa zegt dat het genoeg is, maar Lisa luistert niet. Ze doet nog meer boter erbij.\n\nDe boter begint te roken en te sputteren. De pannenkoek wordt helemaal zwart. 'Oh nee!' roept Lisa. Ze kijkt verdrietig naar de verbrande pannenkoek.\n\n'Het geeft niet,' zegt papa vriendelijk. 'We proberen het opnieuw. Deze keer luisteren we samen naar elkaar, oké?' Lisa knikt. Ze doet precies wat papa zegt. De nieuwe pannenkoek wordt mooi goudbruin en lekker.",
+  "questions": [
+    {
+      "question": "Wat gaan Lisa en papa samen maken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "pannenkoeken"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat doet Lisa verkeerd met de boter?",
+      "questionType": "begrijpen",
+      "hint": "Lees de tweede alinea goed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "doet"
+          ],
+          [
+            "veel"
+          ],
+          [
+            "boter"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom wordt de eerste pannenkoek zwart?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "veel",
+            "te veel",
+            "teveel"
+          ],
+          [
+            "boter"
+          ],
+          [
+            "roken",
+            "rookt",
+            "sputteren",
+            "sputtert",
+            "verbranden",
+            "verbrand"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er gebeurt door te veel boter."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/papa-kookt-pannenkoeken/image-1.png",
+      "alt": "Lisa en papa staan in de keuken bij het fornuis"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/papa-kookt-pannenkoeken/image-2.png",
+      "alt": "Een verbrande zwarte pannenkoek in de pan"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her father standing together in a bright Dutch kitchen, preparing to make pancakes, with ingredients on the counter, children's book illustration style",
+    "A burnt black pancake in a smoking pan on a stovetop, with too much butter, the girl looking worried in the background, children's book illustration style"
+  ]
+}

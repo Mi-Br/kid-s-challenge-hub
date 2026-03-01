@@ -1,0 +1,110 @@
+{
+  "id": "de-nieuwe-bril",
+  "title": "De Nieuwe Bril",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "het lichaam",
+  "text": "Lisa kreeg hoofdpijn omdat ze niet goed kon zien. Mama zei dat ze naar de oogarts moesten. Lisa was bang omdat ze nog nooit bij een dokter voor haar ogen was geweest.\n\nBij de oogarts moest Lisa letters lezen op een grote poster. De letters waren heel wazig. \"Je hebt een bril nodig,\" zei de oogarts vriendelijk. Lisa schrok omdat ze dacht dat een bril lelijk zou staan.\n\nIn de brillenwinkel probeerde Lisa verschillende brillen. Toen ze de blauwe bril opzette, zag ze ineens alles heel scherp! De bladeren aan de bomen, de letters in de boeken, zelfs de kleine vogeltjes buiten. Als ze de bril afdeed, werd alles weer wazig.\n\nLisa keek in de spiegel en glimlachte. De blauwe bril stond haar goed en ze kon nu alles perfect zien. Ze was zo blij dat ze de bril meteen op wilde houden. Morgen zou ze naar school gaan en iedereen zou zien hoe mooi haar nieuwe bril was.",
+  "questions": [
+    {
+      "question": "Waarom kreeg Lisa hoofdpijn?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "omdat ze niet goed kon zien",
+        "ze kon niet goed zien"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Hoe voelde Lisa zich toen de oogarts zei dat ze een bril nodig had?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schrok",
+            "bang",
+            "angstig",
+            "zenuwachtig"
+          ],
+          [
+            "lelijk",
+            "niet mooi",
+            "niet leuk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Lisa dacht over hoe een bril eruit zou zien."
+    },
+    {
+      "question": "Wat gebeurde er toen Lisa de blauwe bril opzette?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "zag",
+            "zien",
+            "kon zien"
+          ],
+          [
+            "scherp",
+            "goed",
+            "duidelijk",
+            "helder"
+          ],
+          [
+            "alles",
+            "bladeren",
+            "letters",
+            "vogeltjes"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog eens goed."
+    },
+    {
+      "question": "Wat betekent het woord 'wazig' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Denk aan hoe Lisa de letters zag voordat ze een bril had.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "onduidelijk"
+          ],
+          [
+            "niet scherp"
+          ],
+          [
+            "vaag"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-bril/image-1.png",
+      "alt": "Lisa bij de oogarts die letters probeert te lezen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-nieuwe-bril/image-2.png",
+      "alt": "Lisa met haar nieuwe blauwe bril die in de spiegel kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sitting in an eye doctor's office trying to read letters on a wall chart, looking confused, children's book illustration style",
+    "A happy young girl wearing new blue glasses looking at herself in a mirror in an optical shop, smiling with delight, children's book illustration style"
+  ]
+}

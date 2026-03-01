@@ -1,0 +1,121 @@
+{
+  "id": "tess-en-de-verhalen",
+  "title": "Tess en de Verhalen",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de bibliotheek",
+  "text": "Tess kreeg een speciale taak van juf Marieke. Ze mocht elke dinsdag de boeken van groep 3 naar de bibliotheek brengen. \"Dit is een belangrijke job,\" zei juf Marieke. \"De bibliotheekjuf rekent op jou.\" Tess was trots. Eindelijk kreeg zij een echte verantwoordelijkheid.\n\nDe eerste weken ging alles goed. Tess droeg de zware tas met boeken naar het bibliotheekgebouw. Ze groette bibliotheekjuf Anna vriendelijk. \"Dank je wel, Tess,\" zei Anna elke keer. \"Je bent erg betrouwbaar.\" Tess straalde van trots.\n\nMaar na een maand werd de taak saai. Op een mooie dinsdagmiddag in mei zag Tess haar vriendinnen buiten spelen. Ze hadden een nieuwe springtouw. \"Kom je mee?\" riep Fleur. \"We gaan touwspringen!\" Tess keek naar de tas met boeken. Toen keek ze naar haar vriendinnen die al aan het spelen waren.\n\n\"De boeken kunnen wel tot morgen wachten,\" dacht Tess. Ze verstopte de tas achter de fietsenstalling. Snel rende ze naar het speelplein. Het touwspringen was heel leuk. Tess vergat helemaal de bibliotheek.\n\nDe volgende ochtend kwam bibliotheekjuf Anna naar hun klas. \"Tess, waar waren de boeken gisteren?\" vroeg ze. \"Groep 3 kon geen nieuwe boeken uitzoeken.\" Tess voelde haar wangen gloeien. Alle kinderen keken naar haar. Ze had de bibliotheek teleurgesteld.\n\n\"Het spijt me heel erg,\" zei Tess zacht. \"Ik ga ze nu meteen brengen.\" Anna knikte. \"Goed zo. Maar Tess, als je een belofte maakt, moet je hem houden. Andere mensen rekenen op jou.\" Vanaf die dag bracht Tess altijd eerst de boeken weg. Pas daarna ging ze spelen. Ze wilde weer betrouwbaar zijn.",
+  "questions": [
+    {
+      "question": "Welke taak kreeg Tess van juf Marieke?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de boeken van groep 3 naar de bibliotheek brengen"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom verstopte Tess de tas met boeken achter de fietsenstalling?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "spelen",
+            "spel",
+            "speelde",
+            "gespeeld"
+          ],
+          [
+            "vriendinnen",
+            "vrienden",
+            "Fleur"
+          ],
+          [
+            "touwspringen",
+            "springtouw",
+            "springen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Tess wilde doen in plaats van de boeken brengen."
+    },
+    {
+      "question": "Hoe voelde Tess zich toen bibliotheekjuf Anna voor de klas stond?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "schaamde",
+            "schamen",
+            "schaamt"
+          ],
+          [
+            "verlegen",
+            "genant",
+            "ongemakkelijk"
+          ],
+          [
+            "wangen",
+            "blozen",
+            "gloeien",
+            "gloeiden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat er met Tess haar wangen gebeurde."
+    },
+    {
+      "question": "Vind jij dat Tess goed reageerde toen Anna haar aansprak? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "spijt",
+            "sorry",
+            "excuses",
+            "verontschuldigde"
+          ],
+          [
+            "belofte",
+            "beloven",
+            "betrouwbaar",
+            "verantwoordelijkheid"
+          ],
+          [
+            "meteen",
+            "direct",
+            "onmiddellijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over hoe Tess reageerde en wat ze beloofde te doen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/tess-en-de-verhalen/image-1.png",
+      "alt": "Tess draagt een zware tas met boeken naar de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/tess-en-de-verhalen/image-2.png",
+      "alt": "Tess verstopt de boekentas achter de fietsenstalling en kijkt naar haar vriendinnen die touwspringen"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl with brown hair carrying a heavy bag of books, walking toward a modern library building, children's book illustration style, bright daylight, Dutch architecture in background",
+    "The same girl hiding a bag of books behind a bicycle shed at a Dutch school, looking toward her friends who are jumping rope in the playground, children's book illustration style, sunny afternoon"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "twee-werelden-een-chat",
+  "title": "Twee Werelden, Een Chat",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "technologie",
+  "text": "Yasmin staarde naar het scherm van haar laptop. Ze zat in haar kamer in Amsterdam-Noord en voelde zich eenzaam. \"Nederlandse kinderen begrijpen mij toch niet,\" dacht ze. Daarom chattete ze alleen met haar nichtjes in Marokko. Zij spraken Arabisch en begrepen haar cultuur.\n\nOp school gebruikte haar klas een nieuwe app voor een project over milieu. Yasmin moest samenwerken met Femke, een Nederlands meisje uit haar klas. Via de app stuurden ze berichten over hun onderzoek. Femke schreef altijd netjes en beleefd.\n\nToen ging het mis. Yasmin typte per ongeluk in het Arabisch. Ze schreef over het suikerfeest dat haar familie vorige week had gevierd. Ze drukte op 'verstuur' voordat ze het doorhad. \"Oh nee!\" fluisterde ze. Nu zou Femke denken dat zij raar was.\n\nMaar Femke reageerde anders dan verwacht. \"Wow, wat een mooie taal!\" schreef ze terug. \"Mijn oma spreekt ook twee talen. Vertel eens over dat feest?\" Yasmin aarzelde. Langzaam begon ze te typen over de tradities van haar familie.\n\nDe dagen daarna chatteden de meisjes niet alleen over hun project. Femke vroeg naar Yasmins leven in Marokko. Yasmin ontdekte dat Femke ook weleens eenzaam was omdat haar ouders veel werkten. Ze deelden foto's en verhalen.\n\nVandaag aten ze samen lunch op school. \"Door die app leerde ik jou echt kennen,\" zei Femke. Yasmin glimlachte. Ze had gedacht dat technologie haar van anderen scheidde. Maar eigenlijk had het haar geholpen een echte vriendschap te vinden.",
+  "questions": [
+    {
+      "question": "Met wie chattete Yasmin voordat ze Femke leerde kennen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "haar nichtjes in marokko",
+        "nichtjes in marokko",
+        "haar nichtjes"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom dacht Yasmin in het begin dat Nederlandse kinderen haar niet zouden begrijpen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "cultuur",
+            "cultureel",
+            "culturele"
+          ],
+          [
+            "anders",
+            "verschillend",
+            "verschillen",
+            "verschil"
+          ],
+          [
+            "taal",
+            "arabisch",
+            "marokko",
+            "marokkaans"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Yasmin voelde over haar afkomst en cultuur."
+    },
+    {
+      "question": "Hoe veranderde Yasmins mening over technologie door haar ervaring met Femke?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "scheiden",
+            "scheidde",
+            "scheidden",
+            "verbinden",
+            "verbond",
+            "verbinden",
+            "helpen",
+            "hielp",
+            "geholpen"
+          ],
+          [
+            "vriendschap",
+            "vriend",
+            "vrienden",
+            "kennen",
+            "leren",
+            "leerde"
+          ],
+          [
+            "eerst",
+            "dacht",
+            "denken",
+            "later",
+            "ontdekken",
+            "ontdekte"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk wat Yasmin in het begin dacht met wat ze aan het eind ontdekte."
+    },
+    {
+      "question": "Vind je dat de app een goede manier was om de meisjes te laten kennismaken? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet",
+            "goed",
+            "slecht",
+            "handig",
+            "nuttig"
+          ],
+          [
+            "praten",
+            "chatten",
+            "berichten",
+            "communiceren",
+            "contact"
+          ],
+          [
+            "rustig",
+            "makkelijk",
+            "veilig",
+            "persoonlijk",
+            "langzaam",
+            "tijd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan de voordelen en nadelen van online communicatie."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe technologie kan helpen bij het overbruggen van culturele verschillen en het vinden van vriendschap. Het gaat om het veranderen van vooroordelen en het ontdekken van onverwachte verbindingen.",
+        "exampleAnswer": "Het verhaal gaat over hoe technologie mensen kan helpen vrienden te worden, ook al komen ze uit verschillende culturen.",
+        "keyElements": [
+          "technologie/app",
+          "vriendschap/vrienden",
+          "cultuur/culturele verschillen",
+          "vooroordelen/veranderen van mening"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat de schrijver ons wil leren over technologie en vriendschap."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/twee-werelden-een-chat/image-1.png",
+      "alt": "Yasmin zit achter haar laptop en typt berichten, ze kijkt bedachtzaam naar het scherm"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/twee-werelden-een-chat/image-2.png",
+      "alt": "Yasmin en Femke zitten samen te lunchen op school en praten geanimeerd"
+    }
+  ],
+  "imagePrompts": [
+    "A young Moroccan-Dutch girl sitting at her laptop in her bedroom, looking thoughtful as she types messages on a chat app, children's book illustration style",
+    "Two teenage girls, one Moroccan-Dutch and one Dutch, sitting together at a school lunch table, smiling and talking animatedly, children's book illustration style"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "het-museum-probleem",
+  "title": "Het Museum Probleem",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "cultuur",
+  "text": "Yasmin loopt met haar klas door het Van Gogh Museum. Ze heeft haar telefoon in haar zak, maar mag hem niet gebruiken van juf Marieke. 'Geen telefoons in het museum,' zei de juf. Yasmin vindt dit heel oneerlijk.\n\nDe andere kinderen in haar klas hebben blonde haren en spreken perfect Nederlands. Zij komen uit Nederlandse families. Yasmin heeft zwart haar en spreekt thuis Arabisch. Haar moeder kwam drie jaar geleden naar Nederland.\n\nBij het beroemde schilderij 'De Zonnebloemen' wil Yasmin een selfie maken. De museumwacht zegt streng: 'Geen foto's!' Yasmin stopt haar telefoon weg. Ze voelt zich boos en verdrietig.\n\nDan hoort Yasmin twee jongens uit haar klas fluisteren. 'Zij begrijpt Nederlandse cultuur niet,' zegt Tim. 'Daarom wil ze altijd foto's maken.' Yasmin voelt haar wangen warm worden.\n\nThuis vertelt Yasmin alles aan haar moeder. Mama luistert goed. 'In Syrië gingen we ook naar musea,' zegt mama. 'We respecteerden ook de regels. Dit gaat niet over cultuur, Yasmin. Dit gaat over vooroordelen.'\n\nYasmin denkt na over de woorden van haar moeder. Ze besluit morgen met Tim te praten. Ze wil hem vertellen over musea in Syrië en over haar eigen cultuur.",
+  "questions": [
+    {
+      "question": "Welke regel geldt er in het museum voor telefoons?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geen telefoons in het museum",
+        "geen telefoons",
+        "telefoons zijn niet toegestaan"
+      ],
+      "hint": "Kijk naar wat juf Marieke zegt in de eerste alinea."
+    },
+    {
+      "question": "Waarom voelt Yasmin zich anders dan haar klasgenoten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "haar",
+            "uiterlijk",
+            "zwart haar",
+            "blonde"
+          ],
+          [
+            "taal",
+            "nederlands",
+            "arabisch",
+            "spreekt"
+          ],
+          [
+            "familie",
+            "moeder",
+            "nederland",
+            "kam"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea over de verschillen tussen Yasmin en haar klasgenoten."
+    },
+    {
+      "question": "Wat bedoelt Yasmins moeder met 'dit gaat over vooroordelen'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verkeerd",
+            "onjuist",
+            "fout"
+          ],
+          [
+            "denken",
+            "denkt",
+            "gedacht"
+          ],
+          [
+            "cultuur",
+            "yasmin",
+            "begrijpen",
+            "verstaan"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Tim zei en waarom mama denkt dat dit niet waar is."
+    },
+    {
+      "question": "Wat wil Yasmin morgen tegen Tim zeggen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vertellen",
+            "vertel",
+            "uitleggen"
+          ],
+          [
+            "syrië",
+            "musea",
+            "cultuur"
+          ],
+          [
+            "eigen",
+            "haar",
+            "over"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-museum-probleem/image-1.png",
+      "alt": "Yasmin kijkt naar een schilderij in het museum terwijl andere kinderen om haar heen staan"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-museum-probleem/image-2.png",
+      "alt": "Yasmin praat thuis met haar moeder aan de keukentafel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with dark hair looking at Van Gogh's Sunflowers painting in a museum while blonde classmates stand nearby, children's book illustration style",
+    "A teenage girl with dark hair sitting at a kitchen table talking with her mother who wears a headscarf, warm lighting, children's book illustration style"
+  ]
+}

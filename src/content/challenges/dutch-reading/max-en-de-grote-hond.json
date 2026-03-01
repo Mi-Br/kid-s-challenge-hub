@@ -1,0 +1,90 @@
+{
+  "id": "max-en-de-grote-hond",
+  "title": "Max en de Grote Hond",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "dieren",
+  "text": "Max speelde graag in het park. Maar er was één probleem. Er woonde een grote, bruine hond bij de buren. De hond heette Bruno en hij was zo groot als een tafel! Max was bang voor Bruno omdat hij altijd hard blaft.\n\nOp een zonnige dag ging Max naar het park. Hij nam zijn rode bal mee om te voetballen. Plotseling zag hij Bruno! De grote hond rende naar hem toe. Max dacht: \"Oh nee, nu gaat Bruno boos worden!\" Hij wilde weglopen, maar zijn voeten bleven staan.\n\nBruno kwam dichterbij en... begon te kwispelen! De hond wilde spelen met de bal. Max gooide voorzichtig de bal naar Bruno. De hond rende er blij achteraan en bracht hem terug. \"Hij is helemaal niet eng,\" dacht Max. \"Hij wil gewoon vrienden zijn!\"\n\nVanaf die dag speelden Max en Bruno elke dag samen. De rode bal werd hun speelgoed dat hen bond. Max was trots dat hij zijn angst had overwonnen. Nu had hij de beste speelkameraad van de hele buurt.",
+  "questions": [
+    {
+      "question": "Welke kleur heeft de bal van Max?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Hoe groot is Bruno volgens het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "zo groot als een tafel",
+        "groot als een tafel"
+      ],
+      "hint": "Dit staat in de eerste alinea."
+    },
+    {
+      "question": "Waarom was Max eerst bang voor Bruno?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "blaft",
+            "blaffen",
+            "hard blaft"
+          ],
+          [
+            "groot",
+            "grote"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er in de eerste alinea staat over Bruno."
+    },
+    {
+      "question": "Wat betekent de rode bal voor Max en Bruno aan het einde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "speelgoed",
+            "spelen",
+            "speelden"
+          ],
+          [
+            "vrienden",
+            "vriendschap",
+            "bond",
+            "bondde",
+            "verbond"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste alinea nog eens goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/max-en-de-grote-hond/image-1.png",
+      "alt": "Max kijkt bang naar Bruno, een grote bruine hond in het park"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/max-en-de-grote-hond/image-2.png",
+      "alt": "Max en Bruno spelen vrolijk samen met een rode bal"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy looking nervously at a large brown dog in a sunny park, children's book illustration style, the boy holding a red ball",
+    "The same boy and the large brown dog playing happily together with a red ball, both looking joyful, children's book illustration style, Dutch neighborhood setting"
+  ]
+}

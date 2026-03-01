@@ -1,0 +1,118 @@
+{
+  "id": "de-youtube-video",
+  "title": "De YouTube Video",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "media",
+  "text": "Lisa heeft een nieuwe telefoon gekregen van haar ouders. Ze is heel blij en wil meteen een video maken voor YouTube. Lisa denkt dat het heel makkelijk is om beroemd te worden op internet.\n\nZe maakt een video waarin ze danst op populaire muziek. Lisa zet de video online en vertelt al haar vrienden erover. Ze verwacht dat ze snel duizenden views zal hebben.\n\nNa een week heeft Lisa's video maar vijftien views. Ze is teleurgesteld en verdrietig. Haar vrienden op school vragen waarom ze zo somber is.\n\nLisa's beste vriend Tom zegt tegen haar: 'Je hoeft niet beroemd te zijn om gelukkig te zijn.' Hij vertelt dat zijn zus ook video's maakt, maar alleen voor de lol. Zijn zus heeft veel plezier zonder duizenden fans.\n\nLisa denkt na over wat Tom heeft gezegd. Ze beseft dat ze de video heeft gemaakt omdat ze van dansen houdt. Ze besluit om nog meer video's te maken, maar nu gewoon voor haarzelf en haar vrienden.",
+  "questions": [
+    {
+      "question": "Wat heeft Lisa van haar ouders gekregen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "een nieuwe telefoon",
+        "nieuwe telefoon",
+        "telefoon"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal.",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "een nieuwe telefoon",
+          "nieuwe telefoon",
+          "telefoon"
+        ]
+      }
+    },
+    {
+      "question": "Waarom is Lisa teleurgesteld na een week?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "vijftien",
+            "weinig",
+            "maar"
+          ],
+          [
+            "views",
+            "kijkers",
+            "bekeken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Lisa verwachtte en wat er echt gebeurde."
+    },
+    {
+      "question": "Wat vertelt Tom over zijn zus?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "video's",
+            "filmpjes",
+            "maakt"
+          ],
+          [
+            "lol",
+            "plezier",
+            "leuk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Tom zegt in de vierde alinea."
+    },
+    {
+      "question": "Wat besluit Lisa aan het einde van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "meer",
+            "nog",
+            "nieuwe"
+          ],
+          [
+            "video's",
+            "filmpjes",
+            "maken"
+          ],
+          [
+            "haarzelf",
+            "vrienden",
+            "plezier"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de laatste zin van het verhaal nog een keer."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-youtube-video/image-1.png",
+      "alt": "Lisa die met haar nieuwe telefoon een dansvideo opneemt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-youtube-video/image-2.png",
+      "alt": "Lisa die teleurgesteld naar het scherm van haar telefoon kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl with a smartphone recording herself dancing in her bedroom, children's book illustration style, bright and cheerful colors",
+    "The same girl looking disappointed while staring at her phone screen showing low view counts, children's book illustration style, expressing sadness"
+  ]
+}

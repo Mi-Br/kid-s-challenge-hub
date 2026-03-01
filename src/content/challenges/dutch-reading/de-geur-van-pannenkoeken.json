@@ -1,0 +1,83 @@
+{
+  "id": "de-geur-van-pannenkoeken",
+  "title": "De Geur van Pannenkoeken",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de buurt",
+  "text": "Emma hoorde een harde klap buiten. Ze keek door het raam en zag mevrouw De Wit op de grond zitten. Haar boodschappentassen lagen overal. Appels rolden over de stoep.\n\nTegelijkertijd rook Emma iets lekkers uit de keuken. Mama maakte pannenkoeken voor het avondeten. De zoete geur vulde het hele huis. Emma's maag rommelde omdat ze honger had.\n\n\"Mama, mevrouw De Wit is gevallen!\" riep Emma. Ze rende naar buiten. De oude vrouw probeerde overeind te komen, maar dat was moeilijk. \"Gaat het wel?\" vroeg Emma zacht.\n\n\"Mijn been doet pijn,\" zei mevrouw De Wit. \"En al mijn boodschappen zijn op de grond gevallen.\" Haar stem klonk verdrietig.\n\nEmma wilde terug naar binnen omdat de pannenkoeken zo lekker roken. Maar ze zag de tranen in de ogen van mevrouw De Wit. \"Ik ga u helpen,\" zei Emma. Ze raapte alle appels en groenten op. Toen hielp ze mevrouw De Wit voorzichtig opstaan.\n\n\"Dank je wel, lieve Emma,\" zei mevrouw De Wit. \"Jij bent een echte buurtheldin.\" Emma voelde zich warm en blij vanbinnen, net zoals de geur van mama's pannenkoeken haar blij maakte.",
+  "questions": [
+    {
+      "question": "Waar lagen de appels nadat mevrouw De Wit viel?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "over de stoep",
+        "op de stoep"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat maakte mama in de keuken?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "pannenkoeken"
+      ],
+      "hint": "Emma rook iets lekkers uit de keuken."
+    },
+    {
+      "question": "Waarom wilde Emma eerst terug naar binnen gaan?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "pannenkoeken",
+            "eten",
+            "avondeten"
+          ],
+          [
+            "roken",
+            "geur",
+            "lekker",
+            "zoet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma in de keuken rook."
+    },
+    {
+      "question": "Vind jij dat Emma goed handelde? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Emma's gedrag en dit onderbouwen. Positieve antwoorden kunnen verwijzen naar helpen, aardig zijn, of buurtgevoel. Het is belangrijk dat er een omdat/want/daarom wordt gebruikt of een andere vorm van redenering.",
+        "exampleAnswer": "Ja, omdat Emma mevrouw De Wit hielp ook al wilde ze zelf pannenkoeken eten.",
+        "keyElements": [
+          "helpen/geholpen",
+          "aardig/lief/goed",
+          "omdat/want/daarom"
+        ],
+        "minWords": 4
+      },
+      "hint": "Denk na over wat Emma deed en waarom dat goed of niet goed was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-geur-van-pannenkoeken/image-1.png",
+      "alt": "Emma kijkt door het raam naar mevrouw De Wit die op de stoep is gevallen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-geur-van-pannenkoeken/image-2.png",
+      "alt": "Emma helpt mevrouw De Wit opstaan en raapte de appels op"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl looking through a window at an elderly woman who has fallen on the sidewalk with groceries scattered around, children's book illustration style, Dutch neighborhood setting",
+    "A young girl helping an elderly woman stand up while picking up apples and vegetables from the ground, warm and caring scene, children's book illustration style"
+  ]
+}

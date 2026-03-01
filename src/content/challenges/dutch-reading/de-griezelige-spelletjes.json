@@ -1,0 +1,118 @@
+{
+  "id": "de-griezelige-spelletjes",
+  "title": "De Griezelige Spelletjes",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Lisa was uitgenodigd voor Sams verjaardag. Ze was erg blij omdat ze nieuwe vrienden wilde maken. Maar toen ze aankwam in de donkere feestzaal, zag ze rare spelletjes.\n\nDe andere kinderen speelden verstoppertje in het donker. Lisa dacht: \"Dat is veel te eng voor mij.\" Ze ging in een hoekje zitten omdat ze bang was om mee te doen. Sam zag dat Lisa verdrietig keek.\n\n\"Kom Lisa, het is niet eng,\" zei Sam vriendelijk. \"Je hoeft niet bang te zijn want we zijn er allemaal.\" Lisa voelde zich nog steeds zenuwachtig, maar ze wilde geen spelbreker zijn.\n\nLisa deed langzaam mee met het spelletje. Ze verstopte zich achter een grote stoel. Toen ontdekte ze dat verstoppertje in het donker heel leuk was! Ze lachte hard toen ze de andere kinderen hoorde zoeken.\n\nAan het einde van het feestje zei Lisa tegen Sam: \"Dit was het beste verjaardagsfeestje ooit!\" Ze had geleerd dat enge spelletjes soms heel leuk kunnen zijn.",
+  "questions": [
+    {
+      "question": "Waar was Lisa bang voor?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "verstoppertje in het donker",
+        "de spelletjes in het donker",
+        "het donkere spelletje"
+      ],
+      "hint": "Kijk naar wat de andere kinderen deden toen Lisa aankwam."
+    },
+    {
+      "question": "Waarom ging Lisa in een hoekje zitten?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig",
+            "eng vond"
+          ],
+          [
+            "meedoen",
+            "spelen",
+            "spelletje",
+            "verstoppertje"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Lisa zich voelde over het spelletje."
+    },
+    {
+      "question": "Wat betekent het woord 'spelbreker' in dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Lisa wilde geen... zijn, dus deed ze toch mee.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "iemand die het feest verpest"
+          ],
+          [
+            "iemand die niet mee wil doen"
+          ],
+          [
+            "iemand die het spelletje stopt"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind je dat Sam een goede vriend is? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "aardig"
+          ],
+          [
+            "help",
+            "helpt",
+            "hielp",
+            "zorg",
+            "zorgt",
+            "zorgde",
+            "aardig",
+            "lief",
+            "vriendelijk"
+          ],
+          [
+            "Lisa",
+            "haar",
+            "meedoen",
+            "spelen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Sam deed toen hij zag dat Lisa verdrietig was."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-griezelige-spelletjes/image-1.png",
+      "alt": "Lisa zit alleen in een hoekje van een donkere feestzaal terwijl andere kinderen verstoppertje spelen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-griezelige-spelletjes/image-2.png",
+      "alt": "Lisa verstopt zich lachend achter een grote stoel tijdens het verstoppertje"
+    }
+  ],
+  "imagePrompts": [
+    "A shy girl sitting alone in the corner of a dimly lit party room while other children play hide and seek, children's book illustration style, warm but mysterious lighting",
+    "A happy girl hiding behind a large chair during hide and seek game, laughing with joy, children's book illustration style, party decorations visible in background"
+  ]
+}

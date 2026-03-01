@@ -1,0 +1,51 @@
+{
+  "id": "kees-de-eend",
+  "title": "Kees de Eend",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "de buurt",
+  "text": "In het dorp woont boer Jan. Hij heeft een kleine eend. De eend heet Kees. Kees is geel en heel lief.\n\nKees zwemt elke dag in de vijver. De vijver is groot en blauw. Kees is blij in het water. Hij zwemt rond en rond.\n\nOp een dag is Kees weg. Boer Jan kijkt in de vijver. Kees is er niet. Boer Jan is verdrietig. Waar is Kees?\n\nBoer Jan zoekt overal. Hij kijkt bij de koeien. Hij kijkt bij de schapen. Kees is er niet. Boer Jan zoekt en zoekt.\n\nDan hoort boer Jan een geluid. Het komt uit de schuur. Boer Jan gaat kijken. Daar is Kees! Kees zit bij zijn eieren. Kees is een mama geworden!",
+  "questions": [
+    {
+      "question": "Welke kleur heeft Kees?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "geel"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waar zwemt Kees elke dag?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de vijver",
+        "de vijver"
+      ],
+      "hint": "Lees de tweede alinea goed."
+    },
+    {
+      "question": "Waar vindt boer Jan Kees?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "in de schuur",
+        "de schuur"
+      ],
+      "hint": "Kijk naar het einde van het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/kees-de-eend/image-1.png",
+      "alt": "Een gele eend zwemt in een blauwe vijver bij een boerderij"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/kees-de-eend/image-2.png",
+      "alt": "Boer Jan vindt de eend Kees bij haar eieren in de schuur"
+    }
+  ],
+  "imagePrompts": [
+    "A yellow duck swimming happily in a blue pond next to a Dutch farmhouse with green fields and a windmill in the distance, children's book illustration style",
+    "A farmer in overalls discovering a yellow duck sitting protectively on white eggs in a wooden barn, children's book illustration style"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "beer-bakt-een-taart",
+  "title": "Beer Bakt een Taart",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "eten",
+  "text": "Beer de hond woont bij oma. Vandaag heeft oma haar verjaardag. Beer wil een taart voor haar bakken.\n\nBeer doet bloem in een kom. Hij breekt twee eieren. Maar het deeg is te droog. Beer doet er melk bij. Nu is het deeg goed.\n\nBeer maakt de taart rond. Hij doet de taart in de oven. Na een uur ruikt het lekker. De taart is klaar!\n\nOma komt de keuken in. Ze ziet de mooie taart. \"Wat een verrassing!\" zegt oma. \"Dank je wel, Beer.\" Ze geeft Beer een knuffel. Beer is heel blij omdat hij oma heeft geholpen.",
+  "questions": [
+    {
+      "question": "Waarom wil Beer een taart bakken?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "haar"
+          ],
+          [
+            "verjaardag"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Wat doet Beer toen het deeg te droog was?",
+      "questionType": "begrijpen",
+      "hint": "Lees de tweede alinea goed.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "doet"
+          ],
+          [
+            "melk"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom is Beer blij aan het eind?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geholpen",
+            "helpen",
+            "help"
+          ],
+          [
+            "oma",
+            "oma's",
+            "grootmoeder"
+          ],
+          [
+            "blij",
+            "gelukkig",
+            "trots",
+            "fijn"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Beer voor oma heeft gedaan."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/beer-bakt-een-taart/image-1.png",
+      "alt": "Beer de hond bakt een taart in oma's keuken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/beer-bakt-een-taart/image-2.png",
+      "alt": "Oma geeft Beer een knuffel bij de mooie taart"
+    }
+  ],
+  "imagePrompts": [
+    "A friendly brown dog wearing an apron mixing cake batter in a cozy Dutch grandmother's kitchen, children's book illustration style",
+    "An elderly Dutch grandmother hugging a happy brown dog next to a beautiful round cake on the kitchen counter, children's book illustration style"
+  ]
+}

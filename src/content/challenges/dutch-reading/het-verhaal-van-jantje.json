@@ -1,0 +1,115 @@
+{
+  "id": "het-verhaal-van-jantje",
+  "title": "Het Verhaal van Jantje",
+  "groepLevel": "groep5-6",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "de bibliotheek",
+  "text": "Jantje zat stil in de bibliotheek en keek naar alle boeken. Hij vond lezen moeilijk en zijn vrienden waren veel beter. \"Waarom probeer je niet het voorlezen?\" vroeg mevrouw Bakker, de bibliothecaresse. \"Ik kan dat niet,\" zuchtte Jantje. Maar mevrouw Bakker glimlachte en gaf hem een kinderboek.\n\nToen Jantje begon te lezen, gebeurde er iets bijzonders. Zijn stem klonk als muziek door de stille bibliotheek. De woorden kwamen soepel uit zijn mond, alsof ze dansten. Een paar kinderen stopten met hun huiswerk en luisterden. Hun ogen glommen van plezier.\n\n\"Je hebt een prachtige voorleesstem,\" fluisterde mevrouw Bakker. Jantje voelde zich warm worden van binnen. Hij las verder en merkte dat hij de verhalen tot leven bracht. De dieren in het boek leken echt en de avonturen spannend.\n\nElke week kwam Jantje nu naar de bibliotheek om voor te lezen. Steeds meer kinderen kwamen luisteren naar zijn verhalen. Hij oefende thuis voor de spiegel en werd elke keer beter. De stille jongen was veranderd in een echte verhalenverteller.\n\nJantje begreep nu dat iedereen een speciaal talent heeft. Sommige kinderen zijn goed in rekenen, anderen in tekenen. Hij was een natuurtalent in het voorlezen. Net zoals een bloem zijn tijd nodig heeft om te bloeien, had hij zijn tijd nodig gehad om zijn gave te ontdekken.",
+  "questions": [
+    {
+      "question": "Wat vond Jantje moeilijk?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "lezen"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom stopten de kinderen met hun huiswerk?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "luisteren",
+            "luisterden",
+            "horen"
+          ],
+          [
+            "stem",
+            "voorlezen",
+            "lezen",
+            "verhaal"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er gebeurde toen Jantje begon te lezen."
+    },
+    {
+      "question": "Hoe veranderde Jantje door het voorlezen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "stil",
+            "stille",
+            "rustig"
+          ],
+          [
+            "verhalenverteller",
+            "voorlezer",
+            "beter",
+            "zelfvertrouwen",
+            "trots"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Jantje was aan het begin en aan het eind."
+    },
+    {
+      "question": "Vind je het belangrijk dat kinderen hun talenten ontdekken? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "nee",
+            "wel",
+            "niet"
+          ],
+          [
+            "talent",
+            "kunnen",
+            "goed",
+            "knap"
+          ],
+          [
+            "belangrijk",
+            "nodig",
+            "fijn",
+            "leuk",
+            "trots",
+            "zelfvertrouwen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Geef je mening en leg uit waarom je dat denkt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verhaal-van-jantje/image-1.png",
+      "alt": "Jantje leest voor aan kinderen in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verhaal-van-jantje/image-2.png",
+      "alt": "Jantje oefent thuis voor de spiegel"
+    }
+  ],
+  "imagePrompts": [
+    "A young boy reading aloud to a small group of children in a cozy Dutch library, with the librarian smiling nearby, children's book illustration style",
+    "A boy practicing reading in front of a mirror at home, with books scattered around him, warm lighting, children's book illustration style"
+  ]
+}

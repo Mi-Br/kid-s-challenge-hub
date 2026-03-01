@@ -1,0 +1,96 @@
+{
+  "id": "lenas-warme-jas",
+  "title": "Lena's Warme Jas",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "kleding",
+  "text": "Lena liep naar school toen ze het zag. Een klein meisje zat op een bankje en huilde. Het meisje droeg alleen een dunne trui omdat haar jas kapot was gegaan.\n\nLena dacht aan vorige week. Toen had zij ook geen warme jas gehad. Haar mama kon geen nieuwe kopen want ze hadden niet veel geld. Gelukkig kreeg Lena toen een mooie jas van haar tante.\n\nLena keek naar haar eigen dikke winterjas. Het was zo koud buiten! Ze wilde helpen maar dan zou zij het koud hebben. Toch deed ze haar jas uit omdat het kleine meisje haar hulp nodig had.\n\n\"Hier, trek deze maar aan,\" zei Lena vriendelijk. Het meisje stopte met huilen en trok de warme jas aan. \"Dank je wel,\" fluisterde ze zacht.\n\nOp school was Lena koud maar ze voelde zich warm vanbinnen. Ze had iemand geholpen die het nodig had.",
+  "questions": [
+    {
+      "question": "Waar zat het kleine meisje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op een bankje",
+        "op het bankje"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Wat droeg het kleine meisje?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "alleen een dunne trui",
+        "een dunne trui"
+      ],
+      "hint": "Zoek in de eerste alinea wat het meisje aan had."
+    },
+    {
+      "question": "Waarom was het moeilijk voor Lena om haar jas weg te geven?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "koud",
+            "zou koud hebben",
+            "het was koud"
+          ],
+          [
+            "zelf",
+            "dan zou zij",
+            "haar eigen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat er zou gebeuren als Lena haar jas weggaf."
+    },
+    {
+      "question": "Vind je dat Lena het goede deed? Waarom?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "goed",
+            "juist",
+            "mooi"
+          ],
+          [
+            "helpen",
+            "help",
+            "geholpen"
+          ],
+          [
+            "nodig had",
+            "nodig",
+            "ardig",
+            "lief"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Wat denk jij over Lena's keuze om te helpen?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lenas-warme-jas/image-1.png",
+      "alt": "Een meisje in een warme jas ziet een huilend kind op een bankje"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lenas-warme-jas/image-2.png",
+      "alt": "Lena geeft haar jas aan het kleine meisje"
+    }
+  ],
+  "imagePrompts": [
+    "Children's book illustration of a girl in a warm winter coat walking to school and seeing a crying child in just a thin sweater sitting on a park bench on a cold Dutch morning",
+    "Children's book illustration of a kind girl taking off her warm coat and giving it to a younger child, both children smiling, with Dutch houses in the background"
+  ]
+}

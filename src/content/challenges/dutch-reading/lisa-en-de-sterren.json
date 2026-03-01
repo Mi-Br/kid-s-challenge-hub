@@ -1,0 +1,101 @@
+{
+  "id": "lisa-en-de-sterren",
+  "title": "Lisa en de Sterren",
+  "groepLevel": "groep7-8",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "wetenschap",
+  "text": "Lisa zat alleen op het schoolplein. Haar beste vriendin Emma was vorige maand verhuisd naar België. Lisa miste haar heel erg. Ze hadden samen altijd sterren gekeken met Lisa's telescoop.\n\nOp Instagram zag Lisa foto's van Emma met nieuwe vrienden. Lisa voelde zich verdrietig. Ze postte zelf nooit meer foto's. Wat had het voor zin?\n\nDie avond ging Lisa naar buiten met haar telescoop. Ze keek naar de maan. Opeens zag ze iets bijzonders: een heldere ster die knipperde. Lisa maakte een foto en zocht informatie op internet.\n\nHet was de planeet Venus! Lisa was zo blij dat ze de foto op Instagram zette. Tot haar verrassing kreeg ze veel likes. Ook van Daan uit haar klas. Hij schreef: \"Wauw, hoe mooi! Mag ik een keer mee sterren kijken?\"\n\nLisa glimlachte. Misschien kon ze toch nieuwe vrienden maken. De sterren hadden haar geholpen om weer hoop te vinden.",
+  "questions": [
+    {
+      "question": "Waar is Emma naartoe verhuisd?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "belgië"
+      ],
+      "hint": "Kijk naar de eerste alinea."
+    },
+    {
+      "question": "Waarom postte Lisa geen foto's meer op Instagram?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "droevig",
+            "triest",
+            "somber"
+          ],
+          [
+            "miste",
+            "gemist",
+            "alleen",
+            "eenzaam"
+          ],
+          [
+            "zin",
+            "nut",
+            "betekenis"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Lisa zich voelde na Emma's vertrek."
+    },
+    {
+      "question": "Welke planeet zag Lisa door haar telescoop?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "venus"
+      ],
+      "hint": "Lisa zocht informatie op internet over wat ze zag."
+    },
+    {
+      "question": "Hoe hielpen de sterren Lisa om weer hoop te vinden?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "venus",
+            "foto",
+            "planeet",
+            "ster"
+          ],
+          [
+            "daan",
+            "nieuwe",
+            "vrienden",
+            "vriend"
+          ],
+          [
+            "likes",
+            "reacties",
+            "reactie"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat er gebeurde nadat Lisa de foto op Instagram zette."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/lisa-en-de-sterren/image-1.png",
+      "alt": "Lisa kijkt door een telescoop naar de sterren op een heldere avond"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/lisa-en-de-sterren/image-2.png",
+      "alt": "Lisa glimlacht terwijl ze naar haar telefoon kijkt met likes op Instagram"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking through a telescope at night in a Dutch backyard, with bright stars and Venus visible in the dark sky, children's book illustration style",
+    "A teenage girl smiling while looking at her phone screen showing Instagram likes and comments, sitting at her desk with the telescope nearby, children's book illustration style"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "jans-nieuwe-jas",
+  "title": "Jans Nieuwe Jas",
+  "groepLevel": "groep4-5",
+  "difficulty": "low",
+  "referentieNiveau": "toward-1F",
+  "topic": "kleding",
+  "text": "Jan woont op een boerderij. Hij heeft een oude jas. De jas is kapot. Jan wil een nieuwe jas.\n\nJan gaat naar de schuur. Hij zoekt in de kast. Er zijn geen jassen. Jan is verdrietig.\n\nJan kijkt in de wasmand. Hij ziet een blauwe jas. De jas is van papa. De jas is te groot voor Jan. Jan probeert de jas aan. De mouwen zijn veel te lang.",
+  "questions": [
+    {
+      "question": "Waar woont Jan?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "op een boerderij",
+        "boerderij"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Welke kleur heeft de jas in de wasmand?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "blauw",
+        "blauwe"
+      ],
+      "hint": "Zoek in de laatste alinea."
+    },
+    {
+      "question": "Van wie is de blauwe jas?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "van papa",
+        "papa"
+      ],
+      "hint": "Lees de laatste alinea goed."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/jans-nieuwe-jas/image-1.png",
+      "alt": "Jan staat in de schuur en kijkt in een lege kast"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/jans-nieuwe-jas/image-2.png",
+      "alt": "Jan probeert een te grote blauwe jas aan"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch boy standing in a farm barn looking into an empty wardrobe, children's book illustration style, disappointed expression",
+    "A young Dutch boy trying on an oversized blue jacket with sleeves too long for him, children's book illustration style, in a farm setting"
+  ]
+}

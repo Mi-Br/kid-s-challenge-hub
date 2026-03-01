@@ -1,0 +1,81 @@
+{
+  "id": "het-geheim-van-opa",
+  "title": "Het Geheim van Opa",
+  "groepLevel": "groep4-5",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "familie",
+  "text": "Emma woont bij opa en oma. Opa heeft een geheim in de schuur. Hij gaat elke dag naar buiten en doet de deur op slot.\n\nEmma is nieuwsgierig. Ze wil weten wat opa doet. Ze probeert door het raam te kijken, maar het is te hoog. Ze vraagt aan opa wat hij doet, maar hij lacht alleen.\n\nOp een dag hoort Emma een vreemd geluid uit de schuur. Het klinkt als praten! Ze sluipt naar de deur en luistert. Ze hoort opa zeggen: \"Dag Hendrik, heb je goed geslapen?\"\n\nEmma is verbaasd. Wie is Hendrik? Ze wacht tot opa naar binnen gaat. Dan kijkt ze door de kier van de deur. In de schuur staat een grote kooi. Daarin zit een mooie groene papegaai!\n\nAls opa terugkomt, ziet hij Emma. \"Dit is Hendrik,\" zegt hij. \"Ik leer hem Nederlandse woorden. Het is een verrassing voor oma's verjaardag.\" De papegaai zegt luid: \"Dag Emma!\" Emma lacht blij. Nu kent ze opa's geheim.",
+  "questions": [
+    {
+      "question": "Waar woont Emma?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "bij opa en oma"
+      ],
+      "hint": "Kijk naar de eerste zin."
+    },
+    {
+      "question": "Wat doet opa elke dag met de deur van de schuur?",
+      "questionType": "begrijpen",
+      "hint": "Lees de eerste alinea nog eens.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "doet"
+          ],
+          [
+            "deur"
+          ],
+          [
+            "slot"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom kan Emma niet door het raam kijken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "hoog",
+            "te hoog"
+          ],
+          [
+            "raam",
+            "ramen"
+          ],
+          [
+            "kan niet",
+            "niet kunnen",
+            "lukt niet"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de tweede alinea waarom Emma het raam niet kan gebruiken."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-opa/image-1.png",
+      "alt": "Emma luistert bij de deur van opa's schuur"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-opa/image-2.png",
+      "alt": "Opa met de groene papegaai Hendrik in de schuur"
+    }
+  ],
+  "imagePrompts": [
+    "A curious young girl listening at a wooden shed door in a Dutch backyard, children's book illustration style",
+    "An elderly grandfather with a beautiful green parrot in a wooden cage inside a garden shed, warm lighting, children's book illustration style"
+  ]
+}

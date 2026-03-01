@@ -1,0 +1,136 @@
+{
+  "id": "de-vergeten-held",
+  "title": "De Vergeten Held",
+  "groepLevel": "groep7-8",
+  "difficulty": "medium",
+  "referentieNiveau": "1F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Sanne keek verveeld naar het geschiedenisboek. Weer een verhaal over een oude Nederlandse held die ze niet kende. \"Waarom moeten we dit leren?\" mompelde ze. \"Deze mensen zijn al eeuwen dood.\"\n\nHaar opa, die naast haar zat, glimlachte. \"Vertel me eens, wat lees je daar?\" vroeg hij. Sanne las voor: \"Johan van Oldenbarnevelt was een belangrijk staatsman in de Gouden Eeuw. Hij vocht voor de onafhankelijkheid van Nederland.\"\n\n\"Aha,\" zei opa. \"Wist je dat hij uit mijn geboorteplaats kwam? Amersfoort.\" Sanne keek op. Dat had ze niet verwacht. Opa vervolgde: \"En wist je dat hij een heel moeilijke keuze moest maken? Hij wilde vrede, maar andere mensen wilden oorlog. Dat kostte hem uiteindelijk zijn leven.\"\n\nSanne fronste haar wenkbrauwen. \"Bedoel je dat hij is gestorven omdat hij vrede wilde?\" Opa knikte. \"In 1619 werd hij ter dood gebracht. Mensen waren het niet eens met zijn keuzes.\" Een vreemd gevoel bekroop Sanne. Ze had altijd gedacht dat helden alleen maar mooie verhalen waren.\n\n\"Maar opa,\" zei ze langzaam, \"als hij uit jouw stad komt... en als hij echt heeft geleefd... dan is het eigenlijk niet zo saai als ik dacht.\" Opa lachte. \"Geschiedenis wordt pas echt interessant als je begrijpt dat het over echte mensen gaat. Mensen met moed, maar ook met angst. Mensen die moeilijke beslissingen moesten nemen, net als wij.\"\n\nSanne keek weer naar haar boek, maar nu met andere ogen. Johan van Oldenbarnevelt was niet zomaar een naam op papier. Hij was een echte man geweest, die had geleefd, gehoopt en gevochten voor wat hij belangrijk vond. Net zoals mensen nu nog steeds doen.",
+  "questions": [
+    {
+      "question": "Uit welke stad kwam Johan van Oldenbarnevelt?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "amersfoort"
+      ],
+      "hint": "Opa vertelt waar van Oldenbarnevelt vandaan komt."
+    },
+    {
+      "question": "Waarom veranderde Sannes mening over geschiedenis?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "echte",
+            "echt",
+            "werkelijk",
+            "ware"
+          ],
+          [
+            "mensen",
+            "personen",
+            "man"
+          ],
+          [
+            "belangrijk",
+            "interessant",
+            "boeiend"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat opa zegt over echte mensen in de geschiedenis."
+    },
+    {
+      "question": "Wat vond van Oldenbarnevelt belangrijker: vrede of oorlog?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "vrede",
+            "vredig",
+            "geen oorlog"
+          ],
+          [
+            "wilde",
+            "vond",
+            "koos",
+            "prefereerde"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees wat opa vertelt over van Oldenbarneveldts moeilijke keuze."
+    },
+    {
+      "question": "Vind jij dat het belangrijk is om over Nederlandse geschiedenis te leren? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "belangrijk",
+            "nuttig",
+            "goed",
+            "waardevol",
+            "nodig"
+          ],
+          [
+            "omdat",
+            "want",
+            "doordat",
+            "reden"
+          ],
+          [
+            "leren",
+            "begrijpen",
+            "weten",
+            "kennen",
+            "snappen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over je eigen mening en geef een reden."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe geschiedenis interessanter wordt als je beseft dat het over echte mensen gaat, niet over saaie namen en data.",
+        "exampleAnswer": "Het verhaal gaat erover dat geschiedenis interessant wordt als je begrijpt dat het over echte mensen met echte problemen gaat.",
+        "keyElements": [
+          "geschiedenis/echte mensen",
+          "interessant/belangrijk worden",
+          "niet saai/begrijpen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan hoe Sannes kijk op geschiedenis verandert."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-vergeten-held/image-1.png",
+      "alt": "Een meisje zit aan tafel met haar opa en een geschiedenisboek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-vergeten-held/image-2.png",
+      "alt": "Het meisje kijkt nu geïnteresseerd naar het boek terwijl opa vertelt"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch teenage girl sitting at a table with her grandfather, looking bored while reading a history textbook, children's book illustration style",
+    "The same girl now looking interested and engaged while her grandfather points to the history book, both smiling, warm lighting, children's book illustration style"
+  ]
+}

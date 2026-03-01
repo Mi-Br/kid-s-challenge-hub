@@ -1,0 +1,100 @@
+{
+  "id": "sofias-verjaardagstaart",
+  "title": "Sofia's Verjaardagstaart",
+  "groepLevel": "groep4-5",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verjaardagen",
+  "text": "Sofia was heel blij. Morgen werd ze acht jaar! Mama had beloofd een chocoladetaart te maken. Sofia's beste vriendin Emma zou komen spelen.\n\n's Ochtends ging mama naar de winkel. \"Ik ga de spullen voor je taart kopen,\" zei mama. Sofia wilde meehelpen omdat ze zo opgewonden was. Ze ging alvast bloem en eieren pakken.\n\nIn de keuken probeerde Sofia de eieren te breken. Maar oeps! Ze viel en alle eieren gingen kapot op de vloer. Sofia voelde zich heel verdrietig en bang. Wat zou mama zeggen?\n\nToen mama thuiskwam, zag ze de rommel. Sofia begon te huilen. \"Het spijt me zo, mama! Ik wilde alleen maar helpen.\" Mama was eerst een beetje boos, maar toen gaf ze Sofia een knuffel.\n\n\"We gaan samen naar de bakkerij,\" zei mama vriendelijk. \"Dan kopen we daar een mooie taart.\" Sofia veegde haar tranen weg. Bij de bakkerij kozen ze een prachtige roze taart met aardbeitjes erop. Sofia was weer gelukkig.",
+  "questions": [
+    {
+      "question": "Hoe oud wordt Sofia?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "acht",
+        "acht jaar",
+        "8",
+        "8 jaar"
+      ],
+      "hint": "Kijk in de eerste alinea."
+    },
+    {
+      "question": "Wat ging er mis toen Sofia wilde helpen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "de eieren gingen kapot",
+        "alle eieren gingen kapot op de vloer",
+        "ze viel en alle eieren gingen kapot"
+      ],
+      "hint": "Lees wat er gebeurde in de keuken."
+    },
+    {
+      "question": "Waarom begon Sofia te huilen toen mama thuiskwam?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "verdrietig",
+            "bang",
+            "spijt",
+            "sorry"
+          ],
+          [
+            "eieren",
+            "kapot",
+            "rommel",
+            "viel"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan hoe Sofia zich voelde na het ongeluk."
+    },
+    {
+      "question": "Vind je dat mama goed reageerde? Waarom wel of niet?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "goed",
+            "lief",
+            "aardig",
+            "vriendelijk",
+            "slecht",
+            "boos"
+          ],
+          [
+            "knuffel",
+            "bakkerij",
+            "samen",
+            "hielp",
+            "help",
+            "oplossing"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat mama deed nadat ze de rommel zag."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/sofias-verjaardagstaart/image-1.png",
+      "alt": "Sofia die eieren probeert te breken in de keuken"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/sofias-verjaardagstaart/image-2.png",
+      "alt": "Sofia en mama bij de bakkerij die een roze taart uitkiezen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl with dark hair trying to crack eggs in a bright Dutch kitchen, eggs broken on the floor around her, children's book illustration style",
+    "A mother and daughter looking at beautiful birthday cakes in a cozy Dutch bakery window, pointing at a pink cake with strawberries, children's book illustration style"
+  ]
+}
