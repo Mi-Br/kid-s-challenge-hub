@@ -1,0 +1,140 @@
+{
+  "id": "de-stemmen-van-anderen",
+  "title": "De Stemmen van Anderen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "democratie",
+  "text": "Lara staarde naar de verkiezingsposters die overal in de school hingen. Als nieuwe leerling uit Roemenië begreep ze nog niet alles van de Nederlandse leerlingenraad, maar haar klasgenoten hadden haar gevraagd mee te doen. \"Jij hebt frisse ideeën,\" had Maya gezegd, terwijl ze haar eigen poster ophield: 'Maya voor Meer Muziek!' De felgekleurde letters dansten voor Lara's ogen.\n\n\"Waarom zou iemand op mij stemmen?\" vroeg Lara zich hardop af. \"Ik ken de school nog nauwelijks.\" Haar vriendin Sem glimlachte bemoedigend. \"Juist daarom! Je ziet dingen die wij allang normaal vinden. Bovendien heb je ervaring met andere schoolsystemen.\" Maar Lara voelde zich verscheurd tussen twee werelden - de Roemeense tradities van thuis en de Nederlandse democratische gewoonten op school.\n\nDe volgende dag organiseerde de school een debat tussen alle kandidaten. Lara's handen trilden toen ze achter het spreekgestoelte stond. Ze had besloten eerlijk te zijn over haar twijfels. \"Ik weet niet of ik de beste kandidaat ben,\" begon ze, terwijl gemompel door de aula golfde. \"Maar misschien is dat juist waarom jullie me nodig hebben. Iemand die vragen durft te stellen bij wat jullie vanzelfsprekend vinden.\"\n\nToen de stemmen werden geteld, had Lara verloren - maar slechts met drie stemmen verschil. Maya won met haar belofte van meer muziekles. \"Gefeliciteerd,\" zei Lara tegen Maya, hoewel ze zich leeg voelde vanbinnen. Maya keek echter ongemakkelijk. \"Eigenlijk... tijdens het debat realiseerde ik me dat mijn ideeën misschien te oppervlakkig waren. Jouw vragen maakten me aan het denken.\"\n\nWeken later zag Lara hoe Maya worstelde met de werkelijkheid van haar functie. De beloofde muziekles bleek onmogelijk door het krappe budget. Leerlingen begonnen te klagen, en Maya's populariteit daalde snel. \"Democratie is ingewikkelder dan ik dacht,\" fluisterde Maya tegen Lara tijdens de pauze. \"Mensen willen eenvoudige antwoorden, maar de werkelijkheid is altijd grijs, nooit zwart-wit.\"\n\nLara knikte begrijpend, maar voelde tegelijkertijd een vreemde tevredenheid. Misschien was verliezen wel haar overwinning geweest. Ze hoefde niet te bewijzen dat ze erbij hoorde door te winnen - maar door vragen te blijven stellen die anderen niet durfden te stellen. Toch bleef er een bittere smaak achter: was dit hoe democratie werkelijk functioneerde? Met valse beloften en teleurgestelde verwachtingen?",
+  "questions": [
+    {
+      "question": "Wat is volgens de tekst de hoofdreden waarom Maya's populariteit daalde?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "muziekles",
+            "muziek",
+            "belofte",
+            "beloften"
+          ],
+          [
+            "onmogelijk",
+            "lukte niet",
+            "kon niet",
+            "ging niet"
+          ],
+          [
+            "budget",
+            "geld",
+            "geen geld"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Maya beloofde en wat er daarna gebeurde."
+    },
+    {
+      "question": "Hoe toont de schrijver dat Lara zich verscheurd voelt tussen twee culturen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver dit toont door Lara's twijfels, haar gevoel tussen twee werelden en haar onzekerheid over haar plaats in het Nederlandse systeem te beschrijven.",
+        "exampleAnswer": "Door te laten zien dat Lara twijfelt of ze wel geschikt is, zich verscheurd voelt tussen Roemeense tradities thuis en Nederlandse gewoonten op school.",
+        "keyElements": [
+          "twijfels/onzekerheid",
+          "twee werelden/culturen",
+          "Roemeens/Nederlands"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan Lara's gevoelens over thuis en school."
+    },
+    {
+      "question": "Waarom suggereert de tekst dat Lara's 'verlies' eigenlijk een overwinning was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Lara niet hoefde te bewijzen dat ze erbij hoorde door te winnen, maar door authentiek te blijven en kritische vragen te stellen.",
+        "exampleAnswer": "Omdat ze niet hoefde te bewijzen dat ze erbij hoorde door te winnen, maar door eerlijk te zijn en vragen te stellen die anderen niet durfden.",
+        "keyElements": [
+          "niet bewijzen/hoeven winnen",
+          "vragen stellen/kritisch zijn",
+          "eerlijk/authentiek"
+        ],
+        "minWords": 5
+      },
+      "hint": "Lees het voorlaatste stukje nog eens over wat Lara realiseert."
+    },
+    {
+      "question": "Beoordeel of de schrijver een positief of negatief beeld van democratie neerzet. Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een standpunt innemen (positief of negatief) en dit onderbouwen met voorbeelden uit de tekst zoals valse beloften, teleurstellingen, of juist het belang van kritische vragen stellen.",
+        "exampleAnswer": "Negatief, omdat de tekst laat zien dat democratie vol valse beloften zit en mensen teleurstelt, zoals Maya die haar beloften niet kon waarmaken.",
+        "keyElements": [
+          "positief/negatief/gemengd",
+          "valse beloften/teleurstellingen/kritische vragen",
+          "onderbouwing uit tekst"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan de laatste zin en hoe Maya's ervaring wordt beschreven."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het zoeken naar je identiteit en plaats in een democratie, waarbij authentieke vragen stellen waardevoller kan zijn dan populair zijn.",
+        "exampleAnswer": "Het verhaal gaat over iemand die haar plaats zoekt in een nieuwe cultuur en ontdekt dat eerlijk zijn en kritische vragen stellen belangrijker is dan winnen.",
+        "keyElements": [
+          "identiteit zoeken/plaats vinden",
+          "authentiek zijn/eerlijk",
+          "kritische vragen/niet winnen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat Lara leert over zichzelf en democratie."
+    },
+    {
+      "question": "Met welk doel heeft de schrijver dit verhaal waarschijnlijk geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien dat democratie complex is en dat kritisch denken belangrijker is dan populaire beloften, vooral voor jongeren die hun stem zoeken.",
+        "exampleAnswer": "Om jongeren te laten nadenken over hoe democratie echt werkt en dat kritische vragen stellen belangrijker is dan makkelijke antwoorden.",
+        "keyElements": [
+          "jongeren/lezers laten nadenken",
+          "democratie complex/moeilijk",
+          "kritisch denken/vragen stellen"
+        ],
+        "minWords": 7
+      },
+      "hint": "Waarom zou iemand dit verhaal schrijven voor scholieren?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stemmen-van-anderen/image-1.png",
+      "alt": "Lara kijkt naar verkiezingsposters in de schoolgang"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stemmen-van-anderen/image-2.png",
+      "alt": "Lara spreekt nerveus achter een spreekgestoelte tijdens het schooldebat"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl with dark hair looking thoughtfully at colorful election posters hanging on school hallway walls, children's book illustration style, Dutch school setting",
+    "A nervous teenage girl standing behind a podium speaking to an audience in a school auditorium during a debate, children's book illustration style, Dutch school assembly"
+  ]
+}

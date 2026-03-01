@@ -1,0 +1,134 @@
+{
+  "id": "de-fluisterende-bomen",
+  "title": "De Fluisterende Bomen",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "natuur",
+  "text": "Emma houdt van wandelen door het oude bos achter haar huis. De eiken en beuken zijn daar al honderden jaren oud, met takken die als wijze armen naar de hemel reiken. Haar opa zegt altijd dat bomen geheimen bewaren.\n\nVandaag ontmoet ze Jasper, die met een kettingzaag bij de grootste eik staat. \"Deze boom moet weg,\" zegt hij kortaf. \"Hij blokkeert de zon voor mijn nieuwe huis.\" Emma's hart klopt wild van schrik. \"Maar die boom is eeuwenoud! Hij is het hart van het bos,\" roept ze uit. Jasper schudt zijn hoofd. \"Bomen groeien opnieuw. Huizen niet.\"\n\nDe ruzie escaleert omdat beiden alleen hun eigen kant zien. Emma denkt dat Jasper niet om de natuur geeft, terwijl Jasper vindt dat Emma zijn dromen niet begrijpt. Ze praten langs elkaar heen, worden boos, en lopen weg.\n\nDie avond kan Emma niet slapen. Ze wandelt terug naar de eik en luistert naar het zachte ruisen van de bladeren in de wind. Misschien zijn dit de fluisteringen waar opa over sprak - verhalen van vogels die hier nestelden, kinderen die in de schaduw speelden, seizoenen die kwamen en gingen.\n\nDe volgende ochtend vindt ze Jasper weer bij de boom, maar nu zit hij er alleen maar naar te kijken. \"Ik heb de hele nacht nagedacht,\" zegt hij zacht. \"Misschien kun je me vertellen waarom deze boom zo bijzonder is?\" Emma glimlacht voorzichtig en begint te vertellen over de geschiedenis, de dieren die er leven, de seizoenen die ze heeft meegemaakt.\n\nUiteindelijk vinden ze een oplossing die niemand had verwacht. Jasper ontwerpt zijn huis anders, met grote ramen die het licht opvangen dat tussen de bladeren danst. Emma helpt hem begrijpen hoe het bos werkt. De eik blijft staan, en misschien fluistert hij nu nieuwe verhalen - over mensen die leerden luisteren naar elkaar en naar de natuur.",
+  "questions": [
+    {
+      "question": "Hoe oud zijn de bomen in het bos volgens de tekst?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea waar Emma's wandeling wordt beschreven.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "honderden"
+          ],
+          [
+            "jaren"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom willen Emma en Jasper allebei iets anders met de boom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 8,
+        "mustIncludeAny": [
+          [
+            "emma",
+            "meisje",
+            "zij"
+          ],
+          [
+            "jasper",
+            "man",
+            "hij"
+          ],
+          [
+            "beschermen/behouden/bewaren",
+            "natuurbehoud/natuur"
+          ],
+          [
+            "bouwen/huis/wonen",
+            "zon/licht/schaduw"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Emma belangrijk vindt en wat Jasper nodig heeft."
+    },
+    {
+      "question": "Wat bedoelt de schrijver met 'fluisterende bomen'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 6,
+        "mustIncludeAny": [
+          [
+            "verhalen/verhaal/geschiedenis"
+          ],
+          [
+            "geheimen/geheim/bewaren"
+          ],
+          [
+            "ruisen/geluid/wind/bladeren"
+          ],
+          [
+            "natuur/bos/dieren/vogels"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea waar Emma naar de boom luistert."
+    },
+    {
+      "question": "Vind je dat Emma en Jasper een goede oplossing hebben gevonden? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de oplossing en deze onderbouwen. Accepteer zowel positieve als negatieve meningen, zolang er een logische redenering bij staat die ingaat op compromis, natuur, of de belangen van beide partijen.",
+        "exampleAnswer": "Ja, het is een goede oplossing omdat beide partijen krijgen wat ze willen: Jasper kan zijn huis bouwen en Emma kan de boom behouden.",
+        "keyElements": [
+          "mening/vinden/denken",
+          "onderbouwing/omdat/want",
+          "compromis/beide/samen"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over de laatste alinea en geef je eigen mening met een reden."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over conflictoplossing, communicatie en het vinden van compromissen tussen verschillende belangen (natuur vs ontwikkeling). De leerling moet begrijpen dat luisteren naar elkaar en samen oplossingen zoeken belangrijker is dan je eigen gelijk halen.",
+        "exampleAnswer": "Het verhaal gaat erover dat je door naar elkaar te luisteren en samen te werken oplossingen kunt vinden die goed zijn voor iedereen.",
+        "keyElements": [
+          "luisteren/communicatie/praten",
+          "samenwerken/samen/compromis",
+          "oplossing/oplossen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Emma en Jasper leren over het oplossen van hun probleem."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-fluisterende-bomen/image-1.png",
+      "alt": "Emma en Jasper staan bij een grote oude eik in het bos"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-fluisterende-bomen/image-2.png",
+      "alt": "Het nieuwe huis met grote ramen tussen de bomen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl Emma and a man Jasper standing by a massive ancient oak tree in a Dutch forest, the man holding plans while the girl looks concerned, children's book illustration style",
+    "A modern house with large windows nestled among old trees, sunlight filtering through the leaves creating beautiful patterns, the oak tree still standing majestically, children's book illustration style"
+  ]
+}

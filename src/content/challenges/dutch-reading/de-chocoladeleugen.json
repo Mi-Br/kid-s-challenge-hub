@@ -1,0 +1,117 @@
+{
+  "id": "de-chocoladeleugen",
+  "title": "De Chocoladeleugen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wereldkeuken",
+  "text": "Daan stond in de supermarkt voor een muur van chocoladerepen. Melkchocolade, pure chocolade, chocolade met noten – de keuze was overweldigend. Hij pakte een goedkope reep en draaide hem om. 'Gemaakt van de beste cacaobonen', stond er in gouden letters. Thuis genoot hij van elke hap, niet wetend dat duizenden kilometers verderop kinderen van zijn leeftijd sloofden op cacaoplantages onder de brandende zon.\n\nOp school behandelde zijn klas het onderwerp 'eerlijke handel'. Mevrouw Peters toonde foto's van kinderarbeid in West-Afrika, waar veel cacao vandaan komt. \"Sommige chocoladefabrikanten kopen cacao van plantages waar kinderen worden uitgebuit,\" legde ze uit. \"Deze kinderen zien nooit een school van binnen, laat staan dat ze de chocolade proeven die van hun arbeid wordt gemaakt.\" Daan voelde zijn maag samentrekken. Hij dacht aan de reep die hij gisteren nog had weggewerkt.\n\nDie middag stormde Daan woedend de keuken binnen. \"Wij eten chocolade terwijl andere kinderen daarvoor moeten lijden!\" riep hij tegen zijn moeder. \"Waarom heeft niemand me dit ooit verteld?\" Zijn moeder zuchtte. \"Het is ingewikkeld, lieverd. Veel mensen willen het gewoon niet weten. En eerlijke chocolade is duurder.\" Daan begreep het niet. Hoe kon iets zo lekkers zo veel verdriet veroorzaken? Hij voelde zich machteloos en schuldig tegelijk.\n\nToch gaf Daan niet op. Hij overtuigde zijn ouders om alleen nog chocolade te kopen met het eerlijke-handelslabel. Op zijn verjaardag deelde hij eerlijke chocolade uit aan zijn klasgenoten en vertelde hun het verhaal erachter. Sommigen luisterden, anderen haalden hun schouders op. \"Maar normale chocolade smaakt net zo goed en kost de helft,\" mopperde zijn vriend Tim. Daan besefte dat verandering tijd kost, maar elke bewuste keuze telt.\n\nMaanden later ontmoette Daan via een schoolproject online een jongen uit Ghana die op een eerlijke cacaoboerderij werkte. \"Dankzij kopers zoals jij kan ik naar school,\" schreef Kwame. \"En mijn vader krijgt genoeg betaald voor ons gezin.\" Voor het eerst voelde Daan dat zijn kleine acties werkelijk verschil maakten. Zoals zijn favoriete schrijver ooit schreef: 'Grote veranderingen beginnen met kleine keuzes.' De smaak van chocolade zou nooit meer hetzelfde zijn – maar dat was juist goed.",
+  "questions": [
+    {
+      "question": "Volgens de tekst kunnen consumenten bijdragen aan kinderarbeid door welke chocolade te kopen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "goedkope",
+            "gewone",
+            "normale",
+            "niet-eerlijke"
+          ],
+          [
+            "chocolade",
+            "cacao",
+            "repen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over het contrast tussen verschillende soorten chocolade die in de tekst worden genoemd."
+    },
+    {
+      "question": "Waarom voelde Daan zich volgens de tekst 'machteloos en schuldig tegelijk'?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Daan zich schuldig voelde omdat hij onbewust had bijgedragen aan het probleem door gewone chocolade te eten, en machteloos omdat het probleem zo groot leek. Het gaat om de combinatie van persoonlijke betrokkenheid en het gevoel dat je als individu weinig kunt uitrichten.",
+        "exampleAnswer": "Hij voelde zich schuldig omdat hij zelf chocolade had gegeten die door kinderarbeid werd gemaakt, en machteloos omdat het probleem zo groot was en hij niet wist hoe hij het kon oplossen.",
+        "keyElements": [
+          "schuldig omdat hij zelf chocolade at/bijdroeg",
+          "machteloos omdat probleem groot was/niet wist hoe oplossen",
+          "persoonlijke betrokkenheid bij het probleem"
+        ],
+        "minWords": 8
+      },
+      "hint": "Kijk naar de reactie van Daan nadat hij hoorde over kinderarbeid in de cacaoindustrie."
+    },
+    {
+      "question": "Beoordeel Daans strategie om het probleem aan te pakken. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet Daans aanpak evalueren (eerlijke chocolade kopen, anderen informeren, bewuste keuzes maken) en argumenten geven. Zowel positieve als kritische beoordelingen zijn acceptabel als ze onderbouwd zijn met voorbeelden uit de tekst.",
+        "exampleAnswer": "Daans strategie is goed omdat hij zowel zijn eigen gedrag verandert als anderen probeert te overtuigen. Hij geeft niet op ondanks weerstand van vrienden. Maar het werkt alleen langzaam en niet iedereen luistert.",
+        "keyElements": [
+          "evaluatie van Daans aanpak",
+          "argumenten gebaseerd op tekst",
+          "eigen mening onderbouwd"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over de verschillende acties die Daan onderneemt en of deze effectief zijn."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte gaat over bewustwording van de gevolgen van onze consumptiekeuzes en hoe individuele acties verschil kunnen maken. Het verhaal benadrukt dat we verantwoordelijkheid dragen voor onze keuzes, ook al lijken problemen groot en overweldigend.",
+        "exampleAnswer": "Het verhaal gaat over hoe onze dagelijkse keuzes als consument gevolgen hebben voor andere mensen, en dat je als individu wel degelijk verschil kunt maken door bewuste keuzes.",
+        "keyElements": [
+          "bewustwording van gevolgen consumptiekeuzes",
+          "individuele verantwoordelijkheid/actie",
+          "verschil maken door bewuste keuzes"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de les die Daan leert en wat de schrijver de lezer wil laten begrijpen."
+    },
+    {
+      "question": "Met welk doel heeft de schrijver dit verhaal geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wil lezers bewust maken van de ethische aspecten van consumptie, specifiek de chocolade-industrie en kinderarbeid. Het doel is lezers aan te zetten tot nadenken over hun eigen consumptiekeuzes en hen te motiveren tot bewuste actie.",
+        "exampleAnswer": "De schrijver wil mensen bewust maken van kinderarbeid in de cacaoindustrie en hen aanmoedigen om bewustere keuzes te maken als consument.",
+        "keyElements": [
+          "bewustmaking van ethische problemen/kinderarbeid",
+          "aanmoediging tot bewuste keuzes/actie",
+          "kritisch nadenken over consumptie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver aan de lezers wil overbrengen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-chocoladeleugen/image-1.png",
+      "alt": "Een jongen die verschillende chocoladerepen bekijkt in een supermarkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-chocoladeleugen/image-2.png",
+      "alt": "Een jongen die eerlijke chocolade uitdeelt aan klasgenoten"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch boy standing in a supermarket aisle looking at shelves full of chocolate bars, children's book illustration style, warm lighting, decision moment",
+    "A boy distributing fair trade chocolate to classmates in a Dutch classroom while explaining something, children's book illustration style, educational setting"
+  ]
+}

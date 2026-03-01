@@ -1,0 +1,127 @@
+{
+  "id": "de-verborgen-kunstenaar",
+  "title": "De Verborgen Kunstenaar",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "de markt",
+  "text": "Elke zaterdagochtend liep Mira met tegenzin naar de markt. Haar moeder had een kraam met groenten en fruit, en Mira moest helpen. \"Waarom kan ik niet gewoon thuis blijven zoals andere kinderen?\" dacht ze altijd.\n\nDe markt was druk en lawaaierig. Mensen duwden langs elkaar, kinderen huilden, en kooplui riepen hun aanbiedingen. Mira vond het verschrikkelijk. Ze verstopte zich vaak achter de kisten met appels en keek naar de mensen die voorbij wandelden.\n\nOp een dag zag Mira een oude man met krijt op de stoep tekenen. Hij maakte prachtige schilderijen van bloemen en vogels. De mensen bleven staan en gooiden muntjes in zijn hoed. \"Dat ziet er makkelijk uit,\" dacht Mira. Toen de man een pauze nam, pakte ze stiekem een stukje krijt.\n\nZonder dat iemand het zag, begon Mira op de zijkant van hun kraam te tekenen. Ze tekende de appels die voor haar lagen, maar dan veel mooier dan in het echt. De appels op haar tekening leken te gloeien in het zonlicht. Plotseling hoorde ze een stem achter zich: \"Wauw, wie heeft dit gemaakt?\"\n\nMira draaide zich om en zag een vrouw met haar dochtertje staan. \"Ik... ik heb alleen maar...\" stamelde Mira. De vrouw glimlachte breed. \"Dit is fantastisch! Je hebt echt talent, meisje.\" Meer mensen kwamen kijken naar de tekening. Mira's moeder kwam ook aangelopen en keek verbaasd naar het kunstwerk van haar dochter.\n\n\"Mira, ik wist niet dat je zo goed kon tekenen!\" zei haar moeder trots. \"Misschien kunnen we naast groenten ook kunst verkopen.\" Vanaf die dag nam Mira altijd haar tekenspullen mee naar de markt. Ze ontdekte dat de drukke, lawaaierige markt vol was met interessante gezichten, kleuren en verhalen om te tekenen. De plek die ze eerst haatte, werd haar favoriete plek om te zijn.",
+  "questions": [
+    {
+      "question": "Waarom moest Mira elke zaterdag naar de markt?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de eerste alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "haar"
+          ],
+          [
+            "moeder"
+          ],
+          [
+            "helpen"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom dacht Mira dat tekenen op straat makkelijk was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "zag/zien/keek/kijken",
+            "oude man",
+            "man"
+          ],
+          [
+            "makkelijk/eenvoudig/simpel",
+            "leek/zag eruit",
+            "uit"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Mira zag toen ze naar de oude man keek."
+    },
+    {
+      "question": "Hoe veranderde Mira's gevoel over de markt aan het eind van het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "haatte/hekel/verschrikkelijk",
+            "werd/werd/veranderde",
+            "favoriete/lievelings"
+          ],
+          [
+            "eerst/vroeger",
+            "nu/laatste/eind",
+            "anders/veranderd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk hoe Mira zich voelde in het begin en aan het eind."
+    },
+    {
+      "question": "Vind je dat Mira's moeder goed reageerde toen ze de tekening zag? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de reactie van de moeder en dit onderbouwen met argumenten uit de tekst of eigen redenering. Zowel positieve als negatieve meningen zijn acceptabel als ze worden onderbouwd.",
+        "exampleAnswer": "Ja, want ze was trots op Mira en wilde haar helpen door kunst te verkopen naast groenten.",
+        "keyElements": [
+          "mening/vind/denk",
+          "trots/positief/ondersteunend",
+          "onderbouwing/omdat/want"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat de moeder zei en deed toen ze de tekening zag."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het ontdekken van een verborgen talent en hoe dat je perspectief kan veranderen. Het gaat over het vinden van iets positiefs in een situatie die je eerst niet leuk vond.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat ontdekt dat ze goed kan tekenen en daardoor de markt leuk gaat vinden.",
+        "keyElements": [
+          "ontdekken/vinden",
+          "talent/kunnen tekenen",
+          "verandering/anders"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat er met Mira gebeurt in het hele verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verborgen-kunstenaar/image-1.png",
+      "alt": "Mira tekent stiekem op de zijkant van de groentekraam terwijl mensen langslopen op de drukke markt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verborgen-kunstenaar/image-2.png",
+      "alt": "Een vrouw en haar dochtertje kijken bewonderend naar Mira's tekening van gloeiende appels"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl secretly drawing on the side of a fruit and vegetable market stall with chalk, busy Dutch market scene in the background, children's book illustration style",
+    "A woman and her daughter looking admiringly at a beautiful chalk drawing of glowing apples on a market stall, other people gathering to look, children's book illustration style"
+  ]
+}

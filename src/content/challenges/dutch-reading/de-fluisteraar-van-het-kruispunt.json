@@ -1,0 +1,130 @@
+{
+  "id": "de-fluisteraar-van-het-kruispunt",
+  "title": "De Fluisteraar van het Kruispunt",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verkeer",
+  "text": "Elke ochtend liep Yasmin langs het drukke kruispunt bij haar school. Ze zag hoe chauffeurs gefrustreerd toeterden en fietsers nerveus wachtten. Het verkeerslicht leek altijd te lang rood te blijven, waardoor iedereen ongeduldig werd.\n\nOp een regenachtige dinsdag merkte Yasmin iets vreemds op. Wanneer ze rustig naar het verkeerslicht keek en in gedachten 'groen, groen' fluisterde, sprong het licht precies op dat moment om. \"Toeval,\" dacht ze, maar haar hart klopte sneller van opwinding.\n\nDe volgende dagen experimenteerde Yasmin voorzichtig met haar ontdekking. Ze ging bewust vroeger van huis om bij het kruispunt te kunnen oefenen. Eerst lukte het alleen bij windstill weer, maar langzamerhand werd ze beter. Ze leerde dat ze zich volledig moest concentreren en haar adem rustig moest houden.\n\nWeken later was Yasmin de onofficiële verkeersregisseur van het kruispunt geworden. Hoewel niemand wist dat zij ervoor zorgde, liep het verkeer nu veel vlotter. Oudere fietsers knikten haar vriendelijk toe, want ze herkenden haar als het meisje dat altijd op precies het juiste moment bij de oversteekplaats stond. Yasmin glimlachte mysterieus terug, want sommige talenten zijn te bijzonder om uit te leggen.",
+  "questions": [
+    {
+      "question": "Waar liep Yasmin elke ochtend langs?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "het drukke kruispunt bij haar school",
+        "kruispunt bij haar school"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom werden chauffeurs en fietsers ongeduldig bij het kruispunt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "verkeerslicht",
+            "licht",
+            "stoplicht"
+          ],
+          [
+            "lang",
+            "te lang",
+            "langzaam"
+          ],
+          [
+            "rood",
+            "rood bleef",
+            "rood was"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat er in de eerste alinea over het verkeerslicht wordt gezegd."
+    },
+    {
+      "question": "Hoe ontwikkelde Yasmin haar bijzondere vaardigheid?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "oefenen",
+            "oefende",
+            "experimenteren",
+            "experimenteerde",
+            "proberen"
+          ],
+          [
+            "concentreren",
+            "concentratie",
+            "aandacht",
+            "focussen"
+          ],
+          [
+            "rustig",
+            "adem",
+            "ademhaling",
+            "kalm"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de derde alinea wat Yasmin deed om beter te worden."
+    },
+    {
+      "question": "Vind je het goed dat Yasmin haar talent geheimhoudt? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (wel/niet goed) en deze onderbouwen met argumenten. Mogelijke argumenten: talent is te bijzonder om uit te leggen, het helpt mensen, niemand zou het geloven, het is haar keuze.",
+        "exampleAnswer": "Ik vind het goed omdat mensen het toch niet zouden geloven en het helpt iedereen bij het kruispunt.",
+        "keyElements": [
+          "mening geven",
+          "argument/reden",
+          "geheimhouding/uitleggen",
+          "helpen/bijzonder"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de voor- en nadelen van geheimhouding in deze situatie."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het ontdekken en ontwikkelen van een bijzonder talent, en hoe je daarmee anderen kunt helpen zonder erkenning te zoeken.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat een bijzonder talent ontdekt en leert gebruiken om anderen te helpen.",
+        "keyElements": [
+          "talent ontdekken/vinden",
+          "ontwikkelen/oefenen",
+          "anderen helpen",
+          "bijzonder/speciaal"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat gebeurt er eigenlijk met Yasmin tijdens het hele verhaal?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-fluisteraar-van-het-kruispunt/image-1.png",
+      "alt": "Yasmin staat bij een druk kruispunt en kijkt naar het verkeerslicht"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-fluisteraar-van-het-kruispunt/image-2.png",
+      "alt": "Het verkeerslicht springt op groen terwijl Yasmin glimlacht"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl standing at a busy Dutch intersection with traffic lights, cars and cyclists waiting, children's book illustration style, rainy day atmosphere",
+    "The same girl smiling mysteriously as a traffic light turns green, with smooth flowing traffic and happy cyclists, children's book illustration style, warm lighting"
+  ]
+}

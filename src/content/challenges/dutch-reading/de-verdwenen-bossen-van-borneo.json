@@ -1,0 +1,122 @@
+{
+  "id": "de-verdwenen-bossen-van-borneo",
+  "title": "De Verdwenen Bossen van Borneo",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "milieu",
+  "text": "Sari staarde naar het computerscherm in de bibliotheek van haar internationale school in Amsterdam. Voor het aardrijkskunde-project over tropische regenwouden had ze Borneo gekozen, het eiland waar haar oma vandaan kwam. Wat ze ontdekte, maakte haar misselijk van verdriet.\n\nDe satellietbeelden spraken een duidelijke taal. In 1973 was Borneo nog bedekt met een dichte, groene deken van oerwoud. Maar de foto's van 2020 toonden een dramatisch ander beeld: kale vlaktes zo ver het oog reikte, doorsneden door modderige rivieren. Waar vroeger eeuwenoude bomen het levenselixir vormden voor ontelbare diersoorten, strekten zich nu eindeloze plantages uit.\n\nThuis confronteerde Sari haar oma met de beelden. \"Weet je wat er gebeurd is met het bos waar je bent opgegroeid?\" Oma Indira's ogen werden vochtig. \"Natuurlijk weet ik dat, liefje. De palmolieplantages hebben alles weggevaagd. De orang-oetans zijn verdwenen, net als de nevelpanters en duizenden vogelsoorten. Het bos waarin ik als kind speelde, bestaat niet meer.\"\n\n\"Maar waarom gebeurt dit?\" vroeg Sari gefrustreerd. Haar oma zuchtte diep. \"Palmolie zit in alles wat we gebruiken: shampoo, koekjes, pizza, zelfs tandpasta. De vraag vanuit rijke landen zoals Nederland is enorm. Lokale boeren krijgen geld voor hun land, maar de echte winst gaat naar grote internationale bedrijven. Binnen een generatie is een ecosysteem dat miljoenen jaren heeft bestaan, volledig vernietigd.\"\n\nSari voelde een mengeling van woede en machteloosheid. \"We kunnen er toch niets aan doen? Het is te laat.\" Maar oma Indira schudde haar hoofd. \"Integendeel. Jouw generatie heeft meer macht dan je beseft. Jullie kunnen kiezen wat je koopt. Jullie kunnen bedrijven dwingen om duurzame palmolie te gebruiken door bewuste keuzes te maken.\"\n\nDie avond besloot Sari actie te ondernemen. Ze richtte een milieugroep op op school, organiseerde voorlichtingsbijeenkomsten en startte een campagne waarbij leerlingen producten boycotten van bedrijven die bijdragen aan ontbossing. Langzaam maar zeker groeide het bewustzijn. Wat begon als een schoolproject, werd een beweging die zich uitbreidde naar andere scholen in Amsterdam.\n\nMaanden later ontving Sari een brief van een natuurbeschermingsorganisatie in Borneo. Door de druk van consumenten in Europa waren verschillende bedrijven overgegaan op gecertificeerde, duurzame palmolie. Het was slechts een kleine overwinning in een veel grotere strijd, maar het bewees dat verandering mogelijk was. Terwijl Sari de brief las, realiseerde ze zich dat haar oma gelijk had gehad: kennis gecombineerd met actie kon inderdaad de wereld veranderen.",
+  "questions": [
+    {
+      "question": "Waarom heeft de schrijver ervoor gekozen om het verhaal vanuit Sari's perspectief te vertellen in plaats vanuit het perspectief van haar oma?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver Sari als perspectief kiest om jonge lezers te laten zien dat zij ook invloed kunnen uitoefenen, en om de overgang van onwetendheid naar bewustzijn en actie te illustreren.",
+        "exampleAnswer": "Door het verhaal vanuit Sari te vertellen, laat de schrijver zien hoe jongeren van onwetendheid naar actie kunnen gaan, en dat geeft andere kinderen het gevoel dat zij ook iets kunnen doen.",
+        "keyElements": [
+          "jongeren/kinderen/lezers identificeren/herkennen",
+          "van onwetendheid/onbewustzijn naar actie/bewustzijn",
+          "motiveren/inspireren tot handelen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over waarom de schrijver kiest voor een jong hoofdpersonage en wat dat effect heeft op de lezer."
+    },
+    {
+      "question": "Hoe voelde Sari zich toen ze de satellietbeelden van Borneo zag?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "misselijk",
+            "ziek",
+            "verdrietig",
+            "geschokt"
+          ],
+          [
+            "verdriet",
+            "verdrietig",
+            "droefheid"
+          ],
+          [
+            "emotioneel",
+            "overstuur",
+            "aangedaan"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de eerste alinea waar Sari's reactie op de beelden wordt beschreven."
+    },
+    {
+      "question": "Volgens oma Indira hebben jongeren meer macht dan ze beseffen. Leg uit hoe deze macht zich uit volgens het verhaal.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat jongeren macht hebben als consumenten door bewuste keuzes te maken, bedrijven te beïnvloeden, en bewegingen te organiseren die verandering teweegbrengen.",
+        "exampleAnswer": "Jongeren hebben macht door bewust te kiezen wat ze kopen, bedrijven onder druk te zetten, en door samen acties te organiseren waardoor bedrijven hun gedrag veranderen.",
+        "keyElements": [
+          "bewuste keuzes/koopgedrag",
+          "bedrijven beïnvloeden/onder druk zetten",
+          "samen organiseren/beweging/actie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat oma Indira zegt over de keuzes die jongeren kunnen maken en wat Sari vervolgens doet."
+    },
+    {
+      "question": "Beoordeel of Sari's aanpak effectief was. Onderbouw je antwoord met voorbeelden uit de tekst.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een oordeel geven over de effectiviteit van Sari's aanpak en dit onderbouwen met concrete voorbeelden uit de tekst, zoals de uitbreiding naar andere scholen en de brief van de natuurorganisatie.",
+        "exampleAnswer": "Sari's aanpak was effectief omdat haar beweging zich uitbreidde naar andere scholen en bedrijven daadwerkelijk overgingen op duurzame palmolie, zoals blijkt uit de brief die ze ontving.",
+        "keyElements": [
+          "effectief/succesvol OF niet effectief/beperkt",
+          "uitbreiding naar andere scholen",
+          "brief/verandering bij bedrijven/duurzame palmolie"
+        ],
+        "minWords": 8
+      },
+      "hint": "Kijk naar de laatste twee alinea's waar de gevolgen van Sari's acties worden beschreven."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe kennis over milieuproblemen kan leiden tot bewustzijn en effectieve actie, en dat jongeren invloed kunnen uitoefenen op grote maatschappelijke problemen.",
+        "exampleAnswer": "Het verhaal gaat erover dat jongeren door kennis en bewustzijn grote milieuproblemen kunnen aanpakken en dat kleine acties tot echte verandering kunnen leiden.",
+        "keyElements": [
+          "kennis/bewustzijn leidt tot actie",
+          "jongeren kunnen invloed uitoefenen/verschil maken",
+          "milieuproblemen aanpakken/verandering mogelijk"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over Sari's reis van ontdekking tot actie en wat de schrijver hiermee wil laten zien."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-bossen-van-borneo/image-1.png",
+      "alt": "Een meisje kijkt geschokt naar satellietbeelden op een computerscherm in de bibliotheek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-verdwenen-bossen-van-borneo/image-2.png",
+      "alt": "Een groep leerlingen organiseert een milieucampagne op school met posters en informatie"
+    }
+  ],
+  "imagePrompts": [
+    "A young Indonesian-Dutch girl looking shocked at satellite images of deforestation on a computer screen in a modern school library, children's book illustration style",
+    "A diverse group of students organizing an environmental campaign at school with posters about palm oil and rainforest conservation, children's book illustration style"
+  ]
+}

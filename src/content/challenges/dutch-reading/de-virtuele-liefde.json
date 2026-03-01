@@ -1,0 +1,157 @@
+{
+  "id": "de-virtuele-liefde",
+  "title": "De Virtuele Liefde",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "technologie",
+  "text": "Zara staarde naar het scherm van haar laptop, waar de avatar van haar vriendje Max haar toelachte. Ze hadden elkaar drie maanden geleden ontmoet in een online game, en sindsdien chattten ze elke avond uren achter elkaar. \"Denk je dat echte liefde ook mogelijk is zonder elkaar fysiek te ontmoeten?\" vroeg Max tijdens hun videogesprek.\n\n\"Ik weet het niet,\" antwoordde Zara eerlijk. \"Soms voel ik me dichter bij jou dan bij mensen hier in Amsterdam. Maar tegelijkertijd vraag ik me af of we elkaar echt kennen.\" Ze had dit gesprek al weken willen voeren, maar had er steeds voor teruggedeinsd.\n\nMax knikte bedachtzaam. \"In de virtuele wereld kunnen we onszelf zijn zonder oordelen over uiterlijk of sociale status. Misschien is dat wel authentieker dan face-to-face contact.\" Hij had filosofie gestudeerd voordat hij game-ontwikkelaar werd, en bracht vaak diepe vragen ter sprake.\n\n\"Maar wat als we elkaar ontmoeten en teleurgesteld zijn?\" vroeg Zara. \"Online kan je je beste kant laten zien. Je hebt tijd om na te denken over wat je zegt.\" Ze had al vaak gefantaseerd over een echte ontmoeting, maar was ook bang voor de realiteit.\n\nVorige week had Max voorgesteld om elkaar te ontmoeten in het Vondelpark. Zara had ja gezegd, maar nu twijfelde ze. \"Ik ben bang dat onze relatie kapot gaat als we elkaar in het echt zien,\" bekende ze. \"Online voelt alles zo perfect.\"\n\n\"Misschien moeten we accepteren dat onze digitale verbinding anders is, maar niet minder waardevol,\" stelde Max voor. \"We kunnen onze online relatie koesteren en tegelijkertijd open staan voor wat er gebeurt als we elkaar ontmoeten.\"\n\nZara realiseerde zich dat ze had geleerd over grenzen stellen en communiceren door deze digitale romance. \"Je hebt gelijk,\" zei ze. \"Echte liefde gaat niet over perfectie, maar over eerlijkheid en groei. Ook in de virtuele wereld.\"",
+  "questions": [
+    {
+      "question": "Welke twee aspecten van online communicatie noemt Max als voordelen ten opzichte van face-to-face contact?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "geen",
+            "zonder",
+            "niet"
+          ],
+          [
+            "oordelen",
+            "beoordelen",
+            "veroordelen"
+          ],
+          [
+            "uiterlijk",
+            "uitzien",
+            "appearance"
+          ],
+          [
+            "sociale",
+            "maatschappelijke"
+          ],
+          [
+            "status",
+            "positie",
+            "klasse"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de derde alinea naar Max' filosofische uitleg."
+    },
+    {
+      "question": "Waarom twijfelt Zara aan de echtheid van hun online relatie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "beste",
+            "goede",
+            "mooie",
+            "perfecte"
+          ],
+          [
+            "kant",
+            "zijde",
+            "eigenschappen"
+          ],
+          [
+            "tijd",
+            "moment",
+            "gelegenheid"
+          ],
+          [
+            "nadenken",
+            "denken",
+            "overwegen",
+            "bedenken"
+          ],
+          [
+            "perfectie",
+            "perfect",
+            "ideaal",
+            "vlekkeloos"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Let op wat Zara zegt over hoe mensen zich online kunnen presenteren."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over de complexiteit van moderne liefdesrelaties in het digitale tijdperk, waarbij online verbindingen zowel authentiek als problematisch kunnen zijn.",
+        "exampleAnswer": "Het verhaal gaat over hoe technologie nieuwe vormen van liefde mogelijk maakt, maar ook vragen oproept over echtheid en realiteit in relaties.",
+        "keyElements": [
+          "digitale/online/virtuele liefde",
+          "authenticiteit/echtheid",
+          "technologie en relaties",
+          "communicatie/verbinding"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de schrijver wil vertellen over liefde in het digitale tijdperk."
+    },
+    {
+      "question": "Evalueer Max' filosofische benadering van hun situatie. Is zijn redenering overtuigend? Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening geven over Max' argumentatie en deze onderbouwen met argumenten. Beide standpunten (voor en tegen) zijn acceptabel als ze goed onderbouwd zijn.",
+        "exampleAnswer": "Max' redenering is deels overtuigend omdat online inderdaad minder vooroordelen heeft, maar hij onderschat het belang van fysieke aanwezigheid voor echte intimiteit.",
+        "keyElements": [
+          "mening/standpunt",
+          "argumentatie/onderbouwing",
+          "voor of tegen",
+          "filosofische benadering"
+        ],
+        "minWords": 8
+      },
+      "hint": "Geef je eigen mening over Max' argumenten en leg uit waarom je dat denkt."
+    },
+    {
+      "question": "Wat is volgens jou de bedoeling van de schrijver met dit verhaal? Welke boodschap wil hij of zij overbrengen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet inzien dat de schrijver wil laten zien hoe technologie liefdesrelaties beïnvloedt en lezers wil laten nadenken over authenticiteit in digitale verbindingen.",
+        "exampleAnswer": "De schrijver wil laten zien dat moderne technologie nieuwe uitdagingen creëert voor liefdesrelaties en dat we moeten leren omgaan met digitale intimiteit.",
+        "keyElements": [
+          "technologie/digitaal effect",
+          "moderne liefde/relaties",
+          "nadenken/bewustwording",
+          "uitdagingen/problemen"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over waarom de schrijver dit onderwerp heeft gekozen en wat hij of zij wil bereiken bij de lezer."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-virtuele-liefde/image-1.png",
+      "alt": "Een tienermeisje kijkt naar een laptopscherm met een videogesprek"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-virtuele-liefde/image-2.png",
+      "alt": "Twee jongeren lopen nerveus door het Vondelpark, op zoek naar elkaar"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking at a laptop screen showing a video call with a boy, in a modern bedroom setting, children's book illustration style, warm lighting",
+    "Two teenagers walking nervously in Vondelpark Amsterdam, looking around to find each other, trees and paths visible, children's book illustration style, afternoon light"
+  ]
+}

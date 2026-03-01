@@ -1,0 +1,114 @@
+{
+  "id": "de-manipulatie-machine",
+  "title": "De Manipulatie Machine",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "media",
+  "text": "Lara staarde naar haar telefoon terwijl ze door de sociale media scrolt. Weer een perfecte foto van haar klasgenoot Emma: stralende glimlach, dure kleding, luxe vakantie. \"Waarom is mijn leven zo saai?\" fluisterde ze teleurgesteld. Wat Lara niet wist, was dat Emma's 'perfecte' foto's gecreëerd werden door speciale apps die haar huid gladder maakten en haar lichaam slanker.\n\nOp school bemerkte Lara dat veel van haar vrienden zich ongelukkig voelden. \"Ik zie er niet uit zoals die influencers,\" klaagde haar vriendin Sophie. \"Mijn ouders kunnen geen dure merkkleding kopen,\" zuchtte klasgenoot Tim. Lara begon een patroon te herkennen: iedereen vergeleek zichzelf constant met de gepolijste beelden online.\n\nDie avond keek Lara een documentaire over sociale media met haar oudere broer Max, die journalistiek studeerde. \"Wist je dat deze platforms algoritmes gebruiken om je langer online te houden?\" legde hij uit. \"Ze tonen bewust content die sterke emoties oproept - jaloezie, onzekerheid, boosheid - omdat dat meer interactie genereert.\" Lara's ogen werden groot van verbazing toen ze realiseerde hoe gemanipuleerd ze werd.\n\n\"Het is een systematisch probleem,\" vervolgde Max. \"Mediabedrijven verdienen geld aan advertenties, dus hoe langer jij kijkt, hoe meer winst zij maken. Ze hebben psychologen ingehuurd om deze platforms verslavend te maken.\" Lara voelde woede opkomen - niet alleen naar zichzelf, maar naar het hele systeem dat jongeren opzettelijk onzeker maakte voor financieel gewin.\n\nDe volgende dag besloot Lara actie te ondernemen. Ze startte een bewustwordingscampagne op school genaamd 'Echte Verhalen'. Leerlingen deelden eerlijke verhalen over hun leven - inclusief mislukkingen, onzekerheden en gewone momenten. \"We moeten stoppen met het vergelijken van onze achter-de-schermen realiteit met andermans highlight reel,\" sprak ze tijdens de schoolvergadering.\n\nMet steun van docenten organiseerde Lara workshops over mediageletterdheid. Ze leerde klasgenoten herkennen wanneer algoritmes hun emoties manipuleerden en hoe gefilterde content hun zelfbeeld vertekende. \"Door dit systeem te begrijpen,\" realiseerde Lara zich, \"kunnen we bewuste keuzes maken in plaats van onbewuste slachtoffers te blijven.\"",
+  "questions": [
+    {
+      "question": "Volgens Max verdienen mediabedrijven geld aan welke vorm van inkomsten?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "advertenties"
+      ],
+      "hint": "Zoek naar wat Max zegt over hoe mediabedrijven hun winst maken."
+    },
+    {
+      "question": "Waarom tonen sociale media platforms bewust content die sterke emoties oproept zoals jaloezie en onzekerheid?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "interactie",
+            "reactie",
+            "engagement"
+          ],
+          [
+            "langer",
+            "meer tijd",
+            "blijven kijken",
+            "online houden"
+          ],
+          [
+            "geld",
+            "winst",
+            "verdienen",
+            "inkomsten"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Max uitlegt over het verband tussen emoties, tijd online en bedrijfswinsten."
+    },
+    {
+      "question": "Hoe evalueert de schrijver het systeem van sociale media platforms - als een individueel probleem of als systematische manipulatie, en wat is je eigen mening hierover?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de schrijver het als systematisch probleem presenteert (niet individueel) en een eigen beredeneerde mening geven over deze benadering.",
+        "exampleAnswer": "De schrijver ziet het als systematisch probleem omdat bedrijven opzettelijk psychologen inhuren om platforms verslavend te maken. Ik vind dit een goede kijk omdat het niet alleen individuen de schuld geeft.",
+        "keyElements": [
+          "systematisch/systeem",
+          "opzettelijk/bewust",
+          "eigen mening/evaluatie"
+        ],
+        "minWords": 8
+      },
+      "hint": "Let op hoe Max en Lara het probleem beschrijven en vorm je eigen oordeel."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over het herkennen van systematische media-manipulatie en het ondernemen van actie door bewustwording en educatie.",
+        "exampleAnswer": "Het verhaal toont hoe jongeren kunnen leren herkennen dat sociale media hen manipuleert en dat ze door bewustwording en actie dit systeem kunnen doorbreken.",
+        "keyElements": [
+          "manipulatie/beïnvloeding herkennen",
+          "bewustwording/begrip",
+          "actie ondernemen/verandering"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over Lara's reis van onbewust slachtoffer naar bewuste activist."
+    },
+    {
+      "question": "Wat was waarschijnlijk het schrijversdoel van deze tekst?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wil jongeren bewust maken van media-manipulatie en hen aanmoedigen kritisch na te denken over sociale media-gebruik.",
+        "exampleAnswer": "De schrijver wil jongeren waarschuwen voor de manipulatie van sociale media en laten zien dat ze zelf actie kunnen ondernemen door bewust te worden van deze technieken.",
+        "keyElements": [
+          "waarschuwen/bewust maken",
+          "kritisch denken/mediageletterdheid",
+          "jongeren/lezers informeren"
+        ],
+        "minWords": 5
+      },
+      "hint": "Overweeg waarom iemand dit verhaal zou schrijven voor jongeren van jouw leeftijd."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-manipulatie-machine/image-1.png",
+      "alt": "Lara kijkt teleurgesteld naar haar telefoon met sociale media"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-manipulatie-machine/image-2.png",
+      "alt": "Lara presenteert haar bewustwordingscampagne voor klasgenoten"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl looking disappointed while scrolling through social media on her phone, comparing herself to perfect photos, children's book illustration style",
+    "A confident teenage girl presenting to her classmates about media literacy and authentic storytelling in a Dutch school classroom, children's book illustration style"
+  ]
+}

@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 // Configuration
 const CHALLENGES_INPUT_DIR = path.join(__dirname, "../src/content/challenges/dutch-reading");
 const IMAGES_OUTPUT_BASE = path.join(__dirname, "../public/images/challenges/dutch-reading");
-const IMAGES_PER_CHALLENGE = 3;
+const IMAGES_PER_CHALLENGE = 2;  // Match imagePrompts in challenge JSON
 
 // Style guidelines for consistency across all images
 const STYLE_GUIDELINES = `

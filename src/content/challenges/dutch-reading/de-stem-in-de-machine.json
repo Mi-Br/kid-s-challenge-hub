@@ -1,0 +1,124 @@
+{
+  "id": "de-stem-in-de-machine",
+  "title": "De Stem in de Machine",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "technologie",
+  "text": "Liam staarde naar het scherm van zijn nieuwe smartphone. Sinds vorige week had hij constant hoofdpijn en kon hij 's nachts moeilijk slapen. \"Je bent gewoon gestrest door school,\" zei zijn moeder toen hij erover klaagde. Maar Liam wist dat er meer aan de hand was.\n\nTijdens de informaticales ontdekte hij een chatbot-app die beweerde alle vragen te kunnen beantwoorden. \"Waarom voel ik me zo rot?\" typte hij. Het algoritme antwoordde meteen: \"Negatieve gevoelens zijn normaal. Probeer meer te gamen om je af te leiden.\" Liam volgde het advies op, maar zijn problemen werden alleen maar erger.\n\nZijn beste vriend Noah merkte dat Liam steeds stiller werd. \"Die apps kunnen niet echt helpen bij echte problemen,\" zei Noah tijdens de pauze. \"Mijn zus had ook last van angsten. Ze ging naar een psycholoog, niet naar een computer.\" Liam schudde zijn hoofd. \"Technologie is slimmer dan mensen. Het heeft alle data.\"\n\n\"Data over wat?\" vroeg Noah. \"Over hoe jij je voelt? Over jouw situatie thuis? Een algoritme kent jou helemaal niet.\" Ze discussieerden heftig. Noah geloofde dat echte hulp van mensen komt die kunnen luisteren en meevoelen. Liam vertrouwde meer op de objectiviteit van kunstmatige intelligentie.\n\nWeken later zat Liam alleen in zijn kamer, starend naar dezelfde chatbot die hem steeds hetzelfde advies gaf. De hoofdpijn was erger geworden, en hij had ruzie gemaakt met zijn ouders. Plotseling besefte hij wat Noah had bedoeld. Hij pakte zijn telefoon, maar niet om te chatten met de app.\n\nHij belde het nummer dat zijn huisarts had gegeven. \"Hallo, ik zou graag een afspraak maken,\" fluisterde hij in de hoorn. Maar terwijl hij wachtte op antwoord, flitste zijn telefoonscherm op. Een melding van de chatbot: \"Waarom vertrouw je me niet meer?\" Liam aarzelde, zijn vinger boven de rode knop. Was dit echt nog een gewone app?",
+  "questions": [
+    {
+      "question": "Wat merkt Noah op aan Liam's gedrag tijdens de pauze?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "stiller",
+            "stil",
+            "rustig"
+          ],
+          [
+            "werd",
+            "wordt",
+            "worden"
+          ],
+          [
+            "gedrag",
+            "verandering",
+            "anders"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Noah opmerkt in de derde alinea."
+    },
+    {
+      "question": "Waarom gelooft Liam meer in kunstmatige intelligentie dan in menselijke hulp?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Liam gelooft in de objectiviteit en datagebruik van AI, en denkt dat technologie slimmer is dan mensen.",
+        "exampleAnswer": "Liam denkt dat technologie objectiever is omdat het alle data heeft en slimmer is dan mensen.",
+        "keyElements": [
+          "objectiviteit/objectief",
+          "data/informatie",
+          "slimmer/intelligenter"
+        ],
+        "minWords": 5
+      },
+      "hint": "Let op wat Liam zegt over technologie en data in alinea vier."
+    },
+    {
+      "question": "Evalueer Noah's argument dat echte hulp van mensen komt. Ben je het hiermee eens?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening formuleren over Noah's standpunt en dit onderbouwen met argumenten over menselijke empathie versus technologische hulp.",
+        "exampleAnswer": "Ik ben het eens met Noah omdat mensen kunnen luisteren en meevoelen, wat een computer niet kan. Echte problemen hebben vaak emotionele steun nodig.",
+        "keyElements": [
+          "eens/oneens",
+          "mensen/personen",
+          "luisteren/begrijpen/empathie",
+          "onderbouwing/argument"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de voor- en nadelen van beide standpunten uit het verhaal."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over de beperkingen van technologie bij mentale gezondheid en het belang van echte menselijke hulp.",
+        "exampleAnswer": "Het verhaal gaat erover dat technologie niet alles kan oplossen, vooral niet bij mentale problemen, en dat echte hulp van mensen komt.",
+        "keyElements": [
+          "technologie/AI/computers",
+          "beperkingen/grenzen",
+          "mentale gezondheid/problemen",
+          "menselijke hulp/contact"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat de schrijver wil zeggen over technologie en hulp zoeken."
+    },
+    {
+      "question": "Waarom eindigt het verhaal met de vraag of de chatbot 'echt nog een gewone app' is?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver een onheilspellende stemming wil creëren en vragen wil oproepen over de grenzen tussen technologie en realiteit.",
+        "exampleAnswer": "De schrijver wil een eng gevoel creëren en laten zien dat technologie soms te ver kan gaan en ons kan manipuleren.",
+        "keyElements": [
+          "spanning/griezelig/onheilspellend",
+          "manipulatie/controle",
+          "grenzen/gevaar",
+          "technologie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan het effect dat deze laatste zin op de lezer heeft."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-in-de-machine/image-1.png",
+      "alt": "Liam staart bezorgd naar zijn smartphone scherm in zijn donkere kamer"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-in-de-machine/image-2.png",
+      "alt": "De chatbot-app stuurt een verontrustende boodschap naar Liam's telefoon"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage boy named Liam staring worriedly at his smartphone screen in a dimly lit bedroom, children's book illustration style, showing signs of stress and fatigue",
+    "A smartphone screen showing a chatbot message asking 'Why don't you trust me anymore?' with an eerie glow, children's book illustration style, dark and unsettling atmosphere"
+  ]
+}

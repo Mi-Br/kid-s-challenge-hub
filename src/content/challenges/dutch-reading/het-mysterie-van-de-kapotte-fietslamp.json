@@ -1,0 +1,117 @@
+{
+  "id": "het-mysterie-van-de-kapotte-fietslamp",
+  "title": "Het Mysterie van de Kapotte Fietslamp",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "verkeer",
+  "text": "Daan fietste elke ochtend door de drukke Hoofdstraat naar school. Zijn nieuwe fietslamp was zijn trots omdat die zo helder scheen in het donker. Maar deze woensdag ontdekte hij iets vreemds: de lamp deed het niet meer, hoewel hij hem gisteren nog had gebruikt.\n\nTijdens de pauze vertelde Daan zijn probleem aan juf Marloes. \"Misschien zijn de batterijen leeg,\" opperde ze vriendelijk. Daan schudde zijn hoofd want hij had vorige week nog nieuwe batterijen gekocht. \"Dan is de lamp vast kapotgevallen,\" suggereerde zijn beste vriend Tim, die naast hen stond te luisteren.\n\nNa school besloot Daan het mysterie op te lossen. Eerst onderzocht hij zijn fiets grondig. De lamp zat nog stevig vast en vertoonde geen scheurtjes of deuken. Vervolgens haalde hij de batterijen eruit en testte ze in zijn zaklamp – ze werkten perfect! Dit werd steeds vreemder.\n\nTerwijl hij nadacht over andere mogelijkheden, herinnerde Daan zich gisteren. Het had hard geregend toen hij van school kwam. Hij had zijn fiets snel in de schuur gezet zonder hem af te drogen. Zou de regen door de lamp zijn gedrongen?\n\nVoorzichtig draaide Daan de lamp open. Binnenin zaten kleine waterdruppeltjes die glommen in het zonlicht! Het water had de elektrische verbindingen onderbroken, waardoor de lamp niet meer kon branden. Nu begreep hij eindelijk wat er was gebeurd.\n\nDaan droogde alle onderdelen zorgvuldig met een doek. Hij liet ze een uur in de zon liggen voordat hij de lamp weer in elkaar zette. Tot zijn grote vreugde ging de lamp weer aan toen hij op het knopje drukte. Het mysterie was opgelost!\n\nHelaas ontdekte hij later dat de waterschade de lamp had verzwakt. Hoewel hij nu werkte, zou hij waarschijnlijk niet lang meer meegaan. Daan moest binnenkort toch een nieuwe lamp kopen, maar hij had wel geleerd om zijn fiets altijd goed droog te maken.",
+  "questions": [
+    {
+      "question": "Waar fietst Daan elke ochtend naartoe?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "naar school",
+        "school"
+      ],
+      "hint": "Kijk naar de eerste zin van het verhaal."
+    },
+    {
+      "question": "Waarom werkte de fietslamp niet meer?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "water",
+            "regen",
+            "nat",
+            "vocht",
+            "druppels"
+          ],
+          [
+            "binnen",
+            "in",
+            "lamp",
+            "gedrongen",
+            "gekomen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat Daan vond toen hij de lamp openmaakte."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het oplossen van een probleem door goed na te denken en systematisch te onderzoeken. Het gaat om probleemoplossen door logisch redeneren.",
+        "exampleAnswer": "Het verhaal gaat over het oplossen van een mysterie door goed na te denken en stap voor stap te onderzoeken.",
+        "keyElements": [
+          "probleem oplossen/mysterie oplossen",
+          "onderzoeken/nadenken/zoeken",
+          "stap voor stap/systematisch"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat doet Daan om erachter te komen wat er mis is?"
+    },
+    {
+      "question": "Vind je dat Daan slim te werk ging? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over Daans aanpak en deze onderbouwen met voorbeelden uit de tekst. Zowel positieve als negatieve meningen zijn acceptabel als ze goed onderbouwd zijn.",
+        "exampleAnswer": "Ja, Daan ging slim te werk omdat hij systematisch alles controleerde: eerst de lamp zelf, toen de batterijen, en toen bedacht hij wat er gisteren was gebeurd.",
+        "keyElements": [
+          "mening geven/vinden",
+          "systematisch/stap voor stap/goed nadenken",
+          "onderzoek/controle/test"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over hoe Daan het probleem aanpakte en geef je eigen mening."
+    },
+    {
+      "question": "Wat betekent het woord 'opperde' in deze tekst?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk naar wat juf Marloes doet in de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "zei"
+          ],
+          [
+            "stelde voor"
+          ],
+          [
+            "suggereerde"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-kapotte-fietslamp/image-1.png",
+      "alt": "Een jongen onderzoekt zijn fietslamp"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-kapotte-fietslamp/image-2.png",
+      "alt": "Waterdruppeltjes in de geopende fietslamp"
+    }
+  ],
+  "imagePrompts": [
+    "A Dutch boy carefully examining his bicycle lamp in a sunny backyard, children's book illustration style with the bike leaning against a shed",
+    "Close-up view of an opened bicycle lamp with water droplets visible inside the transparent parts, children's book illustration style showing the mystery solved"
+  ]
+}

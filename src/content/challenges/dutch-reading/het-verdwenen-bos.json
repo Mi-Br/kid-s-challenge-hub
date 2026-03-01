@@ -1,0 +1,142 @@
+{
+  "id": "het-verdwenen-bos",
+  "title": "Het Verdwenen Bos",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "natuur",
+  "text": "Lara wandelde elke dag door het kleine bos achter haar huis. Tussen de oude eiken en berken voelde zij zich gelukkig en vrij. De vogels zongen vrolijk in de takken, terwijl eekhoorns speels van boom naar boom sprongen.\n\nOp een koude maandagochtend zag Lara iets vreemds. Mannen met gele helmen hadden rode kruizen op de bomen geschilderd. Haar lievelingseik, waar zij altijd onder zat om te lezen, had ook zo'n kruis gekregen. \"Die bomen moeten weg voor nieuwe huizen,\" hoorde zij een man tegen zijn collega zeggen.\n\nLara's hart bonkte in haar borst. Zij wilde iets zeggen, maar haar stem bleef in haar keel steken. De mannen waren groot en intimiderend. Thuis vertelde zij niets aan haar ouders omdat zij bang was dat niemand naar een kind zou luisteren.\n\nDe volgende dag bracht Lara haar vriendin Emma mee naar het bos. \"Kijk dan!\" riep Emma geschokt uit toen zij de rode kruizen zag. \"We kunnen dit niet zomaar laten gebeuren. Deze bomen leven hier al tientallen jaren.\" Emma's woorden gaven Lara moed.\n\nSamen schreven de meisjes een brief aan de burgemeester waarin zij uitlegden hoe belangrijk het bos was voor de dieren en voor kinderen zoals zij. Zij verzamelden handtekeningen van alle buren en klasgenoten. Lara's stem trilde toen zij de brief voorlas tijdens de gemeenteraadsvergadering, maar zij sprak toch.\n\nEen maand later kreeg Lara een brief van het gemeentehuis. Het bos zou beschermd worden als natuurgebied! Onder haar lievelingseik las zij de brief nog een keer. De zon scheen door de bladeren en de vogels zongen weer hun vrolijke liedjes. Lara glimlachte omdat zij had geleerd dat zelfs kinderen kunnen vechten voor wat belangrijk is.",
+  "questions": [
+    {
+      "question": "Welke kleur hadden de kruizen op de bomen?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "rood",
+        "rode"
+      ],
+      "hint": "Kijk naar de tweede alinea."
+    },
+    {
+      "question": "Waarom durfde Lara eerst niets tegen de mannen te zeggen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "bang",
+            "angstig",
+            "zenuwachtig",
+            "nerveus"
+          ],
+          [
+            "groot",
+            "intimiderend",
+            "eng",
+            "bedreigend"
+          ],
+          [
+            "kind",
+            "klein",
+            "jong"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de derde alinea nog eens goed door."
+    },
+    {
+      "question": "Hoe veranderde Emma Lara's gedrag?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "moed",
+            "moedig",
+            "dapper",
+            "kracht"
+          ],
+          [
+            "hielp",
+            "steunde",
+            "hielp",
+            "gaf"
+          ],
+          [
+            "samen",
+            "tezamen",
+            "met elkaar"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk Lara's gedrag voor en na Emma's komst."
+    },
+    {
+      "question": "Wat zou er volgens jou gebeurd zijn als Lara nooit actie had ondernomen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "bomen",
+            "bos",
+            "natuur"
+          ],
+          [
+            "weg",
+            "gekapt",
+            "verdwenen",
+            "weggehaald",
+            "vernietigd"
+          ],
+          [
+            "huizen",
+            "gebouwd",
+            "bebouwing",
+            "woningen"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat de mannen van plan waren."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over moed vinden om op te komen voor iets belangrijks, of dat kinderen ook invloed kunnen hebben als zij samenwerken.",
+        "exampleAnswer": "Het verhaal gaat erover dat je moet opkomen voor wat belangrijk is, ook al ben je bang.",
+        "keyElements": [
+          "moed/opkomen/vechten",
+          "belangrijk/waardevol",
+          "kinderen/jongeren kunnen verschil maken"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na: wat leert Lara gedurende het verhaal?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-bos/image-1.png",
+      "alt": "Lara onder een grote eikenboom met rode kruizen op de bomen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-verdwenen-bos/image-2.png",
+      "alt": "Lara en Emma die een brief schrijven aan een tafel"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl sitting sadly under a large oak tree with red X marks painted on it, other trees in a Dutch forest also marked with red crosses, children's book illustration style",
+    "Two young girls writing a letter together at a table, with determined expressions on their faces, bright natural lighting, children's book illustration style"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "het-lab-experiment",
+  "title": "Het Lab-experiment",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wetenschap",
+  "text": "Alex stond voor de spiegel in het laboratorium van de universiteit waar hun moeder werkte. De witte laboratoriumjas hing los om hun schouders, en ze vroegen zich af of ze er uitzagen zoals een echte wetenschapper. Was dat wat ze wilden worden? Of was het alleen maar een droom die hun ouders voor hen hadden bedacht?\n\nDe afgelopen maanden had Alex geëxperimenteerd met verschillende identiteiten. Op school noemden sommige klasgenoten hen 'het brainkind', omdat ze altijd de hoogste cijfers haalden voor natuurkunde en scheikunde. Andere leerlingen dachten dat Alex zich aanstelde, dat ze te veel hun best deden om op te vallen. Alex wist zelf niet meer wat ze moesten geloven.\n\n\"Vandaag gaan we een belangrijk experiment uitvoeren,\" had professor Van Der Berg gezegd toen Alex die ochtend het laboratorium binnenkwam. \"We onderzoeken of bepaalde chemische stoffen hun eigenschappen veranderen onder extreme temperaturen. Maar het interessante is dat we pas aan het eind zullen weten of onze hypothese klopt.\" Alex had geknikt, hoewel ze zich afvroegen of de professor eigenlijk over iets anders sprak.\n\nTijdens het experiment merkte Alex dat ze zich het meest op hun gemak voelden wanneer ze zich konden concentreren op de wetenschappelijke methode. Hypothese opstellen, variabelen controleren, resultaten meten. Het voelde veilig, voorspelbaar. Maar toen ze hun bevindingen noteerden, realiseerden ze zich dat wetenschap ook betekende dat je soms conclusies moest trekken die je niet verwacht had.\n\n\"De resultaten zijn... onverwacht,\" mompelde Alex tegen zichzelf terwijl ze naar de cijfers staarden. De chemische stof had zich inderdaad anders gedragen dan voorspeld, maar niet op de manier die ze hoopten. In plaats van duidelijke antwoorden te krijgen, hadden ze nog meer vragen. Alex voelde een vreemde mengeling van teleurstelling en opwinding.\n\nToen Alex die avond naar huis fietste door de Nederlandse schemering, dachten ze na over wat er die dag gebeurd was. Ze hadden altijd gedacht dat wetenschap over zekerheid ging, over het vinden van de waarheid. Maar misschien was het wel meer over het leren leven met onzekerheid, met vragen die geen eenvoudige antwoorden hadden. Net zoals de vragen die ze over zichzelf hadden.\n\nThuis aangekomen keek Alex nog één keer in de spiegel. Ze zagen dezelfde persoon als die ochtend, maar er was iets veranderd. De laboratoriumjas hing er nog steeds, maar nu voelde die zwaarder aan. Alex wist niet of ze een wetenschapper zouden worden, of wat voor persoon ze precies waren. En voor het eerst leek dat misschien wel oké.",
+  "questions": [
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het accepteren van onzekerheid over je identiteit en toekomst, en dat dit deel is van het opgroeien. De verbinding tussen wetenschappelijke onzekerheid en persoonlijke identiteitsvragen is belangrijk.",
+        "exampleAnswer": "Het verhaal gaat over leren omgaan met onzekerheid over wie je bent en wat je wilt worden, net zoals in de wetenschap niet alle experimenten duidelijke antwoorden geven.",
+        "keyElements": [
+          "onzekerheid/onduidelijkheid accepteren",
+          "identiteit/wie je bent",
+          "opgroeien/volwassen worden"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat Alex leert over zowel wetenschap als over zichzelf."
+    },
+    {
+      "question": "Waarom vergelijkt de schrijver Alex' persoonlijke zoektocht met het wetenschappelijk experiment?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver deze vergelijking gebruikt om te laten zien dat zowel wetenschap als identiteitsontwikkeling over het omgaan met onzekerheid gaan, niet over het vinden van definitieve antwoorden.",
+        "exampleAnswer": "De schrijver wil laten zien dat zowel wetenschap als het ontdekken van je identiteit betekent dat je moet leren leven met onzekerheid en onverwachte resultaten.",
+        "keyElements": [
+          "vergelijking/parallel",
+          "onzekerheid/onverwachte resultaten",
+          "identiteit/persoonlijke ontwikkeling"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat zowel het experiment als Alex' gevoel gemeen hebben."
+    },
+    {
+      "question": "Hoe verandert Alex' kijk op wetenschap tijdens het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "zekerheid",
+            "zeker",
+            "duidelijk",
+            "voorspelbaar"
+          ],
+          [
+            "onzekerheid",
+            "onzeker",
+            "vragen",
+            "onduidelijk"
+          ],
+          [
+            "verandert",
+            "veranderde",
+            "anders",
+            "nieuwe kijk"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Vergelijk wat Alex aan het begin over wetenschap dacht met wat ze aan het eind begrijpt."
+    },
+    {
+      "question": "Wat suggereert de laatste zin over Alex' toekomst?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de laatste zin suggereert dat Alex leert accepteren dat het oké is om niet alle antwoorden te hebben over je identiteit of toekomst, wat een vorm van persoonlijke groei is.",
+        "exampleAnswer": "Het suggereert dat Alex begint te accepteren dat je niet altijd zeker hoeft te weten wie je bent of wat je wilt worden, en dat dit eigenlijk oké is.",
+        "keyElements": [
+          "accepteren/acceptatie",
+          "onzekerheid/niet weten",
+          "oké/normaal"
+        ],
+        "minWords": 5
+      },
+      "hint": "Let op de woorden 'voor het eerst' en 'misschien wel oké' in de laatste zin."
+    },
+    {
+      "question": "Beoordeel of de titel 'Het Lab-experiment' een goede keuze is voor dit verhaal. Leg je mening uit.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de titel en deze onderbouwen. Een goede beoordeling erkent dat de titel werkt op meerdere niveaus: het letterlijke experiment én Alex als 'experiment' in identiteitsontwikkeling.",
+        "exampleAnswer": "Ik vind het een goede titel omdat het verhaal niet alleen over een echt experiment gaat, maar Alex ook experimenterend is met hun eigen identiteit, dus er zijn eigenlijk twee experimenten.",
+        "keyElements": [
+          "mening/vind/denk",
+          "titel/naam",
+          "meerdere betekenissen/dubbel/letterlijk en figuurlijk"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de verschillende betekenissen die de titel kan hebben in het verhaal."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-lab-experiment/image-1.png",
+      "alt": "Alex in een witte laboratoriumjas die voor een spiegel staat in een wetenschappelijk laboratorium"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-lab-experiment/image-2.png",
+      "alt": "Alex die 's avonds door de Nederlandse schemering naar huis fietst, nadenkend over de dag"
+    }
+  ],
+  "imagePrompts": [
+    "A young person with ambiguous gender presentation wearing a white lab coat, standing in front of a mirror in a modern university laboratory with scientific equipment visible, children's book illustration style",
+    "The same young person cycling home through a Dutch twilight scene with typical Dutch houses and a moody, atmospheric sky, looking thoughtful and contemplative, children's book illustration style"
+  ]
+}

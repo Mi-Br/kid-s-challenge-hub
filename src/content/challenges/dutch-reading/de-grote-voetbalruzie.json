@@ -1,0 +1,150 @@
+{
+  "id": "de-grote-voetbalruzie",
+  "title": "De Grote Voetbalruzie",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "sport",
+  "text": "Op het schoolplein stonden Daan en Fatima tegenover elkaar. Hun gezichten waren rood van boosheid. \"Jij speelt altijd veel te hard!\" riep Daan tegen Fatima. \"En jij denkt dat je de baas bent omdat je de aanvoerder bent!\" schreeuwde Fatima terug.\n\nHet was allemaal begonnen tijdens de voetbalwedstrijd tegen groep 7. Daan, die altijd de aanvoerder was van hun team, had besloten dat Fatima niet mee mocht doen omdat zij uit Marokko kwam en \"anders voetbalde\". Fatima was woedend geworden. Zij was juist de beste voetbalster van de klas en had op haar vorige school in Rabat in het schoolteam gespeeld.\n\nDe andere kinderen hadden een kring om hen heen gevormd. Sommigen waren het eens met Daan, maar de meeste kinderen vonden dat Fatima wel mocht meedoen. \"Ze is veel beter dan jij, Daan!\" had Mila geroepen. Dat had Daan nog bozer gemaakt.\n\nMeester Jan kwam erbij staan. Hij luisterde naar beide kanten van het verhaal. \"Jullie hebben allebei pijn gedaan,\" zei hij rustig. \"Daan, jouw woorden over 'anders voetballen' waren oneerlijk en kwetsend. En Fatima, schreeuwen lost niets op, ook al snap ik je boosheid.\"\n\nToen vroeg meester Jan iets bijzonders. \"Zouden jullie samen een nieuw team willen maken? Een team waar iedereen welkom is en waar verschillende voetbalstijlen juist een voordeel zijn?\" Eerst keken Daan en Fatima elkaar wantrouwend aan. Maar langzaam begonnen ze te praten over voetbal, over hun verschillende technieken, en over hoe ze samen sterker zouden kunnen zijn.\n\nDe volgende dag vormden ze samen het beste voetbalteam dat de school ooit had gehad. Daan leerde van Fatima's snelle dribbeltechniek, en Fatima leerde van Daans strategische denken. Hun team won niet alleen van groep 7, maar werd ook het vriendelijkste team van de hele school.",
+  "questions": [
+    {
+      "question": "Waarom was Fatima woedend geworden?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar de tweede alinea.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "omdat"
+          ],
+          [
+            "daan"
+          ],
+          [
+            "niet"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom denk je dat Daan eerst niet wilde dat Fatima meedeed, ook al was zij de beste voetbalster?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "vooroordeel",
+            "vooroordelen",
+            "bang",
+            "onzeker",
+            "jaloers",
+            "jaloezie"
+          ],
+          [
+            "anders",
+            "verschillend",
+            "vreemd",
+            "onbekend"
+          ],
+          [
+            "controle",
+            "baas",
+            "macht",
+            "leiding"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat mensen soms doen als ze bang zijn voor verandering."
+    },
+    {
+      "question": "Hoe loste meester Jan het conflict op en wat leerde hij de kinderen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "samen",
+            "samenwerken",
+            "team"
+          ],
+          [
+            "verschillend",
+            "verschillende",
+            "anders"
+          ],
+          [
+            "luisteren",
+            "luisterde",
+            "praten",
+            "praatten"
+          ],
+          [
+            "welkom",
+            "iedereen",
+            "alle",
+            "allemaal"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde en vijfde alinea nog eens goed."
+    },
+    {
+      "question": "Vind je dat de school goed heeft gehandeld in dit conflict? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een eigen mening geven over de aanpak van de school en dit onderbouwen met argumenten uit de tekst. Zowel positieve als kritische meningen zijn acceptabel als ze goed onderbouwd zijn.",
+        "exampleAnswer": "Ja, meester Jan deed het goed omdat hij naar beide kanten luisterde en een oplossing zocht waar iedereen beter van werd.",
+        "keyElements": [
+          "mening/vind/denk",
+          "onderbouwing/omdat/want",
+          "school/meester"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat meester Jan deed en of dat een goede aanpak was."
+    },
+    {
+      "question": "Wat is de hoofdboodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe vooroordelen en conflicten kunnen worden opgelost door samenwerking en respect voor verschillen. De exacte bewoording is niet belangrijk.",
+        "exampleAnswer": "Het verhaal laat zien dat samenwerking beter is dan ruziemaken en dat verschillende achtergronden juist een voordeel kunnen zijn.",
+        "keyElements": [
+          "samenwerken/samen/team",
+          "verschillend/anders/divers",
+          "respect/acceptatie",
+          "vooroordeel/conflict"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat de kinderen geleerd hebben en hoe het verhaal eindigt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-grote-voetbalruzie/image-1.png",
+      "alt": "Daan en Fatima staan tegenover elkaar op het schoolplein, omringd door andere kinderen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-grote-voetbalruzie/image-2.png",
+      "alt": "Daan en Fatima voetballen samen in hun nieuwe team, beide glimlachend"
+    }
+  ],
+  "imagePrompts": [
+    "Two children, a Dutch boy named Daan and a Moroccan girl named Fatima in hijab, standing facing each other angrily on a school playground, surrounded by other diverse children in a circle, children's book illustration style",
+    "The same two children now playing football together happily as teammates, both smiling while dribbling the ball, with other diverse children cheering in the background, children's book illustration style"
+  ]
+}

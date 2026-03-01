@@ -1,0 +1,113 @@
+{
+  "id": "de-sterren-roepen",
+  "title": "De Sterren Roepen",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wetenschap",
+  "text": "Lara staarde door de telescoop naar de vonkelende sterren boven het Westerbork Observatorium. Haar moeder, Dr. Sanne Verhoef, werkte hier als radioastronoom en had haar dochter meegenomen voor een speciale nachtelijke observatiesessie. \"Over drie maanden moet je kiezen welke middelbare school je gaat doen,\" zei haar moeder zachtjes. \"Havo of vwo? Bèta of gamma? De keuze bepaalt je hele toekomst.\"\n\nDe druk voelde zwaar op Lara's schouders, zoals de donkere hemel die boven hen hing. Ze had altijd van wiskunde en natuurkunde gehouden, maar haar lerares Nederlands zei dat ze talent had voor taal en literatuur. \"Wat als ik de verkeerde keuze maak?\" fluisterde ze tegen de sterren. \"Wat als ik later spijt krijg?\"\n\nHaar moeder wees naar een helder puntje aan de hemel. \"Zie je die ster? Dat licht heeft miljoenen jaren gereisd voordat het onze ogen bereikte. Toen dat licht begon te reizen, bestond de aarde nog niet eens zoals wij die kennen.\" Ze legde haar arm om Lara's schouders. \"Wetenschap heeft me geleerd dat het universum vol onzekerheid zit. Zelfs de beste astronomen kunnen niet voorspellen wanneer een ster zal exploderen of waar een komeet precies zal landen.\"\n\nLara voelde haar angst langzaam wegebben terwijl ze luisterde naar het zachte gezoem van de radiotelescopen. \"Maar hoe maak je dan keuzes zonder te weten wat er gaat gebeuren?\" vroeg ze. Haar moeder glimlachte in het maanlicht. \"Door te vertrouwen op wat je hart je vertelt, ook al is de weg onzeker. Ik koos voor astronomie niet omdat ik wist dat ik succesvol zou worden, maar omdat de sterren iets in me wakker maakten dat ik niet kon negeren.\"\n\nDie nacht, terwijl de melkweg zich als een zilveren rivier boven hen uitstrekte, begreep Lara eindelijk dat onzekerheid geen vijand was, maar een kompas. Ze hoefde niet alles te weten om de eerste stap te zetten. \"Ik ga voor vwo bèta,\" fluisterde ze tegen de oneindige ruimte. \"Niet omdat ik zeker weet waar het naartoe leidt, maar omdat de wetenschap me roept, net zoals die sterren.\"\n\nTerwijl ze naar huis reden door de stille Nederlandse nacht, keek Lara nog één keer omhoog naar de sterren die haar hadden geholpen haar angst om te zetten in moed om de onbekende toekomst tegemoet te gaan.",
+  "questions": [
+    {
+      "question": "Wat is volgens Lara's moeder de belangrijkste reden om voor astronomie te kiezen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Lara's moeder koos voor astronomie omdat het iets in haar wakker maakte, niet vanwege zekerheid over succes. Het gaat om passie en innerlijke roeping.",
+        "exampleAnswer": "Omdat de sterren iets in haar wakker maakten dat ze niet kon negeren, niet omdat ze wist dat ze succesvol zou worden.",
+        "keyElements": [
+          "wakker maken/roepen/passie",
+          "niet voor succes/zekerheid",
+          "hart/gevoel"
+        ],
+        "minWords": 5
+      },
+      "hint": "Zoek naar wat Lara's moeder zegt over waarom ze astronomie koos."
+    },
+    {
+      "question": "Hoe gebruikt de schrijver het beeld van de sterren om het thema van onzekerheid te versterken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet het verband leggen tussen de sterren als symbool en het thema onzekerheid. Sterren staan voor het onbekende, eeuwigheid, en het feit dat je keuzes kunt maken zonder alles te weten.",
+        "exampleAnswer": "De sterren symboliseren het onbekende en oneindige. Net zoals sterrenlicht miljoenen jaren reist zonder dat je weet waar het eindigt, moet Lara keuzes maken zonder de toekomst te kennen.",
+        "keyElements": [
+          "sterren als symbool/beeld",
+          "onbekende/onzekerheid",
+          "keuzes maken zonder te weten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat de sterren en het licht dat miljoenen jaren reist kunnen betekenen voor Lara's situatie."
+    },
+    {
+      "question": "Evalueer of de moeder een goede manier gebruikt om Lara te helpen met haar keuze. Onderbouw je antwoord.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een oordeel geven over de aanpak van de moeder en dit onderbouwen. Goede antwoorden benoemen dat ze niet direct advies geeft maar Lara helpt nadenken, of gebruikmaakt van de omgeving.",
+        "exampleAnswer": "Ja, de moeder helpt goed omdat ze Lara niet vertelt wat ze moet kiezen, maar haar laat nadenken door het voorbeeld van de sterren. Ze laat zien dat onzekerheid normaal is.",
+        "keyElements": [
+          "oordeel ja/nee/gedeeltelijk",
+          "niet direct vertellen/laten nadenken",
+          "voorbeeld/metafoor gebruiken",
+          "onderbouwing"
+        ],
+        "minWords": 8
+      },
+      "hint": "Beoordeel de aanpak van de moeder en leg uit waarom je dat vindt."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over het accepteren van onzekerheid bij belangrijke levensbeslissingen en het vertrouwen op je innerlijke gevoel ondanks angst voor de toekomst.",
+        "exampleAnswer": "Het verhaal gaat erover dat je belangrijke keuzes kunt maken ook al weet je niet zeker wat er gaat gebeuren, door te luisteren naar wat je hart zegt.",
+        "keyElements": [
+          "keuzes maken/beslissingen",
+          "onzekerheid accepteren/aanvaarden",
+          "vertrouwen op gevoel/hart",
+          "angst overwinnen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat leert Lara in dit verhaal over het maken van moeilijke keuzes?"
+    },
+    {
+      "question": "Waarom kiest de schrijver ervoor het verhaal te laten plaatsvinden bij een observatorium?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver kiest voor een observatorium omdat dit de perfecte setting is voor het thema onzekerheid en toekomst. Sterren en het universum symboliseren het onbekende en oneindige.",
+        "exampleAnswer": "Een observatorium past perfect bij het thema omdat sterren en het universum symbool staan voor het onbekende en de toekomst. Het helpt om over grote vragen na te denken.",
+        "keyElements": [
+          "passende setting/omgeving",
+          "sterren/universum als symbool",
+          "onbekende/toekomst",
+          "nadenken over grote vragen"
+        ],
+        "minWords": 7
+      },
+      "hint": "Denk na over hoe de plek waar het verhaal zich afspeelt past bij wat Lara meemaakt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-sterren-roepen/image-1.png",
+      "alt": "Lara en haar moeder kijken door een telescoop naar de sterrenhemel bij het observatorium"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-sterren-roepen/image-2.png",
+      "alt": "Lara kijkt peinzend omhoog naar de Melkweg terwijl ze haar beslissing neemt"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl and her mother looking through a large telescope at a Dutch observatory under a starry night sky, children's book illustration style with warm lighting",
+    "A contemplative teenage girl looking up at the Milky Way galaxy stretching across the dark sky, with radio telescopes silhouetted in the background, children's book illustration style"
+  ]
+}

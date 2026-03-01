@@ -1,0 +1,133 @@
+{
+  "id": "het-geheim-van-de-camera",
+  "title": "Het Geheim van de Camera",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "media",
+  "text": "Lara staarde naar het scherm van haar telefoon terwijl ze door de gangen van haar middelbare school liep. Haar Instagram-account had duizenden volgers en elke dag postte ze perfect uitziende foto's van haar leven. Niemand wist dat achter elke foto uren van voorbereidingen schuilgingen.\n\nToen haar vader twee jaar geleden zijn baan verloor en het gezin moest verhuizen naar een kleinere woning, begon Lara obsessief foto's te maken. De camera werd haar ontsnapping uit een werkelijkheid die ze niet kon accepteren. \"Als ik maar genoeg likes krijg,\" dacht ze, \"dan ben ik succesvol, ook al hebben we geen geld meer.\"\n\nHaar moeder zag hoe Lara steeds meer tijd doorbracht achter haar scherm. \"Je bent het echte leven aan het missen,\" waarschuwde ze. Maar Lara kon niet stoppen. De angst om onzichtbaar te zijn, net zoals haar vader zich had gevoeld toen hij werd ontslagen, dreef haar voort.\n\nOp een dag filmde een klasgenoot Lara terwijl ze voor de zoveelste keer dezelfde foto probeerde te maken voor haar feed. De video van haar wanhopige pogingen ging viral op TikTok, maar dan als een grap. De comments waren meedogenloos: \"Fake life alert!\" en \"Wat een poser!\"\n\nDie avond zat Lara huilend op haar bed, terwijl de video steeds opnieuw werd gedeeld. Haar zorgvuldig opgebouwde imago stortte in elkaar als een kaartenhuis. Haar moeder kwam naast haar zitten en sloeg haar armen om haar heen. \"Liefje, je bent al zo waardevol zonder die camera,\" fluisterde ze.\n\nLangzaam begon Lara te begrijpen dat haar obsessie met sociale media voortkwam uit dezelfde machteloosheid die haar vader had ervaren. Ze had geprobeerd controle terug te winnen door een perfect leven te creëren dat niet bestond. Maar echte kracht, realiseerde ze zich, lag in het accepteren van haar kwetsbaarheid.\n\nEen week later postte Lara haar laatste foto: een eerlijke selfie met betraande ogen en de tekst: \"Sometimes real life isn't Instagram-worthy, and that's okay.\" Ze zette haar account op privé en begon weer gesprekken te voeren met echte mensen, zonder de lens van een camera ertussen.",
+  "questions": [
+    {
+      "question": "Waarom begon Lara obsessief foto's te maken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ontsnapping",
+            "vluchten",
+            "wegvluchten"
+          ],
+          [
+            "werkelijkheid",
+            "realiteit",
+            "echte leven"
+          ],
+          [
+            "accepteren",
+            "acceptatie",
+            "aanvaarden"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat er gebeurde toen haar vader zijn baan verloor."
+    },
+    {
+      "question": "Hoe reageerde Lara's klasgenoten op de video die viral ging?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "meedogenloos",
+            "hard",
+            "gemeen",
+            "wreed"
+          ],
+          [
+            "grap",
+            "grappen",
+            "uitlachen"
+          ],
+          [
+            "fake",
+            "poser",
+            "nep"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de vierde alinea over de comments."
+    },
+    {
+      "question": "Beoordeel of Lara's moeder de juiste aanpak koos om haar dochter te helpen. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven over de moeder's aanpak en deze onderbouwen met voorbeelden uit de tekst. Zowel positieve als kritische meningen zijn acceptabel als ze goed beargumenteerd zijn.",
+        "exampleAnswer": "Ik vind dat Lara's moeder het goed deed omdat ze geduldig bleef en haar dochter troostte toen het mis ging. Ze dwong Lara niet om te stoppen maar steunde haar toen ze het zelf inzag.",
+        "keyElements": [
+          "mening/oordeel over moeder",
+          "argumenten/onderbouwing",
+          "voorbeelden uit tekst"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over hoe de moeder reageerde toen Lara waarschuwde en toen ze verdrietig was."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe sociale media een ontsnapping kan zijn uit moeilijke omstandigheden, maar dat echte kracht ligt in het accepteren van kwetsbaarheid en authenticiteit.",
+        "exampleAnswer": "Het verhaal gaat erover dat sociale media soms een vlucht is voor echte problemen, maar dat je pas echt sterk bent als je jezelf accepteert zoals je bent.",
+        "keyElements": [
+          "sociale media als ontsnapping/vlucht",
+          "echte kracht/authenticiteit",
+          "zichzelf accepteren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat Lara aan het eind van het verhaal realiseert over echte kracht."
+    },
+    {
+      "question": "Wat wilde de schrijver met dit verhaal bereiken bij de lezer?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de schrijver wil waarschuwen voor de gevaren van sociale media-obsessie en wil aantonen dat authentiek zijn belangrijker is dan een perfect online imago.",
+        "exampleAnswer": "De schrijver wil waarschuwen voor sociale media verslaving en laten zien dat echte kracht komt van jezelf accepteren.",
+        "keyElements": [
+          "waarschuwen voor sociale media",
+          "authentiek zijn/jezelf zijn",
+          "perfectie is niet echt"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver wil overbrengen over sociale media en authentiek zijn."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-camera/image-1.png",
+      "alt": "Een tiener die obsessief foto's maakt met haar telefoon"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-geheim-van-de-camera/image-2.png",
+      "alt": "Een meisje dat huilt terwijl ze naar haar telefoon kijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl obsessively taking selfies with her phone in a bedroom, surrounded by ring lights and photo props, children's book illustration style",
+    "A sad teenage girl crying while looking at her phone screen showing mean comments, her mother comforting her, children's book illustration style"
+  ]
+}

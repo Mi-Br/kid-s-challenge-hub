@@ -1,0 +1,110 @@
+{
+  "id": "de-stem-in-de-storm",
+  "title": "De Stem in de Storm",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "democratie",
+  "text": "**Fragment 1 - De verkiezing**\n\nZara staart naar het stemhokje. Haar moeder trekt het gordijn dicht. \"Mama, waarom stemmen we eigenlijk?\" fluistert ze. \"Omdat het belangrijk is,\" antwoordt mama afwezig. Maar Zara ziet hoe mama's handen trillen bij het rode potlood.\n\n**Fragment 2 - Thuis, later**\n\nWacht... ben ik dit verhaal aan het vertellen? Of gebeurt dit gewoon? Ik weet het niet meer. Zara zit op de bank. Of zit ik op de bank? We kijken naar de uitslagen op televisie. Papa heeft rode ogen. \"We zijn weggestemd,\" zegt hij bitter. Mama zegt niets.\n\n**Fragment 3 - Op school**\n\nJuf Marina tekent cirkels op het bord. \"Democratie betekent dat iedereen een stem heeft,\" legt ze uit. Maar Yasmin steekt haar vinger op: \"Mijn ouders zeggen dat hun stem niet telt. We zijn met te weinig.\" De klas wordt stil. Niemand weet wat te zeggen.\n\n**Fragment 4 - Gesprekken die ik opvang (of verzin ik ze?)**\n\n\"De meerderheid beslist altijd over de minderheid.\"\n\"Maar dat is toch democratie?\"\n\"Is het democratisch als vijftig procent plus één alles bepaalt voor de rest?\"\n\"En wat dan? Chaos?\"\n\n**Fragment 5 - Zara's dagboek (denk ik)**\n\n*Lieve dagboek, ik begrijp er niets van. Democracy = good, zegt iedereen. Maar waarom huilt mama dan? Waarom is papa zo boos? Is het goed dat de meerderheid wint, ook als dat betekent dat wij verliezen? Ik voel me verward. Misschien... misschien is democratie ingewikkelder dan cirkels op het schoolbord.*\n\n**Fragment 6 - Het gesprek**\n\nUiteindelijk vraagt Zara het aan opa Henk. Hij denkt lang na. \"Democratie is niet perfect,\" zegt hij langzaam. \"Het is alleen beter dan alle andere systemen die we hebben geprobeerd. Het gaat niet om winnen of verliezen, Zara. Het gaat erom dat iedereen gehoord wordt, dat we samen naar oplossingen zoeken, ook na de verkiezingen. De echte democratie begint ná het stemmen.\"\n\n**Fragment 7 - Nu begrijp ik het**\n\nOf denk ik dat ik het begrijp? Democratie is geen eindpunt. Het is een gesprek dat nooit ophoudt. Een belofte dat we elkaar blijven aanhoren, ook als we het niet eens zijn. Zelfs als we verliezen, hebben we nog steeds een stem. En die stem... die kunnen ze ons niet afnemen.",
+  "questions": [
+    {
+      "question": "Wat is volgens opa Henk het belangrijkste kenmerk van democratie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat democratie volgens opa Henk draait om samen naar oplossingen zoeken en elkaar blijven aanhoren, niet om winnen of verliezen.",
+        "exampleAnswer": "Dat iedereen gehoord wordt en dat je samen naar oplossingen zoekt, ook na de verkiezingen.",
+        "keyElements": [
+          "samen oplossingen zoeken/samenwerken",
+          "iedereen gehoord wordt/naar elkaar luisteren",
+          "na de verkiezingen/gesprek gaat door"
+        ],
+        "minWords": 6
+      },
+      "hint": "Lees wat opa Henk zegt in fragment 6 over wat er ná het stemmen gebeurt."
+    },
+    {
+      "question": "Analyseer hoe de schrijver de verwarring van Zara over democratie weergeeft in de verhaaltechniek.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet herkennen dat de gefragmenteerde vorm, de onzekere verteller, en de wisseling tussen perspectieven Zara's verwarring over democratie weerspiegelen.",
+        "exampleAnswer": "Door fragmenten te gebruiken en een verteller die niet weet of hij betrouwbaar is, laat de schrijver zien hoe verwarrend democratie voor Zara is.",
+        "keyElements": [
+          "fragmenten/gefragmenteerd",
+          "onzekere verteller/niet betrouwbaar",
+          "verwarring weerspiegelen/vorm past bij inhoud"
+        ],
+        "minWords": 8
+      },
+      "hint": "Let op de manier waarop het verhaal in stukjes is opgedeeld en hoe de verteller soms twijfelt."
+    },
+    {
+      "question": "Beoordeel of de schrijver een evenwichtig beeld geeft van democratie. Onderbouw je antwoord.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een gefundeerd oordeel geven over of de schrijver zowel voordelen als problemen van democratie laat zien, met concrete voorbeelden uit de tekst.",
+        "exampleAnswer": "Ja, de schrijver laat zowel de problemen zien (mensen die zich weggestemd voelen) als de voordelen (iedereen wordt gehoord, samen oplossingen zoeken).",
+        "keyElements": [
+          "evenwichtig/beide kanten",
+          "problemen EN voordelen",
+          "concrete voorbeelden/onderbouwing"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over wat er mis gaat met democratie in het verhaal, maar ook wat opa Henk positief zegt."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het leren begrijpen dat democratie ingewikkeld is, meer dan winnen of verliezen, en draait om voortdurend met elkaar in gesprek blijven.",
+        "exampleAnswer": "Democratie is ingewikkelder dan winnen en verliezen, het gaat erom dat je in gesprek blijft met elkaar.",
+        "keyElements": [
+          "democratie is ingewikkeld/complex",
+          "meer dan winnen verliezen",
+          "in gesprek blijven/samen zoeken"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat Zara uiteindelijk leert over democratie door het hele verhaal heen."
+    },
+    {
+      "question": "Waarom kiest de schrijver ervoor om dit verhaal te vertellen vanuit een onzekere, onbetrouwbare verteller?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de onzekere verteller de verwarring en complexiteit van democratie benadrukt, en de lezer laat meevoelen hoe moeilijk het is om democratie te begrijpen.",
+        "exampleAnswer": "Om te laten zien hoe verwarrend en ingewikkeld democratie is, zodat de lezer meevoelt hoe moeilijk het is om het te begrijpen.",
+        "keyElements": [
+          "verwarring benadrukken/laten zien",
+          "complexiteit/moeilijkheid",
+          "lezer laten meevoelen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over het effect dat de onzekere verteller op jou als lezer heeft."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-in-de-storm/image-1.png",
+      "alt": "Een meisje met haar moeder in een stemhokje, het rode potlood in mama's trillende hand"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-stem-in-de-storm/image-2.png",
+      "alt": "Een familie zittend op de bank kijkend naar verkiezingsuitslagen op televisie, papa met rode ogen"
+    }
+  ],
+  "imagePrompts": [
+    "A young girl and her mother in a voting booth, mother holding a red pencil with trembling hands, children's book illustration style with fragmented, overlapping elements",
+    "A family sitting on a couch watching election results on television, father with red eyes looking defeated, mother silent, fragmented perspective showing emotional tension, children's book illustration style"
+  ]
+}

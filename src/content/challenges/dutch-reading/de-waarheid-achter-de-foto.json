@@ -1,0 +1,110 @@
+{
+  "id": "de-waarheid-achter-de-foto",
+  "title": "De Waarheid Achter de Foto",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "reizen",
+  "text": "Mijn oma toont me altijd dezelfde foto wanneer ik over reizen begin. Een zwart-wit foto van een perfect strand met palmbomen, waar zij als jonge vrouw staat te lachen. \"Kijk eens hoe mooi het daar was,\" zegt ze dan. \"Zo prachtig en vredig.\" Jarenlang droomde ik ervan om naar diezelfde plek te reizen.\n\nToen ik vijftien werd, besloot ik eindelijk te onderzoeken waar die foto genomen was. Op de achterkant stond alleen \"Paradijs, 1962\" geschreven. Ik googelde urenlang, vergeleek beelden en vroeg familieleden naar details. Wat ik ontdekte, schudde mijn droombeeld door elkaar.\n\nDe foto bleek genomen te zijn tijdens een koloniale reis, toen mijn oma's vader daar als ambtenaar werkte. Het \"paradijs\" was een gebied waar de lokale bevolking werd onderdrukt en uitgebuit. Mijn oma had dit nooit verteld omdat zij het zelf pas veel later begreep. Als kind zag zij alleen de mooie natuur, niet het onrecht eromheen.\n\n\"Maar oma,\" vroeg ik haar tijdens ons volgende gesprek, \"waarom heb je me dit nooit uitgelegd?\" Ze keek naar de foto en zuchtte diep. \"Omdat ik bang was dat je zou stoppen met dromen over reizen. Maar je hebt gelijk - we kunnen niet wegkijken van de geschiedenis.\"\n\nNu bekijk ik reisfoto's op sociale media heel anders. Achter elke perfecte zonsondergang, elk stralend gezicht, zit een verhaal dat misschien niet wordt verteld. Wie maakte die foto mogelijk? Welke verhalen blijven onzichtbaar? Reizen kan prachtig zijn, maar alleen als we eerlijk zijn over wat we zien en wat we negeren.\n\nMijn oma en ik plannen nu samen een reis - niet naar het \"paradijs\" van de foto, maar naar een plek waar we kunnen leren van de geschiedenis in plaats van ervoor weg te lopen. Want dromen over reizen is belangrijk, maar de waarheid achter de beelden is nog belangrijker.",
+  "questions": [
+    {
+      "question": "Wat leerde de verteller over de foto door onderzoek te doen?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de foto genomen was tijdens een koloniale periode waarin onrecht plaatsvond, en dat dit de romantische voorstelling van het 'paradijs' doorprikt.",
+        "exampleAnswer": "De foto was genomen tijdens een koloniale tijd toen de lokale mensen onderdrukt werden, dus het was geen echt paradijs.",
+        "keyElements": [
+          "koloniale tijd/koloniaal",
+          "onderdrukking/uitbuiting/onrecht",
+          "niet echt paradijs/niet zo mooi als het leek"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan wat er in de derde alinea over de geschiedenis wordt onthuld."
+    },
+    {
+      "question": "Hoe veranderde de manier waarop de verteller naar reisfoto's kijkt?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de verteller nu kritischer kijkt naar foto's en zich afvraagt wat er niet wordt getoond of welke verhalen ontbreken.",
+        "exampleAnswer": "Nu vraagt hij zich af welke verhalen niet worden verteld en wie de foto mogelijk maakte.",
+        "keyElements": [
+          "kritischer kijken/anders bekijken",
+          "verhalen die ontbreken/niet verteld worden",
+          "vragen stellen/onderzoeken"
+        ],
+        "minWords": 5
+      },
+      "hint": "Kijk naar de vijfde alinea waar over sociale media wordt gesproken."
+    },
+    {
+      "question": "Waarom denk je dat de schrijver dit verhaal heeft geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien hoe belangrijk het is om kritisch naar media en beelden te kijken, en dat er altijd meer verhalen zijn dan wat we op het eerste gezicht zien.",
+        "exampleAnswer": "Om te leren dat we kritisch moeten kijken naar foto's en beelden omdat er vaak verhalen zijn die niet worden verteld.",
+        "keyElements": [
+          "kritisch kijken/denken",
+          "media/beelden/foto's",
+          "verborgen verhalen/niet alles is zoals het lijkt"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over de les die de verteller leert over het bekijken van beelden."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het belang van kritisch kijken naar beelden en verhalen, en het erkennen dat er altijd meer context is dan wat op het eerste gezicht zichtbaar is.",
+        "exampleAnswer": "We moeten kritisch kijken naar foto's en verhalen omdat er vaak belangrijke dingen worden weggelaten.",
+        "keyElements": [
+          "kritisch kijken/denken",
+          "meer dan wat je ziet/verborgen verhalen",
+          "eerlijkheid/waarheid belangrijk"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de belangrijkste les die door het hele verhaal heen wordt geleerd."
+    },
+    {
+      "question": "Beoordeel of dit verhaal jongeren kan helpen bij het bekijken van social media. Leg uit waarom wel of niet.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een gemotiveerd oordeel geven over de waarde van het verhaal voor jongeren en social media, met verwijzing naar concrete elementen uit de tekst.",
+        "exampleAnswer": "Ja, omdat het laat zien dat je vragen moet stellen bij perfecte foto's op social media en moet nadenken over wat er niet wordt getoond.",
+        "keyElements": [
+          "wel/niet helpen + motivatie",
+          "social media/foto's",
+          "kritisch denken/vragen stellen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan hoe de les uit het verhaal past bij het gebruik van sociale media door jongeren."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-achter-de-foto/image-1.png",
+      "alt": "Een oma die een oude zwart-wit foto toont aan haar kleindochter, beide kijkend naar de foto"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-waarheid-achter-de-foto/image-2.png",
+      "alt": "Een tiener die onderzoek doet op een laptop, met oude foto's en documenten op tafel"
+    }
+  ],
+  "imagePrompts": [
+    "A grandmother showing an old black and white photograph to her teenage grandchild, both looking at the photo together in a cozy living room, children's book illustration style",
+    "A teenager doing research on a laptop with old photographs and documents spread on the table, looking thoughtful and investigative, children's book illustration style"
+  ]
+}

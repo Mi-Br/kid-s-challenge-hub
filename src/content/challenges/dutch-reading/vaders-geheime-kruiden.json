@@ -1,0 +1,124 @@
+{
+  "id": "vaders-geheime-kruiden",
+  "title": "Vaders Geheime Kruiden",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "wereldkeuken",
+  "text": "Soms rook ik nog steeds die kruiden als ik mijn ogen sluit. Kardemom en kaneel, vermengd met iets wat ik nooit kon benoemen. Vaders handen die beefden toen hij ze in het kleine potje deed, alsof hij bang was dat de magie zou verdwijnen.\n\nDat was voordat hij begon te vergeten. Voordat de Afghaanse recepten die generaties lang waren doorgegeven, plotseling verdwenen uit zijn geheugen zoals sneeuw die smelt in de lente. \"Waar is mijn kruidendoos?\" vroeg hij dan, starend naar de keukenla die al vijf jaar leeg was.\n\nMama probeerde hem te helpen herinneren. Ze kocht dezelfde kruiden in de Turkse winkel op het Noordplein, rangschikt ze precies zoals hij altijd deed. Maar vader schudde zijn hoofd, zijn ogen vol verwarring. \"Dit zijn niet mijn kruiden,\" fluisterde hij. \"De mijne waren bijzonder.\"\n\nIk begreep het eerst niet. Waarom werd papa zo verdrietig om wat kruiden? Waarom huilde mama 's avonds als ze dacht dat niemand keek? Op school leerde we over dementie, maar dat woord voelde te klinisch, te koud voor wat er met vader gebeurde.\n\nToen vond ik zijn dagboek. Verstopt tussen oude kookboeken, geschreven in het Dari dat hij me nooit had geleerd. Tante Nasrin vertaalde de laatste pagina voor me: \"Vandaag maakte ik pulao voor Layla's verjaardag. Ze zei dat het smaakte naar thuis. Ik ben bang dat ik vergeet hoe thuis smaakt.\"\n\nDie avond vroeg ik aan vader om zijn verhalen. Niet zijn recepten – die waren al verdwenen – maar de herinneringen erachter. Hij vertelde over de bazaar in Kabul, waar zijn vader hem leerde kruiden kiezen. Over de geur van naanbrood die door de straten dreef. Over de manier waarop eten mensen samenbracht, zelfs tijdens moeilijke tijden.\n\nNu kook ik voor hem. Mijn pulao smaakt anders dan de zijne, maar dat geeft niet. Want toen ik de kom voor hem neerzette, glimlachte hij. \"Dit ruikt naar liefde,\" zei hij. En dat was het enige recept dat echt belangrijk was.",
+  "questions": [
+    {
+      "question": "Wat doet de verteller nu voor vader?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "kook",
+            "kookt",
+            "koken"
+          ],
+          [
+            "eten",
+            "maaltijd",
+            "gerecht",
+            "pulao"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar de allerlaatste alinea van het verhaal."
+    },
+    {
+      "question": "Hoe toont dit verhaal dat eten meer is dan alleen voedsel?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat eten in dit verhaal staat voor herinneringen, cultuur, familie, liefde of verbinding. Het gaat om de emotionele en culturele betekenis van voedsel.",
+        "exampleAnswer": "Eten verbindt de familie met hun cultuur en herinneringen. De kruiden en recepten zijn niet alleen voor het koken, maar bewaren hun geschiedenis en gevoelens.",
+        "keyElements": [
+          "herinneringen/herinnering",
+          "cultuur/traditie",
+          "liefde/gevoel",
+          "verbinding/samenbrengen",
+          "geschiedenis/verleden"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan wat de kruiden en recepten betekenen voor de familie."
+    },
+    {
+      "question": "Waarom schrijft de auteur dit verhaal in fragmenten en herinneringen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de gefragmenteerde structuur het geheugenverlies van vader weergeeft, of dat herinneringen zo werken, of dat het de emotionele impact versterkt.",
+        "exampleAnswer": "De schrijver gebruikt fragmenten omdat het laat zien hoe het geheugen van vader werkt - in stukjes en flarden, net zoals de verhaalstructuur.",
+        "keyElements": [
+          "geheugen/herinnering",
+          "fragmenten/stukjes/verwarring",
+          "dementie/vergeten",
+          "gevoel/emotie"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar hoe de verhaalstructuur past bij vaders gezondheidsproblemen."
+    },
+    {
+      "question": "Beoordeel of de verteller een goede manier heeft gevonden om met vaders ziekte om te gaan.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over de aanpak van de verteller (verhalen vragen, koken voor vader) en dit onderbouwen met argumenten uit de tekst.",
+        "exampleAnswer": "Ja, de verteller doet het goed omdat hij accepteert dat vader anders is geworden maar toch probeert om verbinding te maken door verhalen en koken.",
+        "keyElements": [
+          "acceptatie/accepteren",
+          "verbinding/contact",
+          "verhalen/herinneringen",
+          "koken/zorgen",
+          "liefde/respect"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk aan wat de verteller doet in plaats van proberen vader te 'genezen'."
+    },
+    {
+      "question": "Wat is de hoofdboodschap van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe je omgaat met geheugenverlies/dementie, over de kracht van liefde en begrip, of over hoe culturele tradities kunnen overleven ondanks ziekte.",
+        "exampleAnswer": "Het verhaal gaat over hoe liefde en begrip kunnen helpen wanneer iemand dementie heeft, en hoe tradities kunnen voortleven op nieuwe manieren.",
+        "keyElements": [
+          "liefde/zorg",
+          "dementie/vergeten/geheugenverlies",
+          "begrip/acceptatie",
+          "traditie/cultuur",
+          "familie/verbinding"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de schrijver wil dat je leert over omgaan met ziekte in de familie."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/vaders-geheime-kruiden/image-1.png",
+      "alt": "Een vader en zoon kijken samen naar een verzameling kleurrijke kruiden in kleine potjes"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/vaders-geheime-kruiden/image-2.png",
+      "alt": "Een jongeman kookt pulao in een moderne Nederlandse keuken terwijl zijn vader toekijkt"
+    }
+  ],
+  "imagePrompts": [
+    "A tender scene of an Afghan father and teenage son looking at colorful spices in small jars in a Dutch kitchen, warm lighting, children's book illustration style, showing cultural heritage and family connection",
+    "A young man cooking traditional Afghan pulao rice in a modern Dutch kitchen while his elderly father sits nearby smiling, steam rising from the pot, warm family atmosphere, children's book illustration style"
+  ]
+}

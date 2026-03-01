@@ -1,0 +1,119 @@
+{
+  "id": "het-mysterie-van-de-vervuilde-rivier",
+  "title": "Het Mysterie van de Vervuilde Rivier",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "milieu",
+  "text": "Emma keek gefascineerd naar het glimmende artikel op haar telefoon: 'Revolutionaire fabriek brengt welvaart naar Zutphen!' De kop beloofde duizenden nieuwe banen en een bloeiende economie. Volgens het artikel zou de chemische fabriek volkomen milieuvriendelijk zijn, uitgerust met de modernste technologie ter wereld.\n\nToen Emma de volgende dag langs de Oude IJssel fietste, viel haar iets vreemds op. Het water, dat normaal helder en levendig was, zag er troebel uit. Dode vissen dreven aan de oppervlakte, en een merkwaardig schuim kleefde aan de oevers. Haar hart bonkte van angst – dit kon toch geen toeval zijn?\n\nThuis zocht Emma verder op internet. Ze ontdekte dat het artikel afkomstig was van 'Zutphen Vandaag', een nieuwssite die eigendom bleek te zijn van dezelfde investeerders die de fabriek financierden. In tegenstelling tot de positieve berichtgeving vond ze wetenschappelijke rapporten die waarschuwden voor de gevaarlijke chemicaliën die de fabriek zou gebruiken.\n\nBewapend met deze kennis schreef Emma een ingezonden brief naar de echte lokale krant. Ze legde uit hoe belangrijk het is om nieuws kritisch te bekijken en de bron te controleren. 'Media kunnen ons beïnvloeden,' schreef ze, 'maar wij hebben de macht om vragen te stellen en de waarheid te zoeken.' Door haar moed inspireerde ze vele andere jongeren om zelf onderzoek te doen voordat ze informatie geloven.\n\nWeken later kondigde de gemeente aan dat de vergunning voor de fabriek werd ingetrokken wegens milieurisico's. Emma realiseerde zich dat één kritische stem, gewapend met feiten en moed, een verschil kan maken. Ze had geleerd dat echte wijsheid niet komt van het klakkeloos accepteren van informatie, maar van het durven twijfelen en zelf onderzoek doen.",
+  "questions": [
+    {
+      "question": "Waarom geloofde Emma aanvankelijk dat de fabriek milieuvriendelijk zou zijn?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "artikel",
+            "berichtgeving",
+            "nieuws",
+            "informatie"
+          ],
+          [
+            "beloofde",
+            "beweerde",
+            "stond",
+            "las",
+            "zei"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar het eerste deel van het verhaal en waar Emma haar informatie vandaan haalde."
+    },
+    {
+      "question": "Leg uit hoe Emma ontdekte dat de nieuwsbron bevooroordeeld was.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet uitleggen dat Emma ontdekte dat de nieuwssite eigendom was van dezelfde investeerders die de fabriek financierden, wat een belangenconflict creëerde.",
+        "exampleAnswer": "Emma ontdekte dat de nieuwssite 'Zutphen Vandaag' eigendom was van dezelfde investeerders die de fabriek betaalden, dus ze hadden er belang bij om positief te schrijven.",
+        "keyElements": [
+          "eigendom/eigenaar",
+          "investeerders/financiers",
+          "belangenconflict/bevooroordeeld"
+        ],
+        "minWords": 8
+      },
+      "hint": "Zoek in de derde alinea naar de verbinding tussen de nieuwssite en de fabriek."
+    },
+    {
+      "question": "Beoordeel Emma's aanpak om het probleem op te lossen. Was dit effectief?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet Emma's strategie evalueren (onderzoek doen, ingezonden brief schrijven, anderen inspireren) en een oordeel geven over de effectiviteit, ondersteund met bewijzen uit de tekst zoals het intrekken van de vergunning.",
+        "exampleAnswer": "Emma's aanpak was heel effectief omdat ze eerst zelf onderzoek deed, daarna anderen informeerde via een ingezonden brief, en uiteindelijk werd de vergunning ingetrokken.",
+        "keyElements": [
+          "onderzoek/informatie zoeken",
+          "brief/anderen informeren",
+          "effectief/succesvol/goed resultaat"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over de stappen die Emma nam en wat het uiteindelijke resultaat was."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal draait om het belang van kritisch denken bij mediaberichtgeving en het niet klakkeloos geloven van informatie.",
+        "exampleAnswer": "Het verhaal gaat over het belang van kritisch nadenken over nieuwsberichten en zelf onderzoek doen voordat je iets gelooft.",
+        "keyElements": [
+          "kritisch denken/kritisch zijn",
+          "media/nieuws/informatie",
+          "onderzoek doen/controleren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de grootste les die Emma leerde over informatie en media."
+    },
+    {
+      "question": "Wat wilde de schrijver bereiken door dit verhaal te vertellen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver lezers wil leren om kritisch om te gaan met media en informatie, en wil aantonen dat jongeren invloed kunnen uitoefenen.",
+        "exampleAnswer": "De schrijver wilde jongeren leren om niet alles te geloven wat ze lezen, maar zelf onderzoek te doen en kritisch te zijn over nieuwsberichten.",
+        "keyElements": [
+          "leren/onderwijzen/waarschuwen",
+          "kritisch zijn/niet geloven",
+          "jongeren/lezers beïnvloeden"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over welke boodschap de schrijver aan de lezers wil geven."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-vervuilde-rivier/image-1.png",
+      "alt": "Emma fietst langs de vervuilde rivier met dode vissen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-vervuilde-rivier/image-2.png",
+      "alt": "Emma schrijft een ingezonden brief op haar laptop"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage girl on a bicycle looking shocked at a polluted Dutch river with dead fish floating and foam on the banks, children's book illustration style",
+    "A determined teenage girl writing on a laptop at her desk with newspaper clippings and research papers scattered around, warm lighting, children's book illustration style"
+  ]
+}

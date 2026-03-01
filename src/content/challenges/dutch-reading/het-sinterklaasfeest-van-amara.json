@@ -1,0 +1,130 @@
+{
+  "id": "het-sinterklaasfeest-van-amara",
+  "title": "Het Sinterklaasfeest van Amara",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Amara zat nerveus aan de keukentafel terwijl haar moeder uitlegde wat er zou gebeuren. \"Volgende week viert jouw klas Sinterklaas,\" zei mama. \"Je moet een gedichtje schrijven en een surprise maken voor een klasgenoot.\" Amara fronste haar wenkbrauwen. In Somalië hadden ze heel andere tradities.\n\nOp school trok Amara het briefje van Thijs uit de surprisedoos. Ze kende hem nauwelijks omdat hij altijd met zijn eigen vriendjes speelde. Hij leek zo anders dan zij - hij praatte hard, maakte grappen die zij niet begreep en droeg altijd voetbalshirts. \"Waarom zou ik moeite doen voor iemand die me toch niet aardig vindt?\" dacht ze.\n\nThuisgekomen vertelde Amara aan haar grote zus Fadumo over haar twijfels. \"Mocht je hem beter leren kennen, dan zou je misschien ontdekken dat jullie meer gemeen hebben dan je denkt,\" zei Fadumo wijselijk. \"Sinterklaas gaat over vriendelijkheid tonen, ook al ken je elkaar nog niet zo goed.\"\n\nDe volgende dagen observeerde Amara Thijs tijdens de pauzes. Tot haar verbazing zag ze dat hij altijd nieuwe kinderen uitnodigde om mee te voetballen. Hij deelde zijn koekjes met iedereen en hielp de juf zonder dat iemand het vroeg. \"Misschien heb ik me vergist,\" dacht Amara. \"Hij lijkt eigenlijk heel aardig.\"\n\nOp de dag van het Sinterklaasfeest gaf Amara haar surprise aan Thijs: een zelfgemaakte voetbal van papier-maché met een gedichtje over teamwork. Thijs straalde en bedankte haar hartelijk. Toen was het zijn beurt. Hij overhandigde haar een boekje dat hij zelf had gemaakt over verschillende culturen, inclusief een hoofdstuk over Somalië. \"Ik wilde meer leren over jouw achtergrond,\" zei hij verlegen. \"Omdat je interessante verhalen vertelt tijdens de spreekbeurten.\"\n\nAmara voelde tranen van geluk opkomen. Dit Sinterklaasfeest had haar geleerd dat vooroordelen verdwijnen indien je de moeite neemt om elkaar echt te leren kennen. Nederlandse tradities konden een brug slaan tussen verschillende achtergronden, mits je openstond voor nieuwe vriendschappen.",
+  "questions": [
+    {
+      "question": "Welke Nederlandse traditie moest Amara voor het eerst meevieren?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "sinterklaas",
+        "sinterklaasfeest",
+        "het sinterklaasfeest"
+      ],
+      "hint": "Kijk naar het begin van het verhaal, wat legt mama uit?"
+    },
+    {
+      "question": "Waarom dacht Amara eerst dat Thijs niet aardig was?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "anders",
+            "verschillend",
+            "niet zoals zij"
+          ],
+          [
+            "kende",
+            "nauwelijks",
+            "niet goed",
+            "onbekend"
+          ],
+          [
+            "praatte",
+            "hard",
+            "grappen",
+            "voetbalshirts"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees de tweede alinea over Amara's eerste indruk van Thijs."
+    },
+    {
+      "question": "Hoe veranderde Amara's mening over Thijs en waarom?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "observeerde",
+            "keek",
+            "zag",
+            "merkte"
+          ],
+          [
+            "aardig",
+            "vriendelijk",
+            "lief",
+            "behulpzaam"
+          ],
+          [
+            "uitnodigde",
+            "deelde",
+            "hielp",
+            "koekjes"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Zoek in de vierde alinea wat Amara tijdens de pauzes ontdekte."
+    },
+    {
+      "question": "Vind je dat beide kinderen zich goed hebben voorbereid op het surprise-uitwisselen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet beoordelen of beide kinderen moeite hebben gedaan en dit onderbouwen met voorbeelden uit de tekst. Een goed antwoord noemt dat beide kinderen persoonlijke, doordachte geschenken maakten die aansluiten bij de interesses van de ander.",
+        "exampleAnswer": "Ja, ze hebben zich allebei goed voorbereid. Amara maakte een voetbal omdat Thijs van voetbal houdt, en Thijs maakte een boek over culturen omdat hij Amara's verhalen interessant vond.",
+        "keyElements": [
+          "beide/allebei goed voorbereid",
+          "persoonlijk/doordacht cadeau",
+          "aansluiting bij interesses"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk aan de geschenken die ze maakten en hoe die pasten bij de ontvanger."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het overwinnen van vooroordelen door elkaar beter te leren kennen. Nederlandse tradities kunnen helpen bij het maken van vriendschappen tussen kinderen met verschillende achtergronden.",
+        "exampleAnswer": "Het verhaal gaat erover dat je vooroordelen kunt overwinnen door mensen beter te leren kennen, en dat Nederlandse feesten kunnen helpen bij het maken van nieuwe vriendschappen.",
+        "keyElements": [
+          "vooroordelen overwinnen",
+          "elkaar leren kennen",
+          "Nederlandse tradities/feesten helpen bij vriendschap"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over wat Amara heeft geleerd en hoe het Sinterklaasfeest daarbij hielp."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-sinterklaasfeest-van-amara/image-1.png",
+      "alt": "Amara en haar moeder aan de keukentafel tijdens uitleg over Sinterklaas"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-sinterklaasfeest-van-amara/image-2.png",
+      "alt": "Amara en Thijs ruilen hun Sinterklaas surprises uit in de klas"
+    }
+  ],
+  "imagePrompts": [
+    "A young Somali girl sitting at a kitchen table with her mother who is explaining Dutch Sinterklaas traditions, children's book illustration style, warm home setting",
+    "Two children in a Dutch classroom exchanging handmade Sinterklaas gifts - a Somali girl giving a paper-mache soccer ball to a Dutch boy who gives her a handmade book about cultures, children's book illustration style"
+  ]
+}

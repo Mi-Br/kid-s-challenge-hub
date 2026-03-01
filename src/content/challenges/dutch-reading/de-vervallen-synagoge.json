@@ -1,0 +1,142 @@
+{
+  "id": "de-vervallen-synagoge",
+  "title": "De Vervallen Synagoge",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "Emma fietste elke dag langs het oude gebouw op de hoek van de Jodenbreestraat. Het was gewoon deel van haar route naar school. De vervallen synagoge met zijn gebarsten ramen en verweerde stenen betekende niets voor haar – tot die geschiedenisles over de Tweede Wereldoorlog.\n\n\"Voordat de oorlog begon, woonden er 140.000 joden in Nederland,\" vertelde mevrouw Van Der Berg. \"Na 1945 waren er nog maar 30.000 over. Amsterdam werd wel het Jeruzalem van het Noorden genoemd vanwege de bloeiende joodse gemeenschap.\" Emma staarde uit het raam terwijl haar lerares sprak over razzia's, onderduikers en het Westerbork-kamp. Dit gebeurde hier, in haar stad, op straten waar zij nu gewoon overheen fietste.\n\nDie middag stopte Emma voor het eerst bij de synagoge. Ze las het kleine bordje dat ze nooit eerder had opgemerkt: \"Ter nagedachtenis aan de joodse gemeenschap van deze wijk, 1940-1945.\" Plotseling voelde ze zich klein en dom. Hoe kon ze hier maandenlang voorbij zijn gereden zonder na te denken? Haar wangen gloeiden van schaamte. Wat voor persoon was zij eigenlijk?\n\nThuis lag ze wakker. Moest ze zich schuldig voelen over iets wat gebeurd was voordat ze geboren werd? Haar grootouders hadden de oorlog meegemaakt – hadden zij joodse buren gehad? Had haar familie geholpen of weggekeken? De vragen tolden door haar hoofd en maakten haar misselijk van onzekerheid.\n\nWeken later, tijdens een projectweek over lokale geschiedenis, kreeg Emma een idee. \"Ik wil onderzoek doen naar die synagoge,\" zei ze tegen haar lerares. \"Niet alleen wat er tijdens de oorlog gebeurde, maar ook hoe het daarvoor was – wie er woonden, hoe de buurt eruitzag.\" Mevrouw Van Der Berg knikte goedkeurend. \"Dat is een waardevolle manier om onze geschiedenis levend te houden.\"\n\nEn zo begon Emma aan een reis door archieven, interviews met oudere buurtbewoners en bezoeken aan het Joods Historisch Museum. Ze ontdekte dat de synagoge ooit het hart was van een levendige gemeenschap – families die er generaties lang hadden gewoond, kinderen die er speelden, feesten die er gevierd werden. Door hun verhalen te verzamelen en te delen, transformeerde haar aanvankelijke schaamte in iets krachtigs: de vastberadenheid om ervoor te zorgen dat deze geschiedenis nooit vergeten zou worden.",
+  "questions": [
+    {
+      "question": "Welk kamp wordt genoemd in het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "westerbork",
+        "het westerbork-kamp",
+        "westerbork-kamp"
+      ],
+      "hint": "Zoek in de tweede alinea waar de lerares over de oorlog vertelt.",
+      "answerType": "literal",
+      "validation": {
+        "mode": "literal",
+        "acceptableAnswers": [
+          "westerbork",
+          "het westerbork-kamp",
+          "westerbork-kamp"
+        ]
+      }
+    },
+    {
+      "question": "Waarom voelt Emma zich 'klein en dom' bij de synagoge?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "nooit",
+            "niet",
+            "nimmer"
+          ],
+          [
+            "opgemerkt",
+            "gezien",
+            "gelet",
+            "opgelet",
+            "bemerkt"
+          ],
+          [
+            "voorbij",
+            "langs",
+            "gepasseerd"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk aan wat Emma plotseling beseft over haar dagelijkse fietsroute."
+    },
+    {
+      "question": "Hoe verandert Emma's houding tegenover de geschiedenis van de synagoge gedurende het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Emma evolueert van onwetendheid naar bewustzijn naar schaamte naar positieve actie. Ze gaat van langs fietsen zonder nadenken naar actief onderzoek doen om de geschiedenis te bewaren.",
+        "exampleAnswer": "Emma gaat van onwetend langs fietsen naar zich schuldig voelen naar actief onderzoek doen om de geschiedenis te bewaren.",
+        "keyElements": [
+          "onwetend/onbewust naar bewust",
+          "schaamte/schuld",
+          "actief/onderzoek/positieve actie"
+        ],
+        "minWords": 8
+      },
+      "hint": "Volg Emma's emotionele reis van het begin tot het einde van het verhaal."
+    },
+    {
+      "question": "Beoordeel of Emma de juiste keuze maakt door onderzoek te gaan doen. Onderbouw je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een duidelijke mening geven (ja/nee/deels) en deze onderbouwen met argumenten uit de tekst of eigen redenering. Mogelijke argumenten: geschiedenis bewaren is belangrijk, leerzaam voor anderen, beter dan wegkijken, helpt bij verwerking van emoties.",
+        "exampleAnswer": "Ja, Emma maakt de juiste keuze omdat ze haar schaamte omzet in iets positiefs. Door onderzoek te doen zorgt ze ervoor dat de geschiedenis niet vergeten wordt.",
+        "keyElements": [
+          "mening (ja/nee)",
+          "onderbouwing/argumenten",
+          "geschiedenis bewaren/niet vergeten"
+        ],
+        "minWords": 8
+      },
+      "hint": "Geef je eigen mening en leg uit waarom je denkt dat Emma's keuze goed of slecht is."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "Het verhaal gaat over hoe bewustwording van historisch onrecht kan leiden tot positieve actie. De kernboodschap is dat we onze geschiedenis moeten kennen en bewaren, en dat schaamte over het verleden kan worden omgezet in betekenisvolle actie.",
+        "exampleAnswer": "Het verhaal gaat erover dat bewustwording van historisch onrecht ons kan motiveren om ervoor te zorgen dat de geschiedenis niet vergeten wordt.",
+        "keyElements": [
+          "bewustwording/bewust worden",
+          "geschiedenis bewaren/niet vergeten",
+          "positieve actie/onderzoek"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat de schrijver ons wil leren over omgaan met geschiedenis en verantwoordelijkheid."
+    },
+    {
+      "question": "Met welk doel heeft de schrijver dit verhaal geschreven?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De schrijver wil lezers bewust maken van hun omgeving en lokale geschiedenis, en laten zien dat jonge mensen een rol kunnen spelen in het bewaren van historisch geheugen. Het doel is om te inspireren tot actieve betrokkenheid bij geschiedenis.",
+        "exampleAnswer": "De schrijver wil laten zien dat jonge mensen verantwoordelijkheid kunnen nemen voor het bewaren van historische verhalen en dat bewustwording kan leiden tot positieve actie.",
+        "keyElements": [
+          "bewustzijn/bewust maken",
+          "verantwoordelijkheid/betrokkenheid",
+          "geschiedenis bewaren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over welke boodschap de schrijver aan lezers zoals jij wil overbrengen."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-vervallen-synagoge/image-1.png",
+      "alt": "Een vervallen synagoge met gebarsten ramen op een hoek van een Nederlandse straat"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-vervallen-synagoge/image-2.png",
+      "alt": "Een meisje dat onderzoek doet in een archief met oude documenten en foto's"
+    }
+  ],
+  "imagePrompts": [
+    "A deteriorated synagogue building with cracked windows on a Dutch street corner, children's book illustration style, showing Emma on her bicycle looking at the building with newfound awareness",
+    "A teenage girl researching in historical archives surrounded by old documents and photographs about Jewish history, children's book illustration style, showing Emma's transformation into an active researcher"
+  ]
+}

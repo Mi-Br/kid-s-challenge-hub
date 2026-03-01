@@ -1,0 +1,116 @@
+{
+  "id": "de-vergeten-stem",
+  "title": "De Vergeten Stem",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse geschiedenis",
+  "text": "**Fragment uit het dagboek van Klaas, 1944**\n\nMijn vader zegt altijd: \"Vrouwen horen thuis, niet in de politiek.\" Vroeger geloofde ik dat ook. Waarom zouden vrouwen stemmen? Zij begrijpen toch niets van belangrijke zaken zoals oorlog en economie.\n\n**Brief gevonden in oma's kast, 2024**\n\nLieve Klaas,\nJe weet niet wie ik ben, maar ik ken jouw verhaal. Ik ben je achterkleindochter Emma. Gisteren vond ik deze oude papieren toen we oma's huis leegmaakten. Er zat ook een foto tussen van een vrouw in een verzetspak. Op de achterkant stond: \"Tante Lies - zij redde ons leven, 1944.\"\n\nIk googelde haar naam. Lies van der Berg leidde een ondergrondse groep die Joodse kinderen in veiligheid bracht. Zij organiseerde schuilplaatsen, vervalste documenten en smokkelde voedsel naar hongerende families. Zonder haar zouden jij en opa nooit de oorlog hebben overleefd.\n\nDaarnaast ontdekte ik dat Lies na de oorlog jarenlang vocht voor vrouwenkiesrecht. In 1919 hadden Nederlandse vrouwen dat eindelijk gekregen, maar veel mensen dachten er nog steeds zoals jij toen.\n\n**Klaas' laatste dagboeknotitie, 1945**\n\nIk had het mis. Helemaal mis.\n\nTante Lies heeft bewezen dat moed en wijsheid niets met geslacht te maken hebben. Terwijl ik als jongen thuis zat en oordeelde, riskeerde zij dagelijks haar leven voor anderen. Haar strategische denken en politieke inzicht waren beter dan die van de meeste mannen die ik kende.\n\nVandaag stemde ik voor het eerst. Ik realiseer me nu dat democratie alleen werkt als iedereen - man en vrouw - zijn stem kan laten horen. Verschillende perspectieven maken onze samenleving sterker, niet zwakker.\n\nSoms moet je je oude overtuigingen loslaten om te groeien.",
+  "questions": [
+    {
+      "question": "Beschrijf hoe Klaas' mening over vrouwen en politiek verandert doorheen het verhaal. Gebruik voorbeelden uit de tekst.",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet de transformatie van Klaas beschrijven: van geloven dat vrouwen niet thuishoren in politiek naar erkennen dat democratie iedereen nodig heeft. Moet concrete voorbeelden uit de tekst gebruiken.",
+        "exampleAnswer": "In het begin gelooft Klaas dat vrouwen niets begrijpen van belangrijke zaken. Door Tante Lies' verhaal leert hij dat zij levens redde en politiek zeer goed begreep. Aan het eind beseft hij dat verschillende perspectieven de samenleving sterker maken.",
+        "keyElements": [
+          "eerst geloofde/dacht dat vrouwen niet thuishoorden",
+          "Tante Lies bewees het tegendeel/veranderde zijn mening",
+          "verschillende perspectieven/stemmen maken samenleving sterker"
+        ],
+        "minWords": 8
+      },
+      "hint": "Vergelijk wat Klaas in 1944 dacht met wat hij in 1945 schrijft."
+    },
+    {
+      "question": "Waarom gebruikt de schrijver verschillende tekstvormen (dagboek, brief, notitie) om dit verhaal te vertellen?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat verschillende tekstvormen verschillende tijdsperiodes en perspectieven laten zien, waardoor de verandering in Klaas' denken duidelijker wordt. Kan ook vermelden dat het verhaal realistischer/geloofwaardiger wordt.",
+        "exampleAnswer": "Door dagboek, brief en notitie te gebruiken laat de schrijver zien hoe Klaas' mening verandert over tijd. Het geeft ook verschillende perspectieven: eerst Klaas alleen, dan Emma's ontdekking, dan Klaas' nieuwe inzicht.",
+        "keyElements": [
+          "verschillende tijdsperiodes/tijd laten zien",
+          "verandering/ontwikkeling duidelijker maken",
+          "verschillende perspectieven/standpunten"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat elke tekstvorm toevoegt aan het verhaal van Klaas' veranderende mening."
+    },
+    {
+      "question": "Beoordeel of Tante Lies een geschikt rolmodel was voor het veranderen van Klaas' vooroordelen. Geef argumenten voor je mening.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een gemotiveerde mening geven over Tante Lies als rolmodel. Goede argumenten: zij toonde moed, wijsheid, politiek inzicht, redde levens, vocht voor rechten. Moet eigen standpunt innemen en onderbouwen.",
+        "exampleAnswer": "Ja, Tante Lies was een perfect rolmodel omdat zij bewees dat vrouwen net zo moedig en politiek slim kunnen zijn als mannen. Zij redde levens door strategisch te denken en nam grote risico's. Haar acties spraken harder dan woorden.",
+        "keyElements": [
+          "ja/nee + onderbouwing",
+          "moed/moedig/dapper",
+          "politiek inzicht/slim/strategisch denken",
+          "levens redden/helpen"
+        ],
+        "minWords": 7
+      },
+      "hint": "Kijk naar wat Tante Lies allemaal deed en hoe dat Klaas' mening beïnvloedde."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De hoofdgedachte is dat vooroordelen kunnen veranderen door concrete ervaringen en dat gelijkwaardigheid en verschillende perspectieven belangrijk zijn voor een sterke samenleving/democratie.",
+        "exampleAnswer": "Het verhaal gaat over hoe vooroordelen kunnen veranderen wanneer je echt leert kennen hoe mensen werkelijk zijn, en dat iedereen gelijke rechten verdient ongeacht geslacht.",
+        "keyElements": [
+          "vooroordelen kunnen veranderen/verdwijnen",
+          "gelijkwaardigheid/gelijke rechten",
+          "verschillende perspectieven/meningen belangrijk"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk na over de belangrijkste boodschap die de schrijver wil overbrengen over vooroordelen en gelijkwaardigheid."
+    },
+    {
+      "question": "Wat betekent de uitdrukking 'je oude overtuigingen loslaten' in de context van dit verhaal?",
+      "questionType": "woordbetekenis",
+      "hint": "Kijk naar wat Klaas deed met zijn mening over vrouwen in de politiek.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "je mening veranderen"
+          ],
+          [
+            "je vooroordelen opgeven"
+          ],
+          [
+            "anders gaan denken"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-vergeten-stem/image-1.png",
+      "alt": "Een jonge man die in een dagboek schrijft terwijl hij een oude foto van een vrouw in verzetskledij bekijkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-vergeten-stem/image-2.png",
+      "alt": "Een moderne tiener die oude documenten en foto's uit een kist haalt op zolder"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch man in 1940s clothing writing in a diary while looking at an old photograph of a brave woman in resistance clothing, children's book illustration style, warm sepia tones",
+    "A modern teenage girl discovering old documents and photographs in an attic trunk, with historical papers scattered around, children's book illustration style, soft natural lighting"
+  ]
+}

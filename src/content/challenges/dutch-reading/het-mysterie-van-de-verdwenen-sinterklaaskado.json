@@ -1,0 +1,118 @@
+{
+  "id": "het-mysterie-van-de-verdwenen-sinterklaaskado",
+  "title": "Het Mysterie van de Verdwenen Sinterklaaskado",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "Nederlandse feestdagen",
+  "text": "Lisa had haar surprisepakje voor Sinterklaas heel zorgvuldig verstopt, net zoals Sherlock Holmes zijn bewijsstukken verborg. De chocoladeletters en het speelgoedkonijntje voor haar kleine broer Tim lagen veilig in haar kledingkast, achter de dikke winterjassen.\n\nMaar toen ze op 4 december wilde kijken of alles er nog was, ontdekte Lisa iets vreselijks. Het pakje was verdwenen! Haar hart klopte snel omdat ze wist dat Sinterklaas over een dag zou komen. Ze moest dit mysterie oplossen, anders zou Tim niets krijgen.\n\nLisa begon zoals een echte detective te zoeken. Ze onderzocht haar kamer omdat daar niemand anders mocht komen. Onder het bed vond ze alleen stof en een oude sok. In haar bureau zaten wel cadeautjes, maar niet het juiste pakje. Omdat ze wanhopig werd, keek ze zelfs in de vuilnisbak.\n\nToen Lisa bijna wilde opgeven, hoorde ze een zacht geknaag dat van beneden kwam. Ze rende naar de keuken, waar mama koffie aan het zetten was. Daar zag ze iets wat alles verklaarde: hun hamster Pip had een groot gat in een kartonnen doos gemaakt. Chocoladepapier lag overal verspreid op de grond.\n\n\"Pip heeft mijn surprise ontdekt!\" riep Lisa uit. Mama lachte omdat ze had gemerkt dat de hamster zich vreemd gedroeg. \"Gelukkig heb ik nog chocoladeletters in de kast,\" zei mama. \"En kijk eens wat ik gisteren stiekem heb gekocht.\" Ze haalde een pluchen konijntje tevoorschijn dat nog mooier was dan het eerste.\n\nOp 5 december zette Lisa het nieuwe surprisepakje in haar schoen, samen met een briefje waarin stond dat zelfs de slimste detective hulp nodig heeft van Sint en Piet.",
+  "questions": [
+    {
+      "question": "Op welke datum komt Sinterklaas volgens het verhaal?",
+      "questionType": "begrijpen",
+      "acceptableAnswers": [
+        "5 december"
+      ],
+      "hint": "Kijk naar de laatste zin van het verhaal."
+    },
+    {
+      "question": "Waarom zocht Lisa zoals een detective?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "mysterie",
+            "raadsel",
+            "probleem",
+            "verdwenen"
+          ],
+          [
+            "oplossen",
+            "vinden",
+            "zoeken",
+            "ontdekken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat er met haar pakje was gebeurd."
+    },
+    {
+      "question": "Waarom gedroeg de hamster zich vreemd volgens mama?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "chocolade",
+            "snoep",
+            "lekkers",
+            "eten",
+            "gegeten"
+          ],
+          [
+            "ontdekt",
+            "gevonden",
+            "pakje",
+            "surprise"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Kijk naar wat Lisa in de keuken aantrof."
+    },
+    {
+      "question": "Vind je dat Lisa een goede detective was? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven (ja/nee) en dit onderbouwen met voorbeelden uit de tekst, zoals dat Lisa systematisch zocht, niet opgaf, of het mysterie oploste.",
+        "exampleAnswer": "Ja, want ze zocht systematisch in verschillende plaatsen en gaf niet op tot ze het mysterie had opgelost.",
+        "keyElements": [
+          "systematisch/grondig zoeken",
+          "niet opgeven/doorzetten",
+          "mysterie oplossen/vinden"
+        ],
+        "minWords": 5
+      },
+      "hint": "Denk aan hoe Lisa het probleem heeft aangepakt."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het oplossen van een mysterie door goed te observeren en door te zetten, of over hoe problemen soms een onverwachte oplossing hebben.",
+        "exampleAnswer": "Het verhaal gaat over een meisje dat een mysterie oplost door goed te kijken en niet op te geven.",
+        "keyElements": [
+          "mysterie oplossen/probleem oplossen",
+          "doorzetten/niet opgeven",
+          "goed kijken/observeren"
+        ],
+        "minWords": 6
+      },
+      "hint": "Wat wil de schrijver vooral vertellen over Lisa's zoektocht?"
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-sinterklaaskado/image-1.png",
+      "alt": "Lisa zoekt in haar kamer als een detective naar het verdwenen Sinterklaaskado"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/het-mysterie-van-de-verdwenen-sinterklaaskado/image-2.png",
+      "alt": "De hamster Pip met chocoladepapier om zich heen in de keuken"
+    }
+  ],
+  "imagePrompts": [
+    "A young Dutch girl searching through her bedroom like a detective, looking under the bed and in drawers for her missing Sinterklaas present, children's book illustration style",
+    "A hamster named Pip surrounded by chocolate wrapper pieces in a Dutch kitchen, with a cardboard box with a hole chewed through it nearby, children's book illustration style"
+  ]
+}

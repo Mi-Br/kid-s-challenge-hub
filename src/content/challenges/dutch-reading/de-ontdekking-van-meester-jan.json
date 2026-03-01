@@ -1,0 +1,131 @@
+{
+  "id": "de-ontdekking-van-meester-jan",
+  "title": "De Ontdekking van Meester Jan",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "beroepen",
+  "text": "Meester Jan heeft altijd al kinderen willen helpen met leren. Maar wat niemand weet, is dat hij vroeger een heel ander beroep wilde hebben. Als kind droomde hij ervan om kok te worden in een groot restaurant.\n\nVorige week gebeurde er iets bijzonders op school. De schoolkok was ziek geworden en er was niemand om het schoollunch klaar te maken. De directeur vroeg alle leerkrachten om te helpen, maar niemand had ervaring met koken voor tweehonderd kinderen.\n\n\"Ik kan het wel proberen,\" zei meester Jan voorzichtig. Hoewel hij al tien jaar niet meer had gekookt, voelde hij de oude passie weer opkomen. Hij herinnerde zich nog precies hoe zijn oma hem had geleerd om groenten te snijden en kruiden te mengen.\n\nDe kinderen waren verbaasd toen ze zagen hoe handig hun meester was in de keuken. Hij bewoog zich snel en zeker tussen de grote pannen en ovens. Het eten rook heerlijk en smaakte nog beter. \"Meester Jan,\" riep Emma uit, \"u bent een echte chef-kok!\"\n\nVandaag denkt meester Jan vaak na over die dag in de keuken. Hij houdt nog steeds van lesgeven, maar soms mist hij het gevoel van ingrediënten in zijn handen en de geur van verse kruiden. Misschien kan hij beide beroepen combineren door kinderen te leren koken tijdens de lessen.",
+  "questions": [
+    {
+      "question": "Hoe lang heeft meester Jan niet meer gekookt voordat hij het schoollunch maakte?",
+      "questionType": "begrijpen",
+      "hint": "Kijk in de derde alinea naar wat er over zijn kookervaring staat.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "tien"
+          ],
+          [
+            "jaar"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom kon meester Jan zo goed koken in de schoolkeuken?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "oma",
+            "grootmoeder",
+            "geleerd",
+            "leerde"
+          ],
+          [
+            "herinnerde",
+            "wist",
+            "onthou",
+            "ervaring"
+          ],
+          [
+            "passie",
+            "liefde",
+            "gevoel",
+            "droom"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over zijn verleden en wat hij had geleerd."
+    },
+    {
+      "question": "Wat betekent 'ingrediënten' in de laatste zin?",
+      "questionType": "woordbetekenis",
+      "hint": "Het staat in de zin samen met 'kruiden' en gaat over koken.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 1,
+        "mustIncludeAny": [
+          [
+            "de dingen waar je mee kookt"
+          ],
+          [
+            "voedsel om mee te koken"
+          ],
+          [
+            "spullen voor het koken"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Vind jij dat meester Jan zijn droom om kok te worden heeft opgegeven? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet een mening geven over of meester Jan zijn droom heeft opgegeven en dit onderbouwen met informatie uit de tekst. Beide standpunten (wel/niet opgegeven) zijn mogelijk als ze goed onderbouwd worden.",
+        "exampleAnswer": "Nee, want hij denkt er nog steeds aan om beide beroepen te combineren en hij mist het koken nog steeds.",
+        "keyElements": [
+          "mening geven over droom opgeven/niet opgeven",
+          "onderbouwing met tekstinformatie",
+          "beide beroepen/combineren/nog steeds missen"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar de laatste alinea en wat meester Jan nog steeds voelt."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over het herontdekken van een oude passie of talent, en hoe je oude dromen kunt combineren met je huidige beroep.",
+        "exampleAnswer": "Het verhaal gaat over hoe je een oude droom of talent kunt herontdekken en misschien combineren met je huidige werk.",
+        "keyElements": [
+          "herontdekken/terugvinden",
+          "oude droom/passie/talent",
+          "combineren met huidige beroep/werk"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over wat het belangrijkste is dat er met meester Jan gebeurt."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-ontdekking-van-meester-jan/image-1.png",
+      "alt": "Meester Jan kookt in de schoolkeuken voor veel kinderen"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-ontdekking-van-meester-jan/image-2.png",
+      "alt": "Meester Jan denkt na over koken en lesgeven"
+    }
+  ],
+  "imagePrompts": [
+    "A teacher in his 30s cooking confidently in a large school kitchen, stirring big pots while children watch through the serving window, children's book illustration style, warm and inviting atmosphere",
+    "The same teacher sitting thoughtfully in an empty classroom, with cooking utensils on one side and teaching materials on the other, representing his two passions, children's book illustration style, contemplative mood"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "de-kracht-van-taal",
+  "title": "De Kracht van Taal",
+  "groepLevel": "groep7-8",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "cultuur",
+  "text": "Amara staarde naar het scherm van haar laptop terwijl ze probeerde haar werkstuk over Nederlandse literatuur af te maken. Hoewel ze al vijf jaar in Nederland woonde, voelde ze zich nog steeds een buitenstaander als het om cultuur ging. In Somalië had haar grootmoeder haar verhalen verteld die werden doorgegeven van generatie op generatie, verhalen die nooit waren opgeschreven maar wel in ieders hart leefden.\n\nOp school leek alleen de Nederlandse canon te tellen. Haar leraar had uitgelegd dat literatuur de spiegel van een samenleving is, maar waarom zag ze zichzelf dan nooit in die spiegel? De boeken die ze moesten lezen, gingen altijd over blanke families in keurige Nederlandse huizen. Waar waren de verhalen van mensen zoals zij, mensen die tussen twee werelden leefden?\n\nTijdens de pauze hoorde Amara haar klasgenoot Jim fluisteren tegen zijn vrienden: \"Waarom moeten wij eigenlijk leren over andere culturen? Dit is toch Nederland?\" De woorden raakten haar als een klap in het gezicht. Ze voelde zich klein en onzichtbaar, alsof haar achtergrond er niet toe deed.\n\nDie avond sprak Amara met haar moeder over haar frustratie. \"Habibti,\" zei haar moeder zacht, \"jouw verhalen zijn even belangrijk als die van anderen. Misschien is het tijd dat jij ze vertelt.\" Haar moeder vertelde over de kracht van verhalen, hoe ze bruggen kunnen bouwen tussen verschillende werelden en mensen kunnen helpen elkaar te begrijpen.\n\nAmara besloot actie te ondernemen. Ze begon een blog waarin ze verhalen schreef over jongeren met een migratieachtergrond. Ze organiseerde voorleessessies in de bibliotheek waarbij kinderen verhalen in hun eigen taal mochten vertellen. Tot haar verbazing kwamen er niet alleen kinderen met een migratieachtergrond, maar ook Nederlandse kinderen die nieuwsgierig waren naar andere culturen.\n\nNa een paar maanden merkte Amara dat er iets was veranderd op school. Haar leraar vroeg of ze een verhaal wilde voorlezen tijdens de literatuurles. Jim, die eerder zo negatief was geweest, kwam naar haar toe en zei: \"Ik had nooit beseft hoe moeilijk het moet zijn om tussen twee culturen te leven. Je verhaal heeft me aan het denken gezet.\"\n\nAmara begreep nu dat cultuur niet statisch is, maar voortdurend in beweging. Door haar eigen verhalen te delen, had ze niet alleen haar plek gevonden in de Nederlandse samenleving, maar ook anderen geholpen om hun blik te verbreden. Literatuur was inderdaad een spiegel, maar die spiegel kon worden uitgebreid zodat iedereen zichzelf erin kon zien.",
+  "questions": [
+    {
+      "question": "Waarom voelt Amara zich een buitenstaander als het om cultuur gaat?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat Amara zich buitengesloten voelt omdat alleen Nederlandse/westerse cultuur wordt gewaardeerd op school, terwijl haar eigen Somalische achtergrond niet wordt erkend of gerepresenteerd.",
+        "exampleAnswer": "Ze ziet zichzelf niet terug in de Nederlandse boeken en verhalen die op school worden behandeld, en voelt dat haar eigen Somalische cultuur niet wordt gewaardeerd.",
+        "keyElements": [
+          "niet gerepresenteerd/niet erkend",
+          "eigen cultuur/achtergrond telt niet",
+          "ziet zichzelf niet terug"
+        ],
+        "minWords": 6
+      },
+      "hint": "Kijk naar wat Amara denkt over de boeken op school en de verhalen van haar grootmoeder."
+    },
+    {
+      "question": "Hoe verandert Amara's perspectief op cultuur gedurende het verhaal?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet het verschil begrijpen tussen Amara's gevoel van machteloosheid aan het begin en haar ontdekking dat ze actief kan bijdragen aan culturele verandering door haar eigen verhalen te delen.",
+        "exampleAnswer": "In het begin voelt ze zich machteloos en buitengesloten, maar later beseft ze dat ze zelf verhalen kan delen en bruggen kan bouwen tussen culturen.",
+        "keyElements": [
+          "van machteloos naar actief",
+          "zelf verhalen delen/vertellen",
+          "bruggen bouwen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Vergelijk hoe Amara zich voelt aan het begin van het verhaal met hoe ze denkt aan het einde."
+    },
+    {
+      "question": "Evalueer de reactie van Jim aan het begin en aan het einde van het verhaal. Wat zegt dit over de impact van verhalen?",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet Jim's transformatie van vooroordelen naar begrip analyseren en concluderen dat verhalen mensen kunnen helpen om perspectief te veranderen en empathie te ontwikkelen voor anderen.",
+        "exampleAnswer": "Jim gaat van negatief en gesloten naar begripvol en reflectief. Dit laat zien dat verhalen vooroordelen kunnen wegnemen en mensen kunnen helpen om anderen beter te begrijpen.",
+        "keyElements": [
+          "Jim verandert/transformeert",
+          "vooroordelen verdwijnen",
+          "verhalen creëren begrip/empathie"
+        ],
+        "minWords": 10
+      },
+      "hint": "Denk na over wat Jim zegt in het begin versus wat hij zegt aan het einde, en wat dit betekent."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over de kracht van verhalen om culturele bruggen te bouwen en dat iedereen het recht heeft om zijn verhaal te vertellen en gehoord te worden.",
+        "exampleAnswer": "Het verhaal gaat erover dat alle culturen waardevol zijn en dat door verhalen te delen, mensen elkaar beter kunnen begrijpen en accepteren.",
+        "keyElements": [
+          "alle culturen zijn waardevol",
+          "verhalen delen/vertellen",
+          "begrip tussen mensen/culturen"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over de belangrijkste boodschap die de schrijver wil overbrengen over cultuur en verhalen."
+    },
+    {
+      "question": "Wat was waarschijnlijk het doel van de schrijver met dit verhaal?",
+      "questionType": "schrijversdoel",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat de schrijver wil laten zien hoe belangrijk inclusiviteit en representatie zijn, en dat jongeren zelf actie kunnen ondernemen om verandering te bewerkstelligen.",
+        "exampleAnswer": "De schrijver wil lezers bewust maken van het belang van culturele diversiteit en laten zien dat iedereen zijn verhaal mag vertellen.",
+        "keyElements": [
+          "bewustwording/bewust maken",
+          "culturele diversiteit/inclusie",
+          "iedereen telt/alle verhalen belangrijk"
+        ],
+        "minWords": 8
+      },
+      "hint": "Denk na over welke boodschap de schrijver aan de lezers wil meegeven."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-kracht-van-taal/image-1.png",
+      "alt": "Amara zit achter haar laptop en kijkt gefrustreerd terwijl ze aan haar werkstuk werkt"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-kracht-van-taal/image-2.png",
+      "alt": "Amara leest voor aan een diverse groep kinderen in de bibliotheek"
+    }
+  ],
+  "imagePrompts": [
+    "A teenage Somali-Dutch girl sitting at a laptop looking frustrated while working on homework, surrounded by Dutch literature books, children's book illustration style",
+    "The same girl reading aloud to a diverse group of children in a Dutch library, with other children listening attentively, warm lighting, children's book illustration style"
+  ]
+}

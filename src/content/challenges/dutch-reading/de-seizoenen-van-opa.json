@@ -1,0 +1,140 @@
+{
+  "id": "de-seizoenen-van-opa",
+  "title": "De Seizoenen van Opa",
+  "groepLevel": "groep5-6",
+  "difficulty": "high",
+  "referentieNiveau": "toward-1S/2F",
+  "topic": "seizoenen",
+  "text": "Mijn opa Willem is tachtig jaar oud geworden. Hij heeft zijn hele leven in Nederland gewoond en zegt altijd dat elk seizoen een ander verhaal vertelt. Toen ik hem vroeg wat hij daarmee bedoelde, begon hij te glimlachen.\n\n\"In de lente,\" vertelde opa, \"ontdekte ik mijn liefde voor fotografie. Ik was toen net zo oud als jij nu bent. De bloesembomen in het park waren zo mooi dat ik per se een camera wilde hebben. Mijn vader vond het eerst een gek idee, maar hij kocht er toch een voor me.\"\n\nOpa pakte zijn oude fotoalbum en liet me zwart-wit foto's zien van bloeiende bomen. \"Ik oefende elke dag na school,\" zei hij. \"Soms waren de foto's wazig, soms te donker. Maar ik gaf niet op omdat ik wilde leren hoe ik de schoonheid van de lente kon vastleggen.\"\n\n\"Later, in de zomer van mijn twaalfde jaar,\" ging opa verder, \"fotografeerde ik kinderen die speelden in de sproeiers bij de fontein. Hun gelach en de zonnestralen door het water - dat was magisch. Toen begreep ik dat fotografie niet alleen over bloemen ging, maar over het leven zelf.\"\n\n\"De herfst leerde me geduld,\" zuchtte opa. \"Ik zat urenlang te wachten tot de wind de gele bladeren precies goed liet vallen. Mijn vrienden speelden voetbal, maar ik bleef wachten op het perfecte moment. Die foto van vallende bladeren hangt nog steeds in de woonkamer.\"\n\n\"En de winter?\" vroeg ik nieuwsgierig. Opa's ogen twinkelden. \"In de winter ontdekte ik dat elke foto een verhaal bewaart. Toen ik door mijn albums bladerde tijdens de lange donkere avonden, zag ik dat ik eigenlijk mijn hele jeugd had gefotografeerd. Elk seizoen had me iets geleerd over kijken, wachten en het vinden van schoonheid.\"\n\nNu begrijp ik wat opa bedoelt. Elk seizoen bracht hem dichter bij zijn talent, en zijn talent bracht hem dichter bij het leven.",
+  "questions": [
+    {
+      "question": "Hoe oud was opa toen hij zijn liefde voor fotografie ontdekte?",
+      "questionType": "begrijpen",
+      "hint": "Kijk naar het tweede stukje waar opa over de lente vertelt.",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 2,
+        "mustIncludeAny": [
+          [
+            "bent"
+          ]
+        ],
+        "allowExtraText": true
+      }
+    },
+    {
+      "question": "Waarom wilde opa niet opgeven toen zijn eerste foto's niet goed waren?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 4,
+        "mustIncludeAny": [
+          [
+            "leren",
+            "wilde leren",
+            "leerde"
+          ],
+          [
+            "schoonheid",
+            "mooi",
+            "mooie"
+          ],
+          [
+            "vastleggen",
+            "fotograferen",
+            "foto's maken"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "In het derde stukje staat waarom opa bleef oefenen."
+    },
+    {
+      "question": "Wat leerde de herfst opa over fotografie?",
+      "questionType": "interpreteren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 3,
+        "mustIncludeAny": [
+          [
+            "geduld",
+            "wachten",
+            "geduldig zijn"
+          ],
+          [
+            "perfecte moment",
+            "juiste moment",
+            "goede moment"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Lees het vijfde stukje over wat opa deed in de herfst."
+    },
+    {
+      "question": "Vind je dat opa een goede keuze heeft gemaakt door te kiezen voor fotografie in plaats van met vrienden voetballen? Leg uit waarom.",
+      "questionType": "evalueren",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "keywords",
+        "minWords": 5,
+        "mustIncludeAny": [
+          [
+            "ja",
+            "wel",
+            "goed",
+            "juist",
+            "slim"
+          ],
+          [
+            "nee",
+            "niet",
+            "fout",
+            "jammer"
+          ],
+          [
+            "eigen keuze",
+            "zelf kiezen",
+            "eigen ding"
+          ]
+        ],
+        "allowExtraText": true
+      },
+      "hint": "Denk na over wat fotografie opa heeft gebracht en geef je eigen mening."
+    },
+    {
+      "question": "Wat is de hoofdgedachte van dit verhaal?",
+      "questionType": "hoofdgedachte",
+      "answerType": "explanation",
+      "validation": {
+        "mode": "ai",
+        "rubric": "De leerling moet begrijpen dat het verhaal gaat over hoe iemand door de seizoenen heen een talent ontdekt en ontwikkelt, en dat elk seizoen iets anders leert over het leven en kunst.",
+        "exampleAnswer": "Het verhaal gaat over hoe opa door de verschillende seizoenen zijn fotografietalent ontdekte en ontwikkelde.",
+        "keyElements": [
+          "seizoenen/tijd",
+          "talent ontdekken/fotografie leren",
+          "groei/ontwikkeling"
+        ],
+        "minWords": 6
+      },
+      "hint": "Denk na over wat opa door alle seizoenen heen heeft geleerd en gevonden."
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/challenges/dutch-reading/de-seizoenen-van-opa/image-1.png",
+      "alt": "Een oude man laat fotoalbums zien aan een kind"
+    },
+    {
+      "src": "/images/challenges/dutch-reading/de-seizoenen-van-opa/image-2.png",
+      "alt": "Zwart-wit foto's van bloeiende bomen in de lente"
+    }
+  ],
+  "imagePrompts": [
+    "An elderly Dutch grandfather showing old photo albums to his grandchild at a wooden table, children's book illustration style, warm lighting, cozy living room setting",
+    "Black and white photographs scattered on a table showing Dutch spring blossoms, vintage camera nearby, children's book illustration style, nostalgic atmosphere"
+  ]
+}
