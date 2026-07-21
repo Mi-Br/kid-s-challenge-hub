@@ -16,7 +16,9 @@ import type { DutchChallenge, GroepLevel, Difficulty } from "@/types/challenges"
 import { pickSessionChallenges, markCompleted } from "@/lib/challenge-session";
 import { validateAnswerAsync, getValidationMode } from "@/lib/answer-validation";
 import { setAiApiKey, isAiAvailable } from "@/lib/ai-evaluation";
+import { recordCompletion } from "@/lib/teacher";
 import type { ValidationResult } from "@/types/validation";
+
 
 const DUTCH_SESSION_KEY = "challenge-dutch";
 
