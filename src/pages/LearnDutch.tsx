@@ -599,8 +599,6 @@ const LearnDutch = () => {
           </CardContent>
         </Card>
 
-        {/* On-demand translator */}
-        <TranslateSidePanel storyId={currentChallenge.id} />
 
 
 
