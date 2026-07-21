@@ -511,10 +511,37 @@ const LearnDutch = () => {
                 ))}
               </div>
             )}
+            <div className="flex items-center justify-between gap-2 -mt-1">
+              <p className="text-[11px] text-muted-foreground">
+                💡 Klik op {translateMode === "word" ? "een woord" : "een zin"} voor de vertaling
+              </p>
+              <div className="inline-flex items-center rounded-full border border-border p-0.5 bg-background text-xs">
+                <button
+                  onClick={() => setTranslateMode("word")}
+                  className={cn(
+                    "px-2.5 py-1 rounded-full transition-colors",
+                    translateMode === "word" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"
+                  )}
+                >
+                  🔤 Woord
+                </button>
+                <button
+                  onClick={() => setTranslateMode("sentence")}
+                  className={cn(
+                    "px-2.5 py-1 rounded-full transition-colors",
+                    translateMode === "sentence" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"
+                  )}
+                >
+                  📝 Zin
+                </button>
+              </div>
+            </div>
             <div className="bg-muted/40 rounded-xl p-5 border border-border space-y-3">
-              {currentChallenge.text.split("\n\n").map((paragraph, i) => (
-                <p key={i} className="text-lg leading-relaxed font-serif text-foreground indent-4 first:indent-0">{paragraph}</p>
-              ))}
+              <TranslatableText
+                text={currentChallenge.text}
+                mode={translateMode}
+                storyId={currentChallenge.id}
+              />
             </div>
           </CardContent>
         </Card>
