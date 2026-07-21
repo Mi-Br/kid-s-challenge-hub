@@ -49,39 +49,51 @@ function TranslationPopover({
   storyId?: string;
   children: React.ReactNode;
 }) {
+  const cached = getCachedEntry(raw, mode);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [entry, setEntry] = useState<VocabEntry | null>(null);
+  const [entry, setEntry] = useState<VocabEntry | null>(cached);
   const [error, setError] = useState<string | null>(null);
 
-  const onOpenChange = async (next: boolean) => {
+  const load = async () => {
+    if (entry || loading) return;
+    setLoading(true);
+    setError(null);
+    try {
+      const result = await translateAndSave({
+        text: raw,
+        type: mode,
+        context: mode === "word" ? contextSentence : undefined,
+        storyId,
+      });
+      setEntry(result);
+    } catch (e: any) {
+      setError(e?.message || "Kon niet vertalen");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const onOpenChange = (next: boolean) => {
     setOpen(next);
-    if (next && !entry && !loading) {
-      setLoading(true);
-      setError(null);
-      try {
-        const result = await translateAndSave({
-          text: raw,
-          type: mode,
-          context: mode === "word" ? contextSentence : undefined,
-          storyId,
-        });
-        setEntry(result);
-        toast({
-          title: "Toegevoegd aan woordenschat ✨",
-          description: `"${result.dutch_text}" → ${result.translation}`,
-        });
-      } catch (e: any) {
-        setError(e?.message || "Kon niet vertalen");
-      } finally {
-        setLoading(false);
-      }
+    if (next) {
+      const wasCached = !!entry;
+      load().then(() => {
+        if (!wasCached && entry) {
+          toast({
+            title: "Toegevoegd aan woordenschat ✨",
+            description: `"${raw}" opgeslagen`,
+          });
+        }
+      });
     }
   };
 
   return (
     <Popover open={open} onOpenChange={onOpenChange}>
-      <PopoverTrigger asChild>{children}</PopoverTrigger>
+      <PopoverTrigger asChild>
+        <span onMouseEnter={load} onTouchStart={load}>{children}</span>
+      </PopoverTrigger>
       <PopoverContent className="w-80 p-4" side="top" align="center">
         {loading && (
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
