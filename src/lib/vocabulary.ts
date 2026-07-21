@@ -74,6 +74,42 @@ export function getCachedEntry(text: string, type: "word" | "sentence"): VocabEn
   return readLocal(text, type);
 }
 
+export function evictLocal(text: string, type: "word" | "sentence") {
+  const key = cacheKey(text, type);
+  memCache.delete(key);
+  try { localStorage.removeItem(key); } catch {}
+}
+
+export async function deleteLookup(lookupId: string, entry?: VocabEntry | null): Promise<void> {
+  const profile_id = getCurrentProfileId();
+  const { error } = await supabase
+    .from("vocabulary_lookups")
+    .delete()
+    .eq("id", lookupId)
+    .eq("profile_id", profile_id);
+  if (error) throw error;
+  if (entry) evictLocal(entry.dutch_text, entry.type);
+}
+
+export async function deleteAllLookupsForProfile(): Promise<void> {
+  const profile_id = getCurrentProfileId();
+  const { error } = await supabase
+    .from("vocabulary_lookups")
+    .delete()
+    .eq("profile_id", profile_id);
+  if (error) throw error;
+  // Clear local caches — collective dictionary in vocabulary_entries is preserved.
+  memCache.clear();
+  try {
+    const keys: string[] = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith("vocab:")) keys.push(k);
+    }
+    keys.forEach((k) => localStorage.removeItem(k));
+  } catch {}
+}
+
 // Track lookup without waiting (fire-and-forget) — direct DB write via edge function
 async function trackLookup(entryId: string, storyId?: string) {
   const profile_id = getCurrentProfileId();
