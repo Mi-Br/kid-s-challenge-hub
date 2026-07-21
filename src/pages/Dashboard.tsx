@@ -160,11 +160,30 @@ const Dashboard = () => {
               progress={0}
               onClick={() => navigate("/vocabulary")}
             />
+            <ChallengeCard
+              title="Word Practice ✨"
+              description="Test yourself on the words you saved"
+              icon={Dumbbell}
+              color="teal"
+              progress={0}
+              onClick={() => navigate("/vocabulary/practice")}
+            />
+            {teacher && (
+              <ChallengeCard
+                title="Teacher View 👩‍🏫"
+                description="Overview of every kid's practice & words"
+                icon={GraduationCap}
+                color="yellow"
+                progress={0}
+                onClick={() => navigate("/teacher")}
+              />
+            )}
           </div>
         </section>
       </main>
     </div>
   );
 };
+
 
 export default Dashboard;
