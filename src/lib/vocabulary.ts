@@ -1,5 +1,12 @@
 import { supabase } from "@/integrations/supabase/client";
 
+export interface VerbForms {
+  infinitive?: string;
+  present?: Record<string, string>;
+  past?: Record<string, string>;
+  perfect?: string;
+}
+
 export interface VocabEntry {
   id: string;
   dutch_text: string;
@@ -9,8 +16,10 @@ export interface VocabEntry {
   lemma: string | null;
   explanation: string | null;
   example: string | null;
+  verb_forms: VerbForms | null;
   created_at: string;
 }
+
 
 export interface VocabLookup {
   id: string;
