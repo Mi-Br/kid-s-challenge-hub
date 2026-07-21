@@ -192,13 +192,12 @@ export async function translateAndSave(params: {
 
 export async function fetchVocabForProfile(): Promise<VocabLookup[]> {
   const profile_id = getCurrentProfileId();
-  const { data, error } = await supabase
-    .from("vocabulary_lookups")
-    .select("*, entry:vocabulary_entries(*)")
-    .eq("profile_id", profile_id)
-    .order("last_looked_up_at", { ascending: false });
+  const { data, error } = await supabase.functions.invoke("data-api", {
+    body: { action: "fetch_profile_vocab", profile_id },
+  });
   if (error) throw error;
-  const rows = (data as VocabLookup[]) || [];
+  if (data?.error) throw new Error(data.error);
+  const rows = ((data?.rows as VocabLookup[]) || []);
   // Warm the local cache from the profile's own history
   for (const r of rows) if (r.entry) writeLocal(r.entry);
   return rows;
