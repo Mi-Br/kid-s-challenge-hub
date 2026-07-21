@@ -100,7 +100,9 @@ Deno.serve(async (req) => {
         lemma: parsed.lemma || null,
         explanation: parsed.explanation || null,
         example: parsed.example || null,
+        verb_forms: parsed.verb_forms || null,
       };
+
 
       const { data: inserted, error: insErr } = await supabase
         .from("vocabulary_entries")
