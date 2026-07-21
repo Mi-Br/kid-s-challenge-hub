@@ -24,12 +24,13 @@ export interface CompletionRow {
   completed_at: string;
 }
 
-export async function recordCompletion(row: Omit<CompletionRow, "id" | "completed_at"> & { profile_id?: string }) {
+export async function recordCompletion(row: Omit<CompletionRow, "id" | "completed_at" | "profile_id"> & { profile_id?: string }) {
   const profile_id = row.profile_id || getStoredProfileId();
   try {
     await supabase.from("challenge_completions").insert({ ...row, profile_id });
   } catch {}
 }
+
 
 export function getStoredProfileId(): string {
   try {
