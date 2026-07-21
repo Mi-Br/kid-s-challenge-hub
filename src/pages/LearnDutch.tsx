@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef, useMemo } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   ArrowLeft, BookOpen, CheckCircle2, XCircle, HelpCircle,
   ChevronRight, RotateCcw, Sparkles, Loader2, Star, Shuffle
@@ -10,7 +10,8 @@ import { Progress } from "@/components/ui/progress";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { TranslatableText } from "@/components/TranslatableText";
-import { getChallengesByGroep, getAvailableGroepLevels, getAvailableDifficulties, getChallengeCount } from "@/lib/challenges";
+import { TranslateSidePanel } from "@/components/TranslateSidePanel";
+import { getChallengesByGroep, getAvailableGroepLevels, getAvailableDifficulties, getChallengeCount, getChallengeById } from "@/lib/challenges";
 import type { DutchChallenge, GroepLevel, Difficulty } from "@/types/challenges";
 import { pickSessionChallenges, markCompleted } from "@/lib/challenge-session";
 import { validateAnswerAsync, getValidationMode } from "@/lib/answer-validation";
