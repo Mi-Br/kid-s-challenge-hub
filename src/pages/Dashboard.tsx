@@ -18,6 +18,7 @@ import StatsCard from "@/components/StatsCard";
 import { Switch } from "@/components/ui/switch";
 import { toast } from "@/hooks/use-toast";
 import { isTeacherMode, setTeacherMode } from "@/lib/teacher";
+import { TranslateSidePanel } from "@/components/TranslateSidePanel";
 
 
 interface UserProfile {
@@ -179,6 +180,15 @@ const Dashboard = () => {
               />
             )}
           </div>
+        </section>
+
+        {/* Quick translator */}
+        <section>
+          <div className="flex items-center gap-2 mb-4">
+            <Sparkles className="w-5 h-5 text-primary" />
+            <h2 className="text-lg font-semibold text-foreground">Snel vertalen</h2>
+          </div>
+          <TranslateSidePanel />
         </section>
       </main>
     </div>

@@ -10,7 +10,7 @@ import { Progress } from "@/components/ui/progress";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { TranslatableText } from "@/components/TranslatableText";
-import { TranslateSidePanel } from "@/components/TranslateSidePanel";
+
 import { getChallengesByGroep, getAvailableGroepLevels, getAvailableDifficulties, getChallengeCount, getChallengeById } from "@/lib/challenges";
 import type { DutchChallenge, GroepLevel, Difficulty } from "@/types/challenges";
 import { pickSessionChallenges, markCompleted } from "@/lib/challenge-session";
@@ -599,8 +599,6 @@ const LearnDutch = () => {
           </CardContent>
         </Card>
 
-        {/* On-demand translator */}
-        <TranslateSidePanel storyId={currentChallenge.id} />
 
 
 

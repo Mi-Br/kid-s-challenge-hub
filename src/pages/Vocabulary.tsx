@@ -17,6 +17,7 @@ import {
   translateAndSave, type VocabLookup,
 } from "@/lib/vocabulary";
 import { getStoryMeta } from "@/lib/challenges";
+import { TranslateSidePanel } from "@/components/TranslateSidePanel";
 import { toast } from "@/hooks/use-toast";
 
 function speak(text: string) {
@@ -170,6 +171,9 @@ const Vocabulary = () => {
             </AlertDialog>
           )}
         </div>
+
+        <TranslateSidePanel />
+
 
         <div className="flex flex-col sm:flex-row gap-3">
           <div className="relative flex-1">
