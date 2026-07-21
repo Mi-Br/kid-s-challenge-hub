@@ -27,7 +27,9 @@ export interface CompletionRow {
 export async function recordCompletion(row: Omit<CompletionRow, "id" | "completed_at" | "profile_id"> & { profile_id?: string }) {
   const profile_id = row.profile_id || getStoredProfileId();
   try {
-    await supabase.from("challenge_completions").insert({ ...row, profile_id });
+    await supabase.functions.invoke("data-api", {
+      body: { action: "record_completion", ...row, profile_id },
+    });
   } catch {}
 }
 
@@ -52,10 +54,12 @@ export interface ProfileSummary {
 }
 
 export async function fetchTeacherOverview(): Promise<ProfileSummary[]> {
-  const [{ data: comps }, { data: lookups }] = await Promise.all([
-    supabase.from("challenge_completions").select("*").order("completed_at", { ascending: false }),
-    supabase.from("vocabulary_lookups").select("profile_id"),
-  ]);
+  const { data, error } = await supabase.functions.invoke("data-api", {
+    body: { action: "teacher_overview" },
+  });
+  if (error) return [];
+  const comps: any[] = data?.completions || [];
+  const lookups: any[] = data?.lookups || [];
 
   const byProfile = new Map<string, ProfileSummary>();
   const ensure = (pid: string): ProfileSummary => {
@@ -73,14 +77,14 @@ export async function fetchTeacherOverview(): Promise<ProfileSummary[]> {
     return byProfile.get(pid)!;
   };
 
-  (comps || []).forEach((c: any) => {
+  comps.forEach((c: any) => {
     const p = ensure(c.profile_id);
     p.completions.push(c);
     p.total_score += c.score || 0;
     p.total_time += c.duration_seconds || 0;
     if (!p.last_active || c.completed_at > p.last_active) p.last_active = c.completed_at;
   });
-  (lookups || []).forEach((l: any) => {
+  lookups.forEach((l: any) => {
     ensure(l.profile_id).vocab_count += 1;
   });
 
@@ -90,10 +94,8 @@ export async function fetchTeacherOverview(): Promise<ProfileSummary[]> {
 }
 
 export async function fetchVocabForProfileId(profile_id: string) {
-  const { data } = await supabase
-    .from("vocabulary_lookups")
-    .select("*, entry:vocabulary_entries(*)")
-    .eq("profile_id", profile_id)
-    .order("last_looked_up_at", { ascending: false });
-  return data || [];
+  const { data } = await supabase.functions.invoke("data-api", {
+    body: { action: "fetch_profile_vocab", profile_id },
+  });
+  return (data?.rows as any[]) || [];
 }
