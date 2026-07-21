@@ -89,8 +89,9 @@ Deno.serve(async (req) => {
 
       const aiJson = await aiResp.json();
       const content = aiJson?.choices?.[0]?.message?.content || "{}";
-      let parsed: Record<string, string> = {};
+      let parsed: any = {};
       try { parsed = JSON.parse(content); } catch { parsed = {}; }
+
 
       const insert = {
         dutch_text: normalized,
