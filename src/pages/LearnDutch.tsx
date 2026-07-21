@@ -266,6 +266,9 @@ const LearnDutch = () => {
   const [validationResult, setValidationResult] = useState<ValidationResult | null>(null);
   const inputRef = useRef<HTMLInputElement | HTMLTextAreaElement>(null);
   const [translateMode, setTranslateMode] = useState<"word" | "sentence">("word");
+  const sessionStartRef = useRef<number>(Date.now());
+  const completionSavedRef = useRef(false);
+
 
   // Initialize AI from env (legacy — AI now runs through the edge function)
   useEffect(() => {
