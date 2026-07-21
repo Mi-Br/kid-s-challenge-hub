@@ -93,12 +93,162 @@ function GroepSelector({ onSelect }: { onSelect: (g: GroepLevel) => void }) {
   );
 }
 
+// ── Story Picker ────────────────────────────────────────
+
+const DIFF_META: Record<Difficulty, { label: string; emoji: string; chip: string; card: string }> = {
+  low:    { label: "Makkelijk",  emoji: "🟢", chip: "bg-green-100 text-green-700 border-green-200",   card: "border-green-200 hover:border-green-400 bg-green-50/40" },
+  medium: { label: "Gemiddeld",  emoji: "🔵", chip: "bg-blue-100 text-blue-700 border-blue-200",     card: "border-blue-200 hover:border-blue-400 bg-blue-50/40" },
+  high:   { label: "Moeilijk",   emoji: "🟣", chip: "bg-purple-100 text-purple-700 border-purple-200", card: "border-purple-200 hover:border-purple-400 bg-purple-50/40" },
+};
+
+function StoryPicker({
+  groep,
+  onBack,
+  onPickStory,
+  onRandom,
+}: {
+  groep: GroepLevel;
+  onBack: () => void;
+  onPickStory: (challenge: DutchChallenge) => void;
+  onRandom: (difficulty: Difficulty | "all") => void;
+}) {
+  const [filter, setFilter] = useState<Difficulty | "all">("all");
+  const all = useMemo(() => getChallengesByGroep(groep), [groep]);
+  const diffs = getAvailableDifficulties(groep);
+  const visible = filter === "all" ? all : all.filter((c) => c.difficulty === filter);
+
+  const info = GROEP_INFO[groep];
+
+  return (
+    <div className="min-h-screen bg-background">
+      <header className="sticky top-0 z-40 bg-card/80 backdrop-blur-lg border-b border-border">
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          <button onClick={onBack} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+            <ArrowLeft className="w-5 h-5" />
+            <span className="hidden sm:inline">Niveau</span>
+          </button>
+          <h1 className="font-semibold text-foreground text-sm flex items-center gap-2">
+            <span>{info.emoji}</span> {info.label}
+          </h1>
+          <div className="w-16" />
+        </div>
+      </header>
+
+      <main className="container mx-auto px-4 py-6 max-w-3xl space-y-6">
+        <div className="text-center space-y-1">
+          <h2 className="text-2xl font-bold font-serif text-foreground">Kies je verhaal</h2>
+          <p className="text-sm text-muted-foreground">Of laat de app 3 verhalen voor je uitkiezen</p>
+        </div>
+
+        {/* Difficulty filter */}
+        <div className="flex flex-wrap gap-2 justify-center">
+          <button
+            onClick={() => setFilter("all")}
+            className={cn(
+              "text-sm px-3 py-1.5 rounded-full border-2 font-medium transition-colors",
+              filter === "all" ? "bg-foreground text-background border-foreground" : "bg-background border-border hover:border-foreground/40"
+            )}
+          >
+            Alles ({all.length})
+          </button>
+          {diffs.map((d) => {
+            const count = getChallengeCount(groep, d);
+            const active = filter === d;
+            return (
+              <button
+                key={d}
+                onClick={() => setFilter(d)}
+                className={cn(
+                  "text-sm px-3 py-1.5 rounded-full border-2 font-medium transition-colors",
+                  active ? "bg-foreground text-background border-foreground" : cn("bg-background hover:border-foreground/40", DIFF_META[d].chip)
+                )}
+              >
+                {DIFF_META[d].emoji} {DIFF_META[d].label} ({count})
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Random button */}
+        <Button
+          onClick={() => onRandom(filter)}
+          variant="outline"
+          className="w-full gap-2 border-2 border-dashed h-auto py-4"
+        >
+          <Shuffle className="w-4 h-4" />
+          <span className="font-semibold">Verras me</span>
+          <span className="text-muted-foreground text-sm">— 3 willekeurige verhalen{filter !== "all" ? ` (${DIFF_META[filter].label.toLowerCase()})` : ""}</span>
+        </Button>
+
+        {/* Story grid */}
+        <div className="grid gap-3 sm:grid-cols-2">
+          {visible.map((c) => {
+            const meta = c.difficulty ? DIFF_META[c.difficulty] : null;
+            const hasAi = c.questions.some((q) => q.validation?.mode === "ai");
+            return (
+              <button
+                key={c.id}
+                onClick={() => onPickStory(c)}
+                className={cn(
+                  "text-left p-4 rounded-xl border-2 transition-all bg-card hover:shadow-md",
+                  meta?.card ?? "border-border hover:border-foreground/40"
+                )}
+              >
+                <div className="flex items-start gap-3">
+                  {c.images?.[0]?.src && (
+                    <div className="w-16 h-16 rounded-lg overflow-hidden bg-muted flex-shrink-0">
+                      <img
+                        src={c.images[0].src}
+                        alt={c.images[0].alt}
+                        loading="lazy"
+                        className="w-full h-full object-cover"
+                        onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                      />
+                    </div>
+                  )}
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-serif font-bold text-foreground leading-tight">{c.title}</h3>
+                    <div className="flex flex-wrap gap-1.5 mt-2">
+                      {meta && (
+                        <span className={cn("text-[10px] px-1.5 py-0.5 rounded-full border font-medium", meta.chip)}>
+                          {meta.emoji} {meta.label}
+                        </span>
+                      )}
+                      {c.topic && (
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-muted text-muted-foreground border border-border">
+                          {c.topic}
+                        </span>
+                      )}
+                      {hasAi && (
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-purple-50 text-purple-600 border border-purple-200">
+                          ✨ AI
+                        </span>
+                      )}
+                      <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-muted text-muted-foreground border border-border">
+                        {c.questions.length} vragen
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            );
+          })}
+          {visible.length === 0 && (
+            <p className="col-span-full text-center text-muted-foreground py-8">Geen verhalen gevonden voor dit filter.</p>
+          )}
+        </div>
+      </main>
+    </div>
+  );
+}
+
 // ── Main Component ──────────────────────────────────────
 
 const LearnDutch = () => {
   const navigate = useNavigate();
   const [selectedGroep, setSelectedGroep] = useState<GroepLevel | null>(null);
   const [challenges, setChallenges] = useState<DutchChallenge[]>([]);
+  const [sessionStarted, setSessionStarted] = useState(false);
   const [challengeIndex, setChallengeIndex] = useState(0);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answer, setAnswer] = useState("");
@@ -112,20 +262,49 @@ const LearnDutch = () => {
   const [validationResult, setValidationResult] = useState<ValidationResult | null>(null);
   const inputRef = useRef<HTMLInputElement | HTMLTextAreaElement>(null);
 
-  // Initialize AI from env
+  // Initialize AI from env (legacy — AI now runs through the edge function)
   useEffect(() => {
     const key = import.meta.env.VITE_ANTHROPIC_API_KEY;
     if (key) setAiApiKey(key);
   }, []);
 
-  const startSession = useCallback((groep: GroepLevel) => {
-    const available = getChallengesByGroep(groep);
-    if (available.length === 0) return;
-    const sessionKey = DUTCH_SESSION_KEY + "-" + groep;
-    const picked = pickSessionChallenges(available, sessionKey, 3);
-    setChallenges(picked);
+  const openPicker = useCallback((groep: GroepLevel) => {
     setSelectedGroep(groep);
+    setSessionStarted(false);
+    setChallenges([]);
   }, []);
+
+  const startWithChallenges = useCallback((picked: DutchChallenge[]) => {
+    setChallenges(picked);
+    setChallengeIndex(0);
+    setQuestionIndex(0);
+    setAnswer("");
+    setAnswerState("idle");
+    setShowHint(false);
+    setScore(0);
+    setTotalAnswered(0);
+    setTotalCorrect(0);
+    setTotalPartial(0);
+    setGameOver(false);
+    setValidationResult(null);
+    setSessionStarted(true);
+  }, []);
+
+  const startRandom = useCallback((difficulty: Difficulty | "all") => {
+    if (!selectedGroep) return;
+    const pool = getChallengesByGroep(selectedGroep).filter(
+      (c) => difficulty === "all" || c.difficulty === difficulty
+    );
+    if (pool.length === 0) return;
+    const sessionKey = DUTCH_SESSION_KEY + "-" + selectedGroep + "-" + difficulty;
+    const picked = pickSessionChallenges(pool, sessionKey, Math.min(3, pool.length));
+    startWithChallenges(picked);
+  }, [selectedGroep, startWithChallenges]);
+
+  const startSingle = useCallback((challenge: DutchChallenge) => {
+    startWithChallenges([challenge]);
+  }, [startWithChallenges]);
+
 
   const currentChallenge = challenges[challengeIndex];
   const currentQuestion = currentChallenge?.questions[questionIndex];
