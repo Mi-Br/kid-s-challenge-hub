@@ -30,6 +30,8 @@ const Dashboard = () => {
   const navigate = useNavigate();
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [isGuest, setIsGuest] = useState(false);
+  const [teacher, setTeacher] = useState<boolean>(isTeacherMode());
+
 
   useEffect(() => {
     const storedProfile = sessionStorage.getItem("currentProfile");
