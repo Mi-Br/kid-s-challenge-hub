@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { Card, CardContent } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { TranslatableText } from "@/components/TranslatableText";
 import { getChallengesByGroep, getAvailableGroepLevels, getAvailableDifficulties, getChallengeCount } from "@/lib/challenges";
 import type { DutchChallenge, GroepLevel, Difficulty } from "@/types/challenges";
 import { pickSessionChallenges, markCompleted } from "@/lib/challenge-session";
