@@ -443,7 +443,8 @@ const LearnDutch = () => {
             </div>
             <div className="flex flex-col gap-3">
               <Button onClick={handlePlayAgain} className="gap-2"><RotateCcw className="w-4 h-4" /> Nog een keer</Button>
-              <Button variant="outline" onClick={handleBack}>Ander niveau kiezen</Button>
+              <Button variant="outline" onClick={handleBackToPicker}>Ander verhaal kiezen</Button>
+              <Button variant="ghost" onClick={handleBackToGroep}>Ander niveau kiezen</Button>
               <Button variant="ghost" onClick={() => navigate("/dashboard")}>Dashboard</Button>
             </div>
           </CardContent>
@@ -458,7 +459,7 @@ const LearnDutch = () => {
       <header className="sticky top-0 z-40 bg-card/80 backdrop-blur-lg border-b border-border">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            <button onClick={handleBack} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+            <button onClick={handleBackToPicker} className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
               <ArrowLeft className="w-5 h-5" />
               <span className="hidden sm:inline">Terug</span>
             </button>
