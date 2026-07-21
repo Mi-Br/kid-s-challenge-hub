@@ -180,7 +180,6 @@ const Dashboard = () => {
               />
             )}
           </div>
-          </div>
         </section>
 
         {/* Quick translator */}
