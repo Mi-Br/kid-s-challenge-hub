@@ -1,121 +1,37 @@
 /**
  * AI Answer Evaluation for Dutch Reading Challenges
  *
- * Calls Anthropic API (Haiku) to evaluate open-ended answers
- * that can't be validated with simple keyword matching.
+ * Calls the `evaluate-answer` Lovable Cloud edge function which routes to
+ * GPT via the Lovable AI Gateway. Returns a 3-state judgement:
+ *   correct (25pts)  |  partial (15pts)  |  incorrect (0pts)
  *
- * Used for: hoofdgedachte, evalueren, samenvatten, schrijversdoel,
- * and complex interpreteren questions at groep5-6 high / groep7-8 medium+high.
- *
- * Design choices:
- * - Haiku for speed (<1s) and low cost (~$0.001 per evaluation)
- * - Prompt is minimal: ~200 tokens input → ~60 tokens output
- * - Three-tier scoring: correct (25pts), partial (15pts), incorrect (0pts)
- * - Feedback is in Dutch, encouraging, age-appropriate
- * - Falls back to keyword matching if API unavailable
+ * If the edge function is unavailable, falls back to keyword matching on
+ * `keyElements` so the challenge still works offline.
  */
 
 import type { AiValidationConfig, AiJudgement, ValidationResult } from "@/types/validation";
+import { supabase } from "@/integrations/supabase/client";
 
-const API_URL = "https://api.anthropic.com/v1/messages";
-const MODEL = "claude-haiku-4-5-20251001";
-const MAX_TOKENS = 150; // Keep responses short
+// ── Backwards-compatible shims (used to accept an Anthropic key) ──
+// Kept as no-ops so existing call sites don't break.
+export function setAiApiKey(_key: string) {
+  // No-op — evaluation now runs server-side via Lovable AI Gateway.
+}
 
-/**
- * Build the evaluation prompt.
- * Deliberately minimal — every token costs latency.
- */
-function buildEvalPrompt(
-  question: string,
-  studentAnswer: string,
-  config: AiValidationConfig,
-  groepLevel?: string
-): string {
-  const levelHint = groepLevel
-    ? `De leerling zit in ${groepLevel} (NT2 — Nederlands als tweede taal).`
-    : "De leerling is een NT2-leerder.";
-
-  return `Beoordeel het antwoord van een leerling op een Nederlands begrijpend-lezen vraag.
-
-${levelHint}
-
-Vraag: ${question}
-Goed antwoord (voorbeeld): ${config.exampleAnswer}
-Beoordelingscriteria: ${config.rubric}
-Kernelementen: ${config.keyElements.join("; ")}
-
-Antwoord leerling: "${studentAnswer}"
-
-Beoordeel als JSON: {"judgement":"correct"|"partial"|"incorrect","feedback":"<1 zin in eenvoudig Nederlands, bemoedigend>"}
-
-correct = de kern is begrepen (woorden hoeven niet exact te zijn)
-partial = deels goed maar mist een belangrijk element
-incorrect = niet juist of te vaag
-
-Alleen JSON, geen uitleg.`;
+export function isAiAvailable(): boolean {
+  // AI evaluation is always available through the Lovable Cloud edge function.
+  return true;
 }
 
 /**
- * Call Anthropic API for answer evaluation
- */
-async function callApi(prompt: string, apiKey: string): Promise<{
-  judgement: AiJudgement;
-  feedback: string;
-}> {
-  const res = await fetch(API_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": apiKey,
-      "anthropic-version": "2023-06-01",
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: MAX_TOKENS,
-      messages: [{ role: "user", content: prompt }],
-    }),
-  });
-
-  if (!res.ok) {
-    throw new Error(`API ${res.status}`);
-  }
-
-  const data = await res.json();
-  const raw = data.content?.map((b: { text?: string }) => b.text || "").join("") || "";
-  const cleaned = raw.replace(/```json\s*/g, "").replace(/```\s*/g, "").trim();
-
-  try {
-    const parsed = JSON.parse(cleaned);
-    if (!["correct", "partial", "incorrect"].includes(parsed.judgement)) {
-      throw new Error("Invalid judgement value");
-    }
-    return {
-      judgement: parsed.judgement as AiJudgement,
-      feedback: parsed.feedback || "",
-    };
-  } catch {
-    // If parsing fails, try to infer from text
-    const lower = cleaned.toLowerCase();
-    if (lower.includes('"correct"') && !lower.includes('"incorrect"')) {
-      return { judgement: "correct", feedback: "Goed gedaan!" };
-    }
-    if (lower.includes('"partial"')) {
-      return { judgement: "partial", feedback: "Je bent op de goede weg!" };
-    }
-    return { judgement: "incorrect", feedback: "Probeer het nog eens." };
-  }
-}
-
-/**
- * Keyword-based fallback when API is unavailable.
- * Uses keyElements from the AI config as simple keyword groups.
+ * Keyword-based fallback when the edge function fails.
  */
 function fallbackKeywordCheck(
   studentAnswer: string,
   config: AiValidationConfig
 ): ValidationResult {
   const normalized = studentAnswer.toLowerCase().trim().replace(/[.,!?;]/g, "");
-  const words = normalized.split(/\s+/).filter(w => w.length > 0);
+  const words = normalized.split(/\s+/).filter((w) => w.length > 0);
 
   if (words.length < config.minWords) {
     return {
@@ -125,19 +41,16 @@ function fallbackKeywordCheck(
       feedback: {
         mode: "ai",
         aiEvaluated: false,
+        aiFeedback: "Probeer wat meer te schrijven zodat ik je antwoord goed kan beoordelen.",
         wordCount: words.length,
       },
     };
   }
 
-  // Each keyElement is like "doorzetten/volhouden/niet opgeven"
-  // Check how many elements have at least one match
   let matched = 0;
   for (const element of config.keyElements) {
-    const variants = element.split("/").map(v => v.trim().toLowerCase());
-    if (variants.some(v => normalized.includes(v))) {
-      matched++;
-    }
+    const variants = element.split("/").map((v) => v.trim().toLowerCase());
+    if (variants.some((v) => normalized.includes(v))) matched++;
   }
 
   const ratio = config.keyElements.length > 0 ? matched / config.keyElements.length : 0;
@@ -145,19 +58,23 @@ function fallbackKeywordCheck(
   let judgement: AiJudgement;
   let isCorrect: boolean;
   let points: number;
+  let feedback: string;
 
   if (ratio >= 0.7) {
     judgement = "correct";
     isCorrect = true;
     points = 25;
+    feedback = "Goed gedaan!";
   } else if (ratio >= 0.4) {
     judgement = "partial";
-    isCorrect = false; // Not fully correct but partial credit
+    isCorrect = false;
     points = 15;
+    feedback = "Je bent op de goede weg, maar er mist nog iets belangrijks.";
   } else {
     judgement = "incorrect";
     isCorrect = false;
     points = 0;
+    feedback = "Dat klopt nog niet helemaal. Lees de tekst nog eens goed door.";
   }
 
   return {
@@ -167,48 +84,25 @@ function fallbackKeywordCheck(
     feedback: {
       mode: "ai",
       aiEvaluated: false,
+      aiFeedback: feedback,
       wordCount: words.length,
     },
   };
 }
 
-// ── Configuration ──
-
-let _apiKey: string | null = null;
-
 /**
- * Set the Anthropic API key for AI evaluation.
- * Call this once on app startup (e.g., from env or settings).
- */
-export function setAiApiKey(key: string) {
-  _apiKey = key;
-}
-
-/**
- * Check if AI evaluation is available (API key is set).
- */
-export function isAiAvailable(): boolean {
-  return !!_apiKey;
-}
-
-/**
- * Evaluate a student's answer using AI.
- *
- * @param question - The question text
- * @param studentAnswer - The student's answer
- * @param config - AI validation config from the challenge JSON
- * @param groepLevel - Optional groep level for age-appropriate feedback
- * @returns ValidationResult with judgement and Dutch feedback
+ * Evaluate a student's answer using the edge function (GPT via Lovable AI Gateway).
  */
 export async function evaluateWithAi(
   question: string,
   studentAnswer: string,
   config: AiValidationConfig,
-  groepLevel?: string
+  groepLevel?: string,
+  storyText?: string
 ): Promise<ValidationResult> {
-  const words = studentAnswer.trim().split(/\s+/).filter(w => w.length > 0);
+  const words = studentAnswer.trim().split(/\s+/).filter((w) => w.length > 0);
 
-  // Quick reject: too few words (no API call needed)
+  // Reject too-short answers without hitting the API.
   if (words.length < config.minWords) {
     return {
       isCorrect: false,
@@ -223,33 +117,39 @@ export async function evaluateWithAi(
     };
   }
 
-  // Try AI evaluation
-  if (_apiKey) {
-    try {
-      const prompt = buildEvalPrompt(question, studentAnswer, config, groepLevel);
-      const result = await callApi(prompt, _apiKey);
+  try {
+    const { data, error } = await supabase.functions.invoke("evaluate-answer", {
+      body: {
+        question,
+        studentAnswer,
+        storyText,
+        exampleAnswer: config.exampleAnswer,
+        rubric: config.rubric,
+        keyElements: config.keyElements,
+        groepLevel,
+      },
+    });
 
-      const points = result.judgement === "correct" ? 25
-        : result.judgement === "partial" ? 15
-        : 0;
+    if (error) throw error;
+    if (!data || !data.judgement) throw new Error("Invalid response from evaluator");
 
-      return {
-        isCorrect: result.judgement === "correct",
-        judgement: result.judgement,
-        points,
-        feedback: {
-          mode: "ai",
-          aiEvaluated: true,
-          aiFeedback: result.feedback,
-          wordCount: words.length,
-        },
-      };
-    } catch (err) {
-      console.warn("AI evaluation failed, falling back to keywords:", err);
-      // Fall through to keyword fallback
-    }
+    const judgement = data.judgement as AiJudgement;
+    const feedback = (data.feedback as string) || "";
+    const points = judgement === "correct" ? 25 : judgement === "partial" ? 15 : 0;
+
+    return {
+      isCorrect: judgement === "correct",
+      judgement,
+      points,
+      feedback: {
+        mode: "ai",
+        aiEvaluated: true,
+        aiFeedback: feedback,
+        wordCount: words.length,
+      },
+    };
+  } catch (err) {
+    console.warn("AI evaluation failed, falling back to keywords:", err);
+    return fallbackKeywordCheck(studentAnswer, config);
   }
-
-  // Fallback: keyword matching using keyElements
-  return fallbackKeywordCheck(studentAnswer, config);
 }
