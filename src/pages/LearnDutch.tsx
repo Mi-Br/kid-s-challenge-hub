@@ -324,7 +324,10 @@ const LearnDutch = () => {
     setGameOver(false);
     setValidationResult(null);
     setSessionStarted(true);
+    sessionStartRef.current = Date.now();
+    completionSavedRef.current = false;
   }, []);
+
 
   const startRandom = useCallback((difficulty: Difficulty | "all") => {
     if (!selectedGroep) return;
