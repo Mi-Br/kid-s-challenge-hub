@@ -91,22 +91,21 @@ export function evictLocal(text: string, type: "word" | "sentence") {
 
 export async function deleteLookup(lookupId: string, entry?: VocabEntry | null): Promise<void> {
   const profile_id = getCurrentProfileId();
-  const { error } = await supabase
-    .from("vocabulary_lookups")
-    .delete()
-    .eq("id", lookupId)
-    .eq("profile_id", profile_id);
+  const { data, error } = await supabase.functions.invoke("data-api", {
+    body: { action: "delete_lookup", lookup_id: lookupId, profile_id },
+  });
   if (error) throw error;
+  if (data?.error) throw new Error(data.error);
   if (entry) evictLocal(entry.dutch_text, entry.type);
 }
 
 export async function deleteAllLookupsForProfile(): Promise<void> {
   const profile_id = getCurrentProfileId();
-  const { error } = await supabase
-    .from("vocabulary_lookups")
-    .delete()
-    .eq("profile_id", profile_id);
+  const { data, error } = await supabase.functions.invoke("data-api", {
+    body: { action: "delete_all_lookups", profile_id },
+  });
   if (error) throw error;
+  if (data?.error) throw new Error(data.error);
   // Clear local caches — collective dictionary in vocabulary_entries is preserved.
   memCache.clear();
   try {
@@ -119,32 +118,13 @@ export async function deleteAllLookupsForProfile(): Promise<void> {
   } catch {}
 }
 
-// Track lookup without waiting (fire-and-forget) — direct DB write via edge function
+// Track lookup without waiting (fire-and-forget) — via edge function (service role)
 async function trackLookup(entryId: string, storyId?: string) {
   const profile_id = getCurrentProfileId();
   try {
-    const { data: existing } = await supabase
-      .from("vocabulary_lookups")
-      .select("id, lookup_count")
-      .eq("profile_id", profile_id)
-      .eq("entry_id", entryId)
-      .maybeSingle();
-    if (existing) {
-      await supabase
-        .from("vocabulary_lookups")
-        .update({
-          lookup_count: existing.lookup_count + 1,
-          last_looked_up_at: new Date().toISOString(),
-          story_id: storyId ?? undefined,
-        })
-        .eq("id", existing.id);
-    } else {
-      await supabase.from("vocabulary_lookups").insert({
-        profile_id,
-        entry_id: entryId,
-        story_id: storyId ?? null,
-      });
-    }
+    await supabase.functions.invoke("data-api", {
+      body: { action: "track_lookup", profile_id, entry_id: entryId, story_id: storyId ?? null },
+    });
   } catch {}
 }
 
