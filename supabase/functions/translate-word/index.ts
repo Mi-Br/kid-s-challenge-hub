@@ -54,8 +54,9 @@ Deno.serve(async (req) => {
 
     if (!entry) {
       const systemPrompt = type === "word"
-        ? `You are a Dutch-to-English tutor for kids. Given a Dutch word, respond ONLY with JSON: {"translation":"...","part_of_speech":"noun|verb|adjective|...","lemma":"base form in Dutch","explanation":"short kid-friendly English explanation (1-2 sentences)","example":"one short Dutch example sentence using the word"}. No extra text.`
+        ? `You are a Dutch-to-English tutor for kids. Given a Dutch word, respond ONLY with JSON: {"translation":"...","part_of_speech":"noun|verb|adjective|...","lemma":"base form (infinitive for verbs) in Dutch","explanation":"short kid-friendly English explanation (1-2 sentences)","example":"one short Dutch example sentence using the word","verb_forms": null OR (only if it is a verb) {"infinitive":"...","present":{"ik":"...","jij":"...","hij":"...","wij":"...","jullie":"...","zij":"..."},"past":{"ik":"...","jij":"...","hij":"...","wij":"...","jullie":"...","zij":"..."},"perfect":"heb/is + voltooid deelwoord (e.g. heb gewerkt)"}}. Only include verb_forms when part_of_speech is verb. No extra text.`
         : `You are a Dutch-to-English tutor for kids. Given a Dutch sentence, respond ONLY with JSON: {"translation":"natural English translation","explanation":"short kid-friendly English note about meaning/grammar (1-2 sentences)"}. No extra text.`;
+
 
       const userPrompt = body.context
         ? `Dutch ${type}: "${text}"\nContext (surrounding sentence): "${body.context}"`
