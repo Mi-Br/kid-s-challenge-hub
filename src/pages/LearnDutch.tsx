@@ -271,6 +271,34 @@ const LearnDutch = () => {
     if (key) setAiApiKey(key);
   }, []);
 
+  // Deep-link: /learn-dutch?story=<id> jumps straight into that story
+  const [searchParams, setSearchParams] = useSearchParams();
+  useEffect(() => {
+    const storyParam = searchParams.get("story");
+    if (!storyParam || sessionStarted) return;
+    const c = getChallengeById(storyParam);
+    if (!c) return;
+    setSelectedGroep(c.groepLevel ?? "groep4-5");
+    setChallenges([c]);
+    setChallengeIndex(0);
+    setQuestionIndex(0);
+    setAnswer("");
+    setAnswerState("idle");
+    setShowHint(false);
+    setScore(0);
+    setTotalAnswered(0);
+    setTotalCorrect(0);
+    setTotalPartial(0);
+    setGameOver(false);
+    setValidationResult(null);
+    setSessionStarted(true);
+    // Clear the param so back navigation returns to the picker instead of re-triggering
+    const next = new URLSearchParams(searchParams);
+    next.delete("story");
+    setSearchParams(next, { replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const openPicker = useCallback((groep: GroepLevel) => {
     setSelectedGroep(groep);
     setSessionStarted(false);
