@@ -14,7 +14,80 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      vocabulary_entries: {
+        Row: {
+          created_at: string
+          dutch_text: string
+          example: string | null
+          explanation: string | null
+          id: string
+          lemma: string | null
+          part_of_speech: string | null
+          translation: string
+          type: string
+        }
+        Insert: {
+          created_at?: string
+          dutch_text: string
+          example?: string | null
+          explanation?: string | null
+          id?: string
+          lemma?: string | null
+          part_of_speech?: string | null
+          translation: string
+          type: string
+        }
+        Update: {
+          created_at?: string
+          dutch_text?: string
+          example?: string | null
+          explanation?: string | null
+          id?: string
+          lemma?: string | null
+          part_of_speech?: string | null
+          translation?: string
+          type?: string
+        }
+        Relationships: []
+      }
+      vocabulary_lookups: {
+        Row: {
+          entry_id: string
+          first_looked_up_at: string
+          id: string
+          last_looked_up_at: string
+          lookup_count: number
+          profile_id: string
+          story_id: string | null
+        }
+        Insert: {
+          entry_id: string
+          first_looked_up_at?: string
+          id?: string
+          last_looked_up_at?: string
+          lookup_count?: number
+          profile_id: string
+          story_id?: string | null
+        }
+        Update: {
+          entry_id?: string
+          first_looked_up_at?: string
+          id?: string
+          last_looked_up_at?: string
+          lookup_count?: number
+          profile_id?: string
+          story_id?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "vocabulary_lookups_entry_id_fkey"
+            columns: ["entry_id"]
+            isOneToOne: false
+            referencedRelation: "vocabulary_entries"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
     }
     Views: {
       [_ in never]: never

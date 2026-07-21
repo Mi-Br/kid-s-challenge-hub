@@ -134,7 +134,14 @@ const Dashboard = () => {
               progress={35}
               onClick={() => navigate("/learn-dutch")}
             />
-        
+            <ChallengeCard
+              title="My Vocabulary 📚"
+              description="Dutch words you've looked up while reading"
+              icon={Sparkles}
+              color="pink"
+              progress={0}
+              onClick={() => navigate("/vocabulary")}
+            />
           </div>
         </section>
       </main>
