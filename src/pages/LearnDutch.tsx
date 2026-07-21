@@ -395,8 +395,24 @@ const LearnDutch = () => {
         setQuestionIndex(0);
       } else {
         setGameOver(true);
+        if (!completionSavedRef.current) {
+          completionSavedRef.current = true;
+          const titles = challenges.map((c) => c.title).join(", ");
+          recordCompletion({
+            challenge_type: "learn-dutch",
+            challenge_id: challenges.map((c) => c.id).join(","),
+            challenge_title: titles,
+            groep_level: selectedGroep,
+            score,
+            total_questions: totalAnswered,
+            correct_count: totalCorrect,
+            partial_count: totalPartial,
+            duration_seconds: Math.round((Date.now() - sessionStartRef.current) / 1000),
+          });
+        }
       }
     }
+
     setTimeout(() => inputRef.current?.focus(), 50);
   };
 
