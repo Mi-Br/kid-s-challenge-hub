@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import SpellingBooster from "./pages/SpellingBooster";
 import ReadingChallenge from "./pages/ReadingChallenge";
 import LearnDutch from "./pages/LearnDutch";
+import Vocabulary from "./pages/Vocabulary";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
