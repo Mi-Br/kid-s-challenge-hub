@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Loader2, Volume2, BookmarkPlus } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { translateAndSave, type VocabEntry } from "@/lib/vocabulary";
+import { translateAndSave, getCachedEntry, type VocabEntry } from "@/lib/vocabulary";
 import { toast } from "@/hooks/use-toast";
 
 type Mode = "word" | "sentence";
