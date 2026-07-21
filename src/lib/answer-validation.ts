@@ -205,7 +205,8 @@ export function validateAnswer(
 export async function validateAnswerAsync(
   answer: string,
   question: DutchQuestion,
-  groepLevel?: string
+  groepLevel?: string,
+  storyText?: string
 ): Promise<ValidationResult> {
   // AI mode with API available → call AI
   if (question.validation?.mode === "ai" && isAiAvailable()) {
@@ -213,7 +214,8 @@ export async function validateAnswerAsync(
       question.question,
       answer,
       question.validation as AiValidationConfig,
-      groepLevel
+      groepLevel,
+      storyText
     );
   }
 

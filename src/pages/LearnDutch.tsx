@@ -142,7 +142,7 @@ const LearnDutch = () => {
     setAnswerState("checking");
 
     try {
-      const result = await validateAnswerAsync(answer, currentQuestion, selectedGroep || undefined);
+      const result = await validateAnswerAsync(answer, currentQuestion, selectedGroep || undefined, currentChallenge?.text);
       setValidationResult(result);
 
       const points = result.points ?? (result.isCorrect ? 25 : 0);
