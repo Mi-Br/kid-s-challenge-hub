@@ -66,3 +66,14 @@ export function getChallengesByLevel(level: number): DutchChallenge[] {
 export function getChallengeById(id: string): DutchChallenge | undefined {
   return allChallenges.find(c => c.id === id);
 }
+
+/**
+ * Lightweight story metadata resolver for the vocabulary page.
+ * Returns null if the story id isn't known (e.g. legacy or manual entry).
+ */
+export function getStoryMeta(id: string | null | undefined): { id: string; title: string; groep?: string } | null {
+  if (!id) return null;
+  const c = allChallenges.find(x => x.id === id);
+  if (!c) return null;
+  return { id: c.id, title: c.title, groep: c.groepLevel };
+}
