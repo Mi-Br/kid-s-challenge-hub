@@ -1,19 +1,24 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { 
-  BookOpen, 
-  Calculator, 
-  Gamepad2, 
+import {
+  BookOpen,
+  Calculator,
+  Gamepad2,
   Trophy,
   Clock,
   Star,
   Flame,
   LogOut,
-  Sparkles
+  Sparkles,
+  GraduationCap,
+  Dumbbell,
 } from "lucide-react";
 import ChallengeCard from "@/components/ChallengeCard";
 import StatsCard from "@/components/StatsCard";
+import { Switch } from "@/components/ui/switch";
 import { toast } from "@/hooks/use-toast";
+import { isTeacherMode, setTeacherMode } from "@/lib/teacher";
+
 
 interface UserProfile {
   name: string;
