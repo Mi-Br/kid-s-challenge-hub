@@ -1,5 +1,10 @@
-import { corsHeaders } from "npm:@supabase/supabase-js@2/cors";
-import { createClient } from "npm:@supabase/supabase-js@2";
+// Translates a Dutch word or sentence via GPT and stores it in the student's vocabulary.
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2.45.0";
+
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+};
 
 interface Body {
   text: string;
@@ -38,7 +43,6 @@ Deno.serve(async (req) => {
 
     const normalized = type === "word" ? text.toLowerCase().replace(/[.,!?;:"'()]/g, "") : text;
 
-    // Check cache first
     const { data: cached } = await supabase
       .from("vocabulary_entries")
       .select("*")
@@ -49,10 +53,9 @@ Deno.serve(async (req) => {
     let entry = cached;
 
     if (!entry) {
-      // Ask GPT for translation
       const systemPrompt = type === "word"
-        ? `You are a Dutch-to-English tutor for kids. Given a Dutch word, respond ONLY with a JSON object with these exact keys: {"translation":"...", "part_of_speech":"noun|verb|adjective|...", "lemma":"base form in Dutch", "explanation":"short kid-friendly English explanation (1-2 sentences)", "example":"one short Dutch example sentence using the word"}. No extra text.`
-        : `You are a Dutch-to-English tutor for kids. Given a Dutch sentence, respond ONLY with a JSON object with these exact keys: {"translation":"natural English translation", "explanation":"short kid-friendly English note about meaning/grammar (1-2 sentences)"}. No extra text.`;
+        ? `You are a Dutch-to-English tutor for kids. Given a Dutch word, respond ONLY with JSON: {"translation":"...","part_of_speech":"noun|verb|adjective|...","lemma":"base form in Dutch","explanation":"short kid-friendly English explanation (1-2 sentences)","example":"one short Dutch example sentence using the word"}. No extra text.`
+        : `You are a Dutch-to-English tutor for kids. Given a Dutch sentence, respond ONLY with JSON: {"translation":"natural English translation","explanation":"short kid-friendly English note about meaning/grammar (1-2 sentences)"}. No extra text.`;
 
       const userPrompt = body.context
         ? `Dutch ${type}: "${text}"\nContext (surrounding sentence): "${body.context}"`
@@ -76,8 +79,9 @@ Deno.serve(async (req) => {
 
       if (!aiResp.ok) {
         const errText = await aiResp.text();
+        const status = aiResp.status === 429 || aiResp.status === 402 ? aiResp.status : 500;
         return new Response(JSON.stringify({ error: "AI error", status: aiResp.status, detail: errText }), {
-          status: aiResp.status === 429 || aiResp.status === 402 ? aiResp.status : 500,
+          status,
           headers: { ...corsHeaders, "Content-Type": "application/json" },
         });
       }
@@ -107,7 +111,6 @@ Deno.serve(async (req) => {
       entry = inserted;
     }
 
-    // Record lookup (upsert with count increment)
     const { data: existing } = await supabase
       .from("vocabulary_lookups")
       .select("id, lookup_count")
