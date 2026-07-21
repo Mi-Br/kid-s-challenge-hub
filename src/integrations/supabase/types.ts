@@ -14,6 +14,51 @@ export type Database = {
   }
   public: {
     Tables: {
+      challenge_completions: {
+        Row: {
+          challenge_id: string
+          challenge_title: string | null
+          challenge_type: string
+          completed_at: string
+          correct_count: number | null
+          duration_seconds: number | null
+          groep_level: string | null
+          id: string
+          partial_count: number | null
+          profile_id: string
+          score: number
+          total_questions: number | null
+        }
+        Insert: {
+          challenge_id: string
+          challenge_title?: string | null
+          challenge_type: string
+          completed_at?: string
+          correct_count?: number | null
+          duration_seconds?: number | null
+          groep_level?: string | null
+          id?: string
+          partial_count?: number | null
+          profile_id: string
+          score?: number
+          total_questions?: number | null
+        }
+        Update: {
+          challenge_id?: string
+          challenge_title?: string | null
+          challenge_type?: string
+          completed_at?: string
+          correct_count?: number | null
+          duration_seconds?: number | null
+          groep_level?: string | null
+          id?: string
+          partial_count?: number | null
+          profile_id?: string
+          score?: number
+          total_questions?: number | null
+        }
+        Relationships: []
+      }
       vocabulary_entries: {
         Row: {
           created_at: string
@@ -25,6 +70,7 @@ export type Database = {
           part_of_speech: string | null
           translation: string
           type: string
+          verb_forms: Json | null
         }
         Insert: {
           created_at?: string
@@ -36,6 +82,7 @@ export type Database = {
           part_of_speech?: string | null
           translation: string
           type: string
+          verb_forms?: Json | null
         }
         Update: {
           created_at?: string
@@ -47,6 +94,7 @@ export type Database = {
           part_of_speech?: string | null
           translation?: string
           type?: string
+          verb_forms?: Json | null
         }
         Relationships: []
       }

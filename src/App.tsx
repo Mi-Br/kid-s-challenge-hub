@@ -9,6 +9,8 @@ import SpellingBooster from "./pages/SpellingBooster";
 import ReadingChallenge from "./pages/ReadingChallenge";
 import LearnDutch from "./pages/LearnDutch";
 import Vocabulary from "./pages/Vocabulary";
+import VocabularyPractice from "./pages/VocabularyPractice";
+import Teacher from "./pages/Teacher";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,9 +28,8 @@ const App = () => (
           <Route path="/spelling-booster" element={<SpellingBooster />} />
           <Route path="/reading" element={<ReadingChallenge />} />
           <Route path="/vocabulary" element={<Vocabulary />} />
-          <Route path="/spelling-booster" element={<SpellingBooster />} />
-          <Route path="/reading" element={<ReadingChallenge />} />
-          <Route path="/vocabulary" element={<Vocabulary />} />
+          <Route path="/vocabulary/practice" element={<VocabularyPractice />} />
+          <Route path="/teacher" element={<Teacher />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
@@ -36,5 +37,6 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
+
 
 export default App;

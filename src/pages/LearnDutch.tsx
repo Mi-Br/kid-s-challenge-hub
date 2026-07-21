@@ -16,7 +16,9 @@ import type { DutchChallenge, GroepLevel, Difficulty } from "@/types/challenges"
 import { pickSessionChallenges, markCompleted } from "@/lib/challenge-session";
 import { validateAnswerAsync, getValidationMode } from "@/lib/answer-validation";
 import { setAiApiKey, isAiAvailable } from "@/lib/ai-evaluation";
+import { recordCompletion } from "@/lib/teacher";
 import type { ValidationResult } from "@/types/validation";
+
 
 const DUTCH_SESSION_KEY = "challenge-dutch";
 
@@ -264,6 +266,9 @@ const LearnDutch = () => {
   const [validationResult, setValidationResult] = useState<ValidationResult | null>(null);
   const inputRef = useRef<HTMLInputElement | HTMLTextAreaElement>(null);
   const [translateMode, setTranslateMode] = useState<"word" | "sentence">("word");
+  const sessionStartRef = useRef<number>(Date.now());
+  const completionSavedRef = useRef(false);
+
 
   // Initialize AI from env (legacy — AI now runs through the edge function)
   useEffect(() => {
@@ -319,7 +324,10 @@ const LearnDutch = () => {
     setGameOver(false);
     setValidationResult(null);
     setSessionStarted(true);
+    sessionStartRef.current = Date.now();
+    completionSavedRef.current = false;
   }, []);
+
 
   const startRandom = useCallback((difficulty: Difficulty | "all") => {
     if (!selectedGroep) return;
@@ -390,8 +398,24 @@ const LearnDutch = () => {
         setQuestionIndex(0);
       } else {
         setGameOver(true);
+        if (!completionSavedRef.current) {
+          completionSavedRef.current = true;
+          const titles = challenges.map((c) => c.title).join(", ");
+          recordCompletion({
+            challenge_type: "learn-dutch",
+            challenge_id: challenges.map((c) => c.id).join(","),
+            challenge_title: titles,
+            groep_level: selectedGroep,
+            score,
+            total_questions: totalAnswered,
+            correct_count: totalCorrect,
+            partial_count: totalPartial,
+            duration_seconds: Math.round((Date.now() - sessionStartRef.current) / 1000),
+          });
+        }
       }
     }
+
     setTimeout(() => inputRef.current?.focus(), 50);
   };
 
