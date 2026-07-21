@@ -365,7 +365,9 @@ const LearnDutch = () => {
   };
 
   const handlePlayAgain = () => {
-    if (selectedGroep) startSession(selectedGroep);
+    // Return to picker so kid can choose again
+    setSessionStarted(false);
+    setChallenges([]);
     setChallengeIndex(0);
     setQuestionIndex(0);
     setAnswer("");
@@ -378,8 +380,18 @@ const LearnDutch = () => {
     setGameOver(false);
   };
 
-  const handleBack = () => {
+  const handleBackToPicker = () => {
+    setSessionStarted(false);
+    setChallenges([]);
+    setChallengeIndex(0);
+    setQuestionIndex(0);
+    setScore(0);
+    setGameOver(false);
+  };
+
+  const handleBackToGroep = () => {
     setSelectedGroep(null);
+    setSessionStarted(false);
     setChallenges([]);
     setChallengeIndex(0);
     setQuestionIndex(0);
@@ -389,7 +401,19 @@ const LearnDutch = () => {
 
   // ── Groep selector ──
   if (!selectedGroep) {
-    return <GroepSelector onSelect={startSession} />;
+    return <GroepSelector onSelect={openPicker} />;
+  }
+
+  // ── Story picker ──
+  if (!sessionStarted) {
+    return (
+      <StoryPicker
+        groep={selectedGroep}
+        onBack={handleBackToGroep}
+        onPickStory={startSingle}
+        onRandom={startRandom}
+      />
+    );
   }
 
   if (challenges.length === 0) return null;
