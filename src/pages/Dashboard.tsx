@@ -116,25 +116,25 @@ const Dashboard = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <StatsCard
               title="Daily Score"
-              value="125"
+              value={String(stats.daily_score)}
               icon={Trophy}
               color="yellow"
             />
             <StatsCard
               title="Time Today"
-              value="45 min"
+              value={stats.time_today_seconds >= 60 ? `${Math.round(stats.time_today_seconds / 60)} min` : `${stats.time_today_seconds}s`}
               icon={Clock}
               color="teal"
             />
             <StatsCard
               title="Stars Earned"
-              value="12"
+              value={String(stats.stars_today)}
               icon={Star}
               color="pink"
             />
             <StatsCard
               title="Day Streak"
-              value="5 🔥"
+              value={stats.streak > 0 ? `${stats.streak} 🔥` : "0"}
               icon={Flame}
               color="purple"
             />
