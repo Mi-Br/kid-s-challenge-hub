@@ -79,15 +79,22 @@ Deno.serve(async (req) => {
       case "profile_stats": {
         const profile_id = s(body.profile_id, 200);
         if (!profile_id) return json({ error: "Missing profile_id" }, 400);
-        const { data: rows, error } = await supabase
-          .from("challenge_completions")
-          .select("score,duration_seconds,correct_count,completed_at")
-          .eq("profile_id", profile_id)
-          .order("completed_at", { ascending: false });
+        const [{ data: rows, error }, { count: vocabCount }] = await Promise.all([
+          supabase
+            .from("challenge_completions")
+            .select("score,duration_seconds,correct_count,completed_at,challenge_type,challenge_id")
+            .eq("profile_id", profile_id)
+            .order("completed_at", { ascending: false }),
+          supabase
+            .from("vocabulary_lookups")
+            .select("id", { count: "exact", head: true })
+            .eq("profile_id", profile_id),
+        ]);
         if (error) return json({ error: error.message }, 500);
         const todayKey = new Date().toISOString().slice(0, 10);
         let dailyScore = 0, timeToday = 0, starsToday = 0;
         const daysSet = new Set<string>();
+        const uniqueByType = new Map<string, Set<string>>();
         (rows || []).forEach((r: any) => {
           const day = (r.completed_at || "").slice(0, 10);
           daysSet.add(day);
@@ -96,11 +103,12 @@ Deno.serve(async (req) => {
             timeToday += r.duration_seconds || 0;
             starsToday += r.correct_count || 0;
           }
+          const t = r.challenge_type || "";
+          if (!uniqueByType.has(t)) uniqueByType.set(t, new Set());
+          uniqueByType.get(t)!.add(r.challenge_id || "");
         });
-        // Compute streak of consecutive days ending today (or yesterday if none today)
         let streak = 0;
         const d = new Date();
-        // if no activity today, start counting from yesterday
         if (!daysSet.has(todayKey)) d.setDate(d.getDate() - 1);
         while (daysSet.has(d.toISOString().slice(0, 10))) {
           streak += 1;
@@ -111,6 +119,9 @@ Deno.serve(async (req) => {
           time_today_seconds: timeToday,
           stars_today: starsToday,
           streak,
+          vocab_count: vocabCount || 0,
+          dutch_reading_done: uniqueByType.get("learn-dutch")?.size || 0,
+          vocab_practice_done: uniqueByType.get("vocab-practice")?.size || 0,
         });
       }
 

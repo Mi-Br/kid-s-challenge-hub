@@ -42,10 +42,17 @@ export interface ProfileStats {
   time_today_seconds: number;
   stars_today: number;
   streak: number;
+  vocab_count: number;
+  dutch_reading_done: number;
+  vocab_practice_done: number;
 }
 
 export async function fetchProfileStats(profile_id?: string): Promise<ProfileStats> {
   const pid = profile_id || getStoredProfileId();
+  const empty: ProfileStats = {
+    daily_score: 0, time_today_seconds: 0, stars_today: 0, streak: 0,
+    vocab_count: 0, dutch_reading_done: 0, vocab_practice_done: 0,
+  };
   try {
     const supabase = await getSupabase();
     const { data } = await supabase.functions.invoke("data-api", {
@@ -57,10 +64,13 @@ export async function fetchProfileStats(profile_id?: string): Promise<ProfileSta
         time_today_seconds: data.time_today_seconds || 0,
         stars_today: data.stars_today || 0,
         streak: data.streak || 0,
+        vocab_count: data.vocab_count || 0,
+        dutch_reading_done: data.dutch_reading_done || 0,
+        vocab_practice_done: data.vocab_practice_done || 0,
       };
     }
   } catch {}
-  return { daily_score: 0, time_today_seconds: 0, stars_today: 0, streak: 0 };
+  return empty;
 }
 
 

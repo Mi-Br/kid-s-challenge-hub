@@ -32,7 +32,7 @@ const Dashboard = () => {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [isGuest, setIsGuest] = useState(false);
   const [teacher, setTeacher] = useState<boolean>(isTeacherMode());
-  const [stats, setStats] = useState<ProfileStats>({ daily_score: 0, time_today_seconds: 0, stars_today: 0, streak: 0 });
+  const [stats, setStats] = useState<ProfileStats>({ daily_score: 0, time_today_seconds: 0, stars_today: 0, streak: 0, vocab_count: 0, dutch_reading_done: 0, vocab_practice_done: 0 });
 
 
   useEffect(() => {
@@ -153,7 +153,7 @@ const Dashboard = () => {
               description="Practice words, sentences and speaking"
               icon={BookOpen}
               color="purple"
-              progress={35}
+              badgeText={stats.dutch_reading_done > 0 ? `${stats.dutch_reading_done} gedaan` : undefined}
               onClick={() => navigate("/learn-dutch")}
             />
             <ChallengeCard
@@ -161,7 +161,7 @@ const Dashboard = () => {
               description="Dutch words you've looked up while reading"
               icon={Sparkles}
               color="pink"
-              progress={0}
+              badgeText={stats.vocab_count > 0 ? `${stats.vocab_count} woorden` : undefined}
               onClick={() => navigate("/vocabulary")}
             />
             <ChallengeCard
@@ -169,7 +169,7 @@ const Dashboard = () => {
               description="Test yourself on the words you saved"
               icon={Dumbbell}
               color="teal"
-              progress={0}
+              badgeText={stats.vocab_practice_done > 0 ? `${stats.vocab_practice_done} rondes` : undefined}
               onClick={() => navigate("/vocabulary/practice")}
             />
             {teacher && (

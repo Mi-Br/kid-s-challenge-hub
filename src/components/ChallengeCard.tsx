@@ -7,6 +7,7 @@ interface ChallengeCardProps {
   icon: LucideIcon;
   color: "purple" | "yellow" | "teal" | "pink" | "blue" | "orange" | "green";
   progress?: number;
+  badgeText?: string;
   onClick: () => void;
 }
 
@@ -26,6 +27,7 @@ const ChallengeCard = ({
   icon: Icon, 
   color, 
   progress = 0,
+  badgeText,
   onClick 
 }: ChallengeCardProps) => {
   return (
@@ -50,7 +52,11 @@ const ChallengeCard = ({
           )}>
             <Icon className="w-7 h-7 text-[hsl(0_0%_100%)]" />
           </div>
-          {progress > 0 && (
+          {badgeText ? (
+            <div className="text-[hsl(0_0%_100%)] text-sm font-semibold bg-[hsl(0_0%_100%/0.2)] px-3 py-1 rounded-full">
+              {badgeText}
+            </div>
+          ) : progress > 0 && (
             <div className="text-[hsl(0_0%_100%)] text-sm font-semibold bg-[hsl(0_0%_100%/0.2)] px-3 py-1 rounded-full">
               {progress}%
             </div>
@@ -61,7 +67,7 @@ const ChallengeCard = ({
         <p className="text-[hsl(0_0%_100%/0.85)] text-sm">{description}</p>
         
         {/* Progress bar */}
-        {progress > 0 && (
+        {!badgeText && progress > 0 && (
           <div className="mt-4 h-2 bg-[hsl(0_0%_100%/0.2)] rounded-full overflow-hidden">
             <div 
               className="h-full bg-[hsl(0_0%_100%)] rounded-full transition-all duration-500"
