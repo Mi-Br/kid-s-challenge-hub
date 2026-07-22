@@ -1,6 +1,9 @@
-import { supabase } from "@/integrations/supabase/client";
-
 const TEACHER_MODE_KEY = "teacherMode";
+
+async function getSupabase() {
+  const { supabase } = await import("@/integrations/supabase/client");
+  return supabase;
+}
 
 export function isTeacherMode(): boolean {
   try { return localStorage.getItem(TEACHER_MODE_KEY) === "true"; } catch { return false; }
@@ -27,6 +30,7 @@ export interface CompletionRow {
 export async function recordCompletion(row: Omit<CompletionRow, "id" | "completed_at" | "profile_id"> & { profile_id?: string }) {
   const profile_id = row.profile_id || getStoredProfileId();
   try {
+    const supabase = await getSupabase();
     await supabase.functions.invoke("data-api", {
       body: { action: "record_completion", ...row, profile_id },
     });
@@ -54,6 +58,7 @@ export interface ProfileSummary {
 }
 
 export async function fetchTeacherOverview(): Promise<ProfileSummary[]> {
+  const supabase = await getSupabase();
   const { data, error } = await supabase.functions.invoke("data-api", {
     body: { action: "teacher_overview" },
   });
@@ -94,6 +99,7 @@ export async function fetchTeacherOverview(): Promise<ProfileSummary[]> {
 }
 
 export async function fetchVocabForProfileId(profile_id: string) {
+  const supabase = await getSupabase();
   const { data } = await supabase.functions.invoke("data-api", {
     body: { action: "fetch_profile_vocab", profile_id },
   });

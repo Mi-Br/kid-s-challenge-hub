@@ -10,7 +10,11 @@
  */
 
 import type { AiValidationConfig, AiJudgement, ValidationResult } from "@/types/validation";
-import { supabase } from "@/integrations/supabase/client";
+
+async function getSupabase() {
+  const { supabase } = await import("@/integrations/supabase/client");
+  return supabase;
+}
 
 // ── Backwards-compatible shims (used to accept an Anthropic key) ──
 // Kept as no-ops so existing call sites don't break.
@@ -118,6 +122,7 @@ export async function evaluateWithAi(
   }
 
   try {
+    const supabase = await getSupabase();
     const { data, error } = await supabase.functions.invoke("evaluate-answer", {
       body: {
         question,
