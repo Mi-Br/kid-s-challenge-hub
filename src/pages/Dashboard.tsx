@@ -19,6 +19,7 @@ import { Switch } from "@/components/ui/switch";
 import { toast } from "@/hooks/use-toast";
 import { isTeacherMode, setTeacherMode, fetchProfileStats, type ProfileStats } from "@/lib/teacher";
 import { TranslateSidePanel } from "@/components/TranslateSidePanel";
+import SoundToggle from "@/components/SoundToggle";
 
 
 interface UserProfile {
@@ -85,6 +86,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="flex items-center gap-3">
+              <SoundToggle />
               <label className="flex items-center gap-2 px-3 py-2 rounded-xl bg-muted/40 border border-border cursor-pointer">
                 <GraduationCap className="w-4 h-4 text-primary" />
                 <span className="text-xs font-medium hidden sm:inline">Docent</span>

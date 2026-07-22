@@ -12,6 +12,9 @@ import Vocabulary from "./pages/Vocabulary";
 import VocabularyPractice from "./pages/VocabularyPractice";
 import Teacher from "./pages/Teacher";
 import NotFound from "./pages/NotFound";
+import { installGlobalClickSounds } from "@/lib/sounds";
+
+installGlobalClickSounds();
 
 const queryClient = new QueryClient();
 
