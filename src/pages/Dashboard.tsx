@@ -19,6 +19,7 @@ import { Switch } from "@/components/ui/switch";
 import { toast } from "@/hooks/use-toast";
 import { isTeacherMode, setTeacherMode, fetchProfileStats, type ProfileStats } from "@/lib/teacher";
 import { TranslateSidePanel } from "@/components/TranslateSidePanel";
+import SoundToggle from "@/components/SoundToggle";
 
 
 interface UserProfile {
