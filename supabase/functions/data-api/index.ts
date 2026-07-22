@@ -76,6 +76,44 @@ Deno.serve(async (req) => {
         return json({ ok: true });
       }
 
+      case "profile_stats": {
+        const profile_id = s(body.profile_id, 200);
+        if (!profile_id) return json({ error: "Missing profile_id" }, 400);
+        const { data: rows, error } = await supabase
+          .from("challenge_completions")
+          .select("score,duration_seconds,correct_count,completed_at")
+          .eq("profile_id", profile_id)
+          .order("completed_at", { ascending: false });
+        if (error) return json({ error: error.message }, 500);
+        const todayKey = new Date().toISOString().slice(0, 10);
+        let dailyScore = 0, timeToday = 0, starsToday = 0;
+        const daysSet = new Set<string>();
+        (rows || []).forEach((r: any) => {
+          const day = (r.completed_at || "").slice(0, 10);
+          daysSet.add(day);
+          if (day === todayKey) {
+            dailyScore += r.score || 0;
+            timeToday += r.duration_seconds || 0;
+            starsToday += r.correct_count || 0;
+          }
+        });
+        // Compute streak of consecutive days ending today (or yesterday if none today)
+        let streak = 0;
+        const d = new Date();
+        // if no activity today, start counting from yesterday
+        if (!daysSet.has(todayKey)) d.setDate(d.getDate() - 1);
+        while (daysSet.has(d.toISOString().slice(0, 10))) {
+          streak += 1;
+          d.setDate(d.getDate() - 1);
+        }
+        return json({
+          daily_score: dailyScore,
+          time_today_seconds: timeToday,
+          stars_today: starsToday,
+          streak,
+        });
+      }
+
       case "teacher_overview": {
         const [{ data: comps, error: e1 }, { data: lookups, error: e2 }] = await Promise.all([
           supabase.from("challenge_completions").select("*").order("completed_at", { ascending: false }),

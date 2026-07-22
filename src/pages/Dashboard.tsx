@@ -17,7 +17,7 @@ import ChallengeCard from "@/components/ChallengeCard";
 import StatsCard from "@/components/StatsCard";
 import { Switch } from "@/components/ui/switch";
 import { toast } from "@/hooks/use-toast";
-import { isTeacherMode, setTeacherMode } from "@/lib/teacher";
+import { isTeacherMode, setTeacherMode, fetchProfileStats, type ProfileStats } from "@/lib/teacher";
 import { TranslateSidePanel } from "@/components/TranslateSidePanel";
 
 
@@ -32,6 +32,7 @@ const Dashboard = () => {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [isGuest, setIsGuest] = useState(false);
   const [teacher, setTeacher] = useState<boolean>(isTeacherMode());
+  const [stats, setStats] = useState<ProfileStats>({ daily_score: 0, time_today_seconds: 0, stars_today: 0, streak: 0 });
 
 
   useEffect(() => {
@@ -44,7 +45,9 @@ const Dashboard = () => {
       setProfile(JSON.parse(storedProfile));
     } else {
       navigate("/");
+      return;
     }
+    fetchProfileStats().then(setStats).catch(() => {});
   }, [navigate]);
 
   const handleLogout = () => {
@@ -113,25 +116,25 @@ const Dashboard = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <StatsCard
               title="Daily Score"
-              value="125"
+              value={String(stats.daily_score)}
               icon={Trophy}
               color="yellow"
             />
             <StatsCard
               title="Time Today"
-              value="45 min"
+              value={stats.time_today_seconds >= 60 ? `${Math.round(stats.time_today_seconds / 60)} min` : `${stats.time_today_seconds}s`}
               icon={Clock}
               color="teal"
             />
             <StatsCard
               title="Stars Earned"
-              value="12"
+              value={String(stats.stars_today)}
               icon={Star}
               color="pink"
             />
             <StatsCard
               title="Day Streak"
-              value="5 🔥"
+              value={stats.streak > 0 ? `${stats.streak} 🔥` : "0"}
               icon={Flame}
               color="purple"
             />
