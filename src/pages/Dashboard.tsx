@@ -17,7 +17,7 @@ import ChallengeCard from "@/components/ChallengeCard";
 import StatsCard from "@/components/StatsCard";
 import { Switch } from "@/components/ui/switch";
 import { toast } from "@/hooks/use-toast";
-import { isTeacherMode, setTeacherMode } from "@/lib/teacher";
+import { isTeacherMode, setTeacherMode, fetchProfileStats, type ProfileStats } from "@/lib/teacher";
 import { TranslateSidePanel } from "@/components/TranslateSidePanel";
 
 
