@@ -32,6 +32,7 @@ const Dashboard = () => {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [isGuest, setIsGuest] = useState(false);
   const [teacher, setTeacher] = useState<boolean>(isTeacherMode());
+  const [stats, setStats] = useState<ProfileStats>({ daily_score: 0, time_today_seconds: 0, stars_today: 0, streak: 0 });
 
 
   useEffect(() => {
@@ -44,7 +45,9 @@ const Dashboard = () => {
       setProfile(JSON.parse(storedProfile));
     } else {
       navigate("/");
+      return;
     }
+    fetchProfileStats().then(setStats).catch(() => {});
   }, [navigate]);
 
   const handleLogout = () => {
