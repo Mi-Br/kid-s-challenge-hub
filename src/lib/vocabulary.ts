@@ -1,5 +1,3 @@
-import { supabase } from "@/integrations/supabase/client";
-
 export interface VerbForms {
   infinitive?: string;
   present?: Record<string, string>;
@@ -57,6 +55,11 @@ function cacheKey(text: string, type: "word" | "sentence") {
 const memCache = new Map<string, VocabEntry>();
 const inflight = new Map<string, Promise<VocabEntry>>();
 
+async function getSupabase() {
+  const { supabase } = await import("@/integrations/supabase/client");
+  return supabase;
+}
+
 function readLocal(text: string, type: "word" | "sentence"): VocabEntry | null {
   const key = cacheKey(text, type);
   if (memCache.has(key)) return memCache.get(key)!;
@@ -91,6 +94,7 @@ export function evictLocal(text: string, type: "word" | "sentence") {
 
 export async function deleteLookup(lookupId: string, entry?: VocabEntry | null): Promise<void> {
   const profile_id = getCurrentProfileId();
+  const supabase = await getSupabase();
   const { data, error } = await supabase.functions.invoke("data-api", {
     body: { action: "delete_lookup", lookup_id: lookupId, profile_id },
   });
@@ -101,6 +105,7 @@ export async function deleteLookup(lookupId: string, entry?: VocabEntry | null):
 
 export async function deleteAllLookupsForProfile(): Promise<void> {
   const profile_id = getCurrentProfileId();
+  const supabase = await getSupabase();
   const { data, error } = await supabase.functions.invoke("data-api", {
     body: { action: "delete_all_lookups", profile_id },
   });
@@ -122,6 +127,7 @@ export async function deleteAllLookupsForProfile(): Promise<void> {
 async function trackLookup(entryId: string, storyId?: string) {
   const profile_id = getCurrentProfileId();
   try {
+    const supabase = await getSupabase();
     await supabase.functions.invoke("data-api", {
       body: { action: "track_lookup", profile_id, entry_id: entryId, story_id: storyId ?? null },
     });
@@ -148,6 +154,8 @@ export async function translateAndSave(params: {
   if (pending) return pending;
 
   const promise = (async () => {
+    const supabase = await getSupabase();
+
     // 3. Shared DB dictionary check (skip AI entirely if another user already looked it up)
     const normalized = normalize(params.text, params.type);
     const { data: shared } = await supabase
@@ -192,6 +200,7 @@ export async function translateAndSave(params: {
 
 export async function fetchVocabForProfile(): Promise<VocabLookup[]> {
   const profile_id = getCurrentProfileId();
+  const supabase = await getSupabase();
   const { data, error } = await supabase.functions.invoke("data-api", {
     body: { action: "fetch_profile_vocab", profile_id },
   });
