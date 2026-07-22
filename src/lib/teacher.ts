@@ -37,6 +37,32 @@ export async function recordCompletion(row: Omit<CompletionRow, "id" | "complete
   } catch {}
 }
 
+export interface ProfileStats {
+  daily_score: number;
+  time_today_seconds: number;
+  stars_today: number;
+  streak: number;
+}
+
+export async function fetchProfileStats(profile_id?: string): Promise<ProfileStats> {
+  const pid = profile_id || getStoredProfileId();
+  try {
+    const supabase = await getSupabase();
+    const { data } = await supabase.functions.invoke("data-api", {
+      body: { action: "profile_stats", profile_id: pid },
+    });
+    if (data && !data.error) {
+      return {
+        daily_score: data.daily_score || 0,
+        time_today_seconds: data.time_today_seconds || 0,
+        stars_today: data.stars_today || 0,
+        streak: data.streak || 0,
+      };
+    }
+  } catch {}
+  return { daily_score: 0, time_today_seconds: 0, stars_today: 0, streak: 0 };
+}
+
 
 export function getStoredProfileId(): string {
   try {
