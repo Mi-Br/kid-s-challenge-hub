@@ -25,6 +25,7 @@ interface Props {
 export function TranslateSidePanel({ storyId, className }: Props) {
   const [text, setText] = useState("");
   const [mode, setMode] = useState<"word" | "sentence">("word");
+  const [direction, setDirection] = useState<"nl" | "en">("nl");
   const [loading, setLoading] = useState(false);
   const [entry, setEntry] = useState<VocabEntry | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -35,7 +36,7 @@ export function TranslateSidePanel({ storyId, className }: Props) {
     setLoading(true);
     setError(null);
     try {
-      const result = await translateAndSave({ text: value, type: mode, storyId });
+      const result = await translateAndSave({ text: value, type: mode, storyId, source: direction });
       setEntry(result);
       toast({
         title: "Toegevoegd aan woordenschat ✨",
@@ -48,6 +49,9 @@ export function TranslateSidePanel({ storyId, className }: Props) {
     }
   };
 
+  const placeholderWord = direction === "nl" ? "bijv. hond" : "e.g. dog";
+  const placeholderSentence = direction === "nl" ? "bijv. Waar is het station?" : "e.g. Where is the station?";
+
   return (
     <Card className={cn("overflow-hidden", className)}>
       <div className="bg-[hsl(var(--fun-purple))] px-4 py-2.5 flex items-center gap-2">
@@ -56,28 +60,51 @@ export function TranslateSidePanel({ storyId, className }: Props) {
       </div>
       <CardContent className="p-4 space-y-3">
         <p className="text-xs text-muted-foreground">
-          Typ een Nederlands woord of een hele zin — we vertalen het en bewaren het in je woordenschat.
+          Typ een woord of zin — we vertalen tussen Nederlands en Engels en bewaren het in je woordenschat.
         </p>
 
-        <div className="inline-flex items-center rounded-full border border-border p-0.5 bg-background text-xs">
-          <button
-            onClick={() => setMode("word")}
-            className={cn(
-              "px-2.5 py-1 rounded-full transition-colors",
-              mode === "word" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground",
-            )}
-          >
-            🔤 Woord
-          </button>
-          <button
-            onClick={() => setMode("sentence")}
-            className={cn(
-              "px-2.5 py-1 rounded-full transition-colors",
-              mode === "sentence" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground",
-            )}
-          >
-            📝 Zin
-          </button>
+        <div className="flex flex-wrap items-center gap-2">
+          <div className="inline-flex items-center rounded-full border border-border p-0.5 bg-background text-xs">
+            <button
+              onClick={() => setDirection("nl")}
+              className={cn(
+                "px-2.5 py-1 rounded-full transition-colors",
+                direction === "nl" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground",
+              )}
+            >
+              🇳🇱 NL → EN
+            </button>
+            <button
+              onClick={() => setDirection("en")}
+              className={cn(
+                "px-2.5 py-1 rounded-full transition-colors",
+                direction === "en" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground",
+              )}
+            >
+              🇬🇧 EN → NL
+            </button>
+          </div>
+
+          <div className="inline-flex items-center rounded-full border border-border p-0.5 bg-background text-xs">
+            <button
+              onClick={() => setMode("word")}
+              className={cn(
+                "px-2.5 py-1 rounded-full transition-colors",
+                mode === "word" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground",
+              )}
+            >
+              🔤 Woord
+            </button>
+            <button
+              onClick={() => setMode("sentence")}
+              className={cn(
+                "px-2.5 py-1 rounded-full transition-colors",
+                mode === "sentence" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground",
+              )}
+            >
+              📝 Zin
+            </button>
+          </div>
         </div>
 
         <div className="flex gap-2">
@@ -85,7 +112,7 @@ export function TranslateSidePanel({ storyId, className }: Props) {
             value={text}
             onChange={(e) => setText(e.target.value)}
             onKeyDown={(e) => { if (e.key === "Enter") submit(); }}
-            placeholder={mode === "word" ? "bijv. hond" : "bijv. Waar is het station?"}
+            placeholder={mode === "word" ? placeholderWord : placeholderSentence}
             disabled={loading}
           />
           <Button onClick={submit} disabled={loading || !text.trim()} size="sm">
