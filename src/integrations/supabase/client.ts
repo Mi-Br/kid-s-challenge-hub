@@ -2,8 +2,14 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Database } from './types';
 
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
-const SUPABASE_PUBLISHABLE_KEY = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY;
+// Publishable values (safe to ship in the client bundle). Fallbacks guard against
+// builds where VITE_* env vars weren't injected, which would otherwise crash with
+// "supabaseUrl is required" the first time the client is used.
+const SUPABASE_URL =
+  import.meta.env.VITE_SUPABASE_URL || "https://pvxacxefiwaotneoltyv.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY =
+  import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY ||
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB2eGFjeGVmaXdhb3RuZW9sdHl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ1ODcwNDUsImV4cCI6MjEwMDE2MzA0NX0.I7piTQQp_liCyV8gU32i_isLAWk7azctoOK_H763LcM";
 
 
 function isNewSupabaseApiKey(value: string): boolean {
