@@ -12,6 +12,7 @@ interface Body {
   context?: string;
   profile_id: string;
   story_id?: string;
+  source?: "nl" | "en";
 }
 
 Deno.serve(async (req) => {
@@ -29,6 +30,7 @@ Deno.serve(async (req) => {
     const body = (await req.json()) as Body;
     const text = (body.text || "").trim();
     const type = body.type;
+    const source = body.source === "en" ? "en" : "nl";
     if (!text || (type !== "word" && type !== "sentence") || !body.profile_id) {
       return new Response(JSON.stringify({ error: "Invalid body" }), {
         status: 400,
@@ -43,24 +45,36 @@ Deno.serve(async (req) => {
 
     const normalized = type === "word" ? text.toLowerCase().replace(/[.,!?;:"'()]/g, "") : text;
 
-    const { data: cached } = await supabase
-      .from("vocabulary_entries")
-      .select("*")
-      .eq("dutch_text", normalized)
-      .eq("type", type)
-      .maybeSingle();
+    // Only cache-lookup for NL source (dutch_text is the key)
+    let cached: any = null;
+    if (source === "nl") {
+      const { data } = await supabase
+        .from("vocabulary_entries")
+        .select("*")
+        .eq("dutch_text", normalized)
+        .eq("type", type)
+        .maybeSingle();
+      cached = data;
+    }
 
     let entry = cached;
 
     if (!entry) {
-      const systemPrompt = type === "word"
-        ? `You are a Dutch-to-English tutor for kids. Given a Dutch word, respond ONLY with JSON: {"translation":"...","part_of_speech":"noun|verb|adjective|...","lemma":"base form (infinitive for verbs) in Dutch","explanation":"short kid-friendly English explanation (1-2 sentences)","example":"one short Dutch example sentence using the word","verb_forms": null OR (only if it is a verb) {"infinitive":"...","present":{"ik":"...","jij":"...","hij":"...","wij":"...","jullie":"...","zij":"..."},"past":{"ik":"...","jij":"...","hij":"...","wij":"...","jullie":"...","zij":"..."},"perfect":"heb/is + voltooid deelwoord (e.g. heb gewerkt)"}}. Only include verb_forms when part_of_speech is verb. No extra text.`
-        : `You are a Dutch-to-English tutor for kids. Given a Dutch sentence, respond ONLY with JSON: {"translation":"natural English translation","explanation":"short kid-friendly English note about meaning/grammar (1-2 sentences)"}. No extra text.`;
+      const systemPromptNL = type === "word"
+        ? `You are a Dutch-to-English tutor for kids. Given a Dutch word, respond ONLY with JSON: {"dutch":"the Dutch word as given","translation":"English translation","part_of_speech":"noun|verb|adjective|...","lemma":"base form (infinitive for verbs) in Dutch","explanation":"short kid-friendly English explanation (1-2 sentences)","example":"one short Dutch example sentence using the word","verb_forms": null OR (only if it is a verb) {"infinitive":"...","present":{"ik":"...","jij":"...","hij":"...","wij":"...","jullie":"...","zij":"..."},"past":{"ik":"...","jij":"...","hij":"...","wij":"...","jullie":"...","zij":"..."},"perfect":"heb/is + voltooid deelwoord (e.g. heb gewerkt)"}}. Only include verb_forms when part_of_speech is verb. No extra text.`
+        : `You are a Dutch-to-English tutor for kids. Given a Dutch sentence, respond ONLY with JSON: {"dutch":"the Dutch sentence as given","translation":"natural English translation","explanation":"short kid-friendly English note about meaning/grammar (1-2 sentences)"}. No extra text.`;
+
+      const systemPromptEN = type === "word"
+        ? `You are an English-to-Dutch tutor for kids. Given an English word, respond ONLY with JSON: {"dutch":"the most natural Dutch translation (single word, lowercase, no article)","translation":"the original English word","part_of_speech":"noun|verb|adjective|...","lemma":"base form (infinitive for verbs) in Dutch","explanation":"short kid-friendly English explanation of the Dutch word (1-2 sentences)","example":"one short Dutch example sentence using the Dutch word","verb_forms": null OR (only if it is a verb) {"infinitive":"...","present":{"ik":"...","jij":"...","hij":"...","wij":"...","jullie":"...","zij":"..."},"past":{"ik":"...","jij":"...","hij":"...","wij":"...","jullie":"...","zij":"..."},"perfect":"heb/is + voltooid deelwoord"}}. Only include verb_forms when part_of_speech is verb. No extra text.`
+        : `You are an English-to-Dutch tutor for kids. Given an English sentence, respond ONLY with JSON: {"dutch":"natural Dutch translation","translation":"the original English sentence","explanation":"short kid-friendly English note about the Dutch translation (1-2 sentences)"}. No extra text.`;
+
+      const systemPrompt = source === "en" ? systemPromptEN : systemPromptNL;
 
 
+      const langLabel = source === "en" ? "English" : "Dutch";
       const userPrompt = body.context
-        ? `Dutch ${type}: "${text}"\nContext (surrounding sentence): "${body.context}"`
-        : `Dutch ${type}: "${text}"`;
+        ? `${langLabel} ${type}: "${text}"\nContext (surrounding sentence): "${body.context}"`
+        : `${langLabel} ${type}: "${text}"`;
 
       const aiResp = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
         method: "POST",
@@ -92,27 +106,53 @@ Deno.serve(async (req) => {
       let parsed: any = {};
       try { parsed = JSON.parse(content); } catch { parsed = {}; }
 
+      // For NL source, the input IS the Dutch text. For EN source, GPT returns "dutch".
+      const dutchRaw = source === "nl" ? normalized : (parsed.dutch || "").trim();
+      const dutchNormalized = type === "word"
+        ? dutchRaw.toLowerCase().replace(/[.,!?;:"'()]/g, "")
+        : dutchRaw;
 
-      const insert = {
-        dutch_text: normalized,
-        type,
-        translation: parsed.translation || "",
-        part_of_speech: parsed.part_of_speech || null,
-        lemma: parsed.lemma || null,
-        explanation: parsed.explanation || null,
-        example: parsed.example || null,
-        verb_forms: parsed.verb_forms || null,
-      };
+      if (!dutchNormalized) {
+        return new Response(JSON.stringify({ error: "Translation missing Dutch text" }), {
+          status: 500,
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
+      }
 
+      // If EN source produced a dutch text already in the dictionary, reuse it.
+      if (source === "en") {
+        const { data: existingByDutch } = await supabase
+          .from("vocabulary_entries")
+          .select("*")
+          .eq("dutch_text", dutchNormalized)
+          .eq("type", type)
+          .maybeSingle();
+        if (existingByDutch) {
+          entry = existingByDutch;
+        }
+      }
 
-      const { data: inserted, error: insErr } = await supabase
-        .from("vocabulary_entries")
-        .upsert(insert, { onConflict: "dutch_text,type" })
-        .select("*")
-        .single();
+      if (!entry) {
+        const insert = {
+          dutch_text: dutchNormalized,
+          type,
+          translation: parsed.translation || (source === "en" ? text : ""),
+          part_of_speech: parsed.part_of_speech || null,
+          lemma: parsed.lemma || null,
+          explanation: parsed.explanation || null,
+          example: parsed.example || null,
+          verb_forms: parsed.verb_forms || null,
+        };
 
-      if (insErr) throw insErr;
-      entry = inserted;
+        const { data: inserted, error: insErr } = await supabase
+          .from("vocabulary_entries")
+          .upsert(insert, { onConflict: "dutch_text,type" })
+          .select("*")
+          .single();
+
+        if (insErr) throw insErr;
+        entry = inserted;
+      }
     }
 
     const { data: existing } = await supabase

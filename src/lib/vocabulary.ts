@@ -139,40 +139,43 @@ export async function translateAndSave(params: {
   type: "word" | "sentence";
   context?: string;
   storyId?: string;
+  source?: "nl" | "en";
 }): Promise<VocabEntry> {
-  const key = cacheKey(params.text, params.type);
+  const source = params.source === "en" ? "en" : "nl";
+  const key = `${source}:${cacheKey(params.text, params.type)}`;
 
-  // 1. Local cache hit — instant, still track lookup in background
-  const local = readLocal(params.text, params.type);
-  if (local) {
-    trackLookup(local.id, params.storyId);
-    return local;
+  // Local/shared cache only for Dutch input (keyed by dutch_text)
+  if (source === "nl") {
+    const local = readLocal(params.text, params.type);
+    if (local) {
+      trackLookup(local.id, params.storyId);
+      return local;
+    }
   }
 
-  // 2. Deduplicate concurrent requests for the same text
   const pending = inflight.get(key);
   if (pending) return pending;
 
   const promise = (async () => {
     const supabase = await getSupabase();
 
-    // 3. Shared DB dictionary check (skip AI entirely if another user already looked it up)
-    const normalized = normalize(params.text, params.type);
-    const { data: shared } = await supabase
-      .from("vocabulary_entries")
-      .select("*")
-      .eq("dutch_text", normalized)
-      .eq("type", params.type)
-      .maybeSingle();
+    if (source === "nl") {
+      const normalized = normalize(params.text, params.type);
+      const { data: shared } = await supabase
+        .from("vocabulary_entries")
+        .select("*")
+        .eq("dutch_text", normalized)
+        .eq("type", params.type)
+        .maybeSingle();
 
-    if (shared) {
-      const entry = shared as VocabEntry;
-      writeLocal(entry);
-      trackLookup(entry.id, params.storyId);
-      return entry;
+      if (shared) {
+        const entry = shared as VocabEntry;
+        writeLocal(entry);
+        trackLookup(entry.id, params.storyId);
+        return entry;
+      }
     }
 
-    // 4. Fall back to edge function (calls AI + saves)
     const profile_id = getCurrentProfileId();
     const { data, error } = await supabase.functions.invoke("translate-word", {
       body: {
@@ -181,6 +184,7 @@ export async function translateAndSave(params: {
         context: params.type === "word" ? params.context : undefined,
         profile_id,
         story_id: params.storyId,
+        source,
       },
     });
     if (error) throw error;
