@@ -71,9 +71,10 @@ Deno.serve(async (req) => {
       const systemPrompt = source === "en" ? systemPromptEN : systemPromptNL;
 
 
+      const langLabel = source === "en" ? "English" : "Dutch";
       const userPrompt = body.context
-        ? `Dutch ${type}: "${text}"\nContext (surrounding sentence): "${body.context}"`
-        : `Dutch ${type}: "${text}"`;
+        ? `${langLabel} ${type}: "${text}"\nContext (surrounding sentence): "${body.context}"`
+        : `${langLabel} ${type}: "${text}"`;
 
       const aiResp = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
         method: "POST",
@@ -105,27 +106,53 @@ Deno.serve(async (req) => {
       let parsed: any = {};
       try { parsed = JSON.parse(content); } catch { parsed = {}; }
 
+      // For NL source, the input IS the Dutch text. For EN source, GPT returns "dutch".
+      const dutchRaw = source === "nl" ? normalized : (parsed.dutch || "").trim();
+      const dutchNormalized = type === "word"
+        ? dutchRaw.toLowerCase().replace(/[.,!?;:"'()]/g, "")
+        : dutchRaw;
 
-      const insert = {
-        dutch_text: normalized,
-        type,
-        translation: parsed.translation || "",
-        part_of_speech: parsed.part_of_speech || null,
-        lemma: parsed.lemma || null,
-        explanation: parsed.explanation || null,
-        example: parsed.example || null,
-        verb_forms: parsed.verb_forms || null,
-      };
+      if (!dutchNormalized) {
+        return new Response(JSON.stringify({ error: "Translation missing Dutch text" }), {
+          status: 500,
+          headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
+      }
 
+      // If EN source produced a dutch text already in the dictionary, reuse it.
+      if (source === "en") {
+        const { data: existingByDutch } = await supabase
+          .from("vocabulary_entries")
+          .select("*")
+          .eq("dutch_text", dutchNormalized)
+          .eq("type", type)
+          .maybeSingle();
+        if (existingByDutch) {
+          entry = existingByDutch;
+        }
+      }
 
-      const { data: inserted, error: insErr } = await supabase
-        .from("vocabulary_entries")
-        .upsert(insert, { onConflict: "dutch_text,type" })
-        .select("*")
-        .single();
+      if (!entry) {
+        const insert = {
+          dutch_text: dutchNormalized,
+          type,
+          translation: parsed.translation || (source === "en" ? text : ""),
+          part_of_speech: parsed.part_of_speech || null,
+          lemma: parsed.lemma || null,
+          explanation: parsed.explanation || null,
+          example: parsed.example || null,
+          verb_forms: parsed.verb_forms || null,
+        };
 
-      if (insErr) throw insErr;
-      entry = inserted;
+        const { data: inserted, error: insErr } = await supabase
+          .from("vocabulary_entries")
+          .upsert(insert, { onConflict: "dutch_text,type" })
+          .select("*")
+          .single();
+
+        if (insErr) throw insErr;
+        entry = inserted;
+      }
     }
 
     const { data: existing } = await supabase
