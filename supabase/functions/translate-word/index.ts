@@ -12,6 +12,7 @@ interface Body {
   context?: string;
   profile_id: string;
   story_id?: string;
+  source?: "nl" | "en";
 }
 
 Deno.serve(async (req) => {
