@@ -193,11 +193,12 @@ Deno.serve(async (req) => {
             .eq("id", existing.id);
           if (error) return json({ error: error.message }, 500);
         } else {
-          const { error } = await supabase.from("vocabulary_lookups").insert({
-            profile_id,
-            entry_id,
-            story_id: story_id ?? null,
-          });
+          const { error } = await supabase
+            .from("vocabulary_lookups")
+            .upsert(
+              { profile_id, entry_id, story_id: story_id ?? null },
+              { onConflict: "profile_id,entry_id", ignoreDuplicates: true },
+            );
           if (error) return json({ error: error.message }, 500);
         }
         return json({ ok: true });
